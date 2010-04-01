@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<meeting>
+<utterance turn="1" who="Craig Stuart">chi vuole scriba it up?</utterance>
+<utterance turn="2" who="laneb">shotty non è</utterance>
+<utterance turn="3" who="laneb">heh</utterance>
+<utterance turn="4" who="Ryan Nordman">I'll do it</utterance>
+<utterance turn="5" who="Craig Stuart">grazie ryan</utterance>
+<utterance turn="6" who="Odysseus">So you know Ryan, ogni volta che qualcosa entra nel luogo delle decisioni, è necessario premere il refresh. L'ultima volta ho dovuto comunque</utterance>
+<utterance turn="7" who="Odysseus">modo che tutti possano vedere che cosa si mette</utterance>
+<utterance turn="8" who="Ryan Nordman">Ah, ok, thx</utterance>
+<utterance turn="9" who="Ryan Nordman">Non si desidera attivare la raccolta a mano, Craig?</utterance>
+<utterance turn="10" who="beckd">ciao?&gt;</utterance>
+<utterance turn="11" who="Craig Stuart">Penso che dovremmo essere ok senza sollevare la mano</utterance>
+<utterance turn="12" who="Christopher Hanlon">Hi Beckd, potrebbe dirci il tuo nome completo.</utterance>
+<utterance turn="13" who="Craig Stuart">possiamo giocare a orecchio se</utterance>
+<utterance turn="14" who="Craig Stuart">è che tutti?</utterance>
+<utterance turn="15" who="Odysseus">il nostro gruppo è tutto qui</utterance>
+<utterance turn="16" who="beckd">Daniel Beck</utterance>
+<utterance turn="17" who="mcmahonp">yep</utterance>
+<utterance turn="18" who="beckd">il vostro collega leale</utterance>
+<utterance turn="19" who="laneb">dire che se non sei qui</utterance>
+<utterance turn="20" who="mcmahonp">Everyone is here</utterance>
+<utterance turn="21" who="Ryan Nordman">Ok, cominciamo</utterance>
+<utterance turn="22" who="Craig Stuart">gente alright, let go</utterance>
+<utterance turn="23" who="sheny">ho qualche difficoltà qui ... io sono solo goin off e log in again .. così Craig can u mi invitano ancora una volta, quando mi bac? thks ..</utterance>
+<utterance turn="24" who="Christopher Hanlon">Speeking Sviluppatore: Siamo sul piano incentrata sulla chiosco in RS 3,0 ragionevole suono che fa per voi ragazzi?</utterance>
+<utterance turn="25" who="Price, Tyler">direi così</utterance>
+<utterance turn="26" who="Odysseus">suona bene</utterance>
+<utterance turn="27" who="zhangc">Ysé</utterance>
+<utterance turn="28" who="Kia Dastmalchian">sounds good</utterance>
+<utterance turn="29" who="Tyler Gates">in quanto il prototipo si basa su quello, direi che è buona</utterance>
+<utterance turn="30" who="laneb">Direi che suoni bene.</utterance>
+<utterance turn="31" who="Michael">Sì</utterance>
+<utterance turn="32" who="Ryan Nordman">Penso che sia possibile, si potrebbe cambiare idea se ...</utterance>
+<utterance turn="33" who="Michael">Mi piace l'ortografia di speeking.</utterance>
+<utterance turn="34" who="Price, Tyler">proprio così?</utterance>
+<utterance turn="35" who="Ryan Nordman">Io non sono solo sicuro di quanto più siamo in grado di sviluppare i requisiti e prototipi per il chiosco, considerando quanto abbiamo già approfondito in che</utterance>
+<utterance turn="36" who="Ryan Nordman">Avremo bisogno di avere alcune ulteriori discussioni.</utterance>
+<utterance turn="37" who="Michael">Comprensibile.</utterance>
+<utterance turn="38" who="Price, Tyler">hmm ... in modo che altro vorresti fare?</utterance>
+<utterance turn="39" who="Tyler Gates">su RS 3.0?</utterance>
+<utterance turn="40" who="mcmahonp">Beh, penso che ci sono solo dovrebbe assicurarsi 3.0 è "perfetto", piuttosto che aggiungere ulteriori contenuti.</utterance>
+<utterance turn="41" who="Ryan Nordman">Una possibilità potrebbe essere il sistema di bordo dei bus per il conducente</utterance>
+<utterance turn="42" who="zhangc">Beh, sì, Michael</utterance>
+<utterance turn="43" who="beckd">Penso che è stato è un po 'impegnativo</utterance>
+<utterance turn="44" who="Ryan Nordman">Sì, quello è un buon punto di Paul</utterance>
+<utterance turn="45" who="beckd">Credo che una caratteristica viaggio di pianificazione, di entrare in diversi modi in cui sarebbe possibile accedere attraverso le cose, come chioschi, web based e pda potrebbe essere un po 'più fattibile</utterance>
+<utterance turn="46" who="Craig Stuart">che potrebbe anche essere un po 'dura</utterance>
+<utterance turn="47" who="Ryan Nordman">ok,</utterance>
+<utterance turn="48" who="Ryan Nordman">Comunque, per ora ci dirà che stiamo andando a concentrarsi sul Kiosk. Ti faremo sapere se noi cambiamo le nostre menti.</utterance>
+<utterance turn="49" who="mcmahonp">sì</utterance>
+<utterance turn="50" who="Craig Stuart">è selezionata sulla mia .........</utterance>
+<utterance turn="51" who="Michael">Okay, sono tutti elementi che vorremmo vedere.</utterance>
+<utterance turn="52" who="Kia Dastmalchian">... beh qualunque componente ragazzi hanno la comprensione di più probabilmente sarebbe meglio, e il suo totale a voi</utterance>
+<utterance turn="53" who="Tyler Gates">ancora non hanno i criteri eval per RS 3.0. non preoccupatevi che oggi</utterance>
+<utterance turn="54" who="Ryan Nordman">Va bene, andiamo avanti</utterance>
+<utterance turn="55" who="laneb">la cosa è, se si decide adesso, avrai più da questo incontro.</utterance>
+<utterance turn="56" who="laneb">e dei rifiuti meno tempo nelle e-mail entro il</utterance>
+<utterance turn="57" who="Craig Stuart">Vogliamo solo avere un po 'di feedback da voi ragazzi per la funzione di pianificazione</utterance>
+<utterance turn="58" who="Craig Stuart">e come potrebbe essere utilizzato da piloti potenziale</utterance>
+<utterance turn="59" who="Price, Tyler">Vuoi dire la pianificazione dei viaggi? O solo la stampa sked?</utterance>
+<utterance turn="60" who="Ryan Nordman">Solo il calendario, non Trip Planning</utterance>
+<utterance turn="61" who="beckd">una cosa che noi pensavamo fosse qualcosa di simile al programma corrente bus victoria che è online</utterance>
+<utterance turn="62" who="beckd">una caratteristica orari degli autobus che permettono agli utenti di visualizzare le rotte di tutti gli autobus, in qualsiasi momento di qualsiasi giorno della settimana</utterance>
+<utterance turn="63" who="Michael">Per vedere a che ora un bus arriverà a una fermata paticular. Né oggi né in futuro. Esso dovrebbe avere tutte le altre tappe sulla rotta di cui oltre a vedere a colpo d'occhio quando si può arrivare ... ecc simili per Victoria's.</utterance>
+<utterance turn="64" who="beckd">più di una cosa informativo</utterance>
+<utterance turn="65" who="Craig Stuart">destra</utterance>
+<utterance turn="66" who="Price, Tyler">Okay, bene la victoria è bella</utterance>
+<utterance turn="67" who="Price, Tyler">ma è sorta di bisogno di sapere quello che sta prendendo l'autobus - hanno bisogno di funzionalità di ricerca</utterance>
+<utterance turn="68" who="Craig Stuart">si intende solo la ricerca per numero autolinee, o da qualche altro parametro?</utterance>
+<utterance turn="69" who="Price, Tyler">così come la ricerca per codice postale o la regione di città</utterance>
+<utterance turn="70" who="Price, Tyler">esqimalt, Sooke, ecc</utterance>
+<utterance turn="71" who="Price, Tyler">Just so you know ciò che gli autobus passano da</utterance>
+<utterance turn="72" who="Tyler Gates">magari una mappa</utterance>
+<utterance turn="73" who="Michael">Ma anche il percorso numero come se fossero i viaggiatori accaniti sapranno quale bus.</utterance>
+<utterance turn="74" who="beckd">e questo filtro sarebbe autobus tutto ciò che ogni servizio di queste aree</utterance>
+<utterance turn="75" who="laneb">autolinee numeri significano qualcosa solo a chi prende queste autobus per tutto il tempo</utterance>
+<utterance turn="76" who="Price, Tyler">ricerca per nome del percorso / numero può essere utile anche</utterance>
+<utterance turn="77" who="Ryan Nordman">Ok</utterance>
+<utterance turn="78" who="Ryan Nordman">Quindi dovremo aggiungere funzionalità di ricerca per l'interfaccia di ricerca calendario</utterance>
+<utterance turn="79" who="mcmahonp">Beh, non solo chi desidera visualizzare un calendario, se regolarmente preso l'autobus? altrimenti non usano la pianificazione dei viaggi?</utterance>
+<utterance turn="80" who="Michael">In teoria, o se volete sapere quante volte un determinato bus arriva.</utterance>
+<utterance turn="81" who="Price, Tyler">(il calendario TransLink è un po 'meglio, si può scegliere che si ferma si desidera che i tempi di t)</utterance>
+<utterance turn="82" who="beckd">Credo che il punto di Paolo è valido, ma so che anche a Victoria, ci sono alcuni autobus di cui ho dont 'conoscere i percorsi esatti, sarebbe utile per loro credo di essere in grado di scoprire se gli autobus di altri possono andare a punti</utterance>
+<utterance turn="83" who="Christopher Hanlon">Test 123 ...</utterance>
+<utterance turn="84" who="Bryan Lane">ha avviato tutti arrivare lì o solo a me?</utterance>
+<utterance turn="85" who="Price, Tyler">non me</utterance>
+<utterance turn="86" who="Odysseus">non mi sono avviato</utterance>
+<utterance turn="87" who="beckd">Sto bene</utterance>
+<utterance turn="88" who="Craig Stuart">dove Chris ha fatto andare</utterance>
+<utterance turn="89" who="hanlonc">I messaggi di ottenere un tratto si fermò.</utterance>
+<utterance turn="90" who="Odysseus">apparentemente ppl vengono casualmente avviato</utterance>
+<utterance turn="91" who="Tyler Gates">grande</utterance>
+<utterance turn="92" who="beckd">what do you guys pensare alla possibilità di vedere i percorsi di una mappa stradale, chooseing itinerari attraverso l'area della città</utterance>
+<utterance turn="93" who="beckd">o essere in grado ot numero di selezionare il percorso</utterance>
+<utterance turn="94" who="hanlonc">Qualcuno ha su un computer Windows viene avviato?</utterance>
+<utterance turn="95" who="zhangc">Io sto bene qui</utterance>
+<utterance turn="96" who="Ryan Nordman">Ok, forse 2 opinioni diverse del programma? Come una vista per un unico percorso degli autobus, con l'elenco si ferma più e loro tempi di arresto, nonché una vista per una sola fermata, annunci bus multipli e le loro tempi di fermata che si fermano a uno?</utterance>
+<utterance turn="97" who="Michael">Una caratteristica di questo programma che lo strumento eConference per dimostrare come spesso.</utterance>
+<utterance turn="98" who="Michael">Che lavora con me.</utterance>
+<utterance turn="99" who="Odysseus">Io sto bene credo che suona bene</utterance>
+<utterance turn="100" who="beckd">era che commento di Ryan stavi rispondendo a?</utterance>
+<utterance turn="101" who="Michael">In effetti è stato.</utterance>
+<utterance turn="102" who="Price, Tyler">Viste: 2, e una mappa, e la ricerca di postale / area / route</utterance>
+<utterance turn="103" who="Bryan Lane">Stavo cercando di ricordare quando ho avviato, che forse se abbiamo l'idea di ricerca che si può cercare da un punto di riferimento sulla rotta</utterance>
+<utterance turn="104" who="Bryan Lane">così ho potuto dire, la ricerca di un percorso che va dalla X.</utterance>
+<utterance turn="105" who="Bryan Lane">Forse questo è il percorso di pianificazione anche se</utterance>
+<utterance turn="106" who="beckd">che suona molto come la pianificazione del percorso</utterance>
+<utterance turn="107" who="Craig Stuart">Direi di sì</utterance>
+<utterance turn="108" who="Bryan Lane">Stavo pensando se non riuscivo a ricordare il numero del percorso</utterance>
+<utterance turn="109" who="beckd">che sarebbe il punto di pianificatore viaggio HTE</utterance>
+<utterance turn="110" who="Price, Tyler">Va bene quindi organizzare percorsi per regione</utterance>
+<utterance turn="111" who="Ryan Nordman">Come si fa quello sguardo? (decisioni luogo)</utterance>
+<utterance turn="112" who="Bryan Lane">Penso che le opere</utterance>
+<utterance turn="113" who="beckd">Forse l'indirizzo al posto di codice postale</utterance>
+<utterance turn="114" who="beckd">Io non ne so molto di codici postali, tranne la mia casa</utterance>
+<utterance turn="115" who="Michael">Non credo che funziona Brian.</utterance>
+<utterance turn="116" who="Michael">Itinerario quando vogliono il sistema per pianificare il loro percorso sulla base di una destinazione vs solo chiedendo quando un autobus arriva da un punto dato.</utterance>
+<utterance turn="117" who="Ryan Nordman">Bene, dobbiamo passare al punto successivo?</utterance>
+<utterance turn="118" who="Craig Stuart">alright</utterance>
+<utterance turn="119" who="Craig Stuart">Are you guys ready?</utterance>
+<utterance turn="120" who="Tyler Gates">sì</utterance>
+<utterance turn="121" who="Kia Dastmalchian">ok</utterance>
+<utterance turn="122" who="beckd">k</utterance>
+<utterance turn="123" who="zhangc">ok</utterance>
+<utterance turn="124" who="Michael">In aggiunta agli elementi del luogo decisione ... direi anche una ricerca per numero di autolinee.</utterance>
+<utterance turn="125" who="hanlonc">Il sistema di pianificazione dei viaggi non richiede di conoscere il numero degli autobus.</utterance>
+<utterance turn="126" who="Ryan Nordman">destra</utterance>
+<utterance turn="127" who="Michael">nome e percorso.</utterance>
+<utterance turn="128" who="beckd">sicuramente</utterance>
+<utterance turn="129" who="Michael">Grazie!</utterance>
+<utterance turn="130" who="Bryan Lane">ok, ora va meglio.</utterance>
+<utterance turn="131" who="Ryan Nordman">grande</utterance>
+<utterance turn="132" who="Tyler Gates">nome non è che credo utile</utterance>
+<utterance turn="133" who="Kia Dastmalchian">no, il nome è molto utile</utterance>
+<utterance turn="134" who="Michael">Sono d'accordo con Kia. :-)</utterance>
+<utterance turn="135" who="Bryan Lane">il nome è utile</utterance>
+<utterance turn="136" who="Price, Tyler">Quale numero è il Majestic, non so</utterance>
+<utterance turn="137" who="Bryan Lane">Mi ricordo il nome prima del numero</utterance>
+<utterance turn="138" who="Michael">Sorry Tyler.</utterance>
+<utterance turn="139" who="Ryan Nordman">Se non è utile per un pilota del bus, non hanno ad usarlo:)</utterance>
+<utterance turn="140" who="sheny">yeha ... il nome della linea di autobus può dire dove è dest ..</utterance>
+<utterance turn="141" who="Kia Dastmalchian">nomi dei percorsi IFTS sono più facili da ricordare che i numeri, e può significare qualcosa per qualcuno che non conosce le rotte</utterance>
+<utterance turn="142" who="Tyler Gates">davvero?</utterance>
+<utterance turn="143" who="Tyler Gates">ok</utterance>
+<utterance turn="144" who="Craig Stuart">ragazzi va bene, non si muoverà fino a quando tutti finiture di battitura</utterance>
+<utterance turn="145" who="Craig Stuart">solo per mantenere le cose organizzate</utterance>
+<utterance turn="146" who="Tyler Gates">centro via collina vs # 4</utterance>
+<utterance turn="147" who="Kia Dastmalchian">se la sua chiamata centro via collina, allora io so solo che da quel che è e dove va</utterance>
+<utterance turn="148" who="Michael">downtown sarebbe utile, in quanto darebbe tutti gli autobus che hanno una destinazione di centro.</utterance>
+<utterance turn="149" who="Michael">allora sarebbe elencare tutte le varie via per un esempio</utterance>
+<utterance turn="150" who="Tyler Gates">ok così facciamo entrambi, allora?</utterance>
+<utterance turn="151" who="Bryan Lane">Sì, il nome della rotta copre la mia preoccupazione, i nomi sono sufficientemente descrittivo</utterance>
+<utterance turn="152" who="Christopher Hanlon">I'm getting avviato ogni volta che le discussioni sono registrati.</utterance>
+<utterance turn="153" who="Michael">Comunque penso che abbiamo deciso di includere la ricerca per nome bus comunque ...</utterance>
+<utterance turn="154" who="Ryan Nordman">alright</utterance>
+<utterance turn="155" who="Ryan Nordman">, Siamo fuori tempo su questo tema, andiamo avanti</utterance>
+<utterance turn="156" who="Tyler Gates">sì</utterance>
+<utterance turn="157" who="Craig Stuart">Abbiamo bisogno di muoversi lungo l'argomento successivo</utterance>
+<utterance turn="158" who="zhangc">Beh, sì, il nome è utile in questo caso</utterance>
+<utterance turn="159" who="Bryan Lane">a quanto pare l'avvio sul registro di discussione è un bug conosciuto</utterance>
+<utterance turn="160" who="Odysseus">sì, penso che siamo sulla buona mvoe</utterance>
+<utterance turn="161" who="Kia Dastmalchian">dovremmo essere in grado di cercare da entrambi, come le rotte hanno sia il nome e il numero di</utterance>
+<utterance turn="162" who="Craig Stuart">prossimo argomento è sulla funzionalità in tempo reale la mappa che abbiamo presentato su Giovedi</utterance>
+<utterance turn="163" who="Craig Stuart">vogliamo solo per ottenere un feedback più da voi circa i diversi modi per visualizzare / selezionare / località filtro su questa mappa</utterance>
+<utterance turn="164" who="Tyler Gates">Per la vista, penso che abbiamo voluto una funzione di zoom</utterance>
+<utterance turn="165" who="Ryan Nordman">Così le caratteristiche di base comprendono il panning intorno alla mappa della città, e lo zoom in o out</utterance>
+<utterance turn="166" who="Kia Dastmalchian">bene, è importante che in un chiosco particolare, la mappa che vedete mostra gli autobus che in realtà passa dalla stazione al chiosco è, per impostazione predefinita</utterance>
+<utterance turn="167" who="Ryan Nordman">Yeah</utterance>
+<utterance turn="168" who="Odysseus">seleziona una regione con una scatola quadrata e si ingrandisce a quella zona?</utterance>
+<utterance turn="169" who="Tyler Gates">esattamente</utterance>
+<utterance turn="170" who="Ryan Nordman">No, penso che ci vorrebbe qualcosa di più semplice, proprio come una lente di ingrandimento pulsante + o --</utterance>
+<utterance turn="171" who="Bryan Lane">Mi piace il + / - cosa</utterance>
+<utterance turn="172" who="beckd">Attualmente il filtro filtrerà tutti intorno si ferma alla fermata specifica che il chiosco si trova. Se la mappa è ingrandita e panning, stai bene che solo le vie che si intersecano una sosta saranno visualizzati sulla mappa in tempo reale</utterance>
+<utterance turn="173" who="Kia Dastmalchian">Credo di sì,</utterance>
+<utterance turn="174" who="">Non so perché tu vuoi vedere gli altri</utterance>
+<utterance turn="175" who="Bryan Lane">forse una sorta di sovrapposizione con la lista dei bus dimostrato che è possibile attivare e disattivare?</utterance>
+<utterance turn="176" who="Ryan Nordman">Ora, se gli utenti possono eseguire la panoramica della mappa insieme, dovremmo probabilmente visualizzare tutte le vie della città, se vogliono</utterance>
+<utterance turn="177" who="Tyler Gates">Se si desidera trasferire ...</utterance>
+<utterance turn="178" who="Michael">La funzione di mappa deve essere disponibile quando la pianificazione dei viaggi e quindi il percorso effettivo il pianificatore viaggio ha creato verrà illustrata la linea con colori diversi o qualcosa del genere per segnare linee di autobus vs spazi di passeggio.</utterance>
+<utterance turn="179" who="beckd">Questo è quello che stavo pensando,</utterance>
+<utterance turn="180" who="beckd">ma rende il filtraggio un po 'confuso</utterance>
+<utterance turn="181" who="Ryan Nordman">Sì, l'idea di Bryan è una buona,</utterance>
+<utterance turn="182" who="Ryan Nordman">in modo da poter apparire una finestra con i pulsanti di controllo casella di stile per ogni linea di autobus, in modo che un utente può aggiungere qualsiasi linea di autobus per la mappa e vedere cosa succede con esso</utterance>
+<utterance turn="183" who="Tyler Gates">Mi piace l'idea</utterance>
+<utterance turn="184" who="beckd">Bryan, cosa si suggerisce è attualmente quello che sta per accadere, tuttavia è difficile elencare tutti i bus in città in questo modo</utterance>
+<utterance turn="185" who="Price, Tyler">o disegnare una linea con un dito e mostrare ogni percorso che va su una strada che crossign line</utterance>
+<utterance turn="186" who="zhangc">buona idea</utterance>
+<utterance turn="187" who="Price, Tyler">anche se non è molto intuitivo</utterance>
+<utterance turn="188" who="beckd">Checkbox con touchscreen potrebbe essere un po 'difficile</utterance>
+<utterance turn="189" who="Craig Stuart">sorry ragazzi ....... ho lasciato cadere lì</utterance>
+<utterance turn="190" who="Michael">uh?</utterance>
+<utterance turn="191" who="Tyler Gates">se si tratta di una finestra di popup, quindi potrebbe essere facile</utterance>
+<utterance turn="192" who="Chris Hanlon">verifica.</utterance>
+<utterance turn="193" who="Ryan Nordman">Ho appena detto casella di pulsanti stile di controllo</utterance>
+<utterance turn="194" who="Bryan Lane">Beh, è un diritto touch screen?</utterance>
+<utterance turn="195" who="Bryan Lane">non potrebbe essere solo un elenco di numeri che, se si tocca si trasforma verde e mostra sullo schermo, e se si tocca di nuovo, il numero diventa rosso e il bus non vengono visualizzate?</utterance>
+<utterance turn="196" who="Ryan Nordman">Stavo solo cercando di descrivere le funzionalità dei pulsanti, ovviamente ci vorrebbe qualcosa di grande abbastanza per il dito di un utente</utterance>
+<utterance turn="197" who="Ryan Nordman">In ogni caso, è che andiamo avanti?</utterance>
+<utterance turn="198" who="beckd">Okay</utterance>
+<utterance turn="199" who="Ryan Nordman">sono tutti contenti, con le decisioni?</utterance>
+<utterance turn="200" who="Craig Stuart">alright, al prossimo argomento</utterance>
+<utterance turn="201" who="Bryan Lane">destra.</utterance>
+<utterance turn="202" who="Bryan Lane">esse potrebbero essere elencati sul lato sinistro o qualcosa del genere.</utterance>
+<utterance turn="203" who="Kia Dastmalchian">Beh, la finestra che si apre potrebbe solo l'elenco dei percorsi che si vedrebbe in base a ciò la tua mappa vede, come il vostro attuale livello di zoom ha solo 4 linee di passaggio, in modo che non poteva che scegliere di visualizzare quei 4</utterance>
+<utterance turn="204" who="Odysseus">caselle di controllo i sì sono belle pensate</utterance>
+<utterance turn="205" who="Bryan Lane">o addirittura nascosti</utterance>
+<utterance turn="206" who="Craig Stuart">abbiamo bisogno di andare avanti ragazzi</utterance>
+<utterance turn="207" who="Kia Dastmalchian">hold up</utterance>
+<utterance turn="208" who="Michael">Non so perché deve essere una casella di controllo ... autobus che hanno una destinazione paticular o punto di partenza, o passare attraverso una determinata regione o interrompere lavora per me ... poi tutto può essere di ricerca in base al posto di coprire la metà della regione mappa con un elenco di ...???</utterance>
+<utterance turn="209" who="Ryan Nordman">Yeah,</utterance>
+<utterance turn="210" who="Ryan Nordman">è per questo che sto pensando che sarebbe pop-up</utterance>
+<utterance turn="211" who="Ryan Nordman">In modo da non vedere l'elenco delle rotte meno che non si chiama it up</utterance>
+<utterance turn="212" who="Ryan Nordman">Quindi si seleziona i percorsi, e di accettare</utterance>
+<utterance turn="213" who="Ryan Nordman">e si vede la cartina di nuovo, a schermo intero</utterance>
+<utterance turn="214" who="Bryan Lane">yeah</utterance>
+<utterance turn="215" who="Bryan Lane">, Potrebbe essere nascosto e la finestra di pop-up, i percorsi di selezione, e la casella va via</utterance>
+<utterance turn="216" who="Michael">Allora sei suggerendo che un filtro ulteriore può essere fatto ontop della ricerca citato.</utterance>
+<utterance turn="217" who="Ryan Nordman">perché credo che non ci sarebbero rotte troppi da elencare sul lato dello schermo</utterance>
+<utterance turn="218" who="Michael">Che lavora per me.</utterance>
+<utterance turn="219" who="Kia Dastmalchian">ma ciò che i percorsi che lista?</utterance>
+<utterance turn="220" who="Odysseus">In sostanza, si sceglie quello che vuole vedere prima a destra?</utterance>
+<utterance turn="221" who="Ryan Nordman">ogni itinerario in città</utterance>
+<utterance turn="222" who="Tyler Gates">Per impostazione predefinita, si dovrebbe visualizzare ogni percorso sul livello di zoom corrente</utterance>
+<utterance turn="223" who="Bryan Lane">ma il default sarebbe il percorso selezionato (s)</utterance>
+<utterance turn="224" who="Michael">Yeah</utterance>
+<utterance turn="225" who="Michael">, Puoi cercare uno spazio o qualcosa del genere ... poi filtrare le rotte da lì?</utterance>
+<utterance turn="226" who="Ryan Nordman">Beh, immagino che la prima volta che richiamare la mappa sarà già selezionato le rotte che passano per fermare il chiosco</utterance>
+<utterance turn="227" who="Craig Stuart">alright guys,</utterance>
+<utterance turn="228" who="Craig Stuart">forse possiamo parlare di questo un po 'più tardi, ma il nostro tempo è limitato qui</utterance>
+<utterance turn="229" who="Bryan Lane">Ryan sta pensando a cosa sto pensando</utterance>
+<utterance turn="230" who="Tyler Gates">ok next</utterance>
+<utterance turn="231" who="Craig Stuart">abbiamo 6 argomenti più</utterance>
+<utterance turn="232" who="Michael">Sì a punti di riferimento. :-)</utterance>
+<utterance turn="233" who="Price, Tyler">per i punti di riferimento Mabye si potrebbe fare in modo gli amministratori aggiungere e creare categorie per loro</utterance>
+<utterance turn="234" who="Ryan Nordman">Ulteriore dettaglio che cosa abbiamo bisogno qui ragazzi?</utterance>
+<utterance turn="235" who="">Forse possiamo ignorare questo argomento, per ora</utterance>
+<utterance turn="236" who="Price, Tyler">basta aggiungere da strada / codici postali</utterance>
+<utterance turn="237" who="Kia Dastmalchian">Penso 'pietre miliari' sarebbe fondamentalmente un insieme di parole chiave correlate a un percorso, o qualcosa del genere</utterance>
+<utterance turn="238" who="beckd">Quello che vorremmo è quello di decidere sui tipi di punti di riferimento che volevi</utterance>
+<utterance turn="239" who="Michael">Via / codici di avviamento postale e il nome del simbolo (s)</utterance>
+<utterance turn="240" who="mcmahonp">stavamo pensando categorie come musei, teatri o cinema</utterance>
+<utterance turn="241" who="Craig Stuart">ristoranti, forse troppo</utterance>
+<utterance turn="242" who="beckd">Finora pensavamo ristoranti, locali notturni, parchi, centri commerciali</utterance>
+<utterance turn="243" who="Kia Dastmalchian">strade, edifici, parchi</utterance>
+<utterance turn="244" who="Price, Tyler">Sì, ma hanno così gli amministratori possono aggiungere segni più terra e categorie</utterance>
+<utterance turn="245" who="Craig Stuart">sounds good</utterance>
+<utterance turn="246" who="Bryan Lane">potreste avere una tonnellata di categorie come quella</utterance>
+<utterance turn="247" who="Kia Dastmalchian">d'accordo con Tyler</utterance>
+<utterance turn="248" who="Ryan Nordman">Sì, quello che ha detto Tyler</utterance>
+<utterance turn="249" who="Odysseus">bene fino a quando non ci sono categorie e come si potrebbe aggiungere in noi stessi</utterance>
+<utterance turn="250" who="Bryan Lane">potrebbe essere meglio andare per parola chiave</utterance>
+<utterance turn="251" who="beckd">Abbiamo voluto mantenere i punti di riferimento di livello superiore molto semplice</utterance>
+<utterance turn="252" who="Ryan Nordman">Se lo facciamo, non abbiamo bisogno di specificare a quali categorie esisterà</utterance>
+<utterance turn="253" who="Ryan Nordman">Ci metto solo essere up to you</utterance>
+<utterance turn="254" who="beckd">non più di 6-7 tipi</utterance>
+<utterance turn="255" who="mcmahonp">si sceglie quello che le categorie che si desidera, e costruiamo l'elenco</utterance>
+<utterance turn="256" who="Ryan Nordman">Beh, che possono essere loro scelta</utterance>
+<utterance turn="257" who="Ryan Nordman">c'è bisogno di limitare sul nostro fine</utterance>
+<utterance turn="258" who="Price, Tyler">bene se si lascia che gli amministratori scegliere il categoreis spetterebbe a loro, non gli sviluppatori</utterance>
+<utterance turn="259" who="Ryan Nordman">concordato</utterance>
+<utterance turn="260" who="Craig Stuart">destra</utterance>
+<utterance turn="261" who="Michael">buono</utterance>
+<utterance turn="262" who="Craig Stuart">alright</utterance>
+<utterance turn="263" who="Craig Stuart">, Che si spostano su?</utterance>
+<utterance turn="264" who="Kia Dastmalchian">ok</utterance>
+<utterance turn="265" who="Bryan Lane">ok</utterance>
+<utterance turn="266" who="Odysseus">Sounds good to me</utterance>
+<utterance turn="267" who="Craig Stuart">argomento successivo è l'accesso al sistema da dispositivi mobili quali PDA e cellulari</utterance>
+<utterance turn="268" who="Price, Tyler">Stavo pensando proprio un foglio di stile per il sito ...</utterance>
+<utterance turn="269" who="Ryan Nordman">È bene, se ci limitiamo a fornire una versione mini scalled down del sito?</utterance>
+<utterance turn="270" who="Tyler Gates">yeah</utterance>
+<utterance turn="271" who="Odysseus">yea</utterance>
+<utterance turn="272" who="Kia Dastmalchian">Credo di sì</utterance>
+<utterance turn="273" who="Bryan Lane">questo è quello che stavo pensando yeah</utterance>
+<utterance turn="274" who="Ryan Nordman">Sì, in modo che tutti le stesse funzionalità del sito saranno presenti, ti basta essere il programma di installazione di uno schermo più piccolo</utterance>
+<utterance turn="275" who="Odysseus">probabilmente come luce sulla grafica il più possibile?</utterance>
+<utterance turn="276" who="Bryan Lane">a destra ...</utterance>
+<utterance turn="277" who="Bryan Lane">abbiamo bisogno della mappa?</utterance>
+<utterance turn="278" who="Bryan Lane">potrebbe essere utile, ma sarebbe l'inferno su dispositivi portatili</utterance>
+<utterance turn="279" who="zhangc">Sì, ciò che è buono</utterance>
+<utterance turn="280" who="Michael">E le zone touch dovranno essere numerati o qualcosa del genere. Non sono sicuro di come lavorare PDA.</utterance>
+<utterance turn="281" who="Tyler Gates">Credo che una mappa sarebbe necessario</utterance>
+<utterance turn="282" who="Michael">Mappa del necessario.</utterance>
+<utterance turn="283" who="Ryan Nordman">Dovrebbe essere possibile fare la mappa</utterance>
+<utterance turn="284" who="Odysseus">Sì, è necessario</utterance>
+<utterance turn="285" who="Craig Stuart">non sarebbe davvero lavorare su un cellulare o qualsiasi dispositivo senza un touch screen</utterance>
+<utterance turn="286" who="Ryan Nordman">faranno solo bisogno di zoom più</utterance>
+<utterance turn="287" who="Michael">Sicuramente.</utterance>
+<utterance turn="288" who="Price, Tyler">Credo che intendesse dire non cliccabili touchable</utterance>
+<utterance turn="289" who="Price, Tyler">Non ho mai utilizzato il web su un telefono così ...</utterance>
+<utterance turn="290" who="Bryan Lane">bene il cellulare è possibile utilizzare i pulsanti per spostare un cursore intorno</utterance>
+<utterance turn="291" who="Craig Stuart">alright</utterance>
+<utterance turn="292" who="beckd">k</utterance>
+<utterance turn="293" who="beckd">Credo che siamo buoni?</utterance>
+<utterance turn="294" who="Ryan Nordman">Prossimo argomento?</utterance>
+<utterance turn="295" who="Craig Stuart">che si spostano su</utterance>
+<utterance turn="296" who="Michael">sì</utterance>
+<utterance turn="297" who="Craig Stuart">argomento successivo sono gli aspetti del sistema on-a bordo dei bus</utterance>
+<utterance turn="298" who="Ryan Nordman">Lei ha detto che voleva i conducenti di autobus per poter vedere i propri tempi</utterance>
+<utterance turn="299" who="Ryan Nordman">Come molte fermate in anticipo non si desidera visualizzare?</utterance>
+<utterance turn="300" who="Kia Dastmalchian">Umm</utterance>
+<utterance turn="301" who="Michael">Per il luogo decisione vorrei vedere di ricerca inserito in parte la mappa in tempo reale.</utterance>
+<utterance turn="302" who="Ryan Nordman">Credo che stiamo pensando di un piccolo schermo, forse anche solo uno schermo digitale di testo a riga</utterance>
+<utterance turn="303" who="Price, Tyler">così solo la prossima tappa? ...</utterance>
+<utterance turn="304" who="Ryan Nordman">Michael - che tipo di ricerca?</utterance>
+<utterance turn="305" who="Bryan Lane">una riga?</utterance>
+<utterance turn="306" who="Bryan Lane">come testo scorrevole?</utterance>
+<utterance turn="307" who="Bryan Lane">Non credo che funzionerebbe</utterance>
+<utterance turn="308" who="Kia Dastmalchian">da 'proprio calendario', significa che le loro effettive, duro, il calendario, non è una cosa che cambia dinamicamente ... almeno è così che ho capito</utterance>
+<utterance turn="309" who="Ryan Nordman">Sì, potrebbe scorrere</utterance>
+<utterance turn="310" who="Bryan Lane">bene, che sarebbe difficile da leggere mentre si guida</utterance>
+<utterance turn="311" who="Bryan Lane">non ti pare?</utterance>
+<utterance turn="312" who="Odysseus">I Linea uno yea non è sufficiente pensare</utterance>
+<utterance turn="313" who="Tyler Gates">no scorrimento. sarebbe distrarre il conducente</utterance>
+<utterance turn="314" who="Price, Tyler">forse un piccolo LCD che ha come la fermata prossimo grande e quindi più sotto acouple</utterance>
+<utterance turn="315" who="Ryan Nordman">Sì</utterance>
+<utterance turn="316" who="Ryan Nordman">, Vorrei pensare che avevo appena letto quando sono a una fermata</utterance>
+<utterance turn="317" who="Kia Dastmalchian">ok aspetta un sec</utterance>
+<utterance turn="318" who="Kia Dastmalchian">un pilota non ha bisogno di conoscere la sua prossima tappa una dopo l'altra</utterance>
+<utterance turn="319" who="Michael">Avrei almeno 3 o giù di lì, tranne quando sei vicino a fine del percorso ... quindi sarebbe ora di arrivo al capolinea, e l'orario di partenza.</utterance>
+<utterance turn="320" who="Price, Tyler">ha bisogno di sapere se è dietro o davanti a sched</utterance>
+<utterance turn="321" who="Kia Dastmalchian">si può leggere il router o qualunque cosa prima di unità, che sullo schermo è in grado di fornire una copia del presente per il suo riferimento</utterance>
+<utterance turn="322" who="Kia Dastmalchian">egli non ha bisogno di vederlo mentre si guida</utterance>
+<utterance turn="323" who="Price, Tyler">Non ci sono posti di blocco, come il tempo così non va troppo veloce</utterance>
+<utterance turn="324" who="Bryan Lane">Sì, è più per se è il tempo o ricevendo indietro / avanti</utterance>
+<utterance turn="325" who="Michael">Aveva più probabile guardare quando si fermava a raccogliere persone.</utterance>
+<utterance turn="326" who="Kia Dastmalchian">come per vedere cose sullo schermo, il suo Bryan come appena detto qui</utterance>
+<utterance turn="327" who="Michael">yep</utterance>
+<utterance turn="328" who="Price, Tyler">Direi che sullo schermo si ferma a venire, e se il collegamento bus sono in ritardo</utterance>
+<utterance turn="329" who="Tyler Gates">il conducente avrebbe bisogno di sapere come egli è in ritardo</utterance>
+<utterance turn="330" who="Price, Tyler">come opzione</utterance>
+<utterance turn="331" who="Bryan Lane">Io continuo a pensare che una riga di testo a scorrimento che vi costringono a guardare lo schermo per un importo fisso di tempo</utterance>
+<utterance turn="332" who="Michael">Sono d'accordo con il punto di Brian.</utterance>
+<utterance turn="333" who="Ryan Nordman">ok, così mi sto sentendo che il multi-display line sarebbe meglio</utterance>
+<utterance turn="334" who="Michael">Sì.</utterance>
+<utterance turn="335" who="Odysseus">yea</utterance>
+<utterance turn="336" who="Tyler Gates">sì</utterance>
+<utterance turn="337" who="beckd">Come circa in alto si dice che si esegue questo ritardo o sono presente al futuro, e quindi un tempo per i prossimi due fermate</utterance>
+<utterance turn="338" who="Kia Dastmalchian">Che dire invece di scorrere, che lampeggia solo linee diverse, quindi non c'è bisogno di guardarlo</utterance>
+<utterance turn="339" who="Kia Dastmalchian">Sapete cosa voglio dire?</utterance>
+<utterance turn="340" who="Michael">Sicuro.</utterance>
+<utterance turn="341" who="Michael">Esso non ha veramente bisogno di precisare se il conducente è in ritardo o in anticipo. Non dovrebbero essere avanti con questa esposizione, come non ci sarebbe tempo di checkpoint. La gente si aspetta l'autobus non venire troppo presto.</utterance>
+<utterance turn="342" who="Bryan Lane">dovresti ancora a guardare per la linea che stai cercando</utterance>
+<utterance turn="343" who="Ryan Nordman">Vuoi l'autista di autobus per far progredire il display stop manualmente?</utterance>
+<utterance turn="344" who="Ryan Nordman">per il suo calendario?</utterance>
+<utterance turn="345" who="Craig Stuart">Non credo che vi sia alcuna necessità di farlo manualmente ....</utterance>
+<utterance turn="346" who="Michael">No, dovrebbe essere automatico. Nessun input richiesto dal conducente durante il percorso.</utterance>
+<utterance turn="347" who="Ryan Nordman">Perché l'altra opzione è quella di legare in con le coordinate GPS e l'abbiano in mostra le fermate in base a dove il bus è</utterance>
+<utterance turn="348" who="Craig Stuart">yeah</utterance>
+<utterance turn="349" who="Michael">Sì a commento di Ryan.</utterance>
+<utterance turn="350" who="Bryan Lane">I like that too</utterance>
+<utterance turn="351" who="beckd">I Think ryan che sarebbe molto vantaggiosi, in quanto tutto è già legato in</utterance>
+<utterance turn="352" who="Craig Stuart">alright ...... si spostano al prossimo argomento</utterance>
+<utterance turn="353" who="Ryan Nordman">ok</utterance>
+<utterance turn="354" who="beckd">sounds good</utterance>
+<utterance turn="355" who="Craig Stuart">argomento successivo è per quanto riguarda le connessioni tra le rotte</utterance>
+<utterance turn="356" who="Price, Tyler">whoa, non il display dicono niente tarda es collegamento bus?</utterance>
+<utterance turn="357" who="Ryan Nordman">Vorrei anche per discutere il display a bordo degli autobus per la connessione dati, nonché</utterance>
+<utterance turn="358" who="Craig Stuart">alright ........ il nostro tempo è piuttosto limitato, abbiamo 5 minuti di sinistra</utterance>
+<utterance turn="359" who="Bryan Lane">Beh, siamo in grado di coprire l'autobus in ritardo di collegamento in questa sezione, poiché è pertinente</utterance>
+<utterance turn="360" who="Ryan Nordman">Penso che potremmo semplicemente utilizzare il display stesso, ma sono due pulsanti che permettono al conducente di autobus di scegliere cosa visualizzare</utterance>
+<utterance turn="361" who="Ryan Nordman">magari con un segnale acustico quando si collegano i dati sono in arrivo?</utterance>
+<utterance turn="362" who="Price, Tyler">Direi che ogni viaggio è di circa 10 minuti di gioco, così a Stopes importante collegamento (hub, terminali), driver di aspettare fino a 3 minuti, come per il collegamento di autobus ...</utterance>
+<utterance turn="363" who="Tyler Gates">Forse, se c'è un altro autobus all'interno di una certa vicinanza, sarebbe visualizzarlo</utterance>
+<utterance turn="364" who="Chris Hanlon">Potremmo inviare un avviso acustico (ad esempio un beep) per favorire l'autista di autobus di guardare la console per informazioni su autobus in ritardo / cambiamenti di percorso.</utterance>
+<utterance turn="365" who="beckd">se ogni autista è disposto ad aspettare 3 minuti</utterance>
+<utterance turn="366" who="beckd">poi un autobus che è poi il collegamento ad essa avrebbe dovuto aspettare almeno 3 minuti 1 secondo per connettersi ad esso</utterance>
+<utterance turn="367" who="Michael">Non so se una segnalazione audiable è necessario.</utterance>
+<utterance turn="368" who="mcmahonp">Aspetta un autista di autobus che aspettare 3 minuti alla fermata - non incasinare davvero che il sistema</utterance>
+<utterance turn="369" who="beckd">che porterebbe a una spingere indietro di volte</utterance>
+<utterance turn="370" who="Tyler Gates">se sono già in ritardo, allora li renderebbe più tardi</utterance>
+<utterance turn="371" who="Price, Tyler">Se sono già in ritardo non avrebbero bisogno di aspettare</utterance>
+<utterance turn="372" who="Bryan Lane">che una specie di motivo per cui ho pensato che sarebbe una buona cosa per consentire al conducente sapere quanto dietro l'autobus è, così poteva solo prendere una decisione informata</utterance>
+<utterance turn="373" who="Craig Stuart">che spingere indietro di volte in cui si rovinare le persone che aveva controllato il calendario un'ora prima</utterance>
+<utterance turn="374" who="beckd">Beh, la Instand che sono in attesa 3 minuti, che sono in ritardo</utterance>
+<utterance turn="375" who="Michael">Io non ci si aspetta l'autista di autobus di aspettare più di 30 secondi. Ma se il sistema mostrerà autobus fino a 3 minuti di ritardo da permettere al conducente di autobus di scegliere.</utterance>
+<utterance turn="376" who="Bryan Lane">se si tratta di 5 secondi dietro (cioè dietro l'angolo), poteva solo aspettare. se si tratta di 5 minuti, non preoccupatevi.</utterance>
+<utterance turn="377" who="Ryan Nordman">Yeah,</utterance>
+<utterance turn="378" who="Ryan Nordman">il mio pensiero è che l'intero sistema funzionerebbe meglio se ci affidiamo al giudizio del conducente in merito ad aspettare un autobus che collega</utterance>
+<utterance turn="379" who="Kia Dastmalchian">Il sistema, anche sapere quando un autobus è in ritardo? Sono confuso su questo</utterance>
+<utterance turn="380" who="sheny">così il sistema di bordo non ricordare al conducente di aspettare se è già in ritardo?</utterance>
+<utterance turn="381" who="Ryan Nordman">siamo in grado di informarli di come fine il bus di collegamento è, e lasciare che a decidere</utterance>
+<utterance turn="382" who="Bryan Lane">Sì, ha supposto per kia</utterance>
+<utterance turn="383" who="Kia Dastmalchian">Ho pensato che questo sarebbe mostrare la posizione del bus di collegamento, come in se semplicemente non c'è</utterance>
+<utterance turn="384" who="Odysseus">Sì, dovrebbe essere la decisione più bus driver basati</utterance>
+<utterance turn="385" who="Odysseus">il loro giudizio se aspettare o meno</utterance>
+<utterance turn="386" who="Kia Dastmalchian">yeah</utterance>
+<utterance turn="387" who="Odysseus">e 3 minuti è troppo lungo per aspettare</utterance>
+<utterance turn="388" who="Craig Stuart">di sicuro</utterance>
+<utterance turn="389" who="Price, Tyler">dire che sei su un autobus che va dal UVic a Western Exchange e si supponga di incontrare un autobus che va da Ovest Ex Wishart - ma il bus è UVic po 'in ritardo, il driver potrebbe Wishart aford aspettare 3min.</utterance>
+<utterance turn="390" who="Michael">Il driver controlla lo schermo quando si lascia importante / smette di collegamento, non emette un segnale acustico fastidioso necessarie comunicazioni o altro. Solo ulteriori informazioni per prendere decisioni intelligenti.</utterance>
+<utterance turn="391" who="Bryan Lane">yeah,</utterance>
+<utterance turn="392" who="Bryan Lane">e se sei in anticipo, si può permettere di aspettare più a lungo</utterance>
+<utterance turn="393" who="Tyler Gates">linee di autobus rurali sono diversi</utterance>
+<utterance turn="394" who="Craig Stuart">Credo che una sorta di notifica audio sarebbe utile</utterance>
+<utterance turn="395" who="Ryan Nordman">ok, così quando deve il sistema di visualizzazione delle informazioni al conducente di autobus?</utterance>
+<utterance turn="396" who="Ryan Nordman">se ne dovrebbero essere in grado di controllarla alla fermata prima che la connessione, quindi abbiamo bisogno di ottenere che i dati al sistema di bus a bordo in anticipo</utterance>
+<utterance turn="397" who="Michael">Sarà sempre lì per fermate prossima non appena sarà disponibile.</utterance>
+<utterance turn="398" who="Ryan Nordman">Bene, forse se l'autista preme un pulsante sul proprio display</utterance>
+<utterance turn="399" who="Ryan Nordman">mostrerà loro come fine il bus di collegamento è in funzione per la prossima fermata di collegamento?</utterance>
+<utterance turn="400" who="Michael">Se sono già su questo schermo, quindi non ha bisogno di essere premuto.</utterance>
+<utterance turn="401" who="Ryan Nordman">Michael - sì</utterance>
+<utterance turn="402" who="Bryan Lane">Mi piace essere in grado di attivare o disattivare manualmente betweent ha schermi</utterance>
+<utterance turn="403" who="Michael">Se sono passati alla schermata calendario, quindi avevano bisogno di premere l'altro pulsante.</utterance>
+<utterance turn="404" who="Chris Hanlon">Io preferirei che l'unità non ha bisogno di premere alcun tasto sul display.</utterance>
+<utterance turn="405" who="Craig Stuart">Sono d'accordo con Chris</utterance>
+<utterance turn="406" who="beckd">Come di mostrare due schermi separati</utterance>
+<utterance turn="407" who="beckd">uno sulla sinistra uno a destra</utterance>
+<utterance turn="408" who="beckd">il conducente poteva sguardo se lo desiderano,</utterance>
+<utterance turn="409" who="beckd">così è più facile per il conducente di vedere informazioni pertinenti</utterance>
+<utterance turn="410" who="Bryan Lane">2 schermi è un'alternativa</utterance>
+<utterance turn="411" who="Price, Tyler">Ho visto i nostri sommozzatori pulsanti stampa prima, possono farlo</utterance>
+<utterance turn="412" who="Chris Hanlon">Perché abbiamo bisogno di 2 schermi?</utterance>
+<utterance turn="413" who="Ryan Nordman">Che renderanno lo schermo più costoso</utterance>
+<utterance turn="414" who="Ryan Nordman">, It's up to you guys come clienti</utterance>
+<utterance turn="415" who="Ryan Nordman">Io non mi sento molto è necessario</utterance>
+<utterance turn="416" who="Kia Dastmalchian">Penso che il 2 sale di commutazione sounds good</utterance>
+<utterance turn="417" who="Tyler Gates">yeah, per semplicità</utterance>
+<utterance turn="418" who="Craig Stuart">Perché non rompere la sola schermata, in un certo numero di frame?</utterance>
+<utterance turn="419" who="Ryan Nordman">I tassisti hanno quasi una tastiera completa nelle loro auto, sono sicuro che i conducenti di autobus in grado di affrontare con due pulsanti</utterance>
+<utterance turn="420" who="Bryan Lane">Non credo che il doppio schermo è necessario</utterance>
+<utterance turn="421" who="Bryan Lane">, Ma il pulsante per attivare / disattivare le informazioni visualizzate va bene</utterance>
+<utterance turn="422" who="Bryan Lane">questo è il mio voto.</utterance>
+<utterance turn="423" who="Michael">Ho fiducia nei nostri autisti di autobus. Anzi la necessità di cambiare potrebbe essere eliminata come una necessità e non solo come opzione, se sulla parte superiore dello schermo tarda bus sarebbe stato il momento in cui il conducente deve lasciare alla prossima fermata.</utterance>
+<utterance turn="424" who="beckd">Penso che l'affollamento di un display rende i dati di difficile comprendere facilmente</utterance>
+<utterance turn="425" who="Kia Dastmalchian">la sua non come dovrebbero essere necessario cambiare tutto ciò che spesso, in una sorta di panico, mentre si guida</utterance>
+<utterance turn="426" who="zhangc">Troppe informazioni per i conducenti, 2 schermo non è utile</utterance>
+<utterance turn="427" who="Bryan Lane">ok così toggle allora?</utterance>
+<utterance turn="428" who="Price, Tyler">visualizza una schermata yeah toggling probabilmente meglio</utterance>
+<utterance turn="429" who="Odysseus">toggle è buono</utterance>
+<utterance turn="430" who="Tyler Gates">1 per attivare o disattivare</utterance>
+<utterance turn="431" who="Ryan Nordman">ok</utterance>
+<utterance turn="432" who="Bryan Lane">go go toggle</utterance>
+<utterance turn="433" who="Craig Stuart">Bene, se è quello che voi ragazzi vogliono</utterance>
+<utterance turn="434" who="Price, Tyler">È quello che abbiamo bisogno</utterance>
+<utterance turn="435" who="Craig Stuart">si sposta lungo</utterance>
+<utterance turn="436" who="Michael">Sì, ma mi è piaciuto il mio suggerimento per avere il tempo il conducente deve lasciare la prossima fermata, e l'ora corrente nella parte superiore dello schermo tarda autobus.</utterance>
+<utterance turn="437" who="Michael">Che consentano di ridurre sempre toggling.</utterance>
+<utterance turn="438" who="Bryan Lane">Sì, la prima linea potrebbe essere lo stesso su entrambi gli schermi</utterance>
+<utterance turn="439" who="beckd">commutando potrebbe essere una seccatura che i conducenti solo evitare</utterance>
+<utterance turn="440" who="Michael">Sicuro.</utterance>
+<utterance turn="441" who="beckd">sounds great guys</utterance>
+<utterance turn="442" who="Michael">:-)</utterance>
+<utterance turn="443" who="Michael">&gt; - |</utterance>
+<utterance turn="444" who="Craig Stuart">alright</utterance>
+<utterance turn="445" who="">, Così si sposta lungo</utterance>
+<utterance turn="446" who="Price, Tyler">(un lato: ciò che abbiamo bisogno di queste solo per analisi?)</utterance>
+<utterance turn="447" who="Craig Stuart">prossimo vorremmo chiedere come si desidera le statistiche dei passeggeri in uscita da registrare</utterance>
+<utterance turn="448" who="beckd">Se il sistema è che permette di dati devono essere registrati su chi è di salire sul bus</utterance>
+<utterance turn="449" who="beckd">Perché è importante avere in uscita stats nonché</utterance>
+<utterance turn="450" who="Chris Hanlon">Suppongo che il compagnie di autobus vogliono sapere che ferma la gente uscita. Is that correct.</utterance>
+<utterance turn="451" who="Chris Hanlon">?</utterance>
+<utterance turn="452" who="Price, Tyler">All'uscita statistiche si permette di sapere quante persone sono sul bus in una sola volta durante alcune parti del percorso.</utterance>
+<utterance turn="453" who="Craig Stuart">Penso che sia stata l'idea</utterance>
+<utterance turn="454" who="mcmahonp">Come facciamo a raccogliere queste statistiche?</utterance>
+<utterance turn="455" who="mcmahonp">Avete l'hardware?</utterance>
+<utterance turn="456" who="Michael">All'uscita è importante per permettere di conoscere i pianificatori bus che ferma vengono utilizzati e quali non lo sono. Quindi le statistiche circa ciò che è richiesto sarebbe fermata se ne andarono a, il momento in cui partì, il percorso e una stima .... se il numero di persone è troppo difficile da seguire, solo il sapere che qualcuno ha fatto scendere a quella fermata.</utterance>
+<utterance turn="457" who="Craig Stuart">Credo che l'idea originale era che il conducente si inseriscono i numeri nella sua visualizzazione</utterance>
+<utterance turn="458" who="Price, Tyler">Non credo che abbiamo l'hardware</utterance>
+<utterance turn="459" who="mcmahonp">Come è un autista di autobus andando a contare le persone scendere?</utterance>
+<utterance turn="460" who="Kia Dastmalchian">che è difficile per i piloti</utterance>
+<utterance turn="461" who="Price, Tyler">Non credo che i conducenti di autobus in grado di farlo</utterance>
+<utterance turn="462" who="Michael">La mia proposta: Gli autobus hanno raggi infrarossi in tutta entraces che la semplice relazione, quando fascio interruopted.</utterance>
+<utterance turn="463" who="Price, Tyler">I conducenti di autobus potevano contare in arrivo, ma non entusiasmante</utterance>
+<utterance turn="464" who="Tyler Gates">compiti supplementari per i conducenti di autobus è sempre cattiva</utterance>
+<utterance turn="465" who="Bryan Lane">Così, quando una folla di persone scendere dal bus alla UVic, un driver dovrebbe contare come mucchio off?</utterance>
+<utterance turn="466" who="Bryan Lane">che non funzionerà. non c'è modo.</utterance>
+<utterance turn="467" who="mcmahonp">Stesso problema con infrarossi</utterance>
+<utterance turn="468" who="mcmahonp">non conterà un gruppo di</utterance>
+<utterance turn="469" who="Craig Stuart">yeah</utterance>
+<utterance turn="470" who="mcmahonp">o se qualcuno si appoggia contro di esso, non conterà nessuno</utterance>
+<utterance turn="471" who="Tyler Gates">abbiamo bisogno di assumere un tizio di stare lì e cound persone</utterance>
+<utterance turn="472" who="Chris Hanlon">Approssimazioni infrarossi sarebbe accettabile.</utterance>
+<utterance turn="473" who="Michael">Non avrei i piloti che contano. È troppo a che fare con il tempo durante l'imbarco ....</utterance>
+<utterance turn="474" who="Michael">Infrarossi sono abbastanza vicino alla porta nessuno avrebbe magra su di loro.</utterance>
+<utterance turn="475" who="Price, Tyler">what about sensori di peso sulle ruote, poi dividere per il peso medio per persona</utterance>
+<utterance turn="476" who="Ryan Nordman">Per essere onesto, penso che assumere un uomo potrebbe essere il vostro migliore e soluzione più efficace ...</utterance>
+<utterance turn="477" who="Price, Tyler">Sì ero dan</utterance>
+<utterance turn="478" who="beckd">k bene</utterance>
+<utterance turn="479" who="Kia Dastmalchian">thats che cosa facciamo adesso, noleggio di un ragazzo</utterance>
+<utterance turn="480" who="Michael">Grazie Ryan!</utterance>
+<utterance turn="481" who="Ryan Nordman">patto che non sia necessario che i dati costantemente</utterance>
+<utterance turn="482" who="Michael">Sei il volontariato?</utterance>
+<utterance turn="483" who="beckd">hahaah</utterance>
+<utterance turn="484" who="Tyler Gates">gratis</utterance>
+<utterance turn="485" who="Bryan Lane">heheh</utterance>
+<utterance turn="486" who="Ryan Nordman">lol, grazie, ma ho un lavoro di sviluppo di sistemi di monitoraggio degli autobus</utterance>
+<utterance turn="487" who="Michael">Metti 1 / 5 0 di voi su ogni bus?</utterance>
+<utterance turn="488" who="beckd">sembra grande il curriculum</utterance>
+<utterance turn="489" who="Kia Dastmalchian">speravamo che il sistema ci forniscono i dati di tutti i giorni, invece di una volta ogni tanto</utterance>
+<utterance turn="490" who="Michael">Sì.</utterance>
+<utterance turn="491" who="Bryan Lane">Non riesco a visualizzare il conteggio Ryan nel riquadro di decisione</utterance>
+<utterance turn="492" who="Ryan Nordman">Sì, non posso cambiare il luogo decisione più</utterance>
+<utterance turn="493" who="Ryan Nordman">It just me boots</utterance>
+<utterance turn="494" who="mcmahonp">per le persone ottenere il si può facilmente contare le persone attraverso il conteggio delle tariffe - che ancora non si vede alcun modo semplice conteggio delle uscite</utterance>
+<utterance turn="495" who="Michael">Provare a fare di me uno scriba troppo e ti rinfreschi per Ryan. It's just a Ryan vuoto a destra dello schermo?</utterance>
+<utterance turn="496" who="Ryan Nordman">I'll email una sintesi decisione alla fine</utterance>
+<utterance turn="497" who="beckd">Così, la decisione? non avremo stats uscita</utterance>
+<utterance turn="498" who="Ryan Nordman">Sì, è vuota</utterance>
+<utterance turn="499" who="beckd">se non con l'assunzione di persone</utterance>
+<utterance turn="500" who="Odysseus">Penso che sì, attraverso la strisciata di una carta, o inserire del denaro, ecc, è il modo migliore</utterance>
+<utterance turn="501" who="Odysseus">non vi è davvero una accurata</utterance>
+<utterance turn="502" who="Odysseus">modo di fare questo ...</utterance>
+<utterance turn="503" who="beckd">Okay</utterance>
+<utterance turn="504" who="Tyler Gates">far strisciare una carta di scendere</utterance>
+<utterance turn="505" who="beckd">che si spostano a destra lungo?</utterance>
+<utterance turn="506" who="Kia Dastmalchian">(potremmo fosso uscita statistiche?)</utterance>
+<utterance turn="507" who="Kia Dastmalchian">dove la gente andare avanti è più importante di dati</utterance>
+<utterance turn="508" who="Bryan Lane">Sì, noi abbiamo le statistiche che il bus sarebbe stato di arresto</utterance>
+<utterance turn="509" who="Craig Stuart">buon suono a tutti?</utterance>
+<utterance turn="510" who="beckd">sounds great</utterance>
+<utterance turn="511" who="Tyler Gates">ok</utterance>
+<utterance turn="512" who="Price, Tyler">si potrebbe solo fare stime come quante persone lasciano migliore quante persone sono ammesse uno</utterance>
+<utterance turn="513" who="Price, Tyler">il *</utterance>
+<utterance turn="514" who="sheny">possiamo solo KNW ppl quanti salire su un autobus in totale in un giorno .. ma contando PPL scendere è piuttosto difficile da raggiungere i think ..</utterance>
+<utterance turn="515" who="Michael">N. ammaraggio di statistiche uscita.</utterance>
+<utterance turn="516" who="zhangc">kia è giusto</utterance>
+<utterance turn="517" who="Michael">Statistiche come base, come se qualcuno ha fatto scendere alla fermata di un andrebbe bene.</utterance>
+<utterance turn="518" who="Kia Dastmalchian">Michael, sei licenziato</utterance>
+<utterance turn="519" who="Tyler Gates">hanno un tipo di conteggio di persone, ma non sul bus, ma alla fermata del bus</utterance>
+<utterance turn="520" who="Michael">Poi si ferma che non si scende al sarebbero registrati.</utterance>
+<utterance turn="521" who="Craig Stuart">Bene, siamo in grado di discutere di questo più avanti</utterance>
+<utterance turn="522" who="Tyler Gates">neeeeeeeeeeext</utterance>
+<utterance turn="523" who="Craig Stuart">Penso che dovremmo passare al tema scorso</utterance>
+<utterance turn="524" who="Chris Hanlon">Sarebbe opportuno registrare quanto tempo le porte sono aperte ad ogni fermata? Questo non ti darà un numero esatto di persone scendere dal bus, ma dovrebbe aiutare a determinare quanto popolare un punto dato è?</utterance>
+<utterance turn="525" who="Kia Dastmalchian">thats una buona idea</utterance>
+<utterance turn="526" who="Kia Dastmalchian">, Dipende da quanto costoso è quello di attuare</utterance>
+<utterance turn="527" who="beckd">k scorso?</utterance>
+<utterance turn="528" who="Bryan Lane">I dunno CH. anziani / disabili che getterà via un sacco</utterance>
+<utterance turn="529" who="Tyler Gates">vecchia signora un sacco di persone =</utterance>
+<utterance turn="530" who="Price, Tyler">stesso hardware che potrebbe applicarsi a mio sensore di peso, lol</utterance>
+<utterance turn="531" who="Michael">Certo, il ravvicinamento porta aperta funziona bene.</utterance>
+<utterance turn="532" who="Bryan Lane">Credo che sia meglio di niente anche se</utterance>
+<utterance turn="533" who="Michael">Be ', ho vissuto fino a quando molte persone ... possono avere la bennifit di essere molte persone.</utterance>
+<utterance turn="534" who="Bryan Lane">haha</utterance>
+<utterance turn="535" who="Craig Stuart">alright, ultimo tema ragazzi</utterance>
+<utterance turn="536" who="Kia Dastmalchian">ok</utterance>
+<utterance turn="537" who="Ryan Nordman">Perché non ti invieremo una e-mail riguardo a questa topc?</utterance>
+<utterance turn="538" who="Ryan Nordman">in modo che possiamo wrap up now</utterance>
+<utterance turn="539" who="Ryan Nordman">Siamo già nel corso del tempo</utterance>
+<utterance turn="540" who="Bryan Lane">define-no-inglese. come nel letteralmente none /</utterance>
+<utterance turn="541" who="beckd">secondo</utterance>
+<utterance turn="542" who="Bryan Lane">?</utterance>
+<utterance turn="543" who="beckd">sì</utterance>
+<utterance turn="544" who="beckd">no english</utterance>
+<utterance turn="545" who="Michael">Utilizzare le icone per i pulsanti per fare la conoscenza di enligh un non-necessità di utilizzare i chioschi.</utterance>
+<utterance turn="546" who="Bryan Lane">Beh, penso che abbiamo appena parlato con parole semplici</utterance>
+<utterance turn="547" who="Bryan Lane">rispetto al sostegno di centinaia di lingue</utterance>
+<utterance turn="548" who="Bryan Lane">e che cosa ha detto Mike</utterance>
+<utterance turn="549" who="Odysseus">con Mike su quello</utterance>
+<utterance turn="550" who="Tyler Gates">uno picuture vale più di mille parole</utterance>
+<utterance turn="551" who="Bryan Lane">ove possibile, in ogni caso</utterance>
+<utterance turn="552" who="beckd">con la funzione di punti di riferimento anche se</utterance>
+<utterance turn="553" who="Craig Stuart">che funziona solo per alcune delle più semplici anche se functionalilty</utterance>
+<utterance turn="554" who="Kia Dastmalchian">Non vedo una lingua enorme bisogno neppure qui, che cosa hanno detto</utterance>
+<utterance turn="555" who="Michael">Inglese e francese un "must" in un paese billingual se ...</utterance>
+<utterance turn="556" who="beckd">amministratori avrebbero dovuto disegnare immagini che rappresentano le categorie</utterance>
+<utterance turn="557" who="Michael">Con possibilità di aggiungere un linguaggio più a data futura.</utterance>
+<utterance turn="558" who="Price, Tyler">solo bisogno di francese per roba federale</utterance>
+<utterance turn="559" who="Tyler Gates">francese, solo in Quebec</utterance>
+<utterance turn="560" who="Bryan Lane">oh yeah ... i francesi.</utterance>
+<utterance turn="561" who="Tyler Gates">lascia solo presumere che essi si sono separati</utterance>
+<utterance turn="562" who="Michael">Propongo che gli sviluppatori elaborare alcune icone che credono rappresentare il nostro sistema ed eseguire li davanti a noi nel prototipo successiva.</utterance>
+<utterance turn="563" who="Michael">: D</utterance>
+<utterance turn="564" who="Bryan Lane">ok. se devo parlare in francese lì, hanno di parlare inglese qui</utterance>
+<utterance turn="565" who="beckd">okay</utterance>
+<utterance turn="566" who="beckd">Credo che siamo buoni per ora ragazzi</utterance>
+<utterance turn="567" who="Tyler Gates">ok</utterance>
+<utterance turn="568" who="Craig Stuart">alright, that's it folks</utterance>
+<utterance turn="569" who="Michael">Ebbene si dà il caso che la nostra città è la capitale del paese ....</utterance>
+<utterance turn="570" who="Michael">:-) Alright.</utterance>
+<utterance turn="571" who="Bryan Lane">wow! promossa!</utterance>
+<utterance turn="572" who="Price, Tyler">logout</utterance>
+<utterance turn="573" who="Kia Dastmalchian">Conferenza ... cominciato?</utterance>
+<utterance turn="574" who="beckd">G'day</utterance>
+<utterance turn="575" who="Tyler Gates">/ quit</utterance>
+</meeting>

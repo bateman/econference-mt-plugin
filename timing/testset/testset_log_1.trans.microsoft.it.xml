@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<meeting>
+<utterance turn="1" who="reynens">Ciao</utterance>
+<utterance turn="2" who="Michael Clark">Ciao e benvenuto.</utterance>
+<utterance turn="3" who="nguyenh">Ciao</utterance>
+<utterance turn="4" who="saroyam">Hmm, mostra di chi è sulla</utterance>
+<utterance turn="5" who="saroyam">e proprio duplicare ciò che dico</utterance>
+<utterance turn="6" who="reynens">Ci ha rotto il sistema nuovamente</utterance>
+<utterance turn="7" who="Michael Clark">Hai ricevuto due gare Mandeep?</utterance>
+<utterance turn="8" who="saroyam">Sì</utterance>
+<utterance turn="9" who="nguyenh">Vedo saroyam ma non la mia auto</utterance>
+<utterance turn="10" who="reynens">L'ho fatto, ma mi sono rifiutato di uno</utterance>
+<utterance turn="11" who="reynens">ha accettato l'altro</utterance>
+<utterance turn="12" who="Michael Clark">Okay, in futuro se ottenete due gare negano la seconda.</utterance>
+<utterance turn="13" who="saroyam">Ho selezionato Sì a entrambi</utterance>
+<utterance turn="14" who="saroyam">Ok</utterance>
+<utterance turn="15" who="nguyenh">Ho avuto due gare</utterance>
+<utterance turn="16" who="nguyenh">Accetto solo uno</utterance>
+<utterance turn="17" who="reynens">provare la disconnessione e reinviting che immagino che</utterance>
+<utterance turn="18" who="saroyam">Vorrei scollegare e ricollegare</utterance>
+<utterance turn="19" who="Michael Clark">Si prega di chiudere il programma e aprirlo nuovamente, connettersi e riceverai un'altra gara.</utterance>
+<utterance turn="20" who="saroyam">OK ora suo lavoro</utterance>
+<utterance turn="21" who="Michael Clark">Eccellente</utterance>
+<utterance turn="22" who="reynens">Abbiamo perso a però.</utterance>
+<utterance turn="23" who="Michael Clark">Quale altro nome andare? Non c'è quel nome sulla mia lista. :-)</utterance>
+<utterance turn="24" who="saroyam">dovremmo avere alcuni sviluppatori qui arent</utterance>
+<utterance turn="25" who="nguyenh">nguyenh</utterance>
+<utterance turn="26" who="Michael Clark">Sì, attesa per uno sviluppatore più.</utterance>
+<utterance turn="27" who="gosselinc">Hey</utterance>
+<utterance turn="28" who="gosselinc">doppia</utterance>
+<utterance turn="29" who="nguyenh">Mike, si tratta di Thanh</utterance>
+<utterance turn="30" who="nguyenh">Sono in</utterance>
+<utterance turn="31" who="gosselinc">HOY</utterance>
+<utterance turn="32" who="reynens">Chi ha accettato due volte?</utterance>
+<utterance turn="33" who="nguyenh">Non io</utterance>
+<utterance turn="34" who="reynens">Tutti dire ciao... una volta.</utterance>
+<utterance turn="35" who="saroyam">Ciao</utterance>
+<utterance turn="36" who="kaspara">Hey</utterance>
+<utterance turn="37" who="reynens">Ciao</utterance>
+<utterance turn="38" who="rizwanp">Ciao</utterance>
+<utterance turn="39" who="fairheadj">Ciao</utterance>
+<utterance turn="40" who="rizwanp">attendere 2 min.</utterance>
+<utterance turn="41" who="nguyenh">Vorrei fare un conteggio di testa</utterance>
+<utterance turn="42" who="rizwanp">nessun computer danneggiato non digitare due volte</utterance>
+<utterance turn="43" who="nguyenh">è qui Jeff?</utterance>
+<utterance turn="44" who="saroyam">disconnettere riz</utterance>
+<utterance turn="45" who="reynens">scollegare e ricollegare Rizwan</utterance>
+<utterance turn="46" who="rizwanp">decollare l'eco</utterance>
+<utterance turn="47" who="corbettj">bello.... hey tutti</utterance>
+<utterance turn="48" who="nguyenh">OK, è Mindy in?</utterance>
+<utterance turn="49" who="saroyam">YUP</utterance>
+<utterance turn="50" who="chiuo">YAY, sono qui</utterance>
+<utterance turn="51" who="saroyam">saroyam è mindy</utterance>
+<utterance turn="52" who="nguyenh">Charles?</utterance>
+<utterance turn="53" who="gosselinc">HOY</utterance>
+<utterance turn="54" who="reynens">Riz è ottenere supporto tecnico</utterance>
+<utterance turn="55" who="rizwanp">Ciao</utterance>
+<utterance turn="56" who="reynens">BENE, credo che siamo tutti su senza echi</utterance>
+<utterance turn="57" who="nguyenh">Rizwan?</utterance>
+<utterance turn="58" who="nguyenh">è Scott su?</utterance>
+<utterance turn="59" who="rizwanp">chi è scott?</utterance>
+<utterance turn="60" who="reynens">Sono qui</utterance>
+<utterance turn="61" who="rizwanp">Sì</utterance>
+<utterance turn="62" who="gosselinc">così perché ha fatto il worm attraversare la strada?</utterance>
+<utterance turn="63" who="rizwanp">per battere la crap di u</utterance>
+<utterance turn="64" who="gosselinc">CUZ che egli è stato consumato da un pollo!</utterance>
+<utterance turn="65" who="Michael Clark">Benvenuti alla prima riunione di elicitation. Ci accingiamo a iniziare qui tra poco, ma nel frattempo sentitevi liberi di indicare il nome e il ruolo. C'È qualcuno mancante che richiede un invito?</utterance>
+<utterance turn="66" who="nguyenh">Hey Scott, siete su?</utterance>
+<utterance turn="67" who="reynens">argh</utterance>
+<utterance turn="68" who="kaspara">Esiste un modo per dimostrare i nostri nomi actauly anziché semplicemente «gosselinc» ecc.?</utterance>
+<utterance turn="69" who="reynens">Scott&lt;---&gt;&lt;/---&gt;</utterance>
+<utterance turn="70" who="chiuo">Mike, mi hanno apportate mi scribe già?</utterance>
+<utterance turn="71" who="nguyenh">Ok</utterance>
+<utterance turn="72" who="reynens">OK, spiegherò</utterance>
+<utterance turn="73" who="rizwanp">Io sono Rizwan Pajvani aka Rizwan Panjwani</utterance>
+<utterance turn="74" who="Michael Clark">Sì, devo Ody.</utterance>
+<utterance turn="75" who="reynens">Nickname</utterance>
+<utterance turn="76" who="nguyenh">è qui Aaron?</utterance>
+<utterance turn="77" who="chiuo">OK cool</utterance>
+<utterance turn="78" who="rizwanp">e io sono l'analista di sistema</utterance>
+<utterance turn="79" who="Michael Clark">Ognuno è qui.  Bene, è opportuno iniziare.</utterance>
+<utterance turn="80" who="reynens">c'è un'impostazione in questo programma per consentire alle persone di scegliere i nickname</utterance>
+<utterance turn="81" who="reynens">predefinito è disattivata</utterance>
+<utterance turn="82" who="chiuo">Ciao tutti, sono Ody, si svolgerà il graffietto oggi</utterance>
+<utterance turn="83" who="reynens">Il mio nome è Scott e sono il client web master.</utterance>
+<utterance turn="84" who="Michael Clark">Benvenuti alla prima riunione di elicitation. L'obiettivo di questo primo incontro tra ospedale e Tri-sistemi di s. Pietro è portare entrambi le parti insieme a collaborare e aiuto Tri-sistemi di comprendere i requisiti del sistema delineato nel RFP. Ulisse e sono gli sviluppatori di software per sistemi di Tri. Io sono Michael e potrà essere moderare questo incontro. Ulisse registrazione tutte le decisioni al posto di decisione sul lato destro dello schermo. Se in qualsiasi momento lei non è d'accordo con una delle decisioni si prega di inviare che un messaggio e noi discuteremo ulteriormente.</utterance>
+<utterance turn="85" who="chiuo">Del resto sono Ulisse.</utterance>
+<utterance turn="86" who="rizwanp">Ok</utterance>
+<utterance turn="87" who="Michael Clark">Per i minuti di seguito sono presenti. 
+ Tri-Systems Incorporated Chiu Ulisse - Michael Clark (Software Developer, gestione)-(Software Developer, Scribe) Hospital - Aaron Kaspar (Project Manager) - Charles Gosselin (Business Consultant) - Rizwan Pajvani s. Pietro (IT Systems Analyst) - Jeff Corbett (Employee rappresentazione User Group) - Joshua Fairhead (protezione utente-gruppo Rep)-Thanh Nguyen-Huynh (Public utente-gruppo Rep)-Saroya Mandeep (amministratore utente-gruppo Rep)-Scott Reynen (gestione Web)</utterance>
+<utterance turn="88" who="nguyenh">Il mio nome è Thanh, io sono il rappresentante del paziente e dei visitatori</utterance>
+<utterance turn="89" who="rizwanp">Ok</utterance>
+<utterance turn="90" who="Michael Clark">Elicitation sessione oggi verrà eseguito come domanda e risposta sessione. Invito tutti i client a porre domande, come pure quelle chiesto da Tri-sistemi di rispondere.</utterance>
+<utterance turn="90" who="Michael Clark">Stiamo utilizzando una tecnologia relativamente nuova per facilitare questa sessione, quindi se ci sono problemi per favore chiudere Collaborative Workbench e riaprirlo. Dopo si riapre assicurarsi si connette nuovamente e riceverai un invito a re-join la riunione.</utterance>
+<utterance turn="90" who="Michael Clark">Ognuno è pronto per iniziare?</utterance>
+<utterance turn="91" who="gosselinc">Sì</utterance>
+<utterance turn="92" who="kaspara">Penso che siamo</utterance>
+<utterance turn="93" who="nguyenh">Io sono pronto</utterance>
+<utterance turn="94" who="chiuo">Sono buono</utterance>
+<utterance turn="95" who="rizwanp">vanno a tutti i sistemi</utterance>
+<utterance turn="96" who="reynens">Roger, roger.</utterance>
+<utterance turn="97" who="corbettj">buona andare qui</utterance>
+<utterance turn="98" who="saroyam">Sì</utterance>
+<utterance turn="99" who="reynens">Josh?</utterance>
+<utterance turn="100" who="fairheadj">annuale</utterance>
+<utterance turn="101" who="fairheadj">buona</utterance>
+<utterance turn="102" who="Michael Clark">Okay, consente di iniziare.</utterance>
+<utterance turn="102" who="Michael Clark">Iniziamo con domande sulle imprese e amministrazione.</utterance>
+<utterance turn="103" who="Michael Clark">Q1. Quanti pazienti diurno ci sono in media al giorno?</utterance>
+<utterance turn="104" who="saroyam">a nessuno tempo vi sono circa 5-7 mila pazienti in un ospedale di dimensione medio</utterance>
+<utterance turn="105" who="rizwanp">400 a destra?</utterance>
+<utterance turn="106" who="rizwanp">Abbiamo deciso di 400</utterance>
+<utterance turn="107" who="nguyenh">Dico circa 350</utterance>
+<utterance turn="108" who="nguyenh">il nostro limite max è un 400</utterance>
+<utterance turn="109" who="chiuo">anche questa era la capacità</utterance>
+<utterance turn="110" who="saroyam">Mi didnt sa abbiamo deciso che</utterance>
+<utterance turn="111" who="rizwanp">Yeah è il RFP</utterance>
+<utterance turn="112" who="chiuo">ma quanta provenienti in e out si pensa?</utterance>
+<utterance turn="113" who="Michael Clark">Mi risulta che ci sono circa 400 pazienti con letti.</utterance>
+<utterance turn="114" who="rizwanp">Oh</utterance>
+<utterance turn="115" who="nguyenh">Sì</utterance>
+<utterance turn="116" who="Michael Clark">Quanti tratterebbe su base giornaliera, che sono walkins?</utterance>
+<utterance turn="116" who="Michael Clark">350?</utterance>
+<utterance turn="117" who="corbettj">Yeah abbiamo specificato 400 nel RFP</utterance>
+<utterance turn="118" who="nguyenh">Abbiamo un arrotondamento 350</utterance>
+<utterance turn="119" who="nguyenh">abbiamo letto circa 400</utterance>
+<utterance turn="120" who="Michael Clark">Eccellente.</utterance>
+<utterance turn="121" who="reynens">OK ragazzi, 400 posti letto</utterance>
+<utterance turn="122" who="Michael Clark">Q2. In media, è spesso l'impianto a capacità?</utterance>
+<utterance turn="123" who="reynens">vogliono sapere quanti sono "trattati"</utterance>
+<utterance turn="124" who="rizwanp">andiamo con suggerimento del Mindy</utterance>
+<utterance turn="125" who="rizwanp">4000</utterance>
+<utterance turn="126" who="saroyam">thats su un in e out base</utterance>
+<utterance turn="128" who="saroyam">non solo una cosa da un giorno a altro</utterance>
+<utterance turn="127" who="rizwanp">esattamente</utterance>
+<utterance turn="129" who="reynens">YUP,</utterance>
+<utterance turn="129" who="reynens">persone con scaglie inclusi</utterance>
+<utterance turn="130" who="nguyenh">è mke invia quindi, lasciare andare con Mindy sugesstion</utterance>
+<utterance turn="131" who="corbettj">Yeah</utterance>
+<utterance turn="131" who="corbettj">solo nel vedere medico, lasciare... "visitano"</utterance>
+<utterance turn="132" who="saroyam">Check-in di molti pazienti ma non tutti rimanere per un lungo periodo di tempo</utterance>
+<utterance turn="133" who="rizwanp">Yeah così diciamo oltre 24 hurs</utterance>
+<utterance turn="134" who="rizwanp">* ore</utterance>
+<utterance turn="135" who="Michael Clark">Okay... 350? O 4000?</utterance>
+<utterance turn="136" who="saroyam">Ok</utterance>
+<utterance turn="137" who="rizwanp">è buona?</utterance>
+<utterance turn="138" who="rizwanp">4000</utterance>
+<utterance turn="139" who="nguyenh">4000</utterance>
+<utterance turn="140" who="chiuo">Ah ok</utterance>
+<utterance turn="141" who="Michael Clark">Okay.</utterance>
+<utterance turn="141" who="Michael Clark">Aggiornare il graffietto. :-)</utterance>
+<utterance turn="142" who="Michael Clark">Q2. In media, è spesso l'impianto a capacità?</utterance>
+<utterance turn="143" who="nguyenh">Credo di sì</utterance>
+<utterance turn="144" who="saroyam">direi di sì, nonché</utterance>
+<utterance turn="145" who="rizwanp">Ok</utterance>
+<utterance turn="145" who="rizwanp">graffietto riceve un cervello più potente: P</utterance>
+<utterance turn="146" who="Michael Clark">IE. 50 % del tempo, 90 % ecc.? È grande stima.</utterance>
+<utterance turn="147" who="rizwanp">graffietto è tutti aggiornato</utterance>
+<utterance turn="148" who="nguyenh">100 %</utterance>
+<utterance turn="149" who="kaspara">Il sistema dovrà essere in grado di gestire 100 % tutti del tempo</utterance>
+<utterance turn="150" who="rizwanp">no no</utterance>
+<utterance turn="151" who="rizwanp">non al 100 %</utterance>
+<utterance turn="152" who="rizwanp">Yeah sarà</utterance>
+<utterance turn="153" who="rizwanp">ma su averaage non è</utterance>
+<utterance turn="154" who="reynens">...</utterance>
+<utterance turn="155" who="gosselinc">...</utterance>
+<utterance turn="156" who="rizwanp">...</utterance>
+<utterance turn="157" who="corbettj">hehehe</utterance>
+<utterance turn="158" who="nguyenh">...</utterance>
+<utterance turn="159" who="reynens">Vogliono sapere quante volte i nostri letti sono pieni</utterance>
+<utterance turn="160" who="reynens">Tutti i 400</utterance>
+<utterance turn="161" who="rizwanp">Yeah</utterance>
+<utterance turn="162" who="saroyam">100 % del tempo di ben più ospedali sono pieni</utterance>
+<utterance turn="163" who="reynens">danneggiato</utterance>
+<utterance turn="164" who="chiuo">Vorrei dire spesso pieno anche, essi sempre eseguire dei letti non hanno?</utterance>
+<utterance turn="165" who="reynens">Credo che ci sarà nuovamente andare con Mindy</utterance>
+<utterance turn="166" who="rizwanp">Ok</utterance>
+<utterance turn="167" who="Michael Clark">Okay. Concordato.</utterance>
+<utterance turn="168" who="corbettj">100 %</utterance>
+<utterance turn="169" who="reynens">Sì</utterance>
+<utterance turn="170" who="Michael Clark">Prossimo: terzo trimestre. Qual è il numero massimo di posti letto in una stanza in qualsiasi momento?</utterance>
+<utterance turn="171" who="gosselinc">400... come abbiamo detto</utterance>
+<utterance turn="172" who="rizwanp">10</utterance>
+<utterance turn="173" who="rizwanp">...</utterance>
+<utterance turn="174" who="gosselinc">lol</utterance>
+<utterance turn="175" who="corbettj">letti in una camera singola</utterance>
+<utterance turn="176" who="Michael Clark">Yikes.</utterance>
+<utterance turn="177" who="gosselinc">Io non posso pronti</utterance>
+<utterance turn="178" who="gosselinc">lettura ***</utterance>
+<utterance turn="179" who="corbettj">lol</utterance>
+<utterance turn="180" who="gosselinc">oppure digitare</utterance>
+<utterance turn="181" who="reynens">1 camera = X letti</utterance>
+<utterance turn="182" who="rizwanp">o pensare...</utterance>
+<utterance turn="183" who="">: P</utterance>
+<utterance turn="184" who="gosselinc">Ti amo 2</utterance>
+<utterance turn="185" who="saroyam">Yeah consente di andare con 10 a max</utterance>
+<utterance turn="186" who="fairheadj">Ok</utterance>
+<utterance turn="187" who="Michael Clark">Okay.</utterance>
+<utterance turn="188" who="rizwanp">diamo che tutti d'accordo con rizwan questa volta OK</utterance>
+<utterance turn="189" who="chiuo">10 che è</utterance>
+<utterance turn="190" who="Michael Clark">Q4. Come viene mantenute informazioni sulle camere aperte e letti?</utterance>
+<utterance turn="191" who="rizwanp">attualmente?</utterance>
+<utterance turn="192" who="Michael Clark">Sì</utterance>
+<utterance turn="193" who="rizwanp">nuove s un database</utterance>
+<utterance turn="194" who="Michael Clark">bene...</utterance>
+<utterance turn="195" who="reynens">Penso che riusciremo con il database corrente dei pazienti</utterance>
+<utterance turn="196" who="reynens">che è informatizzata, non su carta.</utterance>
+<utterance turn="197" who="kaspara">Che viene aggiornato manualmente</utterance>
+<utterance turn="198" who="rizwanp">HM un database di carta</utterance>
+<utterance turn="199" who="rizwanp">bello...</utterance>
+<utterance turn="200" who="corbettj">hehehe</utterance>
+<utterance turn="201" who="reynens">il chiamato una tabella;)</utterance>
+<utterance turn="202" who="reynens">scrivete in essa</utterance>
+<utterance turn="203" who="rizwanp">una tabella nuovamente di carta?</utterance>
+<utterance turn="204" who="Michael Clark">Q4A.  Può essere programmata o riservato, o sono tutti molto sul primo provengono servire prima base in modo che quando esce un paziente, un altro ottiene ammessi?</utterance>
+<utterance turn="205" who="saroyam">primo arrivato primo servito</utterance>
+<utterance turn="206" who="rizwanp">Nessuna pianificazione facilties ancora</utterance>
+<utterance turn="207" who="rizwanp">o in corso</utterance>
+<utterance turn="210" who="nguyenh">Ma dovrebbe essere</utterance>
+<utterance turn="208" who="reynens">Credo basato sulla nostra risposta 100 %</utterance>
+<utterance turn="211" who="reynens">la "libera letto = letto pieno"</utterance>
+<utterance turn="209" who="Michael Clark">Okay. Grazie.</utterance>
+<utterance turn="212" who="rizwanp">ofcourse</utterance>
+<utterance turn="213" who="Michael Clark">Q6. Quanto tempo record dei pazienti restano sul sistema?</utterance>
+<utterance turn="214" who="rizwanp">foreva</utterance>
+<utterance turn="215" who="nguyenh">ci sono pazienti che è più importante che altri</utterance>
+<utterance turn="216" who="Michael Clark">Okay.</utterance>
+<utterance turn="217" who="saroyam">Se il paziente ha estratto per un mese, quindi loro informazioni devono essere archiviate</utterance>
+<utterance turn="220" who="saroyam">ma restano ancora accessibile se necessario</utterance>
+<utterance turn="218" who="corbettj">più.... che otterrebbe in un sistema di 2 livello: P</utterance>
+<utterance turn="219" who="kaspara">Yeah.  I record dei pazienti sono perminant</utterance>
+<utterance turn="221" who="Michael Clark">Q7. Qual è la differenza tra le attrezzature e le forniture?</utterance>
+<utterance turn="222" who="reynens">Oh oh, permettetemi di</utterance>
+<utterance turn="223" who="corbettj">forniture = materiale come bende, roba che ottiene riassorbire...</utterance>
+<utterance turn="224" who="nguyenh">forniture sono comsumable</utterance>
+<utterance turn="228" who="nguyenh">apparecchiature non è</utterance>
+<utterance turn="225" who="reynens">Forniture in genere sono cose che sono, sì, dei materiali di consumo</utterance>
+<utterance turn="227" who="reynens">1 uso</utterance>
+<utterance turn="226" who="Michael Clark">Okay. Grande.</utterance>
+<utterance turn="229" who="gosselinc">^ ^ ^ è corretta</utterance>
+<utterance turn="230" who="rizwanp">OK forniture possano essere costose</utterance>
+<utterance turn="231" who="rizwanp">come un raro tipo di sangue</utterance>
+<utterance turn="232" who="corbettj">Questo è il motivo per cui è importante inventario con forniture di rilevamento</utterance>
+<utterance turn="233" who="rizwanp">è anche un impianto di ricerca</utterance>
+<utterance turn="234" who="rizwanp">così una cultura di batteri</utterance>
+<utterance turn="235" who="rizwanp">che era orderd dalla Cina per esempio</utterance>
+<utterance turn="236" who="rizwanp">o clandestinamente... qualunque</utterance>
+<utterance turn="237" who="saroyam">lol</utterance>
+<utterance turn="238" who="corbettj">lol</utterance>
+<utterance turn="239" who="Michael Clark">Q7A.  Sono tutte le forniture ordinate, o alcuni creata in sede come le donazioni di sangue?</utterance>
+<utterance turn="240" who="reynens">Yeah, del sangue, prodotti farmaceutici, aghi = forniture</utterance>
+<utterance turn="241" who="nguyenh">Sì</utterance>
+<utterance turn="242" who="gosselinc">entrambi</utterance>
+<utterance turn="243" who="Michael Clark">Grazie.</utterance>
+<utterance turn="244" who="Michael Clark">Questo è tutto per il business e l'amministrazione. Per la sezione successiva.</utterance>
+<utterance turn="245" who="chiuo">waiit</utterance>
+<utterance turn="246" who="reynens">YUP</utterance>
+<utterance turn="247" who="chiuo">non passare</utterance>
+<utterance turn="248" who="reynens">Oooh</utterance>
+<utterance turn="249" who="chiuo">Cancella lo schermo</utterance>
+<utterance turn="250" who="Michael Clark">Le ultime parole sulle imprese e admin.</utterance>
+<utterance turn="251" who="rizwanp">Ok</utterance>
+<utterance turn="252" who="kaspara">nope</utterance>
+<utterance turn="253" who="rizwanp">le decisioni vengono salvate?</utterance>
+<utterance turn="254" who="nguyenh">non</utterance>
+<utterance turn="255" who="Michael Clark">Seguirà chi sta digitando prima di procedere.</utterance>
+<utterance turn="256" who="corbettj">nulla qui</utterance>
+<utterance turn="257" who="rizwanp">CUZ che ain't writin</utterance>
+<utterance turn="258" who="reynens">sua Riz chiamato SCRIBE</utterance>
+<utterance turn="259" who="Michael Clark">Essi rimangono sulla destra che credo.</utterance>
+<utterance turn="260" who="reynens">c'è uno qui</utterance>
+<utterance turn="261" who="rizwanp">BAH</utterance>
+<utterance turn="262" who="rizwanp">chi è reyens?</utterance>
+<utterance turn="263" who="rizwanp">incontrarmi nel parcheggio</utterance>
+<utterance turn="264" who="reynens">non si saprà mai</utterance>
+<utterance turn="265" who="rizwanp">o fermata dell'autobus</utterance>
+<utterance turn="266" who="chiuo">OK, qualcosa di sbagliato con il luogo di decisioni attualmente?</utterance>
+<utterance turn="267" who="reynens">nope</utterance>
+<utterance turn="268" who="gosselinc">Va bene</utterance>
+<utterance turn="269" who="rizwanp">Io sono ok</utterance>
+<utterance turn="270" who="reynens">tutto sembra sugo</utterance>
+<utterance turn="271" who="chiuo">Alrite I ' m buono quindi</utterance>
+<utterance turn="272" who="Michael Clark">Okay, consente di mantenere lo spostamento su. :-)</utterance>
+<utterance turn="273" who="corbettj">che reyerns sia scott</utterance>
+<utterance turn="274" who="rizwanp">Grazie</utterance>
+<utterance turn="275" who="Michael Clark">Q8. Qual è la funzione dei terminali situate in tutto l'ospedale?</utterance>
+<utterance turn="276" who="reynens">Jeff! JUDAS!</utterance>
+<utterance turn="277" who="rizwanp">OK shhh</utterance>
+<utterance turn="278" who="corbettj">Girl "incontrarmi nel parcheggio"</utterance>
+<utterance turn="279" who="rizwanp">è bruta</utterance>
+<utterance turn="280" who="reynens">Terminali</utterance>
+<utterance turn="281" who="rizwanp">consentano ai visitatori di controllare la roba di terminali</utterance>
+<utterance turn="282" who="rizwanp">sui pazienti</utterance>
+<utterance turn="284" who="rizwanp">esempio ore, visitando Camera</utterance>
+<utterance turn="283" who="nguyenh">Per il visitatore a scoprire wheree il paziente è</utterance>
+<utterance turn="285" who="Michael Clark">Termianls = Computer situate in tutto l'ospedale</utterance>
+<utterance turn="286" who="reynens">Sì, un visitatore può individuare la stanza di un paziente che stai visitando</utterance>
+<utterance turn="287" who="kaspara">Esattamente</utterance>
+<utterance turn="288" who="rizwanp">Ok</utterance>
+<utterance turn="289" who="nguyenh">per paziente vedere quanto egli proprio</utterance>
+<utterance turn="290" who="Michael Clark">Ma non dietro la scrivania dove un singolo utente verrà utilizzato li.</utterance>
+<utterance turn="291" who="rizwanp">terminali! = computers</utterance>
+<utterance turn="292" who="rizwanp">per i nostri scopi</utterance>
+<utterance turn="293" who="gosselinc">I pazienti devono dare il proprio consenso ad essere visualizzate sui terminali!</utterance>
+<utterance turn="294" who="corbettj">per chiarezza, vi arent attualmente terminali nel nostro sistema..... qualcosa che vogliamo attuata</utterance>
+<utterance turn="305" who="corbettj">essere come un bancomat che consente alla posizione dei pazienti query ecc... : P</utterance>
+<utterance turn="295" who="rizwanp">Whoa whoa</utterance>
+<utterance turn="296" who="reynens">Haha</utterance>
+<utterance turn="297" who="rizwanp">di che cosa si tratta il consenso e dissenso?</utterance>
+<utterance turn="298" who="saroyam">come un computer di autoaiuto</utterance>
+<utterance turn="299" who="nguyenh">Forse la direzione a una room</utterance>
+<utterance turn="300" who="rizwanp">così parlando dei PC in ospedale</utterance>
+<utterance turn="301" who="nguyenh">o trovare un parcheggio</utterance>
+<utterance turn="302" who="rizwanp">Let's OK grave</utterance>
+<utterance turn="303" who="reynens">ci sono?</utterance>
+<utterance turn="304" who="reynens">consenso era qualcosa nel rfp pensavo Riz</utterance>
+<utterance turn="306" who="rizwanp">Michael</utterance>
+<utterance turn="307" who="chiuo">è chiamato loro cabine info o qualcosa nel rfp che credo</utterance>
+<utterance turn="309" who="reynens">Sì</utterance>
+<utterance turn="308" who="rizwanp">Ripetere la domanda ancora chiaramente plz</utterance>
+<utterance turn="310" who="rizwanp">Io non volete scorrere fino</utterance>
+<utterance turn="311" who="rizwanp">invece verrà avanzare una richiesta digitando 3 linee</utterance>
+<utterance turn="312" who="rizwanp">compresi che uno</utterance>
+<utterance turn="313" who="Michael Clark">Così i terminali sono dispositivi che vorreste per progettare e aggiungere al sistema che consentono ai visitatori di individuare i pazienti e ottenere altre informazioni relative all'ospedale. Ma prima di un paziente apparirà sulla ricerca terminal avranno il consenso? Correggere?</utterance>
+<utterance turn="314" who="gosselinc">Sì</utterance>
+<utterance turn="315" who="saroyam">Sì</utterance>
+<utterance turn="316" who="chiuo">mappa ospedale?</utterance>
+<utterance turn="317" who="rizwanp">OK ok</utterance>
+<utterance turn="318" who="Michael Clark">Okay. Mappa = idea eccellente.</utterance>
+<utterance turn="319" who="gosselinc">Vorrei aggiungere qualcosa di veramente veloce?</utterance>
+<utterance turn="320" who="kaspara">Sì</utterance>
+<utterance turn="321" who="rizwanp">ma</utterance>
+<utterance turn="322" who="Michael Clark">Naturalmente.</utterance>
+<utterance turn="323" who="nguyenh">Guida direzione come wll</utterance>
+<utterance turn="324" who="corbettj">Yeah quando un paziente controlla in ospedale occorre un'opzione per consentire alle persone di cercare lì info</utterance>
+<utterance turn="325" who="reynens">Sì, un paziente deve acconsentire all'accesso del pubblico (tutti gli altri ha accesso però, medici, Admin, Security)</utterance>
+<utterance turn="326" who="Michael Clark">Sì.</utterance>
+<utterance turn="327" who="rizwanp">direzione di guida a che cosa?</utterance>
+<utterance turn="328" who="gosselinc">OK anche senza il consenso i dipendenti dell'ospedale hanno ancora accesso ai dati</utterance>
+<utterance turn="330" who="gosselinc">non solo l'opinione pubblica</utterance>
+<utterance turn="329" who="reynens">* non deve, può</utterance>
+<utterance turn="331" who="rizwanp">come un link a google mappe invece?</utterance>
+<utterance turn="332" who="corbettj">Sì</utterance>
+<utterance turn="333" who="corbettj">hehehehe</utterance>
+<utterance turn="334" who="reynens">Ora che non è in grave</utterance>
+<utterance turn="335" who="rizwanp">I ' m bein gravi</utterance>
+<utterance turn="336" who="rizwanp">Siamo su un bilancio qui</utterance>
+<utterance turn="337" who="reynens">Mappe di Google è bugged</utterance>
+<utterance turn="338" who="reynens">lo spostamento;)</utterance>
+<utterance turn="339" who="nguyenh">possono essere a controllare brevemente email</utterance>
+<utterance turn="340" who="Michael Clark">Una mappa di google potrebbe non dare un preciso piano di parola... o uno affatto. Vorrei suggerire di qualcos'altro.</utterance>
+<utterance turn="341" who="saroyam">Credo che una mappa dell'ospedale dovrebbe essere sufficiente</utterance>
+<utterance turn="342" who="rizwanp">vogliamo creare una mappa del software?</utterance>
+<utterance turn="343" who="corbettj">&lt;3 yahoo maps :p yahoo="" maps=""&gt;&lt;/3 yahoo maps :p&gt;</utterance>
+<utterance turn="344" who="rizwanp">OK qualcuno ha detto indicazioni stradali</utterance>
+<utterance turn="345" who="reynens">Riz, riz, possiamo dare istruzioni di progettazione, soli requisiti</utterance>
+<utterance turn="346" who="rizwanp">così stavo talkin bout che</utterance>
+<utterance turn="347" who="saroyam">persone possono trovare la propria strada all'ospedale</utterance>
+<utterance turn="348" who="Michael Clark">Google Earth darebbe un'ottima ripresa del tetto, se questo è ciò che siete dopo.</utterance>
+<utterance turn="349" who="reynens">Ooooh</utterance>
+<utterance turn="350" who="nguyenh">No, ma deve avere a3d piano piano del tutto l'edificio</utterance>
+<utterance turn="351" who="rizwanp">non è che le istruzioni di progettazione</utterance>
+<utterance turn="352" who="reynens">a destra, sul nostro sito Web esterno **</utterance>
+<utterance turn="354" who="corbettj">lol google earth</utterance>
+<utterance turn="353" who="rizwanp">vogliamo includere indicazioni stradali?</utterance>
+<utterance turn="355" who="rizwanp">Non credo</utterance>
+<utterance turn="356" who="saroyam">Io credo così entrambi</utterance>
+<utterance turn="357" who="saroyam">solo una mappa dell'ospedale</utterance>
+<utterance turn="358" who="rizwanp">è troppo lavoro</utterance>
+<utterance turn="359" who="rizwanp">Sì</utterance>
+<utterance turn="360" who="rizwanp">mappa è buona</utterance>
+<utterance turn="361" who="saroyam">u sono qui. Heres come u ottenere a tale</utterance>
+<utterance turn="362" who="reynens">No,... consente di dire un indirizzo all'ospedale è attualmente parte del sistema</utterance>
+<utterance turn="363" who="corbettj">PPL possono prendere una cabina per l'ospedale se essa non trovano: P</utterance>
+<utterance turn="364" who="nguyenh">Così dovrebbero essere in grado di accedere quindi il abit internet</utterance>
+<utterance turn="365" who="rizwanp">u che reyens?</utterance>
+<utterance turn="366" who="chiuo">Immagino informazioni ospedale generale sono troppo buone?</utterance>
+<utterance turn="367" who="Michael Clark">Stavo ancora cercando di concentrarsi su questi terminali che si trovano all'interno dell'ospedale. Detto questo... sarebbe mia comprensione che non è necessario per una mappa del percorso dell'ospedale per i terminali, ma forse piani sarebbe un'idea migliore.</utterance>
+<utterance turn="368" who="kaspara">SÌ</utterance>
+<utterance turn="369" who="nguyenh">Sì</utterance>
+<utterance turn="370" who="Michael Clark">Prossima!</utterance>
+<utterance turn="371" who="Michael Clark">Q9. Quali sono gli altri compiti indicati nel progetto personale di assistenza sanitaria obiettivi esegue che il nuovo sistema dovrebbe aiutarli con?</utterance>
+<utterance turn="372" who="rizwanp">quale linea?</utterance>
+<utterance turn="373" who="reynens">Credo di che sapere</utterance>
+<utterance turn="374" who="reynens">non che aiuta con le funzioni</utterance>
+<utterance turn="375" who="reynens">ma gli aiuti, mentre stanno facendo altre cose</utterance>
+<utterance turn="376" who="saroyam">Credo che questo significava che il self help desk impedirà distrazione, in modo che le infermiere ecc. possano fare altri lavori come cessione fuori meds</utterance>
+<utterance turn="377" who="nguyenh">come operazioni di pulizia...</utterance>
+<utterance turn="378" who="Michael Clark">Okay. Ignorare la questione.</utterance>
+<utterance turn="379" who="rizwanp">Ok</utterance>
+<utterance turn="380" who="Michael Clark">Grazie per il chiarimento.</utterance>
+<utterance turn="381" who="nguyenh">non è necessario che il sistema di assistenza che</utterance>
+<utterance turn="382" who="Michael Clark">Q10. Quali informazioni saranno ogni dipendente uso per l'accesso al sistema? È una Carta fondamentale una considerazione?</utterance>
+<utterance turn="383" who="corbettj">Yeah.... dovrebbero automatizzare alcune delle loro attività per liberare il loro di fare altre cose</utterance>
+<utterance turn="384" who="rizwanp">certo</utterance>
+<utterance turn="385" who="gosselinc">dito id!</utterance>
+<utterance turn="386" who="rizwanp">analisi della retina</utterance>
+<utterance turn="387" who="corbettj">hehehe di dati biometrici</utterance>
+<utterance turn="388" who="nguyenh">certo</utterance>
+<utterance turn="389" who="rizwanp">forse estrazione di DNA e le verifiche</utterance>
+<utterance turn="390" who="reynens">Plas-ma!</utterance>
+<utterance turn="391" who="saroyam">forse nome e password utente</utterance>
+<utterance turn="392" who="rizwanp">BAH</utterance>
+<utterance turn="393" who="nguyenh">Credo che stiamo utilizzando la scheda chiave per l'accesso di porta</utterance>
+<utterance turn="396" who="nguyenh">Dobbiamo attenerci ad esso</utterance>
+<utterance turn="394" who="rizwanp">Ur vecchi antiquate</utterance>
+<utterance turn="395" who="saroyam">: p</utterance>
+<utterance turn="397" who="saroyam">k</utterance>
+<utterance turn="398" who="reynens">ritardare che una domanda connessa</utterance>
+<utterance turn="399" who="gosselinc">dico carta chiave</utterance>
+<utterance turn="400" who="Michael Clark">Si sta attualmente utilizzando un keycard per l'accesso a porta?</utterance>
+<utterance turn="401" who="rizwanp">Yeah</utterance>
+<utterance turn="402" who="nguyenh">Sì</utterance>
+<utterance turn="403" who="rizwanp">Siamo</utterance>
+<utterance turn="404" who="saroyam">Sì</utterance>
+<utterance turn="405" who="reynens">.... sì?</utterance>
+<utterance turn="406" who="saroyam">consente di andare con carta chiave</utterance>
+<utterance turn="407" who="rizwanp">così stessa scheda chiave?</utterance>
+<utterance turn="408" who="Michael Clark">Okay. Bene sapere.</utterance>
+<utterance turn="410" who="reynens">certo</utterance>
+<utterance turn="411" who="gosselinc">stesso keycard</utterance>
+<utterance turn="409" who="rizwanp">ma, ma</utterance>
+<utterance turn="412" who="rizwanp">deve anche consentire accesso tramite password</utterance>
+<utterance turn="413" who="nguyenh">stesso</utterance>
+<utterance turn="414" who="fairheadj">annuale, entrambi</utterance>
+<utterance turn="415" who="reynens">swipe una scheda, immettere la password</utterance>
+<utterance turn="416" who="nguyenh">Ket scheda fornita con codice</utterance>
+<utterance turn="417" who="rizwanp">non</utterance>
+<utterance turn="418" who="saroyam">ma non di scrivanie la guida necessaria una password</utterance>
+<utterance turn="419" who="reynens">quindi iniettare dna</utterance>
+<utterance turn="420" who="fairheadj">uno</utterance>
+<utterance turn="421" who="rizwanp">Essa deve consentire l'accesso di password</utterance>
+<utterance turn="422" who="chiuo">Immettere la password su che cosa?</utterance>
+<utterance turn="423" who="Michael Clark">Il nostro pensiero con un keycard è che essi potrebbero utilizzarlo per impedire l'immissione di un nome utente, quindi richiedere inoltre una password.</utterance>
+<utterance turn="424" who="reynens">Oooh</utterance>
+<utterance turn="426" who="reynens">ricevo si</utterance>
+<utterance turn="425" who="chiuo">come un perno?</utterance>
+<utterance turn="427" who="nguyenh">deve utilizzare che codice per l'accesso se non è in grado di trovare la scheda</utterance>
+<utterance turn="428" who="rizwanp">Yeah va bene</utterance>
+<utterance turn="429" who="rizwanp">Fallo</utterance>
+<utterance turn="430" who="reynens">swipe scheda oppure inserire una password</utterance>
+<utterance turn="433" who="nguyenh">è giusto</utterance>
+<utterance turn="434" who="Michael Clark">Sia stato previsto.</utterance>
+<utterance turn="431" who="rizwanp">ma</utterance>
+<utterance turn="432" who="rizwanp">Se va male una scheda</utterance>
+<utterance turn="435" who="rizwanp">quindi waht?</utterance>
+<utterance turn="436" who="reynens">non senza ulteriori ma lì Riz</utterance>
+<utterance turn="437" who="saroyam">Se va male una scheda essi possibile ottenerlo fisso</utterance>
+<utterance turn="438" who="rizwanp">OK ora u e me di fuori di rito</utterance>
+<utterance turn="439" who="rizwanp">Yeah</utterance>
+<utterance turn="440" who="rizwanp">ma che richiederebbe molto tempo</utterance>
+<utterance turn="441" who="reynens">Personale può essere swipe loro carta o immettere una password di accesso per ottenere al sistema.</utterance>
+<utterance turn="442" who="fairheadj">YUP</utterance>
+<utterance turn="443" who="corbettj">Buona idea</utterance>
+<utterance turn="444" who="nguyenh">così ci password ethe invece</utterance>
+<utterance turn="445" who="chiuo">così il deficit e username e password sul pannello stesso? è che il piano?</utterance>
+<utterance turn="446" who="Michael Clark">Okay, così come circa un keycard e la password. Ma se non che essi hanno alcune altre username che possono essere utilizzati.</utterance>
+<utterance turn="447" who="reynens">non</utterance>
+<utterance turn="448" who="rizwanp">Sì</utterance>
+<utterance turn="449" who="rizwanp">molto</utterance>
+<utterance turn="450" who="saroyam">bene hanno bisogno per entrare in alcune parti dell'edificio la propria card comunque</utterance>
+<utterance turn="451" who="reynens">essi vengono avvitate e deve chiedere IT</utterance>
+<utterance turn="452" who="kaspara">Questo è il tipo di solo una cosa di progettazione.</utterance>
+<utterance turn="453" who="saroyam">hanno bisogno di loro carta chiave per tutto ciò che non soltanto il sistema</utterance>
+<utterance turn="454" who="Michael Clark">Buon punto.</utterance>
+<utterance turn="455" who="rizwanp">Ok</utterance>
+<utterance turn="456" who="rizwanp">tutto ciò?</utterance>
+<utterance turn="457" who="kaspara">Il nostro requirment è solo un sistema di sicurezza</utterance>
+<utterance turn="458" who="Michael Clark">Così keycard e la password per l'accesso al sistema.</utterance>
+<utterance turn="459" who="nguyenh">Sì</utterance>
+<utterance turn="460" who="corbettj">va bene</utterance>
+<utterance turn="461" who="saroyam">Yeah come entrare gli archivi di medicina e roba</utterance>
+<utterance turn="462" who="reynens">buon punto kaspara</utterance>
+<utterance turn="463" who="Michael Clark">Okay, prenderemo in considerazione le opzioni.</utterance>
+<utterance turn="464" who="corbettj">lol</utterance>
+<utterance turn="466" who="rizwanp">OK così qualcuno ha posto la decisione quindi so</utterance>
+<utterance turn="467" who="rizwanp">che cosa abbiamo deciso ora jus</utterance>
+<utterance turn="465" who="Michael Clark">Q11. Come gli utenti web saranno autorizzati per accedere alle informazioni dei pazienti sul sito Web di ospedale?</utterance>
+<utterance turn="468" who="Michael Clark">O non ci sarà nessun informazioni che possono accedere.</utterance>
+<utterance turn="469" who="nguyenh">paziente dovrebbe ottenere il loro invoce</utterance>
+<utterance turn="470" who="nguyenh">precriptions</utterance>
+<utterance turn="471" who="reynens">OK ok</utterance>
+<utterance turn="473" who="Michael Clark">Che cos'è un preciption?</utterance>
+<utterance turn="474" who="reynens">il sito Web ha la stessa informazione dei terminali</utterance>
+<utterance turn="475" who="rizwanp">Ciò che fattura?</utterance>
+<utterance turn="472" who="corbettj">Vai al sito, cercare la persona il</utterance>
+<utterance turn="476" who="corbettj">* cerchi for... arriva loro info</utterance>
+<utterance turn="477" who="reynens">ma dispone più?</utterance>
+<utterance turn="478" who="nguyenh">per il denaro proprio l'ospedale</utterance>
+<utterance turn="479" who="rizwanp">attendere</utterance>
+<utterance turn="480" who="Michael Clark">Okay. Non esiste quindi alcuna informazione che un membro della famiglia dovrà essere in grado di accedere a un paziente che non è in grado di accedere a parole intere.</utterance>
+<utterance turn="481" who="rizwanp">inwe desidera ppl per accedere ai pazienti, mentre sono in ospedale</utterance>
+<utterance turn="483" who="rizwanp">non dopo...</utterance>
+<utterance turn="482" who="nguyenh">se hanno il codice di accesso ai pazienti</utterance>
+<utterance turn="484" who="nguyenh">membro della famiglia dovrebbe essere in grado di accedere a</utterance>
+<utterance turn="485" who="rizwanp">Yeah</utterance>
+<utterance turn="486" who="saroyam">essi devono sapere che tipo di meds sono i brevetti sul</utterance>
+<utterance turn="487" who="reynens">così tutti i pazienti otterrà un nome utente e una password?</utterance>
+<utterance turn="488" who="saroyam">solo quale numero di sala e il pavimento sono in</utterance>
+<utterance turn="489" who="rizwanp">non</utterance>
+<utterance turn="490" who="Michael Clark">Prima vorrei chiedere cosa avranno bisogno di fornire per ottenere l'accesso... quindi ti chiedo ciò che hanno accesso a.</utterance>
+<utterance turn="491" who="saroyam">non</utterance>
+<utterance turn="492" who="nguyenh">hanno anche la carta acccess</utterance>
+<utterance turn="494" who="nguyenh">come lo sono ora</utterance>
+<utterance turn="493" who="corbettj">il pubblico non può accedere a cartelle cliniche dei pazienti ecc.... di fuori di accesso è limitato per le informazioni di tipo visita</utterance>
+<utterance turn="500" who="corbettj">che dovrebbero essere disponibili a chiunque voglia visitare</utterance>
+<utterance turn="495" who="rizwanp">esattamente</utterance>
+<utterance turn="496" who="reynens">Yeah</utterance>
+<utterance turn="497" who="rizwanp">è il tipo di informazioni fornirebbe help desk</utterance>
+<utterance turn="498" who="reynens">' m gonna ribadire ancora una volta</utterance>
+<utterance turn="499" who="Michael Clark">bene. è che la decisione.</utterance>
+<utterance turn="501" who="rizwanp">Sì</utterance>
+<utterance turn="502" who="saroyam">certo</utterance>
+<utterance turn="503" who="reynens">Le informazioni che i terminali forniscono, pavimento e camera e nome</utterance>
+<utterance turn="505" who="reynens">saranno sul sito Web</utterance>
+<utterance turn="504" who="rizwanp">quindi dovrebbe essere a noi cosa info Wanna mettiamo sulla vi</utterance>
+<utterance turn="506" who="chiuo">Visita info è definitiva?</utterance>
+<utterance turn="507" who="rizwanp">Yeah</utterance>
+<utterance turn="508" who="rizwanp">reyens ha un buon punto di</utterance>
+<utterance turn="509" who="saroyam">Yeah</utterance>
+<utterance turn="510" who="rizwanp">Ho dimenticato tutto</utterance>
+<utterance turn="511" who="rizwanp">deve essere accessibile dal web</utterance>
+<utterance turn="512" who="Michael Clark">Okay. Così per i terminali record info è anche accessibile sul sito... forse con una mappa del percorso.</utterance>
+<utterance turn="513" who="rizwanp">certo</utterance>
+<utterance turn="514" who="kaspara">Sì</utterance>
+<utterance turn="515" who="Michael Clark">Fatto.</utterance>
+<utterance turn="517" who="reynens">Sì, il principale sito Web dovrebbe avere una mappa all'ospedale: P</utterance>
+<utterance turn="516" who="Michael Clark">Q12. Che cos'è un volume previsto dei visitatori su base giornaliera, che potrà essere potenzialmente interazione con il nuovo sistema invece di parlare con la persona al banco informazioni?</utterance>
+<utterance turn="518" who="gosselinc">migliaia</utterance>
+<utterance turn="520" who="nguyenh">$ 50 arounbd</utterance>
+<utterance turn="519" who="rizwanp">Supponiamo che in media un paziente ha 5 parenti</utterance>
+<utterance turn="521" who="rizwanp">tale cura di lui</utterance>
+<utterance turn="522" who="rizwanp">o lei</utterance>
+<utterance turn="523" who="nguyenh">50 %</utterance>
+<utterance turn="524" who="rizwanp">50 % che cosa?</utterance>
+<utterance turn="525" who="gosselinc">?</utterance>
+<utterance turn="526" who="kaspara">Uhhhhhh I'mm perdita</utterance>
+<utterance turn="527" who="saroyam">Vorrei cercare di digitare una frase sulla stessa riga</utterance>
+<utterance turn="528" who="rizwanp">Ur ancora qui?</utterance>
+<utterance turn="529" who="Michael Clark">Siamo alla ricerca di un numero per il numero di utenti che devono supportare terminali e sito Web.</utterance>
+<utterance turn="530" who="reynens">Abbiamo già deciso quante persone entrare in ospedale e Thanh dice 50 %</utterance>
+<utterance turn="531" who="nguyenh">50 % della visiotr utilizzerà lo stand info anziché il helpddesk</utterance>
+<utterance turn="532" who="rizwanp">perché?</utterance>
+<utterance turn="533" who="Michael Clark">Ok.</utterance>
+<utterance turn="534" who="reynens">così 2000 un giorno?</utterance>
+<utterance turn="535" who="corbettj">in definitiva, tutti dovranno utilizzare i terminali...</utterance>
+<utterance turn="536" who="saroyam">Yeah 2000 suona bene</utterance>
+<utterance turn="537" who="reynens">thats Mike non finale</utterance>
+<utterance turn="538" who="rizwanp">attendere</utterance>
+<utterance turn="539" who="Michael Clark">Finale per RS 1.0?</utterance>
+<utterance turn="540" who="rizwanp">2000?</utterance>
+<utterance turn="541" who="corbettj">arriverà a persone come confortevole li utilizzano</utterance>
+<utterance turn="542" who="reynens">no no, nella conversazione</utterance>
+<utterance turn="543" who="chiuo">2000 per il web?</utterance>
+<utterance turn="544" who="rizwanp">Whoa whoa</utterance>
+<utterance turn="545" who="reynens">Ah, questa è una buona domanda</utterance>
+<utterance turn="546" who="chiuo">ci troviamo terminale separato e web?</utterance>
+<utterance turn="547" who="nguyenh">Naturalmente, ma io thikn dobbiamo sperare di metà dei thenm utilizzerà il sistema</utterance>
+<utterance turn="548" who="rizwanp">Wtf?</utterance>
+<utterance turn="552" who="rizwanp">Sì</utterance>
+<utterance turn="549" who="reynens">INTERROGAZIONE sei parlando di visitatori che utilizzano i CAPOLINEA?</utterance>
+<utterance turn="550" who="rizwanp">non</utterance>
+<utterance turn="551" who="corbettj">OK ti acquistare che</utterance>
+<utterance turn="553" who="chiuo">terminali e il web che credo</utterance>
+<utterance turn="554" who="reynens">Sto chiedendo Mike</utterance>
+<utterance turn="555" who="rizwanp">perché?</utterance>
+<utterance turn="556" who="rizwanp">Chiedi</utterance>
+<utterance turn="557" who="nguyenh">solo il terminale per ora</utterance>
+<utterance turn="558" who="reynens">Causa che siete nel parcheggio</utterance>
+<utterance turn="559" who="reynens">danneggiato</utterance>
+<utterance turn="560" who="rizwanp">fermata autobus</utterance>
+<utterance turn="561" who="reynens">uso solo terminal</utterance>
+<utterance turn="562" who="rizwanp">ma vi posso essere in 5 min.</utterance>
+<utterance turn="563" who="Michael Clark">Tecnicamente è stato quello che riguardava la questione. I terminali in ospedale. Ma se il web sta utilizzando lo stesso sistema che sarebbe combinati importo.</utterance>
+<utterance turn="563" who="Michael Clark">La domanda successiva è stata quante persone si pensa di utilizzare il sito Web al giorno.</utterance>
+<utterance turn="564" who="rizwanp">dipende dal</utterance>
+<utterance turn="566" who="rizwanp">Se si tratta di una vacanza o un giorno lavorativo</utterance>
+<utterance turn="565" who="nguyenh">circa 20 00</utterance>
+<utterance turn="567" who="corbettj">JUST una nota: controllare il tempo VS quanti elementi di discussione sono lasciati</utterance>
+<utterance turn="568" who="reynens">così abbiamo il numero 2000 e corbettj dice ci auguriamo tutti i 4000 in / indotta (che contare i visitatori, necessariamente, appena paziente)</utterance>
+<utterance turn="569" who="nguyenh">20 000 = 5 * 4000</utterance>
+<utterance turn="570" who="rizwanp">20.000?</utterance>
+<utterance turn="571" who="Michael Clark">20000 opere. Consente di andare avanti.</utterance>
+<utterance turn="572" who="corbettj">Dobbiamo sperare per tutti, ma alla fine qualcuno sarà confortevoli</utterance>
+<utterance turn="573" who="rizwanp">Wtf</utterance>
+<utterance turn="574" who="Michael Clark">Q14. Abbiamo bisogno di un quadro chiaro di come l'attuale sistema tracce record dei pazienti così possiamo arrivare con un metodo più accurato ed efficiente. Come vengono introdotti imprecisioni nel sistema attuale, e quali sono? Ciò renderebbe i record dei pazienti più efficiente e accessibile a medici e infermieri?</utterance>
+<utterance turn="575" who="rizwanp">Ok</utterance>
+<utterance turn="576" who="reynens">Riz, siete IT</utterance>
+<utterance turn="577" who="rizwanp">Permettetemi di parlare di imprecisioni</utterance>
+<utterance turn="578" who="rizwanp">Chiudere tutti gli altri</utterance>
+<utterance turn="579" who="rizwanp">primo</utterance>
+<utterance turn="580" who="rizwanp">database è aggiornato manualmente, come nelle informazioni viene digitato</utterance>
+<utterance turn="581" who="rizwanp">errori di battitura così</utterance>
+<utterance turn="582" who="rizwanp">Ok</utterance>
+<utterance turn="583" who="rizwanp">u può andare ora</utterance>
+<utterance turn="584" who="Michael Clark">Cosa fare nel nuovo sistema sarebbe come immesso automaticamente per rimuovere questa persona digitando?</utterance>
+<utterance turn="585" who="rizwanp">tracciamento</utterance>
+<utterance turn="586" who="rizwanp">Pensavo che fosse nel RFP</utterance>
+<utterance turn="587" who="reynens">sinergia</utterance>
+<utterance turn="588" who="nguyenh">Ho anche se chiedete rimuovere Riz</utterance>
+<utterance turn="589" who="Michael Clark">Okay. Così le attrezzature e tracking fornito.</utterance>
+<utterance turn="589" who="Michael Clark">Che cosa sui record dei pazienti.</utterance>
+<utterance turn="590" who="nguyenh">perché abbiamo subito il sistema 3</utterance>
+<utterance turn="591" who="nguyenh">così tutto dovrebbe essere in 1</utterance>
+<utterance turn="592" who="nguyenh">-&gt; meno digitando</utterance>
+<utterance turn="593" who="saroyam">nuovi pazienti dovrà ancora essere digitato in</utterance>
+<utterance turn="594" who="gosselinc">i record dei pazienti sono tenuti in un server, vogliamo tracciare i movimenti dei pazienti</utterance>
+<utterance turn="596" who="gosselinc">Questo è il tracciamento di cui stiamo parlando</utterance>
+<utterance turn="595" who="rizwanp">Sì</utterance>
+<utterance turn="597" who="kaspara">Vogliamo tenere traccia della posizione dei pazienti, e che hanno integrato con il sistema di record dei pazienti</utterance>
+<utterance turn="598" who="rizwanp">ofcourse</utterance>
+<utterance turn="599" who="Michael Clark">Sì. Okay.</utterance>
+<utterance turn="600" who="Michael Clark">Q16. Sono le autorizzazioni livello di gruppo, ovvero il sistema dovrebbe trattare in modo uniforme tutti gli amministratori e notificare tutti quando sono in esecuzione basse, forniture o selezionare alcuni?</utterance>
+<utterance turn="601" who="nguyenh">Mi thikn che noi dovremmo tenere traccia dei pazienti ubicazione come weel</utterance>
+<utterance turn="604" who="nguyenh">livello di gruppo è buona che credo</utterance>
+<utterance turn="602" who="rizwanp">attendere</utterance>
+<utterance turn="603" who="rizwanp">così è stata chiarita la cosa imprecisioni?</utterance>
+<utterance turn="605" who="rizwanp">Michael?</utterance>
+<utterance turn="606" who="rizwanp">è chiaro?</utterance>
+<utterance turn="607" who="corbettj">Sì... è corretto livello di gruppo</utterance>
+<utterance turn="608" who="reynens">gruppo = yes, credo</utterance>
+<utterance turn="609" who="chiuo">Qual è stata la decisione più efficiente/accessiblity?</utterance>
+<utterance turn="610" who="Michael Clark">Sì... prevalentemente segno - in entrata e in uscita di forniture e attrezzature causa imprecisioni... record paziente sarà ofo corso necessità di essere entrato intiially.</utterance>
+<utterance turn="611" who="chiuo">semplice monitoraggio in generale?</utterance>
+<utterance turn="612" who="reynens">un amministratore è un amministratore è un amministratore, e un medico è che un medico è un medico?</utterance>
+<utterance turn="613" who="reynens">Penso che ha rotto qualcosa</utterance>
+<utterance turn="614" who="rizwanp">Yeah analizzare ur</utterance>
+<utterance turn="615" who="rizwanp">ed è stato mi</utterance>
+<utterance turn="616" who="corbettj">lol</utterance>
+<utterance turn="617" who="Michael Clark">È il livello di gruppo.</utterance>
+<utterance turn="618" who="rizwanp">certo</utterance>
+<utterance turn="619" who="Michael Clark">Questo è tutto per il business.</utterance>
+<utterance turn="620" who="Michael Clark">al rilevamento delle esigenze.</utterance>
+<utterance turn="621" who="rizwanp">Sì ma'am</utterance>
+<utterance turn="622" who="corbettj">Nizza</utterance>
+<utterance turn="623" who="reynens">Sì?</utterance>
+<utterance turn="624" who="gosselinc">Siete fortunati riz</utterance>
+<utterance turn="625" who="rizwanp">sono quindi u</utterance>
+<utterance turn="626" who="Michael Clark">Q17. In termini di funzionalità di individuazione del percorso, quali precisione è richiesto?</utterance>
+<utterance turn="627" who="reynens">Vogliamo sapere cosa camera nulla è in</utterance>
+<utterance turn="628" who="rizwanp">dico +-5 pollici</utterance>
+<utterance turn="629" who="nguyenh">numero di camere</utterance>
+<utterance turn="630" who="Michael Clark">Romm, coordinate esatte a 3 mm?</utterance>
+<utterance turn="631" who="reynens">* tutto</utterance>
+<utterance turn="632" who="corbettj">solo in camera / sala</utterance>
+<utterance turn="633" who="kaspara">Direi parola + camera</utterance>
+<utterance turn="636" who="nguyenh">No, solo camera numero</utterance>
+<utterance turn="634" who="gosselinc">numero di camere è abbastanza buono</utterance>
+<utterance turn="635" who="reynens">parola e sala</utterance>
+<utterance turn="637" who="rizwanp">attendere</utterance>
+<utterance turn="638" who="corbettj">Yeah pavimento troppo offc</utterance>
+<utterance turn="639" who="kaspara">offc?</utterance>
+<utterance turn="640" who="saroyam">all'interno dei locali dell'ospedale</utterance>
+<utterance turn="641" who="reynens">noi necessario un marcatore gps sulla posizione esatta latitudine/lungo</utterance>
+<utterance turn="642" who="Michael Clark">Okay. Percision per il rilevamento è spazio basata.</utterance>
+<utterance turn="643" who="corbettj">OFC... naturalmente: P</utterance>
+<utterance turn="644" who="rizwanp">numero di camere è sufficiente?</utterance>
+<utterance turn="645" who="corbettj">Typo</utterance>
+<utterance turn="646" who="Michael Clark">Q18. Che tipo di apparecchiatura sarebbe l'ideale di avere percorso-rilevamento hardware collegato, e cosa rimarrebbe tipi su una base di disconnessione? È possibile che un elemento di disconnessione richiederà anche percorso tracciamento?</utterance>
+<utterance turn="647" who="reynens">danneggiato</utterance>
+<utterance turn="648" who="rizwanp">OK, abbiamo bisogno di tenere traccia di un ago freaking in una stanza di 1000 metri quadri</utterance>
+<utterance turn="650" who="rizwanp">compagno Wtf</utterance>
+<utterance turn="651" who="rizwanp">Let's rallentare</utterance>
+<utterance turn="649" who="reynens">in primo luogo è primo</utterance>
+<utterance turn="652" who="rizwanp">nulla che interferisce con freakin pacemaker</utterance>
+<utterance turn="653" who="rizwanp">Abbiamo bisogno di tenere traccia di pacemaker</utterance>
+<utterance turn="654" who="reynens">no no</utterance>
+<utterance turn="655" who="rizwanp">PPL sono stealin fuori i pazienti</utterance>
+<utterance turn="656" who="rizwanp">e sono dyin</utterance>
+<utterance turn="657" who="reynens">la tecnologia di rilevamento</utterance>
+<utterance turn="658" who="reynens">Ecco a voi, ma garantire che non interferisca con apparecchiature medicali</utterance>
+<utterance turn="659" who="corbettj">Mi stai killin uomo riz</utterance>
+<utterance turn="660" who="kaspara">Concordo</utterance>
+<utterance turn="661" who="rizwanp">Hey</utterance>
+<utterance turn="662" who="nguyenh">Ogni apparecchiature devono essere traccia del numero di camera</utterance>
+<utterance turn="663" who="saroyam">u si desidera conoscere il tipo specifico di apparecchiature?</utterance>
+<utterance turn="664" who="rizwanp">Mi din't rubare pacemaker ur</utterance>
+<utterance turn="665" who="rizwanp">così non accusarmi</utterance>
+<utterance turn="666" who="rizwanp">Ok</utterance>
+<utterance turn="667" who="rizwanp">sul serio</utterance>
+<utterance turn="668" who="reynens">cose che mantengono vive = lavoro con il sistema di tracciamento in luogo</utterance>
+<utterance turn="669" who="rizwanp">Mi Wanna parlare che fornisce tracciamento precisione</utterance>
+<utterance turn="670" who="nguyenh">ogni volta che sposta l'attrezzatura, dovrebbe essere aggiornato il database</utterance>
+<utterance turn="671" who="Michael Clark">È possibile che un elemento di disconnessione richiederà anche percorso tracciamento?</utterance>
+<utterance turn="672" who="reynens">sul serio, secondo il movimento muto</utterance>
+<utterance turn="673" who="saroyam">Sì</utterance>
+<utterance turn="674" who="kaspara">Yeap</utterance>
+<utterance turn="675" who="fairheadj">Sì</utterance>
+<utterance turn="676" who="reynens">Sì</utterance>
+<utterance turn="677" who="Michael Clark">Okay.</utterance>
+<utterance turn="678" who="gosselinc">:)</utterance>
+<utterance turn="679" who="Michael Clark">Successiva.</utterance>
+<utterance turn="680" who="Michael Clark">Q5. La descrizione del problema afferma che stai cercando un modo per la posizione di forniture, le attrezzature e i pazienti di rilevamento. Nella sezione è indicato anche 4.0 della v1.0 RFP l'obbligo di conoscere il percorso di medici e infermieri. Si desidera il tracciamento del percorso di persone estendere alla ricerca personale, amministrazione personale e il personale di sicurezza nonché?</utterance>
+<utterance turn="681" who="reynens">la maggior parte assolutamente soprattutto</utterance>
+<utterance turn="682" who="reynens">attendere, domanda sbagliata per rispondere</utterance>
+<utterance turn="683" who="reynens">* zero</utterance>
+<utterance turn="684" who="nguyenh">Sì, sarebbe bello</utterance>
+<utterance turn="685" who="corbettj">non credo che la posizione di medici e infermieri si suppone che deve essere rilevata</utterance>
+<utterance turn="686" who="reynens">Pensavo che abbiamo deciso di non andare con che?</utterance>
+<utterance turn="688" who="reynens">è ancora in?</utterance>
+<utterance turn="687" who="saroyam">Yeah nessun rilevamento di medici o personale</utterance>
+<utterance turn="689" who="reynens">Ok</utterance>
+<utterance turn="690" who="reynens">non medici, non personale</utterance>
+<utterance turn="693" who="reynens">essi possono commettere crimini e non sapremo</utterance>
+<utterance turn="691" who="gosselinc">soli i pazienti</utterance>
+<utterance turn="692" who="rizwanp">dove diciamo che noi Wanna tenere traccia di medici e infermieri?</utterance>
+<utterance turn="694" who="Michael Clark">Okay, la RFP ha detto che avresti voluto sapere dove fossero... e ciò implicherebbe tracciamento...</utterance>
+<utterance turn="695" who="nguyenh">perché?</utterance>
+<utterance turn="696" who="nguyenh">essi dovrebbero essere traccia destra?</utterance>
+<utterance turn="697" who="kaspara">I medici possono essere una buona idea....</utterance>
+<utterance turn="698" who="saroyam">Credo che avrebbe dovuto essere stipulate</utterance>
+<utterance turn="699" who="nguyenh">Ok</utterance>
+<utterance turn="700" who="rizwanp">non vedo nulla di simile che in 4.0</utterance>
+<utterance turn="701" who="reynens">non ricordo una data, ma ricordo che noi razzolare docs disattivare l'elenco</utterance>
+<utterance turn="702" who="rizwanp">può u copia e Incolla?</utterance>
+<utterance turn="703" who="reynens">si ruppe il riz rfp</utterance>
+<utterance turn="704" who="rizwanp">BAH</utterance>
+<utterance turn="705" who="rizwanp">sul serio</utterance>
+<utterance turn="706" who="corbettj">hehehe</utterance>
+<utterance turn="707" who="rizwanp">I ' m grave</utterance>
+<utterance turn="708" who="Michael Clark">Sezione 4.0 medici.</utterance>
+<utterance turn="709" who="gosselinc">..... Che cos'è la sezione 4.0?</utterance>
+<utterance turn="710" who="rizwanp">Deve essere in grado di accedere alle informazioni sui pazienti correnti. Le informazioni dovrebbero includere loro ubicazione in ospedale, un record di farmaci tutti amministrati, un elenco di eventuali operazioni pianificate, una storia delle loro visite precedenti per l'ospedale, ecc..</utterance>
+<utterance turn="711" who="rizwanp">dove?</utterance>
+<utterance turn="712" who="corbettj">Deve essere in grado di accedere alle informazioni sui pazienti correnti. Le informazioni dovrebbero includere loro ubicazione in ospedale, un record di farmaci tutti amministrati, un elenco di eventuali operazioni pianificate, una storia delle loro visite precedenti per l'ospedale, ecc..</utterance>
+<utterance turn="713" who="Michael Clark">Okay. Quindi nessun medico di rilevamento...</utterance>
+<utterance turn="713" who="Michael Clark">oppure sarebbe auspicabile.</utterance>
+<utterance turn="714" who="corbettj">si tratta di informazioni che essi dovrebbero poter accedere per i pazienti</utterance>
+<utterance turn="715" who="reynens">no no no</utterance>
+<utterance turn="716" who="rizwanp">non</utterance>
+<utterance turn="717" who="rizwanp">indesiderabili</utterance>
+<utterance turn="718" who="saroyam">non</utterance>
+<utterance turn="719" who="chiuo">non OK personale di rilevamento</utterance>
+<utterance turn="720" who="reynens">Vogliamo vedere la posizione dei pazienti</utterance>
+<utterance turn="723" who="reynens">non vedere la loro posizione</utterance>
+<utterance turn="721" who="rizwanp">Sì</utterance>
+<utterance turn="722" who="nguyenh">il personale di rilevamento a tutti i</utterance>
+<utterance turn="724" who="kaspara">«loro» = pazienti correnti</utterance>
+<utterance turn="725" who="chiuo">OK fatto.</utterance>
+<utterance turn="726" who="Michael Clark">Sì, così per il record.... Nessun rilevamento del personale.</utterance>
+<utterance turn="727" who="reynens">** aggiornamento, SAVE tutto SAID qui</utterance>
+<utterance turn="728" who="corbettj">correggere</utterance>
+<utterance turn="729" who="Michael Clark">Q19. Allo stesso modo con quanto sopra, quali tipi di forniture volontà richiedono localizzazione su di loro? Una stima di quante sarebbe utile, e se il dispositivo di rilevamento dovranno essere spostati da un elemento spesso a altro.</utterance>
+<utterance turn="730" who="saroyam">sangue Pack</utterance>
+<utterance turn="731" who="saroyam">elementi dei donatori</utterance>
+<utterance turn="732" who="reynens">aghi = no</utterance>
+<utterance turn="733" who="nguyenh">Non dovrebbe esserci alcuna posizione di tracciamento per fornitura</utterance>
+<utterance turn="734" who="nguyenh">solo il numero di stanza</utterance>
+<utterance turn="735" who="nguyenh">Non intendo nessun rilevamento posizione in linea</utterance>
+<utterance turn="736" who="rizwanp">OK possiamo decidere subito</utterance>
+<utterance turn="737" who="Michael Clark">Okay. Così una volta raggiungono il deposito è fino al personale di immettere il numero di stanza dove essi sono guidati.</utterance>
+<utterance turn="738" who="rizwanp">ma noi possiamo sapere u</utterance>
+<utterance turn="739" who="kaspara">Bisogno di forniture deve essere rilevata nel deposito in arrivo troppo</utterance>
+<utterance turn="740" who="corbettj">Sarebbe bello se potrebbe traccia solo quando un elemento consumabile viene rimosso dalla è area di archiviazione rispettivi.... allora sapete che era nel processo di riassorbire così si potrebbe sostituirlo</utterance>
+<utterance turn="741" who="Michael Clark">Sì, un numero di isola e scaffali per il deposito o qualcosa di simile.</utterance>
+<utterance turn="742" who="nguyenh">qualcosa di simile che</utterance>
+<utterance turn="743" who="reynens">pensare in termini di programmazione</utterance>
+<utterance turn="745" who="reynens">qualcosa viene rimosso dallo stack, è noto</utterance>
+<utterance turn="744" who="gosselinc">4: 20 pm</utterance>
+<utterance turn="746" who="corbettj">che cosa stai dicendo Carlo?</utterance>
+<utterance turn="747" who="corbettj">: P</utterance>
+<utterance turn="748" who="gosselinc">appena detto</utterance>
+<utterance turn="749" who="Michael Clark">Okay... così fino alla persona quindi la rimozione.</utterance>
+<utterance turn="750" who="reynens">Chuck, sobbollire ora</utterance>
+<utterance turn="751" who="gosselinc">laboratorio è vicino al fatto</utterance>
+<utterance turn="752" who="reynens">no no</utterance>
+<utterance turn="755" who="reynens">qualcosa deve auto-traccia i numeri</utterance>
+<utterance turn="753" who="rizwanp">così?</utterance>
+<utterance turn="754" who="gosselinc">appena detto</utterance>
+<utterance turn="756" who="Michael Clark">Consente di passare alla sicurezza.</utterance>
+<utterance turn="757" who="reynens">: P</utterance>
+<utterance turn="758" who="rizwanp">abbiamo quasi 3 ore fino a LAN party</utterance>
+<utterance turn="759" who="kaspara">Lo spostamento è buono</utterance>
+<utterance turn="760" who="reynens">Automatico!</utterance>
+<utterance turn="761" who="reynens">LAN!</utterance>
+<utterance turn="762" who="Michael Clark">Q23. Come sono aree ristrette attualmente protette?</utterance>
+<utterance turn="766" who="Michael Clark">Solo accesso Keycard?</utterance>
+<utterance turn="763" who="kaspara">cani</utterance>
+<utterance turn="764" who="reynens">quelli rabbiose</utterance>
+<utterance turn="765" who="rizwanp">WOW</utterance>
+<utterance turn="767" who="nguyenh">scheda chiave</utterance>
+<utterance turn="768" who="corbettj">con la carta di sicurezza</utterance>
+<utterance turn="769" who="rizwanp">la prima parola u cosa e di cani</utterance>
+<utterance turn="770" who="rizwanp">ritardare u</utterance>
+<utterance turn="771" who="Michael Clark">Q24. C'È una preoccupazione di personale e/o pazienti rimozione dei dispositivi di rilevamento? È protezione aggiuntive necessarie nel collegamento di localizzazione alle apparecchiature?</utterance>
+<utterance turn="772" who="fairheadj">accesso Keycard</utterance>
+<utterance turn="773" who="reynens">Sì, salienti carte</utterance>
+<utterance turn="774" who="saroyam">principali carte</utterance>
+<utterance turn="775" who="nguyenh">non, personale sono persone buone</utterance>
+<utterance turn="776" who="Michael Clark">Q26. Che tipo di controllo (se presente) è necessario per garantire che tutti gli elementi sono firmato-out correttamente per mantenere accurati l'inventario del sistema? Ad esempio, c'è un deposito di che gestione un paio di lavoratori dipendenti, o sarà un bisogno di macchina vending automatizzato di interfaccia con il sistema?</utterance>
+<utterance turn="777" who="rizwanp">attendere l'attesa</utterance>
+<utterance turn="778" who="reynens">Riz, "cani" sono meglio di quanto avete detto</utterance>
+<utterance turn="779" who="corbettj">Nessuna preoccupazione sulla rimozione di personale</utterance>
+<utterance turn="780" who="rizwanp">dunno su JIM</utterance>
+<utterance turn="781" who="rizwanp">Egli è kinda ombrosi</utterance>
+<utterance turn="782" who="rizwanp">personale non sono trustable</utterance>
+<utterance turn="783" who="nguyenh">essi dovrebbero essere fiducia</utterance>
+<utterance turn="784" who="reynens">Okay</utterance>
+<utterance turn="785" who="Michael Clark">Okay...</utterance>
+<utterance turn="785" who="Michael Clark">qualsiasi preoccupazione riguardo attrezzature lasciato con i pazienti.... i grandi stuff non é alcuna preoccupazione. Difficile arrivare dalla protezione.</utterance>
+<utterance turn="786" who="reynens">Se un approvvigionamento è basso, il popolo di forniture è notificato dal sistema (admin anche ritengo</utterance>
+<utterance turn="788" who="reynens">sono abbastanza sicuro che è la rfp, pensavo</utterance>
+<utterance turn="787" who="nguyenh">everythng dovrebbe come automatizzata possibile</utterance>
+<utterance turn="789" who="reynens">Yeah,</utterance>
+<utterance turn="790" who="reynens">inserire nella macchina</utterance>
+<utterance turn="791" who="Michael Clark">Sì, saranno notificati amministratori....</utterance>
+<utterance turn="792" who="reynens">Saranno notificate troppo forniture</utterance>
+<utterance turn="793" who="reynens">Dept</utterance>
+<utterance turn="794" who="reynens">...</utterance>
+<utterance turn="795" who="Michael Clark">Okay. Perfetto.</utterance>
+<utterance turn="796" who="Michael Clark">Tutto chiaro?</utterance>
+<utterance turn="797" who="reynens">Mi sento shunned?</utterance>
+<utterance turn="798" who="rizwanp">Sì</utterance>
+<utterance turn="799" who="reynens">certo</utterance>
+<utterance turn="800" who="corbettj">Sì</utterance>
+<utterance turn="801" who="saroyam">Ok</utterance>
+<utterance turn="802" who="rizwanp">tutto chiaro</utterance>
+<utterance turn="803" who="nguyenh">Ye</utterance>
+<utterance turn="804" who="Michael Clark">Sezione successiva qui veniamo.</utterance>
+<utterance turn="805" who="rizwanp">c'è di più?</utterance>
+<utterance turn="806" who="rizwanp">u avuto troppo tempo sulle mani ur</utterance>
+<utterance turn="807" who="reynens">tecnica</utterance>
+<utterance turn="808" who="reynens">è sui popoli si</utterance>
+<utterance turn="809" who="Michael Clark">Q27. Dati i limiti di un moderno sistema e zero i tempi di inattività consentito, il sistema richiede più livelli di ridondanza sincronizzato con un unico sistema in attesa di intervenire quando un altro si arresta. Che tipo di ridondanza del sistema corrente?</utterance>
+<utterance turn="810" who="reynens">NESSUNO</utterance>
+<utterance turn="811" who="rizwanp">non redunduncy</utterance>
+<utterance turn="812" who="nguyenh">ZERO</utterance>
+<utterance turn="813" who="Michael Clark">Nessuna attuale, o nessuno desiderato.</utterance>
+<utterance turn="814" who="rizwanp">attendere</utterance>
+<utterance turn="815" who="rizwanp">Nessuna attuale</utterance>
+<utterance turn="816" who="reynens">zero con uno zero captial</utterance>
+<utterance turn="817" who="Michael Clark">Okay.</utterance>
+<utterance turn="818" who="corbettj">Nessun archiviazione ridondanti, ma ci hanno ridondanza sui sistemi di potenza</utterance>
+<utterance turn="819" who="Michael Clark">Q28. Che tipo di alimentazione di backup avete per i vostri sistemi di rete e computer in caso di interruzione dell'alimentazione?</utterance>
+<utterance turn="820" who="nguyenh">non presenti ma deve essere implementare</utterance>
+<utterance turn="821" who="rizwanp">desiderato = yes, grande momento</utterance>
+<utterance turn="822" who="Michael Clark">Okay.</utterance>
+<utterance turn="823" who="rizwanp">Generatore</utterance>
+<utterance turn="824" who="saroyam">Generatore</utterance>
+<utterance turn="825" who="kaspara">L'ospedale ha un generatore di backup</utterance>
+<utterance turn="826" who="reynens">disponiamo di alimentazione di backup</utterance>
+<utterance turn="827" who="corbettj">potenza è coperto come abbiamo altri sistemi collegati non computer che richiedono sempre sul potere</utterance>
+<utterance turn="828" who="rizwanp">Siamo pronti ad andare su una frusta lash cavalli</utterance>
+<utterance turn="829" who="reynens">thats la risposta</utterance>
+<utterance turn="831" who="Michael Clark">bene. Immagino che affidabili. :-)</utterance>
+<utterance turn="830" who="nguyenh">ma sarà invertite potenza</utterance>
+<utterance turn="833" who="nguyenh">quindi bisogno di APC indipendente</utterance>
+<utterance turn="835" who="nguyenh">Nessun UPC</utterance>
+<utterance turn="832" who="Michael Clark">Q29. Esiste attualmente qualsiasi sistema in vigore per il backup delle informazioni?</utterance>
+<utterance turn="834" who="reynens">certo</utterance>
+<utterance turn="836" who="reynens">Sì, una volta l'anno, su nastro</utterance>
+<utterance turn="837" who="Michael Clark">Che cos'è APC</utterance>
+<utterance turn="838" who="rizwanp">Lasciamo decidere se dobbiamo UPC o APC o BMC</utterance>
+<utterance turn="839" who="reynens">seriamente però, io so</utterance>
+<utterance turn="840" who="saroyam">una volta al mese</utterance>
+<utterance turn="841" who="saroyam">su nastro</utterance>
+<utterance turn="842" who="nguyenh">UPC</utterance>
+<utterance turn="843" who="reynens">UPC</utterance>
+<utterance turn="844" who="reynens">storage su nastro, woot</utterance>
+<utterance turn="845" who="Michael Clark">Okay.</utterance>
+<utterance turn="846" who="nguyenh">nastro ogni notte che penso</utterance>
+<utterance turn="847" who="corbettj">Q29 = una volta al mese su nastro</utterance>
+<utterance turn="848" who="nguyenh">È corrent</utterance>
+<utterance turn="849" who="corbettj">allora ogni notte?</utterance>
+<utterance turn="850" who="saroyam">Yeah everynite</utterance>
+<utterance turn="850" who="saroyam">e un mensile troppo</utterance>
+<utterance turn="851" who="Michael Clark">Backup = una volta al mese su nastro.</utterance>
+<utterance turn="852" who="reynens">nastro al mese</utterance>
+<utterance turn="853" who="reynens">Sì</utterance>
+<utterance turn="854" who="reynens">Oh</utterance>
+<utterance turn="855" who="reynens">nastro/notte/mese</utterance>
+<utterance turn="856" who="rizwanp">una volta al mese?</utterance>
+<utterance turn="857" who="Michael Clark">e mensile.</utterance>
+<utterance turn="858" who="Michael Clark">oaky.</utterance>
+<utterance turn="859" who="rizwanp">dico 24 ore</utterance>
+<utterance turn="860" who="nguyenh">inversione di potere fare prendere aroudn 10 min in qualche zona</utterance>
+<utterance turn="861" who="Michael Clark">Q30. I tre personale IT sono attualmente familiarità con il sistema attuale e il software installato? Essi sviluppare e l'attuale sistema di installazione?</utterance>
+<utterance turn="862" who="gosselinc">Lei dice tante cose</utterance>
+<utterance turn="863" who="reynens">Lei dice nulla Riz</utterance>
+<utterance turn="864" who="rizwanp">non</utterance>
+<utterance turn="865" who="rizwanp">si tratta di dropout scuola</utterance>
+<utterance turn="866" who="gosselinc">admin_ban riwanp "cuz si parla troppo"</utterance>
+<utterance turn="867" who="saroyam">familiarità con essa</utterance>
+<utterance turn="868" who="reynens">essi non impostato</utterance>
+<utterance turn="869" who="gosselinc">ha dovuto provare che</utterance>
+<utterance turn="870" who="Michael Clark">Essi possono essere addestrati.</utterance>
+<utterance turn="871" who="Michael Clark">Due domande!</utterance>
+<utterance turn="872" who="reynens">Sì</utterance>
+<utterance turn="873" who="reynens">vai vai vai</utterance>
+<utterance turn="874" who="Michael Clark">Q32. Quale velocità di Ethernet è utilizzando il sistema attuale?</utterance>
+<utterance turn="875" who="reynens">e nessun osservazioni</utterance>
+<utterance turn="876" who="reynens">T1? T3?</utterance>
+<utterance turn="877" who="nguyenh">100 sul client</utterance>
+<utterance turn="878" who="reynens">tylenol?</utterance>
+<utterance turn="879" who="reynens">Sì</utterance>
+<utterance turn="880" who="nguyenh">1 g sul backbond</utterance>
+<utterance turn="881" who="Michael Clark">Okay. 100 Mbit sul computer client. T1 all'ospedale.</utterance>
+<utterance turn="882" who="nguyenh">non</utterance>
+<utterance turn="883" who="Michael Clark">Okay...?</utterance>
+<utterance turn="884" who="rizwanp">ascoltare nguyen questa volta</utterance>
+<utterance turn="885" who="nguyenh">1 g sulla spina dorsale dall'edificio per edificio</utterance>
+<utterance turn="886" who="reynens">Yeah</utterance>
+<utterance turn="887" who="Michael Clark">1 g per la spina dorsale... bene.</utterance>
+<utterance turn="888" who="nguyenh">in ospedale è un dsl 30mbbs</utterance>
+<utterance turn="889" who="reynens">l'osso sul retro</utterance>
+<utterance turn="890" who="nguyenh">forse T1</utterance>
+<utterance turn="891" who="rizwanp">OK non ascoltare nguyen più</utterance>
+<utterance turn="892" who="rizwanp">: P</utterance>
+<utterance turn="893" who="saroyam">consente solo andare con t1</utterance>
+<utterance turn="894" who="saroyam">domanda successiva</utterance>
+<utterance turn="895" who="rizwanp">maledizione</utterance>
+<utterance turn="896" who="reynens">T1 è due sillabe, vorrei passare</utterance>
+<utterance turn="897" who="Michael Clark">e 100 mbit per macchine client. Buona.</utterance>
+<utterance turn="898" who="Michael Clark">Q33. Sono networkable i vecchi computer non connesso in rete?</utterance>
+<utterance turn="899" who="rizwanp">certo</utterance>
+<utterance turn="900" who="saroyam">Sì</utterance>
+<utterance turn="901" who="nguyenh">Sì</utterance>
+<utterance turn="902" who="rizwanp">quali?</utterance>
+<utterance turn="903" who="reynens">essi un "ethernet cards"</utterance>
+<utterance turn="904" who="corbettj">si chiedono se hanno una scheda di rete esistente?</utterance>
+<utterance turn="905" who="reynens">sta consigliato di andare a capo</utterance>
+<utterance turn="906" who="reynens">così dice un "ta"</utterance>
+<utterance turn="907" who="Michael Clark">Quelli utilizzati per tenere traccia delle forniture ora penso.</utterance>
+<utterance turn="908" who="rizwanp">Yeah tutti dispongono di NIC</utterance>
+<utterance turn="909" who="nguyenh">Sì</utterance>
+<utterance turn="910" who="reynens">hanno schede ethernet</utterance>
+<utterance turn="911" who="Michael Clark">Okay.</utterance>
+<utterance turn="912" who="nguyenh">Ok</utterance>
+<utterance turn="913" who="reynens">osservazioni conclusive?</utterance>
+<utterance turn="914" who="Michael Clark">Grazie per aver partecipato in questa sessione elicitation. Il verbale di riunione e di un registro completo sarà pubblicate sul sito Web di tre sistemi nei prossimi giorni. Non esitate a contattarci se avete domande o preoccupazioni. Una volta, grazie per il vostro tempo. \</utterance>
+<utterance turn="915" who="reynens">Riz, parcheggio</utterance>
+<utterance turn="916" who="rizwanp">fermata autobus</utterance>
+<utterance turn="917" who="reynens">Grazie Mike.</utterance>
+<utterance turn="918" who="Michael Clark">:-) Remakrs finale.</utterance>
+<utterance turn="919" who="nguyenh">Grazie ragazzi</utterance>
+<utterance turn="920" who="rizwanp">Gotta essere in grado di battere la crap di u b4 cattura il prossimo 26</utterance>
+<utterance turn="921" who="chiuo">OK tutti scribed a mio avviso</utterance>
+<utterance turn="922" who="Michael Clark">Grazie a tutti.</utterance>
+<utterance turn="923" who="gosselinc">riz parla troppo... noi dovremmo davvero muto lui</utterance>
+<utterance turn="924" who="gosselinc">per la prossima volta</utterance>
+<utterance turn="925" who="Michael Clark">MEH.</utterance>
+<utterance turn="926" who="reynens">26 è per vinti</utterance>
+<utterance turn="927" who="gosselinc">:)</utterance>
+<utterance turn="928" who="rizwanp">Yeah muto mi</utterance>
+<utterance turn="929" who="saroyam">Ciao</utterance>
+<utterance turn="930" who="corbettj">riz / scott... guys ucciso me.... è stato ridendo mio culo qui: P</utterance>
+<utterance turn="931" who="reynens">salvare i risultati qui persone</utterance>
+<utterance turn="932" who="rizwanp">chi è corbett?</utterance>
+<utterance turn="933" who="rizwanp">Ho pensato che fosse l'edificio</utterance>
+<utterance turn="934" who="corbettj">&lt;-- jeff&gt;&lt;/-- jeff&gt;</utterance>
+<utterance turn="935" who="reynens">whups</utterance>
+<utterance turn="936" who="rizwanp">Oh</utterance>
+<utterance turn="937" who="gosselinc">Abbiamo fatto?</utterance>
+<utterance turn="938" who="reynens">Jeff</utterance>
+<utterance turn="939" who="rizwanp">bello...</utterance>
+<utterance turn="940" who="rizwanp">u'r qui</utterance>
+<utterance turn="941" who="corbettj">lol</utterance>
+<utterance turn="942" who="rizwanp">Ok ciao ciao</utterance>
+<utterance turn="943" who="rizwanp">Mi auguro che ho contribuito</utterance>
+<utterance turn="944" who="corbettj">k abbiamo fatto poi?</utterance>
+<utterance turn="945" who="rizwanp">o sono stato utile</utterance>
+<utterance turn="946" who="gosselinc">non dimenticate di salvare</utterance>
+<utterance turn="947" who="Michael Clark">Lo ha. :-)</utterance>
+<utterance turn="948" who="nguyenh">Ciao</utterance>
+<utterance turn="949" who="corbettj">Voi ragazzi gonna agganciare noi con una copia della chat?</utterance>
+<utterance turn="950" who="rizwanp">sicuramente</utterance>
+<utterance turn="951" who="Michael Clark">Noi stiamo fatto. Confrence arrestato. Godetevi il resto della giornata.</utterance>
+<utterance turn="952" who="rizwanp">u troppo</utterance>
+<utterance turn="953" who="gosselinc">salvare il proprio Giacomo</utterance>
+<utterance turn="954" who="corbettj">THX</utterance>
+<utterance turn="955" who="rizwanp">giunto al partito LAn</utterance>
+<utterance turn="956" who="corbettj">=/</utterance>
+<utterance turn="957" who="chiuo">OK manualmente salvato una volta le decisioni di copia e Incolla anche mike</utterance>
+<utterance turn="958" who="chiuo">Umm yea come ho detto I manualmente copiato e incollato una volta anche le decisioni</utterance>
+</meeting>

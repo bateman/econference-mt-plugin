@@ -1,0 +1,222 @@
+Turn;Who;Role;Utterance;Category
+1;beckd;client;hi all;Other
+2;Jeff Spears;dev;anyone want to be scribe;Other
+3;beckd;client;yeah ;Other
+4;beckd;client;i'll be;Other
+5;Jeff Spears;dev;done;Other
+6;whitew;dev;goeff, I'm going to disconnect, and then invite me again ok;Other
+7;Jeff Spears;dev;are we all here??;Other
+8;Jeff Spears;dev;fine;Other
+9;Jeff Spears;dev;why;Other
+10;Jeff Spears;dev;oh the echo;Other
+11;whitew;dev;because i have 2 invites, and is ;Other
+12;whitew;dev;yes;Other
+13;whitew;dev;just a sec disconnecting;Other
+14;beckd;client;are we missing anyonw?;Other
+15;beckd;client;anyone;Other
+16;Jeff Spears;dev;"eah warren isnt back yet y
+";Other
+17;Jeff Spears;dev;alright;Other
+18;whitew;dev;already then;Other
+19;Jeff Spears;dev;were al here;Other
+20;Jeff Spears;dev;want to start;Other
+21;beckd;client;how do i raise my hand?;Other
+22;Jeff Spears;dev;?;Other
+23;nordmanr;client;We're all present on the client team here;Other
+24;Jeff Spears;dev;k lets go;Other
+25;Jeff Spears;dev;After reading the RFP this is the idea we have for your project: Essentially a secure messenger clone for the client end, with file sharing and transfers capabilties. These clients are facilitated by a centralized server that stores all user info and logs the conversations and stores them in a DB. ;Complex Question
+26;Jeff Spears;dev;is that pretty much it?;Complex Question
+27;mcmahonp;client;Yes;Y/N Answer
+28;whitew;dev;good;Acknowledgment
+29;mcmahonp;client;Though we don't necessarilly need the conversations to be stored in a DB...;Complex Answer
+30;hanlonc;client;We also need application sharing.  IE - letting someone else access a single window on my computer.;Complex Answer
+31;Jeff Spears;dev;k ;Acknowledgment
+;;dev;we have questions about that so just wanted an overview;Task
+32;Jeff Spears;dev;how do we move to the next topic;Other
+33;nordmanr;client;You were on it;Other
+34;nordmanr;client;there;Other
+35;Jeff Spears;dev;ah perfect;Other
+36;Jeff Spears;dev;ok I preparde all the questions eariler;Other
+37;Jeff Spears;dev;so I'll just cut and paste em;Other
+38;beckd;client;great;Other
+39;Jeff Spears;dev;"2.0 share source code quickly and easily with another remote employee
+ 
+ How many users should be able to share code??
+ Does sharing code men simultaneous editing??";Complex Question
+40;hanlonc;client;I believe sharing code refers to the ability to copy and paste code easily.  Without it getting messy.;Complex Answer
+41;stuartc;client;unless you're referring to the application sharing part;Check
+42;Jeff Spears;dev;no we're just dealing with the 2.0 portion right now;Task
+43;nordmanr;client;Yeah, we should be able to share a coding application between two users;Task
+44;whitew;dev;refering to the first bullet of 2.0;Task
+45;nordmanr;client;But in terms of sharing code, I think with respect to that we just meant copy and paste functionality;Agreement
+46;Jeff Spears;dev;so passing a viewable window of the code to the other person ;Check
+47;stuartc;client;exactly;Agreement
+48;whitew;dev;ok;Acknowledgment
+49;Jeff Spears;dev;and they can get access to it and make changes;Task
+50;Jeff Spears;dev;while both people watch;Task
+51;Jeff Spears;dev;not both trying to do it at the same time;Task
+52;whitew;dev;one will have to allow the other to view/modify;Task
+53;nordmanr;client;I think it would be sufficient just if they could send big blocks of source code to each other via a copy and paste kind of system, and then if editing is required they could use the application sharing feature...;Task
+54;nordmanr;client;what do you guys think?;Check
+55;hanlonc;client;I second that.;Agreement
+56;mcmahonp;client;Yeah, that was what we had envisioned.;Agreement
+57;beckd;client;done.;Acknowledgment
+58;stuartc;client;that sounds good;Agreement
+59;Jeff Spears;dev;okay ;Acknowledgment
+60;whitew;dev;done;Acknowledgment
+61;nordmanr;client;Make sense, Jeff?;Check
+63;Jeff Spears;dev;yeah makes sense to me;Agreement
+62;stuartc;client;did we want a dedicated window for this?;Complex Question
+64;mcmahonp;client;All we wanted was an IM feature that wasn't length restricted and preserved indentation.;Complex Answer
+65;nordmanr;client;A dedicated window could be nice, but that's more of an implementation detail;Task
+66;Jeff Spears;dev;ok perfect;Acknowledgment
+67;nordmanr;client;yeah;Agreement
+68;Jeff Spears;dev;next q;Other
+69;Jeff Spears;dev;Directory of users  basically a contact list with everyone from the company??;Y/N Question
+70;mcmahonp;client;yes;Y/N Answer
+71;Jeff Spears;dev;split into sections or something;Task
+72;whitew;dev;stored on the central server;Task
+73;sheny;client;like different dept;Complex Answer
+74;stuartc;client;right;Agreement
+75;Jeff Spears;dev;yeah;Agreement
+76;;;exactly;
+77;stuartc;client;and different offices;Task
+78;Jeff Spears;dev;different offices=diff locations? right;Check
+79;stuartc;client;yes;Agreement
+80;Jeff Spears;dev;k;Acknowledgment
+81;Jeff Spears;dev;Archive Can users view other conversations like if you missed a meeting?? Or do you need an invite to view?? ;Complex Question
+82;hanlonc;client;The directory also needs to include favorites type functionality.  So that users can see a list of the users they talk to most.;Complex Answer
+83;Jeff Spears;dev;yeah i envisioned that;Agreement
+84;hanlonc;client;0;Y/N Answer
+85;Jeff Spears;dev;ok;Acknowledgment
+86;mcmahonp;client;But it would be nice if a user could choose to make a conversation public.;Task
+87;stuartc;client;thats what i was thinking;Agreement
+88;hanlonc;client;I agree.;Agreement
+89;stuartc;client;maybe if we could set different permissions on the logs;Task
+90;Jeff Spears;dev;oh ok I like that idea;Agreement
+91;nordmanr;client;yeah, that sounds good;Agreement
+92;hanlonc;client;The company security/privacy officer will also need to be able to read all logs.;Task
+93;mcmahonp;client;yeah;Agreement
+94;mcmahonp;client;Though all his access to the logs should be in turn logged.;Task
+95;Jeff Spears;dev;ok;Acknowledgment
+96;Jeff Spears;dev;Secure connections inter office or can users connect from home etc. ??;Y/N Question
+97;whitew;dev;jeff, how bout the next question;Other
+98;nordmanr;client;No, only inter office;Y/N Answer
+99;stuartc;client;for security's sake;Task
+100;Jeff Spears;dev;ok;Acknowledgment
+101;hanlonc;client;I think users who are connected via the corporate VPN should be able to participate in conversations.;Task
+102;beckd;client;VPN?;Check
+103;whitew;dev;we can have secure VPN;Check
+104;mcmahonp;client;Do we have a VPN...;Check
+105;nordmanr;client;Would our company really have that service?;Y/N Question
+106;mcmahonp;client;I don't think we do.;Y/N Answer
+107;nordmanr;client;It's kind of a security risk to allow employees to take source code home with them;Task
+108;Jeff Spears;dev;so no VPN?;Check
+109;hanlonc;client;Most of the software companies I've worked for have implemented some form of VPN.;Complex Answer
+110;nordmanr;client;Let's say that we'd like that feature but we probably wouldn't use it yet;Complex Answer
+111;mcmahonp;client;"Yeah, but we're a ""secure"" company.";Disagreement
+112;nordmanr;client;In the future we may need this system to support it;Task
+113;Jeff Spears;dev;maybe leave the VPN for RES 2.0?;Check
+114;Jeff Spears;;so set it up to be compatible with a future VPN ;
+115;nordmanr;client;Yes;Agreement
+116;hanlonc;client;How about anyone who is connected to our private TCP/IP network can access our the system.  For the timebeing that is only local users but in the future it could include vpn users...;Task
+117;nordmanr;client;Yeah, what Chris said;Agreement
+118;Jeff Spears;dev;ok sounds good;Agreement
+119;nordmanr;client;next q;Other
+120;stuartc;client;sounds good;Agreement
+121;Jeff Spears;dev;provide intrasite connectivity if external connections are interrupted. Do you mean ability to connect with other users internally when there is no external internet connection??;Y/N Question
+122;nordmanr;client;Yes, in a nutshell;Y/N Answer
+123;nordmanr;client;I think we meant, with our multiple offices, if one of the sites loses connectivity, the other should still be able to communicate with itself and others;Complex Answer
+124;mcmahonp;client;yes;Agreement
+125;Jeff Spears;dev;if its a centralized server what if the server site loses connectivity;Y/N Question
+126;;;or are you more interested in a server for each site;
+127;nordmanr;client;We're interested in whatever solution will give us the functionality we need;Complex Answer
+128;mcmahonp;client;yeah;Agreement
+129;whitew;dev;start with one office, the R2;Other
+130;beckd;client;here here!;Other
+131;Jeff Spears;dev;k;Acknowledgment
+132;Jeff Spears;dev;No eavesdropping do you want the log files encrypted too?? If so, how??  Saved conversations Password protected or public key, or other??;Complex Question
+133;whitew;dev;I think above they stated that the conversations were not to be in db;Complex Answer
+134;hanlonc;client;We need employees at one site to be able to talk to each other even if their connection to other sites is down.;Complex Answer
+135;Jeff Spears;dev;maybe not necessary since the invite would be requiered;Disagreement
+136;mcmahonp;client;We need the logs to be secure against intruders/hackers/rogue employees.;Complex Answer
+137;Jeff Spears;dev;but how can anyone access their conversations are they going to be stored on the individual machines;Complex Question
+138;hanlonc;client;We also need the software to handle network outages cleanly.  Forinstance, let's pretend beckd lost his network connection.  He should regain his scribe priveledges as soon as he regains his network connection.;Task
+139;Jeff Spears;dev;i see how you could get your own but invites to others;Disagreement
+140;Jeff Spears;dev;It makes a lot of duplicated space without a DB for the conversations;Disagreement
+141;mcmahonp;client;No, about the db, I was just saying we weren't specifying how you would handle the logs;Task
+142;nordmanr;client;Well, I don't think we mean to rule out the possiblity of the DB;Task
+143;mcmahonp;client;you're free to use a db server if you want;Task
+144;nordmanr;client;Yes;Agreement
+145;stuartc;client;it's up to you guys how you want to implement it;Task
+146;Jeff Spears;dev;i think its the most logical way;Task
+147;nordmanr;client;In terms of requirements, we want the log files accessible by the authorized employee, be it a conversation they participated in or one they have been given access to;Complex Answer
+148;stuartc;client;sounds about right;Agreement
+149;Jeff Spears;dev;ok understood;Acknowledgment
+150;Jeff Spears;dev;k sorry i skipped 3.0;Other
+151;Jeff Spears;dev;Is the support staff supporting all thesoftware you use or supporting this application, or is it supporting the software that your company sells??;Y/N Question
+152;nordmanr;client;No, they're supporting our workstations;Y/N Answer
+154;nordmanr;client;Making sure that our employees workstations are running and the correct software is installed and all that;Task
+153;whitew;dev;as tech helpers?;Y/N Question
+155;nordmanr;client;yeah, exactly;Y/N Answer
+156;Jeff Spears;dev;alright;Acknowledgment
+157;whitew;dev;ok;Acknowledgment
+158;Jeff Spears;dev;If you're running XP why not use remote assistance that's included with the OS??;Complex Question
+159;nordmanr;client;Yeah, that would be fine;Complex Answer
+160;;;But we'd need an interface into it via this messaging system;
+161;;;Or at least, that's what we'd like;
+162;hanlonc;client;Umm - maybe remote assistance isn't compatible with our WAN;Disagreement
+163;nordmanr;client;why wouldn't it be?;Complex Question
+164;nordmanr;client;I've used remote assistance over a WAN before;Disagreement
+165;whitew;dev;security reasons again;Complex Answer
+166;nordmanr;client;Well, as long as it's as secure as our instant messaging;Disagreement
+167;whitew;dev;which section we on goeff?;Other
+168;Jeff Spears;dev;4.0;Other
+170;;;doesnt it say at the top of your screen;
+171;whitew;dev;"it's off screen abit ;)";Other
+169;nordmanr;client;We'd want the same constraint as we had regarding access to the messaging system;Task
+172;nordmanr;client;only hosts on the private TCP/IP network should be able to use remote assistance features;Task
+173;Jeff Spears;dev;then where do the securty risks come from;Complex Question
+174;whitew;dev;inter office, and office to office ;Complex Answer
+175;nordmanr;client;yeah, we have multiple sites;Agreement
+176;hanlonc;client;Also, only authorized personal - support staff should be able to connect using remote assistance.;Task
+177;Jeff Spears;dev;i would think youd' have tech support on site;Y/N Question
+178;nordmanr;client;yes, that's correct;Agreement
+179;hanlonc;client;Some tasks require specialised technicians from a particular site.;Task
+180;Jeff Spears;dev;so then remote assistance would really only need to be done within a site;Check
+181;nordmanr;client;It would probably be sufficient if only geographically local tech support staff could access the feature;Task
+182;hanlonc;client;I dissagree with nordmanr.;Disagreement
+183;nordmanr;client;although it would be nice if it worked inter-office;Task
+184;stuartc;client;that would be nice;Agreement
+185;hanlonc;client;Certain inhouse products are primarely supported from our New York office.;Task
+186;nordmanr;client;Yeah, that's true;Agreement
+187;Jeff Spears;dev;so then essentially it will have to work across the exact same network as the messaging;Check
+188;Jeff Spears;dev;not a subset;Check
+189;nordmanr;client;Right;Agreement
+190;beckd;client;Time....;Other
+191;whitew;dev;time?;Other
+192;Jeff Spears;dev;whoops that was 5.0;Other
+193;Jeff Spears;dev;407;Other
+194;hanlonc;client;Good point we only have 13minutes left.;Other
+205;whitew;dev;nope, thats it;Other
+206;Jeff Spears;dev;ok then;Other
+207;beckd;client;awesome;Other
+208;Jeff Spears;dev;done deal;Other
+209;beckd;client;who's saving this convo;Other
+210;Jeff Spears;dev;??;Other
+211;nordmanr;client;Thank you, gentlemen, we look forward to working with you;Other
+212;nordmanr;client;"Anybody who wants to can save it 
+ Decision 1 - I'm scribe
+ Decision 2 - Main idea behind software is:
+ a secure messenger clone for the client end, with file sharing and transfers capabilties. These clients are facilitated by a centralized 
+ server that stores all user info and logs the conversations and stores them in a DB. 
+ With application sharing capabilities
+ Decision 3 - Sharing code implies the ability to paste code into without formatting looking ugly.  Should not have maximum message length and preserve indentation.
+ Decision 4 - Directory of users is contact list of everyone in company sorted by department, location
+ Decision 5 - For archives, they are private unless invited to view by owner, option to make public available.
+ Decision 6 - For the moment, anyone connected to our private TCP/IP network can access the system.  In future releases may include off site ip's
+ Decision 7 - Logfiles should be accessible by an authorized employees
+ Decision 8 - Support staff is supporting our workstations exclusively
+ Decision 9 - WinXP's remote assitance would be fine, as long as it is integrated into our messaging system and only hosts on private network should be able to use features.
+ Decision 10 - We are willing to increase our max memory usage to 15+ Mb, but would like as little as possible.
+";Other

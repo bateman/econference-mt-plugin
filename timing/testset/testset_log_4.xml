@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<meeting>
+<utterance turn="1" who="Craig Stuart">who wants to scribe it up?</utterance>
+<utterance turn="2" who="laneb">shotty not it</utterance>
+<utterance turn="3" who="laneb">heh</utterance>
+<utterance turn="4" who="Ryan Nordman">I'll do it</utterance>
+<utterance turn="5" who="Craig Stuart">thanks ryan</utterance>
+<utterance turn="6" who="Odysseus">So you know Ryan, everytime you enter something into the decisions place, you need to hit the refresh. Last time i had to anyhow</utterance>
+<utterance turn="7" who="Odysseus">so everyone can see what you put</utterance>
+<utterance turn="8" who="Ryan Nordman">Oh, ok, thx</utterance>
+<utterance turn="9" who="Ryan Nordman">Do you want to enable hand raising, Craig?</utterance>
+<utterance turn="10" who="beckd">hello?&gt;</utterance>
+<utterance turn="11" who="Craig Stuart">I think we should be ok without the hand raising</utterance>
+<utterance turn="12" who="Christopher Hanlon">Hi Beckd, could you tell us your full name.</utterance>
+<utterance turn="13" who="Craig Stuart">we can play it by ear though</utterance>
+<utterance turn="14" who="Craig Stuart">is that everyone?</utterance>
+<utterance turn="15" who="Odysseus">our group is all here</utterance>
+<utterance turn="16" who="beckd">Daniel Beck</utterance>
+<utterance turn="17" who="mcmahonp">yep</utterance>
+<utterance turn="18" who="beckd">your loyal coworker</utterance>
+<utterance turn="19" who="laneb">say I if you're not here</utterance>
+<utterance turn="20" who="mcmahonp">Everyone is here</utterance>
+<utterance turn="21" who="Ryan Nordman">Ok, let's begin</utterance>
+<utterance turn="22" who="Craig Stuart">alright folks, let go</utterance>
+<utterance turn="23" who="sheny">i have some difficulty here...i am just goin off and log in again..so craig can u invite me again when i am bac?thks..</utterance>
+<utterance turn="24" who="Christopher Hanlon">Developer speeking: We're plan on focussing on the kiosk in RS 3.0 does that sound reasonable to you guys?</utterance>
+<utterance turn="25" who="Price, Tyler">i'd say so</utterance>
+<utterance turn="26" who="Odysseus">sounds fine</utterance>
+<utterance turn="27" who="zhangc">yse</utterance>
+<utterance turn="28" who="Kia Dastmalchian">sounds good</utterance>
+<utterance turn="29" who="Tyler Gates">since the prototype was based on that, I would say it's good</utterance>
+<utterance turn="30" who="laneb">I'd say that sounds right.</utterance>
+<utterance turn="31" who="Michael">Yes</utterance>
+<utterance turn="32" who="Ryan Nordman">I think it's possible we might change our minds though...</utterance>
+<utterance turn="33" who="Michael">I like the spelling of speeking.</utterance>
+<utterance turn="34" who="Price, Tyler">really how?</utterance>
+<utterance turn="35" who="Ryan Nordman">I'm just not sure how much more we can develop the requirements and prototypes for the kiosk, considering how much we've already delved into that</utterance>
+<utterance turn="36" who="Ryan Nordman">We'll need to have some further discussions.</utterance>
+<utterance turn="37" who="Michael">Understandable.</utterance>
+<utterance turn="38" who="Price, Tyler">hmm... so what else would you be doing?</utterance>
+<utterance turn="39" who="Tyler Gates">about rs 3.0?</utterance>
+<utterance turn="40" who="mcmahonp">Well, I think we are just supposed to make sure 3.0 is "perfect", rather then add more content.</utterance>
+<utterance turn="41" who="Ryan Nordman">One possibility might be the on-board bus system for the driver</utterance>
+<utterance turn="42" who="zhangc">well,yes, Michael</utterance>
+<utterance turn="43" who="beckd">I think that was is a bit challenging</utterance>
+<utterance turn="44" who="Ryan Nordman">Yeah, that's a good point Paul</utterance>
+<utterance turn="45" who="beckd">I think that a trip planning feature, going into the different ways it would be accessed through things such as kiosk, web based and pda might be a bit more feasible</utterance>
+<utterance turn="46" who="Craig Stuart">that could also be a bit tough</utterance>
+<utterance turn="47" who="Ryan Nordman">ok,</utterance>
+<utterance turn="48" who="Ryan Nordman">anyway, for now we'll say we're going to focus on the Kiosk.  We'll let you know if we change our minds.</utterance>
+<utterance turn="49" who="mcmahonp">yes</utterance>
+<utterance turn="50" who="Craig Stuart">it's selected on mine.........</utterance>
+<utterance turn="51" who="Michael">Okay, all are items we  would like to see.</utterance>
+<utterance turn="52" who="Kia Dastmalchian">...well whatever component you guys have the most understanding of would probably be best, and its totally up to you</utterance>
+<utterance turn="53" who="Tyler Gates">we still don't have the eval criteria for rs 3.0. don't worry about that today</utterance>
+<utterance turn="54" who="Ryan Nordman">Alright, let's move on</utterance>
+<utterance turn="55" who="laneb">the thing is, if you decide now, you'll get more out of this meeting.</utterance>
+<utterance turn="56" who="laneb">and waste less time in emails later on</utterance>
+<utterance turn="57" who="Craig Stuart">we just want to get a bit of feedback from you guys about the scheduling feature</utterance>
+<utterance turn="58" who="Craig Stuart">and how it would be used by potential riders</utterance>
+<utterance turn="59" who="Price, Tyler">You mean the trip planning? Or just the sked printouts?</utterance>
+<utterance turn="60" who="Ryan Nordman">Just the schedule, not trip planning</utterance>
+<utterance turn="61" who="beckd">one thing that we were thinking was something similar to the current victoria bus schedule that's online</utterance>
+<utterance turn="62" who="beckd">a bus schedule feature would allow users to view the routes of all busses at any time of any day of the week</utterance>
+<utterance turn="63" who="Michael">To view what time a bus will arrive at a paticular stop. Either today or in the future. It should have all other stops on that route listed as well to see at a glance when it may arrive... etc. Similar to Victoria's.</utterance>
+<utterance turn="64" who="beckd">more of an informational thing</utterance>
+<utterance turn="65" who="Craig Stuart">right</utterance>
+<utterance turn="66" who="Price, Tyler">Okay, well the victoria one is fine</utterance>
+<utterance turn="67" who="Price, Tyler">but you sort of need to know what bus you are taking - need search feature</utterance>
+<utterance turn="68" who="Craig Stuart">you mean just searching by bus route number, or by some other parameter?</utterance>
+<utterance turn="69" who="Price, Tyler">so like search by postal code or region of town</utterance>
+<utterance turn="70" who="Price, Tyler">esqimalt, sooke, etc.</utterance>
+<utterance turn="71" who="Price, Tyler">just so you know what busses pass by</utterance>
+<utterance turn="72" who="Tyler Gates">maybe a map</utterance>
+<utterance turn="73" who="Michael">But also route number as if they are avid travellers they will know what bus.</utterance>
+<utterance turn="74" who="beckd">and this would filter all busses that service any of these areas</utterance>
+<utterance turn="75" who="laneb">bus route numbers only mean something to someone who takes those busses all the time</utterance>
+<utterance turn="76" who="Price, Tyler">searching by route name/number may be helpful as well</utterance>
+<utterance turn="77" who="Ryan Nordman">Ok</utterance>
+<utterance turn="78" who="Ryan Nordman">So we'll add search functionality to the schedule lookup interface</utterance>
+<utterance turn="79" who="mcmahonp">well, wouldn't someone only want to view a schedule if they regularly took the bus?  otherwise wouldn't they use trip  planning?</utterance>
+<utterance turn="80" who="Michael">In theory, or if they would like to know how often a given bus comes.</utterance>
+<utterance turn="81" who="Price, Tyler">(the translink schedule is a bit better, you can choose which stops you want t he times of)</utterance>
+<utterance turn="82" who="beckd">I think that paul's point is valid, but I know that even in victoria, there are some buses of which i dont' know the exact routes, it would be beneficial for them I think to be able to find out if other busses can go to points</utterance>
+<utterance turn="83" who="Christopher Hanlon">Testing 123...</utterance>
+<utterance turn="84" who="Bryan Lane">did everyone get booted there or just me?</utterance>
+<utterance turn="85" who="Price, Tyler">not me</utterance>
+<utterance turn="86" who="Odysseus">i didn't get booted</utterance>
+<utterance turn="87" who="beckd">I'm good</utterance>
+<utterance turn="88" who="Craig Stuart">where did Chris go</utterance>
+<utterance turn="89" who="hanlonc">I suddenly stopped getting messages.</utterance>
+<utterance turn="90" who="Odysseus">apparently ppl are being randomly booted</utterance>
+<utterance turn="91" who="Tyler Gates">great</utterance>
+<utterance turn="92" who="beckd">what do you guys think of the option of seeing the routes of a zoomable map, chooseing routes via area of city</utterance>
+<utterance turn="93" who="beckd">or being able ot select route number</utterance>
+<utterance turn="94" who="hanlonc">Has anyone on a Windows computer being booted?</utterance>
+<utterance turn="95" who="zhangc">I am fine here</utterance>
+<utterance turn="96" who="Ryan Nordman">Ok, so maybe 2 different views of the schedule?  Like a view for a single bus route, listing multiple stops and their stop times as well as a view for a single stop, listing multiple busses and their stop times at that one stop?</utterance>
+<utterance turn="97" who="Michael">A feature of this program that the eConference tool like to demonstrate often.</utterance>
+<utterance turn="98" who="Michael">That works with me.</utterance>
+<utterance turn="99" who="Odysseus">i'm fine i think it sounds good</utterance>
+<utterance turn="100" who="beckd">was that ryan's comment you were replying to?</utterance>
+<utterance turn="101" who="Michael">Indeed it was.</utterance>
+<utterance turn="102" who="Price, Tyler">2 views, and a map, and searching by postal/area/route</utterance>
+<utterance turn="103" who="Bryan Lane">I was trying to mention when I got booted, that maybe if we have the search idea that we can search by a landmark on the route</utterance>
+<utterance turn="104" who="Bryan Lane">so I could say, search for a route that runs by x.</utterance>
+<utterance turn="105" who="Bryan Lane">maybe that's route planning though</utterance>
+<utterance turn="106" who="beckd">that sounds a lot like route planning</utterance>
+<utterance turn="107" who="Craig Stuart">i would say so</utterance>
+<utterance turn="108" who="Bryan Lane">I was just thinking if I couldn't remember the number of the route</utterance>
+<utterance turn="109" who="beckd">that would be the point of hte trip planner</utterance>
+<utterance turn="110" who="Price, Tyler">okay then organize routes by region</utterance>
+<utterance turn="111" who="Ryan Nordman">How does that look? (decisions place)</utterance>
+<utterance turn="112" who="Bryan Lane">I think that works</utterance>
+<utterance turn="113" who="beckd">Maybe address instead of postal code</utterance>
+<utterance turn="114" who="beckd">I don't know much about postal codes except my house</utterance>
+<utterance turn="115" who="Michael">No I think that works Brian.</utterance>
+<utterance turn="116" who="Michael">Route planning when they want the system to plan their route based on a destination vs just asking when a bus comes by a given stop.</utterance>
+<utterance turn="117" who="Ryan Nordman">Alright, shall we move on to the next item?</utterance>
+<utterance turn="118" who="Craig Stuart">alright</utterance>
+<utterance turn="119" who="Craig Stuart">are you guys ready?</utterance>
+<utterance turn="120" who="Tyler Gates">yes</utterance>
+<utterance turn="121" who="Kia Dastmalchian">ok</utterance>
+<utterance turn="122" who="beckd">k</utterance>
+<utterance turn="123" who="zhangc">ok</utterance>
+<utterance turn="124" who="Michael">In addition to the items in the decision place...I would also say search by bus route number.</utterance>
+<utterance turn="125" who="hanlonc">The trip planning system doesn't require you to know the bus number.</utterance>
+<utterance turn="126" who="Ryan Nordman">right</utterance>
+<utterance turn="127" who="Michael">and route name.</utterance>
+<utterance turn="128" who="beckd">definitely</utterance>
+<utterance turn="129" who="Michael">Thanks!</utterance>
+<utterance turn="130" who="Bryan Lane">ok, that's better.</utterance>
+<utterance turn="131" who="Ryan Nordman">great</utterance>
+<utterance turn="132" who="Tyler Gates">name isn't that useful I think</utterance>
+<utterance turn="133" who="Kia Dastmalchian">no, name is very useful</utterance>
+<utterance turn="134" who="Michael">I agree with Kia. :-)</utterance>
+<utterance turn="135" who="Bryan Lane">name is useful</utterance>
+<utterance turn="136" who="Price, Tyler">what number is the Majestic, I don't know</utterance>
+<utterance turn="137" who="Bryan Lane">i'd remember the name before the number</utterance>
+<utterance turn="138" who="Michael">Sorry Tyler.</utterance>
+<utterance turn="139" who="Ryan Nordman">If it isn't useful to a bus rider, they don't have to use it :)</utterance>
+<utterance turn="140" who="sheny">yeha...the name of the bus route can tell where the dest is..</utterance>
+<utterance turn="141" who="Kia Dastmalchian">names of hte routes are easier to remember than numbers, and may mean something to someone who doesn't know the routes</utterance>
+<utterance turn="142" who="Tyler Gates">really?</utterance>
+<utterance turn="143" who="Tyler Gates">ok</utterance>
+<utterance turn="144" who="Craig Stuart">alright guys, I won't move on until everyone finishes typing</utterance>
+<utterance turn="145" who="Craig Stuart">just to keep things organized</utterance>
+<utterance turn="146" who="Tyler Gates">downtown via hillside vs. #4</utterance>
+<utterance turn="147" who="Kia Dastmalchian">if its called downtown via hillside, then I know just from that that that is where it goes</utterance>
+<utterance turn="148" who="Michael">downtown would be useful as it would give all busses that have a dest of downtown.</utterance>
+<utterance turn="149" who="Michael">then it would list all the different via's for an example</utterance>
+<utterance turn="150" who="Tyler Gates">ok so  we do both then?</utterance>
+<utterance turn="151" who="Bryan Lane">yeah, the route name covers my concern, the names are descriptive enough</utterance>
+<utterance turn="152" who="Christopher Hanlon">I'm getting booted whenever discussions are logged.</utterance>
+<utterance turn="153" who="Michael">anyways I think we have agreed to include search by bus name anyway...</utterance>
+<utterance turn="154" who="Ryan Nordman">alright</utterance>
+<utterance turn="155" who="Ryan Nordman">, we're out of time on this topic, let's move on</utterance>
+<utterance turn="156" who="Tyler Gates">yes</utterance>
+<utterance turn="157" who="Craig Stuart">We need to move along to the next topic</utterance>
+<utterance turn="158" who="zhangc">well, yeah, name is useful in this case</utterance>
+<utterance turn="159" who="Bryan Lane">apparently the boot on discussion log is a known bug</utterance>
+<utterance turn="160" who="Odysseus">yea, i think we're good to mvoe on</utterance>
+<utterance turn="161" who="Kia Dastmalchian">we should be able to search by both, as the routes have both name and number</utterance>
+<utterance turn="162" who="Craig Stuart">our next topic is about the Realtime map feature that we presented on Thursday</utterance>
+<utterance turn="163" who="Craig Stuart">we just want to get some more feedback from you about the different ways to view/select/filter locations on this map</utterance>
+<utterance turn="164" who="Tyler Gates">For the view, I think we wanted a zoom feature</utterance>
+<utterance turn="165" who="Ryan Nordman">So basic features include panning around the city map, and zooming in or out</utterance>
+<utterance turn="166" who="Kia Dastmalchian">well, it is important that at a particular kiosk, the map that you see shows the buses that actually pass by the station the kiosk is at, by default</utterance>
+<utterance turn="167" who="Ryan Nordman">Yeah</utterance>
+<utterance turn="168" who="Odysseus">select a region with a square box and it zooms in to that area?</utterance>
+<utterance turn="169" who="Tyler Gates">exactly</utterance>
+<utterance turn="170" who="Ryan Nordman">No, I think we'd want something simpler just like a magnifying glass + or - button</utterance>
+<utterance turn="171" who="Bryan Lane">I like the +/- thing</utterance>
+<utterance turn="172" who="beckd">Currently the filtering will filter any stops around the specific stop that the kiosk is located at.  If the map is zoomed and panned, are you alright that only the routes that intersect a stop will be shown on the realtime map</utterance>
+<utterance turn="173" who="Kia Dastmalchian">I think so,</utterance>
+<utterance turn="174" who="">I'm not sure why you'd want to see other ones</utterance>
+<utterance turn="175" who="Bryan Lane">maybe some kind of overlay with the list of busses shown, that you can toggle on and off?</utterance>
+<utterance turn="176" who="Ryan Nordman">Now, if the users can pan around the whole map, we should probably display all the routes in the city if they want</utterance>
+<utterance turn="177" who="Tyler Gates">if you want to transfer...</utterance>
+<utterance turn="178" who="Michael">The map feature should be available when trip planning as well so the actual route the trip planner has created will be outlined with different line colours or something to mark bus  routes vs walking areas.</utterance>
+<utterance turn="179" who="beckd">That's what I was thinking,</utterance>
+<utterance turn="180" who="beckd">but it makes the filtering a bit messy</utterance>
+<utterance turn="181" who="Ryan Nordman">Yeah, Bryan's idea is a good one,</utterance>
+<utterance turn="182" who="Ryan Nordman">so we could pop up a window with check box style buttons for every bus route, so that a user can add any bus route to the map and see what's up with it</utterance>
+<utterance turn="183" who="Tyler Gates">I like that idea</utterance>
+<utterance turn="184" who="beckd">Bryan, What you suggest is currenly what is going to happen, however it is difficult to list all the busses in the city in this fashion</utterance>
+<utterance turn="185" who="Price, Tyler">or draw a line with your finger and show every route that goes on a street crossign that line</utterance>
+<utterance turn="186" who="zhangc">good idea</utterance>
+<utterance turn="187" who="Price, Tyler">although that isn't very intuitive</utterance>
+<utterance turn="188" who="beckd">Checkboxes with touchscreen might be a bit difficult</utterance>
+<utterance turn="189" who="Craig Stuart">sorry guys.......I got dropped there</utterance>
+<utterance turn="190" who="Michael">uh?</utterance>
+<utterance turn="191" who="Tyler Gates">if it's a popup box, then it could be easy</utterance>
+<utterance turn="192" who="Chris Hanlon">test.</utterance>
+<utterance turn="193" who="Ryan Nordman">I just said check box style buttons</utterance>
+<utterance turn="194" who="Bryan Lane">well it's a touch screen right?</utterance>
+<utterance turn="195" who="Bryan Lane">couldn't it just be a list of numbers that if you touch it it turns green and shows on screen, and if you touch it again, the number turns red and the busses aren't displayed?</utterance>
+<utterance turn="196" who="Ryan Nordman">I was just trying to describe the functionality of the buttons, obviously we'd want something big enough for a user's finger</utterance>
+<utterance turn="197" who="Ryan Nordman">anyway, shall we move on?</utterance>
+<utterance turn="198" who="beckd">Okay</utterance>
+<utterance turn="199" who="Ryan Nordman">is everybody happy with the decisions?</utterance>
+<utterance turn="200" who="Craig Stuart">alright, on to the next topic</utterance>
+<utterance turn="201" who="Bryan Lane">right.</utterance>
+<utterance turn="202" who="Bryan Lane">they could be listed down the left side or something.</utterance>
+<utterance turn="203" who="Kia Dastmalchian">well, the box that pops up could only list the routes that you would see based on what your map sees; like your current level of zoom only has 4 routes passing through, so you could only choose to view those 4</utterance>
+<utterance turn="204" who="Odysseus">yes check boxes are fine i think</utterance>
+<utterance turn="205" who="Bryan Lane">or even hidden</utterance>
+<utterance turn="206" who="Craig Stuart">we need to move on guys</utterance>
+<utterance turn="207" who="Kia Dastmalchian">hold up</utterance>
+<utterance turn="208" who="Michael">i'm not sure why it needs to be a check box... busses that have a paticular destination or starting point, or pass through a certain region or stop works for me... then it can all be search based instead of covering half the map region with a list...???</utterance>
+<utterance turn="209" who="Ryan Nordman">Yeah,</utterance>
+<utterance turn="210" who="Ryan Nordman">that's why I'm thinking it would pop up</utterance>
+<utterance turn="211" who="Ryan Nordman">So you wouldn't see the list of routes unless you called it up</utterance>
+<utterance turn="212" who="Ryan Nordman">Then you select the routes, and accept</utterance>
+<utterance turn="213" who="Ryan Nordman">and you see the map again, full screen</utterance>
+<utterance turn="214" who="Bryan Lane">yeah</utterance>
+<utterance turn="215" who="Bryan Lane">, it could be hidden and you pop up the box, select routes, and the box goes away</utterance>
+<utterance turn="216" who="Michael">So you're suggesting that additional filtering can be done ontop of the searching mentioned.</utterance>
+<utterance turn="217" who="Ryan Nordman">because I think there'd be too many routes to list on the side of the screen</utterance>
+<utterance turn="218" who="Michael">That works for me.</utterance>
+<utterance turn="219" who="Kia Dastmalchian">but what routes will it list?</utterance>
+<utterance turn="220" who="Odysseus">basically, you choose what you want to see first right?</utterance>
+<utterance turn="221" who="Ryan Nordman">every route in the city</utterance>
+<utterance turn="222" who="Tyler Gates">by default, it should display every route on the current zoom level</utterance>
+<utterance turn="223" who="Bryan Lane">but the default would be the selected route(s)</utterance>
+<utterance turn="224" who="Michael">Yeah</utterance>
+<utterance turn="225" who="Michael">, you'd search for an area or something... then filter out routes from there?</utterance>
+<utterance turn="226" who="Ryan Nordman">Well, I envision that when they first call up the map it will already have selected the routes that pass by the kiosk's stop</utterance>
+<utterance turn="227" who="Craig Stuart">alright guys,</utterance>
+<utterance turn="228" who="Craig Stuart">maybe we can talk about this one a bit more later, but our time is limited here</utterance>
+<utterance turn="229" who="Bryan Lane">ryan's thinking what I'm thinking</utterance>
+<utterance turn="230" who="Tyler Gates">ok next</utterance>
+<utterance turn="231" who="Craig Stuart">we have 6 more topics</utterance>
+<utterance turn="232" who="Michael">Yes to landmarks. :-)</utterance>
+<utterance turn="233" who="Price, Tyler">for the landmarks mabye you could make it so the admins add them and create categories for them</utterance>
+<utterance turn="234" who="Ryan Nordman">What extra detail do we need here guys?</utterance>
+<utterance turn="235" who="">Maybe we can skip this topic for now</utterance>
+<utterance turn="236" who="Price, Tyler">just add by street / postal codes</utterance>
+<utterance turn="237" who="Kia Dastmalchian">I'm thinking 'landmarks' would basically be a set of keywords related to a route, or something like that</utterance>
+<utterance turn="238" who="beckd">What we would like is to decide on the types of landmarks you wanted</utterance>
+<utterance turn="239" who="Michael">street / postal codes and landmark name(s)</utterance>
+<utterance turn="240" who="mcmahonp">we were thinking categories like museums or movie theatres</utterance>
+<utterance turn="241" who="Craig Stuart">restaurants too perhaps</utterance>
+<utterance turn="242" who="beckd">So far we were thinking restaurants, nightlife, parks, shopping centers</utterance>
+<utterance turn="243" who="Kia Dastmalchian">streets, buildings, parks</utterance>
+<utterance turn="244" who="Price, Tyler">yeah but have it so the admins can add more land marks and categories</utterance>
+<utterance turn="245" who="Craig Stuart">sounds good</utterance>
+<utterance turn="246" who="Bryan Lane">you might have a ton of categories like that</utterance>
+<utterance turn="247" who="Kia Dastmalchian">agree with tyler</utterance>
+<utterance turn="248" who="Ryan Nordman">Yeah, what Tyler said</utterance>
+<utterance turn="249" who="Odysseus">well as long as there are categories and such we could add them in ourselves</utterance>
+<utterance turn="250" who="Bryan Lane">it might be better to go by keyword</utterance>
+<utterance turn="251" who="beckd">We wanted to keep the top level landmarks very simple</utterance>
+<utterance turn="252" who="Ryan Nordman">If we do that, we don't need to specify what categories will exist</utterance>
+<utterance turn="253" who="Ryan Nordman">it'll just be up to you</utterance>
+<utterance turn="254" who="beckd">no more than about 6-7 types</utterance>
+<utterance turn="255" who="mcmahonp">you choose what categories you want, and we build the list</utterance>
+<utterance turn="256" who="Ryan Nordman">well, that can be their choice</utterance>
+<utterance turn="257" who="Ryan Nordman">no need to constrain it on our end</utterance>
+<utterance turn="258" who="Price, Tyler">well if you let the admins choose the categoreis it would be up to them, not the developers</utterance>
+<utterance turn="259" who="Ryan Nordman">agreed</utterance>
+<utterance turn="260" who="Craig Stuart">right</utterance>
+<utterance turn="261" who="Michael">good</utterance>
+<utterance turn="262" who="Craig Stuart">alright</utterance>
+<utterance turn="263" who="Craig Stuart">, moving on?</utterance>
+<utterance turn="264" who="Kia Dastmalchian">ok</utterance>
+<utterance turn="265" who="Bryan Lane">ok</utterance>
+<utterance turn="266" who="Odysseus">sounds good to me</utterance>
+<utterance turn="267" who="Craig Stuart">next topic is the access to the system from mobile devices such as PDA's and cellphones</utterance>
+<utterance turn="268" who="Price, Tyler">i was thinking just a separate style sheet for the website ...</utterance>
+<utterance turn="269" who="Ryan Nordman">Is it alright if we simply provide a scalled down mini version of the webpage?</utterance>
+<utterance turn="270" who="Tyler Gates">yeah</utterance>
+<utterance turn="271" who="Odysseus">yea</utterance>
+<utterance turn="272" who="Kia Dastmalchian">I think so</utterance>
+<utterance turn="273" who="Bryan Lane">that's what I was thinking yeah</utterance>
+<utterance turn="274" who="Ryan Nordman">Yeah, so that all the same functionality of the website will be there, it'll just be setup for a smaller screen</utterance>
+<utterance turn="275" who="Odysseus">probably as light on graphics as possible?</utterance>
+<utterance turn="276" who="Bryan Lane">right...</utterance>
+<utterance turn="277" who="Bryan Lane">do we need the map?</utterance>
+<utterance turn="278" who="Bryan Lane">it might be handy but would be hell on portable devices</utterance>
+<utterance turn="279" who="zhangc">yes, that is good</utterance>
+<utterance turn="280" who="Michael">And touch areas would need to be numbered or something. I'm not sure how PDA's work.</utterance>
+<utterance turn="281" who="Tyler Gates">I think a map would be necessary</utterance>
+<utterance turn="282" who="Michael">Map necessary.</utterance>
+<utterance turn="283" who="Ryan Nordman">It should be possible to do the map</utterance>
+<utterance turn="284" who="Odysseus">yes it is needed</utterance>
+<utterance turn="285" who="Craig Stuart">it wouldn't really work on a cellphone or any device without a touch screen</utterance>
+<utterance turn="286" who="Ryan Nordman">they'll just need to zoom more</utterance>
+<utterance turn="287" who="Michael">Indeed.</utterance>
+<utterance turn="288" who="Price, Tyler">I think he meant clickable not touchable</utterance>
+<utterance turn="289" who="Price, Tyler">I've never used the web on a phone so...</utterance>
+<utterance turn="290" who="Bryan Lane">well the cellphone you could use buttons to move a cursor around</utterance>
+<utterance turn="291" who="Craig Stuart">alright</utterance>
+<utterance turn="292" who="beckd">k</utterance>
+<utterance turn="293" who="beckd">I think we're good?</utterance>
+<utterance turn="294" who="Ryan Nordman">Next topic?</utterance>
+<utterance turn="295" who="Craig Stuart">moving on</utterance>
+<utterance turn="296" who="Michael">yes</utterance>
+<utterance turn="297" who="Craig Stuart">next topic is the aspects of the on-board bus system</utterance>
+<utterance turn="298" who="Ryan Nordman">You said that you wanted the bus drivers to be able to see their own schedule</utterance>
+<utterance turn="299" who="Ryan Nordman">How many stops in advance do you want displayed?</utterance>
+<utterance turn="300" who="Kia Dastmalchian">umm</utterance>
+<utterance turn="301" who="Michael">For the decision place I would like to see search added to realtime map part.</utterance>
+<utterance turn="302" who="Ryan Nordman">I think we're considering a small screen, perhaps even just a digital one line text display</utterance>
+<utterance turn="303" who="Price, Tyler">so just the next stop?...</utterance>
+<utterance turn="304" who="Ryan Nordman">Michael - what kind of search?</utterance>
+<utterance turn="305" who="Bryan Lane">one line?</utterance>
+<utterance turn="306" who="Bryan Lane">like scrolling text?</utterance>
+<utterance turn="307" who="Bryan Lane">i don't think that would work</utterance>
+<utterance turn="308" who="Kia Dastmalchian">by 'own schedule', it means their actual, hard, schedule, not a dynamically changing thing...at least that's how I understand it</utterance>
+<utterance turn="309" who="Ryan Nordman">Yes, it could scroll</utterance>
+<utterance turn="310" who="Bryan Lane">well, that'd be hard to read while driving</utterance>
+<utterance turn="311" who="Bryan Lane">don't you think?</utterance>
+<utterance turn="312" who="Odysseus">yea one line is insufficient i think</utterance>
+<utterance turn="313" who="Tyler Gates">no scrolling. it would distract the driver</utterance>
+<utterance turn="314" who="Price, Tyler">maybe a small lcd that has like the next stop big and then acouple more underneath</utterance>
+<utterance turn="315" who="Ryan Nordman">Yes</utterance>
+<utterance turn="316" who="Ryan Nordman">, I would think they'd just read it when they're at a stop</utterance>
+<utterance turn="317" who="Kia Dastmalchian">ok hold on a sec</utterance>
+<utterance turn="318" who="Kia Dastmalchian">a driver doesn't need to know his next stop one after the other</utterance>
+<utterance turn="319" who="Michael">I would have atleast 3 or so, except when near end of route... then it would have arrival time at last stop, and departure time.</utterance>
+<utterance turn="320" who="Price, Tyler">he needs to know if is behind or ahead of sched</utterance>
+<utterance turn="321" who="Kia Dastmalchian">he can read the router or whatever before he drives, what the onscreen can provide is a copy of this for his reference</utterance>
+<utterance turn="322" who="Kia Dastmalchian">he does not need to view it while driving</utterance>
+<utterance turn="323" who="Price, Tyler">no there is like time checkpoints so he doesn't go too fast</utterance>
+<utterance turn="324" who="Bryan Lane">yeah, it's more for whether he's on time or getting behind/ahead</utterance>
+<utterance turn="325" who="Michael">He'd more likely look at it when stopping to pick up people.</utterance>
+<utterance turn="326" who="Kia Dastmalchian">as for seeing stuff on screen, its like bryan just said here</utterance>
+<utterance turn="327" who="Michael">yep</utterance>
+<utterance turn="328" who="Price, Tyler">I would say on the screen the next few stops and if connecting buses are running late</utterance>
+<utterance turn="329" who="Tyler Gates">the driver would need to know HOW late he is</utterance>
+<utterance turn="330" who="Price, Tyler">as an option</utterance>
+<utterance turn="331" who="Bryan Lane">I still think that a scrolling text line would force you to look at the screen for a fixed amount of time</utterance>
+<utterance turn="332" who="Michael">I agree with Brian's point.</utterance>
+<utterance turn="333" who="Ryan Nordman">ok, so I'm hearing that multi-line display would be best</utterance>
+<utterance turn="334" who="Michael">Yes.</utterance>
+<utterance turn="335" who="Odysseus">yea</utterance>
+<utterance turn="336" who="Tyler Gates">yes</utterance>
+<utterance turn="337" who="beckd">How about at the top it says you are running this late or are this ahead, and then a time for the next two stops</utterance>
+<utterance turn="338" who="Kia Dastmalchian">what about instead of scrolling, it just flashes different lines, so you don't have to stare at it�</utterance>
+<utterance turn="339" who="Kia Dastmalchian">do you know what I mean?</utterance>
+<utterance turn="340" who="Michael">Sure.</utterance>
+<utterance turn="341" who="Michael">It doesn't really need to state whether the driver is late or ahead. They should not be ahead with this display as there would be time checkpoint. People expect the bus not to come too early.</utterance>
+<utterance turn="342" who="Bryan Lane">you'd still have to watch for the line you're looking for</utterance>
+<utterance turn="343" who="Ryan Nordman">Do you want the bus driver to advance the stop display manually?</utterance>
+<utterance turn="344" who="Ryan Nordman">for his schedule?</utterance>
+<utterance turn="345" who="Craig Stuart">i don't think there is any need to do it manually....</utterance>
+<utterance turn="346" who="Michael">No, it should be automatic. No input required from driver while on route.</utterance>
+<utterance turn="347" who="Ryan Nordman">Because the other option is to tie it in with GPS and have it show the stops based on where the bus is</utterance>
+<utterance turn="348" who="Craig Stuart">yeah</utterance>
+<utterance turn="349" who="Michael">Yes to Ryan's comment.</utterance>
+<utterance turn="350" who="Bryan Lane">I like that too</utterance>
+<utterance turn="351" who="beckd">I Think that would be pretty resonable ryan, as everything is already tied in</utterance>
+<utterance turn="352" who="Craig Stuart">alright......moving to next topic</utterance>
+<utterance turn="353" who="Ryan Nordman">ok</utterance>
+<utterance turn="354" who="beckd">soudns good</utterance>
+<utterance turn="355" who="Craig Stuart">next topic is regarding connections between routes</utterance>
+<utterance turn="356" who="Price, Tyler">whoa, does the display say anything about late connecting bus es?</utterance>
+<utterance turn="357" who="Ryan Nordman">I'd also like to discuss the onboard bus display for the connection data as well</utterance>
+<utterance turn="358" who="Craig Stuart">alright........our time is pretty limited, we have 5 minutes left</utterance>
+<utterance turn="359" who="Bryan Lane">well, we can cover the late connecting busses in this section, since it's pertinent</utterance>
+<utterance turn="360" who="Ryan Nordman">I think we could just use the same display, but have two buttons to allow the bus driver to select what to view</utterance>
+<utterance turn="361" who="Ryan Nordman">perhaps with a sound alert when connecting data is coming in?</utterance>
+<utterance turn="362" who="Price, Tyler">I would say that each trip has about 10 minutes of play, so at important connection stopes (hubs, terminals) drivers will wait up to like 3 minutes for connecting buses...</utterance>
+<utterance turn="363" who="Tyler Gates">maybe if there is another bus within a certain proximity, it would display it</utterance>
+<utterance turn="364" who="Chris Hanlon">Could we send an auditory alert (such as a beep) to encourage the bus driver to look at the console for information about late busses/route changes.</utterance>
+<utterance turn="365" who="beckd">if every bus driver is willing to wait 3 minutes</utterance>
+<utterance turn="366" who="beckd">then a bus that is subsequently connecting to it would have to wait at least 3 minutes 1 second to connect to it</utterance>
+<utterance turn="367" who="Michael">I don't know if an audiable alert is necessary.</utterance>
+<utterance turn="368" who="mcmahonp">Wait a bus driver will wait 3 minutes at a stop - won't that really mess up the system</utterance>
+<utterance turn="369" who="beckd">it would lead to a pushing back of times</utterance>
+<utterance turn="370" who="Tyler Gates">if they're already late, then it would make them later</utterance>
+<utterance turn="371" who="Price, Tyler">If they are already late they wouldn't need to wait</utterance>
+<utterance turn="372" who="Bryan Lane">that's kind of why I figured it would be a good thing to let the driver know how far behind the bus is, so he could just make an informed decision</utterance>
+<utterance turn="373" who="Craig Stuart">that pushing back of times would mess up people who had checked the schedule an hour before</utterance>
+<utterance turn="374" who="beckd">Well the instand that they are waiting 3 minutes, they are late</utterance>
+<utterance turn="375" who="Michael">I wouldn't expect the bus driver to wait more than 30 seconds. But if the system will display busses up to 3 minutes late allowing the bus driver to choose.</utterance>
+<utterance turn="376" who="Bryan Lane">if it's 5 seconds behind (ie around the corner), he could just wait. if it's 5 minutes, don't bother.</utterance>
+<utterance turn="377" who="Ryan Nordman">Yeah,</utterance>
+<utterance turn="378" who="Ryan Nordman">my thinking is that the whole system would work best if we rely on the driver's judgement on whether to wait for a connecting bus</utterance>
+<utterance turn="379" who="Kia Dastmalchian">does the system even know when a bus is late? I'm confused about this</utterance>
+<utterance turn="380" who="sheny">so the onboard system won't remind the driver to wait if he is already late?</utterance>
+<utterance turn="381" who="Ryan Nordman">we can inform them of how late the connecting bus is and let them decide</utterance>
+<utterance turn="382" who="Bryan Lane">yeah, it's supposed to kia</utterance>
+<utterance turn="383" who="Kia Dastmalchian">I thought this would show the location of the connecting bus, as in if it just plain isn't there</utterance>
+<utterance turn="384" who="Odysseus">Yea, it should be more bus driver decision based</utterance>
+<utterance turn="385" who="Odysseus">their judgement whether to wait or not</utterance>
+<utterance turn="386" who="Kia Dastmalchian">yeah</utterance>
+<utterance turn="387" who="Odysseus">and 3 minutes is too long to wait</utterance>
+<utterance turn="388" who="Craig Stuart">for sure</utterance>
+<utterance turn="389" who="Price, Tyler">say you're on a bus that goes from UVic to Western Exchange and it is suppose to meet a bus that goes from West Ex to Wishart - but the UVic bus is little late, the Wishart driver could aford to wait 3min.</utterance>
+<utterance turn="390" who="Michael">The driver will check the screen when leaving important/connecting stops, no annoying beeps necessary or other notifications. Just additional information to make smart decisions.</utterance>
+<utterance turn="391" who="Bryan Lane">yeah,</utterance>
+<utterance turn="392" who="Bryan Lane">and if you're ahead, you can afford to wait longer</utterance>
+<utterance turn="393" who="Tyler Gates">rural bus routes are different</utterance>
+<utterance turn="394" who="Craig Stuart">i think some sort of audio notification would be beneficial</utterance>
+<utterance turn="395" who="Ryan Nordman">ok, so when should the system display the information to the bus driver?</utterance>
+<utterance turn="396" who="Ryan Nordman">if they should be able to check it at the stop BEFORE the connection, then we need to get that data to the onboard bus system in advance</utterance>
+<utterance turn="397" who="Michael">It will always be there for upcoming stops as soon as it is available.</utterance>
+<utterance turn="398" who="Ryan Nordman">alright, so maybe if the bus driver pushes a button on their display</utterance>
+<utterance turn="399" who="Ryan Nordman">it will show them how late the connecting bus is running to the next connecting stop?</utterance>
+<utterance turn="400" who="Michael">If they are already on that screen, then nothing needs to be pressed.</utterance>
+<utterance turn="401" who="Ryan Nordman">Michael - yes</utterance>
+<utterance turn="402" who="Bryan Lane">I like being able to manually toggle betweent he screens</utterance>
+<utterance turn="403" who="Michael">If they switched back to the schedule screen, then they'd need to press the other button.</utterance>
+<utterance turn="404" who="Chris Hanlon">I would prefer that the drive not need to press any buttons on the display.</utterance>
+<utterance turn="405" who="Craig Stuart">i agree with Chris</utterance>
+<utterance turn="406" who="beckd">how about showing two seperate screens</utterance>
+<utterance turn="407" who="beckd">one on the left/one on the right</utterance>
+<utterance turn="408" who="beckd">the driver could glance at whichever they wish</utterance>
+<utterance turn="409" who="beckd">so it's easier for the driver to see pertinent information</utterance>
+<utterance turn="410" who="Bryan Lane">2 screens is an alternative</utterance>
+<utterance turn="411" who="Price, Tyler">I've seen our divers press buttons before, they can do it</utterance>
+<utterance turn="412" who="Chris Hanlon">Why do we need 2 screens?</utterance>
+<utterance turn="413" who="Ryan Nordman">That will make the display more expensive</utterance>
+<utterance turn="414" who="Ryan Nordman">, it's up to you guys as clients</utterance>
+<utterance turn="415" who="Ryan Nordman">I don't really feel it's necessary</utterance>
+<utterance turn="416" who="Kia Dastmalchian">I think the 2 screens switching sounds good</utterance>
+<utterance turn="417" who="Tyler Gates">yeah, for simplicity</utterance>
+<utterance turn="418" who="Craig Stuart">why not just break the single screen into a number of frames?</utterance>
+<utterance turn="419" who="Ryan Nordman">Taxi drivers almost have a full keyboard in their cars, I'm sure bus drivers can cope with two buttons</utterance>
+<utterance turn="420" who="Bryan Lane">I don't think the dual screen is necessary</utterance>
+<utterance turn="421" who="Bryan Lane">, but the button to toggle the displayed info is fine</utterance>
+<utterance turn="422" who="Bryan Lane">that's my vote.</utterance>
+<utterance turn="423" who="Michael">I have faith in our bus drivers. Indeed the need to switch could be eliminated as a necessity and there just as an option if on the top of the late bus screen would be the time the driver should leave the next stop.</utterance>
+<utterance turn="424" who="beckd">I think that crowding a display makes the data difficult to easily comprehend</utterance>
+<utterance turn="425" who="Kia Dastmalchian">its not like they should need to switch all that  often, in some kind of panic while they drive</utterance>
+<utterance turn="426" who="zhangc">too much information for drivers, 2 screen is not usefull</utterance>
+<utterance turn="427" who="Bryan Lane">ok so toggle then?</utterance>
+<utterance turn="428" who="Price, Tyler">yeah one screen toggling displays probably best</utterance>
+<utterance turn="429" who="Odysseus">toggle is good</utterance>
+<utterance turn="430" who="Tyler Gates">+1 for toggling</utterance>
+<utterance turn="431" who="Ryan Nordman">ok</utterance>
+<utterance turn="432" who="Bryan Lane">go go toggle</utterance>
+<utterance turn="433" who="Craig Stuart">alright, if that's waht you guys want</utterance>
+<utterance turn="434" who="Price, Tyler">it's what we require</utterance>
+<utterance turn="435" who="Craig Stuart">moving along</utterance>
+<utterance turn="436" who="Michael">Yes, but I liked my suggestion for having the time the driver should leave the next stop, and the current time at the top of the late bus screen as well.</utterance>
+<utterance turn="437" who="Michael">That would reduce always toggling.</utterance>
+<utterance turn="438" who="Bryan Lane">yeah, the first line could be the same on both displays</utterance>
+<utterance turn="439" who="beckd">toggling could be a hassle that drivers just avoid</utterance>
+<utterance turn="440" who="Michael">Sure.</utterance>
+<utterance turn="441" who="beckd">sounds great guys</utterance>
+<utterance turn="442" who="Michael">:-)</utterance>
+<utterance turn="443" who="Michael">&gt;-|</utterance>
+<utterance turn="444" who="Craig Stuart">alright</utterance>
+<utterance turn="445" who="">, so moving along</utterance>
+<utterance turn="446" who="Price, Tyler">(a side: what we these needed for just analysis?)</utterance>
+<utterance turn="447" who="Craig Stuart">next we'd like to ask how you would like the exiting passenger statistics to be recorded</utterance>
+<utterance turn="448" who="beckd">If the system is allowing data to be recorded on who is boarding the bus</utterance>
+<utterance turn="449" who="beckd">why is it important to have exiting stats as well</utterance>
+<utterance turn="450" who="Chris Hanlon">I assume the bus companies want to know which stops people exit at.  Is that correct.</utterance>
+<utterance turn="451" who="Chris Hanlon">?</utterance>
+<utterance turn="452" who="Price, Tyler">exiting stats will allows to know how many people are on the bus at one time during certain parts of the route.</utterance>
+<utterance turn="453" who="Craig Stuart">I think that was the idea</utterance>
+<utterance turn="454" who="mcmahonp">How will we collect these stats?</utterance>
+<utterance turn="455" who="mcmahonp">Do you have the hardware?</utterance>
+<utterance turn="456" who="Michael">Exiting is important to allow bus planners to know which stops are used and which are not. So statistics around what is required would be the stop they departed at, time they departed, route and an estimate.... if number of people is too hard to track, just the knowledge that someone did get off at that stop.</utterance>
+<utterance turn="457" who="Craig Stuart">I believe the original idea was that the driver would enter the numbers into his/her display</utterance>
+<utterance turn="458" who="Price, Tyler">I don't believe we have the hardware</utterance>
+<utterance turn="459" who="mcmahonp">How is a bus driver going to count people getting off?</utterance>
+<utterance turn="460" who="Kia Dastmalchian">that is difficult on the drivers</utterance>
+<utterance turn="461" who="Price, Tyler">I don't think bus drivers can do it</utterance>
+<utterance turn="462" who="Michael">My Proposal:  Busses have infared beams across entraces that simply report when beam interruopted.</utterance>
+<utterance turn="463" who="Price, Tyler">Bus drivers could count oncoming but not exciting</utterance>
+<utterance turn="464" who="Tyler Gates">additional tasks for the bus drivers is always bad</utterance>
+<utterance turn="465" who="Bryan Lane">so when a crowd of people get off the bus at UVIC, a driver is supposed to count as they pile off?</utterance>
+<utterance turn="466" who="Bryan Lane">that won't work. there's no way.</utterance>
+<utterance turn="467" who="mcmahonp">Same problem with infared</utterance>
+<utterance turn="468" who="mcmahonp">it won't count a group</utterance>
+<utterance turn="469" who="Craig Stuart">yeah</utterance>
+<utterance turn="470" who="mcmahonp">or if someone is leaning against it, it won't count anyone</utterance>
+<utterance turn="471" who="Tyler Gates">we need to hire some guy to stand there and cound people</utterance>
+<utterance turn="472" who="Chris Hanlon">Would infared approximations be acceptable.</utterance>
+<utterance turn="473" who="Michael">I would not have the drivers count it. It's too much to deal with during boarding time....</utterance>
+<utterance turn="474" who="Michael">Infared are near enough the door no one would lean on them.</utterance>
+<utterance turn="475" who="Price, Tyler">what about weight sensors on the wheels, then divide by the average weight per person</utterance>
+<utterance turn="476" who="Ryan Nordman">To be honest, I think hiring a guy might be your best and most cost-effective solution...</utterance>
+<utterance turn="477" who="Price, Tyler">yes I was dan</utterance>
+<utterance turn="478" who="beckd">k good</utterance>
+<utterance turn="479" who="Kia Dastmalchian">thats what we do now, hire a guy</utterance>
+<utterance turn="480" who="Michael">Thanks ryan!</utterance>
+<utterance turn="481" who="Ryan Nordman">assuming you don't need that data constantly</utterance>
+<utterance turn="482" who="Michael">Are you volunteering?</utterance>
+<utterance turn="483" who="beckd">hahaah</utterance>
+<utterance turn="484" who="Tyler Gates">for free</utterance>
+<utterance turn="485" who="Bryan Lane">heheh</utterance>
+<utterance turn="486" who="Ryan Nordman">lol, thanks, but I have a job developing bus tracking systems</utterance>
+<utterance turn="487" who="Michael">Put 1/5 0 of you on each bus?</utterance>
+<utterance turn="488" who="beckd">it looks great on the resume</utterance>
+<utterance turn="489" who="Kia Dastmalchian">we were hoping the system would provide us data from every day instead of once every so often</utterance>
+<utterance turn="490" who="Michael">Yes.</utterance>
+<utterance turn="491" who="Bryan Lane">I'm not seeing the ryan counting in the decision pane</utterance>
+<utterance turn="492" who="Ryan Nordman">Yeah, I can't change the decision place anymore</utterance>
+<utterance turn="493" who="Ryan Nordman">it just boots me</utterance>
+<utterance turn="494" who="mcmahonp">for people getting on we can easily count people via counting fares -- I still don't see any easy way of counting exits</utterance>
+<utterance turn="495" who="Michael">Try making me a scribe too and I'll refresh it for Ryan. It's just a blank screen right ryan?</utterance>
+<utterance turn="496" who="Ryan Nordman">I'll email you a decision summary at the end</utterance>
+<utterance turn="497" who="beckd">So, decision? we won't have exit stats</utterance>
+<utterance turn="498" who="Ryan Nordman">yes, it's blank</utterance>
+<utterance turn="499" who="beckd">except by hiring people</utterance>
+<utterance turn="500" who="Odysseus">i think yea, through the swiping of a card, or insert of money etc, is the best way</utterance>
+<utterance turn="501" who="Odysseus">there isn't really an accurate</utterance>
+<utterance turn="502" who="Odysseus">way to do this...</utterance>
+<utterance turn="503" who="beckd">Okay</utterance>
+<utterance turn="504" who="Tyler Gates">make people swipe a card to get off</utterance>
+<utterance turn="505" who="beckd">moving right along?</utterance>
+<utterance turn="506" who="Kia Dastmalchian">(we could ditch exit stats?)</utterance>
+<utterance turn="507" who="Kia Dastmalchian">where people get on is more important data</utterance>
+<utterance turn="508" who="Bryan Lane">yeah, we do have the stats that the bus would be stopping</utterance>
+<utterance turn="509" who="Craig Stuart">sound good to everyone?</utterance>
+<utterance turn="510" who="beckd">sounds great</utterance>
+<utterance turn="511" who="Tyler Gates">ok</utterance>
+<utterance turn="512" who="Price, Tyler">we could just do estimates how how many people leave best on how many people are allowed one</utterance>
+<utterance turn="513" who="Price, Tyler">on*</utterance>
+<utterance turn="514" who="sheny">we can only knw how many ppl get on the bus in total in a day..but counting ppl get off is pretty hard to achieve i think..</utterance>
+<utterance turn="515" who="Michael">No ditching of exit stats.</utterance>
+<utterance turn="516" who="zhangc">kia is right</utterance>
+<utterance turn="517" who="Michael">Stats as basic as if someone did get off at a stop would be fine.</utterance>
+<utterance turn="518" who="Kia Dastmalchian">michael, you're fired</utterance>
+<utterance turn="519" who="Tyler Gates">have some guy counting people, but not on the bus but at the bus stop</utterance>
+<utterance turn="520" who="Michael">Then stops that no one gets off at would be recorded.</utterance>
+<utterance turn="521" who="Craig Stuart">alright, we can discuss this one more later on</utterance>
+<utterance turn="522" who="Tyler Gates">neeeeeeeeeeext</utterance>
+<utterance turn="523" who="Craig Stuart">i think we should move on to the last topic</utterance>
+<utterance turn="524" who="Chris Hanlon">Would it be appropriate to record how long the doors are open at each stop?  This won't give you an exact number of people getting off the bus but it should help you determine how popular a given stop is?</utterance>
+<utterance turn="525" who="Kia Dastmalchian">thats a good idea</utterance>
+<utterance turn="526" who="Kia Dastmalchian">, depends on how costly it is to implement</utterance>
+<utterance turn="527" who="beckd">k last?</utterance>
+<utterance turn="528" who="Bryan Lane">I dunno CH. elderly/disabled people will throw that off a lot</utterance>
+<utterance turn="529" who="Tyler Gates">old lady = lots of people</utterance>
+<utterance turn="530" who="Price, Tyler">that same hardware could apply to my weight sensor, lol</utterance>
+<utterance turn="531" who="Michael">Sure, door open approximation works fine.</utterance>
+<utterance turn="532" who="Bryan Lane">I guess it's better than nothing though</utterance>
+<utterance turn="533" who="Michael">Well, they've lived as long as many people... they can have the bennifit of being many people.</utterance>
+<utterance turn="534" who="Bryan Lane">haha</utterance>
+<utterance turn="535" who="Craig Stuart">alright, last topic guys</utterance>
+<utterance turn="536" who="Kia Dastmalchian">ok</utterance>
+<utterance turn="537" who="Ryan Nordman">Why don't we send you an email regarding this topc?</utterance>
+<utterance turn="538" who="Ryan Nordman">so we can wrap up now</utterance>
+<utterance turn="539" who="Ryan Nordman">we're already over time</utterance>
+<utterance turn="540" who="Bryan Lane">define -no- english. as in literally none/</utterance>
+<utterance turn="541" who="beckd">second</utterance>
+<utterance turn="542" who="Bryan Lane">?</utterance>
+<utterance turn="543" who="beckd">yes</utterance>
+<utterance turn="544" who="beckd">no english</utterance>
+<utterance turn="545" who="Michael">Use icons for buttons to make the knowledge of enligh a non-necessity to use kiosks.</utterance>
+<utterance turn="546" who="Bryan Lane">well, i think we were just talking using simple words</utterance>
+<utterance turn="547" who="Bryan Lane">as opposed to supporting hundreds of languages</utterance>
+<utterance turn="548" who="Bryan Lane">and what mike said</utterance>
+<utterance turn="549" who="Odysseus">with mike on that one</utterance>
+<utterance turn="550" who="Tyler Gates">a picuture is worth a thousand words</utterance>
+<utterance turn="551" who="Bryan Lane">where possible, anyway</utterance>
+<utterance turn="552" who="beckd">with the landmarks feature though</utterance>
+<utterance turn="553" who="Craig Stuart">that would only work for some of the more  simple functionalilty though</utterance>
+<utterance turn="554" who="Kia Dastmalchian">I don't see a huge language need here either, what they said</utterance>
+<utterance turn="555" who="Michael">English and french a must in a billingual country though...</utterance>
+<utterance turn="556" who="beckd">admins would have to draw pictures representing categories</utterance>
+<utterance turn="557" who="Michael">With option of adding more language at future date.</utterance>
+<utterance turn="558" who="Price, Tyler">only need french for federal stuff</utterance>
+<utterance turn="559" who="Tyler Gates">french, only in quebec</utterance>
+<utterance turn="560" who="Bryan Lane">oh yeah... the french.</utterance>
+<utterance turn="561" who="Tyler Gates">lets just assume that they separated</utterance>
+<utterance turn="562" who="Michael">I propose that the developers come up with some icons that they believe represent our system and run them past us in the next prototype.</utterance>
+<utterance turn="563" who="Michael">:D</utterance>
+<utterance turn="564" who="Bryan Lane">ok. if I have to speak french there, they have to speak english here</utterance>
+<utterance turn="565" who="beckd">okay</utterance>
+<utterance turn="566" who="beckd">i think we're good for now guys</utterance>
+<utterance turn="567" who="Tyler Gates">ok</utterance>
+<utterance turn="568" who="Craig Stuart">alright, that's it folks</utterance>
+<utterance turn="569" who="Michael">Well it so happens that our city is the capitol of the country....</utterance>
+<utterance turn="570" who="Michael">:-) alright.</utterance>
+<utterance turn="571" who="Bryan Lane">wow! promoted!</utterance>
+<utterance turn="572" who="Price, Tyler">logout</utterance>
+<utterance turn="573" who="Kia Dastmalchian">conference...started?</utterance>
+<utterance turn="574" who="beckd">g'day</utterance>
+<utterance turn="575" who="Tyler Gates">/quit</utterance>
+</meeting>

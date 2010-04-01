@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<meeting>
+<utterance turn="1" who="Geoff Spears">dev team è ancora in attesa di mambers?</utterance>
+<utterance turn="2" who="chaingj">MP non è sufficiente, non può lanciare magie ~.</utterance>
+<utterance turn="3" who="chaingj">Non ho visto Matteo</utterance>
+<utterance turn="4" who="longleyl">Matthew ha ancora bisogno di ricevere un invito</utterance>
+<utterance turn="5" who="andrews">http://segal.cs.uvic.ca/seng321/econference/howto.html</utterance>
+<utterance turn="6" who="longleyl">Penso che sia di tutti.</utterance>
+<utterance turn="7" who="andrews">per le istruzioni su come scriba</utterance>
+<utterance turn="8" who="Geoff Spears">siamo ancora in attesa di una sola persona</utterance>
+<utterance turn="9" who="neal">yep è seduto accanto a me e ancora problemi</utterance>
+<utterance turn="10" who="longleyl">Eccolo.</utterance>
+<utterance turn="11" who="Geoff Spears">..... e cominciare</utterance>
+<utterance turn="12" who="Geoff Spears">stiamo per iniziare con -1 persona</utterance>
+<utterance turn="13" who="Geoff Spears">never mind hes qui</utterance>
+<utterance turn="14" who="Saj">Ci scusiamo per il ritardo.</utterance>
+<utterance turn="15" who="Geoff Spears">no prob</utterance>
+<utterance turn="16" who="longleyl">Quindi noi dobbiamo cominciare?</utterance>
+<utterance turn="17" who="Ryan">andare avanti</utterance>
+<utterance turn="18" who="Geoff Spears">Jack si prega di mettere in su una decisione casuale</utterance>
+<utterance turn="19" who="chaingj">dannazione</utterance>
+<utterance turn="20" who="chaingj">Non posso clik</utterance>
+<utterance turn="21" who="longleyl">Non ti basta cliccare nel luogo delle decisioni e il tipo?</utterance>
+<utterance turn="22" who="Geoff Spears">Prova adesso</utterance>
+<utterance turn="23" who="longleyl">Okay, it works /.</utterance>
+<utterance turn="24" who="Geoff Spears">ok abbiamo solo bisogno di testare il riquadro decisiion</utterance>
+<utterance turn="25" who="whitew">ciao</utterance>
+<utterance turn="26" who="Geoff Spears">dsdsd</utterance>
+<utterance turn="27" who="Geoff Spears">verifica</utterance>
+<utterance turn="28" who="whitew">abbiamo problemi</utterance>
+<utterance turn="29" who="longleyl">Problemi?</utterance>
+<utterance turn="30" who="Geoff Spears">abort</utterance>
+<utterance turn="31" who="longleyl">???</utterance>
+<utterance turn="32" who="Geoff Spears">abbiamo perso la conversazione</utterance>
+<utterance turn="33" who="neal">?</utterance>
+<utterance turn="34" who="diazj">ci siamo?</utterance>
+<utterance turn="35" who="whitew">Noi gente che Linux non può vedere qualsiasi cosa</utterance>
+<utterance turn="36" who="Matthew">che cosa è sbagliato?</utterance>
+<utterance turn="37" who="whitew">dfg</utterance>
+<utterance turn="38" who="chaingj">doh</utterance>
+<utterance turn="39" who="Saj">Dove il nostro moderatore?</utterance>
+<utterance turn="40" who="diazj">lui è tornato</utterance>
+<utterance turn="41" who="Ryan">indietro</utterance>
+<utterance turn="42" who="chaingj">yo</utterance>
+<utterance turn="43" who="Geoff Spears">ok I'm back su</utterance>
+<utterance turn="44" who="gravesr">indietro</utterance>
+<utterance turn="45" who="whitew">PM opere</utterance>
+<utterance turn="46" who="chaingj">Non riesco a vedere le persone</utterance>
+<utterance turn="47" who="Geoff Spears">qualcun altro ha fatto ottenere bloccato dalla conversazione</utterance>
+<utterance turn="48" who="neal">nope</utterance>
+<utterance turn="49" who="gravesr">Ho dato il via, potrebbe essere wireless</utterance>
+<utterance turn="50" who="chaingj">Non riesco a vedere la gente su Who's On</utterance>
+<utterance turn="51" who="longleyl">Sei anche inviare in duplice copia.</utterance>
+<utterance turn="52" who="longleyl">E così io, a quanto pare.</utterance>
+<utterance turn="53" who="Geoff Spears">Penso che chiunque usi Linux non è possibile visualizzare i messaggi che ci sono typng</utterance>
+<utterance turn="54" who="neal">tutti noi il vostro messaggio in modo non ti preoccupare</utterance>
+<utterance turn="55" who="andrews">siamo in 2 sessioni</utterance>
+<utterance turn="56" who="chaingj">ok</utterance>
+<utterance turn="57" who="chaingj">I relogin</utterance>
+<utterance turn="58" who="diazj">quando siamo di partenza?</utterance>
+<utterance turn="59" who="Geoff Spears">non possiamo prendere decisioni formali</utterance>
+<utterance turn="60" who="Geoff Spears">o chiunque altro a usare Linux, me compreso, viene avviato</utterance>
+<utterance turn="61" who="Matthew">stiamo perdendo alcune persone</utterance>
+<utterance turn="62" who="neal">Great tool</utterance>
+<utterance turn="63" who="Geoff Spears">bene ok qualsiasi dev team che è collegato hai qualche q's</utterance>
+<utterance turn="64" who="Ryan">Switch Let's back to MSN, lol</utterance>
+<utterance turn="65" who="longleyl">Beh, credo che un buon posto per iniziare è quello di chiedere ciò che il team client pensiero del demo prototipo e se hanno alcuna preoccupazione, che salgono a causa di esso.</utterance>
+<utterance turn="66" who="Geoff Spears">yeah</utterance>
+<utterance turn="67" who="Geoff Spears">che cosa è la visibilità in del prototipo</utterance>
+<utterance turn="68" who="Geoff Spears">è on-line che possiamo vederlo più</utterance>
+<utterance turn="69" who="longleyl">Come in che cosa?</utterance>
+<utterance turn="70" who="Saj">vi è un computer gratuitamente da qui, se qualcuno sta avendo problemi di troppo.</utterance>
+<utterance turn="71" who="whitew">Se il cliente hanno un indirizzo Web in modo da poter visualizzare il prototipo di noi stessi?</utterance>
+<utterance turn="72" who="neal">http://clarkmultimedia.com/school/seng321/developer/prototype/</utterance>
+<utterance turn="73" who="Geoff Spears">ok</utterance>
+<utterance turn="74" who="Geoff Spears">Come funziona il prototipo di permettere alle persone di visualizzare le prenotazioni che sono pubblici o di meno prioritari rispetto a se stessi</utterance>
+<utterance turn="75" who="neal">non è un prototipo completo</utterance>
+<utterance turn="76" who="neal">se fosse, sarebbe "il sistema"</utterance>
+<utterance turn="77" who="Geoff Spears">destra</utterance>
+<utterance turn="78" who="Geoff Spears">lei ha ragione signore</utterance>
+<utterance turn="79" who="Geoff Spears">Qual è l'elemento fuoco che voi ragazzi stanno andando a fare per RS3.0</utterance>
+<utterance turn="80" who="longleyl">Nel sistema attuale, credo che cliccando su "prenotazione Programma" ai sensi di una camera si trova permetterebbe di visualizzare quando è prenotato, e se la prenotazione è stata pubblica, si potrebbe clic su di esso e vedere le specifiche su di esso.</utterance>
+<utterance turn="81" who="neal">stavamo pensando alla sheduling e prenotazione funzionalità</utterance>
+<utterance turn="82" who="Ryan">Geoff, potrebbe invitare andrew</utterance>
+<utterance turn="83" who="Geoff Spears">Qual è il suo nome utente</utterance>
+<utterance turn="84" who="longleyl">andrews</utterance>
+<utterance turn="85" who="Geoff Spears">k</utterance>
+<utterance turn="86" who="diazj">solo andrew</utterance>
+<utterance turn="87" who="Ryan">appena "andrew</utterance>
+<utterance turn="88" who="Geoff Spears">ha fatto ottenere l'invito</utterance>
+<utterance turn="89" who="Geoff Spears">?</utterance>
+<utterance turn="90" who="Matthew">dont think so</utterance>
+<utterance turn="91" who="Geoff Spears">dang</utterance>
+<utterance turn="92" who="Ryan">non ancora</utterance>
+<utterance turn="93" who="whitew">Come hai affrontato prenotazione camere multiple e prenotazioni reoccurring?</utterance>
+<utterance turn="94" who="longleyl">Gli amministratori sono gli unici che possono prenotare camere multiple alla volta.</utterance>
+<utterance turn="95" who="Geoff Spears">ma come su reoccurring prenotazioni</utterance>
+<utterance turn="96" who="neal">stesso</utterance>
+<utterance turn="97" who="Geoff Spears">ma gli utenti regalr dovrebbe essere in grado di prenotare per reoccuring eventi</utterance>
+<utterance turn="98" who="neal">a meno che non si vuole qualche autorizzazione per consentire agli utenti determinate caratteristiche thoes</utterance>
+<utterance turn="99" who="neal">o devo solo essere aperte ad ogni utente</utterance>
+<utterance turn="100" who="whitew">È che ha dimostrato sul prototipo a tutti?</utterance>
+<utterance turn="101" who="Matthew">no</utterance>
+<utterance turn="102" who="longleyl">No.</utterance>
+<utterance turn="103" who="Geoff Spears">Supponiamo che abbiamo avuto un tempo regolare riunione in un pomeriggio di venerdì</utterance>
+<utterance turn="104" who="neal">No, dovrò aggiungere una casella di controllo dicendo che ricorre</utterance>
+<utterance turn="105" who="Geoff Spears">vorremmo prenotare una camera per il semestre o qualcosa del genere</utterance>
+<utterance turn="106" who="Ryan">Geoff, ti invitiamo nuovamente andrew</utterance>
+<utterance turn="107" who="Ryan">"andrew"</utterance>
+<utterance turn="108" who="neal">periodi di tempo che vuoi per poter avere ricorrenti</utterance>
+<utterance turn="109" who="neal">settimanale, mensile, ogni giorno tanti</utterance>
+<utterance turn="110" who="Geoff Spears">whats andrews cognome</utterance>
+<utterance turn="111" who="longleyl">Scott.</utterance>
+<utterance turn="112" who="Geoff Spears">ok</utterance>
+<utterance turn="113" who="Geoff Spears">Andrew è ancora in</utterance>
+<utterance turn="114" who="Ryan">Sembra non</utterance>
+<utterance turn="115" who="neal">quindi abbiamo 27; minuti dalla fine suggerisco di iniziare decidere che cosa sta succedendo in rs 3,0</utterance>
+<utterance turn="116" who="neal">Andrew è anche qui</utterance>
+<utterance turn="117" who="diazj">egli è nella stanza solaris</utterance>
+<utterance turn="118" who="Ryan">lui è lì</utterance>
+<utterance turn="119" who="Ryan">ma il econf non può essere invitata</utterance>
+<utterance turn="120" who="Matthew">ha fatto ottenere la nuova versione?</utterance>
+<utterance turn="121" who="neal">Penso che dovremmo solo iniziare e lo riempiono in un secondo momento</utterance>
+<utterance turn="122" who="neal">o non avremo il tempo di finire</utterance>
+<utterance turn="123" who="Matthew">eccolo</utterance>
+<utterance turn="124" who="diazj">buona idea</utterance>
+<utterance turn="125" who="Andrew">about time</utterance>
+<utterance turn="126" who="Geoff Spears">e vorrei vedere un solo clic per entrare in uno stato in cui si sa che si sta prenotando una stanza</utterance>
+<utterance turn="127" who="neal">?</utterance>
+<utterance turn="128" who="Saj">per la ricorrenza, penso che la maggior parte di loro sarebbe o settimanale o mensile. Alcuni possono essere bisettimanali. Gli utenti dovrebbe essere attribuita alle opzioni di sicuro.</utterance>
+<utterance turn="129" who="Geoff Spears">sembra oscuro a me di dover passare attraverso di ricerca prima sala</utterance>
+<utterance turn="130" who="Matthew">come un click per vedere dove u libro o no?</utterance>
+<utterance turn="131" who="Ryan">è che "La mia prenotazione"?</utterance>
+<utterance turn="132" who="Geoff Spears">forse solo un pulsante per stanza libro che conduce attraverso la pagina searh camera</utterance>
+<utterance turn="133" who="Geoff Spears">così la sua più intuitiva</utterance>
+<utterance turn="134" who="neal">ben dire di avere 10 edifici, 4 piani ciascuno, e 5 camere un piano, che è un sacco di stanze</utterance>
+<utterance turn="135" who="Lucas Longley">Così, come, si fa clic su "Camera" libro e poi chiede di sfoglia o cerca di una stanza?</utterance>
+<utterance turn="136" who="Geoff Spears">ya</utterance>
+<utterance turn="137" who="neal">può fare</utterance>
+<utterance turn="138" who="neal">you guys necessario impostare un altro scriba</utterance>
+<utterance turn="139" who="Geoff Spears">ma la sopraelevazione scriba scrivere una decisione anche se</utterance>
+<utterance turn="140" who="Andrew">e impostare un ordine del giorno</utterance>
+<utterance turn="141" who="neal">Perché non</utterance>
+<utterance turn="142" who="Lucas Longley">E a quanto pare si è bloccato il programma di farlo.</utterance>
+<utterance turn="143" who="Geoff Spears">mi disconnetto quando una decisione è presa</utterance>
+<utterance turn="144" who="neal">Ho pensato che era l'obiettivo di uno scriba</utterance>
+<utterance turn="145" who="Andrew">whoa</utterance>
+<utterance turn="146" who="Geoff Spears">andrew welcome back</utterance>
+<utterance turn="147" who="Andrew">che dura sucks</utterance>
+<utterance turn="148" who="Geoff Spears">10 invita lter</utterance>
+<utterance turn="149" who="neal">lucas sei ripetizioni in triplice copia ora</utterance>
+<utterance turn="150" who="Lucas Longley">Sì, lo so.</utterance>
+<utterance turn="151" who="Lucas Longley">Questo programma ha bisogno di un po 'di lavoro.</utterance>
+<utterance turn="152" who="neal">non si dice</utterance>
+<utterance turn="153" who="Geoff Spears">Sono d'accordo</utterance>
+<utterance turn="154" who="neal">Non troppo</utterance>
+<utterance turn="155" who="Geoff Spears">Sono d'accordo</utterance>
+<utterance turn="156" who="Saj">Si può passare attraverso le questioni in fretta prima che le cose peggiorano?</utterance>
+<utterance turn="157" who="Andrew">ok, quindi un thatll schermo permette di scegliere la navigazione o la ricerca sembra ragionevole</utterance>
+<utterance turn="158" who="Andrew">consente di lavorare con questo</utterance>
+<utterance turn="159" who="Geoff Spears">yeah stavo proprio pensando in modo che se il vostro intento è quello di prenotare una stanza, quindi è possibile prenotare stanza scegliere immediatamente</utterance>
+<utterance turn="160" who="Andrew">ill record in Word</utterance>
+<utterance turn="161" who="Lucas Longley">A destra, ha un senso.</utterance>
+<utterance turn="162" who="Geoff Spears">sounds good</utterance>
+<utterance turn="163" who="neal">questa conferenza è destinato a finanziare anche decidere che cosa sta succedendo in rs 3,0</utterance>
+<utterance turn="164" who="Geoff Spears">stai andando a fare la parte di visualizzazione manifestazioni pubbliche per il prodotto finale</utterance>
+<utterance turn="165" who="Geoff Spears">sì</utterance>
+<utterance turn="166" who="Andrew">quindi se si conosce la camera che si desidera si può andare diritto su di essa</utterance>
+<utterance turn="167" who="Geoff Spears">quale parte del progetto hai intenzione di concentrarsi su di 3,0</utterance>
+<utterance turn="168" who="neal">chi può prenotare un evento pubblico</utterance>
+<utterance turn="169" who="Geoff Spears">chiunque</utterance>
+<utterance turn="170" who="neal">ya thats non è difficile</utterance>
+<utterance turn="171" who="Geoff Spears">la differenza è che chiunque non compresi gli utenti registrati possono visualizzare la prenotazione</utterance>
+<utterance turn="172" who="Ryan">che abbiano un senso</utterance>
+<utterance turn="173" who="neal">in modo che includono cose più prenotato per facoltà</utterance>
+<utterance turn="174" who="neal">it corso prenotazioni</utterance>
+<utterance turn="175" who="neal">* IE</utterance>
+<utterance turn="176" who="leungj">è la funzione per l'utente non per visualizzare la prenotazione include?</utterance>
+<utterance turn="177" who="leungj">Voglio dire nel prototipo</utterance>
+<utterance turn="178" who="Ryan">non nel prototipo,</utterance>
+<utterance turn="179" who="Geoff Spears">dire che ho prenotato una stanza in sub per una presentazione vorrei a chiunque di essere in grado di non venire solo gli utenti</utterance>
+<utterance turn="180" who="Geoff Spears">così un'opzione per impostare la viewablilty di un BOOOKING</utterance>
+<utterance turn="181" who="Andrew">Ho una domanda sul menu prenotazione della camera: cosa vuoi che su di esso? Non si vuole solo navigare e di ricerca? O volevi somthing else e dove si poteva fare somthing più diretto? Non ho capito la tua intenzione completo</utterance>
+<utterance turn="182" who="neal">una casella di controllo dicendo fine pubblico o privato potrebbe funzionare</utterance>
+<utterance turn="183" who="Geoff Spears">sulla pagina principale solo un collegamento alla pagina di ricerca sfogliare o ciò che è etichettato stanza libro è quello che sto pensando</utterance>
+<utterance turn="184" who="neal">ok</utterance>
+<utterance turn="185" who="neal">quindi se una stanza è eveyone pubblico può vedere qual è la sua prenotazione per, ma se non pubblico il proprio allora che cosa</utterance>
+<utterance turn="186" who="neal">Vuoi autenticato agli utenti di vedere ciò che i suoi prenotato per</utterance>
+<utterance turn="187" who="neal">il tuo rfp non ha menzionato il nome di prenotazione o descriptiong</utterance>
+<utterance turn="188" who="Geoff Spears">No, ma possono solo visualizzare le prenotazioni del pubblico che</utterance>
+<utterance turn="189" who="Matthew">un'altra domanda, non l'utente pubblica necessità di ottenere un ID e una password da admin prima di poter prenotare una camera?</utterance>
+<utterance turn="190" who="Geoff Spears">thats it *</utterance>
+<utterance turn="191" who="neal">rendendo così un pubblico di prenotazione solo dimostrare che la stanza è stata prenotata</utterance>
+<utterance turn="192" who="Geoff Spears">forse un titolo troppo</utterance>
+<utterance turn="193" who="Geoff Spears">come la "festa della birra" sub # 103</utterance>
+<utterance turn="194" who="neal">Vuoi aggiungere un titolo e una descrizione per la prenotazione</utterance>
+<utterance turn="195" who="Geoff Spears">forse optional</utterance>
+<utterance turn="196" who="neal">Beh, potrebbe pensare un titolo sarebbe molto utile</utterance>
+<utterance turn="197" who="leungj">una domanda a partire dal prototipo quando si fa clic su prenotazione il calendario, si visualizza solo calendario di un mese particolare, l'utente può visualizzare calendario il prossimo mese, come pure</utterance>
+<utterance turn="198" who="Matthew">thats non è un problema</utterance>
+<utterance turn="199" who="">Sì. .. la sua solo il prototipo</utterance>
+<utterance turn="200" who="neal">mech 343, o Beer Fest</utterance>
+<utterance turn="201" who="Geoff Spears">yeah i titoli dovrebbero essere incluse di sicuro</utterance>
+<utterance turn="202" who="Geoff Spears">altrimenti il suo significato per visualizzare le prenotazioni</utterance>
+<utterance turn="203" who="Ryan">verranno elencate le due seguenti mese più tardi, non solo in corso</utterance>
+<utterance turn="204" who="neal">Che dire una rapida descrizione opzione</utterance>
+<utterance turn="205" who="neal">e non priva di significato dipende solo ciò che si desidera che il sistema di fare</utterance>
+<utterance turn="206" who="neal">si stanno espandendo da camera di prenotazione per gli eventi del calendario</utterance>
+<utterance turn="207" who="Andrew">non lasciamo entrare in symantecs</utterance>
+<utterance turn="208" who="Geoff Spears">bene se si dispone di una riunione di facoltà e di tutto ciò che dice è che la stanza 103 è prenotato non e che la sua riunione thats pretty privo di senso</utterance>
+<utterance turn="209" who="neal">fa la differenza con il modo in cui affrontare il problema</utterance>
+<utterance turn="210" who="neal">un calendario di eventi si concentra maggiormente sulla progettazione e meno su prenotazione funzionalità e viceversa</utterance>
+<utterance turn="211" who="Andrew">Ebbene, poiché abbiamo già concentrato sulla funzionalità, permette di rimanere concentrato lì e basta aggiungere una descrizione</utterance>
+<utterance turn="212" who="Geoff Spears">Ho pensato che vedendo le prenotazioni del pubblico e tale è sempre stata una parte</utterance>
+<utterance turn="213" who="Geoff Spears">ma potrei sbagliarmi</utterance>
+<utterance turn="214" who="neal">sì, ma non hai mai specificato il titolo o la descrizione di conseguenza il pubblico può vedere solo quando la stanza è stata prenotata e nessun dettaglio verrebbe visualizzato</utterance>
+<utterance turn="215" who="neal">che se lo scopo del sistema è stato semplicemente quello di aiutare i bookers potenziale di trovare una stanza suiteable sarebbe sufficiente</utterance>
+<utterance turn="216" who="Geoff Spears">potresti avere ragione</utterance>
+<utterance turn="217" who="Andrew">l'aggiunta di un titolo è facile</utterance>
+<utterance turn="218" who="Andrew">Il prossimo numero</utterance>
+<utterance turn="219" who="Geoff Spears">ma penso che woul essere una buona idea includere tale</utterance>
+<utterance turn="220" who="Geoff Spears">se wasnt incluso in precedenza</utterance>
+<utterance turn="221" who="whitew">Che dovrebbe essere il modo in cui è, pubblica dovrebbe vedere camera prenotata, ma non i dettagli</utterance>
+<utterance turn="222" who="leungj">that's good sound</utterance>
+<utterance turn="223" who="Matthew">così noi dobbiamo comprendere che?</utterance>
+<utterance turn="224" who="Geoff Spears">Credo di sì</utterance>
+<utterance turn="225" who="Saj">Che cosa è stata la decisione completa?</utterance>
+<utterance turn="226" who="neal">a meno che non sia impostato su pubblico e quindi il pubblico può vedere tutto</utterance>
+<utterance turn="227" who="neal">vale a dire un concerto</utterance>
+<utterance turn="228" who="Geoff Spears">ya</utterance>
+<utterance turn="229" who="neal">ok fatto e fatto</utterance>
+<utterance turn="230" who="Geoff Spears">se la sua facoltà quindi la facoltà può vedere</utterance>
+<utterance turn="231" who="Geoff Spears">e le sue informazioni, ma gli studenti possono vedere solo i suoi prenotato</utterance>
+<utterance turn="232" who="Andrew">vuoi dire se</utterance>
+<utterance turn="233" who="neal">che non ha senso a tutti i</utterance>
+<utterance turn="234" who="neal">se il pubblico può vedere il concerto e che il tempo, poi conoscere la sua prenotato</utterance>
+<utterance turn="235" who="whitew">quale parte?</utterance>
+<utterance turn="236" who="whitew">sì</utterance>
+<utterance turn="237" who="Geoff Spears">se la sua una riunione di facoltà quindi la facoltà può vedere la durata di prenotazione e le informazioni pertinenti, ma gli studenti possono vedere solo che la stanza è stata prenotata</utterance>
+<utterance turn="238" who="neal">ma poi ciò che è stato tutto ciò che circa solo gli studenti vederlo</utterance>
+<utterance turn="239" who="Andrew">lei ha detto "a meno che non sia impostato su pubblico e quindi il pubblico può vedere tutto"</utterance>
+<utterance turn="240" who="neal">ma tutte le informazioni che si presentava sul calendario</utterance>
+<utterance turn="241" who="Geoff Spears">Ho accidentalmente premere Invio messaggio a metà</utterance>
+<utterance turn="242" who="Andrew">dovrebbe essere "se esso è impostato su pubblico e quindi il pubblico può vedere tutto"</utterance>
+<utterance turn="243" who="neal">perché se è un concerto che va da 9:00 a 1: sono quindi del suo evidente che la sua prenotato</utterance>
+<utterance turn="244" who="neal">e che ora è prenotato forma</utterance>
+<utterance turn="245" who="Matthew">ciò che gli altri? possono vedere il dettaglio di altro studente prenotazione di una camera?</utterance>
+<utterance turn="246" who="Geoff Spears">ma in teoria si vorrebbe persone ad assistere al concerto così dicendo loro il suo concerto in quel periodo sarebbe molto usesful</utterance>
+<utterance turn="247" who="neal">?</utterance>
+<utterance turn="248" who="Matthew">^ Su</utterance>
+<utterance turn="249" who="Lucas Longley">Non dovremmo passare alla RS 3.0? Stavamo andando a parlarne, ma desse vita, e ci sono solo cinque minuti.</utterance>
+<utterance turn="250" who="gravesr">Suppongo che un modo di dire è che un utente della stessa classe di utente può visualizzare i dettagli della prenotazione, ma tutte le altre classi utente può vedere solo le cose generali</utterance>
+<utterance turn="251" who="Andrew">Penso che abbiamo ordinato questo il nostro fine</utterance>
+<utterance turn="252" who="Ryan">public = Mostra stato prenotato con il dettaglio dell'evento; status privato = show prenotato solo? Is that correct</utterance>
+<utterance turn="253" who="Andrew">Prenotazioni, casella di controllo pubblico o privato per la visualizzazione,? Prenotazioni del pubblico, privato del titolo facoltativo, solo i gruppi possono vedere i dettagli, o bookers. Facoltà Ie possono vedere tutte le facoltà prenotato oggetti, gli studenti possono vedere solo gli oggetti che essi stessi libro.</utterance>
+<utterance turn="254" who="neal">4 minuti ok a sinistra</utterance>
+<utterance turn="255" who="whitew">Beh sembra forse una decisione è stata presa.</utterance>
+<utterance turn="256" who="Andrew">possiamo andare avanti?</utterance>
+<utterance turn="257" who="Lucas Longley">Che cosa è successo a parlare di RS 3.0?</utterance>
+<utterance turn="258" who="whitew">Perché u chiedendo RS3?</utterance>
+<utterance turn="259" who="Lucas Longley">Pensavo che avremmo dovuto parlarne brevemente.</utterance>
+<utterance turn="260" who="whitew">Il team di sviluppo ha delle domande per il cliente?</utterance>
+<utterance turn="261" who="neal">perché questo è lo scopo della riunione per decidere quali funzionalità di attuare in RS 3,0</utterance>
+<utterance turn="262" who="chaingj">l'uomo, il tipo di messaggio può tre volte in una sola volta, vi sono buone</utterance>
+<utterance turn="263" who="Lucas Longley">Sì, il software mi dà la velocità di tre typers in uno.</utterance>
+<utterance turn="264" who="diazj">No, non sono supposti per dirti quello che è la caratteristica più importante del sistema. Si dovrebbe decidere che</utterance>
+<utterance turn="265" who="whitew">ciò che è stato dev team di suggerimento</utterance>
+<utterance turn="266" who="neal">sì</utterance>
+<utterance turn="267" who="neal">e negoziare esattamente ciò che la sua intenzione di essere</utterance>
+<utterance turn="268" who="Lucas Longley">Suggerimento per cosa?</utterance>
+<utterance turn="269" who="neal">si deve decidere che cosa wer stanno andando a sviluppare è soddisfacente</utterance>
+<utterance turn="270" who="Saj">"Prenota una stanza", suona come la funzionalità più importante per me.</utterance>
+<utterance turn="271" who="Andrew">Penso che probabilmente la parte più importante è probabilmente fare prenotazioni</utterance>
+<utterance turn="272" who="neal">Ho già suggerito che facciamo prenotazione della camera e il calendario di visualizzazione</utterance>
+<utterance turn="273" who="neal">perché esse sono strettamente correlate</utterance>
+<utterance turn="274" who="Geoff Spears">Io penso che era nostra intenzione del sistema fin dall'inizio</utterance>
+<utterance turn="275" who="Andrew">accordo</utterance>
+<utterance turn="276" who="chaingj">destra</utterance>
+<utterance turn="277" who="Ryan">Che altro c'è bisogno di promuovere per il sistema</utterance>
+<utterance turn="278" who="Andrew">permette di agitare su di esso</utterance>
+<utterance turn="279" who="Geoff Spears">Shake Shake</utterance>
+<utterance turn="280" who="chaingj">shake cosa</utterance>
+<utterance turn="281" who="chaingj">d?</utterance>
+<utterance turn="282" who="Andrew">Sono vigoriously scuotendo il mio computer portatile</utterance>
+<utterance turn="283" who="whitew">anche io</utterance>
+<utterance turn="284" who="diazj">anche io</utterance>
+<utterance turn="285" who="Lucas Longley">Okay, RS 3.0 sarà su prenotazione della camera e visualizzare il calendario?</utterance>
+<utterance turn="286" who="Andrew">Spero di non fuck up my Hardrive</utterance>
+<utterance turn="287" who="chaingj">Sono scuotendo il monitor del computer ora</utterance>
+<utterance turn="288" who="neal">non lo faremo ruoli utente</utterance>
+<utterance turn="289" who="whitew">Sounds good to me</utterance>
+<utterance turn="290" who="Geoff Spears">ok</utterance>
+<utterance turn="291" who="Lucas Longley">Doke Okey, che suona bene.</utterance>
+<utterance turn="292" who="neal">ci saranno gli utenti pubblici e utente autenticato</utterance>
+<utterance turn="293" who="neal">s</utterance>
+<utterance turn="294" who="Geoff Spears">ok</utterance>
+<utterance turn="295" who="Saj">siamo in grado di salvare i ruoli utente per RS 4,0</utterance>
+<utterance turn="296" who="leungj">sounds good</utterance>
+<utterance turn="297" who="neal">what about search room</utterance>
+<utterance turn="298" who="neal">oppure volete semplicemente selezionare dalla lista edificio</utterance>
+<utterance turn="299" who="diazj">non c'è RS4.0</utterance>
+<utterance turn="300" who="Lucas Longley">Suppongo che fosse uno scherzo.</utterance>
+<utterance turn="301" who="Geoff Spears">autenticati possono vedere tutte le prenotazioni autenticati e pubbliche, utenti pubblici solo visualizzare le prenotazioni del pubblico</utterance>
+<utterance turn="302" who="Andrew">alright, devo masterizzare</utterance>
+<utterance turn="303" who="neal">Dico edificio elenco in modo che possiamo concentrarci sulle prenotazioni e display</utterance>
+<utterance turn="304" who="whitew">taglia di ricerca room, le risorse</utterance>
+<utterance turn="305" who="whitew">proprio così</utterance>
+<utterance turn="306" who="Geoff Spears">più tardi</utterance>
+<utterance turn="307" who="Lucas Longley">Ci vediamo.</utterance>
+<utterance turn="308" who="Lucas Longley">Ci vediamo per tre volte, in effetti.</utterance>
+<utterance turn="309" who="Matthew">abbiamo finito?</utterance>
+<utterance turn="310" who="Ryan">Credo di sì</utterance>
+<utterance turn="311" who="neal">tempo è scaduto</utterance>
+<utterance turn="312" who="chaingj">Okie Duckie</utterance>
+<utterance turn="313" who="Geoff Spears">abbiamo ricevuto le informazioni richieste</utterance>
+<utterance turn="314" who="Geoff Spears">?</utterance>
+<utterance turn="315" who="neal">Il team client sono altre domande prima di andare</utterance>
+<utterance turn="316" who="Saj">o stiamo pensando di avere un altro incontro?</utterance>
+<utterance turn="317" who="neal">e penso che tutto ciò che è stato discusso</utterance>
+<utterance turn="318" who="whitew">Non ho più q's</utterance>
+<utterance turn="319" who="neal">se non ci sono altre domande</utterance>
+<utterance turn="320" who="chaingj">ok</utterance>
+<utterance turn="321" who="Geoff Spears">Credo di sì, come pure</utterance>
+<utterance turn="322" who="leungj">non più</utterance>
+<utterance turn="323" who="Lucas Longley">Okey Doke.</utterance>
+<utterance turn="324" who="Matthew">alrite ragazzi ..</utterance>
+<utterance turn="325" who="chaingj">dannazione</utterance>
+<utterance turn="326" who="chaingj">si diventa 4 velocizzare il time -</utterance>
+<utterance turn="327" who="neal">ok se si pensa di qualcosa non esitare a Conact noi</utterance>
+<utterance turn="328" who="Lucas Longley">Appena in tempo, ora sto scrivendo in quadtruplet.</utterance>
+<utterance turn="329" who="chaingj">you are good</utterance>
+<utterance turn="330" who="Matthew">carino</utterance>
+<utterance turn="331" who="Lucas Longley">Penso che ho capito che cosa ha fatto la prima volta.</utterance>
+<utterance turn="332" who="Ryan">4-tuple ora</utterance>
+<utterance turn="333" who="chaingj">USA 2-0 il Messico di oggi .... Io vado per bere la birra che</utterance>
+<utterance turn="334" who="chaingj">ciao</utterance>
+<utterance turn="335" who="Geoff Spears">provare per 6x</utterance>
+<utterance turn="336" who="chaingj">Come circa 1000</utterance>
+<utterance turn="337" who="chaingj">crash il server</utterance>
+<utterance turn="338" who="Lucas Longley">Se si va alla chat&gt; Entra in una stanza e unirsi alla camera si sta già, li invia il tuo messaggio.</utterance>
+<utterance turn="339" who="neal">hmm, se permette se posso farlo</utterance>
+<utterance turn="340" who="diazj">così, sono abbiamo fatto?</utterance>
+<utterance turn="341" who="chaingj">fatto</utterance>
+<utterance turn="342" who="Geoff Spears">io sono</utterance>
+<utterance turn="343" who="whitew">Alcune domande</utterance>
+<utterance turn="344" who="neal">se nessuno ha niente altro da dire credo che abbiamo finito</utterance>
+<utterance turn="345" who="whitew">??</utterance>
+<utterance turn="346" who="leungj">okay</utterance>
+<utterance turn="347" who="diazj">ok</utterance>
+<utterance turn="348" who="chaingj">bye guys</utterance>
+<utterance turn="349" who="Matthew">alirte ... i suoi oltre</utterance>
+<utterance turn="350" who="Matthew">bye guys</utterance>
+<utterance turn="351" who="neal">avete le nostre informazioni di contatto in modo non esitate a contattarci per qualsiasi domanda</utterance>
+<utterance turn="352" who="Geoff Spears">è stato divertente</utterance>
+<utterance turn="353" who="diazj">ciao</utterance>
+<utterance turn="354" who="chaingj">uscita</utterance>
+<utterance turn="355" who="gravesr">ciao</utterance>
+<utterance turn="356" who="chaingj">logout</utterance>
+<utterance turn="357" who="Saj">ciao</utterance>
+<utterance turn="358" who="neal">ciao</utterance>
+<utterance turn="359" who="Lucas Longley">Ci vediamo.</utterance>
+<utterance turn="360" who="Matthew">gotta go</utterance>
+<utterance turn="361" who="Matthew">see u all</utterance>
+<utterance turn="362" who="Geoff Spears">nice 6x</utterance>
+<utterance turn="363" who="Lucas Longley">I win.</utterance>
+<utterance turn="364" who="chaingj">non vi è alcun comando logout</utterance>
+<utterance turn="365" who="neal">7 buon lavoro</utterance>
+<utterance turn="366" who="neal">Sì, esiste dovete digitare la password</utterance>
+<utterance turn="367" who="neal">e che si uscirà</utterance>
+</meeting>

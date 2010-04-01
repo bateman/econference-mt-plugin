@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<meeting>
+<utterance category="Other" role="Other" turn="1" who="beckd">hola a todos</utterance>
+<utterance category="Other" role="Other" turn="2" who="Jeff Spears">nadie quiere que se escriba</utterance>
+<utterance category="Other" role="Other" turn="3" who="beckd">yeah</utterance>
+<utterance category="Other" role="Other" turn="4" who="beckd">Estaré</utterance>
+<utterance category="Other" role="Other" turn="5" who="Jeff Spears">hecho</utterance>
+<utterance category="Other" role="Other" turn="6" who="whitew">goeff, me voy a desconectar, y luego me invitan de nuevo en Aceptar</utterance>
+<utterance category="Other" role="Other" turn="7" who="Jeff Spears">¿Estamos todos??</utterance>
+<utterance category="Other" role="Other" turn="8" who="Jeff Spears">estupendo</utterance>
+<utterance category="Other" role="Other" turn="9" who="Jeff Spears">por qué</utterance>
+<utterance category="Other" role="Other" turn="10" who="Jeff Spears">oh el eco</utterance>
+<utterance category="Other" role="Other" turn="11" who="whitew">porque tengo 2 invitaciones, y es</utterance>
+<utterance category="Other" role="Other" turn="12" who="whitew">sí</utterance>
+<utterance category="Other" role="Other" turn="13" who="whitew">Un segundo desconectar</utterance>
+<utterance category="Other" role="Other" turn="14" who="beckd">Nos estamos dejando anyonw?</utterance>
+<utterance category="Other" role="Other" turn="15" who="beckd">cualquier persona</utterance>
+<utterance category="Other" role="Other" turn="16" who="Jeff Spears">isnt Warren eah atrás y aún</utterance>
+<utterance category="Other" role="Other" turn="17" who="Jeff Spears">Alright</utterance>
+<utterance category="Other" role="Other" turn="18" who="whitew">ya continuación</utterance>
+<utterance category="Other" role="Other" turn="19" who="Jeff Spears">fueron al aquí</utterance>
+<utterance category="Other" role="Other" turn="20" who="Jeff Spears">desea iniciar</utterance>
+<utterance category="Other" role="Other" turn="21" who="beckd">¿Cómo puedo levantar la mano?</utterance>
+<utterance category="Other" role="Other" turn="22" who="Jeff Spears">?</utterance>
+<utterance category="Other" role="Other" turn="23" who="nordmanr">Estamos todos presentes en el equipo cliente aquí</utterance>
+<utterance category="Other" role="Other" turn="24" who="Jeff Spears">k deja ir</utterance>
+<utterance category="Complex Question" role="Other" turn="25" who="Jeff Spears">Después de leer la solicitud de propuestas esta es la idea que tenemos para su proyecto: Esencialmente, un clon de mensajería seguro para el cliente final, con el intercambio de archivos y las transferencias de los capacidad. Estos clientes se ven facilitadas por un servidor centralizado que almacena toda la información de usuario y los registros de las conversaciones y los almacena en una BD.</utterance>
+<utterance category="Complex Question" role="Other" turn="26" who="Jeff Spears">es que casi no?</utterance>
+<utterance category="Y/N Answer" role="Other" turn="27" who="mcmahonp">Sí</utterance>
+<utterance category="Acknowledgment" role="Other" turn="28" who="whitew">bueno</utterance>
+<utterance category="Complex Answer" role="Other" turn="29" who="mcmahonp">Aunque no necessarilly necesidad de las conversaciones que se almacena en una BD ...</utterance>
+<utterance category="Complex Answer" role="Other" turn="30" who="hanlonc">También es necesario compartir aplicaciones. IE - dejando que otra persona tener acceso a una ventanilla única en mi equipo.</utterance>
+<utterance category="Acknowledgment" role="Other" turn="31" who="Jeff Spears">k</utterance>
+<utterance category="Other" role="Other" turn="32" who="Jeff Spears">¿Cómo pasar al siguiente tema</utterance>
+<utterance category="Other" role="Other" turn="33" who="nordmanr">Usted estaba en él</utterance>
+<utterance category="Other" role="Other" turn="34" who="nordmanr">allí</utterance>
+<utterance category="Other" role="Other" turn="35" who="Jeff Spears">ah perfecto</utterance>
+<utterance category="Other" role="Other" turn="36" who="Jeff Spears">ok I preparde eariler todas las preguntas</utterance>
+<utterance category="Other" role="Other" turn="37" who="Jeff Spears">así que voy a cortar y pegar em</utterance>
+<utterance category="Other" role="Other" turn="38" who="beckd">gran</utterance>
+<utterance category="Complex Question" role="Other" turn="39" who="Jeff Spears">2,0 código fuente de compartir fácil y rápidamente con otro empleado remoto ¿Cuántos usuarios deben ser capaces de compartir código?? ¿Tiene hombres de código compartido la edición simultánea??</utterance>
+<utterance category="Complex Answer" role="Other" turn="40" who="hanlonc">Creo que en código compartido se refiere a la posibilidad de copiar y pegar código fácilmente. Sin ella ensuciarte.</utterance>
+<utterance category="Check" role="Other" turn="41" who="stuartc">a menos que usted se refiere a la aplicación de compartir parte</utterance>
+<utterance category="Task" role="Other" turn="42" who="Jeff Spears">no estamos tratando solamente con la porción del 2,0 ahora</utterance>
+<utterance category="Task" role="Other" turn="43" who="nordmanr">Sí, debemos ser capaces de compartir una aplicación de codificación entre dos usuarios de</utterance>
+<utterance category="Task" role="Other" turn="44" who="whitew">refiriéndose a la primera viñeta de 2,0</utterance>
+<utterance category="Agreement" role="Other" turn="45" who="nordmanr">Pero en términos de código compartido, creo que con respecto a la que acabamos de decir copiar y pegar la funcionalidad de</utterance>
+<utterance category="Check" role="Other" turn="46" who="Jeff Spears">para pasar de una ventana puede ver el código a la otra persona</utterance>
+<utterance category="Agreement" role="Other" turn="47" who="stuartc">exactamente</utterance>
+<utterance category="Acknowledgment" role="Other" turn="48" who="whitew">vale</utterance>
+<utterance category="Task" role="Other" turn="49" who="Jeff Spears">y que pueden obtener acceso a ella y hacer cambios</utterance>
+<utterance category="Task" role="Other" turn="50" who="Jeff Spears">mientras que tanto la gente mira</utterance>
+<utterance category="Task" role="Other" turn="51" who="Jeff Spears">no tanto tratar de hacerlo al mismo tiempo</utterance>
+<utterance category="Task" role="Other" turn="52" who="whitew">uno tendrá que permitir que el otro para ver / modificar</utterance>
+<utterance category="Task" role="Other" turn="53" who="nordmanr">Creo que sería suficiente sólo si podían enviar grandes bloques de código fuente entre sí a través de una copia y pega tipo de sistema, y luego, si la edición es necesario que podían usar la aplicación característica para compartir ...</utterance>
+<utterance category="Check" role="Other" turn="54" who="nordmanr">¿Qué piensan ustedes?</utterance>
+<utterance category="Agreement" role="Other" turn="55" who="hanlonc">I second that.</utterance>
+<utterance category="Agreement" role="Other" turn="56" who="mcmahonp">Sí, eso era lo que había imaginado.</utterance>
+<utterance category="Acknowledgment" role="Other" turn="57" who="beckd">hecho.</utterance>
+<utterance category="Agreement" role="Other" turn="58" who="stuartc">que suena bien</utterance>
+<utterance category="Acknowledgment" role="Other" turn="59" who="Jeff Spears">bien</utterance>
+<utterance category="Acknowledgment" role="Other" turn="60" who="whitew">hecho</utterance>
+<utterance category="Check" role="Other" turn="61" who="nordmanr">¿Tiene sentido, Jeff?</utterance>
+<utterance category="Agreement" role="Other" turn="63" who="Jeff Spears">sí tiene sentido para mí</utterance>
+<utterance category="Complex Question" role="Other" turn="62" who="stuartc">no queremos una ventana dedicada a este tema?</utterance>
+<utterance category="Complex Answer" role="Other" turn="64" who="mcmahonp">Todo lo que queríamos era una característica de mensajería instantánea que no se limita la longitud y la sangría conservado.</utterance>
+<utterance category="Task" role="Other" turn="65" who="nordmanr">Una ventana dedicada puede ser agradable, pero eso es más de un detalle de implementación</utterance>
+<utterance category="Acknowledgment" role="Other" turn="66" who="Jeff Spears">ok perfecto</utterance>
+<utterance category="Agreement" role="Other" turn="67" who="nordmanr">yeah</utterance>
+<utterance category="Other" role="Other" turn="68" who="Jeff Spears">q siguiente</utterance>
+<utterance category="Y/N Question" role="Other" turn="69" who="Jeff Spears">Directorio de usuarios, básicamente, una lista de contactos con todo el mundo de la empresa??</utterance>
+<utterance category="Y/N Answer" role="Other" turn="70" who="mcmahonp">sí</utterance>
+<utterance category="Task" role="Other" turn="71" who="Jeff Spears">dividido en secciones o algo</utterance>
+<utterance category="Task" role="Other" turn="72" who="whitew">almacenados en el servidor central</utterance>
+<utterance category="Complex Answer" role="Other" turn="73" who="sheny">como el departamento diferentes</utterance>
+<utterance category="Agreement" role="Other" turn="74" who="stuartc">derecho</utterance>
+<utterance category="Agreement" role="Other" turn="75" who="Jeff Spears">yeah</utterance>
+<utterance category="" role="Other" turn="76" who="">exactamente</utterance>
+<utterance category="Task" role="Other" turn="77" who="stuartc">y las diferentes oficinas</utterance>
+<utterance category="Check" role="Other" turn="78" who="Jeff Spears">las oficinas de diferentes lugares diff =? derecho</utterance>
+<utterance category="Agreement" role="Other" turn="79" who="stuartc">sí</utterance>
+<utterance category="Acknowledgment" role="Other" turn="80" who="Jeff Spears">k</utterance>
+<utterance category="Complex Question" role="Other" turn="81" who="Jeff Spears">Archivo ¿Pueden los usuarios ver las conversaciones de otros, como si te perdiste una reunión?? ¿O necesita una invitación para ver??</utterance>
+<utterance category="Complex Answer" role="Other" turn="82" who="hanlonc">El directorio también debe incluir la funcionalidad de los favoritos de tipo. De modo que los usuarios pueden ver una lista de los usuarios que hablan a la mayoría.</utterance>
+<utterance category="Agreement" role="Other" turn="83" who="Jeff Spears">yeah i prevé que</utterance>
+<utterance category="Y/N Answer" role="Other" turn="84" who="hanlonc">0</utterance>
+<utterance category="Acknowledgment" role="Other" turn="85" who="Jeff Spears">vale</utterance>
+<utterance category="Task" role="Other" turn="86" who="mcmahonp">Pero sería bueno que un usuario puede optar por hacer pública una conversación.</utterance>
+<utterance category="Agreement" role="Other" turn="87" who="stuartc">thats lo que estaba pensando</utterance>
+<utterance category="Agreement" role="Other" turn="88" who="hanlonc">Estoy de acuerdo.</utterance>
+<utterance category="Task" role="Other" turn="89" who="stuartc">tal vez si pudiéramos establecer diferentes permisos en los registros</utterance>
+<utterance category="Agreement" role="Other" turn="90" who="Jeff Spears">oh ok me gusta esa idea</utterance>
+<utterance category="Agreement" role="Other" turn="91" who="nordmanr">Sí, eso suena bien</utterance>
+<utterance category="Task" role="Other" turn="92" who="hanlonc">La seguridad de la empresa / oficial de la intimidad también tendrá que ser capaz de leer todos los registros.</utterance>
+<utterance category="Agreement" role="Other" turn="93" who="mcmahonp">yeah</utterance>
+<utterance category="Task" role="Other" turn="94" who="mcmahonp">Aunque toda su acceso a los registros deben ser a su vez conectado.</utterance>
+<utterance category="Acknowledgment" role="Other" turn="95" who="Jeff Spears">vale</utterance>
+<utterance category="Y/N Question" role="Other" turn="96" who="Jeff Spears">Asegurar las conexiones entre oficinas o los usuarios pueden conectarse desde casa, etc??</utterance>
+<utterance category="Other" role="Other" turn="97" who="whitew">Jeff, ¿cómo combate la siguiente pregunta</utterance>
+<utterance category="Y/N Answer" role="Other" turn="98" who="nordmanr">No, el cargo sólo cosas</utterance>
+<utterance category="Task" role="Other" turn="99" who="stuartc">por el bien de la seguridad de</utterance>
+<utterance category="Acknowledgment" role="Other" turn="100" who="Jeff Spears">vale</utterance>
+<utterance category="Task" role="Other" turn="101" who="hanlonc">Creo que los usuarios que están conectados a través de la VPN corporativa debe ser capaz de participar en las conversaciones.</utterance>
+<utterance category="Check" role="Other" turn="102" who="beckd">VPN?</utterance>
+<utterance category="Check" role="Other" turn="103" who="whitew">podemos tener VPN segura</utterance>
+<utterance category="Check" role="Other" turn="104" who="mcmahonp">¿Tenemos una VPN ...</utterance>
+<utterance category="Y/N Question" role="Other" turn="105" who="nordmanr">Sería de nuestra compañía realmente tienen ese servicio?</utterance>
+<utterance category="Y/N Answer" role="Other" turn="106" who="mcmahonp">No creo que lo que hacemos.</utterance>
+<utterance category="Task" role="Other" turn="107" who="nordmanr">Es una especie de un riesgo de seguridad para permitir a los empleados para llevar a casa el código fuente con ellos</utterance>
+<utterance category="Check" role="Other" turn="108" who="Jeff Spears">por lo que no VPN?</utterance>
+<utterance category="Complex Answer" role="Other" turn="109" who="hanlonc">La mayoría de las empresas de software que he trabajado han implementado algún tipo de VPN.</utterance>
+<utterance category="Complex Answer" role="Other" turn="110" who="nordmanr">Digamos que nos gustaría que la característica, pero probablemente no lo utilizaría pero</utterance>
+<utterance category="Disagreement" role="Other" turn="111" who="mcmahonp">Sí, pero somos un "seguro" de la empresa.</utterance>
+<utterance category="Task" role="Other" turn="112" who="nordmanr">En el futuro es posible que tengamos este sistema de apoyo que</utterance>
+<utterance category="Check" role="Other" turn="113" who="Jeff Spears">tal vez salir de la VPN para RES 2.0?</utterance>
+<utterance category="" role="Other" turn="114" who="Jeff Spears">para configurarlo para que sea compatible con una VPN futuro</utterance>
+<utterance category="Agreement" role="Other" turn="115" who="nordmanr">Sí</utterance>
+<utterance category="Task" role="Other" turn="116" who="hanlonc">¿Qué hay de cualquier persona que esté conectado a nuestro privado de TCP / IP puede acceder a nuestro sistema. Para el timebeing que sólo los usuarios locales, pero en el futuro podría incluir a los usuarios de VPN ...</utterance>
+<utterance category="Agreement" role="Other" turn="117" who="nordmanr">Sí, lo que Chris dijo</utterance>
+<utterance category="Agreement" role="Other" turn="118" who="Jeff Spears">ok suena bien</utterance>
+<utterance category="Other" role="Other" turn="119" who="nordmanr">q siguiente</utterance>
+<utterance category="Agreement" role="Other" turn="120" who="stuartc">suena bien</utterance>
+<utterance category="Y/N Question" role="Other" turn="121" who="Jeff Spears">proporcionar conectividad entre sitios, si se interrumpen las conexiones externas. ¿Quiere decir que la capacidad de conectarse con otros usuarios internos cuando no hay conexión a Internet externa??</utterance>
+<utterance category="Y/N Answer" role="Other" turn="122" who="nordmanr">Sí, en pocas palabras,</utterance>
+<utterance category="Complex Answer" role="Other" turn="123" who="nordmanr">Creo que quería decir, con nuestras oficinas múltiples, si uno de los sitios pierde la conexión, el otro aún debe ser capaz de comunicarse consigo misma y con los demás</utterance>
+<utterance category="Agreement" role="Other" turn="124" who="mcmahonp">sí</utterance>
+<utterance category="Y/N Question" role="Other" turn="125" who="Jeff Spears">si es un servidor centralizado, lo que si el sitio del servidor pierde la conexión</utterance>
+<utterance category="" role="Other" turn="126" who="">o estás más interesado en un servidor para cada sitio</utterance>
+<utterance category="Complex Answer" role="Other" turn="127" who="nordmanr">Estamos interesados en cualquier solución que nos dará la funcionalidad que necesitamos</utterance>
+<utterance category="Agreement" role="Other" turn="128" who="mcmahonp">yeah</utterance>
+<utterance category="Other" role="Other" turn="129" who="whitew">comenzar con una oficina, la R2</utterance>
+<utterance category="Other" role="Other" turn="130" who="beckd">aquí aquí!</utterance>
+<utterance category="Acknowledgment" role="Other" turn="131" who="Jeff Spears">k</utterance>
+<utterance category="Complex Question" role="Other" turn="132" who="Jeff Spears">No escucha lo que desea el registro de los archivos cifrados demasiado?? Si es así, ¿cómo?? Conversaciones guardadas protegidos con contraseña o clave pública, o de otro??</utterance>
+<utterance category="Complex Answer" role="Other" turn="133" who="whitew">Creo que por encima de ellos declaró que las conversaciones no iban a ser en el PP</utterance>
+<utterance category="Complex Answer" role="Other" turn="134" who="hanlonc">Tenemos empleados en un sitio para poder hablar unos con otros, incluso si su conexión a otros sitios está abajo.</utterance>
+<utterance category="Disagreement" role="Other" turn="135" who="Jeff Spears">tal vez no sea necesario ya que la invitación se Requiere</utterance>
+<utterance category="Complex Answer" role="Other" turn="136" who="mcmahonp">Tenemos los registros a la protección contra intrusos / hackers / empleados deshonestos.</utterance>
+<utterance category="Complex Question" role="Other" turn="137" who="Jeff Spears">pero ¿cómo se puede acceder a sus conversaciones van a ser almacenados en las máquinas individuales</utterance>
+<utterance category="Task" role="Other" turn="138" who="hanlonc">También necesitamos el software para manejar las interrupciones de red limpiamente. Por ejem-plo, supongamos beckd perdido su conexión de red. Se debe recuperar sus privilegios escriba tan pronto como se recupera su conexión de red.</utterance>
+<utterance category="Disagreement" role="Other" turn="139" who="Jeff Spears">veo cómo se podría conseguir a su propio sino que invita a los demás</utterance>
+<utterance category="Disagreement" role="Other" turn="140" who="Jeff Spears">Tiene un montón de espacio duplicado sin un DB para las conversaciones</utterance>
+<utterance category="Task" role="Other" turn="141" who="mcmahonp">No, sobre el PP, estaba diciendo que no se especifica cómo se manejan los registros</utterance>
+<utterance category="Task" role="Other" turn="142" who="nordmanr">Bueno, yo no creo que tenemos la intención de descartar la posibilidad de la DB</utterance>
+<utterance category="Task" role="Other" turn="143" who="mcmahonp">usted es libre de utilizar un servidor de DB si desea</utterance>
+<utterance category="Agreement" role="Other" turn="144" who="nordmanr">Sí</utterance>
+<utterance category="Task" role="Other" turn="145" who="stuartc">le toca a ustedes cómo desea implementarlo</utterance>
+<utterance category="Task" role="Other" turn="146" who="Jeff Spears">Creo que es la manera más lógica</utterance>
+<utterance category="Complex Answer" role="Other" turn="147" who="nordmanr">En términos de necesidades, queremos que los archivos de registro accesible por el empleado autorizado, ya sea una conversación que participaron o uno que hayan tenido acceso a los</utterance>
+<utterance category="Agreement" role="Other" turn="148" who="stuartc">suena bastante bien</utterance>
+<utterance category="Acknowledgment" role="Other" turn="149" who="Jeff Spears">bien entendido</utterance>
+<utterance category="Other" role="Other" turn="150" who="Jeff Spears">k i sentimos saltado 3,0</utterance>
+<utterance category="Y/N Question" role="Other" turn="151" who="Jeff Spears">Es el personal de apoyo de apoyo a todos los thesoftware utiliza o el apoyo a esta solicitud, o se trata de apoyar el software que su compañía vende??</utterance>
+<utterance category="Y/N Answer" role="Other" turn="152" who="nordmanr">No, están apoyando a nuestros puestos de trabajo</utterance>
+<utterance category="Task" role="Other" turn="154" who="nordmanr">Asegurarse de que las estaciones de trabajo de nuestros empleados están en marcha y el software adecuado está instalado y todo lo que</utterance>
+<utterance category="Y/N Question" role="Other" turn="153" who="whitew">como ayudantes de alta tecnología?</utterance>
+<utterance category="Y/N Answer" role="Other" turn="155" who="nordmanr">Sí, exactamente</utterance>
+<utterance category="Acknowledgment" role="Other" turn="156" who="Jeff Spears">Alright</utterance>
+<utterance category="Acknowledgment" role="Other" turn="157" who="whitew">vale</utterance>
+<utterance category="Complex Question" role="Other" turn="158" who="Jeff Spears">Si está ejecutando XP ¿Por qué no utilizar la asistencia remota que se incluye con el sistema operativo??</utterance>
+<utterance category="Complex Answer" role="Other" turn="159" who="nordmanr">Sí, eso estaría bien</utterance>
+<utterance category="" role="Other" turn="160" who="">Pero necesitaríamos una interfaz en él a través de este sistema de mensajería</utterance>
+<utterance category="" role="Other" turn="161" who="">O al menos, eso es lo que nos gustaría</utterance>
+<utterance category="Disagreement" role="Other" turn="162" who="hanlonc">Umm - Asistencia remota tal vez no es compatible con nuestra WAN</utterance>
+<utterance category="Complex Question" role="Other" turn="163" who="nordmanr">¿Por qué no sería?</utterance>
+<utterance category="Disagreement" role="Other" turn="164" who="nordmanr">He utilizado la asistencia remota a través de una red WAN antes de</utterance>
+<utterance category="Complex Answer" role="Other" turn="165" who="whitew">razones de seguridad, de nuevo</utterance>
+<utterance category="Disagreement" role="Other" turn="166" who="nordmanr">Bueno, siempre es tan seguro como nuestra mensajería instantánea</utterance>
+<utterance category="Other" role="Other" turn="167" who="whitew">que en la sección goeff?</utterance>
+<utterance category="Other" role="Other" turn="168" who="Jeff Spears">4,0</utterance>
+<utterance category="" role="Other" turn="170" who="">doesnt dice en la parte superior de la pantalla</utterance>
+<utterance category="Other" role="Other" turn="171" who="whitew">es fuera de ABIT pantalla;)</utterance>
+<utterance category="Task" role="Other" turn="169" who="nordmanr">Nos gustaría que la restricción misma que hemos tenido en materia de acceso al sistema de mensajería</utterance>
+<utterance category="Task" role="Other" turn="172" who="nordmanr">anfitriones sólo en el privado de TCP / IP debe ser capaz de utilizar las funciones de asistencia remota</utterance>
+<utterance category="Complex Question" role="Other" turn="173" who="Jeff Spears">¿Entonces de donde los riesgos de SECURTY provienen de</utterance>
+<utterance category="Complex Answer" role="Other" turn="174" who="whitew">entre oficinas, y una oficina a otra</utterance>
+<utterance category="Agreement" role="Other" turn="175" who="nordmanr">Sí, tenemos varios sitios</utterance>
+<utterance category="Task" role="Other" turn="176" who="hanlonc">Además, sólo personal autorizado - personal de apoyo debe ser capaz de conectarse a través de la asistencia remota.</utterance>
+<utterance category="Y/N Question" role="Other" turn="177" who="Jeff Spears">Yo pensaría que el youd 'cuentan con el apoyo técnico en el sitio</utterance>
+<utterance category="Agreement" role="Other" turn="178" who="nordmanr">Sí, es correcto</utterance>
+<utterance category="Task" role="Other" turn="179" who="hanlonc">Algunas tareas requieren técnicos especializados de un sitio en particular.</utterance>
+<utterance category="Check" role="Other" turn="180" who="Jeff Spears">la asistencia remota realmente así, entonces sólo tendrían que hacerse dentro de un sitio</utterance>
+<utterance category="Task" role="Other" turn="181" who="nordmanr">Probablemente sería suficiente si sólo geográficamente, personal local de soporte técnico puede acceder a la función de</utterance>
+<utterance category="Disagreement" role="Other" turn="182" who="hanlonc">I dissagree con nordmanr.</utterance>
+<utterance category="Task" role="Other" turn="183" who="nordmanr">aunque sería bueno que funcionó entre oficinas</utterance>
+<utterance category="Agreement" role="Other" turn="184" who="stuartc">que sería bueno</utterance>
+<utterance category="Task" role="Other" turn="185" who="hanlonc">Algunos son productos Inhouse primarely apoyo de nuestra oficina de Nueva York.</utterance>
+<utterance category="Agreement" role="Other" turn="186" who="nordmanr">Sí, eso es cierto</utterance>
+<utterance category="Check" role="Other" turn="187" who="Jeff Spears">Así que básicamente tendrá que trabajar a través de la red exactamente igual que la mensajería de</utterance>
+<utterance category="Check" role="Other" turn="188" who="Jeff Spears">no un subconjunto</utterance>
+<utterance category="Agreement" role="Other" turn="189" who="nordmanr">Derecho</utterance>
+<utterance category="Other" role="Other" turn="190" who="beckd">Tiempo ....</utterance>
+<utterance category="Other" role="Other" turn="191" who="whitew">tiempo?</utterance>
+<utterance category="Other" role="Other" turn="192" who="Jeff Spears">¡Vaya que fue del 5,0</utterance>
+<utterance category="Other" role="Other" turn="193" who="Jeff Spears">407</utterance>
+<utterance category="Other" role="Other" turn="194" who="hanlonc">Buen punto sólo tenemos 13 minutos a la izquierda.</utterance>
+<utterance category="Other" role="Other" turn="205" who="whitew">No, Eso es todo</utterance>
+<utterance category="Other" role="Other" turn="206" who="Jeff Spears">ok then</utterance>
+<utterance category="Other" role="Other" turn="207" who="beckd">imponente</utterance>
+<utterance category="Other" role="Other" turn="208" who="Jeff Spears">trato hecho</utterance>
+<utterance category="Other" role="Other" turn="209" who="beckd">¿Quién es salvar a esta convo</utterance>
+<utterance category="Other" role="Other" turn="210" who="Jeff Spears">??</utterance>
+<utterance category="Other" role="Other" turn="211" who="nordmanr">Gracias, señores, estamos deseando trabajar con usted</utterance>
+<utterance category="Other" role="Other" turn="212" who="nordmanr">Todo el que quiera puede guardar la Decisión 1 - Soy escriba la Decisión 2 - La idea principal detrás del software es: un clon del mensajero seguro para el cliente final, con el intercambio de archivos y las transferencias de los capacidad. Estos clientes se ven facilitadas por un servidor centralizado que almacena toda la información del usuario y registra las conversaciones y los almacena en una DB. Con la aplicación de intercambio de capacidad de decisión 3 - código compartido implica la capacidad de pegar el código en el formato sin mirar feo. No deben tener longitud máxima de mensaje y preservar la sangría. Decisión 4 - Directorio de usuarios es la lista de contactos de todos en la empresa, ordenados por departamento, ubicación de la Decisión 5 - Para los archivos, que son privadas, a menos invitados a ver por el propietario, la opción de poner a disposición pública. Decisión 6 - Por el momento, cualquier persona conectada a nuestro privado de TCP / IP puede tener acceso al sistema. En futuras versiones pueden incluir la propiedad intelectual fuera de sitio Decisión 7 - Logfiles deben ser accesibles por un empleados autorizados Decisión 8 - El personal de apoyo es el apoyo a nuestras estaciones de trabajo exclusivamente a la Decisión 9 - Assitance remoto WinXP sería un problema, siempre, al estar integrada en nuestro sistema de mensajería y sólo los hosts en la red privada debe ser capaz de utilizar. Decisión 10 - Estamos dispuestos a aumentar nuestro uso de la memoria máxima de 15 + MB, pero quisiera tan poco como sea posible.</utterance>
+</meeting>

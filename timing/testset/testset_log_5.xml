@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<meeting>
+<utterance turn="1" who="Geoff Spears">is dev team still waiting for mambers?</utterance>
+<utterance turn="2" who="chaingj">MP is not enough, can't cast magic~.</utterance>
+<utterance turn="3" who="chaingj">I didn't see matthew</utterance>
+<utterance turn="4" who="longleyl">Matthew still needs to get invited</utterance>
+<utterance turn="5" who="andrews">http://segal.cs.uvic.ca/seng321/econference/howto.html</utterance>
+<utterance turn="6" who="longleyl">I think that's everyone.</utterance>
+<utterance turn="7" who="andrews">for instructions on how to scribe</utterance>
+<utterance turn="8" who="Geoff Spears">we are still waiting for one person</utterance>
+<utterance turn="9" who="neal">yep he is sitting next to me and still having trouble</utterance>
+<utterance turn="10" who="longleyl">There he is.</utterance>
+<utterance turn="11" who="Geoff Spears">..... and begin</utterance>
+<utterance turn="12" who="Geoff Spears">we are going to start with -1 person</utterance>
+<utterance turn="13" who="Geoff Spears">never mind hes here</utterance>
+<utterance turn="14" who="Saj">Sorry for the delay.</utterance>
+<utterance turn="15" who="Geoff Spears">no prob</utterance>
+<utterance turn="16" who="longleyl">So shall we begin?</utterance>
+<utterance turn="17" who="Ryan">go ahead</utterance>
+<utterance turn="18" who="Geoff Spears">jack please put up a random decision</utterance>
+<utterance turn="19" who="chaingj">damn</utterance>
+<utterance turn="20" who="chaingj">I can't clik</utterance>
+<utterance turn="21" who="longleyl">Don't you just click in the decisions place and type?</utterance>
+<utterance turn="22" who="Geoff Spears">try now</utterance>
+<utterance turn="23" who="longleyl">Okay, it works/.</utterance>
+<utterance turn="24" who="Geoff Spears">ok we just needed to test the decisiion pane</utterance>
+<utterance turn="25" who="whitew">hello</utterance>
+<utterance turn="26" who="Geoff Spears">dsdsd</utterance>
+<utterance turn="27" who="Geoff Spears">test</utterance>
+<utterance turn="28" who="whitew">we have problems</utterance>
+<utterance turn="29" who="longleyl">Problems?</utterance>
+<utterance turn="30" who="Geoff Spears">abort</utterance>
+<utterance turn="31" who="longleyl">???</utterance>
+<utterance turn="32" who="Geoff Spears">we lost the conversation</utterance>
+<utterance turn="33" who="neal">?</utterance>
+<utterance turn="34" who="diazj">did we?</utterance>
+<utterance turn="35" who="whitew">we linux guys can't see any thing</utterance>
+<utterance turn="36" who="Matthew">whats wrong?</utterance>
+<utterance turn="37" who="whitew">dfg</utterance>
+<utterance turn="38" who="chaingj">doh</utterance>
+<utterance turn="39" who="Saj">Where's our moderator?</utterance>
+<utterance turn="40" who="diazj">he is back</utterance>
+<utterance turn="41" who="Ryan">back now</utterance>
+<utterance turn="42" who="chaingj">yo</utterance>
+<utterance turn="43" who="Geoff Spears">ok I'm back on</utterance>
+<utterance turn="44" who="gravesr">back</utterance>
+<utterance turn="45" who="whitew">PM works</utterance>
+<utterance turn="46" who="chaingj">I can't see people</utterance>
+<utterance turn="47" who="Geoff Spears">did anyone else get blocked from the conversation</utterance>
+<utterance turn="48" who="neal">nope</utterance>
+<utterance turn="49" who="gravesr">I got kicked off, might be wireless</utterance>
+<utterance turn="50" who="chaingj">I can't see people on Who's On</utterance>
+<utterance turn="51" who="longleyl">You're also posting in duplicate.</utterance>
+<utterance turn="52" who="longleyl">And so am I, apparently.</utterance>
+<utterance turn="53" who="Geoff Spears">I think that anyone using linux cannot see the messages that we are typng</utterance>
+<utterance turn="54" who="neal">we all get your message so don't worry about it</utterance>
+<utterance turn="55" who="andrews">we're in 2 sessions</utterance>
+<utterance turn="56" who="chaingj">ok</utterance>
+<utterance turn="57" who="chaingj">I relogin</utterance>
+<utterance turn="58" who="diazj">when are we starting?</utterance>
+<utterance turn="59" who="Geoff Spears">we cannot make formal decisions</utterance>
+<utterance turn="60" who="Geoff Spears">or else anyone using linux including myself gets booted</utterance>
+<utterance turn="61" who="Matthew">we are losing some people</utterance>
+<utterance turn="62" who="neal">great tool</utterance>
+<utterance turn="63" who="Geoff Spears">ok well any dev team that is connected do you have any q's</utterance>
+<utterance turn="64" who="Ryan">Let's switch back to MSN, lol</utterance>
+<utterance turn="65" who="longleyl">Well, I guess a good place to start is to ask what the client team thought of the prototype demo and if they have any concerns that came up as a result of it.</utterance>
+<utterance turn="66" who="Geoff Spears">yeah</utterance>
+<utterance turn="67" who="Geoff Spears">whats the viewability of the prototype</utterance>
+<utterance turn="68" who="Geoff Spears">is it online that we can view it further</utterance>
+<utterance turn="69" who="longleyl">As in what?</utterance>
+<utterance turn="70" who="Saj">there is one computer free here if anyone is having too much problems.</utterance>
+<utterance turn="71" who="whitew">Does the client have a web url so we can view the prototype our selves?</utterance>
+<utterance turn="72" who="neal">http://clarkmultimedia.com/school/seng321/developer/prototype/</utterance>
+<utterance turn="73" who="Geoff Spears">ok</utterance>
+<utterance turn="74" who="Geoff Spears">how does the prototype allow people to view the bookings that are either public or of lower priority than themselves</utterance>
+<utterance turn="75" who="neal">it is not a full prototype</utterance>
+<utterance turn="76" who="neal">if it were it would be "the" system</utterance>
+<utterance turn="77" who="Geoff Spears">right</utterance>
+<utterance turn="78" who="Geoff Spears">you are correct sir</utterance>
+<utterance turn="79" who="Geoff Spears">what is the focus component that you guys are going to do for RS3.0</utterance>
+<utterance turn="80" who="longleyl">In the actual system, I believe that clicking on "Booking Schedule" under a room you found would enable you to view when it's booked, and if a booking was public, you could click on it and see the specifics about it.</utterance>
+<utterance turn="81" who="neal">we were thinking about the sheduling and booking functionality</utterance>
+<utterance turn="82" who="Ryan">geoff, could you invite andrew</utterance>
+<utterance turn="83" who="Geoff Spears">what is his username</utterance>
+<utterance turn="84" who="longleyl">andrews</utterance>
+<utterance turn="85" who="Geoff Spears">k</utterance>
+<utterance turn="86" who="diazj">just andrew</utterance>
+<utterance turn="87" who="Ryan">just "andrew</utterance>
+<utterance turn="88" who="Geoff Spears">did he get the invite</utterance>
+<utterance turn="89" who="Geoff Spears">?</utterance>
+<utterance turn="90" who="Matthew">dont think so</utterance>
+<utterance turn="91" who="Geoff Spears">dang</utterance>
+<utterance turn="92" who="Ryan">not yet</utterance>
+<utterance turn="93" who="whitew">How have you addressed booking multiple rooms and reoccurring bookings??</utterance>
+<utterance turn="94" who="longleyl">Administrators are the only ones who can book multiple rooms at a time.</utterance>
+<utterance turn="95" who="Geoff Spears">but how about reoccurring bookings</utterance>
+<utterance turn="96" who="neal">same</utterance>
+<utterance turn="97" who="Geoff Spears">but regalr users should be able to book for reoccuring events</utterance>
+<utterance turn="98" who="neal">unless you want some permission to allow certain users thoes features</utterance>
+<utterance turn="99" who="neal">or should i just be open to any user</utterance>
+<utterance turn="100" who="whitew">Is that demonstrated on the prototype at all?</utterance>
+<utterance turn="101" who="Matthew">no</utterance>
+<utterance turn="102" who="longleyl">No.</utterance>
+<utterance turn="103" who="Geoff Spears">suppose we had a regular meeting time on a friday afternoon</utterance>
+<utterance turn="104" who="neal">nope, i will have to add a checkbox saying recurring</utterance>
+<utterance turn="105" who="Geoff Spears">we would want to book a room for the semester or something</utterance>
+<utterance turn="106" who="Ryan">Geoff, would you invite andrew again</utterance>
+<utterance turn="107" who="Ryan">"andrew"</utterance>
+<utterance turn="108" who="neal">what time periods do you want to be able to have recurring</utterance>
+<utterance turn="109" who="neal">weekly, monthly, every so many days</utterance>
+<utterance turn="110" who="Geoff Spears">whats andrews last name</utterance>
+<utterance turn="111" who="longleyl">Scott.</utterance>
+<utterance turn="112" who="Geoff Spears">ok</utterance>
+<utterance turn="113" who="Geoff Spears">is andrew in yet</utterance>
+<utterance turn="114" who="Ryan">seems not</utterance>
+<utterance turn="115" who="neal">so we have 27 ;minutes left i suggest we get started deciding what is going into rs 3.0</utterance>
+<utterance turn="116" who="neal">is andrew even here</utterance>
+<utterance turn="117" who="diazj">he is in the solaris room</utterance>
+<utterance turn="118" who="Ryan">he's there</utterance>
+<utterance turn="119" who="Ryan">but the econf can't be invited</utterance>
+<utterance turn="120" who="Matthew">did he get the new version?</utterance>
+<utterance turn="121" who="neal">i think we should just get started and fill him in later</utterance>
+<utterance turn="122" who="neal">or we will not have time to finish</utterance>
+<utterance turn="123" who="Matthew">there he is</utterance>
+<utterance turn="124" who="diazj">good idea</utterance>
+<utterance turn="125" who="Andrew">about time</utterance>
+<utterance turn="126" who="Geoff Spears">well I would like to see one single click to enter into a state where you know that you are booking a room</utterance>
+<utterance turn="127" who="neal">?</utterance>
+<utterance turn="128" who="Saj">for the recurrence, I think most of them would be either weekly or monthly. Some may be biweekly. The users should be given those options for sure.</utterance>
+<utterance turn="129" who="Geoff Spears">it seems obscure to me to have to go through room search first</utterance>
+<utterance turn="130" who="Matthew">like one click to see where u book or not?</utterance>
+<utterance turn="131" who="Ryan">is that "My Bookings"?</utterance>
+<utterance turn="132" who="Geoff Spears">maybe just a button for book room that leads through to the room searh page</utterance>
+<utterance turn="133" who="Geoff Spears">so its more intuitive</utterance>
+<utterance turn="134" who="neal">well say you have 10 buildings, 4 floors each, and 5 rooms a floor, that is a lot of rooms</utterance>
+<utterance turn="135" who="Lucas Longley">So, like, you click "book room" and then it prompts you to either browse or search for a room?</utterance>
+<utterance turn="136" who="Geoff Spears">ya</utterance>
+<utterance turn="137" who="neal">can do</utterance>
+<utterance turn="138" who="neal">you guys should set another scribe</utterance>
+<utterance turn="139" who="Geoff Spears">but the scribe cant write a decision though</utterance>
+<utterance turn="140" who="Andrew">and set an agenda</utterance>
+<utterance turn="141" who="neal">why not</utterance>
+<utterance turn="142" who="Lucas Longley">It apparently crashed the program to do so.</utterance>
+<utterance turn="143" who="Geoff Spears">i get disconnected when a decision is made</utterance>
+<utterance turn="144" who="neal">i thought that was the purpose of a scribe</utterance>
+<utterance turn="145" who="Andrew">whoa</utterance>
+<utterance turn="146" who="Geoff Spears">andrew welcome back</utterance>
+<utterance turn="147" who="Andrew">that harsh sucks</utterance>
+<utterance turn="148" who="Geoff Spears">10 invites lter</utterance>
+<utterance turn="149" who="neal">lucas you are repeating yourself in triplicate now</utterance>
+<utterance turn="150" who="Lucas Longley">Yeah, I know.</utterance>
+<utterance turn="151" who="Lucas Longley">This program needs a little work.</utterance>
+<utterance turn="152" who="neal">you don't say</utterance>
+<utterance turn="153" who="Geoff Spears">i agree</utterance>
+<utterance turn="154" who="neal">not you too</utterance>
+<utterance turn="155" who="Geoff Spears">i agree</utterance>
+<utterance turn="156" who="Saj">Can we go through the issues quickly before things get worse?</utterance>
+<utterance turn="157" who="Andrew">ok, so a screen thatll let you choose browsing or searching sounds reasonable</utterance>
+<utterance turn="158" who="Andrew">lets work through this</utterance>
+<utterance turn="159" who="Geoff Spears">yeah i was just thinking so that if your intent is to book a room then you can click book room immediately</utterance>
+<utterance turn="160" who="Andrew">ill record this in word</utterance>
+<utterance turn="161" who="Lucas Longley">Right, makes sense.</utterance>
+<utterance turn="162" who="Geoff Spears">sounds good</utterance>
+<utterance turn="163" who="neal">this conference is intended to also decide what is going into rs 3.0</utterance>
+<utterance turn="164" who="Geoff Spears">are you going to do the display public events portion for the final product</utterance>
+<utterance turn="165" who="Geoff Spears">yes</utterance>
+<utterance turn="166" who="Andrew">so if you know the room you want you can go right to it</utterance>
+<utterance turn="167" who="Geoff Spears">what part of the project are you going to focus on for 3.0</utterance>
+<utterance turn="168" who="neal">who can book a public event</utterance>
+<utterance turn="169" who="Geoff Spears">anyone</utterance>
+<utterance turn="170" who="neal">ya thats not hard</utterance>
+<utterance turn="171" who="Geoff Spears">the difference is that anyone including non logged in users can view the booking</utterance>
+<utterance turn="172" who="Ryan">that make sense</utterance>
+<utterance turn="173" who="neal">so that would include most stuff booked by faculty</utterance>
+<utterance turn="174" who="neal">it course bookings</utterance>
+<utterance turn="175" who="neal">*ie</utterance>
+<utterance turn="176" who="leungj">is the function for non user to view the booking include?</utterance>
+<utterance turn="177" who="leungj">i mean in the prototype</utterance>
+<utterance turn="178" who="Ryan">not in the prototype,</utterance>
+<utterance turn="179" who="Geoff Spears">say I booked a room in the sub for a presentation I would want anyone to be able to come not just users</utterance>
+<utterance turn="180" who="Geoff Spears">so an option to set the viewablilty of a boooking</utterance>
+<utterance turn="181" who="Andrew">I have a question about the room booking menu: what do you want on it? Do you want just browse and search? Or did you want somthing else as well where you could do somthing more direct? I didn't understand your full intention</utterance>
+<utterance turn="182" who="neal">a check box saying public or private would work fine</utterance>
+<utterance turn="183" who="Geoff Spears">on the main page just a shortcut to the browse or search page that is labelled book room is what i am thinking</utterance>
+<utterance turn="184" who="neal">ok</utterance>
+<utterance turn="185" who="neal">so if a room is public eveyone can see what its booked for, but if its not public then what</utterance>
+<utterance turn="186" who="neal">do you want authenticated users to see what its booked for</utterance>
+<utterance turn="187" who="neal">your rfp didn't mention a booking name or descriptiong</utterance>
+<utterance turn="188" who="Geoff Spears">no but they can only view public bookings that it</utterance>
+<utterance turn="189" who="Matthew">another Question, does the public user need to get an ID and password from the admin  before they can book a room?</utterance>
+<utterance turn="190" who="Geoff Spears">thats it*</utterance>
+<utterance turn="191" who="neal">so making a booking public would only show that the room is booked</utterance>
+<utterance turn="192" who="Geoff Spears">possibly a title too</utterance>
+<utterance turn="193" who="Geoff Spears">such as "beer fest" sub # 103</utterance>
+<utterance turn="194" who="neal">do you want to add a title and description to the booking</utterance>
+<utterance turn="195" who="Geoff Spears">perhaps optional</utterance>
+<utterance turn="196" who="neal">well i would think a title would be very usefull</utterance>
+<utterance turn="197" who="leungj">a question from the prototype when you click on booking schedule, you only display schedule of a particular month, can user view next month schedule as well</utterance>
+<utterance turn="198" who="Matthew">thats not a problem</utterance>
+<utterance turn="199" who="">yes..its just the prototype</utterance>
+<utterance turn="200" who="neal">mech 343, or beer fest</utterance>
+<utterance turn="201" who="Geoff Spears">yeah titles should be included for sure</utterance>
+<utterance turn="202" who="Geoff Spears">otherwise its meaningless to view bookings</utterance>
+<utterance turn="203" who="Ryan">we will list the following couple of month later, not only current</utterance>
+<utterance turn="204" who="neal">what about a quick option description</utterance>
+<utterance turn="205" who="neal">well not meaningless it just depends what you want the system to do</utterance>
+<utterance turn="206" who="neal">you are expanding from room booking to events calendar</utterance>
+<utterance turn="207" who="Andrew">let's not get into symantecs</utterance>
+<utterance turn="208" who="Geoff Spears">well if you have a faculty meeting and all it says is that room 103 is booked and not that its the meeting thats pretty meaningless</utterance>
+<utterance turn="209" who="neal">it makes a difference with how we approach the problem</utterance>
+<utterance turn="210" who="neal">an events calendar focuses more on design and less on booking functionality and vise versa</utterance>
+<utterance turn="211" who="Andrew">Well, since we've already focused on functionality, lets stay focused there and just add a description</utterance>
+<utterance turn="212" who="Geoff Spears">i thought that viewing public bookings and such was always a part</utterance>
+<utterance turn="213" who="Geoff Spears">but i could be mistaken</utterance>
+<utterance turn="214" who="neal">yes but you never specified the title or description therefore the public could just see when the room was booked and no details would be displayed</utterance>
+<utterance turn="215" who="neal">which if the purpose of the system was simply to help potential bookers find a suiteable room would be sufficient</utterance>
+<utterance turn="216" who="Geoff Spears">you could be right</utterance>
+<utterance turn="217" who="Andrew">adding a title is easy</utterance>
+<utterance turn="218" who="Andrew">next issue</utterance>
+<utterance turn="219" who="Geoff Spears">but I think it woul be a good idea to include that</utterance>
+<utterance turn="220" who="Geoff Spears">if it wasnt included previously</utterance>
+<utterance turn="221" who="whitew">That should be the way it is, public should see room booked, but no details</utterance>
+<utterance turn="222" who="leungj">that's sound good</utterance>
+<utterance turn="223" who="Matthew">so should we include that?</utterance>
+<utterance turn="224" who="Geoff Spears">i think so</utterance>
+<utterance turn="225" who="Saj">so what was the complete decision?</utterance>
+<utterance turn="226" who="neal">unless it is set to public and then the public can see everything</utterance>
+<utterance turn="227" who="neal">ie a concert</utterance>
+<utterance turn="228" who="Geoff Spears">ya</utterance>
+<utterance turn="229" who="neal">ok done and done</utterance>
+<utterance turn="230" who="Geoff Spears">if its faculty then the faculty can see it</utterance>
+<utterance turn="231" who="Geoff Spears">and its info but students can only see its booked</utterance>
+<utterance turn="232" who="Andrew">you mean if</utterance>
+<utterance turn="233" who="neal">that doesn't make sence at all</utterance>
+<utterance turn="234" who="neal">if the public can see the concert and that time, then they know its booked</utterance>
+<utterance turn="235" who="whitew">which part?</utterance>
+<utterance turn="236" who="whitew">yes</utterance>
+<utterance turn="237" who="Geoff Spears">if its a faculty meeting then the faculty can see the booking duration and the relevant information but students can only see that the room is  booked</utterance>
+<utterance turn="238" who="neal">but then what was all that about only students seeing it</utterance>
+<utterance turn="239" who="Andrew">you said "unless it is set to public and then the public can see everything"</utterance>
+<utterance turn="240" who="neal">but all that info would show up on the calendar</utterance>
+<utterance turn="241" who="Geoff Spears">i accidentally hit enter mid message</utterance>
+<utterance turn="242" who="Andrew">it should be "if it is set to public and then the public can see everything"</utterance>
+<utterance turn="243" who="neal">because if a concert is going from 9:00pm to 1:am then its obvious that its booked</utterance>
+<utterance turn="244" who="neal">and what time it's booked form</utterance>
+<utterance turn="245" who="Matthew">what other student? can they see the detail of other student booking a room?</utterance>
+<utterance turn="246" who="Geoff Spears">but in theory you would want people to attend the concert so telling them its a concert during that time would be very usesful</utterance>
+<utterance turn="247" who="neal">?</utterance>
+<utterance turn="248" who="Matthew">^ about</utterance>
+<utterance turn="249" who="Lucas Longley">Shouldn't we skip to RS 3.0?  We were going to talk about it but got sidetracked, and there are only five minutes.</utterance>
+<utterance turn="250" who="gravesr">I suppose one way to say it is that a user from the same class of user can see the details of the booking, but all other user classes can only see the general stuff</utterance>
+<utterance turn="251" who="Andrew">I think we have this sorted on our end</utterance>
+<utterance turn="252" who="Ryan">public=show booked status with event detail; private=show booked status only? is that correct</utterance>
+<utterance turn="253" who="Andrew">Bookings, private or public for viewing, checkbox? Public bookings, optional title
+ 
+Private, only groups can see details, or bookers. Ie faculty can see all faculty booked items, students can only see items that they book themselves.</utterance>
+<utterance turn="254" who="neal">ok 4 minutes left</utterance>
+<utterance turn="255" who="whitew">Well it looks like maybe one decision was made.</utterance>
+<utterance turn="256" who="Andrew">can we move on?</utterance>
+<utterance turn="257" who="Lucas Longley">What happened to talking about RS 3.0?</utterance>
+<utterance turn="258" who="whitew">why u  asking rs3?</utterance>
+<utterance turn="259" who="Lucas Longley">I thought we were supposed to talk about that briefly.</utterance>
+<utterance turn="260" who="whitew">does the dev team have any questions for client?</utterance>
+<utterance turn="261" who="neal">because that is the purpose of the meeting to decide what feature to implement in rs 3.0</utterance>
+<utterance turn="262" who="chaingj">man, your can type message three time at once, you are good</utterance>
+<utterance turn="263" who="Lucas Longley">Yes, the software gives me the speed of three typers in one.</utterance>
+<utterance turn="264" who="diazj">no, we are not supposed to tell you what is the most important feature of the system. You should decide that</utterance>
+<utterance turn="265" who="whitew">what was dev teams suggestion again</utterance>
+<utterance turn="266" who="neal">yes</utterance>
+<utterance turn="267" who="neal">and negociate exactly what its going to be</utterance>
+<utterance turn="268" who="Lucas Longley">Suggestion  for what?</utterance>
+<utterance turn="269" who="neal">you have to decide that what wer are going to develop is satisfactory</utterance>
+<utterance turn="270" who="Saj">"Book a room" sounds like the most important functionality to me.</utterance>
+<utterance turn="271" who="Andrew">I think probably the most important part is probably making bookings</utterance>
+<utterance turn="272" who="neal">i already suggested that we do room booking and calendar display</utterance>
+<utterance turn="273" who="neal">because they are closely related</utterance>
+<utterance turn="274" who="Geoff Spears">i think that was our intention of the system from the start</utterance>
+<utterance turn="275" who="Andrew">deal</utterance>
+<utterance turn="276" who="chaingj">right</utterance>
+<utterance turn="277" who="Ryan">What else should we need to promote for the system</utterance>
+<utterance turn="278" who="Andrew">lets shake on it</utterance>
+<utterance turn="279" who="Geoff Spears">shake shake</utterance>
+<utterance turn="280" who="chaingj">shake what</utterance>
+<utterance turn="281" who="chaingj">d?</utterance>
+<utterance turn="282" who="Andrew">i'm vigoriously shaking my laptop</utterance>
+<utterance turn="283" who="whitew">me too</utterance>
+<utterance turn="284" who="diazj">me too</utterance>
+<utterance turn="285" who="Lucas Longley">Okay, so RS 3.0 will be on room booking and calendar display?</utterance>
+<utterance turn="286" who="Andrew">i hope i didn't fuck up my hardrive</utterance>
+<utterance turn="287" who="chaingj">I am shaking the computer monitor now</utterance>
+<utterance turn="288" who="neal">we will not do user roles</utterance>
+<utterance turn="289" who="whitew">Sounds good to me</utterance>
+<utterance turn="290" who="Geoff Spears">ok</utterance>
+<utterance turn="291" who="Lucas Longley">Okey doke, that sounds good.</utterance>
+<utterance turn="292" who="neal">there will be public users, and authenticated user</utterance>
+<utterance turn="293" who="neal">s</utterance>
+<utterance turn="294" who="Geoff Spears">ok</utterance>
+<utterance turn="295" who="Saj">we can save user roles for RS 4.0</utterance>
+<utterance turn="296" who="leungj">sounds good</utterance>
+<utterance turn="297" who="neal">what about room search</utterance>
+<utterance turn="298" who="neal">or do you just want to select from the building list</utterance>
+<utterance turn="299" who="diazj">there is not RS4.0</utterance>
+<utterance turn="300" who="Lucas Longley">I assume that was a joke.</utterance>
+<utterance turn="301" who="Geoff Spears">authenticated can see all authenticated and public bookings, public users only view public bookings</utterance>
+<utterance turn="302" who="Andrew">alright, i gotta burn</utterance>
+<utterance turn="303" who="neal">i say building list so that we can focus on bookings and display</utterance>
+<utterance turn="304" who="whitew">room search size, resources</utterance>
+<utterance turn="305" who="whitew">just like that</utterance>
+<utterance turn="306" who="Geoff Spears">later</utterance>
+<utterance turn="307" who="Lucas Longley">See you.</utterance>
+<utterance turn="308" who="Lucas Longley">I'll see you three times, in fact.</utterance>
+<utterance turn="309" who="Matthew">we over ?</utterance>
+<utterance turn="310" who="Ryan">I think so</utterance>
+<utterance turn="311" who="neal">time is up</utterance>
+<utterance turn="312" who="chaingj">okie duckie</utterance>
+<utterance turn="313" who="Geoff Spears">have we got the info required</utterance>
+<utterance turn="314" who="Geoff Spears">?</utterance>
+<utterance turn="315" who="neal">does the client team have any other questions before we go</utterance>
+<utterance turn="316" who="Saj">or are we planning to have another meeting?</utterance>
+<utterance turn="317" who="neal">well i think everything has been discussed</utterance>
+<utterance turn="318" who="whitew">I have no more q's</utterance>
+<utterance turn="319" who="neal">unless you have other questions</utterance>
+<utterance turn="320" who="chaingj">ok</utterance>
+<utterance turn="321" who="Geoff Spears">i think so as well</utterance>
+<utterance turn="322" who="leungj">no more</utterance>
+<utterance turn="323" who="Lucas Longley">Okey doke.</utterance>
+<utterance turn="324" who="Matthew">alrite guys..</utterance>
+<utterance turn="325" who="chaingj">damn</utterance>
+<utterance turn="326" who="chaingj">you become 4 time speed</utterance>
+<utterance turn="327" who="neal">ok if you think of anything feel free to conact us</utterance>
+<utterance turn="328" who="Lucas Longley">Just in time, now I'm typing in quadtruplet.</utterance>
+<utterance turn="329" who="chaingj">you are good</utterance>
+<utterance turn="330" who="Matthew">nice</utterance>
+<utterance turn="331" who="Lucas Longley">I think I figured out what did it the first time.</utterance>
+<utterance turn="332" who="Ryan">4-tuple now</utterance>
+<utterance turn="333" who="chaingj">US 2-0 Mexico today.... I go drink beer for that</utterance>
+<utterance turn="334" who="chaingj">bye</utterance>
+<utterance turn="335" who="Geoff Spears">try for 6x</utterance>
+<utterance turn="336" who="chaingj">how about 1000</utterance>
+<utterance turn="337" who="chaingj">crash the server</utterance>
+<utterance turn="338" who="Lucas Longley">If you go to Chat &gt; Join a room and join the room you're already in, it just sends your message again.</utterance>
+<utterance turn="339" who="neal">hmm, lets se if i can do it</utterance>
+<utterance turn="340" who="diazj">so, are we done?</utterance>
+<utterance turn="341" who="chaingj">done</utterance>
+<utterance turn="342" who="Geoff Spears">i am</utterance>
+<utterance turn="343" who="whitew">any Questions</utterance>
+<utterance turn="344" who="neal">if no one has anything else to say i think we are done</utterance>
+<utterance turn="345" who="whitew">??</utterance>
+<utterance turn="346" who="leungj">okay</utterance>
+<utterance turn="347" who="diazj">ok</utterance>
+<utterance turn="348" who="chaingj">bye guys</utterance>
+<utterance turn="349" who="Matthew">alirte...its over</utterance>
+<utterance turn="350" who="Matthew">bye guys</utterance>
+<utterance turn="351" who="neal">you have our contact information so feel free to contact us with any questions</utterance>
+<utterance turn="352" who="Geoff Spears">it was fun</utterance>
+<utterance turn="353" who="diazj">bye</utterance>
+<utterance turn="354" who="chaingj">exit</utterance>
+<utterance turn="355" who="gravesr">bye</utterance>
+<utterance turn="356" who="chaingj">logout</utterance>
+<utterance turn="357" who="Saj">bye</utterance>
+<utterance turn="358" who="neal">bye</utterance>
+<utterance turn="359" who="Lucas Longley">See you.</utterance>
+<utterance turn="360" who="Matthew">gotta go</utterance>
+<utterance turn="361" who="Matthew">see u all</utterance>
+<utterance turn="362" who="Geoff Spears">nice 6x</utterance>
+<utterance turn="363" who="Lucas Longley">I win.</utterance>
+<utterance turn="364" who="chaingj">there is no logout command</utterance>
+<utterance turn="365" who="neal">7 good work</utterance>
+<utterance turn="366" who="neal">yes there is you have to type your password</utterance>
+<utterance turn="367" who="neal">and that will log you out</utterance>
+</meeting>

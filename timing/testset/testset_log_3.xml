@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<meeting>
+<utterance turn="1" who="Thanh Nguyen">Hello econf</utterance>
+<utterance turn="2" who="Thanh Nguyen">can you see me?</utterance>
+<utterance turn="3" who="Mindy">yup i can see u</utterance>
+<utterance turn="4" who="Reynen">lets raise some hell</utterance>
+<utterance turn="5" who="Thanh Nguyen">who is Reynen?</utterance>
+<utterance turn="6" who="Reynen">actually i'm going to log off and move computers</utterance>
+<utterance turn="7" who="Reynen">me</utterance>
+<utterance turn="8" who="Thanh Nguyen">who is me?</utterance>
+<utterance turn="9" who="Reynen">its me, duh</utterance>
+<utterance turn="10" who="Reynen">s'mee</utterance>
+<utterance turn="11" who="Mindy">are u still switching computers</utterance>
+<utterance turn="12" who="Reynen">not presently</utterance>
+<utterance turn="13" who="Jeff">sweet im in</utterance>
+<utterance turn="14" who="Thanh Nguyen">new question: Maximum time from launching the game until it is playable will be 5 minutes. Should this be ok?</utterance>
+<utterance turn="15" who="riz">sup my niggas</utterance>
+<utterance turn="16" who="Jeff">hehehe</utterance>
+<utterance turn="17" who="Jeff">don't see why not</utterance>
+<utterance turn="18" who="ScottReynen">weird</utterance>
+<utterance turn="19" who="ScottReynen">i dont see myself on the list</utterance>
+<utterance turn="20" who="ScottReynen">i did last time</utterance>
+<utterance turn="21" who="riz">movie night this thursday at 7 pm HSD A240</utterance>
+<utterance turn="22" who="ScottReynen">man, this other keyboard sucks</utterance>
+<utterance turn="23" who="riz">as far as we're concerned scott, ur  non-existant</utterance>
+<utterance turn="24" who="ScottReynen">you shut up riz</utterance>
+<utterance turn="25" who="Mindy">lol</utterance>
+<utterance turn="26" who="ScottReynen">can you see me Mindy?</utterance>
+<utterance turn="27" who="riz: THE MOVIE">THE RUNDOWN starring THE ROCK</utterance>
+<utterance turn="28" who="Jeff">bah...the rock :S</utterance>
+<utterance turn="29" who="Mindy">yeah your a scribe now</utterance>
+<utterance turn="30" who="ScottReynen">rundown was good</utterance>
+<utterance turn="31" who="Jeff">scott is a scribe?</utterance>
+<utterance turn="32" who="riz">and Stiffler from American Pie</utterance>
+<utterance turn="33" who="ScottReynen">"little thunder... little lightning"</utterance>
+<utterance turn="34" who="Mindy">it aws alright</utterance>
+<utterance turn="35" who="Jeff">so he is hehehe</utterance>
+<utterance turn="36" who="ScottReynen">i dont know if i'm scribing</utterance>
+<utterance turn="37" who="riz">ok so how's everybody this afternoon?</utterance>
+<utterance turn="38" who="riz">i could scribe</utterance>
+<utterance turn="39" who="Jeff">says SCRIBE beside your name :P</utterance>
+<utterance turn="40" who="ScottReynen">i can scribe</utterance>
+<utterance turn="41" who="ScottReynen">me?</utterance>
+<utterance turn="42" who="Jeff">yeah</utterance>
+<utterance turn="43" who="ScottReynen">i CANT see me</utterance>
+<utterance turn="44" who="ScottReynen">my name doesnt show on my Who's On</utterance>
+<utterance turn="45" who="ScottReynen">so ... ok</utterance>
+<utterance turn="46" who="Jeff">same here</utterance>
+<utterance turn="47" who="ScottReynen">:D</utterance>
+<utterance turn="48" who="riz">ah u power hungry bastard</utterance>
+<utterance turn="49" who="hainesj">hello</utterance>
+<utterance turn="50" who="Jeff">wassup josh :P</utterance>
+<utterance turn="51" who="riz">hello jared</utterance>
+<utterance turn="52" who="Thanh Nguyen">new question: Online backup will be provided by the system. How critical is this information? How far back the backup should go? Maybe one academic year?</utterance>
+<utterance turn="53" who="ScottReynen">i can't wait for Daniela to tell us to spread out more</utterance>
+<utterance turn="54" who="riz">how are you this afternoon/</utterance>
+<utterance turn="55" who="riz">nice weather outside</utterance>
+<utterance turn="56" who="Charles">hey</utterance>
+<utterance turn="57" who="ScottReynen">online backup?</utterance>
+<utterance turn="58" who="riz">peaceful, serene</utterance>
+<utterance turn="59" who="ScottReynen">when did that happen?</utterance>
+<utterance turn="60" who="Charles">who's scribing for this meeting?</utterance>
+<utterance turn="61" who="riz">I have a nice armchair...</utterance>
+<utterance turn="62" who="ScottReynen">me</utterance>
+<utterance turn="63" who="Jeff">yeah its an awesome day outside</utterance>
+<utterance turn="64" who="Charles">like a vaccuum</utterance>
+<utterance turn="65" who="riz">i'd pick scott as a scribe over charles anytime</utterance>
+<utterance turn="66" who="Jeff">yeah i've got a sweet chair too.....don't think i'll be asked to move though :P</utterance>
+<utterance turn="67" who="Jeff">lol nice decision</utterance>
+<utterance turn="68" who="Jeff">whoa...chat lag?</utterance>
+<utterance turn="69" who="Charles">get</utterance>
+<utterance turn="70" who="Charles">lost</utterance>
+<utterance turn="71" who="Charles">and so on</utterance>
+<utterance turn="72" who="riz">test...</utterance>
+<utterance turn="73" who="Charles">your momma</utterance>
+<utterance turn="74" who="ScottReynen">chat lag?</utterance>
+<utterance turn="75" who="ScottReynen">no no charles</utterance>
+<utterance turn="76" who="horelj">Hey all</utterance>
+<utterance turn="77" who="ScottReynen">its pronounced, yo mama</utterance>
+<utterance turn="78" who="Charles">?</utterance>
+<utterance turn="79" who="Charles">who's horel?</utterance>
+<utterance turn="80" who="horelj">JOn</utterance>
+<utterance turn="81" who="Mindy">no one muted u</utterance>
+<utterance turn="82" who="ScottReynen">hi Jon</utterance>
+<utterance turn="83" who="Charles">ok.. jon is double typing</utterance>
+<utterance turn="84" who="Charles">thingy</utterance>
+<utterance turn="85" who="ScottReynen">oh no</utterance>
+<utterance turn="86" who="ScottReynen">Jon! NOOO!</utterance>
+<utterance turn="87" who="horelj">?</utterance>
+<utterance turn="88" who="Jeff">if you see this, boot me and re-invite me....i'm not seeing any chat updating</utterance>
+<utterance turn="89" who="Mindy">k</utterance>
+<utterance turn="90" who="Thanh Nguyen">New question: The system will maintain network security. Will SSL all the communication be sufficient for this requirement ?</utterance>
+<utterance turn="91" who="fairheadj">test</utterance>
+<utterance turn="92" who="ScottReynen">pwnt</utterance>
+<utterance turn="93" who="horelj">anyway to stop this double typing?</utterance>
+<utterance turn="94" who="ScottReynen">jeff = pwnt</utterance>
+<utterance turn="95" who="Charles">yah</utterance>
+<utterance turn="96" who="ScottReynen">yes</utterance>
+<utterance turn="97" who="ScottReynen">relog Jon</utterance>
+<utterance turn="98" who="horelj">ok</utterance>
+<utterance turn="99" who="ScottReynen">log off and on</utterance>
+<utterance turn="100" who="Charles">do you have the newest version?</utterance>
+<utterance turn="101" who="Charles">you had to download it</utterance>
+<utterance turn="102" who="ScottReynen">yeah, the new one from Fabio</utterance>
+<utterance turn="103" who="ScottReynen">wtf charles</utterance>
+<utterance turn="104" who="rizzle fo shizzle">yo</utterance>
+<utterance turn="105" who="Charles">STFU NOOB</utterance>
+<utterance turn="106" who="rizzle fo shizzle">i can't see my name no mo</utterance>
+<utterance turn="107" who="ScottReynen">omfgzors u stfu 0r i pqn u b14tch</utterance>
+<utterance turn="108" who="rizzle fo shizzle">but i can see ya'lls ugly names</utterance>
+<utterance turn="109" who="ScottReynen">oh god</utterance>
+<utterance turn="110" who="Charles">pwzors</utterance>
+<utterance turn="111" who="ScottReynen">why'd you do that Riz</utterance>
+<utterance turn="112" who="riz">darn!!!</utterance>
+<utterance turn="113" who="Charles">a monkey</utterance>
+<utterance turn="114" who="ScottReynen">module?</utterance>
+<utterance turn="115" who="ScottReynen">"sincerely, monkeydude"</utterance>
+<utterance turn="116" who="riz">yo jared homie, where's the rest of yo click?</utterance>
+<utterance turn="117" who="hainesj">I think jon (horelj) needs an invite</utterance>
+<utterance turn="118" who="hainesj">I don;t know where the rest of my loser group is at</utterance>
+<utterance turn="119" who="scott">hello all</utterance>
+<utterance turn="120" who="hainesj">aah</utterance>
+<utterance turn="121" who="Mindy">whats jeffs id</utterance>
+<utterance turn="122" who="Mindy">ir last name</utterance>
+<utterance turn="123" who="riz">cornett</utterance>
+<utterance turn="124" who="Jeff">hey.......what the hell happened?</utterance>
+<utterance turn="125" who="riz">or corbett</utterance>
+<utterance turn="126" who="Aaron K">Allo?</utterance>
+<utterance turn="127" who="Mindy">there u are</utterance>
+<utterance turn="128" who="Charles">allo</utterance>
+<utterance turn="129" who="Jeff">heyo</utterance>
+<utterance turn="130" who="Charles">comment ca va</utterance>
+<utterance turn="131" who="ScottReynen">hey</utterance>
+<utterance turn="132" who="Mindy">can u see jeff?</utterance>
+<utterance turn="133" who="Charles">moi je suis super!</utterance>
+<utterance turn="134" who="ScottReynen">i see dead people</utterance>
+<utterance turn="135" who="Jeff">yeah i'm back now</utterance>
+<utterance turn="136" who="riz">Auf wiedersen</utterance>
+<utterance turn="137" who="ScottReynen">you are dinner?</utterance>
+<utterance turn="138" who="Mindy">ok cool</utterance>
+<utterance turn="139" who="Jeff">:D</utterance>
+<utterance turn="140" who="Charles">?</utterance>
+<utterance turn="141" who="riz">mindy got her job cut out fo her</utterance>
+<utterance turn="142" who="Mindy">let me know when everyone is here</utterance>
+<utterance turn="143" who="ScottReynen">diner?</utterance>
+<utterance turn="144" who="Charles">criss de conard</utterance>
+<utterance turn="145" who="riz">everyone is here...</utterance>
+<utterance turn="146" who="Charles">je vais te peter la guelle</utterance>
+<utterance turn="147" who="riz">= everyone</utterance>
+<utterance turn="148" who="Mindy">is anyone missing?</utterance>
+<utterance turn="149" who="hainesj">yeah we're missing a couple still</utterance>
+<utterance turn="150" who="riz">well there should be 16 folks</utterance>
+<utterance turn="151" who="Charles">putin</utterance>
+<utterance turn="152" who="Jeff">our team is here......seems there are people missing from team 1 though</utterance>
+<utterance turn="153" who="hainesj">pat and chris aren't here yet</utterance>
+<utterance turn="154" who="Mindy">ok</utterance>
+<utterance turn="155" who="ScottReynen">Theoretically there is 16</utterance>
+<utterance turn="156" who="ScottReynen">pat just got here</utterance>
+<utterance turn="157" who="riz">ok shall we start the discussion?</utterance>
+<utterance turn="158" who="ScottReynen">he's logging in</utterance>
+<utterance turn="159" who="scott">chris is here he is just setting up</utterance>
+<utterance turn="160" who="ScottReynen">riz, calm down</utterance>
+<utterance turn="161" who="riz">i gotta go for a snuff-party later...</utterance>
+<utterance turn="162" who="Charles">we still don't have evryone</utterance>
+<utterance turn="163" who="ScottReynen">OH GOD1</utterance>
+<utterance turn="164" who="ScottReynen">Scott</utterance>
+<utterance turn="165" who="riz">you calm down</utterance>
+<utterance turn="166" who="ScottReynen">log off and back on</utterance>
+<utterance turn="167" who="hainesj">Jon needs an invite</utterance>
+<utterance turn="168" who="ScottReynen">you're double talkin</utterance>
+<utterance turn="169" who="Thanh Nguyen">New question: The system will provide in-game tutorials and help. Should we include a introduction clip?</utterance>
+<utterance turn="170" who="riz">why do we have 2 scotts?</utterance>
+<utterance turn="171" who="Charles">thanh.. slow down man</utterance>
+<utterance turn="172" who="Charles">we aren't there yet</utterance>
+<utterance turn="173" who="Jeff">lol</utterance>
+<utterance turn="174" who="ScottReynen">BECAUSE THERE IS 2 SCOTTS RIZ</utterance>
+<utterance turn="175" who="ScottReynen">you suck</utterance>
+<utterance turn="176" who="ScottReynen">... are 2</utterance>
+<utterance turn="177" who="Ben">there are two scotts</utterance>
+<utterance turn="178" who="riz">well tell your name sharer to not echo himself 5 times</utterance>
+<utterance turn="179" who="ScottReynen">go home riz</utterance>
+<utterance turn="180" who="riz">i am home</utterance>
+<utterance turn="181" who="Charles">riz--&gt; busstop</utterance>
+<utterance turn="182" who="ScottReynen">why do you think i named myself ScottReynen, so that stuff doesnt happen</utterance>
+<utterance turn="183" who="riz">i thought ur parents named you scott reynen</utterance>
+<utterance turn="184" who="Aaron K">I motion for Riz to be silenced.. already</utterance>
+<utterance turn="185" who="ScottReynen">wow</utterance>
+<utterance turn="186" who="ScottReynen">riz</utterance>
+<utterance turn="187" who="riz">but whatever, i'll take ur word</utterance>
+<utterance turn="188" who="ScottReynen">i didnt see that one coming</utterance>
+<utterance turn="189" who="ScottReynen">such intelligent jibes</utterance>
+<utterance turn="190" who="Josh">im in!</utterance>
+<utterance turn="191" who="ScottReynen">he's in!</utterance>
+<utterance turn="192" who="Jeff">heyo</utterance>
+<utterance turn="193" who="riz">Aaron should not concern himself in other ppl's matters</utterance>
+<utterance turn="194" who="ScottReynen">i want to raise my hands</utterance>
+<utterance turn="195" who="ScottReynen">raise da roof!</utterance>
+<utterance turn="196" who="Charles">Scott needs to take ritalin</utterance>
+<utterance turn="197" who="riz">hehe</utterance>
+<utterance turn="198" who="Mindy">here let me take care of riz</utterance>
+<utterance turn="199" who="Thanh Nguyen">append to the lastest question: The introduction will ask the student to click and answer some questions. This will test and help the student computer skill.</utterance>
+<utterance turn="200" who="Charles">nice</utterance>
+<utterance turn="201" who="hainesj">re-invite Jon!  Username: horelj</utterance>
+<utterance turn="202" who="Jeff">lol</utterance>
+<utterance turn="203" who="horelj">Hey</utterance>
+<utterance turn="204" who="Charles">i would of muted him a while ago :D</utterance>
+<utterance turn="205" who="ScottReynen">good show Mod</utterance>
+<utterance turn="206" who="Jeff">crap</utterance>
+<utterance turn="207" who="Chris">Hey :)</utterance>
+<utterance turn="208" who="ScottReynen">soooo... still short 3?</utterance>
+<utterance turn="209" who="ScottReynen">gnome: "can you lend me some, i'm a little short"</utterance>
+<utterance turn="210" who="Mindy">GROUP 1: Please let me know when you are ready to start</utterance>
+<utterance turn="211" who="Chris">Wow...we got loads of people...what do you mean we are short :P</utterance>
+<utterance turn="212" who="Jeff">seems like any time a decision is made, the convo no longer updates :S</utterance>
+<utterance turn="213" who="ScottReynen">is all of group 1 here?</utterance>
+<utterance turn="214" who="hainesj">I think so</utterance>
+<utterance turn="215" who="ScottReynen">i only count 13</utterance>
+<utterance turn="216" who="Jeff">if you see what i'm typing, send me another invite......gonna reconnect =/</utterance>
+<utterance turn="217" who="ScottReynen">we see you Jeff</utterance>
+<utterance turn="218" who="riz">hello</utterance>
+<utterance turn="219" who="Charles">hoy</utterance>
+<utterance turn="220" who="ScottReynen">no riz, no</utterance>
+<utterance turn="221" who="ScottReynen">bad riz</utterance>
+<utterance turn="222" who="riz">hehe</utterance>
+<utterance turn="223" who="Jeff">back</utterance>
+<utterance turn="224" who="Jeff">do you guys see what i'm typing when i get booted?</utterance>
+<utterance turn="225" who="riz">seems like mindy doesn't have that much power after all</utterance>
+<utterance turn="226" who="Ben">i think all of group one is here</utterance>
+<utterance turn="227" who="Mindy">yes</utterance>
+<utterance turn="228" who="ScottReynen">yes</utterance>
+<utterance turn="229" who="Jeff">wierd :S</utterance>
+<utterance turn="230" who="ScottReynen">we could see, eveeeerything</utterance>
+<utterance turn="231" who="riz">so shall we begin?</utterance>
+<utterance turn="232" who="Thanh Nguyen">Data will be portable. Can we just put the data into a standard SQL data base? All SQL databases engine should be able to access the data.</utterance>
+<utterance turn="233" who="ScottReynen">werd</utterance>
+<utterance turn="234" who="ScottReynen">werd up g</utterance>
+<utterance turn="235" who="mcknightp">Ya I think group 1 is here if you guys want to start</utterance>
+<utterance turn="236" who="ScottReynen">ok pat</utterance>
+<utterance turn="237" who="riz">who is thanh talkin to?</utterance>
+<utterance turn="238" who="Charles">than is  on crack</utterance>
+<utterance turn="239" who="ScottReynen">i dont know who he's talking to</utterance>
+<utterance turn="240" who="riz">ok</utterance>
+<utterance turn="241" who="ScottReynen">introductions?</utterance>
+<utterance turn="242" who="riz">mindy, i authorize you to start the negotiation session</utterance>
+<utterance turn="243" who="Jeff">hallo</utterance>
+<utterance turn="244" who="ScottReynen">whoa</utterance>
+<utterance turn="245" who="Jeff">hi my name is jeff :P</utterance>
+<utterance turn="246" who="Mindy">Welcome everyone to the negotiations. I am Mindy the moderator for Group 2.</utterance>
+<utterance turn="247" who="Ben">hello</utterance>
+<utterance turn="248" who="Aaron K">hi mindy!</utterance>
+<utterance turn="249" who="Thanh Nguyen">Online documentation will be available for the game upon completion and delivery.  The game will also come with built in help files and tutorials for game play. -&gt; Should we also create a website for the game. Just a place for people to find help, download the game, etc.</utterance>
+<utterance turn="250" who="ScottReynen">I'm Scott, Sir Scott the Scribe.</utterance>
+<utterance turn="251" who="Jeff">lol....is this thanh or some kind of question bot??</utterance>
+<utterance turn="252" who="Mindy">sorry about that</utterance>
+<utterance turn="253" who="Chris">Hi I am Chris</utterance>
+<utterance turn="254" who="horelj">Hi i'm Jon</utterance>
+<utterance turn="255" who="Charles">&lt;&lt;----- Charles/ Chuck Norris</utterance>
+<utterance turn="256" who="Mindy">ok moving on to the questions</utterance>
+<utterance turn="257" who="mcknightp">Hi all, I'm Pat</utterance>
+<utterance turn="258" who="hainesj">&lt;--Jared</utterance>
+<utterance turn="259" who="Mindy">1. We are choosing to go into detail with the Game module for RS 3.0. Is this ok?</utterance>
+<utterance turn="260" who="Ben">yup</utterance>
+<utterance turn="261" who="hainesj">sounds good to me</utterance>
+<utterance turn="262" who="horelj">yeah</utterance>
+<utterance turn="263" who="mcknightp">sure sounds good</utterance>
+<utterance turn="264" who="scott">sure</utterance>
+<utterance turn="265" who="Ben">this is not going to take an hour</utterance>
+<utterance turn="266" who="Jeff">yes it is</utterance>
+<utterance turn="267" who="ScottReynen">shhh</utterance>
+<utterance turn="268" who="Jeff">:P</utterance>
+<utterance turn="269" who="Mindy">ok next question</utterance>
+<utterance turn="270" who="riz">ok it's fine</utterance>
+<utterance turn="271" who="Jeff">thanh is a question machine</utterance>
+<utterance turn="272" who="Ben">so on to misc questions.... ?</utterance>
+<utterance turn="273" who="riz">lets carry on</utterance>
+<utterance turn="274" who="Jeff">BAH....can't see it again :S</utterance>
+<utterance turn="275" who="riz">dfjfjjf</utterance>
+<utterance turn="276" who="Mindy">2. Can you give an approximate minimum # of game play hours required  for each grade level?  [Or can you supply the approximate number of 
+ hours students will play each week?]</utterance>
+<utterance turn="277" who="Jeff">damn you decisions =/</utterance>
+<utterance turn="278" who="Chris">The game module is a pretty broad description of it. Is that everythin besides the student stats?</utterance>
+<utterance turn="279" who="riz">sorry</utterance>
+<utterance turn="280" who="riz">my thing keeps screwing up</utterance>
+<utterance turn="281" who="Mindy">yes</utterance>
+<utterance turn="282" who="">everything except the database and the teacher module</utterance>
+<utterance turn="283" who="Ben">kids play game possibly 3-10 hours a week for entire school year</utterance>
+<utterance turn="284" who="mcknightp">wow you think that much Ben?</utterance>
+<utterance turn="285" who="scott">i would think 1.5-3 would be a good estimate 
+</utterance>
+<utterance turn="286" who="Thanh Nguyen">So should we go for approx 5 hours/week?</utterance>
+<utterance turn="287" who="Ben">if teacher has specified time for game playing.... 3hrs</utterance>
+<utterance turn="288" who="horelj">if they're playing at home as well then 10hrs isn't that bad</utterance>
+<utterance turn="289" who="mcknightp">true</utterance>
+<utterance turn="290" who="Ben">if kid really likes the game he could put in extra time ... 10 hrs</utterance>
+<utterance turn="291" who="ScottReynen">... what was that?</utterance>
+<utterance turn="292" who="Chris">Ofcourse we have to have a minimum... say 3...and max 10....</utterance>
+<utterance turn="293" who="Aaron K">But, if a kid plays at home then their result isn't tracked for the teacher, right?</utterance>
+<utterance turn="294" who="riz">don't know</utterance>
+<utterance turn="295" who="hainesj">results at home are not tracked by the teacher, no</utterance>
+<utterance turn="296" who="Jeff">cool</utterance>
+<utterance turn="297" who="Mindy">so 10 hours?</utterance>
+<utterance turn="298" who="ScottReynen">10 hours = maximum?</utterance>
+<utterance turn="299" who="Mindy">have you decided on 10 hours?</utterance>
+<utterance turn="300" who="Aaron K">3hrs/week = minimum?</utterance>
+<utterance turn="301" who="Ben">the max of ten hours shouldn't be enforced... kid  should be able to play 50 hrs a week if they want</utterance>
+<utterance turn="302" who="">If the kid hates playing then maybe a minimum of 1</utterance>
+<utterance turn="303" who="Thanh Nguyen">1-10 it is</utterance>
+<utterance turn="304" who="">for our approximation</utterance>
+<utterance turn="305" who="">we will not enforce time play</utterance>
+<utterance turn="306" who="Charles">____________________</utterance>
+<utterance turn="307" who="horelj">sounds good</utterance>
+<utterance turn="308" who="Charles">woops</utterance>
+<utterance turn="309" who="Mindy">3 . What is this game rated?</utterance>
+<utterance turn="310" who="Jeff">hehehe</utterance>
+<utterance turn="311" who="scott">G</utterance>
+<utterance turn="312" who="mcknightp">G</utterance>
+<utterance turn="313" who="horelj">E for everyone</utterance>
+<utterance turn="314" who="Jeff">uh oh</utterance>
+<utterance turn="315" who="">:S</utterance>
+<utterance turn="316" who="ScottReynen">so no gore?</utterance>
+<utterance turn="317" who="Thanh Nguyen">M for Mothers?</utterance>
+<utterance turn="318" who="Jeff">brb :(</utterance>
+<utterance turn="319" who="Ben">do you guys have suggestions for the name of the game?</utterance>
+<utterance turn="320" who="ScottReynen">simmer down, we'll get to that</utterance>
+<utterance turn="321" who="Mindy">actually that was my next question</utterance>
+<utterance turn="322" who="mcknightp">lol</utterance>
+<utterance turn="323" who="Jeff">hehehe</utterance>
+<utterance turn="324" who="Ben">ya scott</utterance>
+<utterance turn="325" who="Mindy">4. As educators, do you think content should be different for  boys/girls?  Should we just shoot for something in the middle?</utterance>
+<utterance turn="326" who="ScottReynen">oh god</utterance>
+<utterance turn="327" who="Ben">not different... equal oportunity....</utterance>
+<utterance turn="328" who="scott">it should be the same for both</utterance>
+<utterance turn="329" who="">possibly presented in different ways</utterance>
+<utterance turn="330" who="Jeff">doh! the second i reconnect another decision goes up =/</utterance>
+<utterance turn="331" who="riz">me 2</utterance>
+<utterance turn="332" who="riz">i can't see anything in the decisions place either</utterance>
+<utterance turn="333" who="Ben">i can</utterance>
+<utterance turn="334" who="riz">maybe i dunno</utterance>
+<utterance turn="335" who="Chris">I agree that content should be the same for all genders. You could have different gender characters though.</utterance>
+<utterance turn="336" who="ScottReynen">ok</utterance>
+<utterance turn="337" who="horelj">the content should be pretty much the same</utterance>
+<utterance turn="338" who="Ben">ya</utterance>
+<utterance turn="339" who="Mindy">ok moving onto another topic, the system</utterance>
+<utterance turn="340" who="ScottReynen">whoa now 
+</utterance>
+<utterance turn="341" who="Jeff">i'm gonna try a different lab...seems the linux version is bugged :S</utterance>
+<utterance turn="342" who="Chris">we move to the next topic :P</utterance>
+<utterance turn="343" who="Jeff">back in a few</utterance>
+<utterance turn="344" who="Mindy">1. Online backup will be provided by the system. How critical is this information? How far back the backup should go? Maybe one academic year?</utterance>
+<utterance turn="345" who="hainesj">one year would be reasonable</utterance>
+<utterance turn="346" who="Ben">online?</utterance>
+<utterance turn="347" who="scott">one year would be enough</utterance>
+<utterance turn="348" who="horelj">one year should be more than enough</utterance>
+<utterance turn="349" who="Chris">Shouldnt' student records be kept for longer?</utterance>
+<utterance turn="350" who="Ben">one year should be minimum</utterance>
+<utterance turn="351" who="Chris">Maybe just exported or something?</utterance>
+<utterance turn="352" who="Chris">Is everyone here?</utterance>
+<utterance turn="353" who="Mindy">no i think we lost some people</utterance>
+<utterance turn="354" who="mcknightp">ya the teachers need some results for marking their students</utterance>
+<utterance turn="355" who="ScottReynen">jeff and riz are having tech difficulties</utterance>
+<utterance turn="356" who="Aaron K">So, one year is okay, and data is just exported at the end of the year?</utterance>
+<utterance turn="357" who="ScottReynen">they werent important anyways (they'll be back)</utterance>
+<utterance turn="358" who="hainesj">I think as long as the data can be exported 1 year is a reasonable amount of time to maintain the data in within the system</utterance>
+<utterance turn="359" who="scott">that would be good i think</utterance>
+<utterance turn="360" who="Ben">can they import old information</utterance>
+<utterance turn="361" who="Ben">?</utterance>
+<utterance turn="362" who="Chris">Yes that sounds like a good solution. Definately the teacher needs easy access to the students results so far in the year... and with a litlle bit more work from previous years.</utterance>
+<utterance turn="363" who="Aaron K">If you want import functionality , we can include it again</utterance>
+<utterance turn="364" who="Mindy">does that go into the student record on file at the school?</utterance>
+<utterance turn="365" who="Ben">again?</utterance>
+<utterance turn="366" who="Ben">it could</utterance>
+<utterance turn="367" who="scott">if you cant import old data, what would be the point in saving it?</utterance>
+<utterance turn="368" who="horelj">any information older than a year could be exported to a cd or other hard copy and stored if needed at the schools</utterance>
+<utterance turn="369" who="ScottReynen">actually, yes, on our specification, i think you questioned why we had importing</utterance>
+<utterance turn="370" who="ScottReynen">i'm probably wrong</utterance>
+<utterance turn="371" who="hainesj">hmm, maybe we did</utterance>
+<utterance turn="372" who="Ben">whatever.... keep the importing</utterance>
+<utterance turn="373" who="ScottReynen">ok</utterance>
+<utterance turn="374" who="Aaron K">Scott is correct</utterance>
+<utterance turn="375" who="Aaron K">okayu</utterance>
+<utterance turn="376" who="Mindy">has anyone reached  a decision in this or shall we come back to this question</utterance>
+<utterance turn="377" who="Aaron K">I thought the decision was that info stays on the system for at least one year....</utterance>
+<utterance turn="378" who="Chris">I think we all agree on a 1 year immediate access to data and ability to export the data at the end of the year... ofcourse in need import back in the system and view.</utterance>
+<utterance turn="379" who="Ben">sounds good</utterance>
+<utterance turn="380" who="Mindy">ok</utterance>
+<utterance turn="381" who="ScottReynen">so what happens at the end of one year? (sorry)</utterance>
+<utterance turn="382" who="horelj">ok</utterance>
+<utterance turn="383" who="Mindy">2.  For data importing and exporting, Can we do only comma separated files?</utterance>
+<utterance turn="384" who="Mindy">That way you can used either Excel, Lotus Notes, etc. to access the data.</utterance>
+<utterance turn="385" who="Ben">yes</utterance>
+<utterance turn="386" who="hainesj">yeah</utterance>
+<utterance turn="387" who="mcknightp">yah</utterance>
+<utterance turn="388" who="horelj">that works</utterance>
+<utterance turn="389" who="Mindy">3. The system will maintain network security. Will SSL all the communication be sufficient for this requirement?</utterance>
+<utterance turn="390" who="Charles">the guy sitting beside me is an idiot</utterance>
+<utterance turn="391" who="scott">security is not that important</utterance>
+<utterance turn="392" who="scott">ssl  might be overkill</utterance>
+<utterance turn="393" who="ScottReynen">is that a consensus?</utterance>
+<utterance turn="394" who="horelj">this isn't critical information so i can't see security being a huge deal</utterance>
+<utterance turn="395" who="Chris">what if a kid hacks the system and changes its scores?</utterance>
+<utterance turn="396" who="mcknightp">if a grade 2 can hack the network then he desires the grade he gave himself</utterance>
+<utterance turn="397" who="Chris">i'd say ssl shoul be a good oprion</utterance>
+<utterance turn="398" who="ScottReynen">grade 1 and 2?</utterance>
+<utterance turn="399" who="scott">if he can do that more power to him</utterance>
+<utterance turn="400" who="Ben">agreed</utterance>
+<utterance turn="401" who="hainesj">then he gets bonus marks :D</utterance>
+<utterance turn="402" who="horelj">yeah</utterance>
+<utterance turn="403" who="Ben">ya security is  not important</utterance>
+<utterance turn="404" who="ScottReynen">if a child can do that, he understands problemsolving / math plenty i figure</utterance>
+<utterance turn="405" who="Mindy">ok</utterance>
+<utterance turn="406" who="Chris">ok ok...ah...you are underestimating the knowledge of the future genrations (we have to take account of mutation )</utterance>
+<utterance turn="407" who="Ben">no we dont</utterance>
+<utterance turn="408" who="Chris">I guess ssl will be an overhead for the system so we can drop that...</utterance>
+<utterance turn="409" who="hainesj">I'm pretty sure we didn't mention mutan super-children in the RFP</utterance>
+<utterance turn="410" who="Mindy">4 . Data will be portable. Can we just put the data into a standard SQL data base?</utterance>
+<utterance turn="411" who="">All SQL databases engine should be able to access the data.</utterance>
+<utterance turn="412" who="Ben">sure</utterance>
+<utterance turn="413" who="scott">yah</utterance>
+<utterance turn="414" who="mcknightp">as long as we can export it to Comma delimited file that should work</utterance>
+<utterance turn="415" who="riz">hallo</utterance>
+<utterance turn="416" who="Mindy">ok</utterance>
+<utterance turn="417" who="Chris">If you would like a sugguestion one alternative to CSV is xml, and some db's like oracle can export data directly to xml....just a sugguestion.</utterance>
+<utterance turn="418" who="Ben">booo xml</utterance>
+<utterance turn="419" who="hainesj">we lost jon again, he needs another invite :(</utterance>
+<utterance turn="420" who="Jeff">back :D</utterance>
+<utterance turn="421" who="Mindy">oracle is expensive. Do you have licensing for that?</utterance>
+<utterance turn="422" who="scott">xml = lots of overhead</utterance>
+<utterance turn="423" who="Ben">ya do sql</utterance>
+<utterance turn="424" who="Chris">Dude...good luck operating on that csv...</utterance>
+<utterance turn="425" who="Mindy">k</utterance>
+<utterance turn="426" who="riz">are we actually going to implement this stuff?</utterance>
+<utterance turn="427" who="Ben">no</utterance>
+<utterance turn="428" who="Charles">riz.. no talking</utterance>
+<utterance turn="429" who="ScottReynen">god no son</utterance>
+<utterance turn="430" who="Charles">or you might get hit by a bus</utterance>
+<utterance turn="431" who="Charles">like this</utterance>
+<utterance turn="432" who="ScottReynen">i thought we were rid of Riz</utterance>
+<utterance turn="433" who="Jeff">lol</utterance>
+<utterance turn="434" who="mcknightp">ROFL</utterance>
+<utterance turn="435" who="ScottReynen">i wondered why you'd shut up for so long charles</utterance>
+<utterance turn="436" who="Mindy">okkkkkk</utterance>
+<utterance turn="437" who="ScottReynen">back to buizness</utterance>
+<utterance turn="438" who="Mindy">Online documentation will be available for the game upon completion and delivery.  The game will also come with built in help files and tutorials for game play. 5.   Should we also create a website for the game. Just a place for people to find help, download the game, etc.</utterance>
+<utterance turn="439" who="Ben">sure if you want a website that would be good</utterance>
+<utterance turn="440" who="ScottReynen">silence Riz please</utterance>
+<utterance turn="441" who="scott">yah that would be a bonus but probably not required</utterance>
+<utterance turn="442" who="mcknightp">ya sure web site would be nice.</utterance>
+<utterance turn="443" who="Ben">were not paying for it though</utterance>
+<utterance turn="444" who="Mindy">and neither are we</utterance>
+<utterance turn="445" who="Jeff">might be a good way to distribute material add-ons as well :P</utterance>
+<utterance turn="446" who="Chris">Well we want well documented code so we can expand on the project...i'd say we take the online Docs.</utterance>
+<utterance turn="447" who="Charles">hey mindy... you need to reinvite someone</utterance>
+<utterance turn="448" who="Mindy">ok who</utterance>
+<utterance turn="449" who="ScottReynen">horelj</utterance>
+<utterance turn="450" who="Charles">look at the hand raise</utterance>
+<utterance turn="451" who="ScottReynen">read the hands</utterance>
+<utterance turn="452" who="ScottReynen">hey Jon...?</utterance>
+<utterance turn="453" who="horelj">back</utterance>
+<utterance turn="454" who="horelj">wireless cut out</utterance>
+<utterance turn="455" who="ScottReynen">ach</utterance>
+<utterance turn="456" who="Ben">name of game?</utterance>
+<utterance turn="457" who="Chris">Football</utterance>
+<utterance turn="458" who="Charles">Puff the magic dragon</utterance>
+<utterance turn="459" who="Ben">booo</utterance>
+<utterance turn="460" who="ScottReynen">i can't really say simmer down now, can i</utterance>
+<utterance turn="461" who="Mindy">1.  The Maximum time from launching the game until it is playable will be 5 minutes. Should this be ok?</utterance>
+<utterance turn="462" who="Chris">NO</utterance>
+<utterance turn="463" who="Ben">huh?</utterance>
+<utterance turn="464" who="horelj">should be down to 2 minutes</utterance>
+<utterance turn="465" who="ScottReynen">what now?</utterance>
+<utterance turn="466" who="Ben">5 min is a long ass time to load anything</utterance>
+<utterance turn="467" who="ScottReynen">5?</utterance>
+<utterance turn="468" who="riz">depends on the system</utterance>
+<utterance turn="469" who="mcknightp">can we cut it down to 3?</utterance>
+<utterance turn="470" who="Chris">Does that include booting of Windows...cuz  then its acceptable!</utterance>
+<utterance turn="471" who="ScottReynen">true</utterance>
+<utterance turn="472" who="Jeff">hehehe</utterance>
+<utterance turn="473" who="ScottReynen">hold up</utterance>
+<utterance turn="474" who="riz">on a mac 7.6, 5 min. is a blessing</utterance>
+<utterance turn="475" who="Jeff">lol</utterance>
+<utterance turn="476" who="Ben">how about an average of 2 with a max of 5</utterance>
+<utterance turn="477" who="ScottReynen">you wanted 16 mb ram computer right?</utterance>
+<utterance turn="478" who="Chris">Hahah :0</utterance>
+<utterance turn="479" who="ScottReynen">ok</utterance>
+<utterance turn="480" who="horelj">5 minutes will loose the kids attention</utterance>
+<utterance turn="481" who="Chris">Yeah...they'll be well asleep before it launches</utterance>
+<utterance turn="482" who="ScottReynen">no no</utterance>
+<utterance turn="483" who="ScottReynen">you see</utterance>
+<utterance turn="484" who="ScottReynen">we have awesome fun loading screens</utterance>
+<utterance turn="485" who="riz">lose</utterance>
+<utterance turn="486" who="ScottReynen">quiet riz</utterance>
+<utterance turn="487" who="horelj">minigames in the load screens?</utterance>
+<utterance turn="488" who="Chris">Haha...and nice relaxing music?</utterance>
+<utterance turn="489" who="Charles">we do? i thought we didn't since the game was rated E</utterance>
+<utterance turn="490" who="ScottReynen">elevator music, no mini games</utterance>
+<utterance turn="491" who="Charles">can't be that nice</utterance>
+<utterance turn="492" who="Ben">no wonder it is taking five min to load with all that going on aswell</utterance>
+<utterance turn="493" who="ScottReynen">back to seriousness</utterance>
+<utterance turn="494" who="ScottReynen">2 min average, with 5 min max?</utterance>
+<utterance turn="495" who="riz">how about elevator music while it's loading?</utterance>
+<utterance turn="496" who="Ben">ya</utterance>
+<utterance turn="497" who="scott">that sound sgood to me</utterance>
+<utterance turn="498" who="horelj">that works</utterance>
+<utterance turn="499" who="riz">if you can manage to stay awake, then ur game...</utterance>
+<utterance turn="500" who="Mindy">2. Should we improve the requirements to do Rendering and Sound on the fly? If not we can do have it prepackaged??</utterance>
+<utterance turn="501" who="riz">ya i don't get that question</utterance>
+<utterance turn="502" who="Aaron K">hunh?</utterance>
+<utterance turn="503" who="Charles">that last question...</utterance>
+<utterance turn="504" who="ScottReynen">whosjiggawhat?</utterance>
+<utterance turn="505" who="riz">rendering is always done on fly...</utterance>
+<utterance turn="506" who="Charles">sounds like a french person wrote it..</utterance>
+<utterance turn="507" who="Mindy">go ahead thanh</utterance>
+<utterance turn="508" who="Charles">and i know i didn't</utterance>
+<utterance turn="509" who="mcknightp">I'm sorry I don't understand the question?</utterance>
+<utterance turn="510" who="ScottReynen">Thanh is on stage... shhhh</utterance>
+<utterance turn="511" who="Thanh Nguyen">Should we dropn the 16mb ram and 50hhz requirement</utterance>
+<utterance turn="512" who="Thanh Nguyen">so we can do more 3d rendering?</utterance>
+<utterance turn="513" who="Thanh Nguyen">and more animation</utterance>
+<utterance turn="514" who="scott">seems resonalbe that the computer would be faster then that</utterance>
+<utterance turn="515" who="mcknightp">sure</utterance>
+<utterance turn="516" who="Ben">but not a lot faster... some schools a re broke</utterance>
+<utterance turn="517" who="Thanh Nguyen">howabout 200mhz with 64mb of ram</utterance>
+<utterance turn="518" who="Chris">So you will consider using Google Earth maps for the cities if we drop the 16 meg reqirement?</utterance>
+<utterance turn="519" who="scott">500mhz might be the low end</utterance>
+<utterance turn="520" who="riz">64 mb?</utterance>
+<utterance turn="521" who="Jeff">if i remember correctly, they came up with the min reqs from warcraft.....the graphics aren't all that bad in warcraft</utterance>
+<utterance turn="522" who="ScottReynen">...</utterance>
+<utterance turn="523" who="ScottReynen">when was the last time you played?</utterance>
+<utterance turn="524" who="horelj">warcraft 2</utterance>
+<utterance turn="525" who="Thanh Nguyen">I think most school shoud be at the 200mhz and 64mbz ram</utterance>
+<utterance turn="526" who="ScottReynen">oh ok</utterance>
+<utterance turn="527" who="Charles">... yes me lord</utterance>
+<utterance turn="528" who="ScottReynen">2 is better</utterance>
+<utterance turn="529" who="Jeff">there ya go</utterance>
+<utterance turn="530" who="Chris">Yeah you probably havent looked at Warcraft for a while</utterance>
+<utterance turn="531" who="Ben">i dunno.... what do you (group 1) guys think?</utterance>
+<utterance turn="532" who="riz">i don't know</utterance>
+<utterance turn="533" who="ScottReynen">you're not group 1 riz</utterance>
+<utterance turn="534" who="riz">i was referring to than's comment</utterance>
+<utterance turn="535" who="hainesj">I think 200mhz and 64mb will be fine</utterance>
+<utterance turn="536" who="horelj">yeah</utterance>
+<utterance turn="537" who="Ben">ok</utterance>
+<utterance turn="538" who="Mindy">ok</utterance>
+<utterance turn="539" who="scott">i think we could raise the minimum to 500mhz 128 meg ram</utterance>
+<utterance turn="540" who="riz">you are being counterproductive as usual</utterance>
+<utterance turn="541" who="mcknightp">agreed</utterance>
+<utterance turn="542" who="Chris">sounds good.... as long as we see a definate improvement in the graphics</utterance>
+<utterance turn="543" who="Thanh Nguyen">cool, so 500 mhz and 128 meg ram then</utterance>
+<utterance turn="544" who="ScottReynen">right</utterance>
+<utterance turn="545" who="Ben">good call chris</utterance>
+<utterance turn="546" who="ScottReynen">the graphics</utterance>
+<utterance turn="547" who="Aaron K">I'd actually suggest agains't a 500 MHz limit.  My Dad's school still has quite a few 233 MHz computers</utterance>
+<utterance turn="548" who="ScottReynen">which... we will show you</utterance>
+<utterance turn="549" who="Aaron K">you care?</utterance>
+<utterance turn="550" who="Ben">200mhz and 64mb will be fine</utterance>
+<utterance turn="551" who="scott">ok</utterance>
+<utterance turn="552" who="ScottReynen">200, 64</utterance>
+<utterance turn="553" who="horelj">yeah</utterance>
+<utterance turn="554" who="Charles">l33t h4x0R = Aaron</utterance>
+<utterance turn="555" who="ScottReynen">soooo</utterance>
+<utterance turn="556" who="ScottReynen">game name?</utterance>
+<utterance turn="557" who="riz">ok one of the decisions says: No money, no website</utterance>
+<utterance turn="558" who="ScottReynen">right</utterance>
+<utterance turn="559" who="riz">is that for real?</utterance>
+<utterance turn="560" who="Chris">Yeah I dont like that one!</utterance>
+<utterance turn="561" who="ScottReynen">what was the decision?</utterance>
+<utterance turn="562" who="riz">...</utterance>
+<utterance turn="563" who="scott">how about no money = website</utterance>
+<utterance turn="564" who="mcknightp">I though it was no money free website?</utterance>
+<utterance turn="565" who="ScottReynen">well</utterance>
+<utterance turn="566" who="Ben">I thought you were gonna do the website for free</utterance>
+<utterance turn="567" who="ScottReynen">apparently that decision wasnt clear</utterance>
+<utterance turn="568" who="riz">how about find criminals who know web design and owe community service?</utterance>
+<utterance turn="569" who="Chris">Yeah thats what I got...you sugguested it!</utterance>
+<utterance turn="570" who="ScottReynen">i thought i saw Mindy say "we're not paying either"</utterance>
+<utterance turn="571" who="Josh">yup</utterance>
+<utterance turn="572" who="Ben">that was a joke</utterance>
+<utterance turn="573" who="Chris">:)</utterance>
+<utterance turn="574" who="Mindy">yeah. no freebies here</utterance>
+<utterance turn="575" who="ScottReynen">bam!</utterance>
+<utterance turn="576" who="Ben">booo</utterance>
+<utterance turn="577" who="ScottReynen">emeril says so</utterance>
+<utterance turn="578" who="riz">do you guys seriously need a website?</utterance>
+<utterance turn="579" who="Mindy">moving on...............</utterance>
+<utterance turn="580" who="ScottReynen">uh oh</utterance>
+<utterance turn="581" who="Ben">you offered us  a website and we accepted ????</utterance>
+<utterance turn="582" who="ScottReynen">they're in uproar</utterance>
+<utterance turn="583" who="Ben">no</utterance>
+<utterance turn="584" who="scott">at least online documentation</utterance>
+<utterance turn="585" who="riz">ok then take out that decision</utterance>
+<utterance turn="586" who="ScottReynen">...</utterance>
+<utterance turn="587" who="scott">that will take 2 hours</utterance>
+<utterance turn="588" who="scott">tops</utterance>
+<utterance turn="589" who="riz">documentation can be included with the game</utterance>
+<utterance turn="590" who="Ben">we don't really need it</utterance>
+<utterance turn="591" who="ScottReynen">lets say that the teachers federation pays for it</utterance>
+<utterance turn="592" who="riz">i dunno we don't want any more teacher strikes</utterance>
+<utterance turn="593" who="Jeff">you guys already have a website, just host the documentation there....problem solved</utterance>
+<utterance turn="594" who="Chris">You need to provide documentation for the code as we dont know who will maintain it. It will be the easyest thing to throw a webpage with docs.</utterance>
+<utterance turn="595" who="ScottReynen">we could easily include documentation with the software?</utterance>
+<utterance turn="596" who="ScottReynen">AGH</utterance>
+<utterance turn="597" who="Charles">whoa... what happened?</utterance>
+<utterance turn="598" who="Mindy">dont know</utterance>
+<utterance turn="599" who="riz">mindy messed up</utterance>
+<utterance turn="600" who="Ben">chill</utterance>
+<utterance turn="601" who="riz">giving weapons to monkeys</utterance>
+<utterance turn="602" who="ScottReynen">yes</utterance>
+<utterance turn="603" who="ScottReynen">spores</utterance>
+<utterance turn="604" who="Mindy">Anything more you wish to address from the prototype demo?</utterance>
+<utterance turn="605" who="ScottReynen">Name of the game</utterance>
+<utterance turn="606" who="Charles">Game Name Suggestion: "The incredible Adventure",  "Master Learner", "You've been schooled!" or good old "tron"</utterance>
+<utterance turn="607" who="ScottReynen">they've asked 4 times</utterance>
+<utterance turn="608" who="Ben">ya name it</utterance>
+<utterance turn="609" who="riz">i think tron is taken</utterance>
+<utterance turn="610" who="Chris">We know where you dstole the character from !</utterance>
+<utterance turn="611" who="ScottReynen">Grade 1/2's Quest</utterance>
+<utterance turn="612" who="ScottReynen">it was Charles</utterance>
+<utterance turn="613" who="Charles">I borrowed</utterance>
+<utterance turn="614" who="riz">unless we're willin to pay royalties</utterance>
+<utterance turn="615" who="Charles">with no intention of giving it back</utterance>
+<utterance turn="616" who="riz">i mean group 1 is</utterance>
+<utterance turn="617" who="Ben">you've been schooled !!!!!!!!!!!!!</utterance>
+<utterance turn="618" who="Chris">We arenot getting sued because of that ok...you take responsibility !</utterance>
+<utterance turn="619" who="ScottReynen">Elementary Quest?</utterance>
+<utterance turn="620" who="horelj">i say we go with you've been schooled</utterance>
+<utterance turn="621" who="Chris">Sounds too...elementary</utterance>
+<utterance turn="622" who="riz">no</utterance>
+<utterance turn="623" who="ScottReynen">Peasant's Quest?</utterance>
+<utterance turn="624" who="riz">IQ++</utterance>
+<utterance turn="625" who="Charles">The character was for the prototype i ll make another one</utterance>
+<utterance turn="626" who="ScottReynen">You Been Schooled Foo?</utterance>
+<utterance turn="627" who="Ben">You Been Schooled        is good</utterance>
+<utterance turn="628" who="riz">i don't know about that</utterance>
+<utterance turn="629" who="ScottReynen">shutup riz</utterance>
+<utterance turn="630" who="Thanh Nguyen">that is a good name</utterance>
+<utterance turn="631" who="ScottReynen">they're paying for it</utterance>
+<utterance turn="632" who="riz">ok</utterance>
+<utterance turn="633" who="mcknightp">I like Elementry Quest</utterance>
+<utterance turn="634" who="scott">i agree</utterance>
+<utterance turn="635" who="Ben">ya that is good</utterance>
+<utterance turn="636" who="horelj">I'm with Ben on this one</utterance>
+<utterance turn="637" who="Mindy">How much detail on the story do you need to see in the RS??</utterance>
+<utterance turn="638" who="ScottReynen">...</utterance>
+<utterance turn="639" who="Ben">all of it</utterance>
+<utterance turn="640" who="Chris">:)</utterance>
+<utterance turn="641" who="Ben">kidding</utterance>
+<utterance turn="642" who="ScottReynen">We have a few ideas</utterance>
+<utterance turn="643" who="ScottReynen">most involve a dragon</utterance>
+<utterance turn="644" who="Mindy">lol</utterance>
+<utterance turn="645" who="horelj">cool</utterance>
+<utterance turn="646" who="Jeff">=/</utterance>
+<utterance turn="647" who="ScottReynen">but its rated E</utterance>
+<utterance turn="648" who="Ben">dragons work</utterance>
+<utterance turn="649" who="ScottReynen">so ... the actual plot involving said dragon... is under works</utterance>
+<utterance turn="650" who="Ben">excellent</utterance>
+<utterance turn="651" who="mcknightp">ok cool</utterance>
+<utterance turn="652" who="Chris">Won't that  be too voilent for kids?</utterance>
+<utterance turn="653" who="Ben">no</utterance>
+<utterance turn="654" who="riz">nah</utterance>
+<utterance turn="655" who="Chris">:)</utterance>
+<utterance turn="656" who="ScottReynen">no no</utterance>
+<utterance turn="657" who="">no slaying</utterance>
+<utterance turn="658" who="Aaron K">So, do you want to see as "Storyline" section inthe next RS?</utterance>
+<utterance turn="659" who="horelj">no</utterance>
+<utterance turn="660" who="scott">dosnt have to be aviolent dragon</utterance>
+<utterance turn="661" who="mcknightp">Puff the magic Dragon wasn't violent</utterance>
+<utterance turn="662" who="Charles">yes!</utterance>
+<utterance turn="663" who="horelj">yes (a) storyline section</utterance>
+<utterance turn="664" who="Chris">Good call.</utterance>
+<utterance turn="665" who="ScottReynen">no "vanquishing" the dragon</utterance>
+<utterance turn="666" who="ScottReynen">(unless you pummel him gently with your iq)</utterance>
+<utterance turn="667" who="riz">dragons are fun once u get past that whole 3rd degree burns thing</utterance>
+<utterance turn="668" who="Ben">yes; stry line section</utterance>
+<utterance turn="669" who="ScottReynen">and the dragon comes in the NIIIIIGHT</utterance>
+<utterance turn="670" who="ScottReynen">ok</utterance>
+<utterance turn="671" who="Aaron K">Who is scribing? Or.. not scribing, as the case may be....</utterance>
+<utterance turn="672" who="ScottReynen">i am foo</utterance>
+<utterance turn="673" who="Jeff">yeah....should add that we are required ...</utterance>
+<utterance turn="674" who="Mindy">so the name of the game will be specified in rs 2.0.</utterance>
+<utterance turn="675" who="Jeff">nice</utterance>
+<utterance turn="676" who="riz">scott the lazy peasant</utterance>
+<utterance turn="677" who="ScottReynen">rs 3.0 correct?</utterance>
+<utterance turn="678" who="Jeff">think its 2</utterance>
+<utterance turn="679" who="riz">yeah me 2</utterance>
+<utterance turn="680" who="Chris">where did 2.0 go?</utterance>
+<utterance turn="681" who="ScottReynen">2?</utterance>
+<utterance turn="682" who="ScottReynen">aaaaw</utterance>
+<utterance turn="683" who="Charles">10 or 11</utterance>
+<utterance turn="684" who="ScottReynen">2 went home</utterance>
+<utterance turn="685" who="scott">an more questions?</utterance>
+<utterance turn="686" who="ScottReynen">2 lost the game</utterance>
+<utterance turn="687" who="Ben">we reserve the right to change the name of the game at any time for any reason</utterance>
+<utterance turn="688" who="ScottReynen">um</utterance>
+<utterance turn="689" who="ScottReynen">once the game is gold... no</utterance>
+<utterance turn="690" who="riz">good for you</utterance>
+<utterance turn="691" who="Aaron K">ANY reason?</utterance>
+<utterance turn="692" who="Chris">...and with no extra cost :)</utterance>
+<utterance turn="693" who="Ben">any reason... including spite</utterance>
+<utterance turn="694" who="ScottReynen">well... then so can we</utterance>
+<utterance turn="695" who="Charles">lol</utterance>
+<utterance turn="696" who="ScottReynen">"Bacon fried monkeys"</utterance>
+<utterance turn="697" who="Mindy">any name changes for the game will have to be finalized by rs 3.0</utterance>
+<utterance turn="698" who="horelj">ok</utterance>
+<utterance turn="699" who="hainesj">I vote we change the name to T he Jared is Awesome Game</utterance>
+<utterance turn="700" who="hainesj">hey where did that line break come from</utterance>
+<utterance turn="701" who="ScottReynen">i think there will be disagreement</utterance>
+<utterance turn="702" who="Charles">shift enter</utterance>
+<utterance turn="703" who="riz">/n</utterance>
+<utterance turn="704" who="ScottReynen">yeah... always the shift enter</utterance>
+<utterance turn="705" who="ScottReynen">/n yourself riz</utterance>
+<utterance turn="706" who="Aaron K">oooooo. settle down, boys</utterance>
+<utterance turn="707" who="riz">i'm settled down</utterance>
+<utterance turn="708" who="riz">scott is out to prove himself</utterance>
+<utterance turn="709" who="Thanh Nguyen">Ok, I think thay should be it</utterance>
+<utterance turn="710" who="Charles">/me slaps riz with a trout</utterance>
+<utterance turn="711" who="ScottReynen">i took some valium</utterance>
+<utterance turn="712" who="horelj">anything else?</utterance>
+<utterance turn="713" who="Mindy">ok so if theres no more questions for us i think this concludes the negotiation.</utterance>
+<utterance turn="714" who="ScottReynen">finally!</utterance>
+<utterance turn="715" who="ScottReynen">i mean..</utterance>
+<utterance turn="716" who="riz">you think?</utterance>
+<utterance turn="717" who="riz">be confident mindy</utterance>
+<utterance turn="718" who="mcknightp">Well thanks all</utterance>
+<utterance turn="719" who="Mindy">what?</utterance>
+<utterance turn="720" who="ScottReynen">are we still recording? turn off the tape</utterance>
+<utterance turn="721" who="horelj">Thanks all</utterance>
+<utterance turn="722" who="mcknightp">hope we helped some :)</utterance>
+<utterance turn="723" who="riz">later</utterance>
+<utterance turn="724" who="Thanh Nguyen">Thanks for your times</utterance>
+<utterance turn="725" who="Ben">bye</utterance>
+<utterance turn="726" who="Charles">you did</utterance>
+<utterance turn="727" who="ScottReynen">Thank you everyone</utterance>
+<utterance turn="728" who="riz">i shoulda stayed home</utterance>
+<utterance turn="729" who="Thanh Nguyen">bye</utterance>
+<utterance turn="730" who="Mindy">yeah thanks guys</utterance>
+<utterance turn="731" who="Charles">thanks for the time guys</utterance>
+<utterance turn="732" who="Aaron K">Thanks</utterance>
+<utterance turn="733" who="ScottReynen">Bye</utterance>
+<utterance turn="734" who="Chris">Thanks.</utterance>
+<utterance turn="735" who="Mindy">bye</utterance>
+<utterance turn="736" who="riz">bye</utterance>
+<utterance turn="737" who="Aaron K">Cheerio</utterance>
+<utterance turn="738" who="Charles">i &lt;3 myself</utterance>
+<utterance turn="739" who="ScottReynen">i'm glad this is going to be saved</utterance>
+<utterance turn="740" who="Charles">lol</utterance>
+<utterance turn="741" who="ScottReynen">i will email a copy to Daniela</utterance>
+<utterance turn="742" who="riz">so am i</utterance>
+<utterance turn="743" who="ScottReynen">3 buses</utterance>
+<utterance turn="744" who="Chris">:)</utterance>
+<utterance turn="745" who="Charles">alrighty.. turn this thing off</utterance>
+<utterance turn="746" who="Chris">We will all fail :)</utterance>
+<utterance turn="747" who="ScottReynen">2 from Riz... for shame, riz</utterance>
+<utterance turn="748" who="ScottReynen">hahaha</utterance>
+<utterance turn="749" who="ScottReynen">we must hide these records</utterance>
+<utterance turn="750" who="Chris">Yeah ... or cut out the bus.....</utterance>
+<utterance turn="751" who="riz">yes we're already following enron's footsteps</utterance>
+<utterance turn="752" who="Charles">free talk!!!</utterance>
+<utterance turn="753" who="ScottReynen">wtf</utterance>
+<utterance turn="754" who="riz">WTF MATE</utterance>
+<utterance turn="755" who="Charles">I ll mate you</utterance>
+<utterance turn="756" who="riz">scott's IQ = 55</utterance>
+<utterance turn="757" who="riz">his gf's age = 55</utterance>
+<utterance turn="758" who="mcknightp">bye guys</utterance>
+<utterance turn="759" who="Charles">lates</utterance>
+<utterance turn="760" who="horelj">bye</utterance>
+<utterance turn="761" who="riz">bye</utterance>
+<utterance turn="762" who="Chris">anyways its been good working with you guys...</utterance>
+</meeting>

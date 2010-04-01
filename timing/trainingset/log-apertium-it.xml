@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<meeting>
+<utterance category="Other" role="Other" turn="1" who="beckd">@hi Tutto</utterance>
+<utterance category="Other" role="Other" turn="2" who="Jeff Spears">Qualunque vuole essere *scribe</utterance>
+<utterance category="Other" role="Other" turn="3" who="beckd">*yeah</utterance>
+<utterance category="Other" role="Other" turn="4" who="beckd">*i'*ll Essere</utterance>
+<utterance category="Other" role="Other" turn="5" who="Jeff Spears">Fatto</utterance>
+<utterance category="Other" role="Other" turn="6" who="whitew">*goeff, sto andando a *disconnect, e #allora #invitare di nuovo *ok</utterance>
+<utterance category="Other" role="Other" turn="7" who="Jeff Spears">È #prpers tutto #lì??</utterance>
+<utterance category="Other" role="Other" turn="8" who="Jeff Spears">Bene</utterance>
+<utterance category="Other" role="Other" turn="9" who="Jeff Spears">Perché</utterance>
+<utterance category="Other" role="Other" turn="10" who="Jeff Spears">@oh Il eco</utterance>
+<utterance category="Other" role="Other" turn="11" who="whitew">Perché *i ha 2 invita, e è</utterance>
+<utterance category="Other" role="Other" turn="12" who="whitew">Sì</utterance>
+<utterance category="Other" role="Other" turn="13" who="whitew">Giusto un *sec *disconnecting</utterance>
+<utterance category="Other" role="Other" turn="14" who="beckd">È #prpers mancando *anyonw?</utterance>
+<utterance category="Other" role="Other" turn="15" who="beckd">Qualunque</utterance>
+<utterance category="Other" role="Other" turn="16" who="Jeff Spears">*eah *warren *isnt Difende ancora *y
+</utterance>
+<utterance category="Other" role="Other" turn="17" who="Jeff Spears">Bene</utterance>
+<utterance category="Other" role="Other" turn="18" who="whitew">Già #allora</utterance>
+<utterance category="Other" role="Other" turn="19" who="Jeff Spears">Era *al #lì</utterance>
+<utterance category="Other" role="Other" turn="20" who="Jeff Spears">Vuole iniziare</utterance>
+<utterance category="Other" role="Other" turn="21" who="beckd">@How fare *i alzare la mia mano?</utterance>
+<utterance category="Other" role="Other" turn="22" who="Jeff Spears">?</utterance>
+<utterance category="Other" role="Other" turn="23" who="nordmanr">Siamo #tutto @present in la squadra di cliente #lì</utterance>
+<utterance category="Other" role="Other" turn="24" who="Jeff Spears">*k Lascia va</utterance>
+<utterance category="Complex Question" role="Other" turn="25" who="Jeff Spears">Dopo leggere il *RFP #questo è la idea abbiamo per il tuo progetto: Essenzialmente un clone di messaggero @secure per il fine di cliente, con la lima #que condivide e storni *capabilties. Questi clienti sono facilitati per un @server centralizzato che @store #tutto utente *info e *logs le conversazioni e #prpers @store in un *DB.</utterance>
+<utterance category="Complex Question" role="Other" turn="26" who="Jeff Spears">È che @pretty molto lo?</utterance>
+<utterance category="Y/N Answer" role="Other" turn="27" who="mcmahonp">Sì</utterance>
+<utterance category="Acknowledgment" role="Other" turn="28" who="whitew">Buono</utterance>
+<utterance category="Complex Answer" role="Other" turn="29" who="mcmahonp">Nonostante #prpers  non *necessarilly necessitare le conversazioni #para essere @store in un *DB...</utterance>
+<utterance category="Complex Answer" role="Other" turn="30" who="hanlonc">#Prpers anche applicazione di necessità #que condivide.  *IE #- Lasciando qualcuno più accede una finestra sola nel mio computer.</utterance>
+<utterance category="Acknowledgment" role="Other" turn="31" who="Jeff Spears">*k</utterance>
+<utterance category="Other" role="Other" turn="32" who="Jeff Spears">Come  spostiamo al tema prossimo</utterance>
+<utterance category="Other" role="Other" turn="33" who="nordmanr">Eri in #prpers</utterance>
+<utterance category="Other" role="Other" turn="34" who="nordmanr">Lì</utterance>
+<utterance category="Other" role="Other" turn="35" who="Jeff Spears">*ah @Perfect</utterance>
+<utterance category="Other" role="Other" turn="36" who="Jeff Spears">*ok Io *preparde #tutto le questioni *eariler</utterance>
+<utterance category="Other" role="Other" turn="37" who="Jeff Spears">@So io  giusto tagliato e pasta *em</utterance>
+<utterance category="Other" role="Other" turn="38" who="beckd">Grande</utterance>
+<utterance category="Complex Question" role="Other" turn="39" who="Jeff Spears">2.0 fonte di partecipazione codice rapidamente e #facilmente con un altro impiegato @remote
+ 
+ @How many utenti @should essere capaci di condividere codice??
+ Fa condividere uomini di codice @simultaneous #redigere??</utterance>
+<utterance category="Complex Answer" role="Other" turn="40" who="hanlonc">Credo condividere #que il codice riferisce all'abilità di copiare e codice di pasta #facilmente.  Senza #prpers ricevendo *messy.</utterance>
+<utterance category="Check" role="Other" turn="41" who="stuartc">A meno che stai riferendo all'applicazione #que condivide parte</utterance>
+<utterance category="Task" role="Other" turn="42" who="Jeff Spears">#Nessuno giusto stiamo trattando la 2.0 porzione #proprio ora</utterance>
+<utterance category="Task" role="Other" turn="43" who="nordmanr">*Yeah, @should essere capaci di condividere una applicazione di @coding tra due utenti</utterance>
+<utterance category="Task" role="Other" turn="44" who="whitew">*refering Alla prima pallottola di 2.0</utterance>
+<utterance category="Agreement" role="Other" turn="45" who="nordmanr">#But in termini di condividere codice, opino con rispetto a che #prpers copia significata giusto e funzionalità di pasta</utterance>
+<utterance category="Check" role="Other" turn="46" who="Jeff Spears">@So passando un *viewable finestra del codice a la @other persona</utterance>
+<utterance category="Agreement" role="Other" turn="47" who="stuartc">Esattamente</utterance>
+<utterance category="Acknowledgment" role="Other" turn="48" who="whitew">*ok</utterance>
+<utterance category="Task" role="Other" turn="49" who="Jeff Spears">E possono ricevere accesso a #prpers e cambi di marchio</utterance>
+<utterance category="Task" role="Other" turn="50" who="Jeff Spears">@While @both orologio di gente</utterance>
+<utterance category="Task" role="Other" turn="51" who="Jeff Spears">Non #entrambi i #provare fare#prpers allo stesso tempo</utterance>
+<utterance category="Task" role="Other" turn="52" who="whitew">Uno dovrà permettere il @other #para vedere/modificare</utterance>
+<utterance category="Task" role="Other" turn="53" who="nordmanr">Lo opino sarebbe sufficiente giusto se potrebbero inviare blocchi grandi di codice di fonte a ognuno @other @via una copia e classe di pasta di sistema, e #allora se #redigere è richiesto potrebbero usare la applicazione #que condivide caratteristica...</utterance>
+<utterance category="Check" role="Other" turn="54" who="nordmanr">Cosa  ti i tipi opinano?</utterance>
+<utterance category="Agreement" role="Other" turn="55" who="hanlonc">Io @second #quello.</utterance>
+<utterance category="Agreement" role="Other" turn="56" who="mcmahonp">*Yeah, che era #quanto avemmo *envisioned.</utterance>
+<utterance category="Acknowledgment" role="Other" turn="57" who="beckd">Fatto.</utterance>
+<utterance category="Agreement" role="Other" turn="58" who="stuartc">#Quello suona bene</utterance>
+<utterance category="Acknowledgment" role="Other" turn="59" who="Jeff Spears">*okay</utterance>
+<utterance category="Acknowledgment" role="Other" turn="60" who="whitew">Fatto</utterance>
+<utterance category="Check" role="Other" turn="61" who="nordmanr">Senso di marchio, Jeff?</utterance>
+<utterance category="Agreement" role="Other" turn="63" who="Jeff Spears">*yeah Fa senso a #mí</utterance>
+<utterance category="Complex Question" role="Other" turn="62" who="stuartc"> #Volere una finestra dedicata per #questo?</utterance>
+<utterance category="Complex Answer" role="Other" turn="64" who="mcmahonp">Tutto #volere era un *IM caratteristica che non fu durata indentazione #restringere e preservata.</utterance>
+<utterance category="Task" role="Other" turn="65" who="nordmanr">Una finestra dedicata potrebbe essere buona, #but #quello è @more d'un dettaglio di attuazione</utterance>
+<utterance category="Acknowledgment" role="Other" turn="66" who="Jeff Spears">*ok @Perfect</utterance>
+<utterance category="Agreement" role="Other" turn="67" who="nordmanr">*yeah</utterance>
+<utterance category="Other" role="Other" turn="68" who="Jeff Spears">Prossimo *q</utterance>
+<utterance category="Y/N Question" role="Other" turn="69" who="Jeff Spears">@Directory di utenti  basicamente una lista di contatto con #tutti quanti dell'impresa??</utterance>
+<utterance category="Y/N Answer" role="Other" turn="70" who="mcmahonp">Sì</utterance>
+<utterance category="Task" role="Other" turn="71" who="Jeff Spears">Partito a sezioni o #alcunché</utterance>
+<utterance category="Task" role="Other" turn="72" who="whitew">@Store in il @server centrale</utterance>
+<utterance category="Complex Answer" role="Other" turn="73" who="sheny">Come differente *dept</utterance>
+<utterance category="Agreement" role="Other" turn="74" who="stuartc">Destro</utterance>
+<utterance category="Agreement" role="Other" turn="75" who="Jeff Spears">*yeah</utterance>
+<utterance category="" role="Other" turn="76" who="">Esattamente</utterance>
+<utterance category="Task" role="Other" turn="77" who="stuartc">E uffici differenti</utterance>
+<utterance category="Check" role="Other" turn="78" who="Jeff Spears">Uffici differenti=*diff ubicazioni? Destro</utterance>
+<utterance category="Agreement" role="Other" turn="79" who="stuartc">Sì</utterance>
+<utterance category="Acknowledgment" role="Other" turn="80" who="Jeff Spears">*k</utterance>
+<utterance category="Complex Question" role="Other" turn="81" who="Jeff Spears">*Archive Può gli utenti vedono @other conversazioni come se mancasti una riunione?? O  necessiti un invitare #para vedere??</utterance>
+<utterance category="Complex Answer" role="Other" turn="82" who="hanlonc">Il @directory anche necessita includere *favorites funzionalità di tipo.  In modo che gli utenti possono vedere una lista degli utenti parlano a @most.</utterance>
+<utterance category="Agreement" role="Other" turn="83" who="Jeff Spears">*yeah *i *envisioned #Quello</utterance>
+<utterance category="Y/N Answer" role="Other" turn="84" who="hanlonc">0</utterance>
+<utterance category="Acknowledgment" role="Other" turn="85" who="Jeff Spears">*ok</utterance>
+<utterance category="Task" role="Other" turn="86" who="mcmahonp">#But sarebbe buono se un utente potrebbe scegliere fare un pubblico di conversazione.</utterance>
+<utterance category="Agreement" role="Other" turn="87" who="stuartc">*thats #Quanto *i opinava</utterance>
+<utterance category="Agreement" role="Other" turn="88" who="hanlonc">Accordo.</utterance>
+<utterance category="Task" role="Other" turn="89" who="stuartc">Forse se potremmo mettere permessi differenti in il *logs</utterance>
+<utterance category="Agreement" role="Other" turn="90" who="Jeff Spears">@oh *ok Mi piace che idea</utterance>
+<utterance category="Agreement" role="Other" turn="91" who="nordmanr">*yeah, che suona bene</utterance>
+<utterance category="Task" role="Other" turn="92" who="hanlonc">Il @officer di @privacy/di sicurezza di impresa anche necessiterà essere capace delle ggere #tutto *logs.</utterance>
+<utterance category="Agreement" role="Other" turn="93" who="mcmahonp">*yeah</utterance>
+<utterance category="Task" role="Other" turn="94" who="mcmahonp">Nonostante #tutto il suo accesso a il *logs @should essere in turno *logged.</utterance>
+<utterance category="Acknowledgment" role="Other" turn="95" who="Jeff Spears">*ok</utterance>
+<utterance category="Y/N Question" role="Other" turn="96" who="Jeff Spears">Connessioni @Secure *inter ufficio o può gli utenti connettono di casa etc. ??</utterance>
+<utterance category="Other" role="Other" turn="97" who="whitew">*jeff, come *bout la questione prossima</utterance>
+<utterance category="Y/N Answer" role="Other" turn="98" who="nordmanr">#No, #solo *inter ufficio</utterance>
+<utterance category="Task" role="Other" turn="99" who="stuartc">Per sicurezza  *sake</utterance>
+<utterance category="Acknowledgment" role="Other" turn="100" who="Jeff Spears">*ok</utterance>
+<utterance category="Task" role="Other" turn="101" who="hanlonc">Opino utenti che sono connessi @via il @corporate *VPN @should essere capace di partecipare in conversazioni.</utterance>
+<utterance category="Check" role="Other" turn="102" who="beckd">*VPN?</utterance>
+<utterance category="Check" role="Other" turn="103" who="whitew">Possiamo avere @secure *VPN</utterance>
+<utterance category="Check" role="Other" turn="104" who="mcmahonp"> Abbiamo un *VPN...</utterance>
+<utterance category="Y/N Question" role="Other" turn="105" who="nordmanr"> la nostra impresa realmente ha quello servizio?</utterance>
+<utterance category="Y/N Answer" role="Other" turn="106" who="mcmahonp">Non opino facciamo.</utterance>
+<utterance category="Task" role="Other" turn="107" who="nordmanr">È classe d'un rischio di sicurezza #para permettere impiegati #para prendere casa di codice della fonte con #prpers</utterance>
+<utterance category="Check" role="Other" turn="108" who="Jeff Spears">@So #nessuno *VPN?</utterance>
+<utterance category="Complex Answer" role="Other" turn="109" who="hanlonc">@Most delle imprese di software ho lavorato per avere attuato alcuna forma di *VPN.</utterance>
+<utterance category="Complex Answer" role="Other" turn="110" who="nordmanr">Lasciato è dice che #prpers piacerebbe quella caratteristica #but probabilmente non lo useremmo ancora</utterance>
+<utterance category="Disagreement" role="Other" turn="111" who="mcmahonp">*Yeah, #but siamo una "impresa" @secure.</utterance>
+<utterance category="Task" role="Other" turn="112" who="nordmanr">Nel futuro @may necessitare questo sistema #para #sopportare</utterance>
+<utterance category="Check" role="Other" turn="113" who="Jeff Spears">Forse lasciare il *VPN per *RES 2.0?</utterance>
+<utterance category="" role="Other" turn="114" who="Jeff Spears">Tanto montato lo #para essere compatibile con un futuro *VPN</utterance>
+<utterance category="Agreement" role="Other" turn="115" who="nordmanr">Sì</utterance>
+<utterance category="Task" role="Other" turn="116" who="hanlonc">@How sopra qualunque che è connesso a il nostro @private *TCP/rete di @IP può accedere il nostro il sistema.  Per il *timebeing che è #solo utenti locali #but nel futuro potrebbe includere *vpn utenti...</utterance>
+<utterance category="Agreement" role="Other" turn="117" who="nordmanr">*Yeah, #quanto Chris disse</utterance>
+<utterance category="Agreement" role="Other" turn="118" who="Jeff Spears">*ok Suona bene</utterance>
+<utterance category="Other" role="Other" turn="119" who="nordmanr">Prossimo *q</utterance>
+<utterance category="Agreement" role="Other" turn="120" who="stuartc">Suoni bene</utterance>
+<utterance category="Y/N Question" role="Other" turn="121" who="Jeff Spears">Fornisce *intrasite @connectivity se le connessioni esterne sono interrotte.  Significhi abilità di connettere con @other utenti internamente quando #hay #no connessione di internet esterno??</utterance>
+<utterance category="Y/N Answer" role="Other" turn="122" who="nordmanr">Sì, in un *nutshell</utterance>
+<utterance category="Complex Answer" role="Other" turn="123" who="nordmanr">Opino #que significammo, con i nostri uffici multipli, se uno dei posti perde @connectivity, il @other ancora @should essere capace di comunicare con #prpers e altri</utterance>
+<utterance category="Agreement" role="Other" turn="124" who="mcmahonp">Sì</utterance>
+<utterance category="Y/N Question" role="Other" turn="125" who="Jeff Spears">Se il suo un @server centralizzato @what se il posto di @server perde @connectivity</utterance>
+<utterance category="" role="Other" turn="126" who="">O ti è @more interessato in un @server per ogni posto</utterance>
+<utterance category="Complex Answer" role="Other" turn="127" who="nordmanr">Siamo #interessare in qualsiasi soluzione #prpers darà la funzionalità necessitiamo</utterance>
+<utterance category="Agreement" role="Other" turn="128" who="mcmahonp">*yeah</utterance>
+<utterance category="Other" role="Other" turn="129" who="whitew">Avvio con @one ufficio, il *R2</utterance>
+<utterance category="Other" role="Other" turn="130" who="beckd">#Lì #lì!</utterance>
+<utterance category="Acknowledgment" role="Other" turn="131" who="Jeff Spears">*k</utterance>
+<utterance category="Complex Question" role="Other" turn="132" who="Jeff Spears">#Nessuno *eavesdropping  #volere il *log le lime @encrypt anche?? Se tanto, @how??  Password di conversazioni salvate chiave protetta o pubblica, o @other??</utterance>
+<utterance category="Complex Answer" role="Other" turn="133" who="whitew">Opino addirittura sollevarono che le conversazioni non furono #para essere in *db</utterance>
+<utterance category="Complex Answer" role="Other" turn="134" who="hanlonc">Necessitiamo impiegati in @one posto #para essere capace di parlare a ognuno @other #ancora se la sua connessione a @other posti è #giù.</utterance>
+<utterance category="Disagreement" role="Other" turn="135" who="Jeff Spears">Forse non necessario dall'invita sarebbe *requiered</utterance>
+<utterance category="Complex Answer" role="Other" turn="136" who="mcmahonp">Necessitiamo il *logs #para essere @secure contro hacker/di @intruder/*rogue impiegati.</utterance>
+<utterance category="Complex Question" role="Other" turn="137" who="Jeff Spears">#But come può qualunque accede le sue conversazioni sono #prpers andando #para essere @store nelle macchine individuali</utterance>
+<utterance category="Task" role="Other" turn="138" who="hanlonc">Anche necessitiamo il software #para manipolare rete *outages nettamente.  *Forinstance, lasciato è finge *beckd perse la sua connessione di rete.  #Prpers @should *regain il suo *scribe *priveledges appena #prpers *regains la sua connessione di rete.</utterance>
+<utterance category="Disagreement" role="Other" turn="139" who="Jeff Spears">*i Vedere come potresti ricevere il tuo proprio #but invita a altri</utterance>
+<utterance category="Disagreement" role="Other" turn="140" who="Jeff Spears">Fa molto spazio duplicato senza un *DB per le conversazioni</utterance>
+<utterance category="Task" role="Other" turn="141" who="mcmahonp">#No, sopra il *db, giusto dicevo non specificavamo come manipoleresti il *logs</utterance>
+<utterance category="Task" role="Other" turn="142" who="nordmanr">Bene, non opino significhiamo #para imperare fuori il *possiblity del *DB</utterance>
+<utterance category="Task" role="Other" turn="143" who="mcmahonp">Sei gratuito di usare un *db @server se #volere</utterance>
+<utterance category="Agreement" role="Other" turn="144" who="nordmanr">Sì</utterance>
+<utterance category="Task" role="Other" turn="145" who="stuartc">È fino #ti tipi come lo vuoi attuare</utterance>
+<utterance category="Task" role="Other" turn="146" who="Jeff Spears">*i Opina il suo @the most modo logico</utterance>
+<utterance category="Complex Answer" role="Other" turn="147" who="nordmanr">In termini di requisiti, #volere il *log le lime @accessible per il impiegato autorizzato, #essere una conversazione parteciparono @in o uno hanno stato accesso dato a</utterance>
+<utterance category="Agreement" role="Other" turn="148" who="stuartc">Suoni sopra destro</utterance>
+<utterance category="Acknowledgment" role="Other" turn="149" who="Jeff Spears">*ok Capì</utterance>
+<utterance category="Other" role="Other" turn="150" who="Jeff Spears">*k @Sorry *i *skipped 3.0</utterance>
+<utterance category="Y/N Question" role="Other" turn="151" who="Jeff Spears">È il #personale di appoggio #que sopporta tutto *thesoftware usi o sopportando questa applicazione, o lo è sopportando il software che la tua impresa vende??</utterance>
+<utterance category="Y/N Answer" role="Other" turn="152" who="nordmanr">#No, stanno sopportando il nostro *workstations</utterance>
+<utterance category="Task" role="Other" turn="154" who="nordmanr">Facendo sicuro che i nostri impiegati *workstations sta correndo e il software corretto è installato e tutto #quello</utterance>
+<utterance category="Y/N Question" role="Other" turn="153" who="whitew">Secondo *tech *helpers?</utterance>
+<utterance category="Y/N Answer" role="Other" turn="155" who="nordmanr">*yeah, esattamente</utterance>
+<utterance category="Acknowledgment" role="Other" turn="156" who="Jeff Spears">Bene</utterance>
+<utterance category="Acknowledgment" role="Other" turn="157" who="whitew">*ok</utterance>
+<utterance category="Complex Question" role="Other" turn="158" who="Jeff Spears">Se stai correndo *XP perché non usare assistenza @remote #quello è #includere con il *OS??</utterance>
+<utterance category="Complex Answer" role="Other" turn="159" who="nordmanr">*Yeah, che sarebbe bene</utterance>
+<utterance category="" role="Other" turn="160" who="">#But necessiteremmo un @interface a #prpers @via questo *messaging sistema</utterance>
+<utterance category="" role="Other" turn="161" who="">O almeno, #quello è #quanto #prpers piacerebbe</utterance>
+<utterance category="Disagreement" role="Other" turn="162" who="hanlonc">*Umm #- Forse la assistenza @remote non è compatibile con il nostro *WAN</utterance>
+<utterance category="Complex Question" role="Other" turn="163" who="nordmanr">Perché  non lo essere?</utterance>
+<utterance category="Disagreement" role="Other" turn="164" who="nordmanr">Ho usato assistenza @remote sopra un *WAN prima che</utterance>
+<utterance category="Complex Answer" role="Other" turn="165" who="whitew">Motivi di sicurezza di nuovo</utterance>
+<utterance category="Disagreement" role="Other" turn="166" who="nordmanr">Bene, tanto @long secondo è tanto @secure come il nostro istante *messaging</utterance>
+<utterance category="Other" role="Other" turn="167" who="whitew">#Quale sezione #prpers addirittura *goeff?</utterance>
+<utterance category="Other" role="Other" turn="168" who="Jeff Spears">4.0</utterance>
+<utterance category="" role="Other" turn="170" who="">*doesnt Dice nella tazza del tuo schermo</utterance>
+<utterance category="Other" role="Other" turn="171" who="whitew">È di schermo *abit ;)</utterance>
+<utterance category="Task" role="Other" turn="169" who="nordmanr">#Volere @the same @constraint secondo avemmo @regarding accesso al *messaging sistema</utterance>
+<utterance category="Task" role="Other" turn="172" who="nordmanr">Anfitrioni unici in il @private *TCP/rete di @IP @should essere capace di usare caratteristiche di assistenza @remote</utterance>
+<utterance category="Complex Question" role="Other" turn="173" who="Jeff Spears">#Allora dove fare il *securty i rischi venuti di</utterance>
+<utterance category="Complex Answer" role="Other" turn="174" who="whitew">*inter Ufficio, e ufficio a ufficio</utterance>
+<utterance category="Agreement" role="Other" turn="175" who="nordmanr">*yeah, abbiamo posti multipli</utterance>
+<utterance category="Task" role="Other" turn="176" who="hanlonc">Anche, #solo autorizzato #personale di appoggio personale @should essere capace di connettere usando assistenza @remote.</utterance>
+<utterance category="Y/N Question" role="Other" turn="177" who="Jeff Spears">*i Opinerebbe *youd' avere *tech appoggio in posto</utterance>
+<utterance category="Agreement" role="Other" turn="178" who="nordmanr">Sì, #quello è corretto</utterance>
+<utterance category="Task" role="Other" turn="179" who="hanlonc">Alcuni lavori richiedono tecnici specializzati d'un posto particolare.</utterance>
+<utterance category="Check" role="Other" turn="180" who="Jeff Spears">Tanto #allora assistenza @remote  necessità @really unica #para essere fatto dentro un posto</utterance>
+<utterance category="Task" role="Other" turn="181" who="nordmanr">Probabilmente sarebbe sufficiente se #solo geograficamente locale *tech #personale di appoggio #potere accedere la caratteristica</utterance>
+<utterance category="Disagreement" role="Other" turn="182" who="hanlonc">Io *dissagree con *nordmanr.</utterance>
+<utterance category="Task" role="Other" turn="183" who="nordmanr">Malgrado sarebbe buono se lavorò *inter#-ufficio</utterance>
+<utterance category="Agreement" role="Other" turn="184" who="stuartc">#Quello #essere buono</utterance>
+<utterance category="Task" role="Other" turn="185" who="hanlonc">@Certain *inhouse i prodotti sono *primarely sopportato di il nostro ufficio di New York.</utterance>
+<utterance category="Agreement" role="Other" turn="186" who="nordmanr">*Yeah, #quello è vero</utterance>
+<utterance category="Check" role="Other" turn="187" who="Jeff Spears">Tanto #allora essenzialmente dovrà lavorare #attraverso a la rete stessa esatta come il *messaging</utterance>
+<utterance category="Check" role="Other" turn="188" who="Jeff Spears">Non un @subset</utterance>
+<utterance category="Agreement" role="Other" turn="189" who="nordmanr">Destro</utterance>
+<utterance category="Other" role="Other" turn="190" who="beckd">Tempo....</utterance>
+<utterance category="Other" role="Other" turn="191" who="whitew">Tempo?</utterance>
+<utterance category="Other" role="Other" turn="192" who="Jeff Spears">*whoops Che era 5.0</utterance>
+<utterance category="Other" role="Other" turn="193" who="Jeff Spears">407</utterance>
+<utterance category="Other" role="Other" turn="194" who="hanlonc">Punto buono #solo abbiamo 13minuti lasciarono.</utterance>
+<utterance category="Other" role="Other" turn="205" who="whitew">*nope, *thats #prpers</utterance>
+<utterance category="Other" role="Other" turn="206" who="Jeff Spears">*ok #Allora</utterance>
+<utterance category="Other" role="Other" turn="207" who="beckd">*awesome</utterance>
+<utterance category="Other" role="Other" turn="208" who="Jeff Spears">@Deal fatto</utterance>
+<utterance category="Other" role="Other" turn="209" who="beckd">Cui sta salvando questo *convo</utterance>
+<utterance category="Other" role="Other" turn="210" who="Jeff Spears">??</utterance>
+<utterance category="Other" role="Other" turn="211" who="nordmanr">@Thank you, signori, paiamo/pariamo avanti a lavorare con #ti</utterance>
+<utterance category="Other" role="Other" turn="212" who="nordmanr">Qualunque che vuole lo può salvare 
+ Decisione 1 #- sono *scribe
+ Decisione 2 #- la idea Maggiore dietro software è:
+ un clone di messaggero @secure per il fine di cliente, con la lima #que condivide e storni *capabilties. Questi clienti sono facilitati per un @server 
+ centralizzato che @store #tutto utente *info e *logs le conversazioni e #prpers @store in un *DB. 
+ Con la applicazione #que condivide Decisione
+ di capacità 3 #- Condividendo il codice implica la abilità a codice di pasta a senza *formatting parendo brutto.  Non @Should avere durata di messaggio massimo e indentazione di @preserve.
+ Decisione 4 #- #il @directory di utenti è lista di contatto di #tutti quanti nell'impresa ordinata per dipartimento, Decisione
+ di ubicazione 5 #- Per *archives, sono @private a meno che invitò #para vedere per proprietario, opzione #para @make disponibile.
+ Decisione 6 #- Al momento, qualunque connettè a il nostro @private *TCP/rete di @IP può accedere il sistema.  Nei rilasci futuri @may includere di posto *ip 
+ Decisione 7 #- *Logfiles @should essere @accessible per una Decisione di impiegati
+ autorizzata #personale di 8 Appoggi sta sopportando il nostro *workstations esclusivamente
+ Decisione 9 #- *WinXP  @remote *assitance sarebbe bene, tanto @long secondo è integrato a il nostro *messaging sistema e gli anfitrioni unici in rete @private @should essere capaci di usare caratteristiche.
+ Decisione 10 #- siamo *willing #para aumentare il nostro *max @usage di memoria a 15+ *Mb, #but piacerebbe tanto poco tanto possibile.
+</utterance>
+</meeting>

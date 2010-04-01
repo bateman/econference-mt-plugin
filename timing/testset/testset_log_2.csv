@@ -1,0 +1,351 @@
+Turn;Who;Utterance
+1;Jared Haines;hey guys
+2;mcknightp;hey Jared
+3;mcknightp;I guess you dont need the cable?
+4;Jared Haines;nope, wireless iw working fine
+5;mcknightp;great
+6;Jared Haines;Pat, do you want to be the scribe?
+7;mcknightp;I already got my pad of paper out but what else do I need to do with this program?
+8;clarkn;i think the program will store the log
+9;clarkn;look this a way --->
+10;clarkn;yep
+11;Jared Haines;yeah when you quit the program asks if you want to store the decisions and chat logs
+12;mcknightp;ok cool
+13;Jared Haines;hmm, any idea if the rest of group 6  is on yet?  Should I maybe re-invite them?
+14;longleyl;THIS IS EXCITING
+15;longleyl;welcome to hawaii
+16;longleyl;I'm all alone :(
+17;longleyl;i want to write in triplicate
+18;longleyl;that's not fair
+19;chaingj;I am in Taiwan
+20;longleyl;Hello, Taiwan person.
+21;chaingj;hello
+22;laihok;hi guys
+23;longleyl;Hello.
+24;mcknightp;hello all
+25;longleyl;I am straight from the hoods of suburban Honolulu.
+26;longleyl;represent
+27;mcknightp;Is everyone here?
+28;Jared Haines;so how many people are we missing?
+29;longleyl;I think Neal is still coming.
+30;longleyl;I don
+31;longleyl;'t know where he is.
+32;longleyl;He should be in the same room I'm in, but I don't see him.
+33;chaingj;clarkn is neal
+34;longleyl;Yeah, I know.
+35;chaingj;jchiang is jack
+36;longleyl;But he's not saying anything.
+37;laihok;I think I saw him in anoother room
+38;longleyl;Nor is he in this room.
+39;chenl;chenl is Ryan@group6
+40;longleyl;Oh, really?
+41;chaingj;neal is not facing computer
+42;longleyl;Well, he's not typing, at least.
+43;longleyl;Slacker.
+44;clarkn;im here
+45;longleyl;Oh, there he is.
+46;mcknightp;hes reading off my screen
+47;clarkn;but i think we are still waiting for someone
+48;chaingj;where is andrew
+49;clarkn;the list looks a little short
+50;longleyl;Andrew, right.
+51;laihok;whos mcknightp?
+52;clarkn;don't know but he is sittting next to me
+53;mcknightp;Hi Im Pat a developer from Group 1
+54;longleyl;He's an interloper.
+55;longleyl;He must be executed.
+56;laihok;Hi..!!
+57;clarkn;haha
+58;chenl;who's laihok
+59;longleyl;If Andrew doesn't show up by 3:40, I say we just go without him.
+60;laihok;Matthew 
+61;longleyl;I dunno where he is.
+62;clarkn;don't know not on my list
+63;laihok;ok..
+64;longleyl;The teacher just told us to start without Andrew.
+65;laihok;we need to start 
+66;clarkn;oh now he showed up
+67;longleyl;Good timing.
+68;chenl;who still  not coming yet
+69;clarkn;doesn't matter lets just start
+70;Jared Haines;ok, let's get this thing started
+71;Jared Haines;So, first we'd like to know a little more about the system.  Are you looking for some sort of web-based service, or a desktop application?
+72;clarkn;a desktop application
+73;longleyl;It's supposed to be a decentralized, distributed thing, nothing on a central server.
+74;Jared Haines;ok
+75;clarkn;the users of the system will need to connect from a large number of different locations
+76;mcknightp;So web access but not a web page?
+77;clarkn;exactly,
+77;clarkn;we are looking for a desktop applicaitons, where the load of running the system is spread amongst the connected clients
+78;laihok;yes...not a web page..its a actual program
+79;chenl;the users are albe to view the cal via the webpage
+80;Jared Haines;so this will be a client application which sends and receives information to and from the web server?
+81;clarkn;yes
+81;clarkn; but that is not where the information is stored
+82;clarkn;public information will be posted to a webserver
+83;chenl;all the infomation just store locally,
+84;clarkn;on the various cleint machines
+85;clarkn;information you are permitted to view is stored on the local client computer
+86;mcknightp;So if someone is not online how can someone else invite them to a meeting?
+87;clarkn;?
+89;clarkn;this software is not a meeting software, it is a calendar applicaiton
+88;mcknightp;FOr example
+90;mcknightp;I'm offline and so is my schedule
+91;mcknightp;you need to schedule me for a meeting
+92;mcknightp;how do you know my schedule?
+93;chenl;email notice will be sent
+94;clarkn;well the informaiton will be stored on other client computers, for example if a manager puts out a meeting schedule it will be send to everyone in the meeting
+96;clarkn;the computers in our organization are left running all night so uptime is not a big consideration
+95;longleyl;And the person can retrieve the info when they log on, and such.
+97;mcknightp;ok what about, laptops and buisness trips?
+98;clarkn;well when they connect the new  events  will bo downloaded from other peers
+99;laihok;pretty much the same..once you are online
+100;chenl;think about the idea of bittorrent, you can download as a peer from anywhere
+101;clarkn;the mechanisims for distributing the data are not all that important at this point, what we need to concentrate on is the scheduling functionality of the software
+102;clarkn;information isn't just retrieved at login time, it can also be downloaded as it becomes available
+103;clarkn;and affected users can give feedback on the proposed schedule
+104;longleyl;Essentially, it should check both at login and periodically to see if anything has changed, and if so, get the new information.
+105;longleyl;It's a continuous process.
+106;clarkn;exactly
+107;Jared Haines;The RFP mentioned that documents are often sent out to be read prior to a meeting.  Does the application need to distribute the documents, or will they be sent out by email?
+108;laihok;you can upload the document
+109;longleyl;The application will distribute them with the meeting notice, kind of like an email attachment.
+110;clarkn;yes, it does need to distribute documens and no they will not be sent out by email
+111;chaingj;email notice will be send
+112;laihok;like an attachment 
+113;chenl;just email notice
+114;clarkn;for important items only
+115;clarkn;the user should be able to select if they want an email sent, in general it will not be necessary as the calendar will display the updates
+116;Jared Haines;ok, we should probably move on
+117;Jared Haines;What kinds of user permissions will the system need?
+118;chenl;either set the cal event to private or public
+119;longleyl;Well, you should be able to define an arbitrary number of user permissions and give them all a variable set of abilities.
+120;longleyl;I believe.
+122;chenl;and depends on the group which you choose
+121;clarkn;they system will need a role based permission system, where by and arbitrary number of rolls can be created and assigned to various users
+123;clarkn;for example managers should be able to schedule meetings for the staff they manage
+125;clarkn;or request a meeting with people from other departemnts
+124;longleyl;Essentially, the system will have a various set of things people can do.
+126;longleyl;And you can derive user classes from that set.
+127;laihok;for example, the manger always has permission to do , update, edit, delete the schedule
+128;clarkn;a mail clerk for exampel should not be able to change the time or a meeting or schedule a meeting
+129;chaingj;or payroll accountant can't change time :)
+130;Jared Haines;Will certain users have higher priority permissions? For example, if one manager changes a schedule could another manager override the edit, or modify a calendar entry made by another user?
+131;clarkn;but the hr people can put out a schedule for all staff under thier control
+132;clarkn;but for tiems like that the person scheduled can request that their schedule be changed
+133;longleyl;I believe that people above someone in the hierarchy can affect people below them, but people can't affect others in the same level of the hierarchy.
+134;longleyl;Unless the person explicitly gives them permission to do so.
+136;chaingj;have to negociate before change~~~ 
+135;clarkn;when creating a schedule the system should try to optimize the timing of a meeting to minimize existing conflitcs
+137;clarkn;so a method to request different times
+138;clarkn;that way staff can schedule themselves as long as they get their hours in
+139;clarkn;when scheduling the system takes requests into consideration
+140;mcknightp;ok 
+140;mcknightp;hold up a sec please
+141;mcknightp;Permissions
+142;mcknightp;Do you need mutlilevel premissions for each person in the tree?
+143;longleyl;"What do you mean by ""multilevel permissions""?"
+144;laihok;what do you mean?
+145;clarkn;yes 
+145;clarkn;a manager can only modify thoes under him
+146;clarkn;and he is granted his permissions by a administrator
+147;mcknightp;ok 
+147;mcknightp;can a manager have two or more priority levels?
+148;clarkn;rolls are set up my administrators and then assigned to the staff
+149;longleyl;No, being a manager sets his priority level.
+150;longleyl;I'm not sure what you mean.
+151;clarkn;a manager can belong to multiple roles
+152;chenl;why we need multilevel, would you give some example
+153;clarkn;say a manager is in charge of a group of programmers
+154;clarkn;that manager can then schedule thoes programmers
+155;clarkn;he may also be the team leader of another project
+156;longleyl;Oh, right, that makes sense.
+157;longleyl;I guess that you could organize it in a tree structure.
+158;longleyl;Where everyone below someone can have something scheduled by the person above them.
+159;chenl;I thought the permission is associated with each event,
+160;clarkn;he can request that other people not under his controll attend a meeting put he has to request their presence and they have to accept before they can be added to the meeting
+162;clarkn;they can also schedule their own events as long as they don't conflict
+163;clarkn;ie, work on project A until such a time, then work on project B
+161;longleyl;So in that case, the programmers would be below the person and so would the other team.
+164;andrews;hey guys sorry im late
+165;clarkn;"sorry we are done ;)"
+166;longleyl;Haha.
+167;clarkn;we have decided you are coding the entire project
+168;clarkn;we had a vote and everyone agreed
+169;longleyl;And all profits will go to us.
+170;chaingj;yes
+171;mcknightp;so does a given user have different priority levels or just one?
+172;longleyl;Well, a given user will have people below him, above him, and unassociated with him.
+173;clarkn;any user can belong to an arbitrary number of roles
+174;chaingj;depends what kind of job he has
+175;mcknightp;k
+176;longleyl;He'd only be able to affect those below him, unless others give him explicit ability to do otherwise.
+177;clarkn;instead of permission levels i like the idea of roles
+178;clarkn;that can be assigned and expire when a task is finished
+179;Jared Haines;yes, I agree the roles concept makes more sense
+180;longleyl;Well, you could do roles in a tree structure, just a temporary one.
+181;longleyl;It's just that it'd be hard to model relationships between employees otherwise.
+182;clarkn;i think of it as being flatter
+183;clarkn;you have sets of users each with their own permissions
+184;clarkn;so a group leader can schedule anyone under them even if they are manageing another project
+185;longleyl;"But if you have ""managers"" and ""programmers"", how do you define which managers are above which programmers?"
+186;chaingj;the application should be able to create or remove the levels of permission base on role levels
+187;clarkn;roles
+188;longleyl;For example.
+189;clarkn;if someone is assigned the role of project leader of project A then he can manage the schedules for anyone in project A
+190;chenl;did we dicide to change permission to role
+191;clarkn;i think so
+192;longleyl;Ah, so roles would be sort of a grouping mechanism, then.
+193;clarkn;exactly
+194;laihok;I think this is better then what we had before
+195;longleyl;So, you'd have groups of people, and you'd have different level within groups?
+196;clarkn;if someone is assigned a mananement role they may be able to create new roles and assign anyone under them to that role
+197;longleyl;That makes sense to me.
+198;longleyl;Yeah.
+199;andrews;isn't there a potential for circular logic though?
+200;clarkn;but they can't escilate their own role
+201;longleyl;How so?
+202;longleyl;(to Andrew)
+203;laihok;I think we'd better to keep the human resource department to do the annouement and things like that
+204;clarkn;?
+205;andrews;some people can be part of a group B that can assign tasks to A, where A can assign tasks to B?
+206;clarkn;well we are going to assume well behaved users
+207;clarkn;and unless you are a manager you can't create conflicting schedules
+208;clarkn;so yes you can assign tasks but you can't bump existing tasks
+209;longleyl;"Maybe we should call this good for now and move on; we still have four more topics to cover."
+210;Jared Haines;ok, we should probably move on before we run out of time
+211;andrews;i think we're getting a little caught up in the details here anyway
+212;clarkn;yep
+213;mcknightp;agreed
+214;Jared Haines;So, are you going to need some sort of revision control system?
+215;clarkn;as far as version controll goes only the version that was used is important
+216;clarkn;if it didn't happen its not important
+217;Jared Haines;with multiple users updating the schedule there seems to be vast potential for version conflicts
+218;clarkn;no because they can't update existing items
+219;clarkn;and plus managers have the final say
+221;chenl;which the high priority
+220;chaingj;only certain level can do so
+222;chaingj;it's be coverd in previous topic
+223;mcknightp;so a person witht he manager role can edit these docs and thats it?
+224;clarkn;the docs will be more notices
+225;clarkn;it read this before the meeting
+226;clarkn;or here are the notes for the meeting
+227;andrews;well, everybodys schedual gets distributed to trier machine
+228;Jared Haines;ok, just clearing that up
+229;andrews;so that's the schedyal that matters, right?
+230;andrews;schedule
+231;clarkn;Meeting Notes will be only editable but the meeting organizer. i think you mean by
+232;andrews;word
+233;mcknightp;my bad
+234;clarkn;no worries
+235;chaingj;next please...time is flying
+236;Jared Haines;yep
+237;clarkn;ok all there really is for this is the following
+238;clarkn;rols can edit for thoes under them
+239;clarkn;a user can request that the schedule be changed
+240;clarkn;the role manager can then run a feature to optimize the requests
+241;clarkn;and find the best schedule
+242;clarkn;when teh schedule has been modified, email notice sends out to everyone related in the schedule
+243;clarkn;i guess we will need various event types, tentative, firm, etc etc
+244;chenl;good idea
+245;clarkn;actually their calendar is updated
+246;andrews;a request can get sent to a manager to change a meeting, or to HR to change the base schedule
+247;clarkn;emails are only sent out when specifically requested
+248;clarkn;a request can be sent to any role manager
+249;andrews;whatever
+250;Jared Haines;ok, I think that covers it.  
+250;Jared Haines;let's move on
+251;Jared Haines;Will the backups be local?
+252;Jared Haines;or will they be backed up on the web server also
+253;clarkn;yes, but an administrator can also request a global snapshot of the system
+254;clarkn;from all online users
+255;chaingj;yes
+256;Jared Haines;ok
+257;Jared Haines;Is there any specific calendar formats your organization uses?
+258;chaingj;calendar format is complicated to describe man
+259;clarkn;various depending on the information displayes
+260;clarkn;d
+261;clarkn;we want monthly,  weekly, and daily breakdowns
+262;clarkn;plus the ability to switch between calendars
+263;chenl;just make sure it's friendly and easy to read
+265;laihok;ya...user friendly is the most important part
+266;chaingj;friendly and easy ......
+264;clarkn;it hr can post your work schedule and then during that time you have various meetings and events
+267;longleyl;Wait, are you asking about format for storage or format for displaying?
+268;Jared Haines;display format
+269;clarkn;and we want clippy
+270;longleyl;Oh, okay.
+271;chaingj;hot girls pictures as backgound = friendly
+272;longleyl;Also we want Clippy to get run over by a bus.
+273;longleyl;Twice.
+275;clarkn;yes
+274;clarkn;user configurable backgrounds optional
+276;chaingj;yes
+277;chaingj;that's the one
+278;chaingj;I only want that feature
+279;chaingj;must built
+280;laihok;yes...users can set their own preference
+281;clarkn;so a zombie clippy
+282;chenl;is that optional?
+283;chaingj;no
+284;chaingj;must 
+285;clarkn;well its not all that important
+287;clarkn;i would rather get all of the scheduling stuff in there first
+286;longleyl;This sort of thing would be a feature added once the meat of the project is finished.
+288;longleyl;It's not something that would doom the project without it.
+289;clarkn;exactly
+290;chaingj;nothing
+291;chaingj;bye
+292;laihok;re we done???  
+293;clarkn;not that i can think of
+294;longleyl;Yes, there should be an Easter Egg where a giant stack of calendars falls on Clippy.
+295;mcknightp;Did I miss anything important in the notes on the side?
+296;chenl;ye, we done
+297;clarkn;other than the fact it must be able to connect users around the world
+298;longleyl;I can't think of anything.
+299;clarkn;so that it doesn't rely on a local lan
+300;clarkn;but that is about it
+301;clarkn;do you have any other questions
+302;clarkn;jxta.org has good networking libraries for p2p
+303;clarkn;but you don't have to use it
+304;Jared Haines;I think that covers it for now
+305;Jared Haines;anything else, Pat?
+306;mcknightp;I think I'm going to ask Neil a couple of things but I think that wraps it up
+307;clarkn;have you ever seen tacky macromedias personal assistant for dreamweaver
+308;Jared Haines;well, thanks guys, I guess we're done
+309;clarkn;yep
+310;mcknightp;Thanks you all
+311;chaingj;see you very much
+312;clarkn;and NO clippy
+313;longleyl;Or we fire you.
+314;clarkn;thats right
+315;chenl;no spyware as well
+316;andrews;yep see you very much
+317;longleyl;Viruses are okay though./
+318;chaingj;no backdoor
+319;mcknightp;LOL have a good weekend guys :)
+320;laihok;haha..
+321;clarkn;oh the system has to work on linux, mac and windows 
+322;clarkn;just to make it fun for you guys
+323;clarkn;but i think that is in the rfp alread
+324;clarkn;y
+325;Jared Haines;yep
+326;andrews;"and unix 
+ it has to work on thhe solaris machines"
+327;clarkn;and if you are not carefull xbox as well
+328;laihok;oh
+329;chaingj;build prototypes for ps3
+330;clarkn;i have a mac powerbook G3 running yellow dog linux, it shoudl run on that too
+331;longleyl;And it has to run on a 386 with 4 MB of RAM.
+332;mcknightp;Sooooo JAVA?
+333;chaingj;are we over yet?
+334;chenl;who care
+335;longleyl;Yes, we're done.
+336;clarkn;for you n4ever
+337;chaingj;okay
+338;Jared Haines;we're done, I stopped the conference already
+339;chaingj;god loves you
+340;chenl;that's the end of the story
+341;chaingj;see you very much
+342;clarkn;who?
+343;Jared Haines;later guys

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<meeting>
+<utterance category="Other" role="Client" turn="1" who="beckd">hi all</utterance>
+<utterance category="Other" role="Developer" turn="2" who="Jeff Spears">anyone want to be scribe</utterance>
+<utterance category="Other" role="Client" turn="3" who="beckd">yeah</utterance>
+<utterance category="Other" role="Client" turn="4" who="beckd">i'll be</utterance>
+<utterance category="Other" role="Developer" turn="5" who="Jeff Spears">done</utterance>
+<utterance category="Other" role="Developer" turn="6" who="whitew">goeff, I'm going to disconnect, and then invite me again ok</utterance>
+<utterance category="Other" role="Developer" turn="7" who="Jeff Spears">are we all here??</utterance>
+<utterance category="Other" role="Developer" turn="8" who="Jeff Spears">fine</utterance>
+<utterance category="Other" role="Developer" turn="9" who="Jeff Spears">why</utterance>
+<utterance category="Other" role="Developer" turn="10" who="Jeff Spears">oh the echo</utterance>
+<utterance category="Other" role="Developer" turn="11" who="whitew">because i have 2 invites, and is</utterance>
+<utterance category="Other" role="Developer" turn="12" who="whitew">yes</utterance>
+<utterance category="Other" role="Developer" turn="13" who="whitew">just a sec disconnecting</utterance>
+<utterance category="Other" role="Client" turn="14" who="beckd">are we missing anyonw?</utterance>
+<utterance category="Other" role="Client" turn="15" who="beckd">anyone</utterance>
+<utterance category="Other" role="Developer" turn="16" who="Jeff Spears">eah warren isnt back yet y
+</utterance>
+<utterance category="Other" role="Developer" turn="17" who="Jeff Spears">alright</utterance>
+<utterance category="Other" role="Developer" turn="18" who="whitew">already then</utterance>
+<utterance category="Other" role="Developer" turn="19" who="Jeff Spears">were al here</utterance>
+<utterance category="Other" role="Developer" turn="20" who="Jeff Spears">want to start</utterance>
+<utterance category="Other" role="Client" turn="21" who="beckd">how do i raise my hand?</utterance>
+<utterance category="Other" role="Developer" turn="22" who="Jeff Spears">?</utterance>
+<utterance category="Other" role="Client" turn="23" who="nordmanr">We're all present on the client team here</utterance>
+<utterance category="Other" role="Developer" turn="24" who="Jeff Spears">k lets go</utterance>
+<utterance category="Complex Question" role="Developer" turn="25" who="Jeff Spears">After reading the RFP this is the idea we have for your project: Essentially a secure messenger clone for the client end, with file sharing and transfers capabilties. These clients are facilitated by a centralized server that stores all user info and logs the conversations and stores them in a DB.</utterance>
+<utterance category="Complex Question" role="Developer" turn="26" who="Jeff Spears">is that pretty much it?</utterance>
+<utterance category="Y/N Answer" role="Client" turn="27" who="mcmahonp">Yes</utterance>
+<utterance category="Acknowledgment" role="Developer" turn="28" who="whitew">good</utterance>
+<utterance category="Complex Answer" role="Client" turn="29" who="mcmahonp">Though we don't necessarilly need the conversations to be stored in a DB...</utterance>
+<utterance category="Complex Answer" role="Client" turn="30" who="hanlonc">We also need application sharing.  IE - letting someone else access a single window on my computer.</utterance>
+<utterance category="Acknowledgment" role="Developer" turn="31" who="Jeff Spears">k</utterance>
+<utterance category="Other" role="Developer" turn="32" who="Jeff Spears">how do we move to the next topic</utterance>
+<utterance category="Other" role="Client" turn="33" who="nordmanr">You were on it</utterance>
+<utterance category="Other" role="Client" turn="34" who="nordmanr">there</utterance>
+<utterance category="Other" role="Developer" turn="35" who="Jeff Spears">ah perfect</utterance>
+<utterance category="Other" role="Developer" turn="36" who="Jeff Spears">ok I preparde all the questions eariler</utterance>
+<utterance category="Other" role="Developer" turn="37" who="Jeff Spears">so I'll just cut and paste em</utterance>
+<utterance category="Other" role="Client" turn="38" who="beckd">great</utterance>
+<utterance category="Complex Question" role="Developer" turn="39" who="Jeff Spears">2.0 share source code quickly and easily with another remote employee
+ 
+ How many users should be able to share code??
+ Does sharing code men simultaneous editing??</utterance>
+<utterance category="Complex Answer" role="Client" turn="40" who="hanlonc">I believe sharing code refers to the ability to copy and paste code easily.  Without it getting messy.</utterance>
+<utterance category="Check" role="Client" turn="41" who="stuartc">unless you're referring to the application sharing part</utterance>
+<utterance category="Task" role="Developer" turn="42" who="Jeff Spears">no we're just dealing with the 2.0 portion right now</utterance>
+<utterance category="Task" role="Client" turn="43" who="nordmanr">Yeah, we should be able to share a coding application between two users</utterance>
+<utterance category="Task" role="Developer" turn="44" who="whitew">refering to the first bullet of 2.0</utterance>
+<utterance category="Agreement" role="Client" turn="45" who="nordmanr">But in terms of sharing code, I think with respect to that we just meant copy and paste functionality</utterance>
+<utterance category="Check" role="Developer" turn="46" who="Jeff Spears">so passing a viewable window of the code to the other person</utterance>
+<utterance category="Agreement" role="Client" turn="47" who="stuartc">exactly</utterance>
+<utterance category="Acknowledgment" role="Developer" turn="48" who="whitew">ok</utterance>
+<utterance category="Task" role="Developer" turn="49" who="Jeff Spears">and they can get access to it and make changes</utterance>
+<utterance category="Task" role="Developer" turn="50" who="Jeff Spears">while both people watch</utterance>
+<utterance category="Task" role="Developer" turn="51" who="Jeff Spears">not both trying to do it at the same time</utterance>
+<utterance category="Task" role="Developer" turn="52" who="whitew">one will have to allow the other to view/modify</utterance>
+<utterance category="Task" role="Client" turn="53" who="nordmanr">I think it would be sufficient just if they could send big blocks of source code to each other via a copy and paste kind of system, and then if editing is required they could use the application sharing feature...</utterance>
+<utterance category="Check" role="Client" turn="54" who="nordmanr">what do you guys think?</utterance>
+<utterance category="Agreement" role="Client" turn="55" who="hanlonc">I second that.</utterance>
+<utterance category="Agreement" role="Client" turn="56" who="mcmahonp">Yeah, that was what we had envisioned.</utterance>
+<utterance category="Acknowledgment" role="Client" turn="57" who="beckd">done.</utterance>
+<utterance category="Agreement" role="Client" turn="58" who="stuartc">that sounds good</utterance>
+<utterance category="Acknowledgment" role="Developer" turn="59" who="Jeff Spears">okay</utterance>
+<utterance category="Acknowledgment" role="Developer" turn="60" who="whitew">done</utterance>
+<utterance category="Check" role="Client" turn="61" who="nordmanr">Make sense, Jeff?</utterance>
+<utterance category="Agreement" role="Developer" turn="63" who="Jeff Spears">yeah makes sense to me</utterance>
+<utterance category="Complex Question" role="Client" turn="62" who="stuartc">did we want a dedicated window for this?</utterance>
+<utterance category="Complex Answer" role="Client" turn="64" who="mcmahonp">All we wanted was an IM feature that wasn't length restricted and preserved indentation.</utterance>
+<utterance category="Task" role="Client" turn="65" who="nordmanr">A dedicated window could be nice, but that's more of an implementation detail</utterance>
+<utterance category="Acknowledgment" role="Developer" turn="66" who="Jeff Spears">ok perfect</utterance>
+<utterance category="Agreement" role="Client" turn="67" who="nordmanr">yeah</utterance>
+<utterance category="Other" role="Developer" turn="68" who="Jeff Spears">next q</utterance>
+<utterance category="Y/N Question" role="Developer" turn="69" who="Jeff Spears">Directory of users  basically a contact list with everyone from the company??</utterance>
+<utterance category="Y/N Answer" role="Client" turn="70" who="mcmahonp">yes</utterance>
+<utterance category="Task" role="Developer" turn="71" who="Jeff Spears">split into sections or something</utterance>
+<utterance category="Task" role="Developer" turn="72" who="whitew">stored on the central server</utterance>
+<utterance category="Complex Answer" role="Client" turn="73" who="sheny">like different dept</utterance>
+<utterance category="Agreement" role="Client" turn="74" who="stuartc">right</utterance>
+<utterance category="Agreement" role="Developer" turn="75" who="Jeff Spears">yeah</utterance>
+<utterance category="" role="Other" turn="76" who="">exactly</utterance>
+<utterance category="Task" role="Client" turn="77" who="stuartc">and different offices</utterance>
+<utterance category="Check" role="Developer" turn="78" who="Jeff Spears">different offices=diff locations? right</utterance>
+<utterance category="Agreement" role="Client" turn="79" who="stuartc">yes</utterance>
+<utterance category="Acknowledgment" role="Developer" turn="80" who="Jeff Spears">k</utterance>
+<utterance category="Complex Question" role="Developer" turn="81" who="Jeff Spears">Archive Can users view other conversations like if you missed a meeting?? Or do you need an invite to view??</utterance>
+<utterance category="Complex Answer" role="Client" turn="82" who="hanlonc">The directory also needs to include favorites type functionality.  So that users can see a list of the users they talk to most.</utterance>
+<utterance category="Agreement" role="Developer" turn="83" who="Jeff Spears">yeah i envisioned that</utterance>
+<utterance category="Y/N Answer" role="Client" turn="84" who="hanlonc">0</utterance>
+<utterance category="Acknowledgment" role="Developer" turn="85" who="Jeff Spears">ok</utterance>
+<utterance category="Task" role="Client" turn="86" who="mcmahonp">But it would be nice if a user could choose to make a conversation public.</utterance>
+<utterance category="Agreement" role="Client" turn="87" who="stuartc">thats what i was thinking</utterance>
+<utterance category="Agreement" role="Client" turn="88" who="hanlonc">I agree.</utterance>
+<utterance category="Task" role="Client" turn="89" who="stuartc">maybe if we could set different permissions on the logs</utterance>
+<utterance category="Agreement" role="Developer" turn="90" who="Jeff Spears">oh ok I like that idea</utterance>
+<utterance category="Agreement" role="Client" turn="91" who="nordmanr">yeah, that sounds good</utterance>
+<utterance category="Task" role="Client" turn="92" who="hanlonc">The company security/privacy officer will also need to be able to read all logs.</utterance>
+<utterance category="Agreement" role="Client" turn="93" who="mcmahonp">yeah</utterance>
+<utterance category="Task" role="Client" turn="94" who="mcmahonp">Though all his access to the logs should be in turn logged.</utterance>
+<utterance category="Acknowledgment" role="Developer" turn="95" who="Jeff Spears">ok</utterance>
+<utterance category="Y/N Question" role="Developer" turn="96" who="Jeff Spears">Secure connections inter office or can users connect from home etc. ??</utterance>
+<utterance category="Other" role="Developer" turn="97" who="whitew">jeff, how bout the next question</utterance>
+<utterance category="Y/N Answer" role="Client" turn="98" who="nordmanr">No, only inter office</utterance>
+<utterance category="Task" role="Client" turn="99" who="stuartc">for security's sake</utterance>
+<utterance category="Acknowledgment" role="Developer" turn="100" who="Jeff Spears">ok</utterance>
+<utterance category="Task" role="Client" turn="101" who="hanlonc">I think users who are connected via the corporate VPN should be able to participate in conversations.</utterance>
+<utterance category="Check" role="Client" turn="102" who="beckd">VPN?</utterance>
+<utterance category="Check" role="Developer" turn="103" who="whitew">we can have secure VPN</utterance>
+<utterance category="Check" role="Client" turn="104" who="mcmahonp">Do we have a VPN...</utterance>
+<utterance category="Y/N Question" role="Client" turn="105" who="nordmanr">Would our company really have that service?</utterance>
+<utterance category="Y/N Answer" role="Client" turn="106" who="mcmahonp">I don't think we do.</utterance>
+<utterance category="Task" role="Client" turn="107" who="nordmanr">It's kind of a security risk to allow employees to take source code home with them</utterance>
+<utterance category="Check" role="Developer" turn="108" who="Jeff Spears">so no VPN?</utterance>
+<utterance category="Complex Answer" role="Client" turn="109" who="hanlonc">Most of the software companies I've worked for have implemented some form of VPN.</utterance>
+<utterance category="Complex Answer" role="Client" turn="110" who="nordmanr">Let's say that we'd like that feature but we probably wouldn't use it yet</utterance>
+<utterance category="Disagreement" role="Client" turn="111" who="mcmahonp">Yeah, but we're a "secure" company.</utterance>
+<utterance category="Task" role="Client" turn="112" who="nordmanr">In the future we may need this system to support it</utterance>
+<utterance category="Check" role="Developer" turn="113" who="Jeff Spears">maybe leave the VPN for RES 2.0?</utterance>
+<utterance category="" role="Other" turn="114" who="Jeff Spears">so set it up to be compatible with a future VPN</utterance>
+<utterance category="Agreement" role="Client" turn="115" who="nordmanr">Yes</utterance>
+<utterance category="Task" role="Client" turn="116" who="hanlonc">How about anyone who is connected to our private TCP/IP network can access our the system.  For the timebeing that is only local users but in the future it could include vpn users...</utterance>
+<utterance category="Agreement" role="Client" turn="117" who="nordmanr">Yeah, what Chris said</utterance>
+<utterance category="Agreement" role="Developer" turn="118" who="Jeff Spears">ok sounds good</utterance>
+<utterance category="Other" role="Client" turn="119" who="nordmanr">next q</utterance>
+<utterance category="Agreement" role="Client" turn="120" who="stuartc">sounds good</utterance>
+<utterance category="Y/N Question" role="Developer" turn="121" who="Jeff Spears">provide intrasite connectivity if external connections are interrupted. Do you mean ability to connect with other users internally when there is no external internet connection??</utterance>
+<utterance category="Y/N Answer" role="Client" turn="122" who="nordmanr">Yes, in a nutshell</utterance>
+<utterance category="Complex Answer" role="Client" turn="123" who="nordmanr">I think we meant, with our multiple offices, if one of the sites loses connectivity, the other should still be able to communicate with itself and others</utterance>
+<utterance category="Agreement" role="Client" turn="124" who="mcmahonp">yes</utterance>
+<utterance category="Y/N Question" role="Developer" turn="125" who="Jeff Spears">if its a centralized server what if the server site loses connectivity</utterance>
+<utterance category="" role="Other" turn="126" who="">or are you more interested in a server for each site</utterance>
+<utterance category="Complex Answer" role="Client" turn="127" who="nordmanr">We're interested in whatever solution will give us the functionality we need</utterance>
+<utterance category="Agreement" role="Client" turn="128" who="mcmahonp">yeah</utterance>
+<utterance category="Other" role="Developer" turn="129" who="whitew">start with one office, the R2</utterance>
+<utterance category="Other" role="Client" turn="130" who="beckd">here here!</utterance>
+<utterance category="Acknowledgment" role="Developer" turn="131" who="Jeff Spears">k</utterance>
+<utterance category="Complex Question" role="Developer" turn="132" who="Jeff Spears">No eavesdropping do you want the log files encrypted too?? If so, how??  Saved conversations Password protected or public key, or other??</utterance>
+<utterance category="Complex Answer" role="Developer" turn="133" who="whitew">I think above they stated that the conversations were not to be in db</utterance>
+<utterance category="Complex Answer" role="Client" turn="134" who="hanlonc">We need employees at one site to be able to talk to each other even if their connection to other sites is down.</utterance>
+<utterance category="Disagreement" role="Developer" turn="135" who="Jeff Spears">maybe not necessary since the invite would be requiered</utterance>
+<utterance category="Complex Answer" role="Client" turn="136" who="mcmahonp">We need the logs to be secure against intruders/hackers/rogue employees.</utterance>
+<utterance category="Complex Question" role="Developer" turn="137" who="Jeff Spears">but how can anyone access their conversations are they going to be stored on the individual machines</utterance>
+<utterance category="Task" role="Client" turn="138" who="hanlonc">We also need the software to handle network outages cleanly.  Forinstance, let's pretend beckd lost his network connection.  He should regain his scribe priveledges as soon as he regains his network connection.</utterance>
+<utterance category="Disagreement" role="Developer" turn="139" who="Jeff Spears">i see how you could get your own but invites to others</utterance>
+<utterance category="Disagreement" role="Developer" turn="140" who="Jeff Spears">It makes a lot of duplicated space without a DB for the conversations</utterance>
+<utterance category="Task" role="Client" turn="141" who="mcmahonp">No, about the db, I was just saying we weren't specifying how you would handle the logs</utterance>
+<utterance category="Task" role="Client" turn="142" who="nordmanr">Well, I don't think we mean to rule out the possiblity of the DB</utterance>
+<utterance category="Task" role="Client" turn="143" who="mcmahonp">you're free to use a db server if you want</utterance>
+<utterance category="Agreement" role="Client" turn="144" who="nordmanr">Yes</utterance>
+<utterance category="Task" role="Client" turn="145" who="stuartc">it's up to you guys how you want to implement it</utterance>
+<utterance category="Task" role="Developer" turn="146" who="Jeff Spears">i think its the most logical way</utterance>
+<utterance category="Complex Answer" role="Client" turn="147" who="nordmanr">In terms of requirements, we want the log files accessible by the authorized employee, be it a conversation they participated in or one they have been given access to</utterance>
+<utterance category="Agreement" role="Client" turn="148" who="stuartc">sounds about right</utterance>
+<utterance category="Acknowledgment" role="Developer" turn="149" who="Jeff Spears">ok understood</utterance>
+<utterance category="Other" role="Developer" turn="150" who="Jeff Spears">k sorry i skipped 3.0</utterance>
+<utterance category="Y/N Question" role="Developer" turn="151" who="Jeff Spears">Is the support staff supporting all thesoftware you use or supporting this application, or is it supporting the software that your company sells??</utterance>
+<utterance category="Y/N Answer" role="Client" turn="152" who="nordmanr">No, they're supporting our workstations</utterance>
+<utterance category="Task" role="Client" turn="154" who="nordmanr">Making sure that our employees workstations are running and the correct software is installed and all that</utterance>
+<utterance category="Y/N Question" role="Developer" turn="153" who="whitew">as tech helpers?</utterance>
+<utterance category="Y/N Answer" role="Client" turn="155" who="nordmanr">yeah, exactly</utterance>
+<utterance category="Acknowledgment" role="Developer" turn="156" who="Jeff Spears">alright</utterance>
+<utterance category="Acknowledgment" role="Developer" turn="157" who="whitew">ok</utterance>
+<utterance category="Complex Question" role="Developer" turn="158" who="Jeff Spears">If you're running XP why not use remote assistance that's included with the OS??</utterance>
+<utterance category="Complex Answer" role="Client" turn="159" who="nordmanr">Yeah, that would be fine</utterance>
+<utterance category="" role="Other" turn="160" who="">But we'd need an interface into it via this messaging system</utterance>
+<utterance category="" role="Other" turn="161" who="">Or at least, that's what we'd like</utterance>
+<utterance category="Disagreement" role="Client" turn="162" who="hanlonc">Umm - maybe remote assistance isn't compatible with our WAN</utterance>
+<utterance category="Complex Question" role="Client" turn="163" who="nordmanr">why wouldn't it be?</utterance>
+<utterance category="Disagreement" role="Client" turn="164" who="nordmanr">I've used remote assistance over a WAN before</utterance>
+<utterance category="Complex Answer" role="Developer" turn="165" who="whitew">security reasons again</utterance>
+<utterance category="Disagreement" role="Client" turn="166" who="nordmanr">Well, as long as it's as secure as our instant messaging</utterance>
+<utterance category="Other" role="Developer" turn="167" who="whitew">which section we on goeff?</utterance>
+<utterance category="Other" role="Developer" turn="168" who="Jeff Spears">4.0</utterance>
+<utterance category="" role="Other" turn="170" who="">doesnt it say at the top of your screen</utterance>
+<utterance category="Other" role="Developer" turn="171" who="whitew">it's off screen abit ;)</utterance>
+<utterance category="Task" role="Client" turn="169" who="nordmanr">We'd want the same constraint as we had regarding access to the messaging system</utterance>
+<utterance category="Task" role="Client" turn="172" who="nordmanr">only hosts on the private TCP/IP network should be able to use remote assistance features</utterance>
+<utterance category="Complex Question" role="Developer" turn="173" who="Jeff Spears">then where do the securty risks come from</utterance>
+<utterance category="Complex Answer" role="Developer" turn="174" who="whitew">inter office, and office to office</utterance>
+<utterance category="Agreement" role="Client" turn="175" who="nordmanr">yeah, we have multiple sites</utterance>
+<utterance category="Task" role="Client" turn="176" who="hanlonc">Also, only authorized personal - support staff should be able to connect using remote assistance.</utterance>
+<utterance category="Y/N Question" role="Developer" turn="177" who="Jeff Spears">i would think youd' have tech support on site</utterance>
+<utterance category="Agreement" role="Client" turn="178" who="nordmanr">yes, that's correct</utterance>
+<utterance category="Task" role="Client" turn="179" who="hanlonc">Some tasks require specialised technicians from a particular site.</utterance>
+<utterance category="Check" role="Developer" turn="180" who="Jeff Spears">so then remote assistance would really only need to be done within a site</utterance>
+<utterance category="Task" role="Client" turn="181" who="nordmanr">It would probably be sufficient if only geographically local tech support staff could access the feature</utterance>
+<utterance category="Disagreement" role="Client" turn="182" who="hanlonc">I dissagree with nordmanr.</utterance>
+<utterance category="Task" role="Client" turn="183" who="nordmanr">although it would be nice if it worked inter-office</utterance>
+<utterance category="Agreement" role="Client" turn="184" who="stuartc">that would be nice</utterance>
+<utterance category="Task" role="Client" turn="185" who="hanlonc">Certain inhouse products are primarely supported from our New York office.</utterance>
+<utterance category="Agreement" role="Client" turn="186" who="nordmanr">Yeah, that's true</utterance>
+<utterance category="Check" role="Developer" turn="187" who="Jeff Spears">so then essentially it will have to work across the exact same network as the messaging</utterance>
+<utterance category="Check" role="Developer" turn="188" who="Jeff Spears">not a subset</utterance>
+<utterance category="Agreement" role="Client" turn="189" who="nordmanr">Right</utterance>
+<utterance category="Other" role="Client" turn="190" who="beckd">Time....</utterance>
+<utterance category="Other" role="Developer" turn="191" who="whitew">time?</utterance>
+<utterance category="Other" role="Developer" turn="192" who="Jeff Spears">whoops that was 5.0</utterance>
+<utterance category="Other" role="Developer" turn="193" who="Jeff Spears">407</utterance>
+<utterance category="Other" role="Client" turn="194" who="hanlonc">Good point we only have 13minutes left.</utterance>
+<utterance category="Other" role="Developer" turn="205" who="whitew">nope, thats it</utterance>
+<utterance category="Other" role="Developer" turn="206" who="Jeff Spears">ok then</utterance>
+<utterance category="Other" role="Client" turn="207" who="beckd">awesome</utterance>
+<utterance category="Other" role="Developer" turn="208" who="Jeff Spears">done deal</utterance>
+<utterance category="Other" role="Client" turn="209" who="beckd">who's saving this convo</utterance>
+<utterance category="Other" role="Developer" turn="210" who="Jeff Spears">??</utterance>
+<utterance category="Other" role="Client" turn="211" who="nordmanr">Thank you, gentlemen, we look forward to working with you</utterance>
+<utterance category="Other" role="Client" turn="212" who="nordmanr">Anybody who wants to can save it 
+ Decision 1 - I'm scribe
+ Decision 2 - Main idea behind software is:
+ a secure messenger clone for the client end, with file sharing and transfers capabilties. These clients are facilitated by a centralized 
+ server that stores all user info and logs the conversations and stores them in a DB. 
+ With application sharing capabilities
+ Decision 3 - Sharing code implies the ability to paste code into without formatting looking ugly.  Should not have maximum message length and preserve indentation.
+ Decision 4 - Directory of users is contact list of everyone in company sorted by department, location
+ Decision 5 - For archives, they are private unless invited to view by owner, option to make public available.
+ Decision 6 - For the moment, anyone connected to our private TCP/IP network can access the system.  In future releases may include off site ip's
+ Decision 7 - Logfiles should be accessible by an authorized employees
+ Decision 8 - Support staff is supporting our workstations exclusively
+ Decision 9 - WinXP's remote assitance would be fine, as long as it is integrated into our messaging system and only hosts on private network should be able to use features.
+ Decision 10 - We are willing to increase our max memory usage to 15+ Mb, but would like as little as possible.
+</utterance>
+</meeting>

@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<meeting>
+<utterance turn="1" who="reynens">hello</utterance>
+<utterance turn="2" who="Michael Clark">Hello and welcome.</utterance>
+<utterance turn="3" who="nguyenh">Hi</utterance>
+<utterance turn="4" who="saroyam">hmm it doesnt show me who is on</utterance>
+<utterance turn="5" who="saroyam">and its duplicating what i say</utterance>
+<utterance turn="6" who="reynens">We broke the system again</utterance>
+<utterance turn="7" who="Michael Clark">Did you get two invitations Mandeep?</utterance>
+<utterance turn="8" who="saroyam">yes</utterance>
+<utterance turn="9" who="nguyenh">I see saroyam but not my self</utterance>
+<utterance turn="10" who="reynens">I did, but I declined one</utterance>
+<utterance turn="11" who="reynens">accepted the other</utterance>
+<utterance turn="12" who="Michael Clark">Okay, in the future if you get two invitations deny the second.</utterance>
+<utterance turn="13" who="saroyam">i clicked yes to both</utterance>
+<utterance turn="14" who="saroyam">ok</utterance>
+<utterance turn="15" who="nguyenh">I got two invitations</utterance>
+<utterance turn="16" who="nguyenh">I accept only one</utterance>
+<utterance turn="17" who="reynens">try disconnecting and reinviting I guess</utterance>
+<utterance turn="18" who="saroyam">should i disconnect and reconnect</utterance>
+<utterance turn="19" who="Michael Clark">Please quit your program and open it again, connect and you'll receive another invitation.</utterance>
+<utterance turn="20" who="saroyam">ok its working now</utterance>
+<utterance turn="21" who="Michael Clark">Excellent</utterance>
+<utterance turn="22" who="reynens">We lost Than though.</utterance>
+<utterance turn="23" who="Michael Clark">What other name do you go by Than? I don't have that name on my list. :-)</utterance>
+<utterance turn="24" who="saroyam">arent we supposed to have some developers in here</utterance>
+<utterance turn="25" who="nguyenh">nguyenh</utterance>
+<utterance turn="26" who="Michael Clark">Yes, waiting for one more developer.</utterance>
+<utterance turn="27" who="gosselinc">hey</utterance>
+<utterance turn="28" who="gosselinc">double</utterance>
+<utterance turn="29" who="nguyenh">Mike, this is Thanh</utterance>
+<utterance turn="30" who="nguyenh">I am in</utterance>
+<utterance turn="31" who="gosselinc">hoy</utterance>
+<utterance turn="32" who="reynens">Who accepted twice?</utterance>
+<utterance turn="33" who="nguyenh">not me</utterance>
+<utterance turn="34" who="reynens">Everyone say Hi... once.</utterance>
+<utterance turn="35" who="saroyam">hi</utterance>
+<utterance turn="36" who="kaspara">Hey</utterance>
+<utterance turn="37" who="reynens">Hi</utterance>
+<utterance turn="38" who="rizwanp">hi</utterance>
+<utterance turn="39" who="fairheadj">hi</utterance>
+<utterance turn="40" who="rizwanp">wait 2 min.</utterance>
+<utterance turn="41" who="nguyenh">Let do a head count</utterance>
+<utterance turn="42" who="rizwanp">no bad computer don't type twice</utterance>
+<utterance turn="43" who="nguyenh">is Jeff here?</utterance>
+<utterance turn="44" who="saroyam">disconnect riz</utterance>
+<utterance turn="45" who="reynens">disconnect and reconnect Rizwan</utterance>
+<utterance turn="46" who="rizwanp">take off the echo</utterance>
+<utterance turn="47" who="corbettj">nice....hey all</utterance>
+<utterance turn="48" who="nguyenh">ok, is Mindy on?</utterance>
+<utterance turn="49" who="saroyam">yup</utterance>
+<utterance turn="50" who="chiuo">yay, i'm here</utterance>
+<utterance turn="51" who="saroyam">saroyam is mindy</utterance>
+<utterance turn="52" who="nguyenh">Charles?</utterance>
+<utterance turn="53" who="gosselinc">hoy</utterance>
+<utterance turn="54" who="reynens">Riz is getting tech support</utterance>
+<utterance turn="55" who="rizwanp">hi</utterance>
+<utterance turn="56" who="reynens">OK, I think we're all on without echoes</utterance>
+<utterance turn="57" who="nguyenh">rizwan?</utterance>
+<utterance turn="58" who="nguyenh">is Scott on?</utterance>
+<utterance turn="59" who="rizwanp">who's scott?</utterance>
+<utterance turn="60" who="reynens">I am here</utterance>
+<utterance turn="61" who="rizwanp">yes</utterance>
+<utterance turn="62" who="gosselinc">so why did the worm cross the road?</utterance>
+<utterance turn="63" who="rizwanp">to beat the crap out of u</utterance>
+<utterance turn="64" who="gosselinc">cuz he was eaten by a chicken!</utterance>
+<utterance turn="65" who="Michael Clark">Welcome to the first elicitation meeting. We are going to get started here shortly, but in the mean time feel free to state your name and role. Is there anyone missing that requires an invite?</utterance>
+<utterance turn="66" who="nguyenh">hey Scott, are you on?</utterance>
+<utterance turn="67" who="reynens">argh</utterance>
+<utterance turn="68" who="kaspara">Is there any way to show our actauly names instead of just 'gosselinc' etc ?
+</utterance>
+<utterance turn="69" who="reynens">Scott &lt;---</utterance>
+<utterance turn="70" who="chiuo">Mike, am have you made me scribe already?</utterance>
+<utterance turn="71" who="nguyenh">ok</utterance>
+<utterance turn="72" who="reynens">ok, i'll explain</utterance>
+<utterance turn="73" who="rizwanp">I am Rizwan Pajvani aka Rizwan Panjwani</utterance>
+<utterance turn="74" who="Michael Clark">Yes I have Ody.</utterance>
+<utterance turn="75" who="reynens">Nicknames</utterance>
+<utterance turn="76" who="nguyenh">is Aaron here?</utterance>
+<utterance turn="77" who="chiuo">Ok cool</utterance>
+<utterance turn="78" who="rizwanp">and i am the system analyst</utterance>
+<utterance turn="79" who="Michael Clark">Everyone is here.  Okay, let's get started.</utterance>
+<utterance turn="80" who="reynens">there is a setting in this program to allow people to choose nicknames</utterance>
+<utterance turn="81" who="reynens">default is off</utterance>
+<utterance turn="82" who="chiuo">Hi all, i'm Ody, I will be the scribe today</utterance>
+<utterance turn="83" who="reynens">My name is Scott and I am the client web master.</utterance>
+<utterance turn="84" who="Michael Clark">Welcome to the first elicitation meeting. The goal of this first meeting between St. Peter's Hospital and Tri-Systems is to bring both parties together to collaborate and aid Tri-Systems understand the requirements of system outlined in the RFP. Odysseus and I are software developers for Tri-Systems. I am Michael and I will be moderating this meeting. Odysseus will be recording all decisions in the Decision place at the right side of your screen. If at any time you do not agree with one of the decisions please send a message and we will discuss further.</utterance>
+<utterance turn="85" who="chiuo">I am Odysseus by the way.</utterance>
+<utterance turn="86" who="rizwanp">ok</utterance>
+<utterance turn="87" who="Michael Clark">For the minutes the following are in attendance. 
+ Tri-Systems Incorporated
+ - Michael Clark (Software Developer, Manager)
+ - Odysseus Chiu (Software Developer, Scribe)
+ 
+ St. Peter's Hospital
+ - Aaron Kaspar (Project Manager)
+ - Charles Gosselin (Business Consultant)
+ - Rizwan Pajvani (IT Systems Analyst)
+ - Jeff Corbett (Employee User-Group Rep)
+ - Joshua Fairhead (Security User-Group Rep)
+ - Thanh Nguyen-Huynh (Public User-Group Rep)
+ - Saroya Mandeep (Administrator User-Group Rep)
+ - Scott Reynen (Web Manager)</utterance>
+<utterance turn="88" who="nguyenh">My name is Thanh, I am the patient and visitor representative</utterance>
+<utterance turn="89" who="rizwanp">ok</utterance>
+<utterance turn="90" who="Michael Clark">Today's elicitation session will be run as a question and answer session. I invite all of the clients to ask questions as well as answer those asked by Tri-Systems.</utterance>
+<utterance turn="90" who="Michael Clark">We are using a relatively new technology to facilitate this session, so if there are any problems please quit Collaborative Workbench and reopen it. After you reopen it make sure you connect again and you will receive an invitation to re-join the meeting.</utterance>
+<utterance turn="90" who="Michael Clark">Is everyone ready to begin?</utterance>
+<utterance turn="91" who="gosselinc">yes</utterance>
+<utterance turn="92" who="kaspara">I think we are</utterance>
+<utterance turn="93" who="nguyenh">I am ready</utterance>
+<utterance turn="94" who="chiuo">I'm good</utterance>
+<utterance turn="95" who="rizwanp">all systems go</utterance>
+<utterance turn="96" who="reynens">Roger, roger.</utterance>
+<utterance turn="97" who="corbettj">good to go here</utterance>
+<utterance turn="98" who="saroyam">yes</utterance>
+<utterance turn="99" who="reynens">Josh?</utterance>
+<utterance turn="100" who="fairheadj">yea</utterance>
+<utterance turn="101" who="fairheadj">good</utterance>
+<utterance turn="102" who="Michael Clark">Okay, lets begin.</utterance>
+<utterance turn="102" who="Michael Clark">We'll start with questions about business and administration.</utterance>
+<utterance turn="103" who="Michael Clark">Q1. How many daytime patients are there on average per day?</utterance>
+<utterance turn="104" who="saroyam">at anyone time there are about 5-7 thousand patients in an average sized hospital</utterance>
+<utterance turn="105" who="rizwanp">400 right?</utterance>
+<utterance turn="106" who="rizwanp">we decided 400</utterance>
+<utterance turn="107" who="nguyenh">I say around 350</utterance>
+<utterance turn="108" who="nguyenh">our max cap is a 400</utterance>
+<utterance turn="109" who="chiuo">well that was the capacity</utterance>
+<utterance turn="110" who="saroyam">i didnt know we decided that</utterance>
+<utterance turn="111" who="rizwanp">yeah it's in the RFP</utterance>
+<utterance turn="112" who="chiuo">but how much coming in and out do you expect?</utterance>
+<utterance turn="113" who="Michael Clark">My understanding is that there are about 400 patients with beds.</utterance>
+<utterance turn="114" who="rizwanp">oh</utterance>
+<utterance turn="115" who="nguyenh">yes</utterance>
+<utterance turn="116" who="Michael Clark">How many would you treat on a daily basis that are walkins?</utterance>
+<utterance turn="116" who="Michael Clark">350?</utterance>
+<utterance turn="117" who="corbettj">yeah we specified 400 in the RFP</utterance>
+<utterance turn="118" who="nguyenh">we have a round 350</utterance>
+<utterance turn="119" who="nguyenh">we have around 400 bed</utterance>
+<utterance turn="120" who="Michael Clark">Excellent.</utterance>
+<utterance turn="121" who="reynens">Ok guys, 400 beds</utterance>
+<utterance turn="122" who="Michael Clark">Q2. On average, is the facility often at capacity?</utterance>
+<utterance turn="123" who="reynens">they want to know how many are "treated"</utterance>
+<utterance turn="124" who="rizwanp">let's go with Mindy's suggestion</utterance>
+<utterance turn="125" who="rizwanp">4000</utterance>
+<utterance turn="126" who="saroyam">thats on an in and out basis</utterance>
+<utterance turn="128" who="saroyam">not just an overnight thing</utterance>
+<utterance turn="127" who="rizwanp">exactly</utterance>
+<utterance turn="129" who="reynens">yup,</utterance>
+<utterance turn="129" who="reynens">people with slivers included</utterance>
+<utterance turn="130" who="nguyenh">that's mke send then, let go with Mindy sugesstion</utterance>
+<utterance turn="131" who="corbettj">yeah</utterance>
+<utterance turn="131" who="corbettj">just in, see doctor, leave...'outpatients'</utterance>
+<utterance turn="132" who="saroyam">many patients check in but not all stay for a long period of time</utterance>
+<utterance turn="133" who="rizwanp">yeah so let's say over 24 hurs</utterance>
+<utterance turn="134" who="rizwanp">*hrs</utterance>
+<utterance turn="135" who="Michael Clark">Okay... 350? Or 4000?</utterance>
+<utterance turn="136" who="saroyam">ok</utterance>
+<utterance turn="137" who="rizwanp">is that good?</utterance>
+<utterance turn="138" who="rizwanp">4000</utterance>
+<utterance turn="139" who="nguyenh">4000</utterance>
+<utterance turn="140" who="chiuo">oh ok</utterance>
+<utterance turn="141" who="Michael Clark">Okay.</utterance>
+<utterance turn="141" who="Michael Clark">Update the scribe. :-)</utterance>
+<utterance turn="142" who="Michael Clark">Q2. On average, is the facility often at capacity?</utterance>
+<utterance turn="143" who="nguyenh">I think yes</utterance>
+<utterance turn="144" who="saroyam">i would say yes as well</utterance>
+<utterance turn="145" who="rizwanp">ok</utterance>
+<utterance turn="145" who="rizwanp">scribe receives a more powerful brain :P</utterance>
+<utterance turn="146" who="Michael Clark">Ie. 50% of the time, 90% etc? Estimate is great.</utterance>
+<utterance turn="147" who="rizwanp">scribe is all updated</utterance>
+<utterance turn="148" who="nguyenh">100%</utterance>
+<utterance turn="149" who="kaspara">The system will need to be able to handle 100% all of the time</utterance>
+<utterance turn="150" who="rizwanp">no no</utterance>
+<utterance turn="151" who="rizwanp">not 100%</utterance>
+<utterance turn="152" who="rizwanp">yeah it will</utterance>
+<utterance turn="153" who="rizwanp">but on averaage it isn't</utterance>
+<utterance turn="154" who="reynens">...</utterance>
+<utterance turn="155" who="gosselinc">...</utterance>
+<utterance turn="156" who="rizwanp">...</utterance>
+<utterance turn="157" who="corbettj">hehehe</utterance>
+<utterance turn="158" who="nguyenh">...</utterance>
+<utterance turn="159" who="reynens">They want to know how often our beds are full</utterance>
+<utterance turn="160" who="reynens">All 400</utterance>
+<utterance turn="161" who="rizwanp">yeah</utterance>
+<utterance turn="162" who="saroyam">well most hospitals are full 100% of the time</utterance>
+<utterance turn="163" who="reynens">okay</utterance>
+<utterance turn="164" who="chiuo">I would say its often full also, they always run out of beds don't they?</utterance>
+<utterance turn="165" who="reynens">i think we'll go with Mindy again</utterance>
+<utterance turn="166" who="rizwanp">ok</utterance>
+<utterance turn="167" who="Michael Clark">Okay. Agreed.</utterance>
+<utterance turn="168" who="corbettj">100%</utterance>
+<utterance turn="169" who="reynens">Yes</utterance>
+<utterance turn="170" who="Michael Clark">Next: Q3. What is the maximum number of beds in a room any given time?</utterance>
+<utterance turn="171" who="gosselinc">400... as we said</utterance>
+<utterance turn="172" who="rizwanp">10</utterance>
+<utterance turn="173" who="rizwanp">...</utterance>
+<utterance turn="174" who="gosselinc">lol</utterance>
+<utterance turn="175" who="corbettj">beds in a single room</utterance>
+<utterance turn="176" who="Michael Clark">Yikes.</utterance>
+<utterance turn="177" who="gosselinc">i can't ready</utterance>
+<utterance turn="178" who="gosselinc">read***</utterance>
+<utterance turn="179" who="corbettj">lol</utterance>
+<utterance turn="180" who="gosselinc">or type</utterance>
+<utterance turn="181" who="reynens">1 room = X beds</utterance>
+<utterance turn="182" who="rizwanp">or think...</utterance>
+<utterance turn="183" who="">:P</utterance>
+<utterance turn="184" who="gosselinc">i love you 2</utterance>
+<utterance turn="185" who="saroyam">yeah lets go with 10 at max</utterance>
+<utterance turn="186" who="fairheadj">ok</utterance>
+<utterance turn="187" who="Michael Clark">Okay.</utterance>
+<utterance turn="188" who="rizwanp">ok so let's all agree with rizwan this time</utterance>
+<utterance turn="189" who="chiuo">10 it is</utterance>
+<utterance turn="190" who="Michael Clark">Q4. How is information maintained about open rooms and beds?</utterance>
+<utterance turn="191" who="rizwanp">currently?</utterance>
+<utterance turn="192" who="Michael Clark">yes</utterance>
+<utterance turn="193" who="rizwanp">ther's a database</utterance>
+<utterance turn="194" who="Michael Clark">okay...</utterance>
+<utterance turn="195" who="reynens">I think we manage that with the current patient database</utterance>
+<utterance turn="196" who="reynens">which is computerized, not paper.</utterance>
+<utterance turn="197" who="kaspara">That is manually updated</utterance>
+<utterance turn="198" who="rizwanp">hm.. a paper database</utterance>
+<utterance turn="199" who="rizwanp">nice...</utterance>
+<utterance turn="200" who="corbettj">hehehe</utterance>
+<utterance turn="201" who="reynens">its called a table ;)</utterance>
+<utterance turn="202" who="reynens">you write in it</utterance>
+<utterance turn="203" who="rizwanp">a paper table again?</utterance>
+<utterance turn="204" who="Michael Clark">Q4A.  Can it be scheduled or reserved, or are they all pretty much on first come first serve basis so that when one patient leaves, another gets admitted?</utterance>
+<utterance turn="205" who="saroyam">first come first served</utterance>
+<utterance turn="206" who="rizwanp">no scheduling facilties yet</utterance>
+<utterance turn="207" who="rizwanp">or currently</utterance>
+<utterance turn="210" who="nguyenh">But there should be</utterance>
+<utterance turn="208" who="reynens">I think based on our 100% answer</utterance>
+<utterance turn="211" who="reynens">its "free bed = filled bed"</utterance>
+<utterance turn="209" who="Michael Clark">Okay. Thanks.</utterance>
+<utterance turn="212" who="rizwanp">ofcourse</utterance>
+<utterance turn="213" who="Michael Clark">Q6. How long do patient records remain on the system?</utterance>
+<utterance turn="214" who="rizwanp">foreva</utterance>
+<utterance turn="215" who="nguyenh">there are patient that is more important that other</utterance>
+<utterance turn="216" who="Michael Clark">Okay.</utterance>
+<utterance turn="217" who="saroyam">if the patient has checked out for over a month then their information should be archived</utterance>
+<utterance turn="220" who="saroyam">but still remain accessible if need be</utterance>
+<utterance turn="218" who="corbettj">than....that would get into a 2 tier system :P</utterance>
+<utterance turn="219" who="kaspara">Yeah.  Patient records are perminant</utterance>
+<utterance turn="221" who="Michael Clark">Q7. What is the difference between equipment and supplies?</utterance>
+<utterance turn="222" who="reynens">oh oh , let me</utterance>
+<utterance turn="223" who="corbettj">supplies = stuff like bandages, stuff that gets used up...</utterance>
+<utterance turn="224" who="nguyenh">supplies are comsumable</utterance>
+<utterance turn="228" who="nguyenh">equipment is not</utterance>
+<utterance turn="225" who="reynens">Supplies are generally things that are, yes, consumable</utterance>
+<utterance turn="227" who="reynens">1 use</utterance>
+<utterance turn="226" who="Michael Clark">Okay. Great.</utterance>
+<utterance turn="229" who="gosselinc">^^^ is correct</utterance>
+<utterance turn="230" who="rizwanp">ok supplies can be expensive</utterance>
+<utterance turn="231" who="rizwanp">like a rare blood type</utterance>
+<utterance turn="232" who="corbettj">that's why inventory tracking with supplies is important</utterance>
+<utterance turn="233" who="rizwanp">it's also a research facility</utterance>
+<utterance turn="234" who="rizwanp">so a bacteria culture</utterance>
+<utterance turn="235" who="rizwanp">which was orderd in from china for example</utterance>
+<utterance turn="236" who="rizwanp">or smuggled... whatever</utterance>
+<utterance turn="237" who="saroyam">lol</utterance>
+<utterance turn="238" who="corbettj">lol</utterance>
+<utterance turn="239" who="Michael Clark">Q7A.  Are all supplies ordered, or some created in house like blood donations?</utterance>
+<utterance turn="240" who="reynens">yeah, blood, pharmaceuticals, needles = supplies</utterance>
+<utterance turn="241" who="nguyenh">yes</utterance>
+<utterance turn="242" who="gosselinc">both</utterance>
+<utterance turn="243" who="Michael Clark">Thank you.</utterance>
+<utterance turn="244" who="Michael Clark">That is all for Business and Administration. On to the next section.</utterance>
+<utterance turn="245" who="chiuo">waiit</utterance>
+<utterance turn="246" who="reynens">yup</utterance>
+<utterance turn="247" who="chiuo">don't switch</utterance>
+<utterance turn="248" who="reynens">whoops</utterance>
+<utterance turn="249" who="chiuo">it clears the screen</utterance>
+<utterance turn="250" who="Michael Clark">Any last words about business and admin.</utterance>
+<utterance turn="251" who="rizwanp">ok</utterance>
+<utterance turn="252" who="kaspara">nope</utterance>
+<utterance turn="253" who="rizwanp">are the decisions being saved?</utterance>
+<utterance turn="254" who="nguyenh">no</utterance>
+<utterance turn="255" who="Michael Clark">I will monitor who is typing before moving on.</utterance>
+<utterance turn="256" who="corbettj">nothing here</utterance>
+<utterance turn="257" who="rizwanp">cuz i ain't writin this down</utterance>
+<utterance turn="258" who="reynens">its called SCRIBE Riz</utterance>
+<utterance turn="259" who="Michael Clark">They remain on the right I believe.</utterance>
+<utterance turn="260" who="reynens">there's one here</utterance>
+<utterance turn="261" who="rizwanp">bah</utterance>
+<utterance turn="262" who="rizwanp">who is reyens?</utterance>
+<utterance turn="263" who="rizwanp">meet me in the parking lot</utterance>
+<utterance turn="264" who="reynens">you will never know</utterance>
+<utterance turn="265" who="rizwanp">or the bus stop</utterance>
+<utterance turn="266" who="chiuo">ok, anything wrong with the decisions place currently?</utterance>
+<utterance turn="267" who="reynens">nope</utterance>
+<utterance turn="268" who="gosselinc">it's good</utterance>
+<utterance turn="269" who="rizwanp">i am ok</utterance>
+<utterance turn="270" who="reynens">everything looks gravy</utterance>
+<utterance turn="271" who="chiuo">alrite i'm good then</utterance>
+<utterance turn="272" who="Michael Clark">Okay, lets keep moving on. :-)</utterance>
+<utterance turn="273" who="corbettj">think reyerns is scott</utterance>
+<utterance turn="274" who="rizwanp">thanks</utterance>
+<utterance turn="275" who="Michael Clark">Q8. What is the function of the terminals located throughout the hospital?</utterance>
+<utterance turn="276" who="reynens">Jeff! JUDAS!</utterance>
+<utterance turn="277" who="rizwanp">ok shhh</utterance>
+<utterance turn="278" who="corbettj">lol "meet me in the parking lot"</utterance>
+<utterance turn="279" who="rizwanp">it's brute</utterance>
+<utterance turn="280" who="reynens">Terminals</utterance>
+<utterance turn="281" who="rizwanp">terminals allow visitors to check stuff</utterance>
+<utterance turn="282" who="rizwanp">about patients</utterance>
+<utterance turn="284" who="rizwanp">example visiting hours, room</utterance>
+<utterance turn="283" who="nguyenh">For visitor to find out wheree the patient is</utterance>
+<utterance turn="285" who="Michael Clark">Termianls =  Computers located throughout the hospital</utterance>
+<utterance turn="286" who="reynens">yes, a visitor can locate the room of a patient they're visiting</utterance>
+<utterance turn="287" who="kaspara">Exactly</utterance>
+<utterance turn="288" who="rizwanp">ok</utterance>
+<utterance turn="289" who="nguyenh">for patient to see how much he/she own</utterance>
+<utterance turn="290" who="Michael Clark">But not behind desks where a single user will be using them.</utterance>
+<utterance turn="291" who="rizwanp">terminals ! = computers</utterance>
+<utterance turn="292" who="rizwanp">for our purposes</utterance>
+<utterance turn="293" who="gosselinc">Patients must give consent to be displayed on the terminals!</utterance>
+<utterance turn="294" who="corbettj">for clarity, there arent currently terminals in our system.....something that we want implemented</utterance>
+<utterance turn="305" who="corbettj">be like an ATM that allows you to query patient location etc.. :P</utterance>
+<utterance turn="295" who="rizwanp">whoa whoa</utterance>
+<utterance turn="296" who="reynens">haha</utterance>
+<utterance turn="297" who="rizwanp">what's this about consent and dissent?</utterance>
+<utterance turn="298" who="saroyam">like a self-help computer</utterance>
+<utterance turn="299" who="nguyenh">maybe direction to a room</utterance>
+<utterance turn="300" who="rizwanp">so speaking of PCs in hospital</utterance>
+<utterance turn="301" who="nguyenh">or find a parking lot</utterance>
+<utterance turn="302" who="rizwanp">ok let's be serious</utterance>
+<utterance turn="303" who="reynens">we are?</utterance>
+<utterance turn="304" who="reynens">consent was something in the rfp i thought Riz</utterance>
+<utterance turn="306" who="rizwanp">michael</utterance>
+<utterance turn="307" who="chiuo">you called them info booths or something in the rfp i believe</utterance>
+<utterance turn="309" who="reynens">yes</utterance>
+<utterance turn="308" who="rizwanp">repeat the question again clearly plz</utterance>
+<utterance turn="310" who="rizwanp">i don't wanna scroll up</utterance>
+<utterance turn="311" who="rizwanp">instead i'll make  a request by typing 3 lines</utterance>
+<utterance turn="312" who="rizwanp">including that one</utterance>
+<utterance turn="313" who="Michael Clark">So terminals are devices that you would like us to design and add to the system that allow visitors to locate patients and  get other information about the hospital. But before a patient will show up on the terminal search they will have to consent? Correct?</utterance>
+<utterance turn="314" who="gosselinc">yes</utterance>
+<utterance turn="315" who="saroyam">yes</utterance>
+<utterance turn="316" who="chiuo">hospital map?</utterance>
+<utterance turn="317" who="rizwanp">ok ok</utterance>
+<utterance turn="318" who="Michael Clark">Okay. Map = excellent idea.</utterance>
+<utterance turn="319" who="gosselinc">may i add something really quick?</utterance>
+<utterance turn="320" who="kaspara">Yes</utterance>
+<utterance turn="321" who="rizwanp">but</utterance>
+<utterance turn="322" who="Michael Clark">Of course.</utterance>
+<utterance turn="323" who="nguyenh">driving direction as wll</utterance>
+<utterance turn="324" who="corbettj">yeah when a patient checks into the hospital they should be given an option to allow people to look up there info</utterance>
+<utterance turn="325" who="reynens">yes, a patient must consent to public access (everyone else has access though, Doctors, Admin, Security)</utterance>
+<utterance turn="326" who="Michael Clark">Yes.</utterance>
+<utterance turn="327" who="rizwanp">driving direction to what?</utterance>
+<utterance turn="328" who="gosselinc">ok even without consent the employees of the hospital still have access to the data</utterance>
+<utterance turn="330" who="gosselinc">just not the general public</utterance>
+<utterance turn="329" who="reynens">*not must, can</utterance>
+<utterance turn="331" who="rizwanp">how about a link to google maps instead?</utterance>
+<utterance turn="332" who="corbettj">yes</utterance>
+<utterance turn="333" who="corbettj">hehehehe</utterance>
+<utterance turn="334" who="reynens">Now who isn't being serious</utterance>
+<utterance turn="335" who="rizwanp">i'm bein serious</utterance>
+<utterance turn="336" who="rizwanp">we're on a budget here</utterance>
+<utterance turn="337" who="reynens">Google maps is bugged</utterance>
+<utterance turn="338" who="reynens">moving on ;)</utterance>
+<utterance turn="339" who="nguyenh">may be to check email briefly</utterance>
+<utterance turn="340" who="Michael Clark">A google map might not give an accurate floor plan... or one at all. I would suggest something else.</utterance>
+<utterance turn="341" who="saroyam">i think a map of the hospital should be enough</utterance>
+<utterance turn="342" who="rizwanp">do we want them to build a map software?</utterance>
+<utterance turn="343" who="corbettj">&lt;3 yahoo maps :P</utterance>
+<utterance turn="344" who="rizwanp">ok someone said driving directions</utterance>
+<utterance turn="345" who="reynens">Riz, riz, we can't give them design instructions, just requirements</utterance>
+<utterance turn="346" who="rizwanp">so i was talkin bout that</utterance>
+<utterance turn="347" who="saroyam">people can find their own way to the hospital</utterance>
+<utterance turn="348" who="Michael Clark">Google Earth would give an excellent shot of the roof if that is what you're after.</utterance>
+<utterance turn="349" who="reynens">ooooh</utterance>
+<utterance turn="350" who="nguyenh">no, but must have a3d floor plan of all the building</utterance>
+<utterance turn="351" who="rizwanp">that's not design instructions</utterance>
+<utterance turn="352" who="reynens">right, on our external website**</utterance>
+<utterance turn="354" who="corbettj">lol google earth</utterance>
+<utterance turn="353" who="rizwanp">do we want to include driving directions?</utterance>
+<utterance turn="355" who="rizwanp">i don't think so</utterance>
+<utterance turn="356" who="saroyam">i dont think so either</utterance>
+<utterance turn="357" who="saroyam">just a map of the hospital</utterance>
+<utterance turn="358" who="rizwanp">it's too much work</utterance>
+<utterance turn="359" who="rizwanp">yes</utterance>
+<utterance turn="360" who="rizwanp">map is good</utterance>
+<utterance turn="361" who="saroyam">u are here. heres how u get to that place</utterance>
+<utterance turn="362" who="reynens">no, ... lets say an ADDRESS to the hospital is currently part of the system</utterance>
+<utterance turn="363" who="corbettj">ppl can take a cab to the hospital if they can't find it :P</utterance>
+<utterance turn="364" who="nguyenh">So they should be able to access the internet abit then</utterance>
+<utterance turn="365" who="rizwanp">u think reyens?</utterance>
+<utterance turn="366" who="chiuo">I guess general hospital information is good too?</utterance>
+<utterance turn="367" who="Michael Clark">I was still trying to focus on these terminals which are located inside of the hospital. That said... it would be my understanding that there is no need for a map of the location of the hospital on the terminals, but perhaps floor plans would be a better idea.</utterance>
+<utterance turn="368" who="kaspara">YES</utterance>
+<utterance turn="369" who="nguyenh">yes</utterance>
+<utterance turn="370" who="Michael Clark">Next!</utterance>
+<utterance turn="371" who="Michael Clark">Q9. What are the other duties mentioned in project objectives health care staff perform that the new system should aid them with?</utterance>
+<utterance turn="372" who="rizwanp">what line, ?</utterance>
+<utterance turn="373" who="reynens">i think i know it</utterance>
+<utterance turn="374" who="reynens">its not that it aids them with the duties</utterance>
+<utterance turn="375" who="reynens">but aids them, while they are doing other things</utterance>
+<utterance turn="376" who="saroyam">i think that meant that the self help desk will prevent distraction so that the nurses etc can do other work like handing out meds</utterance>
+<utterance turn="377" who="nguyenh">such as operations, cleaning ...</utterance>
+<utterance turn="378" who="Michael Clark">Okay. Disregard question.</utterance>
+<utterance turn="379" who="rizwanp">ok</utterance>
+<utterance turn="380" who="Michael Clark">Thanks for the clarification.</utterance>
+<utterance turn="381" who="nguyenh">the system doesn't need to assist that</utterance>
+<utterance turn="382" who="Michael Clark">Q10. What information will each employee use to login to the system? Is a key card a consideration?</utterance>
+<utterance turn="383" who="corbettj">yeah....should automate some of their tasks to free them to do other things</utterance>
+<utterance turn="384" who="rizwanp">sure</utterance>
+<utterance turn="385" who="gosselinc">finger id!</utterance>
+<utterance turn="386" who="rizwanp">retina scan</utterance>
+<utterance turn="387" who="corbettj">biometrics hehehe</utterance>
+<utterance turn="388" who="nguyenh">sure</utterance>
+<utterance turn="389" who="rizwanp">maybe DNA extraction and verifications</utterance>
+<utterance turn="390" who="reynens">plas-ma!</utterance>
+<utterance turn="391" who="saroyam">user name and password maybe</utterance>
+<utterance turn="392" who="rizwanp">bah</utterance>
+<utterance turn="393" who="nguyenh">I think we are using the key card for door access</utterance>
+<utterance turn="396" who="nguyenh">so we should stick with it</utterance>
+<utterance turn="394" who="rizwanp">ur old fashioned</utterance>
+<utterance turn="395" who="saroyam">:p</utterance>
+<utterance turn="397" who="saroyam">k</utterance>
+<utterance turn="398" who="reynens">hold up i have a connected question</utterance>
+<utterance turn="399" who="gosselinc">i say key card</utterance>
+<utterance turn="400" who="Michael Clark">Are you presently using a keycard for door access?</utterance>
+<utterance turn="401" who="rizwanp">yeah</utterance>
+<utterance turn="402" who="nguyenh">Yes</utterance>
+<utterance turn="403" who="rizwanp">we are</utterance>
+<utterance turn="404" who="saroyam">yes</utterance>
+<utterance turn="405" who="reynens">.... yes?</utterance>
+<utterance turn="406" who="saroyam">lets go with key card</utterance>
+<utterance turn="407" who="rizwanp">so same key card?</utterance>
+<utterance turn="408" who="Michael Clark">Okay. Good to know.</utterance>
+<utterance turn="410" who="reynens">sure</utterance>
+<utterance turn="411" who="gosselinc">same keycard</utterance>
+<utterance turn="409" who="rizwanp">but but</utterance>
+<utterance turn="412" who="rizwanp">it should also allow password access</utterance>
+<utterance turn="413" who="nguyenh">same</utterance>
+<utterance turn="414" who="fairheadj">yea both</utterance>
+<utterance turn="415" who="reynens">swipe a card, enter the password</utterance>
+<utterance turn="416" who="nguyenh">ket card came with code</utterance>
+<utterance turn="417" who="rizwanp">no</utterance>
+<utterance turn="418" who="saroyam">but the help desks dont need a password</utterance>
+<utterance turn="419" who="reynens">then inject dna</utterance>
+<utterance turn="420" who="fairheadj">either one</utterance>
+<utterance turn="421" who="rizwanp">it should allow password access</utterance>
+<utterance turn="422" who="chiuo">enter password on what?</utterance>
+<utterance turn="423" who="Michael Clark">Our thought with a keycard is that they could use it to prevent entering a username, then require a password in addition.</utterance>
+<utterance turn="424" who="reynens">oooh</utterance>
+<utterance turn="426" who="reynens">i get you</utterance>
+<utterance turn="425" who="chiuo">like a pin?</utterance>
+<utterance turn="427" who="nguyenh">should use that code for accessing if can't find the card</utterance>
+<utterance turn="428" who="rizwanp">yeah that's good</utterance>
+<utterance turn="429" who="rizwanp">do it</utterance>
+<utterance turn="430" who="reynens">swipe your card OR enter a password</utterance>
+<utterance turn="433" who="nguyenh">that is right</utterance>
+<utterance turn="434" who="Michael Clark">I envisioned both.</utterance>
+<utterance turn="431" who="rizwanp">but</utterance>
+<utterance turn="432" who="rizwanp">if a card goes bad</utterance>
+<utterance turn="435" who="rizwanp">then waht?</utterance>
+<utterance turn="436" who="reynens">no more buts there Riz</utterance>
+<utterance turn="437" who="saroyam">if a card goes bad they can get it fixed</utterance>
+<utterance turn="438" who="rizwanp">ok u and me outside rite now</utterance>
+<utterance turn="439" who="rizwanp">yeah</utterance>
+<utterance turn="440" who="rizwanp">but that would take a long time</utterance>
+<utterance turn="441" who="reynens">Staff can swipe their card, or enter an access password to get at the system.</utterance>
+<utterance turn="442" who="fairheadj">yup</utterance>
+<utterance turn="443" who="corbettj">sounds good</utterance>
+<utterance turn="444" who="nguyenh">so us ethe password instead</utterance>
+<utterance turn="445" who="chiuo">so the swipe and username/password on the same panel? is that the plan?</utterance>
+<utterance turn="446" who="Michael Clark">Okay, so how about a keycard, and password. But if that fails they have some other username that they can use.</utterance>
+<utterance turn="447" who="reynens">no</utterance>
+<utterance turn="448" who="rizwanp">yes</utterance>
+<utterance turn="449" who="rizwanp">good deal</utterance>
+<utterance turn="450" who="saroyam">well they need their card to get into certain parts of the building anyways</utterance>
+<utterance turn="451" who="reynens">they're screwed and must ask IT</utterance>
+<utterance turn="452" who="kaspara">This is kind of just a design thing.</utterance>
+<utterance turn="453" who="saroyam">they need their key card for everything not just the system</utterance>
+<utterance turn="454" who="Michael Clark">Good point.</utterance>
+<utterance turn="455" who="rizwanp">ok</utterance>
+<utterance turn="456" who="rizwanp">everything?</utterance>
+<utterance turn="457" who="kaspara">Our requirment is just a security sytem</utterance>
+<utterance turn="458" who="Michael Clark">So keycard and password for system access.</utterance>
+<utterance turn="459" who="nguyenh">yep</utterance>
+<utterance turn="460" who="corbettj">that's fine</utterance>
+<utterance turn="461" who="saroyam">yeah like getting into the medicine cabinets and stuff</utterance>
+<utterance turn="462" who="reynens">good point kaspara</utterance>
+<utterance turn="463" who="Michael Clark">Okay, we will consider options.</utterance>
+<utterance turn="464" who="corbettj">lol</utterance>
+<utterance turn="466" who="rizwanp">ok so somebody put the decision up so i know</utterance>
+<utterance turn="467" who="rizwanp">what we decided jus now</utterance>
+<utterance turn="465" who="Michael Clark">Q11. How will web users be authorized to access patient information on the hospital website?</utterance>
+<utterance turn="468" who="Michael Clark">Or will there be no infromation they can access.</utterance>
+<utterance turn="469" who="nguyenh">patient should get their invoce</utterance>
+<utterance turn="470" who="nguyenh">precriptions</utterance>
+<utterance turn="471" who="reynens">ok ok</utterance>
+<utterance turn="473" who="Michael Clark">What's a preciption?</utterance>
+<utterance turn="474" who="reynens">the website has the SAME information as the Terminals</utterance>
+<utterance turn="475" who="rizwanp">what invoice?</utterance>
+<utterance turn="472" who="corbettj">go to the site, search for the person your</utterance>
+<utterance turn="476" who="corbettj">*you're looking for....their info comes up</utterance>
+<utterance turn="477" who="reynens">but, does it have more?</utterance>
+<utterance turn="478" who="nguyenh">for the money they own the hospital</utterance>
+<utterance turn="479" who="rizwanp">wait</utterance>
+<utterance turn="480" who="Michael Clark">Okay. So there is no information that a family member should be able to access about a patient that the whole words cannot access.</utterance>
+<utterance turn="481" who="rizwanp">inwe want ppl to access the patients while they are in the hospital</utterance>
+<utterance turn="483" who="rizwanp">not after...</utterance>
+<utterance turn="482" who="nguyenh">if they have the patient access code</utterance>
+<utterance turn="484" who="nguyenh">family member should be able to access</utterance>
+<utterance turn="485" who="rizwanp">yeah</utterance>
+<utterance turn="486" who="saroyam">they dont need to know what type of meds the patents are on</utterance>
+<utterance turn="487" who="reynens">so all patients will get a username and password?</utterance>
+<utterance turn="488" who="saroyam">just what room number and floor they are on</utterance>
+<utterance turn="489" who="rizwanp">no</utterance>
+<utterance turn="490" who="Michael Clark">First I ask what they will need to provide to get access... then I'll ask what they have access to.</utterance>
+<utterance turn="491" who="saroyam">no</utterance>
+<utterance turn="492" who="nguyenh">they have acccess card as well</utterance>
+<utterance turn="494" who="nguyenh">as they are now</utterance>
+<utterance turn="493" who="corbettj">the public can't access patient medical records etc....outside access is limited to visitation type info</utterance>
+<utterance turn="500" who="corbettj">that should be available to anyone that wants to visit</utterance>
+<utterance turn="495" who="rizwanp">exactly</utterance>
+<utterance turn="496" who="reynens">yeah</utterance>
+<utterance turn="497" who="rizwanp">it's the kind of info help desk would provide</utterance>
+<utterance turn="498" who="reynens">i'm gonna restate again</utterance>
+<utterance turn="499" who="Michael Clark">okay. is that the decision.</utterance>
+<utterance turn="501" who="rizwanp">yes</utterance>
+<utterance turn="502" who="saroyam">sure</utterance>
+<utterance turn="503" who="reynens">The information that the TERMINALS provide, floor and room and name</utterance>
+<utterance turn="505" who="reynens">will be on the WEBsite</utterance>
+<utterance turn="504" who="rizwanp">so it should be up to us what info we wanna put on there</utterance>
+<utterance turn="506" who="chiuo">Visiting info is final?</utterance>
+<utterance turn="507" who="rizwanp">yeah</utterance>
+<utterance turn="508" who="rizwanp">reyens has a good point</utterance>
+<utterance turn="509" who="saroyam">yeah</utterance>
+<utterance turn="510" who="rizwanp">i totally forgot</utterance>
+<utterance turn="511" who="rizwanp">it has to be accessible from web</utterance>
+<utterance turn="512" who="Michael Clark">Okay. So for the record terminals info is also accessible on website...perhaps with a location map.</utterance>
+<utterance turn="513" who="rizwanp">sure</utterance>
+<utterance turn="514" who="kaspara">Yes</utterance>
+<utterance turn="515" who="Michael Clark">Done.</utterance>
+<utterance turn="517" who="reynens">Yes, the main website should have a map to the hospital :P</utterance>
+<utterance turn="516" who="Michael Clark">Q12. What is an expected volume of visitors on a daily basis that will potentially be interacting with the new system instead of talking to the person at the information desk?</utterance>
+<utterance turn="518" who="gosselinc">thousands</utterance>
+<utterance turn="520" who="nguyenh">arounbd 50$</utterance>
+<utterance turn="519" who="rizwanp">let's say on average a patient has 5 relatives</utterance>
+<utterance turn="521" who="rizwanp">that care about him</utterance>
+<utterance turn="522" who="rizwanp">or her</utterance>
+<utterance turn="523" who="nguyenh">50%</utterance>
+<utterance turn="524" who="rizwanp">50% what?</utterance>
+<utterance turn="525" who="gosselinc">?</utterance>
+<utterance turn="526" who="kaspara">I'mm uhhhhhh lost</utterance>
+<utterance turn="527" who="saroyam">let try and type one sentence on the same line</utterance>
+<utterance turn="528" who="rizwanp">ur still here?</utterance>
+<utterance turn="529" who="Michael Clark">We are looking for a number as to the number of users the terminals and website need to support.</utterance>
+<utterance turn="530" who="reynens">we already decided how many people go into the hospital and Thanh is saying 50%</utterance>
+<utterance turn="531" who="nguyenh">50% of the visiotr will use the info booth rather than the helpddesk</utterance>
+<utterance turn="532" who="rizwanp">why?</utterance>
+<utterance turn="533" who="Michael Clark">Ok.</utterance>
+<utterance turn="534" who="reynens">so 2000 a day?</utterance>
+<utterance turn="535" who="corbettj">ultimately everyone should be using the terminals...</utterance>
+<utterance turn="536" who="saroyam">yeah 2000 sounds good</utterance>
+<utterance turn="537" who="reynens">thats not final Mike</utterance>
+<utterance turn="538" who="rizwanp">wait</utterance>
+<utterance turn="539" who="Michael Clark">Final for RS 1.0?</utterance>
+<utterance turn="540" who="rizwanp">2000?</utterance>
+<utterance turn="541" who="corbettj">it will come down to how comfortable people are using them</utterance>
+<utterance turn="542" who="reynens">no no, in the conversation</utterance>
+<utterance turn="543" who="chiuo">2000 for web?</utterance>
+<utterance turn="544" who="rizwanp">whoa whoa</utterance>
+<utterance turn="545" who="reynens">oh, good question</utterance>
+<utterance turn="546" who="chiuo">are we having web and terminal separate?</utterance>
+<utterance turn="547" who="nguyenh">of course, but I thikn we should hope half of thenm will use the system</utterance>
+<utterance turn="548" who="rizwanp">wtf?</utterance>
+<utterance turn="552" who="rizwanp">yes</utterance>
+<utterance turn="549" who="reynens">QUESTION Are you talking about VISITORS using the TERMINALS?</utterance>
+<utterance turn="550" who="rizwanp">no</utterance>
+<utterance turn="551" who="corbettj">ok i'll buy that</utterance>
+<utterance turn="553" who="chiuo">terminals and the web i believe</utterance>
+<utterance turn="554" who="reynens">I'm asking Mike</utterance>
+<utterance turn="555" who="rizwanp">why?</utterance>
+<utterance turn="556" who="rizwanp">ask me</utterance>
+<utterance turn="557" who="nguyenh">only the terminal for now</utterance>
+<utterance turn="558" who="reynens">Cause you're in the parking lot</utterance>
+<utterance turn="559" who="reynens">okay</utterance>
+<utterance turn="560" who="rizwanp">bus stop</utterance>
+<utterance turn="561" who="reynens">just terminal use</utterance>
+<utterance turn="562" who="rizwanp">but i can be there in 5 min.</utterance>
+<utterance turn="563" who="Michael Clark">Technically that was what the question was about. The terminals in the hospital. But if the web is using the same system it would be combined amount.</utterance>
+<utterance turn="563" who="Michael Clark">The next question was how many people do you expect to use your website per day.</utterance>
+<utterance turn="564" who="rizwanp">depends</utterance>
+<utterance turn="566" who="rizwanp">if it's a holiday or workday</utterance>
+<utterance turn="565" who="nguyenh">around 20  00</utterance>
+<utterance turn="567" who="corbettj">JUST A NOTE: check the time VS how many discussion items are left</utterance>
+<utterance turn="568" who="reynens">so we have the number 2000 and corbettj says we would hope all 4000 in/outs (that doesnt count visitors necessarily, just patient)</utterance>
+<utterance turn="569" who="nguyenh">20 000 =  5 * 4000</utterance>
+<utterance turn="570" who="rizwanp">20,000?</utterance>
+<utterance turn="571" who="Michael Clark">20000 works. Lets move on.</utterance>
+<utterance turn="572" who="corbettj">we should hope for all, but ultimately some people won't be confortable</utterance>
+<utterance turn="573" who="rizwanp">wtf</utterance>
+<utterance turn="574" who="Michael Clark">Q14. We need a clear picture of how the current system tracks patient records so we can come up with a more accurate and efficient method. How are inaccuracies introduced to your current system, and what are they? What would make patient records more efficient and accessible to doctors and nurses?</utterance>
+<utterance turn="575" who="rizwanp">ok</utterance>
+<utterance turn="576" who="reynens">Riz, you're IT</utterance>
+<utterance turn="577" who="rizwanp">let me talk about inaccuracies</utterance>
+<utterance turn="578" who="rizwanp">everyone else shut</utterance>
+<utterance turn="579" who="rizwanp">first</utterance>
+<utterance turn="580" who="rizwanp">database is updated manually, as in info is typed in</utterance>
+<utterance turn="581" who="rizwanp">so typos</utterance>
+<utterance turn="582" who="rizwanp">ok</utterance>
+<utterance turn="583" who="rizwanp">u can go now</utterance>
+<utterance turn="584" who="Michael Clark">What in the new system would you like entered automatically to remove this person typing?</utterance>
+<utterance turn="585" who="rizwanp">tracking</utterance>
+<utterance turn="586" who="rizwanp">i thought that was in the RFP</utterance>
+<utterance turn="587" who="reynens">synergy</utterance>
+<utterance turn="588" who="nguyenh">I though you ask to remove Riz</utterance>
+<utterance turn="589" who="Michael Clark">Okay. So equipment and supplied tracking.</utterance>
+<utterance turn="589" who="Michael Clark">What about patient records.</utterance>
+<utterance turn="590" who="nguyenh">because we have 3 system right now</utterance>
+<utterance turn="591" who="nguyenh">so everything should be in 1</utterance>
+<utterance turn="592" who="nguyenh">-&gt; less typing</utterance>
+<utterance turn="593" who="saroyam">new patients will still have to be typed in</utterance>
+<utterance turn="594" who="gosselinc">patient records are held in a server, we want to track patient movements</utterance>
+<utterance turn="596" who="gosselinc">that's the tracking we're talking about</utterance>
+<utterance turn="595" who="rizwanp">yes</utterance>
+<utterance turn="597" who="kaspara">We want to track patient location, and have that integrated with the patient records system</utterance>
+<utterance turn="598" who="rizwanp">ofcourse</utterance>
+<utterance turn="599" who="Michael Clark">Yes. Okay.</utterance>
+<utterance turn="600" who="Michael Clark">Q16. Are permissions group-wide, meaning should the system treat all administrators evenly and notify all when supplies are running low, or a select few?</utterance>
+<utterance turn="601" who="nguyenh">I thikn we should track patient location as weel</utterance>
+<utterance turn="604" who="nguyenh">group level is good I think</utterance>
+<utterance turn="602" who="rizwanp">wait</utterance>
+<utterance turn="603" who="rizwanp">so the inaccuracies thing was cleared up?</utterance>
+<utterance turn="605" who="rizwanp">michael?</utterance>
+<utterance turn="606" who="rizwanp">it's clear?</utterance>
+<utterance turn="607" who="corbettj">yep...group level is fine</utterance>
+<utterance turn="608" who="reynens">group = yes, i think</utterance>
+<utterance turn="609" who="chiuo">what was the decision on more efficient/accessiblity?</utterance>
+<utterance turn="610" who="Michael Clark">Yes... mostly sign-in and out of supplies and equipment cause inaccuracies... patient records will ofo course need to be intiially entered.</utterance>
+<utterance turn="611" who="chiuo">just tracking in general?</utterance>
+<utterance turn="612" who="reynens">an admin is an admin is an admin, and a doctor is a doctor is a doctor?</utterance>
+<utterance turn="613" who="reynens">i think i broke something</utterance>
+<utterance turn="614" who="rizwanp">yeah ur nose</utterance>
+<utterance turn="615" who="rizwanp">and it was me</utterance>
+<utterance turn="616" who="corbettj">lol</utterance>
+<utterance turn="617" who="Michael Clark">Group level it is.</utterance>
+<utterance turn="618" who="rizwanp">sure</utterance>
+<utterance turn="619" who="Michael Clark">That's all for business.</utterance>
+<utterance turn="620" who="Michael Clark">on to tracking needs.</utterance>
+<utterance turn="621" who="rizwanp">yes ma'am</utterance>
+<utterance turn="622" who="corbettj">nice</utterance>
+<utterance turn="623" who="reynens">Yes?</utterance>
+<utterance turn="624" who="gosselinc">you're lucky riz</utterance>
+<utterance turn="625" who="rizwanp">so are u</utterance>
+<utterance turn="626" who="Michael Clark">Q17. In terms of location tracking, what precision is required?</utterance>
+<utterance turn="627" who="reynens">we want to know what room anything is in</utterance>
+<utterance turn="628" who="rizwanp">i say +- 5 inches</utterance>
+<utterance turn="629" who="nguyenh">down to room number</utterance>
+<utterance turn="630" who="Michael Clark">Romm, exact coordinate down to 3 mm?</utterance>
+<utterance turn="631" who="reynens">*everything</utterance>
+<utterance turn="632" who="corbettj">just room / hall</utterance>
+<utterance turn="633" who="kaspara">I'd say floor + room</utterance>
+<utterance turn="636" who="nguyenh">no, just room number</utterance>
+<utterance turn="634" who="gosselinc">room number is good enough</utterance>
+<utterance turn="635" who="reynens">floor and room</utterance>
+<utterance turn="637" who="rizwanp">wait</utterance>
+<utterance turn="638" who="corbettj">yeah floor too offc</utterance>
+<utterance turn="639" who="kaspara">offc?</utterance>
+<utterance turn="640" who="saroyam">within the hospital premises</utterance>
+<utterance turn="641" who="reynens">we dont need a gps marker on the exact location lat/long</utterance>
+<utterance turn="642" who="Michael Clark">Okay. Percision for tracking is room based.</utterance>
+<utterance turn="643" who="corbettj">ofc...of course :P</utterance>
+<utterance turn="644" who="rizwanp">room number is enough?</utterance>
+<utterance turn="645" who="corbettj">typo</utterance>
+<utterance turn="646" who="Michael Clark">Q18. What type of equipment would be ideal to have location-tracking hardware attached to, and what types would remain on a sign-out basis? Is it possible that a sign-out item will also require location tracking?</utterance>
+<utterance turn="647" who="reynens">okay</utterance>
+<utterance turn="648" who="rizwanp">ok we need to track a freaking needle in a 1000 sq. ft room</utterance>
+<utterance turn="650" who="rizwanp">wtf mate</utterance>
+<utterance turn="651" who="rizwanp">let's slow down</utterance>
+<utterance turn="649" who="reynens">first is first</utterance>
+<utterance turn="652" who="rizwanp">nothing that interferes with freakin pacemakers</utterance>
+<utterance turn="653" who="rizwanp">we need to track pacemakers</utterance>
+<utterance turn="654" who="reynens">no no</utterance>
+<utterance turn="655" who="rizwanp">ppl are stealin them off the patients</utterance>
+<utterance turn="656" who="rizwanp">and they're dyin</utterance>
+<utterance turn="657" who="reynens">the tracking technology</utterance>
+<utterance turn="658" who="reynens">that is up to you, but ensure that it does not interfere with medical equipment</utterance>
+<utterance turn="659" who="corbettj">riz you're killin me man</utterance>
+<utterance turn="660" who="kaspara">I concur</utterance>
+<utterance turn="661" who="rizwanp">hey</utterance>
+<utterance turn="662" who="nguyenh">Every equipment should be track to the room number</utterance>
+<utterance turn="663" who="saroyam">u want to know the specific type of equipment?</utterance>
+<utterance turn="664" who="rizwanp">i din't steal ur pacemaker</utterance>
+<utterance turn="665" who="rizwanp">so don't accuse me</utterance>
+<utterance turn="666" who="rizwanp">ok</utterance>
+<utterance turn="667" who="rizwanp">seriously</utterance>
+<utterance turn="668" who="reynens">things that keep alive = working with the tracking system in place</utterance>
+<utterance turn="669" who="rizwanp">i wanna talk about that supplies tracking precision</utterance>
+<utterance turn="670" who="nguyenh">each time the equipment move, the database should be updated</utterance>
+<utterance turn="671" who="Michael Clark">Is it possible that a sign-out item will also require location tracking?</utterance>
+<utterance turn="672" who="reynens">seriously, i second the Mute Motion</utterance>
+<utterance turn="673" who="saroyam">yes</utterance>
+<utterance turn="674" who="kaspara">Yeap</utterance>
+<utterance turn="675" who="fairheadj">yep</utterance>
+<utterance turn="676" who="reynens">yes</utterance>
+<utterance turn="677" who="Michael Clark">Okay.</utterance>
+<utterance turn="678" who="gosselinc">:)</utterance>
+<utterance turn="679" who="Michael Clark">Next.</utterance>
+<utterance turn="680" who="Michael Clark">Q5. The problem description states that you are looking for a way of tracking the location of supplies, equipment and patients. Under section 4.0 of the RFP v1.0 the requirement to know the location of doctors and nurses is also stated. Do you want the location tracking of people to extend to research personnel, administration staff and security staff as well?</utterance>
+<utterance turn="681" who="reynens">most definitely above all</utterance>
+<utterance turn="682" who="reynens">wait, wrong question to answer</utterance>
+<utterance turn="683" who="reynens">*scratch</utterance>
+<utterance turn="684" who="nguyenh">Yes, that would be nice</utterance>
+<utterance turn="685" who="corbettj">i don't think the location of doctors and nurses is supposed to be tracked</utterance>
+<utterance turn="686" who="reynens">i thought we decided not to go with that?</utterance>
+<utterance turn="688" who="reynens">is it still in?</utterance>
+<utterance turn="687" who="saroyam">yeah no tracking of doctors or staff</utterance>
+<utterance turn="689" who="reynens">ok</utterance>
+<utterance turn="690" who="reynens">no doctors, no staff</utterance>
+<utterance turn="693" who="reynens">they can commit crimes and we will not know</utterance>
+<utterance turn="691" who="gosselinc">just patients</utterance>
+<utterance turn="692" who="rizwanp">where did we say we wanna track doctors and nurses?</utterance>
+<utterance turn="694" who="Michael Clark">Okay, the RFP said you wanted to know where they were... and that would imply  tracking...</utterance>
+<utterance turn="695" who="nguyenh">why?</utterance>
+<utterance turn="696" who="nguyenh">they should be track right?</utterance>
+<utterance turn="697" who="kaspara">Doctors may be a good idea....</utterance>
+<utterance turn="698" who="saroyam">i think that was supposed to be taken out</utterance>
+<utterance turn="699" who="nguyenh">ok</utterance>
+<utterance turn="700" who="rizwanp">i don't see anything like that in 4.0</utterance>
+<utterance turn="701" who="reynens">i can't remember a date, but i remember us scratching docs off the list</utterance>
+<utterance turn="702" who="rizwanp">can u copy and paste?</utterance>
+<utterance turn="703" who="reynens">you broke the rfp riz</utterance>
+<utterance turn="704" who="rizwanp">bah</utterance>
+<utterance turn="705" who="rizwanp">seriously</utterance>
+<utterance turn="706" who="corbettj">hehehe</utterance>
+<utterance turn="707" who="rizwanp">i'm serious</utterance>
+<utterance turn="708" who="Michael Clark">Section 4.0 Doctors.</utterance>
+<utterance turn="709" who="gosselinc">..... What's section 4.0?</utterance>
+<utterance turn="710" who="rizwanp">Must be able to access information about current patients. The information should include their location in the hospital, a record of all administered medication, a listing of any scheduled operations, a history of their previous visits to the hospital, etc.</utterance>
+<utterance turn="711" who="rizwanp">where?</utterance>
+<utterance turn="712" who="corbettj">Must be able to access information about current patients. The information should include their location in the hospital, a record of all administered medication, a listing of any scheduled operations, a history of their previous visits to the hospital, etc.</utterance>
+<utterance turn="713" who="Michael Clark">Okay. So no doctor tracking...</utterance>
+<utterance turn="713" who="Michael Clark">or would it be desirable.</utterance>
+<utterance turn="714" who="corbettj">that's information that they should be able to access about the patients</utterance>
+<utterance turn="715" who="reynens">no no no</utterance>
+<utterance turn="716" who="rizwanp">no</utterance>
+<utterance turn="717" who="rizwanp">undesirable</utterance>
+<utterance turn="718" who="saroyam">no</utterance>
+<utterance turn="719" who="chiuo">ok no tracking staff</utterance>
+<utterance turn="720" who="reynens">we want them to SEE the PATIENT location</utterance>
+<utterance turn="723" who="reynens">not see THEIR location</utterance>
+<utterance turn="721" who="rizwanp">yes</utterance>
+<utterance turn="722" who="nguyenh">on staff tracking at all</utterance>
+<utterance turn="724" who="kaspara">'thier' =  current patients</utterance>
+<utterance turn="725" who="chiuo">ok done.</utterance>
+<utterance turn="726" who="Michael Clark">Yes, so for the record.... no tracking of staff.</utterance>
+<utterance turn="727" who="reynens">**update, SAVE EVERYTHING SAID HERE</utterance>
+<utterance turn="728" who="corbettj">correct</utterance>
+<utterance turn="729" who="Michael Clark">Q19. Similarly with the above, what types of supplies will require tracking devices on them? An estimate of how many would be helpful, and if the tracking device would need to be moved from one item to another often.</utterance>
+<utterance turn="730" who="saroyam">blood packs</utterance>
+<utterance turn="731" who="saroyam">donor items</utterance>
+<utterance turn="732" who="reynens">needles = no</utterance>
+<utterance turn="733" who="nguyenh">There should be no tracking location for supply</utterance>
+<utterance turn="734" who="nguyenh">just the room number</utterance>
+<utterance turn="735" who="nguyenh">I mean no online location tracking</utterance>
+<utterance turn="736" who="rizwanp">ok we can't decide right now</utterance>
+<utterance turn="737" who="Michael Clark">Okay. So once they reach the warehouse it is up to staff to enter the room number where they are headed.</utterance>
+<utterance turn="738" who="rizwanp">but we can let u know</utterance>
+<utterance turn="739" who="kaspara">Supplies need to be tracked in the incoming warehouse too</utterance>
+<utterance turn="740" who="corbettj">it would be nice if you could just track when a consumable item is removed from it's respective storage area....then you would know that it was in the process of being used up so you could replace it</utterance>
+<utterance turn="741" who="Michael Clark">Yes, a isle and shelf number for the warehouse or something similar.</utterance>
+<utterance turn="742" who="nguyenh">something like that</utterance>
+<utterance turn="743" who="reynens">think in terms of programming</utterance>
+<utterance turn="745" who="reynens">something is removed from the stack, it is known</utterance>
+<utterance turn="744" who="gosselinc">4:20 pm</utterance>
+<utterance turn="746" who="corbettj">what are you saying charles?</utterance>
+<utterance turn="747" who="corbettj">:P</utterance>
+<utterance turn="748" who="gosselinc">just saying</utterance>
+<utterance turn="749" who="Michael Clark">Okay...so up to the person removing it then.</utterance>
+<utterance turn="750" who="reynens">chuck, simmer down now</utterance>
+<utterance turn="751" who="gosselinc">lab is close to being done</utterance>
+<utterance turn="752" who="reynens">no no</utterance>
+<utterance turn="755" who="reynens">something should auto-track the numbers</utterance>
+<utterance turn="753" who="rizwanp">so?</utterance>
+<utterance turn="754" who="gosselinc">just saying</utterance>
+<utterance turn="756" who="Michael Clark">Lets move onto security.</utterance>
+<utterance turn="757" who="reynens">:P</utterance>
+<utterance turn="758" who="rizwanp">we got almost 3 hours till LAN party</utterance>
+<utterance turn="759" who="kaspara">Moving on is good</utterance>
+<utterance turn="760" who="reynens">auto!</utterance>
+<utterance turn="761" who="reynens">LAN!</utterance>
+<utterance turn="762" who="Michael Clark">Q23. How are restricted areas currently protected?</utterance>
+<utterance turn="766" who="Michael Clark">Keycard access only?</utterance>
+<utterance turn="763" who="kaspara">dogs</utterance>
+<utterance turn="764" who="reynens">rabid ones</utterance>
+<utterance turn="765" who="rizwanp">wow</utterance>
+<utterance turn="767" who="nguyenh">key card</utterance>
+<utterance turn="768" who="corbettj">by security card</utterance>
+<utterance turn="769" who="rizwanp">the first thing u say and it's dogs</utterance>
+<utterance turn="770" who="rizwanp">u retard</utterance>
+<utterance turn="771" who="Michael Clark">Q24. Is there a concern for staff and/or patients removing the tracking devices? Is additional security required in attaching tracking devices to equipment?</utterance>
+<utterance turn="772" who="fairheadj">keycard access</utterance>
+<utterance turn="773" who="reynens">yes, Key cards</utterance>
+<utterance turn="774" who="saroyam">key cards</utterance>
+<utterance turn="775" who="nguyenh">not, staffs are good people</utterance>
+<utterance turn="776" who="Michael Clark">Q26. What sort of control (if any) is required to ensure that all items are signed-out properly to keep the inventory in the system accurate? For example, is there a storeroom a couple of employees manage, or will an automated vending-machine need to interface with the system?</utterance>
+<utterance turn="777" who="rizwanp">wait wait</utterance>
+<utterance turn="778" who="reynens">Riz, "dogs" is better than what you've said</utterance>
+<utterance turn="779" who="corbettj">no concern about staff removing</utterance>
+<utterance turn="780" who="rizwanp">i dunno about JIM</utterance>
+<utterance turn="781" who="rizwanp">he's kinda shady</utterance>
+<utterance turn="782" who="rizwanp">so staff are not trustable</utterance>
+<utterance turn="783" who="nguyenh">they should be trust</utterance>
+<utterance turn="784" who="reynens">Okay</utterance>
+<utterance turn="785" who="Michael Clark">Okay...</utterance>
+<utterance turn="785" who="Michael Clark">any concerns about equipment left with patients.... the large stuff is no worry. Hard to get it by security.</utterance>
+<utterance turn="786" who="reynens">if a supply is low, the supplies people are notified by the system (admin too i think</utterance>
+<utterance turn="788" who="reynens">i'm pretty sure that's in the rfp, i thought</utterance>
+<utterance turn="787" who="nguyenh">everythng should as automated as possible</utterance>
+<utterance turn="789" who="reynens">yeah,</utterance>
+<utterance turn="790" who="reynens">put in the machine</utterance>
+<utterance turn="791" who="Michael Clark">Yes, admins will be notified....</utterance>
+<utterance turn="792" who="reynens">Supplies will be notified too</utterance>
+<utterance turn="793" who="reynens">Dept</utterance>
+<utterance turn="794" who="reynens">...</utterance>
+<utterance turn="795" who="Michael Clark">Okay. Perfect.</utterance>
+<utterance turn="796" who="Michael Clark">All clear?</utterance>
+<utterance turn="797" who="reynens">i feel shunned?</utterance>
+<utterance turn="798" who="rizwanp">yes</utterance>
+<utterance turn="799" who="reynens">sure</utterance>
+<utterance turn="800" who="corbettj">yes</utterance>
+<utterance turn="801" who="saroyam">ok</utterance>
+<utterance turn="802" who="rizwanp">all clear</utterance>
+<utterance turn="803" who="nguyenh">ye</utterance>
+<utterance turn="804" who="Michael Clark">Next section here we come.</utterance>
+<utterance turn="805" who="rizwanp">there's more?</utterance>
+<utterance turn="806" who="rizwanp">u got too much time on ur hands</utterance>
+<utterance turn="807" who="reynens">technical</utterance>
+<utterance turn="808" who="reynens">that's on you peoples</utterance>
+<utterance turn="809" who="Michael Clark">Q27. Given the constraints of an up-to-date system and zero downtime allowed, the system requires multiple levels of synchronized redundancy with one system waiting to step in when another goes down. What type of redundancy does your current system?</utterance>
+<utterance turn="810" who="reynens">NONE</utterance>
+<utterance turn="811" who="rizwanp">no redunduncy</utterance>
+<utterance turn="812" who="nguyenh">ZERO</utterance>
+<utterance turn="813" who="Michael Clark">none present, or none desired.</utterance>
+<utterance turn="814" who="rizwanp">wait</utterance>
+<utterance turn="815" who="rizwanp">none present</utterance>
+<utterance turn="816" who="reynens">zero with a captial zero</utterance>
+<utterance turn="817" who="Michael Clark">Okay.</utterance>
+<utterance turn="818" who="corbettj">no redundant storage, but we have redundancy on power systems</utterance>
+<utterance turn="819" who="Michael Clark">Q28. What type of backup power do you have for your network and computer systems in the case of a power outage?</utterance>
+<utterance turn="820" who="nguyenh">not present but must be implement</utterance>
+<utterance turn="821" who="rizwanp">desired = yes, big time</utterance>
+<utterance turn="822" who="Michael Clark">Okay.</utterance>
+<utterance turn="823" who="rizwanp">generator</utterance>
+<utterance turn="824" who="saroyam">generator</utterance>
+<utterance turn="825" who="kaspara">The hospital has a backup generator</utterance>
+<utterance turn="826" who="reynens">we have backup power</utterance>
+<utterance turn="827" who="corbettj">power is covered as we have other non-computer related systems that require always on power</utterance>
+<utterance turn="828" who="rizwanp">we got horses ready to go on a whip lash</utterance>
+<utterance turn="829" who="reynens">thats the answer</utterance>
+<utterance turn="831" who="Michael Clark">okay. reliable I presume. :-)</utterance>
+<utterance turn="830" who="nguyenh">but power will flip</utterance>
+<utterance turn="833" who="nguyenh">so need independent APC</utterance>
+<utterance turn="835" who="nguyenh">no UPC</utterance>
+<utterance turn="832" who="Michael Clark">Q29. Is there currently any system in place for backing up the information?</utterance>
+<utterance turn="834" who="reynens">sure</utterance>
+<utterance turn="836" who="reynens">yes, once a year, onto tape</utterance>
+<utterance turn="837" who="Michael Clark">What's APC?</utterance>
+<utterance turn="838" who="rizwanp">let them decide if we need UPC or APC or BMC</utterance>
+<utterance turn="839" who="reynens">seriously though, i dont know</utterance>
+<utterance turn="840" who="saroyam">once a month</utterance>
+<utterance turn="841" who="saroyam">on tape</utterance>
+<utterance turn="842" who="nguyenh">UPC</utterance>
+<utterance turn="843" who="reynens">UPC</utterance>
+<utterance turn="844" who="reynens">tape storage, woot</utterance>
+<utterance turn="845" who="Michael Clark">Okay.</utterance>
+<utterance turn="846" who="nguyenh">tape every night I think</utterance>
+<utterance turn="847" who="corbettj">Q29 = once a month on tape</utterance>
+<utterance turn="848" who="nguyenh">That is corrent</utterance>
+<utterance turn="849" who="corbettj">nightly then?</utterance>
+<utterance turn="850" who="saroyam">yeah everynite</utterance>
+<utterance turn="850" who="saroyam">and a monthly one too</utterance>
+<utterance turn="851" who="Michael Clark">Backup = once a month on tape.</utterance>
+<utterance turn="852" who="reynens">tape/month</utterance>
+<utterance turn="853" who="reynens">yes</utterance>
+<utterance turn="854" who="reynens">oh</utterance>
+<utterance turn="855" who="reynens">tape/night/month</utterance>
+<utterance turn="856" who="rizwanp">once a month?</utterance>
+<utterance turn="857" who="Michael Clark">and monthly.</utterance>
+<utterance turn="858" who="Michael Clark">oaky.</utterance>
+<utterance turn="859" who="rizwanp">i say 24 hrs</utterance>
+<utterance turn="860" who="nguyenh">power flip make take aroudn 10 min in some area</utterance>
+<utterance turn="861" who="Michael Clark">Q30. Are the three IT staff presently familiar with the current system and software installed? Did they develop and setup the current system?</utterance>
+<utterance turn="862" who="gosselinc">you say lots of things</utterance>
+<utterance turn="863" who="reynens">you say nothing Riz</utterance>
+<utterance turn="864" who="rizwanp">no</utterance>
+<utterance turn="865" who="rizwanp">they're high school dropouts</utterance>
+<utterance turn="866" who="gosselinc">admin_ban riwanp "cuz you talk too much"</utterance>
+<utterance turn="867" who="saroyam">familiar with it</utterance>
+<utterance turn="868" who="reynens">they did not set it up</utterance>
+<utterance turn="869" who="gosselinc">had to try that</utterance>
+<utterance turn="870" who="Michael Clark">They can be trained.</utterance>
+<utterance turn="871" who="Michael Clark">Two more questions!</utterance>
+<utterance turn="872" who="reynens">yes</utterance>
+<utterance turn="873" who="reynens">go go go</utterance>
+<utterance turn="874" who="Michael Clark">Q32. What speed of Ethernet is the current system using?</utterance>
+<utterance turn="875" who="reynens">and no remarks</utterance>
+<utterance turn="876" who="reynens">t1? t3?</utterance>
+<utterance turn="877" who="nguyenh">100 on the client</utterance>
+<utterance turn="878" who="reynens">tylenol?</utterance>
+<utterance turn="879" who="reynens">yes</utterance>
+<utterance turn="880" who="nguyenh">1 g on the backbond</utterance>
+<utterance turn="881" who="Michael Clark">Okay. 100 Mbit on client machine. T1 to hospital.</utterance>
+<utterance turn="882" who="nguyenh">no</utterance>
+<utterance turn="883" who="Michael Clark">Okay...?</utterance>
+<utterance turn="884" who="rizwanp">listen to nguyen this time</utterance>
+<utterance turn="885" who="nguyenh">1g on backbone from building to building</utterance>
+<utterance turn="886" who="reynens">yeah</utterance>
+<utterance turn="887" who="Michael Clark">1 g on the backbone... okay.</utterance>
+<utterance turn="888" who="nguyenh">to hospital is a 30mbbs dsl</utterance>
+<utterance turn="889" who="reynens">the bone at the back</utterance>
+<utterance turn="890" who="nguyenh">maybe T1</utterance>
+<utterance turn="891" who="rizwanp">ok don't listen to nguyen anymore</utterance>
+<utterance turn="892" who="rizwanp">:P</utterance>
+<utterance turn="893" who="saroyam">lets just go with t1</utterance>
+<utterance turn="894" who="saroyam">next question</utterance>
+<utterance turn="895" who="rizwanp">damn</utterance>
+<utterance turn="896" who="reynens">T1 is two syllables i like it, moving on</utterance>
+<utterance turn="897" who="Michael Clark">and 100 mbit for client machines. Good.</utterance>
+<utterance turn="898" who="Michael Clark">Q33. Are the older non-networked computers networkable?</utterance>
+<utterance turn="899" who="rizwanp">sure</utterance>
+<utterance turn="900" who="saroyam">yes</utterance>
+<utterance turn="901" who="nguyenh">yes</utterance>
+<utterance turn="902" who="rizwanp">which ones?</utterance>
+<utterance turn="903" who="reynens">they an "ethernet cards"</utterance>
+<utterance turn="904" who="corbettj">are you asking if they have an existing NIC?</utterance>
+<utterance turn="905" who="reynens">you're advised to wrap it up</utterance>
+<utterance turn="906" who="reynens">so says a "ta"</utterance>
+<utterance turn="907" who="Michael Clark">The ones used to track supplies right now I think.</utterance>
+<utterance turn="908" who="rizwanp">yeah all of them have NICs</utterance>
+<utterance turn="909" who="nguyenh">yes</utterance>
+<utterance turn="910" who="reynens">they have ethernet cards</utterance>
+<utterance turn="911" who="Michael Clark">Okay.</utterance>
+<utterance turn="912" who="nguyenh">ok</utterance>
+<utterance turn="913" who="reynens">final remarks?</utterance>
+<utterance turn="914" who="Michael Clark">Thank you for participating in this elicitation session. The meeting minutes and a full log will be posted on Tri-Systems' website in the next few days. Do not hesitate to contact us if you have any questions or concerns. One again, thank you for your time.\</utterance>
+<utterance turn="915" who="reynens">Riz, parking lot</utterance>
+<utterance turn="916" who="rizwanp">bus stop</utterance>
+<utterance turn="917" who="reynens">Thanks Mike.</utterance>
+<utterance turn="918" who="Michael Clark">:-) Final remakrs.</utterance>
+<utterance turn="919" who="nguyenh">thanks guys</utterance>
+<utterance turn="920" who="rizwanp">i gotta be able to beat the crap out of u b4 catching the next 26</utterance>
+<utterance turn="921" who="chiuo">ok all scribed up i think</utterance>
+<utterance turn="922" who="Michael Clark">Thanks all.</utterance>
+<utterance turn="923" who="gosselinc">riz talks too much... we should really mute him</utterance>
+<utterance turn="924" who="gosselinc">for next time</utterance>
+<utterance turn="925" who="Michael Clark">Meh.</utterance>
+<utterance turn="926" who="reynens">26 is for losers</utterance>
+<utterance turn="927" who="gosselinc">:)</utterance>
+<utterance turn="928" who="rizwanp">yeah mute me</utterance>
+<utterance turn="929" who="saroyam">bye</utterance>
+<utterance turn="930" who="corbettj">riz / scott...you guys killed me....was laughing my ass off over here :P</utterance>
+<utterance turn="931" who="reynens">save your results here people</utterance>
+<utterance turn="932" who="rizwanp">who is corbett?</utterance>
+<utterance turn="933" who="rizwanp">i thought that was the building</utterance>
+<utterance turn="934" who="corbettj">&lt;-- jeff</utterance>
+<utterance turn="935" who="reynens">whups</utterance>
+<utterance turn="936" who="rizwanp">oh</utterance>
+<utterance turn="937" who="gosselinc">we done?</utterance>
+<utterance turn="938" who="reynens">Jeff</utterance>
+<utterance turn="939" who="rizwanp">nice...</utterance>
+<utterance turn="940" who="rizwanp">u'r here</utterance>
+<utterance turn="941" who="corbettj">lol</utterance>
+<utterance turn="942" who="rizwanp">ok bye bye</utterance>
+<utterance turn="943" who="rizwanp">i hope i helped</utterance>
+<utterance turn="944" who="corbettj">k we done then?</utterance>
+<utterance turn="945" who="rizwanp">or i was helpful</utterance>
+<utterance turn="946" who="gosselinc">don't forget to save</utterance>
+<utterance turn="947" who="Michael Clark">It did. :-)</utterance>
+<utterance turn="948" who="nguyenh">bye</utterance>
+<utterance turn="949" who="corbettj">you guys gonna hook us up with a copy of the chat?</utterance>
+<utterance turn="950" who="rizwanp">surely</utterance>
+<utterance turn="951" who="Michael Clark">We are done. Confrence stopped. Enjoy the rest of the day.</utterance>
+<utterance turn="952" who="rizwanp">u too</utterance>
+<utterance turn="953" who="gosselinc">save your own jeff</utterance>
+<utterance turn="954" who="corbettj">thx</utterance>
+<utterance turn="955" who="rizwanp">come to LAn party</utterance>
+<utterance turn="956" who="corbettj">=/</utterance>
+<utterance turn="957" who="chiuo">ok i manually saved the decisions once by copy and paste also mike</utterance>
+<utterance turn="958" who="chiuo">umm yea as i said i manually copied and pasted the decisions once also</utterance>
+</meeting>

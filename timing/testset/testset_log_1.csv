@@ -1,0 +1,990 @@
+Turn;Who;Utterance
+1;reynens;hello
+2;Michael Clark;Hello and welcome.
+3;nguyenh;Hi
+4;saroyam;hmm it doesnt show me who is on
+5;saroyam;and its duplicating what i say
+6;reynens;We broke the system again
+7;Michael Clark;Did you get two invitations Mandeep?
+8;saroyam;yes
+9;nguyenh;I see saroyam but not my self
+10;reynens;I did, but I declined one
+11;reynens;accepted the other
+12;Michael Clark;Okay, in the future if you get two invitations deny the second.
+13;saroyam;i clicked yes to both
+14;saroyam;ok
+15;nguyenh;I got two invitations 
+16;nguyenh;I accept only one
+17;reynens;try disconnecting and reinviting I guess
+18;saroyam;should i disconnect and reconnect
+19;Michael Clark;Please quit your program and open it again, connect and you'll receive another invitation.
+20;saroyam;ok its working now
+21;Michael Clark;Excellent
+22;reynens;We lost Than though.
+23;Michael Clark;What other name do you go by Than? I don't have that name on my list. :-)
+24;saroyam;arent we supposed to have some developers in here
+25;nguyenh;nguyenh
+26;Michael Clark;Yes, waiting for one more developer.
+27;gosselinc;hey
+28;gosselinc;double
+29;nguyenh;Mike, this is Thanh
+30;nguyenh;I am in
+31;gosselinc;hoy
+32;reynens;Who accepted twice?
+33;nguyenh;not me
+34;reynens;Everyone say Hi... once.
+35;saroyam;hi
+36;kaspara;Hey
+37;reynens;Hi
+38;rizwanp;hi
+39;fairheadj;hi
+40;rizwanp;wait 2 min.
+41;nguyenh;Let do a head count
+42;rizwanp;no bad computer don't type twice
+43;nguyenh;is Jeff here?
+44;saroyam;disconnect riz
+45;reynens;disconnect and reconnect Rizwan
+46;rizwanp;take off the echo 
+47;corbettj;nice....hey all
+48;nguyenh;ok, is Mindy on?
+49;saroyam;yup
+50;chiuo;yay, i'm here
+51;saroyam;saroyam is mindy
+52;nguyenh;Charles?
+53;gosselinc;hoy
+54;reynens;Riz is getting tech support
+55;rizwanp;hi
+56;reynens;OK, I think we're all on without echoes
+57;nguyenh;rizwan?
+58;nguyenh;is Scott on?
+59;rizwanp;who's scott?
+60;reynens;I am here
+61;rizwanp;yes
+62;gosselinc;so why did the worm cross the road?
+63;rizwanp;to beat the crap out of u
+64;gosselinc;cuz he was eaten by a chicken!
+65;Michael Clark;Welcome to the first elicitation meeting. We are going to get started here shortly, but in the mean time feel free to state your name and role. Is there anyone missing that requires an invite?
+66;nguyenh;hey Scott, are you on?
+67;reynens;argh
+68;kaspara;"Is there any way to show our actauly names instead of just 'gosselinc' etc ?
+"
+69;reynens;Scott <---
+70;chiuo;Mike, am have you made me scribe already?
+71;nguyenh;ok
+72;reynens;ok, i'll explain
+73;rizwanp;I am Rizwan Pajvani aka Rizwan Panjwani
+74;Michael Clark;Yes I have Ody.
+75;reynens;Nicknames
+76;nguyenh;is Aaron here?
+77;chiuo;Ok cool
+78;rizwanp;and i am the system analyst
+79;Michael Clark;Everyone is here.  Okay, let's get started.
+80;reynens;there is a setting in this program to allow people to choose nicknames
+81;reynens;default is off
+82;chiuo;Hi all, i'm Ody, I will be the scribe today
+83;reynens;My name is Scott and I am the client web master.
+84;Michael Clark;Welcome to the first elicitation meeting. The goal of this first meeting between St. Peter's Hospital and Tri-Systems is to bring both parties together to collaborate and aid Tri-Systems understand the requirements of system outlined in the RFP. Odysseus and I are software developers for Tri-Systems. I am Michael and I will be moderating this meeting. Odysseus will be recording all decisions in the Decision place at the right side of your screen. If at any time you do not agree with one of the decisions please send a message and we will discuss further.
+85;chiuo;I am Odysseus by the way.
+86;rizwanp;ok
+87;Michael Clark;"For the minutes the following are in attendance. 
+ Tri-Systems Incorporated
+ - Michael Clark (Software Developer, Manager)
+ - Odysseus Chiu (Software Developer, Scribe)
+ 
+ St. Peter's Hospital
+ - Aaron Kaspar (Project Manager)
+ - Charles Gosselin (Business Consultant)
+ - Rizwan Pajvani (IT Systems Analyst)
+ - Jeff Corbett (Employee User-Group Rep)
+ - Joshua Fairhead (Security User-Group Rep)
+ - Thanh Nguyen-Huynh (Public User-Group Rep)
+ - Saroya Mandeep (Administrator User-Group Rep)
+ - Scott Reynen (Web Manager)"
+88;nguyenh;My name is Thanh, I am the patient and visitor representative
+89;rizwanp;ok
+90;Michael Clark;Today's elicitation session will be run as a question and answer session. I invite all of the clients to ask questions as well as answer those asked by Tri-Systems.  
+90;Michael Clark;We are using a relatively new technology to facilitate this session, so if there are any problems please quit Collaborative Workbench and reopen it. After you reopen it make sure you connect again and you will receive an invitation to re-join the meeting.
+90;Michael Clark;Is everyone ready to begin?
+91;gosselinc;yes
+92;kaspara;I think we are
+93;nguyenh;I am ready
+94;chiuo;I'm good
+95;rizwanp;all systems go
+96;reynens;Roger, roger.
+97;corbettj;good to go here
+98;saroyam;yes
+99;reynens;Josh?
+100;fairheadj;yea
+101;fairheadj;good
+102;Michael Clark;Okay, lets begin. 
+102;Michael Clark;We'll start with questions about business and administration.
+103;Michael Clark;Q1. How many daytime patients are there on average per day?
+104;saroyam;at anyone time there are about 5-7 thousand patients in an average sized hospital
+105;rizwanp;400 right?
+106;rizwanp;we decided 400
+107;nguyenh;I say around 350
+108;nguyenh;our max cap is a 400
+109;chiuo;well that was the capacity
+110;saroyam;i didnt know we decided that 
+111;rizwanp;yeah it's in the RFP
+112;chiuo;but how much coming in and out do you expect?
+113;Michael Clark;My understanding is that there are about 400 patients with beds.
+114;rizwanp;oh
+115;nguyenh;yes
+116;Michael Clark;How many would you treat on a daily basis that are walkins? 
+116;Michael Clark;350?
+117;corbettj;yeah we specified 400 in the RFP
+118;nguyenh;we have a round 350
+119;nguyenh;we have around 400 bed
+120;Michael Clark;Excellent.
+121;reynens;Ok guys, 400 beds
+122;Michael Clark;Q2. On average, is the facility often at capacity?
+123;reynens;"they want to know how many are ""treated"""
+124;rizwanp;let's go with Mindy's suggestion
+125;rizwanp;4000
+126;saroyam;thats on an in and out basis
+128;saroyam;not just an overnight thing
+127;rizwanp;exactly
+129;reynens;yup,
+129;reynens;people with slivers included
+130;nguyenh;that's mke send then, let go with Mindy sugesstion
+131;corbettj;yeah 
+131;corbettj;just in, see doctor, leave...'outpatients'
+132;saroyam;many patients check in but not all stay for a long period of time
+133;rizwanp;yeah so let's say over 24 hurs
+134;rizwanp;*hrs
+135;Michael Clark;Okay... 350? Or 4000?
+136;saroyam;ok
+137;rizwanp;is that good?
+138;rizwanp;4000
+139;nguyenh;4000
+140;chiuo;oh ok
+141;Michael Clark;Okay.
+141;Michael Clark;Update the scribe. :-)
+142;Michael Clark;Q2. On average, is the facility often at capacity?
+143;nguyenh;I think yes
+144;saroyam;i would say yes as well
+145;rizwanp;ok
+145;rizwanp;scribe receives a more powerful brain :P
+146;Michael Clark;Ie. 50% of the time, 90% etc? Estimate is great.
+147;rizwanp;scribe is all updated
+148;nguyenh;100%
+149;kaspara;The system will need to be able to handle 100% all of the time
+150;rizwanp;no no
+151;rizwanp;not 100%
+152;rizwanp;yeah it will
+153;rizwanp;but on averaage it isn't
+154;reynens;...
+155;gosselinc;...
+156;rizwanp;...
+157;corbettj;hehehe
+158;nguyenh;...
+159;reynens;They want to know how often our beds are full
+160;reynens;All 400
+161;rizwanp;yeah
+162;saroyam;well most hospitals are full 100% of the time
+163;reynens;okay
+164;chiuo;I would say its often full also, they always run out of beds don't they?
+165;reynens;i think we'll go with Mindy again
+166;rizwanp;ok
+167;Michael Clark;Okay. Agreed.
+168;corbettj;100% 
+169;reynens;Yes
+170;Michael Clark ;Next: Q3. What is the maximum number of beds in a room any given time?
+171;gosselinc;400... as we said
+172;rizwanp;10
+173;rizwanp;...
+174;gosselinc;lol 
+;;oh wait
+175;corbettj;beds in a single room
+176;Michael Clark;Yikes.
+177;gosselinc;i can't ready
+178;gosselinc;read***
+179;corbettj;lol
+180;gosselinc;or type
+181;reynens;1 room = X beds
+182;rizwanp;or think...
+183;;:P
+184;gosselinc;i love you 2
+185;saroyam;yeah lets go with 10 at max
+186;fairheadj;ok
+187;Michael Clark;Okay.
+188;rizwanp;ok so let's all agree with rizwan this time
+189;chiuo;10 it is
+190;Michael Clark;Q4. How is information maintained about open rooms and beds?
+191;rizwanp;currently?
+192;Michael Clark;yes
+193;rizwanp;ther's a database
+194;Michael Clark;okay...
+195;reynens;I think we manage that with the current patient database
+196;reynens;which is computerized, not paper.
+197;kaspara;That is manually updated
+198;rizwanp;hm.. a paper database
+199;rizwanp;nice...
+200;corbettj;hehehe
+201;reynens;"its called a table ;)"
+202;reynens;you write in it
+203;rizwanp;a paper table again?
+204;Michael Clark;Q4A.  Can it be scheduled or reserved, or are they all pretty much on first come first serve basis so that when one patient leaves, another gets admitted?
+205;saroyam;first come first served
+206;rizwanp;no scheduling facilties yet
+207;rizwanp;or currently
+210;nguyenh;But there should be
+208;reynens;I think based on our 100% answer
+211;reynens;"its ""free bed = filled bed"""
+209;Michael Clark;Okay. Thanks.
+212;rizwanp;ofcourse
+213;Michael Clark;Q6. How long do patient records remain on the system?
+214;rizwanp;foreva
+215;nguyenh;there are patient that is more important that other
+216;Michael Clark;Okay.
+217;saroyam;if the patient has checked out for over a month then their information should be archived
+220;saroyam;but still remain accessible if need be
+218;corbettj;than....that would get into a 2 tier system :P
+219;kaspara;Yeah.  Patient records are perminant
+221;Michael Clark;Q7. What is the difference between equipment and supplies?
+222;reynens;oh oh , let me
+223;corbettj;supplies = stuff like bandages, stuff that gets used up...
+224;nguyenh;supplies are comsumable
+228;nguyenh;equipment is not
+225;reynens;Supplies are generally things that are, yes, consumable
+227;reynens;1 use
+226;Michael Clark;Okay. Great.
+229;gosselinc;^^^ is correct
+230;rizwanp;ok supplies can be expensive
+231;rizwanp;like a rare blood type
+232;corbettj;that's why inventory tracking with supplies is important
+233;rizwanp;it's also a research facility
+234;rizwanp;so a bacteria culture
+235;rizwanp;which was orderd in from china for example
+236;rizwanp;or smuggled... whatever
+237;saroyam;lol
+238;corbettj;lol
+239;Michael Clark;Q7A.  Are all supplies ordered, or some created in house like blood donations?
+240;reynens;yeah, blood, pharmaceuticals, needles = supplies
+241;nguyenh;yes
+242;gosselinc;both
+243;Michael Clark;Thank you.
+244;Michael Clark;That is all for Business and Administration. On to the next section.
+245;chiuo;waiit
+246;reynens;yup
+247;chiuo;don't switch
+248;reynens;whoops
+249;chiuo;it clears the screen
+250;Michael Clark;Any last words about business and admin.
+251;rizwanp;ok
+252;kaspara;nope
+253;rizwanp;are the decisions being saved?
+254;nguyenh;no
+255;Michael Clark;I will monitor who is typing before moving on.
+256;corbettj;nothing here
+257;rizwanp;cuz i ain't writin this down
+258;reynens;its called SCRIBE Riz
+259;Michael Clark;They remain on the right I believe.
+260;reynens;there's one here
+261;rizwanp;bah
+262;rizwanp;who is reyens?
+263;rizwanp;meet me in the parking lot
+264;reynens;you will never know
+265;rizwanp;or the bus stop
+266;chiuo;ok, anything wrong with the decisions place currently?
+267;reynens;nope
+268;gosselinc;it's good
+269;rizwanp;i am ok
+270;reynens;everything looks gravy
+271;chiuo;alrite i'm good then
+272;Michael Clark;Okay, lets keep moving on. :-)
+273;corbettj;think reyerns is scott
+274;rizwanp;thanks
+275;Michael Clark;Q8. What is the function of the terminals located throughout the hospital?
+276;reynens;Jeff! JUDAS!
+277;rizwanp;ok shhh
+278;corbettj;"lol ""meet me in the parking lot"""
+279;rizwanp;it's brute
+280;reynens;Terminals
+281;rizwanp;terminals allow visitors to check stuff
+282;rizwanp;about patients
+284;rizwanp;example visiting hours, room
+283;nguyenh;For visitor to find out wheree the patient is
+285;Michael Clark;Termianls =  Computers located throughout the hospital
+286;reynens;yes, a visitor can locate the room of a patient they're visiting
+287;kaspara;Exactly
+288;rizwanp;ok
+289;nguyenh;for patient to see how much he/she own
+290;Michael Clark;But not behind desks where a single user will be using them.
+291;rizwanp;terminals ! = computers
+292;rizwanp;for our purposes
+293;gosselinc;Patients must give consent to be displayed on the terminals!
+294;corbettj;for clarity, there arent currently terminals in our system.....something that we want implemented
+305;corbettj;be like an ATM that allows you to query patient location etc.. :P
+295;rizwanp;whoa whoa
+296;reynens;haha
+297;rizwanp;what's this about consent and dissent?
+298;saroyam;like a self-help computer
+299;nguyenh;maybe direction to a room
+300;rizwanp;so speaking of PCs in hospital
+301;nguyenh;or find a parking lot
+302;rizwanp;ok let's be serious
+303;reynens;we are?
+304;reynens;consent was something in the rfp i thought Riz
+306;rizwanp;michael
+307;chiuo;you called them info booths or something in the rfp i believe
+309;reynens;yes
+308;rizwanp;repeat the question again clearly plz
+310;rizwanp;i don't wanna scroll up
+311;rizwanp;instead i'll make  a request by typing 3 lines
+312;rizwanp;including that one
+313;Michael Clark;So terminals are devices that you would like us to design and add to the system that allow visitors to locate patients and  get other information about the hospital. But before a patient will show up on the terminal search they will have to consent? Correct?
+314;gosselinc;yes
+315;saroyam;yes
+316;chiuo;hospital map?
+317;rizwanp;ok ok
+318;Michael Clark;Okay. Map = excellent idea.
+319;gosselinc;may i add something really quick?
+320;kaspara;Yes
+321;rizwanp;but
+322;Michael Clark;Of course.
+323;nguyenh;driving direction as wll
+324;corbettj;yeah when a patient checks into the hospital they should be given an option to allow people to look up there info
+325;reynens;yes, a patient must consent to public access (everyone else has access though, Doctors, Admin, Security)
+326;Michael Clark;Yes.
+327;rizwanp;driving direction to what?
+328;gosselinc;ok even without consent the employees of the hospital still have access to the data
+330;gosselinc;just not the general public
+329;reynens;*not must, can
+331;rizwanp;how about a link to google maps instead?
+332;corbettj;yes
+333;corbettj;hehehehe
+334;reynens;Now who isn't being serious
+335;rizwanp;i'm bein serious
+336;rizwanp;we're on a budget here
+337;reynens;Google maps is bugged
+338;reynens;"moving on ;)"
+339;nguyenh;may be to check email briefly
+340;Michael Clark;A google map might not give an accurate floor plan... or one at all. I would suggest something else.
+341;saroyam;i think a map of the hospital should be enough
+342;rizwanp;do we want them to build a map software?
+343;corbettj;<3 yahoo maps :P
+344;rizwanp;ok someone said driving directions
+345;reynens;Riz, riz, we can't give them design instructions, just requirements
+346;rizwanp;so i was talkin bout that
+347;saroyam;people can find their own way to the hospital
+348;Michael Clark;Google Earth would give an excellent shot of the roof if that is what you're after.
+349;reynens;ooooh
+350;nguyenh;no, but must have a3d floor plan of all the building
+351;rizwanp;that's not design instructions
+352;reynens;right, on our external website**
+354;corbettj;lol google earth
+353;rizwanp;do we want to include driving directions?
+355;rizwanp;i don't think so
+356;saroyam;i dont think so either
+357;saroyam;just a map of the hospital
+358;rizwanp;it's too much work
+359;rizwanp;yes
+360;rizwanp;map is good
+361;saroyam;u are here. heres how u get to that place
+362;reynens;no, ... lets say an ADDRESS to the hospital is currently part of the system
+363;corbettj;ppl can take a cab to the hospital if they can't find it :P
+364;nguyenh;So they should be able to access the internet abit then
+365;rizwanp;u think reyens?
+366;chiuo;I guess general hospital information is good too?
+367;Michael Clark;I was still trying to focus on these terminals which are located inside of the hospital. That said... it would be my understanding that there is no need for a map of the location of the hospital on the terminals, but perhaps floor plans would be a better idea.
+368;kaspara;YES
+369;nguyenh;yes
+370;Michael Clark;Next!
+371;Michael Clark;Q9. What are the other duties mentioned in project objectives health care staff perform that the new system should aid them with?
+372;rizwanp;what line, ?
+373;reynens;i think i know it
+374;reynens;its not that it aids them with the duties
+375;reynens;but aids them, while they are doing other things
+376;saroyam;i think that meant that the self help desk will prevent distraction so that the nurses etc can do other work like handing out meds
+377;nguyenh;such as operations, cleaning ...
+378;Michael Clark;Okay. Disregard question.
+379;rizwanp;ok
+380;Michael Clark;Thanks for the clarification.
+381;nguyenh;the system doesn't need to assist that
+382;Michael Clark;Q10. What information will each employee use to login to the system? Is a key card a consideration?
+383;corbettj;yeah....should automate some of their tasks to free them to do other things
+384;rizwanp;sure
+385;gosselinc;finger id!
+386;rizwanp;retina scan
+387;corbettj;biometrics hehehe
+388;nguyenh;sure
+389;rizwanp;maybe DNA extraction and verifications
+390;reynens;plas-ma!
+391;saroyam;user name and password maybe
+392;rizwanp;bah
+393;nguyenh;I think we are using the key card for door access
+396;nguyenh;so we should stick with it
+394;rizwanp;ur old fashioned
+395;saroyam;:p
+397;saroyam;k
+398;reynens;hold up i have a connected question
+399;gosselinc;i say key card
+400;Michael Clark;Are you presently using a keycard for door access?
+401;rizwanp;yeah
+402;nguyenh;Yes
+403;rizwanp;we are
+404;saroyam;yes
+405;reynens;.... yes?
+406;saroyam;lets go with key card
+407;rizwanp;so same key card?
+408;Michael Clark;Okay. Good to know.
+410;reynens;sure
+411;gosselinc;same keycard
+409;rizwanp;but but
+412;rizwanp;it should also allow password access
+413;nguyenh;same
+414;fairheadj;yea both
+415;reynens;swipe a card, enter the password
+416;nguyenh;ket card came with code
+417;rizwanp;no 
+418;saroyam;but the help desks dont need a password
+419;reynens;then inject dna
+420;fairheadj;either one
+421;rizwanp;it should allow password access
+422;chiuo;enter password on what?
+423;Michael Clark;Our thought with a keycard is that they could use it to prevent entering a username, then require a password in addition.
+424;reynens;oooh
+426;reynens;i get you
+425;chiuo;like a pin?
+427;nguyenh;should use that code for accessing if can't find the card
+428;rizwanp;yeah that's good
+429;rizwanp;do it
+430;reynens;swipe your card OR enter a password
+433;nguyenh;that is right
+434;Michael Clark;I envisioned both.
+431;rizwanp;but
+432;rizwanp;if a card goes bad
+435;rizwanp;then waht?
+436;reynens;no more buts there Riz
+437;saroyam;if a card goes bad they can get it fixed
+438;rizwanp;ok u and me outside rite now
+439;rizwanp;yeah 
+440;rizwanp;but that would take a long time
+441;reynens;Staff can swipe their card, or enter an access password to get at the system.
+442;fairheadj;yup
+443;corbettj;sounds good
+444;nguyenh;so us ethe password instead
+445;chiuo;so the swipe and username/password on the same panel? is that the plan?
+446;Michael Clark;Okay, so how about a keycard, and password. But if that fails they have some other username that they can use.
+447;reynens;no
+448;rizwanp;yes
+449;rizwanp;good deal
+450;saroyam;well they need their card to get into certain parts of the building anyways
+451;reynens;they're screwed and must ask IT
+452;kaspara;This is kind of just a design thing.
+453;saroyam;they need their key card for everything not just the system
+454;Michael Clark;Good point.
+455;rizwanp;ok
+456;rizwanp;everything?
+457;kaspara;Our requirment is just a security sytem
+458;Michael Clark;So keycard and password for system access.
+459;nguyenh;yep
+460;corbettj;that's fine
+461;saroyam;yeah like getting into the medicine cabinets and stuff
+462;reynens;good point kaspara
+463;Michael Clark;Okay, we will consider options.
+464;corbettj;lol
+466;rizwanp;ok so somebody put the decision up so i know
+467;rizwanp;what we decided jus now
+465;Michael Clark;Q11. How will web users be authorized to access patient information on the hospital website?
+468;Michael Clark;Or will there be no infromation they can access.
+469;nguyenh;patient should get their invoce
+470;nguyenh;precriptions
+471;reynens;ok ok
+473;Michael Clark;What's a preciption?
+474;reynens;the website has the SAME information as the Terminals
+475;rizwanp;what invoice?
+472;corbettj;go to the site, search for the person your
+476;corbettj;*you're looking for....their info comes up
+477;reynens;but, does it have more?
+478;nguyenh;for the money they own the hospital
+479;rizwanp;wait
+480;Michael Clark;Okay. So there is no information that a family member should be able to access about a patient that the whole words cannot access.
+481;rizwanp;inwe want ppl to access the patients while they are in the hospital
+483;rizwanp;not after...
+482;nguyenh;if they have the patient access code
+484;nguyenh;family member should be able to access
+485;rizwanp;yeah
+486;saroyam;they dont need to know what type of meds the patents are on
+487;reynens;so all patients will get a username and password?
+488;saroyam;just what room number and floor they are on 
+489;rizwanp;no
+490;Michael Clark;First I ask what they will need to provide to get access... then I'll ask what they have access to.
+491;saroyam;no
+492;nguyenh;they have acccess card as well
+494;nguyenh;as they are now
+493;corbettj;the public can't access patient medical records etc....outside access is limited to visitation type info
+500;corbettj;that should be available to anyone that wants to visit
+495;rizwanp;exactly
+496;reynens;yeah
+497;rizwanp;it's the kind of info help desk would provide
+498;reynens;i'm gonna restate again
+499;Michael Clark;okay. is that the decision.
+501;rizwanp;yes
+502;saroyam;sure
+503;reynens;The information that the TERMINALS provide, floor and room and name
+505;reynens;will be on the WEBsite
+504;rizwanp;so it should be up to us what info we wanna put on there
+506;chiuo;Visiting info is final?
+507;rizwanp;yeah
+508;rizwanp;reyens has a good point
+509;saroyam;yeah
+510;rizwanp;i totally forgot
+511;rizwanp;it has to be accessible from web
+512;Michael Clark;Okay. So for the record terminals info is also accessible on website...perhaps with a location map.
+513;rizwanp;sure
+514;kaspara;Yes
+515;Michael Clark;Done.
+517;reynens;Yes, the main website should have a map to the hospital :P
+516;Michael Clark;Q12. What is an expected volume of visitors on a daily basis that will potentially be interacting with the new system instead of talking to the person at the information desk?
+518;gosselinc;thousands
+520;nguyenh;arounbd 50$
+519;rizwanp;let's say on average a patient has 5 relatives
+521;rizwanp;that care about him
+522;rizwanp;or her
+523;nguyenh;50%
+524;rizwanp;50% what?
+525;gosselinc;?
+526;kaspara;I'mm uhhhhhh lost
+527;saroyam;let try and type one sentence on the same line
+528;rizwanp;ur still here?
+529;Michael Clark;We are looking for a number as to the number of users the terminals and website need to support.
+530;reynens;we already decided how many people go into the hospital and Thanh is saying 50%
+531;nguyenh;50% of the visiotr will use the info booth rather than the helpddesk
+532;rizwanp;why?
+533;Michael Clark;Ok.
+534;reynens;so 2000 a day?
+535;corbettj;ultimately everyone should be using the terminals...
+536;saroyam;yeah 2000 sounds good
+537;reynens;thats not final Mike
+538;rizwanp;wait
+539;Michael Clark;Final for RS 1.0?
+540;rizwanp;2000?
+541;corbettj;it will come down to how comfortable people are using them
+542;reynens;no no, in the conversation
+543;chiuo;2000 for web?
+544;rizwanp;whoa whoa
+545;reynens;oh, good question
+546;chiuo;are we having web and terminal separate?
+547;nguyenh;of course, but I thikn we should hope half of thenm will use the system
+548;rizwanp;wtf?
+552;rizwanp;yes
+549;reynens;QUESTION Are you talking about VISITORS using the TERMINALS?
+550;rizwanp;no
+551;corbettj;ok i'll buy that
+553;chiuo;terminals and the web i believe
+554;reynens;I'm asking Mike
+555;rizwanp;why?
+556;rizwanp;ask me
+557;nguyenh;only the terminal for now
+558;reynens;Cause you're in the parking lot
+559;reynens;okay
+560;rizwanp;bus stop
+561;reynens;just terminal use
+562;rizwanp;but i can be there in 5 min.
+563;Michael Clark;Technically that was what the question was about. The terminals in the hospital. But if the web is using the same system it would be combined amount.
+563;Michael Clark; The next question was how many people do you expect to use your website per day.
+564;rizwanp;depends
+566;rizwanp;if it's a holiday or workday
+565;nguyenh;around 20  00
+567;corbettj;JUST A NOTE: check the time VS how many discussion items are left
+568;reynens;so we have the number 2000 and corbettj says we would hope all 4000 in/outs (that doesnt count visitors necessarily, just patient)
+569;nguyenh;20 000 =  5 * 4000
+570;rizwanp;20,000?
+571;Michael Clark;20000 works. Lets move on.
+572;corbettj;we should hope for all, but ultimately some people won't be confortable
+573;rizwanp;wtf
+574;Michael Clark;Q14. We need a clear picture of how the current system tracks patient records so we can come up with a more accurate and efficient method. How are inaccuracies introduced to your current system, and what are they? What would make patient records more efficient and accessible to doctors and nurses?
+575;rizwanp;ok 
+576;reynens;Riz, you're IT
+577;rizwanp;let me talk about inaccuracies
+578;rizwanp;everyone else shut
+579;rizwanp;first
+580;rizwanp;database is updated manually, as in info is typed in
+581;rizwanp;so typos
+582;rizwanp;ok
+583;rizwanp;u can go now
+584;Michael Clark;What in the new system would you like entered automatically to remove this person typing?
+585;rizwanp;tracking
+586;rizwanp;i thought that was in the RFP
+587;reynens;synergy
+588;nguyenh;I though you ask to remove Riz
+589;Michael Clark;Okay. So equipment and supplied tracking. 
+589;Michael Clark;What about patient records.
+590;nguyenh;because we have 3 system right now
+591;nguyenh;so everything should be in 1
+592;nguyenh;-> less typing
+593;saroyam;new patients will still have to be typed in
+594;gosselinc;patient records are held in a server, we want to track patient movements
+596;gosselinc;that's the tracking we're talking about
+595;rizwanp;yes
+597;kaspara;We want to track patient location, and have that integrated with the patient records system
+598;rizwanp;ofcourse
+599;Michael Clark;Yes. Okay.
+600;Michael Clark;Q16. Are permissions group-wide, meaning should the system treat all administrators evenly and notify all when supplies are running low, or a select few?
+601;nguyenh;I thikn we should track patient location as weel
+604;nguyenh;group level is good I think 
+602;rizwanp;wait
+603;rizwanp;so the inaccuracies thing was cleared up?
+605;rizwanp;michael?
+606;rizwanp;it's clear?
+607;corbettj;yep...group level is fine
+608;reynens;group = yes, i think
+609;chiuo;what was the decision on more efficient/accessiblity?
+610;Michael Clark;Yes... mostly sign-in and out of supplies and equipment cause inaccuracies... patient records will ofo course need to be intiially entered.
+611;chiuo;just tracking in general?
+612;reynens;an admin is an admin is an admin, and a doctor is a doctor is a doctor?
+613;reynens;i think i broke something
+614;rizwanp;yeah ur nose
+615;rizwanp;and it was me
+616;corbettj;lol
+617;Michael Clark;Group level it is.
+618;rizwanp;sure
+619;Michael Clark;That's all for business.
+620;Michael Clark;on to tracking needs.
+621;rizwanp;yes ma'am
+622;corbettj;nice
+623;reynens;Yes?
+624;gosselinc;you're lucky riz
+625;rizwanp;so are u
+626;Michael Clark;Q17. In terms of location tracking, what precision is required?
+627;reynens;we want to know what room anything is in
+628;rizwanp;i say +- 5 inches
+629;nguyenh;down to room number
+630;Michael Clark;Romm, exact coordinate down to 3 mm?
+631;reynens;*everything
+632;corbettj;just room / hall
+633;kaspara;I'd say floor + room
+636;nguyenh;no, just room number
+634;gosselinc;room number is good enough
+635;reynens;floor and room
+637;rizwanp;wait
+638;corbettj;yeah floor too offc
+639;kaspara;offc?
+640;saroyam;within the hospital premises
+641;reynens;we dont need a gps marker on the exact location lat/long
+642;Michael Clark;Okay. Percision for tracking is room based.
+643;corbettj;ofc...of course :P
+644;rizwanp;room number is enough?
+645;corbettj;typo
+646;Michael Clark;Q18. What type of equipment would be ideal to have location-tracking hardware attached to, and what types would remain on a sign-out basis? Is it possible that a sign-out item will also require location tracking?
+647;reynens;okay
+648;rizwanp;ok we need to track a freaking needle in a 1000 sq. ft room
+650;rizwanp;wtf mate
+651;rizwanp;let's slow down
+649;reynens;first is first
+652;rizwanp;nothing that interferes with freakin pacemakers
+653;rizwanp;we need to track pacemakers
+654;reynens;no no
+655;rizwanp;ppl are stealin them off the patients
+656;rizwanp;and they're dyin
+657;reynens;the tracking technology
+658;reynens;that is up to you, but ensure that it does not interfere with medical equipment
+659;corbettj;riz you're killin me man
+660;kaspara;I concur
+661;rizwanp;hey
+662;nguyenh;Every equipment should be track to the room number
+663;saroyam;u want to know the specific type of equipment?
+664;rizwanp;i din't steal ur pacemaker
+665;rizwanp;so don't accuse me
+666;rizwanp;ok
+667;rizwanp;seriously
+668;reynens;things that keep alive = working with the tracking system in place
+669;rizwanp;i wanna talk about that supplies tracking precision
+670;nguyenh;each time the equipment move, the database should be updated
+671;Michael Clark;Is it possible that a sign-out item will also require location tracking?
+672;reynens;seriously, i second the Mute Motion
+673;saroyam;yes
+674;kaspara;Yeap
+675;fairheadj;yep
+676;reynens;yes
+677;Michael Clark;Okay.
+678;gosselinc;:)
+679;Michael Clark;Next.
+680;Michael Clark;Q5. The problem description states that you are looking for a way of tracking the location of supplies, equipment and patients. Under section 4.0 of the RFP v1.0 the requirement to know the location of doctors and nurses is also stated. Do you want the location tracking of people to extend to research personnel, administration staff and security staff as well?
+681;reynens;most definitely above all
+682;reynens;wait, wrong question to answer
+683;reynens;*scratch
+684;nguyenh;Yes, that would be nice
+685;corbettj;i don't think the location of doctors and nurses is supposed to be tracked
+686;reynens;i thought we decided not to go with that?
+688;reynens;is it still in?
+687;saroyam;yeah no tracking of doctors or staff
+689;reynens;ok
+690;reynens;no doctors, no staff
+693;reynens;they can commit crimes and we will not know
+691;gosselinc;just patients
+692;rizwanp;where did we say we wanna track doctors and nurses?
+694;Michael Clark;Okay, the RFP said you wanted to know where they were... and that would imply  tracking...
+695;nguyenh;why?
+696;nguyenh;they should be track right?
+697;kaspara;Doctors may be a good idea....
+698;saroyam;i think that was supposed to be taken out
+699;nguyenh;ok
+700;rizwanp;i don't see anything like that in 4.0
+701;reynens;i can't remember a date, but i remember us scratching docs off the list
+702;rizwanp;can u copy and paste?
+703;reynens;you broke the rfp riz
+704;rizwanp;bah
+705;rizwanp;seriously
+706;corbettj;hehehe
+707;rizwanp;i'm serious
+708;Michael Clark;Section 4.0 Doctors.
+709;gosselinc;..... What's section 4.0?
+710;rizwanp; Must be able to access information about current patients. The information should include their location in the hospital, a record of all administered medication, a listing of any scheduled operations, a history of their previous visits to the hospital, etc.
+711;rizwanp;where?
+712;corbettj; Must be able to access information about current patients. The information should include their location in the hospital, a record of all administered medication, a listing of any scheduled operations, a history of their previous visits to the hospital, etc.
+713;Michael Clark;Okay. So no doctor tracking... 
+713;Michael Clark;or would it be desirable.
+714;corbettj;that's information that they should be able to access about the patients
+715;reynens;no no no
+716;rizwanp;no
+717;rizwanp;undesirable
+718;saroyam;no
+719;chiuo;ok no tracking staff
+720;reynens;we want them to SEE the PATIENT location
+723;reynens;not see THEIR location
+721;rizwanp;yes
+722;nguyenh;on staff tracking at all
+724;kaspara;'thier' =  current patients
+725;chiuo;ok done.
+726;Michael Clark;Yes, so for the record.... no tracking of staff.
+727;reynens;**update, SAVE EVERYTHING SAID HERE
+728;corbettj;correct
+729;Michael Clark;Q19. Similarly with the above, what types of supplies will require tracking devices on them? An estimate of how many would be helpful, and if the tracking device would need to be moved from one item to another often.
+730;saroyam;blood packs
+731;saroyam;donor items
+732;reynens;needles = no
+733;nguyenh;There should be no tracking location for supply
+734;nguyenh;just the room number
+735;nguyenh;I mean no online location tracking
+736;rizwanp;ok we can't decide right now
+737;Michael Clark;Okay. So once they reach the warehouse it is up to staff to enter the room number where they are headed.
+738;rizwanp;but we can let u know
+739;kaspara;Supplies need to be tracked in the incoming warehouse too
+740;corbettj;it would be nice if you could just track when a consumable item is removed from it's respective storage area....then you would know that it was in the process of being used up so you could replace it
+741;Michael Clark;Yes, a isle and shelf number for the warehouse or something similar.
+742;nguyenh;something like that
+743;reynens;think in terms of programming
+745;reynens;something is removed from the stack, it is known
+744;gosselinc;4:20 pm
+746;corbettj;what are you saying charles?
+747;corbettj;:P
+748;gosselinc;just saying
+749;Michael Clark;Okay...so up to the person removing it then.
+750;reynens;chuck, simmer down now
+751;gosselinc;lab is close to being done
+752;reynens;no no
+755;reynens;something should auto-track the numbers
+753;rizwanp;so?
+754;gosselinc;just saying
+756;Michael Clark;Lets move onto security.
+757;reynens;:P
+758;rizwanp;we got almost 3 hours till LAN party
+759;kaspara;Moving on is good
+760;reynens;auto!
+761;reynens;LAN!
+762;Michael Clark;Q23. How are restricted areas currently protected?
+766;Michael Clark;Keycard access only?
+763;kaspara;dogs
+764;reynens;rabid ones
+765;rizwanp;wow
+767;nguyenh;key card
+768;corbettj;by security card
+769;rizwanp;the first thing u say and it's dogs
+770;rizwanp;u retard
+771;Michael Clark;Q24. Is there a concern for staff and/or patients removing the tracking devices? Is additional security required in attaching tracking devices to equipment?
+772;fairheadj;keycard access
+773;reynens;yes, Key cards
+774;saroyam;key cards
+775;nguyenh;not, staffs are good people
+776;Michael Clark;Q26. What sort of control (if any) is required to ensure that all items are signed-out properly to keep the inventory in the system accurate? For example, is there a storeroom a couple of employees manage, or will an automated vending-machine need to interface with the system?
+777;rizwanp;wait wait
+778;reynens;"Riz, ""dogs"" is better than what you've said"
+779;corbettj;no concern about staff removing
+780;rizwanp;i dunno about JIM
+781;rizwanp;he's kinda shady
+782;rizwanp;so staff are not trustable
+783;nguyenh;they should be trust
+784;reynens;Okay
+785;Michael Clark;Okay... 
+785;Michael Clark;any concerns about equipment left with patients.... the large stuff is no worry. Hard to get it by security.
+786;reynens;if a supply is low, the supplies people are notified by the system (admin too i think
+788;reynens;i'm pretty sure that's in the rfp, i thought
+787;nguyenh;everythng should as automated as possible
+789;reynens;yeah,
+;reynens;" if there's something where you say ""do you want someone to do this or a machine"""
+790;reynens;put in the machine
+791;Michael Clark;Yes, admins will be notified....
+792;reynens;Supplies will be notified too
+793;reynens;Dept
+794;reynens;...
+795;Michael Clark;Okay. Perfect.
+796;Michael Clark;All clear?
+797;reynens;i feel shunned?
+798;rizwanp;yes
+799;reynens;sure
+800;corbettj;yes
+801;saroyam;ok
+802;rizwanp;all clear
+803;nguyenh;ye
+804;Michael Clark;Next section here we come.
+805;rizwanp;there's more?
+806;rizwanp;u got too much time on ur hands
+807;reynens;technical
+808;reynens;that's on you peoples
+809;Michael Clark;Q27. Given the constraints of an up-to-date system and zero downtime allowed, the system requires multiple levels of synchronized redundancy with one system waiting to step in when another goes down. What type of redundancy does your current system?
+810;reynens;NONE
+811;rizwanp;no redunduncy
+812;nguyenh;ZERO
+813;Michael Clark;none present, or none desired.
+814;rizwanp;wait
+815;rizwanp;none present
+816;reynens;zero with a captial zero
+817;Michael Clark;Okay.
+818;corbettj;no redundant storage, but we have redundancy on power systems
+819;Michael Clark;Q28. What type of backup power do you have for your network and computer systems in the case of a power outage?
+820;nguyenh;not present but must be implement
+821;rizwanp;desired = yes, big time
+822;Michael Clark;Okay.
+823;rizwanp;generator
+824;saroyam;generator
+825;kaspara;The hospital has a backup generator
+826;reynens;we have backup power
+827;corbettj;power is covered as we have other non-computer related systems that require always on power
+828;rizwanp;we got horses ready to go on a whip lash
+829;reynens;thats the answer
+831;Michael Clark;okay. reliable I presume. :-)
+830;nguyenh;but power will flip
+833;nguyenh;so need independent APC
+835;nguyenh;no UPC
+832;Michael Clark;Q29. Is there currently any system in place for backing up the information?
+834;reynens;sure
+836;reynens;yes, once a year, onto tape
+837;Michael Clark;What's APC?
+838;rizwanp;let them decide if we need UPC or APC or BMC
+839;reynens;seriously though, i dont know
+840;saroyam;once a month
+841;saroyam;on tape
+842;nguyenh;UPC
+843;reynens;UPC
+844;reynens;tape storage, woot
+845;Michael Clark;Okay.
+;;Backup supply required on major systems as power will go off for a few seconds.
+846;nguyenh;tape every night I think 
+847;corbettj;Q29 = once a month on tape
+848;nguyenh;That is corrent
+849;corbettj;nightly then?
+850;saroyam;yeah everynite
+850;saroyam; and a monthly one too
+851;Michael Clark;Backup = once a month on tape.
+852;reynens;tape/month
+853;reynens;yes
+854;reynens;oh
+855;reynens;tape/night/month
+856;rizwanp;once a month?
+857;Michael Clark;and monthly.
+858;Michael Clark;oaky.
+859;rizwanp;i say 24 hrs
+860;nguyenh;power flip make take aroudn 10 min in some area
+861;Michael Clark;Q30. Are the three IT staff presently familiar with the current system and software installed? Did they develop and setup the current system?
+862;gosselinc;you say lots of things
+863;reynens;you say nothing Riz
+864;rizwanp;no
+865;rizwanp;they're high school dropouts
+866;gosselinc;"admin_ban riwanp ""cuz you talk too much"""
+867;saroyam;familiar with it
+868;reynens;they did not set it up
+869;gosselinc;had to try that
+870;Michael Clark;They can be trained. 
+871;Michael Clark;Two more questions!
+872;reynens;yes
+873;reynens;go go go 
+874;Michael Clark;Q32. What speed of Ethernet is the current system using?
+875;reynens;and no remarks
+876;reynens;t1? t3?
+877;nguyenh;100 on the client
+878;reynens;tylenol?
+879;reynens;yes
+880;nguyenh;1 g on the backbond
+881;Michael Clark;Okay. 100 Mbit on client machine. T1 to hospital.
+882;nguyenh;no
+883;Michael Clark;Okay...?
+884;rizwanp;listen to nguyen this time
+885;nguyenh;1g on backbone from building to building
+886;reynens;yeah
+887;Michael Clark;1 g on the backbone... okay.
+888;nguyenh;to hospital is a 30mbbs dsl
+889;reynens;the bone at the back
+890;nguyenh;maybe T1
+891;rizwanp;ok don't listen to nguyen anymore
+892;rizwanp;:P
+893;saroyam;lets just go with t1
+894;saroyam;next question
+895;rizwanp;damn
+896;reynens;T1 is two syllables i like it, moving on
+897;Michael Clark;and 100 mbit for client machines. Good.
+898;Michael Clark;Q33. Are the older non-networked computers networkable?
+899;rizwanp;sure
+900;saroyam;yes
+901;nguyenh;yes
+902;rizwanp;which ones?
+903;reynens;"they an ""ethernet cards"""
+904;corbettj;are you asking if they have an existing NIC?
+905;reynens;you're advised to wrap it up
+906;reynens;"so says a ""ta"""
+907;Michael Clark;The ones used to track supplies right now I think.
+908;rizwanp;yeah all of them have NICs
+909;nguyenh;yes
+910;reynens;they have ethernet cards
+911;Michael Clark;Okay. 
+;;Lets move onto Final remarks!
+912;nguyenh;ok
+913;reynens;final remarks?
+914;Michael Clark;Thank you for participating in this elicitation session. The meeting minutes and a full log will be posted on Tri-Systems' website in the next few days. Do not hesitate to contact us if you have any questions or concerns. One again, thank you for your time.\
+915;reynens;Riz, parking lot
+916;rizwanp;bus stop
+917;reynens;Thanks Mike.
+918;Michael Clark;:-) Final remakrs.
+919;nguyenh;thanks guys
+920;rizwanp;i gotta be able to beat the crap out of u b4 catching the next 26
+921;chiuo;ok all scribed up i think
+922;Michael Clark;Thanks all.
+923;gosselinc;riz talks too much... we should really mute him
+924;gosselinc;for next time
+925;Michael Clark;Meh.
+926;reynens;26 is for losers
+927;gosselinc;:)
+928;rizwanp;yeah mute me
+929;saroyam;bye
+930;corbettj;riz / scott...you guys killed me....was laughing my ass off over here :P
+931;reynens;save your results here people
+932;rizwanp;who is corbett?
+933;rizwanp;i thought that was the building
+934;corbettj;<-- jeff
+935;reynens;whups
+936;rizwanp;oh
+937;gosselinc;we done?
+938;reynens;Jeff
+939;rizwanp;nice...
+940;rizwanp;u'r here
+941;corbettj;lol 
+942;rizwanp;ok bye bye
+943;rizwanp;i hope i helped
+944;corbettj;k we done then?
+945;rizwanp;or i was helpful
+946;gosselinc;don't forget to save
+947;Michael Clark;It did. :-)
+948;nguyenh;bye
+949;corbettj;you guys gonna hook us up with a copy of the chat?
+950;rizwanp;surely
+951;Michael Clark;We are done. Confrence stopped. Enjoy the rest of the day.
+952;rizwanp;u too
+953;gosselinc;save your own jeff
+954;corbettj;thx
+955;rizwanp;come to LAn party
+956;corbettj;=/
+957;chiuo;ok i manually saved the decisions once by copy and paste also mike
+958;chiuo;umm yea as i said i manually copied and pasted the decisions once also

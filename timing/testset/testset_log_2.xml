@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<meeting>
+<utterance turn="1" who="Jared Haines">hey guys</utterance>
+<utterance turn="2" who="mcknightp">hey Jared</utterance>
+<utterance turn="3" who="mcknightp">I guess you dont need the cable?</utterance>
+<utterance turn="4" who="Jared Haines">nope, wireless iw working fine</utterance>
+<utterance turn="5" who="mcknightp">great</utterance>
+<utterance turn="6" who="Jared Haines">Pat, do you want to be the scribe?</utterance>
+<utterance turn="7" who="mcknightp">I already got my pad of paper out but what else do I need to do with this program?</utterance>
+<utterance turn="8" who="clarkn">i think the program will store the log</utterance>
+<utterance turn="9" who="clarkn">look this a way ---&gt;</utterance>
+<utterance turn="10" who="clarkn">yep</utterance>
+<utterance turn="11" who="Jared Haines">yeah when you quit the program asks if you want to store the decisions and chat logs</utterance>
+<utterance turn="12" who="mcknightp">ok cool</utterance>
+<utterance turn="13" who="Jared Haines">hmm, any idea if the rest of group 6  is on yet?  Should I maybe re-invite them?</utterance>
+<utterance turn="14" who="longleyl">THIS IS EXCITING</utterance>
+<utterance turn="15" who="longleyl">welcome to hawaii</utterance>
+<utterance turn="16" who="longleyl">I'm all alone :(</utterance>
+<utterance turn="17" who="longleyl">i want to write in triplicate</utterance>
+<utterance turn="18" who="longleyl">that's not fair</utterance>
+<utterance turn="19" who="chaingj">I am in Taiwan</utterance>
+<utterance turn="20" who="longleyl">Hello, Taiwan person.</utterance>
+<utterance turn="21" who="chaingj">hello</utterance>
+<utterance turn="22" who="laihok">hi guys</utterance>
+<utterance turn="23" who="longleyl">Hello.</utterance>
+<utterance turn="24" who="mcknightp">hello all</utterance>
+<utterance turn="25" who="longleyl">I am straight from the hoods of suburban Honolulu.</utterance>
+<utterance turn="26" who="longleyl">represent</utterance>
+<utterance turn="27" who="mcknightp">Is everyone here?</utterance>
+<utterance turn="28" who="Jared Haines">so how many people are we missing?</utterance>
+<utterance turn="29" who="longleyl">I think Neal is still coming.</utterance>
+<utterance turn="30" who="longleyl">I don</utterance>
+<utterance turn="31" who="longleyl">'t know where he is.</utterance>
+<utterance turn="32" who="longleyl">He should be in the same room I'm in, but I don't see him.</utterance>
+<utterance turn="33" who="chaingj">clarkn is neal</utterance>
+<utterance turn="34" who="longleyl">Yeah, I know.</utterance>
+<utterance turn="35" who="chaingj">jchiang is jack</utterance>
+<utterance turn="36" who="longleyl">But he's not saying anything.</utterance>
+<utterance turn="37" who="laihok">I think I saw him in anoother room</utterance>
+<utterance turn="38" who="longleyl">Nor is he in this room.</utterance>
+<utterance turn="39" who="chenl">chenl is Ryan@group6</utterance>
+<utterance turn="40" who="longleyl">Oh, really?</utterance>
+<utterance turn="41" who="chaingj">neal is not facing computer</utterance>
+<utterance turn="42" who="longleyl">Well, he's not typing, at least.</utterance>
+<utterance turn="43" who="longleyl">Slacker.</utterance>
+<utterance turn="44" who="clarkn">im here</utterance>
+<utterance turn="45" who="longleyl">Oh, there he is.</utterance>
+<utterance turn="46" who="mcknightp">hes reading off my screen</utterance>
+<utterance turn="47" who="clarkn">but i think we are still waiting for someone</utterance>
+<utterance turn="48" who="chaingj">where is andrew</utterance>
+<utterance turn="49" who="clarkn">the list looks a little short</utterance>
+<utterance turn="50" who="longleyl">Andrew, right.</utterance>
+<utterance turn="51" who="laihok">whos mcknightp?</utterance>
+<utterance turn="52" who="clarkn">don't know but he is sittting next to me</utterance>
+<utterance turn="53" who="mcknightp">Hi Im Pat a developer from Group 1</utterance>
+<utterance turn="54" who="longleyl">He's an interloper.</utterance>
+<utterance turn="55" who="longleyl">He must be executed.</utterance>
+<utterance turn="56" who="laihok">Hi..!!</utterance>
+<utterance turn="57" who="clarkn">haha</utterance>
+<utterance turn="58" who="chenl">who's laihok</utterance>
+<utterance turn="59" who="longleyl">If Andrew doesn't show up by 3:40, I say we just go without him.</utterance>
+<utterance turn="60" who="laihok">Matthew</utterance>
+<utterance turn="61" who="longleyl">I dunno where he is.</utterance>
+<utterance turn="62" who="clarkn">don't know not on my list</utterance>
+<utterance turn="63" who="laihok">ok..</utterance>
+<utterance turn="64" who="longleyl">The teacher just told us to start without Andrew.</utterance>
+<utterance turn="65" who="laihok">we need to start</utterance>
+<utterance turn="66" who="clarkn">oh now he showed up</utterance>
+<utterance turn="67" who="longleyl">Good timing.</utterance>
+<utterance turn="68" who="chenl">who still  not coming yet</utterance>
+<utterance turn="69" who="clarkn">doesn't matter lets just start</utterance>
+<utterance turn="70" who="Jared Haines">ok, let's get this thing started</utterance>
+<utterance turn="71" who="Jared Haines">So, first we'd like to know a little more about the system.  Are you looking for some sort of web-based service, or a desktop application?</utterance>
+<utterance turn="72" who="clarkn">a desktop application</utterance>
+<utterance turn="73" who="longleyl">It's supposed to be a decentralized, distributed thing, nothing on a central server.</utterance>
+<utterance turn="74" who="Jared Haines">ok</utterance>
+<utterance turn="75" who="clarkn">the users of the system will need to connect from a large number of different locations</utterance>
+<utterance turn="76" who="mcknightp">So web access but not a web page?</utterance>
+<utterance turn="77" who="clarkn">exactly,</utterance>
+<utterance turn="77" who="clarkn">we are looking for a desktop applicaitons, where the load of running the system is spread amongst the connected clients</utterance>
+<utterance turn="78" who="laihok">yes...not a web page..its a actual program</utterance>
+<utterance turn="79" who="chenl">the users are albe to view the cal via the webpage</utterance>
+<utterance turn="80" who="Jared Haines">so this will be a client application which sends and receives information to and from the web server?</utterance>
+<utterance turn="81" who="clarkn">yes</utterance>
+<utterance turn="81" who="clarkn">but that is not where the information is stored</utterance>
+<utterance turn="82" who="clarkn">public information will be posted to a webserver</utterance>
+<utterance turn="83" who="chenl">all the infomation just store locally,</utterance>
+<utterance turn="84" who="clarkn">on the various cleint machines</utterance>
+<utterance turn="85" who="clarkn">information you are permitted to view is stored on the local client computer</utterance>
+<utterance turn="86" who="mcknightp">So if someone is not online how can someone else invite them to a meeting?</utterance>
+<utterance turn="87" who="clarkn">?</utterance>
+<utterance turn="89" who="clarkn">this software is not a meeting software, it is a calendar applicaiton</utterance>
+<utterance turn="88" who="mcknightp">FOr example</utterance>
+<utterance turn="90" who="mcknightp">I'm offline and so is my schedule</utterance>
+<utterance turn="91" who="mcknightp">you need to schedule me for a meeting</utterance>
+<utterance turn="92" who="mcknightp">how do you know my schedule?</utterance>
+<utterance turn="93" who="chenl">email notice will be sent</utterance>
+<utterance turn="94" who="clarkn">well the informaiton will be stored on other client computers, for example if a manager puts out a meeting schedule it will be send to everyone in the meeting</utterance>
+<utterance turn="96" who="clarkn">the computers in our organization are left running all night so uptime is not a big consideration</utterance>
+<utterance turn="95" who="longleyl">And the person can retrieve the info when they log on, and such.</utterance>
+<utterance turn="97" who="mcknightp">ok what about, laptops and buisness trips?</utterance>
+<utterance turn="98" who="clarkn">well when they connect the new  events  will bo downloaded from other peers</utterance>
+<utterance turn="99" who="laihok">pretty much the same..once you are online</utterance>
+<utterance turn="100" who="chenl">think about the idea of bittorrent, you can download as a peer from anywhere</utterance>
+<utterance turn="101" who="clarkn">the mechanisims for distributing the data are not all that important at this point, what we need to concentrate on is the scheduling functionality of the software</utterance>
+<utterance turn="102" who="clarkn">information isn't just retrieved at login time, it can also be downloaded as it becomes available</utterance>
+<utterance turn="103" who="clarkn">and affected users can give feedback on the proposed schedule</utterance>
+<utterance turn="104" who="longleyl">Essentially, it should check both at login and periodically to see if anything has changed, and if so, get the new information.</utterance>
+<utterance turn="105" who="longleyl">It's a continuous process.</utterance>
+<utterance turn="106" who="clarkn">exactly</utterance>
+<utterance turn="107" who="Jared Haines">The RFP mentioned that documents are often sent out to be read prior to a meeting.  Does the application need to distribute the documents, or will they be sent out by email?</utterance>
+<utterance turn="108" who="laihok">you can upload the document</utterance>
+<utterance turn="109" who="longleyl">The application will distribute them with the meeting notice, kind of like an email attachment.</utterance>
+<utterance turn="110" who="clarkn">yes, it does need to distribute documens and no they will not be sent out by email</utterance>
+<utterance turn="111" who="chaingj">email notice will be send</utterance>
+<utterance turn="112" who="laihok">like an attachment</utterance>
+<utterance turn="113" who="chenl">just email notice</utterance>
+<utterance turn="114" who="clarkn">for important items only</utterance>
+<utterance turn="115" who="clarkn">the user should be able to select if they want an email sent, in general it will not be necessary as the calendar will display the updates</utterance>
+<utterance turn="116" who="Jared Haines">ok, we should probably move on</utterance>
+<utterance turn="117" who="Jared Haines">What kinds of user permissions will the system need?</utterance>
+<utterance turn="118" who="chenl">either set the cal event to private or public</utterance>
+<utterance turn="119" who="longleyl">Well, you should be able to define an arbitrary number of user permissions and give them all a variable set of abilities.</utterance>
+<utterance turn="120" who="longleyl">I believe.</utterance>
+<utterance turn="122" who="chenl">and depends on the group which you choose</utterance>
+<utterance turn="121" who="clarkn">they system will need a role based permission system, where by and arbitrary number of rolls can be created and assigned to various users</utterance>
+<utterance turn="123" who="clarkn">for example managers should be able to schedule meetings for the staff they manage</utterance>
+<utterance turn="125" who="clarkn">or request a meeting with people from other departemnts</utterance>
+<utterance turn="124" who="longleyl">Essentially, the system will have a various set of things people can do.</utterance>
+<utterance turn="126" who="longleyl">And you can derive user classes from that set.</utterance>
+<utterance turn="127" who="laihok">for example, the manger always has permission to do , update, edit, delete the schedule</utterance>
+<utterance turn="128" who="clarkn">a mail clerk for exampel should not be able to change the time or a meeting or schedule a meeting</utterance>
+<utterance turn="129" who="chaingj">or payroll accountant can't change time :)</utterance>
+<utterance turn="130" who="Jared Haines">Will certain users have higher priority permissions? For example, if one manager changes a schedule could another manager override the edit, or modify a calendar entry made by another user?</utterance>
+<utterance turn="131" who="clarkn">but the hr people can put out a schedule for all staff under thier control</utterance>
+<utterance turn="132" who="clarkn">but for tiems like that the person scheduled can request that their schedule be changed</utterance>
+<utterance turn="133" who="longleyl">I believe that people above someone in the hierarchy can affect people below them, but people can't affect others in the same level of the hierarchy.</utterance>
+<utterance turn="134" who="longleyl">Unless the person explicitly gives them permission to do so.</utterance>
+<utterance turn="136" who="chaingj">have to negociate before change~~~</utterance>
+<utterance turn="135" who="clarkn">when creating a schedule the system should try to optimize the timing of a meeting to minimize existing conflitcs</utterance>
+<utterance turn="137" who="clarkn">so a method to request different times</utterance>
+<utterance turn="138" who="clarkn">that way staff can schedule themselves as long as they get their hours in</utterance>
+<utterance turn="139" who="clarkn">when scheduling the system takes requests into consideration</utterance>
+<utterance turn="140" who="mcknightp">ok</utterance>
+<utterance turn="140" who="mcknightp">hold up a sec please</utterance>
+<utterance turn="141" who="mcknightp">Permissions</utterance>
+<utterance turn="142" who="mcknightp">Do you need mutlilevel premissions for each person in the tree?</utterance>
+<utterance turn="143" who="longleyl">What do you mean by "multilevel permissions"?</utterance>
+<utterance turn="144" who="laihok">what do you mean?</utterance>
+<utterance turn="145" who="clarkn">yes</utterance>
+<utterance turn="145" who="clarkn">a manager can only modify thoes under him</utterance>
+<utterance turn="146" who="clarkn">and he is granted his permissions by a administrator</utterance>
+<utterance turn="147" who="mcknightp">ok</utterance>
+<utterance turn="147" who="mcknightp">can a manager have two or more priority levels?</utterance>
+<utterance turn="148" who="clarkn">rolls are set up my administrators and then assigned to the staff</utterance>
+<utterance turn="149" who="longleyl">No, being a manager sets his priority level.</utterance>
+<utterance turn="150" who="longleyl">I'm not sure what you mean.</utterance>
+<utterance turn="151" who="clarkn">a manager can belong to multiple roles</utterance>
+<utterance turn="152" who="chenl">why we need multilevel, would you give some example</utterance>
+<utterance turn="153" who="clarkn">say a manager is in charge of a group of programmers</utterance>
+<utterance turn="154" who="clarkn">that manager can then schedule thoes programmers</utterance>
+<utterance turn="155" who="clarkn">he may also be the team leader of another project</utterance>
+<utterance turn="156" who="longleyl">Oh, right, that makes sense.</utterance>
+<utterance turn="157" who="longleyl">I guess that you could organize it in a tree structure.</utterance>
+<utterance turn="158" who="longleyl">Where everyone below someone can have something scheduled by the person above them.</utterance>
+<utterance turn="159" who="chenl">I thought the permission is associated with each event,</utterance>
+<utterance turn="160" who="clarkn">he can request that other people not under his controll attend a meeting put he has to request their presence and they have to accept before they can be added to the meeting</utterance>
+<utterance turn="162" who="clarkn">they can also schedule their own events as long as they don't conflict</utterance>
+<utterance turn="163" who="clarkn">ie, work on project A until such a time, then work on project B</utterance>
+<utterance turn="161" who="longleyl">So in that case, the programmers would be below the person and so would the other team.</utterance>
+<utterance turn="164" who="andrews">hey guys sorry im late</utterance>
+<utterance turn="165" who="clarkn">sorry we are done ;)</utterance>
+<utterance turn="166" who="longleyl">Haha.</utterance>
+<utterance turn="167" who="clarkn">we have decided you are coding the entire project</utterance>
+<utterance turn="168" who="clarkn">we had a vote and everyone agreed</utterance>
+<utterance turn="169" who="longleyl">And all profits will go to us.</utterance>
+<utterance turn="170" who="chaingj">yes</utterance>
+<utterance turn="171" who="mcknightp">so does a given user have different priority levels or just one?</utterance>
+<utterance turn="172" who="longleyl">Well, a given user will have people below him, above him, and unassociated with him.</utterance>
+<utterance turn="173" who="clarkn">any user can belong to an arbitrary number of roles</utterance>
+<utterance turn="174" who="chaingj">depends what kind of job he has</utterance>
+<utterance turn="175" who="mcknightp">k</utterance>
+<utterance turn="176" who="longleyl">He'd only be able to affect those below him, unless others give him explicit ability to do otherwise.</utterance>
+<utterance turn="177" who="clarkn">instead of permission levels i like the idea of roles</utterance>
+<utterance turn="178" who="clarkn">that can be assigned and expire when a task is finished</utterance>
+<utterance turn="179" who="Jared Haines">yes, I agree the roles concept makes more sense</utterance>
+<utterance turn="180" who="longleyl">Well, you could do roles in a tree structure, just a temporary one.</utterance>
+<utterance turn="181" who="longleyl">It's just that it'd be hard to model relationships between employees otherwise.</utterance>
+<utterance turn="182" who="clarkn">i think of it as being flatter</utterance>
+<utterance turn="183" who="clarkn">you have sets of users each with their own permissions</utterance>
+<utterance turn="184" who="clarkn">so a group leader can schedule anyone under them even if they are manageing another project</utterance>
+<utterance turn="185" who="longleyl">But if you have "managers" and "programmers", how do you define which managers are above which programmers?</utterance>
+<utterance turn="186" who="chaingj">the application should be able to create or remove the levels of permission base on role levels</utterance>
+<utterance turn="187" who="clarkn">roles</utterance>
+<utterance turn="188" who="longleyl">For example.</utterance>
+<utterance turn="189" who="clarkn">if someone is assigned the role of project leader of project A then he can manage the schedules for anyone in project A</utterance>
+<utterance turn="190" who="chenl">did we dicide to change permission to role</utterance>
+<utterance turn="191" who="clarkn">i think so</utterance>
+<utterance turn="192" who="longleyl">Ah, so roles would be sort of a grouping mechanism, then.</utterance>
+<utterance turn="193" who="clarkn">exactly</utterance>
+<utterance turn="194" who="laihok">I think this is better then what we had before</utterance>
+<utterance turn="195" who="longleyl">So, you'd have groups of people, and you'd have different level within groups?</utterance>
+<utterance turn="196" who="clarkn">if someone is assigned a mananement role they may be able to create new roles and assign anyone under them to that role</utterance>
+<utterance turn="197" who="longleyl">That makes sense to me.</utterance>
+<utterance turn="198" who="longleyl">Yeah.</utterance>
+<utterance turn="199" who="andrews">isn't there a potential for circular logic though?</utterance>
+<utterance turn="200" who="clarkn">but they can't escilate their own role</utterance>
+<utterance turn="201" who="longleyl">How so?</utterance>
+<utterance turn="202" who="longleyl">(to Andrew)</utterance>
+<utterance turn="203" who="laihok">I think we'd better to keep the human resource department to do the annouement and things like that</utterance>
+<utterance turn="204" who="clarkn">?</utterance>
+<utterance turn="205" who="andrews">some people can be part of a group B that can assign tasks to A, where A can assign tasks to B?</utterance>
+<utterance turn="206" who="clarkn">well we are going to assume well behaved users</utterance>
+<utterance turn="207" who="clarkn">and unless you are a manager you can't create conflicting schedules</utterance>
+<utterance turn="208" who="clarkn">so yes you can assign tasks but you can't bump existing tasks</utterance>
+<utterance turn="209" who="longleyl">Maybe we should call this good for now and move on; we still have four more topics to cover.</utterance>
+<utterance turn="210" who="Jared Haines">ok, we should probably move on before we run out of time</utterance>
+<utterance turn="211" who="andrews">i think we're getting a little caught up in the details here anyway</utterance>
+<utterance turn="212" who="clarkn">yep</utterance>
+<utterance turn="213" who="mcknightp">agreed</utterance>
+<utterance turn="214" who="Jared Haines">So, are you going to need some sort of revision control system?</utterance>
+<utterance turn="215" who="clarkn">as far as version controll goes only the version that was used is important</utterance>
+<utterance turn="216" who="clarkn">if it didn't happen its not important</utterance>
+<utterance turn="217" who="Jared Haines">with multiple users updating the schedule there seems to be vast potential for version conflicts</utterance>
+<utterance turn="218" who="clarkn">no because they can't update existing items</utterance>
+<utterance turn="219" who="clarkn">and plus managers have the final say</utterance>
+<utterance turn="221" who="chenl">which the high priority</utterance>
+<utterance turn="220" who="chaingj">only certain level can do so</utterance>
+<utterance turn="222" who="chaingj">it's be coverd in previous topic</utterance>
+<utterance turn="223" who="mcknightp">so a person witht he manager role can edit these docs and thats it?</utterance>
+<utterance turn="224" who="clarkn">the docs will be more notices</utterance>
+<utterance turn="225" who="clarkn">it read this before the meeting</utterance>
+<utterance turn="226" who="clarkn">or here are the notes for the meeting</utterance>
+<utterance turn="227" who="andrews">well, everybodys schedual gets distributed to trier machine</utterance>
+<utterance turn="228" who="Jared Haines">ok, just clearing that up</utterance>
+<utterance turn="229" who="andrews">so that's the schedyal that matters, right?</utterance>
+<utterance turn="230" who="andrews">schedule</utterance>
+<utterance turn="231" who="clarkn">Meeting Notes will be only editable but the meeting organizer. i think you mean by</utterance>
+<utterance turn="232" who="andrews">word</utterance>
+<utterance turn="233" who="mcknightp">my bad</utterance>
+<utterance turn="234" who="clarkn">no worries</utterance>
+<utterance turn="235" who="chaingj">next please...time is flying</utterance>
+<utterance turn="236" who="Jared Haines">yep</utterance>
+<utterance turn="237" who="clarkn">ok all there really is for this is the following</utterance>
+<utterance turn="238" who="clarkn">rols can edit for thoes under them</utterance>
+<utterance turn="239" who="clarkn">a user can request that the schedule be changed</utterance>
+<utterance turn="240" who="clarkn">the role manager can then run a feature to optimize the requests</utterance>
+<utterance turn="241" who="clarkn">and find the best schedule</utterance>
+<utterance turn="242" who="clarkn">when teh schedule has been modified, email notice sends out to everyone related in the schedule</utterance>
+<utterance turn="243" who="clarkn">i guess we will need various event types, tentative, firm, etc etc</utterance>
+<utterance turn="244" who="chenl">good idea</utterance>
+<utterance turn="245" who="clarkn">actually their calendar is updated</utterance>
+<utterance turn="246" who="andrews">a request can get sent to a manager to change a meeting, or to HR to change the base schedule</utterance>
+<utterance turn="247" who="clarkn">emails are only sent out when specifically requested</utterance>
+<utterance turn="248" who="clarkn">a request can be sent to any role manager</utterance>
+<utterance turn="249" who="andrews">whatever</utterance>
+<utterance turn="250" who="Jared Haines">ok, I think that covers it.</utterance>
+<utterance turn="250" who="Jared Haines">let's move on</utterance>
+<utterance turn="251" who="Jared Haines">Will the backups be local?</utterance>
+<utterance turn="252" who="Jared Haines">or will they be backed up on the web server also</utterance>
+<utterance turn="253" who="clarkn">yes, but an administrator can also request a global snapshot of the system</utterance>
+<utterance turn="254" who="clarkn">from all online users</utterance>
+<utterance turn="255" who="chaingj">yes</utterance>
+<utterance turn="256" who="Jared Haines">ok</utterance>
+<utterance turn="257" who="Jared Haines">Is there any specific calendar formats your organization uses?</utterance>
+<utterance turn="258" who="chaingj">calendar format is complicated to describe man</utterance>
+<utterance turn="259" who="clarkn">various depending on the information displayes</utterance>
+<utterance turn="260" who="clarkn">d</utterance>
+<utterance turn="261" who="clarkn">we want monthly,  weekly, and daily breakdowns</utterance>
+<utterance turn="262" who="clarkn">plus the ability to switch between calendars</utterance>
+<utterance turn="263" who="chenl">just make sure it's friendly and easy to read</utterance>
+<utterance turn="265" who="laihok">ya...user friendly is the most important part</utterance>
+<utterance turn="266" who="chaingj">friendly and easy ......</utterance>
+<utterance turn="264" who="clarkn">it hr can post your work schedule and then during that time you have various meetings and events</utterance>
+<utterance turn="267" who="longleyl">Wait, are you asking about format for storage or format for displaying?</utterance>
+<utterance turn="268" who="Jared Haines">display format</utterance>
+<utterance turn="269" who="clarkn">and we want clippy</utterance>
+<utterance turn="270" who="longleyl">Oh, okay.</utterance>
+<utterance turn="271" who="chaingj">hot girls pictures as backgound = friendly</utterance>
+<utterance turn="272" who="longleyl">Also we want Clippy to get run over by a bus.</utterance>
+<utterance turn="273" who="longleyl">Twice.</utterance>
+<utterance turn="275" who="clarkn">yes</utterance>
+<utterance turn="274" who="clarkn">user configurable backgrounds optional</utterance>
+<utterance turn="276" who="chaingj">yes</utterance>
+<utterance turn="277" who="chaingj">that's the one</utterance>
+<utterance turn="278" who="chaingj">I only want that feature</utterance>
+<utterance turn="279" who="chaingj">must built</utterance>
+<utterance turn="280" who="laihok">yes...users can set their own preference</utterance>
+<utterance turn="281" who="clarkn">so a zombie clippy</utterance>
+<utterance turn="282" who="chenl">is that optional?</utterance>
+<utterance turn="283" who="chaingj">no</utterance>
+<utterance turn="284" who="chaingj">must</utterance>
+<utterance turn="285" who="clarkn">well its not all that important</utterance>
+<utterance turn="287" who="clarkn">i would rather get all of the scheduling stuff in there first</utterance>
+<utterance turn="286" who="longleyl">This sort of thing would be a feature added once the meat of the project is finished.</utterance>
+<utterance turn="288" who="longleyl">It's not something that would doom the project without it.</utterance>
+<utterance turn="289" who="clarkn">exactly</utterance>
+<utterance turn="290" who="chaingj">nothing</utterance>
+<utterance turn="291" who="chaingj">bye</utterance>
+<utterance turn="292" who="laihok">re we done???</utterance>
+<utterance turn="293" who="clarkn">not that i can think of</utterance>
+<utterance turn="294" who="longleyl">Yes, there should be an Easter Egg where a giant stack of calendars falls on Clippy.</utterance>
+<utterance turn="295" who="mcknightp">Did I miss anything important in the notes on the side?</utterance>
+<utterance turn="296" who="chenl">ye, we done</utterance>
+<utterance turn="297" who="clarkn">other than the fact it must be able to connect users around the world</utterance>
+<utterance turn="298" who="longleyl">I can't think of anything.</utterance>
+<utterance turn="299" who="clarkn">so that it doesn't rely on a local lan</utterance>
+<utterance turn="300" who="clarkn">but that is about it</utterance>
+<utterance turn="301" who="clarkn">do you have any other questions</utterance>
+<utterance turn="302" who="clarkn">jxta.org has good networking libraries for p2p</utterance>
+<utterance turn="303" who="clarkn">but you don't have to use it</utterance>
+<utterance turn="304" who="Jared Haines">I think that covers it for now</utterance>
+<utterance turn="305" who="Jared Haines">anything else, Pat?</utterance>
+<utterance turn="306" who="mcknightp">I think I'm going to ask Neil a couple of things but I think that wraps it up</utterance>
+<utterance turn="307" who="clarkn">have you ever seen tacky macromedias personal assistant for dreamweaver</utterance>
+<utterance turn="308" who="Jared Haines">well, thanks guys, I guess we're done</utterance>
+<utterance turn="309" who="clarkn">yep</utterance>
+<utterance turn="310" who="mcknightp">Thanks you all</utterance>
+<utterance turn="311" who="chaingj">see you very much</utterance>
+<utterance turn="312" who="clarkn">and NO clippy</utterance>
+<utterance turn="313" who="longleyl">Or we fire you.</utterance>
+<utterance turn="314" who="clarkn">thats right</utterance>
+<utterance turn="315" who="chenl">no spyware as well</utterance>
+<utterance turn="316" who="andrews">yep see you very much</utterance>
+<utterance turn="317" who="longleyl">Viruses are okay though./</utterance>
+<utterance turn="318" who="chaingj">no backdoor</utterance>
+<utterance turn="319" who="mcknightp">LOL have a good weekend guys :)</utterance>
+<utterance turn="320" who="laihok">haha..</utterance>
+<utterance turn="321" who="clarkn">oh the system has to work on linux, mac and windows</utterance>
+<utterance turn="322" who="clarkn">just to make it fun for you guys</utterance>
+<utterance turn="323" who="clarkn">but i think that is in the rfp alread</utterance>
+<utterance turn="324" who="clarkn">y</utterance>
+<utterance turn="325" who="Jared Haines">yep</utterance>
+<utterance turn="326" who="andrews">and unix 
+ it has to work on thhe solaris machines</utterance>
+<utterance turn="327" who="clarkn">and if you are not carefull xbox as well</utterance>
+<utterance turn="328" who="laihok">oh</utterance>
+<utterance turn="329" who="chaingj">build prototypes for ps3</utterance>
+<utterance turn="330" who="clarkn">i have a mac powerbook G3 running yellow dog linux, it shoudl run on that too</utterance>
+<utterance turn="331" who="longleyl">And it has to run on a 386 with 4 MB of RAM.</utterance>
+<utterance turn="332" who="mcknightp">Sooooo JAVA?</utterance>
+<utterance turn="333" who="chaingj">are we over yet?</utterance>
+<utterance turn="334" who="chenl">who care</utterance>
+<utterance turn="335" who="longleyl">Yes, we're done.</utterance>
+<utterance turn="336" who="clarkn">for you n4ever</utterance>
+<utterance turn="337" who="chaingj">okay</utterance>
+<utterance turn="338" who="Jared Haines">we're done, I stopped the conference already</utterance>
+<utterance turn="339" who="chaingj">god loves you</utterance>
+<utterance turn="340" who="chenl">that's the end of the story</utterance>
+<utterance turn="341" who="chaingj">see you very much</utterance>
+<utterance turn="342" who="clarkn">who?</utterance>
+<utterance turn="343" who="Jared Haines">later guys</utterance>
+</meeting>

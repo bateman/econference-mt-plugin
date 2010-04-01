@@ -1,0 +1,576 @@
+Turn;Who;Utterance
+1;Craig Stuart;who wants to scribe it up?
+2;laneb;shotty not it
+3;laneb;heh
+4;Ryan Nordman;I'll do it
+5;Craig Stuart;thanks ryan
+6;Odysseus;So you know Ryan, everytime you enter something into the decisions place, you need to hit the refresh. Last time i had to anyhow
+7;Odysseus;so everyone can see what you put
+8;Ryan Nordman;Oh, ok, thx
+9;Ryan Nordman;Do you want to enable hand raising, Craig?
+10;beckd;hello?>
+11;Craig Stuart;I think we should be ok without the hand raising 
+12;Christopher Hanlon;Hi Beckd, could you tell us your full name.
+13;Craig Stuart;we can play it by ear though
+14;Craig Stuart;is that everyone?
+15;Odysseus;our group is all here 
+16;beckd;Daniel Beck
+17;mcmahonp;yep
+18;beckd;your loyal coworker
+19;laneb;say I if you're not here
+20;mcmahonp;Everyone is here
+21;Ryan Nordman;Ok, let's begin
+22;Craig Stuart;alright folks, let go
+23;sheny;i have some difficulty here...i am just goin off and log in again..so craig can u invite me again when i am bac?thks..
+24;Christopher Hanlon ;Developer speeking: We're plan on focussing on the kiosk in RS 3.0 does that sound reasonable to you guys?
+25;Price, Tyler;i'd say so
+26;Odysseus;sounds fine
+27;zhangc;yse
+28;Kia Dastmalchian;sounds good
+29;Tyler Gates;since the prototype was based on that, I would say it's good
+30;laneb;I'd say that sounds right.
+31;Michael;Yes
+32;Ryan Nordman;I think it's possible we might change our minds though...
+33;Michael;I like the spelling of speeking.
+34;Price, Tyler;really how?
+35;Ryan Nordman;I'm just not sure how much more we can develop the requirements and prototypes for the kiosk, considering how much we've already delved into that
+36;Ryan Nordman;We'll need to have some further discussions.
+37;Michael;Understandable.
+38;Price, Tyler;hmm... so what else would you be doing?
+39;Tyler Gates;about rs 3.0?
+40;mcmahonp;"Well, I think we are just supposed to make sure 3.0 is ""perfect"", rather then add more content."
+41;Ryan Nordman;One possibility might be the on-board bus system for the driver
+42;zhangc;well,yes, Michael
+43;beckd;I think that was is a bit challenging
+44;Ryan Nordman;Yeah, that's a good point Paul
+45;beckd;I think that a trip planning feature, going into the different ways it would be accessed through things such as kiosk, web based and pda might be a bit more feasible
+46;Craig Stuart;that could also be a bit tough
+47;Ryan Nordman;ok,
+48;Ryan Nordman; anyway, for now we'll say we're going to focus on the Kiosk.  We'll let you know if we change our minds.
+49;mcmahonp;yes
+50;Craig Stuart;it's selected on mine.........
+51;Michael;Okay, all are items we  would like to see.
+52;Kia Dastmalchian;...well whatever component you guys have the most understanding of would probably be best, and its totally up to you
+53;Tyler Gates;we still don't have the eval criteria for rs 3.0. don't worry about that today
+54;Ryan Nordman;Alright, let's move on
+55;laneb;the thing is, if you decide now, you'll get more out of this meeting.
+56;laneb;and waste less time in emails later on
+57;Craig Stuart;we just want to get a bit of feedback from you guys about the scheduling feature
+58;Craig Stuart;and how it would be used by potential riders
+59;Price, Tyler;You mean the trip planning? Or just the sked printouts?
+60;Ryan Nordman;Just the schedule, not trip planning
+61;beckd;one thing that we were thinking was something similar to the current victoria bus schedule that's online
+62;beckd;a bus schedule feature would allow users to view the routes of all busses at any time of any day of the week
+63;Michael;To view what time a bus will arrive at a paticular stop. Either today or in the future. It should have all other stops on that route listed as well to see at a glance when it may arrive... etc. Similar to Victoria's.
+64;beckd;more of an informational thing
+65;Craig Stuart;right
+66;Price, Tyler;Okay, well the victoria one is fine
+67;Price, Tyler; but you sort of need to know what bus you are taking - need search feature
+68;Craig Stuart;you mean just searching by bus route number, or by some other parameter?
+69;Price, Tyler;so like search by postal code or region of town
+70;Price, Tyler;esqimalt, sooke, etc.
+71;Price, Tyler;just so you know what busses pass by
+72;Tyler Gates;maybe a map
+73;Michael;But also route number as if they are avid travellers they will know what bus.
+74;beckd;and this would filter all busses that service any of these areas
+75;laneb;bus route numbers only mean something to someone who takes those busses all the time
+76;Price, Tyler;searching by route name/number may be helpful as well
+77;Ryan Nordman;Ok
+78;Ryan Nordman;So we'll add search functionality to the schedule lookup interface
+79;mcmahonp;well, wouldn't someone only want to view a schedule if they regularly took the bus?  otherwise wouldn't they use trip  planning?
+80;Michael;In theory, or if they would like to know how often a given bus comes.
+81;Price, Tyler;(the translink schedule is a bit better, you can choose which stops you want t he times of)
+82;beckd;I think that paul's point is valid, but I know that even in victoria, there are some buses of which i dont' know the exact routes, it would be beneficial for them I think to be able to find out if other busses can go to points
+83;Christopher Hanlon;Testing 123...
+84;Bryan Lane;did everyone get booted there or just me?
+85;Price, Tyler;not me
+86;Odysseus;i didn't get booted
+87;beckd;I'm good
+88;Craig Stuart;where did Chris go
+89;hanlonc;I suddenly stopped getting messages.
+90;Odysseus;apparently ppl are being randomly booted
+91;Tyler Gates;great
+92;beckd;what do you guys think of the option of seeing the routes of a zoomable map, chooseing routes via area of city
+93;beckd;or being able ot select route number
+94;hanlonc;Has anyone on a Windows computer being booted?
+95;zhangc;I am fine here
+96;Ryan Nordman;Ok, so maybe 2 different views of the schedule?  Like a view for a single bus route, listing multiple stops and their stop times as well as a view for a single stop, listing multiple busses and their stop times at that one stop?
+97;Michael;A feature of this program that the eConference tool like to demonstrate often.
+98;Michael;That works with me.
+99;Odysseus;i'm fine i think it sounds good 
+100;beckd;was that ryan's comment you were replying to?
+101;Michael;Indeed it was.
+102;Price, Tyler;2 views, and a map, and searching by postal/area/route
+103;Bryan Lane;I was trying to mention when I got booted, that maybe if we have the search idea that we can search by a landmark on the route
+104;Bryan Lane;so I could say, search for a route that runs by x.
+105;Bryan Lane;maybe that's route planning though
+106;beckd;that sounds a lot like route planning
+107;Craig Stuart;i would say so
+108;Bryan Lane;I was just thinking if I couldn't remember the number of the route
+109;beckd;that would be the point of hte trip planner
+110;Price, Tyler;okay then organize routes by region
+111;Ryan Nordman;How does that look? (decisions place)
+112;Bryan Lane;I think that works
+113;beckd;Maybe address instead of postal code
+114;beckd;I don't know much about postal codes except my house
+115;Michael;No I think that works Brian.
+116;Michael;Route planning when they want the system to plan their route based on a destination vs just asking when a bus comes by a given stop.
+117;Ryan Nordman;Alright, shall we move on to the next item?
+118;Craig Stuart;alright
+119;Craig Stuart;are you guys ready?
+120;Tyler Gates;yes
+121;Kia Dastmalchian;ok
+122;beckd;k
+123;zhangc;ok
+124;Michael;In addition to the items in the decision place...I would also say search by bus route number.
+125;hanlonc;The trip planning system doesn't require you to know the bus number.
+126;Ryan Nordman;right
+127;Michael;and route name.
+128;beckd;definitely
+129;Michael;Thanks!
+130;Bryan Lane;ok, that's better.
+131;Ryan Nordman;great
+132;Tyler Gates;name isn't that useful I think
+133;Kia Dastmalchian;no, name is very useful
+134;Michael;I agree with Kia. :-)
+135;Bryan Lane;name is useful
+136;Price, Tyler;what number is the Majestic, I don't know
+137;Bryan Lane;i'd remember the name before the number
+138;Michael;Sorry Tyler.
+139;Ryan Nordman;If it isn't useful to a bus rider, they don't have to use it :)
+140;sheny;yeha...the name of the bus route can tell where the dest is..
+141;Kia Dastmalchian;names of hte routes are easier to remember than numbers, and may mean something to someone who doesn't know the routes
+142;Tyler Gates;really?
+143;Tyler Gates;ok
+144;Craig Stuart;alright guys, I won't move on until everyone finishes typing
+145;Craig Stuart;just to keep things organized
+146;Tyler Gates;downtown via hillside vs. #4
+147;Kia Dastmalchian;if its called downtown via hillside, then I know just from that that that is where it goes
+148;Michael;downtown would be useful as it would give all busses that have a dest of downtown.
+149;Michael;then it would list all the different via's for an example
+150;Tyler Gates;ok so  we do both then?
+151;Bryan Lane;yeah, the route name covers my concern, the names are descriptive enough
+152;Christopher Hanlon;I'm getting booted whenever discussions are logged.
+153;Michael;anyways I think we have agreed to include search by bus name anyway...
+154;Ryan Nordman;alright
+155;Ryan Nordman;, we're out of time on this topic, let's move on
+156;Tyler Gates;yes
+157;Craig Stuart;We need to move along to the next topic
+158;zhangc;well, yeah, name is useful in this case
+159;Bryan Lane;apparently the boot on discussion log is a known bug
+160;Odysseus;yea, i think we're good to mvoe on
+161;Kia Dastmalchian;we should be able to search by both, as the routes have both name and number
+162;Craig Stuart;our next topic is about the Realtime map feature that we presented on Thursday
+163;Craig Stuart;we just want to get some more feedback from you about the different ways to view/select/filter locations on this map
+164;Tyler Gates;For the view, I think we wanted a zoom feature
+165;Ryan Nordman;So basic features include panning around the city map, and zooming in or out
+166;Kia Dastmalchian;well, it is important that at a particular kiosk, the map that you see shows the buses that actually pass by the station the kiosk is at, by default
+167;Ryan Nordman;Yeah
+168;Odysseus;select a region with a square box and it zooms in to that area?
+169;Tyler Gates;exactly
+170;Ryan Nordman;No, I think we'd want something simpler just like a magnifying glass + or - button
+171;Bryan Lane;I like the +/- thing
+172;beckd;Currently the filtering will filter any stops around the specific stop that the kiosk is located at.  If the map is zoomed and panned, are you alright that only the routes that intersect a stop will be shown on the realtime map
+173;Kia Dastmalchian;I think so,
+174;; I'm not sure why you'd want to see other ones
+175;Bryan Lane;maybe some kind of overlay with the list of busses shown, that you can toggle on and off?
+176;Ryan Nordman;Now, if the users can pan around the whole map, we should probably display all the routes in the city if they want
+177;Tyler Gates;if you want to transfer...
+178;Michael;The map feature should be available when trip planning as well so the actual route the trip planner has created will be outlined with different line colours or something to mark bus  routes vs walking areas.
+179;beckd;That's what I was thinking,
+180;beckd; but it makes the filtering a bit messy
+181;Ryan Nordman;Yeah, Bryan's idea is a good one,
+182;Ryan Nordman; so we could pop up a window with check box style buttons for every bus route, so that a user can add any bus route to the map and see what's up with it
+183;Tyler Gates;I like that idea
+184;beckd;Bryan, What you suggest is currenly what is going to happen, however it is difficult to list all the busses in the city in this fashion
+185;Price, Tyler;or draw a line with your finger and show every route that goes on a street crossign that line
+186;zhangc;good idea
+187;Price, Tyler;although that isn't very intuitive
+188;beckd;Checkboxes with touchscreen might be a bit difficult
+189;Craig Stuart;sorry guys.......I got dropped there
+190;Michael;uh?
+191;Tyler Gates;if it's a popup box, then it could be easy
+192;Chris Hanlon;test.
+193;Ryan Nordman;I just said check box style buttons
+194;Bryan Lane;well it's a touch screen right? 
+195;Bryan Lane;couldn't it just be a list of numbers that if you touch it it turns green and shows on screen, and if you touch it again, the number turns red and the busses aren't displayed?
+196;Ryan Nordman;I was just trying to describe the functionality of the buttons, obviously we'd want something big enough for a user's finger
+197;Ryan Nordman;anyway, shall we move on?
+198;beckd;Okay
+199;Ryan Nordman;is everybody happy with the decisions?
+200;Craig Stuart;alright, on to the next topic
+201;Bryan Lane;right. 
+202;Bryan Lane;they could be listed down the left side or something.
+203;Kia Dastmalchian;"well, the box that pops up could only list the routes that you would see based on what your map sees; like your current level of zoom only has 4 routes passing through, so you could only choose to view those 4"
+204;Odysseus;yes check boxes are fine i think
+205;Bryan Lane;or even hidden
+206;Craig Stuart;we need to move on guys
+207;Kia Dastmalchian;hold up
+208;Michael;i'm not sure why it needs to be a check box... busses that have a paticular destination or starting point, or pass through a certain region or stop works for me... then it can all be search based instead of covering half the map region with a list...???
+209;Ryan Nordman;Yeah, 
+210;Ryan Nordman;that's why I'm thinking it would pop up
+211;Ryan Nordman;So you wouldn't see the list of routes unless you called it up
+212;Ryan Nordman;Then you select the routes, and accept
+213;Ryan Nordman;and you see the map again, full screen
+214;Bryan Lane;yeah
+215;Bryan Lane;, it could be hidden and you pop up the box, select routes, and the box goes away
+216;Michael;So you're suggesting that additional filtering can be done ontop of the searching mentioned.
+217;Ryan Nordman;because I think there'd be too many routes to list on the side of the screen
+218;Michael;That works for me.
+219;Kia Dastmalchian;but what routes will it list?
+220;Odysseus;basically, you choose what you want to see first right?
+221;Ryan Nordman;every route in the city
+222;Tyler Gates;by default, it should display every route on the current zoom level
+223;Bryan Lane;but the default would be the selected route(s)
+224;Michael;Yeah
+225;Michael;, you'd search for an area or something... then filter out routes from there?
+226;Ryan Nordman;Well, I envision that when they first call up the map it will already have selected the routes that pass by the kiosk's stop
+227;Craig Stuart;alright guys, 
+228;Craig Stuart;maybe we can talk about this one a bit more later, but our time is limited here
+229;Bryan Lane;ryan's thinking what I'm thinking
+230;Tyler Gates;ok next
+231;Craig Stuart;we have 6 more topics
+232;Michael;Yes to landmarks. :-)
+233;Price, Tyler;for the landmarks mabye you could make it so the admins add them and create categories for them
+234;Ryan Nordman;What extra detail do we need here guys?  
+235;;Maybe we can skip this topic for now
+236;Price, Tyler;just add by street / postal codes
+237;Kia Dastmalchian;I'm thinking 'landmarks' would basically be a set of keywords related to a route, or something like that
+238;beckd;What we would like is to decide on the types of landmarks you wanted
+239;Michael;street / postal codes and landmark name(s)
+240;mcmahonp;we were thinking categories like museums or movie theatres
+241;Craig Stuart;restaurants too perhaps
+242;beckd;So far we were thinking restaurants, nightlife, parks, shopping centers
+243;Kia Dastmalchian;streets, buildings, parks
+244;Price, Tyler;yeah but have it so the admins can add more land marks and categories
+245;Craig Stuart;sounds good
+246;Bryan Lane;you might have a ton of categories like that
+247;Kia Dastmalchian;agree with tyler
+248;Ryan Nordman;Yeah, what Tyler said
+249;Odysseus;well as long as there are categories and such we could add them in ourselves
+250;Bryan Lane;it might be better to go by keyword
+251;beckd;We wanted to keep the top level landmarks very simple
+252;Ryan Nordman;If we do that, we don't need to specify what categories will exist
+253;Ryan Nordman;it'll just be up to you
+254;beckd;no more than about 6-7 types
+255;mcmahonp;you choose what categories you want, and we build the list
+256;Ryan Nordman;well, that can be their choice
+257;Ryan Nordman;no need to constrain it on our end
+258;Price, Tyler;well if you let the admins choose the categoreis it would be up to them, not the developers
+259;Ryan Nordman;agreed
+260;Craig Stuart;right
+261;Michael;good
+262;Craig Stuart;alright
+263;Craig Stuart;, moving on?
+264;Kia Dastmalchian;ok
+265;Bryan Lane;ok
+266;Odysseus;sounds good to me
+267;Craig Stuart;next topic is the access to the system from mobile devices such as PDA's and cellphones
+268;Price, Tyler;i was thinking just a separate style sheet for the website ...
+269;Ryan Nordman;Is it alright if we simply provide a scalled down mini version of the webpage?
+270;Tyler Gates;yeah
+271;Odysseus;yea
+272;Kia Dastmalchian;I think so
+273;Bryan Lane;that's what I was thinking yeah
+274;Ryan Nordman;Yeah, so that all the same functionality of the website will be there, it'll just be setup for a smaller screen
+275;Odysseus;probably as light on graphics as possible?
+276;Bryan Lane;right... 
+277;Bryan Lane;do we need the map?
+278;Bryan Lane; it might be handy but would be hell on portable devices
+279;zhangc;yes, that is good
+280;Michael;And touch areas would need to be numbered or something. I'm not sure how PDA's work.
+281;Tyler Gates;I think a map would be necessary
+282;Michael;Map necessary.
+283;Ryan Nordman;It should be possible to do the map
+284;Odysseus;yes it is needed
+285;Craig Stuart;it wouldn't really work on a cellphone or any device without a touch screen
+286;Ryan Nordman;they'll just need to zoom more
+287;Michael;Indeed.
+288;Price, Tyler;I think he meant clickable not touchable
+289;Price, Tyler;I've never used the web on a phone so...
+290;Bryan Lane;well the cellphone you could use buttons to move a cursor around
+291;Craig Stuart;alright
+292;beckd;k 
+293;beckd;I think we're good?
+294;Ryan Nordman;Next topic?
+295;Craig Stuart;moving on
+296;Michael;yes
+297;Craig Stuart;next topic is the aspects of the on-board bus system
+298;Ryan Nordman;You said that you wanted the bus drivers to be able to see their own schedule
+299;Ryan Nordman;How many stops in advance do you want displayed?
+300;Kia Dastmalchian;umm
+301;Michael;For the decision place I would like to see search added to realtime map part.
+302;Ryan Nordman;I think we're considering a small screen, perhaps even just a digital one line text display
+303;Price, Tyler;so just the next stop?...
+304;Ryan Nordman;Michael - what kind of search?
+305;Bryan Lane;one line?
+306;Bryan Lane;like scrolling text?
+307;Bryan Lane;i don't think that would work
+308;Kia Dastmalchian;by 'own schedule', it means their actual, hard, schedule, not a dynamically changing thing...at least that's how I understand it
+309;Ryan Nordman;Yes, it could scroll
+310;Bryan Lane;well, that'd be hard to read while driving
+311;Bryan Lane;don't you think?
+312;Odysseus;yea one line is insufficient i think
+313;Tyler Gates;no scrolling. it would distract the driver
+314;Price, Tyler;maybe a small lcd that has like the next stop big and then acouple more underneath
+315;Ryan Nordman;Yes
+316;Ryan Nordman;, I would think they'd just read it when they're at a stop
+317;Kia Dastmalchian;ok hold on a sec
+318;Kia Dastmalchian;a driver doesn't need to know his next stop one after the other
+319;Michael;I would have atleast 3 or so, except when near end of route... then it would have arrival time at last stop, and departure time.
+320;Price, Tyler;he needs to know if is behind or ahead of sched
+321;Kia Dastmalchian;he can read the router or whatever before he drives, what the onscreen can provide is a copy of this for his reference
+322;Kia Dastmalchian;he does not need to view it while driving
+323;Price, Tyler;no there is like time checkpoints so he doesn't go too fast
+324;Bryan Lane;yeah, it's more for whether he's on time or getting behind/ahead
+325;Michael;He'd more likely look at it when stopping to pick up people.
+326;Kia Dastmalchian;as for seeing stuff on screen, its like bryan just said here
+327;Michael;yep
+328;Price, Tyler;I would say on the screen the next few stops and if connecting buses are running late
+329;Tyler Gates;the driver would need to know HOW late he is
+330;Price, Tyler;as an option
+331;Bryan Lane;I still think that a scrolling text line would force you to look at the screen for a fixed amount of time
+332;Michael;I agree with Brian's point.
+333;Ryan Nordman;ok, so I'm hearing that multi-line display would be best
+334;Michael;Yes.
+335;Odysseus;yea
+336;Tyler Gates;yes
+337;beckd;How about at the top it says you are running this late or are this ahead, and then a time for the next two stops
+338;Kia Dastmalchian;what about instead of scrolling, it just flashes different lines, so you don't have to stare at it…
+339;Kia Dastmalchian;do you know what I mean?
+340;Michael;Sure.
+341;Michael; It doesn't really need to state whether the driver is late or ahead. They should not be ahead with this display as there would be time checkpoint. People expect the bus not to come too early.
+342;Bryan Lane;you'd still have to watch for the line you're looking for
+343;Ryan Nordman;Do you want the bus driver to advance the stop display manually?
+344;Ryan Nordman;for his schedule?
+345;Craig Stuart;i don't think there is any need to do it manually....
+346;Michael;No, it should be automatic. No input required from driver while on route.
+347;Ryan Nordman;Because the other option is to tie it in with GPS and have it show the stops based on where the bus is
+348;Craig Stuart;yeah
+349;Michael;Yes to Ryan's comment.
+350;Bryan Lane;I like that too
+351;beckd;I Think that would be pretty resonable ryan, as everything is already tied in
+352;Craig Stuart;alright......moving to next topic
+353;Ryan Nordman;ok
+354;beckd;soudns good
+355;Craig Stuart;next topic is regarding connections between routes
+356;Price, Tyler;whoa, does the display say anything about late connecting bus es?
+357;Ryan Nordman;I'd also like to discuss the onboard bus display for the connection data as well
+358;Craig Stuart;alright........our time is pretty limited, we have 5 minutes left
+359;Bryan Lane;well, we can cover the late connecting busses in this section, since it's pertinent
+360;Ryan Nordman;I think we could just use the same display, but have two buttons to allow the bus driver to select what to view
+361;Ryan Nordman;perhaps with a sound alert when connecting data is coming in?
+362;Price, Tyler;I would say that each trip has about 10 minutes of play, so at important connection stopes (hubs, terminals) drivers will wait up to like 3 minutes for connecting buses...
+363;Tyler Gates;maybe if there is another bus within a certain proximity, it would display it
+364;Chris Hanlon;Could we send an auditory alert (such as a beep) to encourage the bus driver to look at the console for information about late busses/route changes.
+365;beckd;if every bus driver is willing to wait 3 minutes 
+366;beckd;then a bus that is subsequently connecting to it would have to wait at least 3 minutes 1 second to connect to it
+367;Michael;I don't know if an audiable alert is necessary.
+368;mcmahonp;Wait a bus driver will wait 3 minutes at a stop - won't that really mess up the system
+369;beckd;it would lead to a pushing back of times
+370;Tyler Gates;if they're already late, then it would make them later
+371;Price, Tyler;If they are already late they wouldn't need to wait
+372;Bryan Lane;that's kind of why I figured it would be a good thing to let the driver know how far behind the bus is, so he could just make an informed decision
+373;Craig Stuart;that pushing back of times would mess up people who had checked the schedule an hour before
+374;beckd;Well the instand that they are waiting 3 minutes, they are late
+375;Michael;I wouldn't expect the bus driver to wait more than 30 seconds. But if the system will display busses up to 3 minutes late allowing the bus driver to choose.
+376;Bryan Lane;if it's 5 seconds behind (ie around the corner), he could just wait. if it's 5 minutes, don't bother.
+377;Ryan Nordman;Yeah,
+378;Ryan Nordman;my thinking is that the whole system would work best if we rely on the driver's judgement on whether to wait for a connecting bus
+379;Kia Dastmalchian;does the system even know when a bus is late? I'm confused about this
+380;sheny;so the onboard system won't remind the driver to wait if he is already late?
+381;Ryan Nordman;we can inform them of how late the connecting bus is and let them decide
+382;Bryan Lane;yeah, it's supposed to kia
+383;Kia Dastmalchian;I thought this would show the location of the connecting bus, as in if it just plain isn't there
+384;Odysseus;Yea, it should be more bus driver decision based
+385;Odysseus;their judgement whether to wait or not
+386;Kia Dastmalchian;yeah
+387;Odysseus;and 3 minutes is too long to wait
+388;Craig Stuart;for sure
+389;Price, Tyler;say you're on a bus that goes from UVic to Western Exchange and it is suppose to meet a bus that goes from West Ex to Wishart - but the UVic bus is little late, the Wishart driver could aford to wait 3min.
+390;Michael;The driver will check the screen when leaving important/connecting stops, no annoying beeps necessary or other notifications. Just additional information to make smart decisions.
+391;Bryan Lane;yeah,
+392;Bryan Lane;and if you're ahead, you can afford to wait longer
+393;Tyler Gates;rural bus routes are different
+394;Craig Stuart;i think some sort of audio notification would be beneficial
+395;Ryan Nordman;ok, so when should the system display the information to the bus driver?
+396;Ryan Nordman;if they should be able to check it at the stop BEFORE the connection, then we need to get that data to the onboard bus system in advance
+397;Michael;It will always be there for upcoming stops as soon as it is available. 
+398;Ryan Nordman;alright, so maybe if the bus driver pushes a button on their display
+399;Ryan Nordman;it will show them how late the connecting bus is running to the next connecting stop?
+400;Michael;If they are already on that screen, then nothing needs to be pressed.
+401;Ryan Nordman;Michael - yes
+402;Bryan Lane;I like being able to manually toggle betweent he screens
+403;Michael;If they switched back to the schedule screen, then they'd need to press the other button.
+404;Chris Hanlon;I would prefer that the drive not need to press any buttons on the display.
+405;Craig Stuart;i agree with Chris
+406;beckd;how about showing two seperate screens
+407;beckd;one on the left/one on the right
+408;beckd;the driver could glance at whichever they wish
+409;beckd;so it's easier for the driver to see pertinent information
+410;Bryan Lane;2 screens is an alternative
+411;Price, Tyler;I've seen our divers press buttons before, they can do it
+412;Chris Hanlon;Why do we need 2 screens?
+413;Ryan Nordman;That will make the display more expensive
+414;Ryan Nordman;, it's up to you guys as clients
+415;Ryan Nordman;I don't really feel it's necessary
+416;Kia Dastmalchian;I think the 2 screens switching sounds good
+417;Tyler Gates;yeah, for simplicity
+418;Craig Stuart;why not just break the single screen into a number of frames?
+419;Ryan Nordman;Taxi drivers almost have a full keyboard in their cars, I'm sure bus drivers can cope with two buttons
+420;Bryan Lane;I don't think the dual screen is necessary
+421;Bryan Lane;, but the button to toggle the displayed info is fine
+422;Bryan Lane;that's my vote.
+423;Michael;I have faith in our bus drivers. Indeed the need to switch could be eliminated as a necessity and there just as an option if on the top of the late bus screen would be the time the driver should leave the next stop.
+424;beckd;I think that crowding a display makes the data difficult to easily comprehend
+425;Kia Dastmalchian;its not like they should need to switch all that  often, in some kind of panic while they drive
+426;zhangc;too much information for drivers, 2 screen is not usefull
+427;Bryan Lane;ok so toggle then?
+428;Price, Tyler;yeah one screen toggling displays probably best
+429;Odysseus;toggle is good
+430;Tyler Gates;+1 for toggling
+431;Ryan Nordman;ok
+432;Bryan Lane;go go toggle
+433;Craig Stuart;alright, if that's waht you guys want
+434;Price, Tyler;it's what we require
+435;Craig Stuart;moving along
+436;Michael;Yes, but I liked my suggestion for having the time the driver should leave the next stop, and the current time at the top of the late bus screen as well.
+437;Michael;That would reduce always toggling.
+438;Bryan Lane;yeah, the first line could be the same on both displays
+439;beckd;toggling could be a hassle that drivers just avoid
+440;Michael;Sure.
+441;beckd;sounds great guys
+442;Michael;:-)
+443;Michael;>-|
+444;Craig Stuart;alright
+445;;, so moving along
+446;Price, Tyler;(a side: what we these needed for just analysis?)
+447;Craig Stuart;next we'd like to ask how you would like the exiting passenger statistics to be recorded
+448;beckd;If the system is allowing data to be recorded on who is boarding the bus
+449;beckd;why is it important to have exiting stats as well
+450;Chris Hanlon;I assume the bus companies want to know which stops people exit at.  Is that correct.
+451;Chris Hanlon;?
+452;Price, Tyler;exiting stats will allows to know how many people are on the bus at one time during certain parts of the route.
+453;Craig Stuart;I think that was the idea
+454;mcmahonp;How will we collect these stats?
+455;mcmahonp;Do you have the hardware?
+456;Michael;Exiting is important to allow bus planners to know which stops are used and which are not. So statistics around what is required would be the stop they departed at, time they departed, route and an estimate.... if number of people is too hard to track, just the knowledge that someone did get off at that stop.
+457;Craig Stuart;I believe the original idea was that the driver would enter the numbers into his/her display
+458;Price, Tyler;I don't believe we have the hardware
+459;mcmahonp;How is a bus driver going to count people getting off?
+460;Kia Dastmalchian;that is difficult on the drivers
+461;Price, Tyler;I don't think bus drivers can do it
+462;Michael;My Proposal:  Busses have infared beams across entraces that simply report when beam interruopted.
+463;Price, Tyler;Bus drivers could count oncoming but not exciting
+464;Tyler Gates;additional tasks for the bus drivers is always bad
+465;Bryan Lane;so when a crowd of people get off the bus at UVIC, a driver is supposed to count as they pile off? 
+466;Bryan Lane;that won't work. there's no way.
+467;mcmahonp;Same problem with infared
+468;mcmahonp;it won't count a group
+469;Craig Stuart;yeah
+470;mcmahonp;or if someone is leaning against it, it won't count anyone
+471;Tyler Gates;we need to hire some guy to stand there and cound people
+472;Chris Hanlon;Would infared approximations be acceptable.
+473;Michael;I would not have the drivers count it. It's too much to deal with during boarding time....
+474;Michael;Infared are near enough the door no one would lean on them.
+475;Price, Tyler;what about weight sensors on the wheels, then divide by the average weight per person
+476;Ryan Nordman;To be honest, I think hiring a guy might be your best and most cost-effective solution...
+477;Price, Tyler;yes I was dan
+478;beckd;k good
+479;Kia Dastmalchian;thats what we do now, hire a guy
+480;Michael;Thanks ryan!
+481;Ryan Nordman;assuming you don't need that data constantly
+482;Michael;Are you volunteering?
+483;beckd;hahaah
+484;Tyler Gates;for free
+485;Bryan Lane;heheh
+486;Ryan Nordman;lol, thanks, but I have a job developing bus tracking systems
+487;Michael;Put 1/5 0 of you on each bus?
+488;beckd;it looks great on the resume
+489;Kia Dastmalchian;we were hoping the system would provide us data from every day instead of once every so often
+490;Michael;Yes.
+491;Bryan Lane;I'm not seeing the ryan counting in the decision pane
+492;Ryan Nordman;Yeah, I can't change the decision place anymore
+493;Ryan Nordman;it just boots me
+494;mcmahonp;for people getting on we can easily count people via counting fares -- I still don't see any easy way of counting exits
+495;Michael;Try making me a scribe too and I'll refresh it for Ryan. It's just a blank screen right ryan?
+496;Ryan Nordman;I'll email you a decision summary at the end
+497;beckd;So, decision? we won't have exit stats
+498;Ryan Nordman;yes, it's blank
+499;beckd;except by hiring people
+500;Odysseus;i think yea, through the swiping of a card, or insert of money etc, is the best way
+501;Odysseus;there isn't really an accurate
+502;Odysseus;way to do this...
+503;beckd;Okay
+504;Tyler Gates;make people swipe a card to get off
+505;beckd;moving right along?
+506;Kia Dastmalchian;(we could ditch exit stats?)
+507;Kia Dastmalchian;where people get on is more important data
+508;Bryan Lane;yeah, we do have the stats that the bus would be stopping
+509;Craig Stuart;sound good to everyone?
+510;beckd;sounds great
+511;Tyler Gates;ok
+512;Price, Tyler;we could just do estimates how how many people leave best on how many people are allowed one
+513;Price, Tyler;on*
+514;sheny;we can only knw how many ppl get on the bus in total in a day..but counting ppl get off is pretty hard to achieve i think..
+515;Michael;No ditching of exit stats.
+516;zhangc;kia is right
+517;Michael;Stats as basic as if someone did get off at a stop would be fine.
+518;Kia Dastmalchian;michael, you're fired
+519;Tyler Gates;have some guy counting people, but not on the bus but at the bus stop
+520;Michael;Then stops that no one gets off at would be recorded.
+521;Craig Stuart;alright, we can discuss this one more later on
+522;Tyler Gates;neeeeeeeeeeext
+523;Craig Stuart;i think we should move on to the last topic
+524;Chris Hanlon;Would it be appropriate to record how long the doors are open at each stop?  This won't give you an exact number of people getting off the bus but it should help you determine how popular a given stop is?
+525;Kia Dastmalchian;thats a good idea
+526;Kia Dastmalchian;, depends on how costly it is to implement
+527;beckd;k last?
+528;Bryan Lane;I dunno CH. elderly/disabled people will throw that off a lot
+529;Tyler Gates;old lady = lots of people
+530;Price, Tyler;that same hardware could apply to my weight sensor, lol
+531;Michael;Sure, door open approximation works fine.
+532;Bryan Lane;I guess it's better than nothing though
+533;Michael;Well, they've lived as long as many people... they can have the bennifit of being many people.
+534;Bryan Lane;haha
+535;Craig Stuart;alright, last topic guys
+536;Kia Dastmalchian;ok
+537;Ryan Nordman;Why don't we send you an email regarding this topc?
+538;Ryan Nordman;so we can wrap up now
+539;Ryan Nordman;we're already over time
+540;Bryan Lane;define -no- english. as in literally none/
+541;beckd;second
+542;Bryan Lane;?
+543;beckd;yes
+544;beckd;no english
+545;Michael;Use icons for buttons to make the knowledge of enligh a non-necessity to use kiosks.
+546;Bryan Lane;well, i think we were just talking using simple words
+547;Bryan Lane;as opposed to supporting hundreds of languages
+548;Bryan Lane;and what mike said
+549;Odysseus;with mike on that one
+550;Tyler Gates;a picuture is worth a thousand words
+551;Bryan Lane;where possible, anyway
+552;beckd;with the landmarks feature though
+553;Craig Stuart;that would only work for some of the more  simple functionalilty though
+554;Kia Dastmalchian;I don't see a huge language need here either, what they said
+555;Michael;English and french a must in a billingual country though...
+556;beckd;admins would have to draw pictures representing categories
+557;Michael;With option of adding more language at future date.
+558;Price, Tyler;only need french for federal stuff
+559;Tyler Gates;french, only in quebec
+560;Bryan Lane;oh yeah... the french.
+561;Tyler Gates;lets just assume that they separated
+562;Michael;I propose that the developers come up with some icons that they believe represent our system and run them past us in the next prototype.
+563;Michael;:D
+564;Bryan Lane;ok. if I have to speak french there, they have to speak english here
+565;beckd;okay
+566;beckd;i think we're good for now guys
+567;Tyler Gates;ok
+568;Craig Stuart;alright, that's it folks
+569;Michael;Well it so happens that our city is the capitol of the country....
+570;Michael;:-) alright.
+571;Bryan Lane;wow! promoted!
+572;Price, Tyler;logout
+573;Kia Dastmalchian;conference...started?
+574;beckd;g'day
+575;Tyler Gates;/quit
