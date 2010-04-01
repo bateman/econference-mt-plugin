@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.5"?>
+<plugin>
+
+ <extension point="org.eclipse.ui.actionSets">
+    <actionSet
+        label="Translate Action Set"
+        visible="true"
+        id="org.apertium.api.translate.actionSet">
+     
+     <action
+        id="org.apertium.api.translate.actions.translateConfigurationAction" 
+        label="Configure the Translator" 
+        icon="icons/apertium_res.png"
+        tooltip="Configure the Translator"
+        menubarPath="TranslatorMenu/TranslatorGroup"
+        toolbarPath="TranslatorGroup"
+        class="org.apertium.api.translate.actions.TranslateConfigurationAction"> 
+     </action>
+      
+     </actionSet>
+  </extension>
+
+  <extension point="org.eclipse.ui.views">
+     <view
+        allowMultiple="false"
+        category="TranslateViews"
+        class="org.apertium.api.translate.views.TranslateView"
+        icon="icons/apertium_res.png"
+        id="org.apertium.api.translate.views.translateView"
+        name="Translations"/>
+     
+     <category
+        id="TranslateViews"
+        name="TranslateViews"
+        parentCategory="econferenceViews"/>
+  </extension>
+
+<!--
+  <extension point="org.eclipse.ui.startup">
+     <startup class="org.apertium.api.translate.TranslatePlugin"></startup>
+  </extension>
+-->
+
+</plugin>
