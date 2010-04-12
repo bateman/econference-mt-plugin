@@ -11,7 +11,7 @@
      <action
         id="org.apertium.api.translate.actions.translateConfigurationAction" 
         label="Configure the Translator" 
-        icon="icons/translate_32.png"
+        icon="icons/translate_16.png"
         tooltip="Configure the Translator"
         menubarPath="TranslatorMenu/TranslatorGroup"
         toolbarPath="TranslatorGroup"
@@ -26,7 +26,7 @@
         allowMultiple="false"
         category="TranslateViews"
         class="org.apertium.api.translate.views.TranslateView"
-        icon="icons/translate_32.png"
+        icon="icons/translate_16.png"
         id="org.apertium.api.translate.views.translateView"
         name="Translations"/>
      
