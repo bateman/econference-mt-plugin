@@ -1,3 +1,5 @@
+import gnu.getopt.Getopt;
+
 import java.net.URL;
 import java.util.*;
 
@@ -87,32 +89,62 @@ public class Main {
     	ret += "];";
     	return ret;
     }
-	
+
+	public enum ServiceType {
+		APERTIUM, GOOGLE, MOSES
+	}
+
 	public static void main(String[] args) throws Exception {
+
+		Getopt g = new Getopt("timing", args, "s:amgi:");
+
+		String service = null;
+		ServiceType type = ServiceType.GOOGLE;
 		
-		if (args.length < 1) {
-			System.out.println("params: europarl.es");
-			System.exit(-1);
+		String input = null;
+
+		int c;
+		while ((c = g.getopt()) != -1) {
+			switch (c) {
+			case 's':
+				service = g.getOptarg();
+				System.out.println("Service set to " + ((service != null) ? service : "null"));
+				break;
+			case 'a':
+				type = ServiceType.APERTIUM;
+				break;
+			case 'm':
+				type = ServiceType.MOSES;
+				break;
+			case 'g':
+				type = ServiceType.GOOGLE;
+				break;
+			case 'i':
+				input = g.getOptarg();
+				System.out.println("Input set to " + ((input != null) ? input : "null"));
+			default:
+				System.out.println("getopt() returned " + c);
+			}
 		}
+
+		Object instance = null;
 		
-		String europarl = args[0];
-		
-		ApertiumXMLRPCClient a = new ApertiumXMLRPCClient(new URL("http://localhost:6173/RPC2"));
-		MosesXMLRPCClient m = new MosesXMLRPCClient(new URL("http://localhost:8080/RPC2"));
-		
-		//IQuery g = new GoogleMTConnector();
-		//g.open();
-		
-		Object g = null;
-		
-		Translate.setHttpReferrer("http://www.neuralnoise.com");
-		
+		switch (type) {
+		case APERTIUM:
+			instance = new ApertiumXMLRPCClient(new URL(service));
+			break;
+		case MOSES:
+			instance = new MosesXMLRPCClient(new URL(service));
+		case GOOGLE:
+			instance = null;
+			Translate.setHttpReferrer("http://www.neuralnoise.com");
+			break;
+		default:
+			System.out.println("getopt() returned " + c);
+		}
+
 		//List<String> strings = Utils.getAllSortedStrings();
-		List<String> strings = Utils.readSortedLines(europarl);
-		
-		strings.remove(strings.size() - 1);
-		strings.remove(strings.size() - 1);
-		strings.remove(strings.size() - 1);
+		List<String> strings = Utils.readSortedLines(input);
 		
 		int train = 32;
 		int cycles = 256;
@@ -121,55 +153,33 @@ public class Main {
 		
 		List<Long> len = new LinkedList<Long>();
 		
-		List<Long> msa = new LinkedList<Long>();
-		List<Long> msm = new LinkedList<Long>();
-		List<Long> msg = new LinkedList<Long>();
+		List<Long> ms = new LinkedList<Long>();
 		
 		for (String s : camp) {
 			len.add(new Long(s.length()));
 			
-			bench(s, a, train);
-			msa.add(bench(s, a, cycles));
-			
-			bench(s, m, train);
-			msm.add(bench(s, m, cycles));
-			
-			bench(s, g, train);
-			msg.add(bench(s, g, cycles));
+			bench(s, instance, train);
+			ms.add(bench(s, instance, cycles));
 		}
 		
 		System.out.println(showArray("len", len));
-		System.out.println(showArray("msa", msa));
-		System.out.println(showArray("msm", msm));
-		System.out.println(showArray("msg", msg));
-		
+		System.out.println(showArray("ms", ms));
+
 		String bigger = strings.get(strings.size() - 1);
 		
 		List<Long> threads = new LinkedList<Long>();
 		
-		List<Long> msat = new LinkedList<Long>();
-		List<Long> msmt = new LinkedList<Long>();
-		List<Long> msgt = new LinkedList<Long>();
+		List<Long> mst = new LinkedList<Long>();
 		
 		for (int i = 1; i <= 8; ++i) {
-			Timing.bench(a, bigger, train, i);
-			long at = Timing.bench(a, bigger, cycles, i) / i;
-		
-			Timing.bench(m, bigger, train, i);
-			long mt = Timing.bench(m, bigger, cycles, i) / i;
-			
-			Timing.bench(g, bigger, train, i);
-			long gt = Timing.bench(g, bigger, cycles, i) / i;
+			Timing.bench(instance, bigger, train, i);
+			long t = Timing.bench(instance, bigger, cycles, i) / i;
 			
 			threads.add(new Long(i));
-			msat.add(at);
-			msmt.add(mt);
-			msgt.add(gt);
+			mst.add(t);
 		}
 		
 		System.out.println(showArray("threads", threads));
-		System.out.println(showArray("msat", msat));
-		System.out.println(showArray("msmt", msmt));
-		System.out.println(showArray("msgt", msgt));
+		System.out.println(showArray("mst", mst));
 	}
 }
