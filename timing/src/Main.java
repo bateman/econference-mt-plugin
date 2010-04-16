@@ -94,9 +94,15 @@ public class Main {
 		APERTIUM, GOOGLE, MOSES
 	}
 
+	private static String usage(String prog) {
+		String ret = "Usage: " + prog + "[-s <Service Address>] [-a] [-m] [-g] [-i <Input File>]";
+		return ret;
+	}
+	
 	public static void main(String[] args) throws Exception {
 
-		Getopt g = new Getopt("timing", args, "s:amgi:");
+		String prog = "timing";
+		Getopt g = new Getopt(prog, args, "s:amgi:");
 
 		String service = null;
 		ServiceType type = ServiceType.GOOGLE;
@@ -152,7 +158,6 @@ public class Main {
 		List<String> camp = campiona(strings);
 		
 		List<Long> len = new LinkedList<Long>();
-		
 		List<Long> ms = new LinkedList<Long>();
 		
 		for (String s : camp) {
