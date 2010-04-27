@@ -95,7 +95,10 @@ public class Main {
 	}
 
 	private static String usage(String prog) {
-		String ret = "Usage: " + prog + "[-s <Service Address>] [-a] [-m] [-g] [-i <Input File>]";
+		String ret = "Usage: " + prog + "[-s <Service Address>] [-a] [-m] [-g] [-i <Input File>]\n"
+			+ "\ta:	Use apertium-service;\n"
+			+ "\tm: Use moses-service;\n"
+			+ "\tg: Use google.";
 		return ret;
 	}
 	
@@ -173,7 +176,6 @@ public class Main {
 		String bigger = strings.get(strings.size() - 1);
 		
 		List<Long> threads = new LinkedList<Long>();
-		
 		List<Long> mst = new LinkedList<Long>();
 		
 		for (int i = 1; i <= 8; ++i) {
