@@ -96,7 +96,7 @@ public class Main {
 	}
 
 	private static String usage(String prog) {
-		String ret = "Usage: " + prog + "[-s <Service Address>] [-t <Service Type>] [-i <Input File>]\n"
+		String ret = "Usage: " + prog + "[-s <Service Address>] [-t <Service Type>] [-i <Input File>] [-h]\n"
 			+ "\t<Service Type> can be either \"google\", \"apertium-service\" or \"moses-service\".";
 		return ret;
 	}
@@ -104,7 +104,13 @@ public class Main {
 	public static void main(String[] args) throws Exception {
 
 		String prog = "timing";
-		Getopt g = new Getopt(prog, args, "s:t:i:");
+		
+		if (args.length == 0) {
+			System.out.println(usage(prog));
+			System.exit(-1);
+		}
+		
+		Getopt g = new Getopt(prog, args, "s:t:i:h");
 
 		String service = null;
 		ServiceType type = ServiceType.GOOGLE;
@@ -131,8 +137,11 @@ public class Main {
 			case 'i':
 				input = g.getOptarg();
 				System.out.println("Input set to " + ((input != null) ? input : "null"));
+				break;
+			case 'h':
 			default:
 				System.out.println(usage(prog));
+				System.exit(-1);
 			}
 		}
 
