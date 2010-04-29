@@ -132,7 +132,7 @@ public class Main {
 				input = g.getOptarg();
 				System.out.println("Input set to " + ((input != null) ? input : "null"));
 			default:
-				System.out.println("getopt() returned " + c);
+				System.out.println(usage("timing"));
 			}
 		}
 
