@@ -132,7 +132,7 @@ public class Main {
 				input = g.getOptarg();
 				System.out.println("Input set to " + ((input != null) ? input : "null"));
 			default:
-				System.out.println(usage("timing"));
+				System.out.println(usage(prog));
 			}
 		}
 
@@ -148,8 +148,6 @@ public class Main {
 			instance = null;
 			Translate.setHttpReferrer("http://www.neuralnoise.com");
 			break;
-		default:
-			System.out.println("getopt() returned " + c);
 		}
 
 		//List<String> strings = Utils.getAllSortedStrings();
