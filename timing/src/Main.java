@@ -30,7 +30,8 @@ public class Main {
 				q.setLanguages(LocaleId.fromString(src), LocaleId
 						.fromString(dest));
 
-				int hits = q.query(text);
+				/* int hits = */ 
+				q.query(text);
 
 				// System.out.println("Hits: " + hits);
 
@@ -95,17 +96,15 @@ public class Main {
 	}
 
 	private static String usage(String prog) {
-		String ret = "Usage: " + prog + "[-s <Service Address>] [-a] [-m] [-g] [-i <Input File>]\n"
-			+ "\ta:	Use apertium-service;\n"
-			+ "\tm: Use moses-service;\n"
-			+ "\tg: Use google.";
+		String ret = "Usage: " + prog + "[-s <Service Address>] [-t <Service Type>] [-i <Input File>]\n"
+			+ "\t<Service Type> can be either \"google\", \"apertium-service\" or \"moses-service\".";
 		return ret;
 	}
 	
 	public static void main(String[] args) throws Exception {
 
 		String prog = "timing";
-		Getopt g = new Getopt(prog, args, "s:amgi:");
+		Getopt g = new Getopt(prog, args, "s:t:i:");
 
 		String service = null;
 		ServiceType type = ServiceType.GOOGLE;
@@ -119,14 +118,15 @@ public class Main {
 				service = g.getOptarg();
 				System.out.println("Service set to " + ((service != null) ? service : "null"));
 				break;
-			case 'a':
-				type = ServiceType.APERTIUM;
-				break;
-			case 'm':
-				type = ServiceType.MOSES;
-				break;
-			case 'g':
-				type = ServiceType.GOOGLE;
+			case 't':
+				String t = g.getOptarg().toLowerCase().trim();
+				if (t.equals("google")) {
+					type = ServiceType.GOOGLE;
+				} else if (t.equals("apertium-service")) {
+					type = ServiceType.APERTIUM;
+				} else if (t.equals("moses-service")) {
+					type = ServiceType.MOSES;
+				}
 				break;
 			case 'i':
 				input = g.getOptarg();
