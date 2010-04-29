@@ -68,9 +68,8 @@ public class TranslatePlugin extends AbstractUIPlugin {
 			NetworkPlugin.getDefault().getHelper().registerBackendListener(NetworkPlugin.getDefault().getRegistry().getDefaultBackendId(), listener);
 		}
 		
-		for (ISendMessagelListener listener : sendListeners) {
-			
-		}
+		//for (ISendMessagelListener listener : sendListeners) {
+		//}
 	}
 
 	public void stop(BundleContext context) throws Exception {
@@ -80,9 +79,8 @@ public class TranslatePlugin extends AbstractUIPlugin {
 			NetworkPlugin.getDefault().getHelper().unregisterBackendListener(NetworkPlugin.getDefault().getRegistry().getDefaultBackendId(), listener);
 		}
 		
-		for (ISendMessagelListener listener : sendListeners) {
-			
-		}
+		//for (ISendMessagelListener listener : sendListeners) {
+		//}
 		
 		plugin = null;
 		super.stop(context);
