@@ -1,4 +1,4 @@
-public class Utterance implements Comparable {
+public class Utterance implements Comparable<Object> {
 	
 	public enum Role { 
 		CLIENT("Client"), 

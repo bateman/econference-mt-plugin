@@ -1,5 +1,3 @@
-import org.apertium.api.exceptions.ApertiumXMLRPCClientException;
-
 class Timing extends Thread {
 	
 	private Object connector = null;

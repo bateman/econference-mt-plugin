@@ -1,9 +1,4 @@
-import java.io.UnsupportedEncodingException;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.net.URLConnection;
-import java.net.URLEncoder;
-
+import java.net.*;
 
 public class WordReference {
 	private static final String baseUrl = "http://www.wordreference.com";
