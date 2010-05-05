@@ -1,6 +1,7 @@
 import java.io.*;
 import java.net.URL;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -145,8 +146,6 @@ public class Utils {
             }
             
             String who = csvReader.get(1);
-
-            
             String utterance = csvReader.get(2);
             
             if (turn > 0) {
@@ -197,142 +196,52 @@ public class Utils {
         return uts;
 	}
 	
-	
-	public static void main(String[] args) throws Exception {
-		ApertiumXMLRPCClient a = new ApertiumXMLRPCClient(new URL("http://localhost:6173/RPC2"));
-
-		IQuery qm = new MicrosoftMTConnector();
-		IQuery qg = new GoogleMTConnector();
+	public static List<Result> readResultsCSV(String path, String engine) throws IOException, ParserConfigurationException, SAXException {
+		HashMap<Integer, List<Utterance>> collections = new HashMap<Integer, List<Utterance>>();
+		HashMap<Integer, List<Utterance>> collections_trad = new HashMap<Integer, List<Utterance>>();
 		
-		qm.setLanguages(LocaleId.fromString("en"), LocaleId.fromString("it"));
-		qg.setLanguages(LocaleId.fromString("en"), LocaleId.fromString("it"));
-
-		qm.open();
-		qg.open();
+		for (Integer i = 1; i <= 5; ++i) {
+			List<Utterance> u = readUtterances("./testset/testset_log_" + i + ".xml");
+			List<Utterance> ut = readUtterances("./testset/testset_log_" + i + ".trans." + engine + ".it.xml");
 		
-		for (int i = 1; i <= 5; ++i) {
-			List<Utterance> orig = readCSVnew("testset/testset_log_" + i + ".csv");
-
-			BufferedWriter out = new BufferedWriter(new FileWriter("testset/testset_log " + i + ".xml"));
-			out.write(makeXML(orig));
-			out.close();
-
-			List<Utterance> utterances = readUtterances("testset/testset_log " + i	+ ".xml");
-
-			List<Utterance> newutterancesa = new LinkedList<Utterance>();
-			List<Utterance> newutterancesm = new LinkedList<Utterance>();
-			List<Utterance> newutterancesg = new LinkedList<Utterance>();
+			System.out.println("coll id: " + i + " u: " + u.size() + " ut: " + ut.size());
 			
-			for (Utterance u : utterances) {
-				Utterance nua = u.clona();
-				Utterance num = u.clona();
-				Utterance nug = u.clona();
-				
-				System.out.println(u.getUtterance());
-				
-				nua.setUtterance(a.translate(u.getUtterance(), "en", "it").get("translation"));
-				//num.setUtterance(_translate(u.getUtterance(), qm));
-				//nug.setUtterance(_translate(u.getUtterance(), qg));
-				
-				newutterancesa.add(nua);
-				newutterancesm.add(num);
-				newutterancesg.add(nug);
-			}
-
-			out = new BufferedWriter(new FileWriter("testset/testset_log " + i	+ ".trans.apertium.xml"));
-			out.write(makeXML(newutterancesa));
-			out.close();
-			
-			out = new BufferedWriter(new FileWriter("testset/testset_log " + i	+ ".trans.microsoft.xml"));
-			out.write(makeXML(newutterancesm));
-			out.close();
-			
-			out = new BufferedWriter(new FileWriter("testset/testset_log " + i	+ ".trans.google.xml"));
-			out.write(makeXML(newutterancesg));
-			out.close();
+			collections.put(i, u);
+			collections_trad.put(i, ut);
 		}
+		
+		InputStreamReader isr = new InputStreamReader(new FileInputStream(path));
+        CsvReader csvReader = new CsvReader(isr, ';');
+        
+        List<Result> results = new LinkedList<Result>();
+        
+        Integer entry = 0;
+        
+        while (csvReader.readRecord()) {
+        	if (entry > 0 && csvReader.get(0).length() > 0) {
+        		Integer collId = Integer.parseInt(String.valueOf(csvReader.get(0).charAt(2)));
+        		
+        		Integer r1 = Integer.parseInt(csvReader.get(1));
+        		Integer r2 = Integer.parseInt(csvReader.get(2));
+        		Integer r3 = Integer.parseInt(csvReader.get(3));
+        		Integer r4 = Integer.parseInt(csvReader.get(4));
+        		
+    			Utterance u = collections.get(collId).get(entry - 1);
+    			Utterance tu = collections_trad.get(collId).get(entry - 1);
+    			
+    			Result r = new Result(collId, u, tu, r1, r2, r3, r4);
+    			results.add(r);
+        	}
+        	entry++;
+        }
+        
+        csvReader.close();
+        
+        return results;
 	}
 	
-	public static void _main(String[] args) throws Exception {
-		
-		List<Utterance> orig = readCSV("log.csv");
-		
-		BufferedWriter out = new BufferedWriter(new FileWriter("log.xml"));
-		out.write(makeXML(orig));
-		out.close();
-		
-		List<Utterance> utterances = readUtterances("log.xml");
-		
-		ApertiumXMLRPCClient a = new ApertiumXMLRPCClient(new URL("http://www.neuralnoise.com:6173/RPC2"));
-		
-		//IQuery qes = new GoogleMTConnector();
-		//IQuery qit = new GoogleMTConnector();
-		
-		//qes.setLanguages(LocaleId.fromString("en"), LocaleId.fromString("es"));
-		//qit.setLanguages(LocaleId.fromString("en"), LocaleId.fromString("it"));
-
-		//qes.open();
-		//qit.open();
-		
-		Translate.setHttpReferrer("http://www.neuralnoise.com");
-		
-		List<Utterance> utterancesApertiumEs = new LinkedList<Utterance>();
-		List<Utterance> utterancesApertiumIt = new LinkedList<Utterance>();
-		
-		List<Utterance> utterancesGoogleEs = new LinkedList<Utterance>();
-		List<Utterance> utterancesGoogleIt = new LinkedList<Utterance>();
-		
-		for (Utterance u : utterances) {
-			
-			System.out.println("Translating: " + u.getUtterance());
-			
-			String tradApertiumEs = a.translate(u.getUtterance(), "en", "es").get("translation");
-			System.out.println("Apertium EN -> ES: " + tradApertiumEs);
-			String tradApertiumIt = a.translate(u.getUtterance(), "en", "it").get("translation");
-			System.out.println("Apertium EN -> IT: " + tradApertiumIt);
-			
-			String tradGoogleEs = Translate.execute(u.getUtterance(), Language.ENGLISH, Language.SPANISH);
-			System.out.println("Google EN -> ES: " + tradGoogleEs);
-			String tradGoogleIt = Translate.execute(u.getUtterance(), Language.ENGLISH, Language.ITALIAN);
-			System.out.println("Google EN -> IT: " + tradGoogleIt);
-			
-			//String tradGoogleEs = invokeGoogle(u.getUtterance(), qes);
-			//String tradGoogleIt = invokeGoogle(u.getUtterance(), qit);
-			
-			Utterance uaes = u.clona();
-			Utterance uait = u.clona();
-			
-			uaes.setUtterance(tradApertiumEs);
-			uait.setUtterance(tradApertiumIt);
-			
-			Utterance uges = u.clona();
-			Utterance ugit = u.clona();
-			
-			uges.setUtterance(tradGoogleEs);
-			ugit.setUtterance(tradGoogleIt);
-			
-			utterancesApertiumEs.add(uaes);
-			utterancesApertiumIt.add(uait);
-			
-			utterancesGoogleEs.add(uges);
-			utterancesGoogleIt.add(ugit);
-		}
-		
-		out = new BufferedWriter(new FileWriter("log-apertium-es.xml"));
-		out.write(makeXML(utterancesApertiumEs));
-		out.close();
-		
-		out = new BufferedWriter(new FileWriter("log-apertium-it.xml"));
-		out.write(makeXML(utterancesApertiumIt));
-		out.close();
-		
-		out = new BufferedWriter(new FileWriter("log-google-es.xml"));
-		out.write(makeXML(utterancesGoogleEs));
-		out.close();
-		
-		out = new BufferedWriter(new FileWriter("log-google-it.xml"));
-		out.write(makeXML(utterancesGoogleIt));
-		out.close();
+	public static void main(String[] args) throws Exception {
+		readResultsCSV("./results/AP.csv", "apertium");
 	}
 	
 	public static List<String> getAllSortedStrings() throws ParserConfigurationException, SAXException, IOException {	
