@@ -222,6 +222,10 @@ public class Utils {
         		Integer r3 = Integer.parseInt((csvReader.get(3).equals("") ? "0" : csvReader.get(3)));
         		Integer r4 = Integer.parseInt((csvReader.get(4).equals("") ? "0" : csvReader.get(4)));
 
+        		if (r1 == 0 || r2 == 0 || r3 == 0 || r4 == 0) {
+        			System.err.println("MISSING VALUE IN CL" + collId + ": entry num. " + entries.get(collId));
+        		}
+        		
     			Utterance u = collections.get(collId).get(entries.get(collId));
     			Utterance tu = collections_trad.get(collId).get(entries.get(collId));
     			
@@ -249,12 +253,17 @@ public class Utils {
 		List<Result> ra = readResultsCSV("./results/AP.csv", "apertium");
 		List<Result> rg = readResultsCSV("./results/GT.csv", "google");
 		
-        PrintWriter pw = new PrintWriter(new FileWriter((args.length == 0 ? "/dev/stdout" : args[0])));        
-        CsvWriter w = new CsvWriter(pw, ';');
+        PrintWriter pwa = new PrintWriter(new FileWriter("./comparison/AP.csv"));        
+        CsvWriter wa = new CsvWriter(pwa, ';');
         
-        writeResultsToCSV(ra, w);
+        PrintWriter pwg = new PrintWriter(new FileWriter("./comparison/GT.csv"));        
+        CsvWriter wg = new CsvWriter(pwg, ';');
         
-        w.close();
+        writeResultsToCSV(ra, wa);
+        writeResultsToCSV(rg, wg);
+        
+        wa.close();
+        wg.close();
 	}
 	
 	public static List<String> getAllSortedStrings() throws ParserConfigurationException, SAXException, IOException {	
