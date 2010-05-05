@@ -1,5 +1,4 @@
 import java.io.*;
-import java.net.URL;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -15,12 +14,6 @@ import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 
-import net.sf.okapi.common.LocaleId;
-import net.sf.okapi.connectors.google.GoogleMTConnector;
-import net.sf.okapi.connectors.microsoft.MicrosoftMTConnector;
-import net.sf.okapi.lib.translation.IQuery;
-
-import org.apertium.api.ApertiumXMLRPCClient;
 import org.w3c.dom.DOMImplementation;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -30,8 +23,7 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 import com.csvreader.CsvReader;
-import com.google.api.translate.Language;
-import com.google.api.translate.Translate;
+import com.csvreader.CsvWriter;
 
 public class Utils {
 
@@ -246,8 +238,23 @@ public class Utils {
         return results;
 	}
 	
+	public static void writeResultsToCSV(List<Result> rs, CsvWriter w) throws IOException {
+		for (Result r : rs) {
+			w.writeRecord(new String[] { "CL" + r.collId, r.utterance.getUtterance(), r.translatedUtterance.getUtterance(),
+					r.rater1.toString(), r.rater2.toString(), r.rater3.toString(), r.rater4.toString() });
+		}
+	}
+	
 	public static void main(String[] args) throws Exception {
-		readResultsCSV("./results/AP.csv", "apertium");
+		List<Result> ra = readResultsCSV("./results/AP.csv", "apertium");
+		List<Result> rg = readResultsCSV("./results/GT.csv", "google");
+		
+        PrintWriter pw = new PrintWriter(new FileWriter((args.length == 0 ? "/dev/stdout" : args[0])));        
+        CsvWriter w = new CsvWriter(pw, ';');
+        
+        writeResultsToCSV(ra, w);
+        
+        w.close();
 	}
 	
 	public static List<String> getAllSortedStrings() throws ParserConfigurationException, SAXException, IOException {	
