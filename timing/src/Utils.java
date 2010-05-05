@@ -200,6 +200,8 @@ public class Utils {
 		HashMap<Integer, List<Utterance>> collections = new HashMap<Integer, List<Utterance>>();
 		HashMap<Integer, List<Utterance>> collections_trad = new HashMap<Integer, List<Utterance>>();
 		
+		HashMap<Integer, Integer> entries = new HashMap<Integer, Integer>();
+		
 		for (Integer i = 1; i <= 5; ++i) {
 			List<Utterance> u = readUtterances("./testset/testset_log_" + i + ".xml");
 			List<Utterance> ut = readUtterances("./testset/testset_log_" + i + ".trans." + engine + ".it.xml");
@@ -208,6 +210,8 @@ public class Utils {
 			
 			collections.put(i, u);
 			collections_trad.put(i, ut);
+			
+			entries.put(i, 0);
 		}
 		
 		InputStreamReader isr = new InputStreamReader(new FileInputStream(path));
@@ -221,13 +225,15 @@ public class Utils {
         	if (entry > 0 && csvReader.get(0).length() > 0) {
         		Integer collId = Integer.parseInt(String.valueOf(csvReader.get(0).charAt(2)));
         		
-        		Integer r1 = Integer.parseInt(csvReader.get(1));
-        		Integer r2 = Integer.parseInt(csvReader.get(2));
-        		Integer r3 = Integer.parseInt(csvReader.get(3));
-        		Integer r4 = Integer.parseInt(csvReader.get(4));
-        		
-    			Utterance u = collections.get(collId).get(entry - 1);
-    			Utterance tu = collections_trad.get(collId).get(entry - 1);
+        		Integer r1 = Integer.parseInt((csvReader.get(1).equals("") ? "0" : csvReader.get(1)));
+        		Integer r2 = Integer.parseInt((csvReader.get(2).equals("") ? "0" : csvReader.get(2)));
+        		Integer r3 = Integer.parseInt((csvReader.get(3).equals("") ? "0" : csvReader.get(3)));
+        		Integer r4 = Integer.parseInt((csvReader.get(4).equals("") ? "0" : csvReader.get(4)));
+
+    			Utterance u = collections.get(collId).get(entries.get(collId));
+    			Utterance tu = collections_trad.get(collId).get(entries.get(collId));
+    			
+    			entries.put(collId, entries.get(collId) + 1);
     			
     			Result r = new Result(collId, u, tu, r1, r2, r3, r4);
     			results.add(r);
