@@ -223,7 +223,7 @@ public class Utils {
         		Integer r4 = Integer.parseInt((csvReader.get(4).equals("") ? "0" : csvReader.get(4)));
 
         		if (r1 == 0 || r2 == 0 || r3 == 0 || r4 == 0) {
-        			System.err.println("MISSING VALUE IN CL" + collId + ": entry num. " + entries.get(collId));
+        			System.out.println("MISSING VALUE IN CL" + collId + ": entry num. " + entries.get(collId));
         		}
         		
     			Utterance u = collections.get(collId).get(entries.get(collId));
