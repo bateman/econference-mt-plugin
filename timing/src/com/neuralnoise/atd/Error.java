@@ -18,4 +18,8 @@ public class Error {
 		type = t;
 		url = u;
 	}
+	
+	public Error() {
+		
+	}
 }
