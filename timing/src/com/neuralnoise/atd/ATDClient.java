@@ -16,7 +16,7 @@ import org.xml.sax.SAXException;
 
 public class ATDClient {
 
-	private static final String baseUrl = "http://127.0.0.1:1049";
+	private static final String baseUrl = "http://195.62.234.69:1049";
 	private static final String baseQuery = "/checkDocument?data=%s";
 
 	public static List<Error> getErrors(String text) throws IOException, SAXException, ParserConfigurationException {
