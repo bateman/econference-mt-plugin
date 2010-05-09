@@ -26,17 +26,23 @@ public class Error {
 
 	@Override
 	public String toString() {
-		StringBuilder result = new StringBuilder();
+		StringBuilder ret = new StringBuilder();
 		String NEW_LINE = System.getProperty("line.separator");
 
-		result.append(this.getClass().getName() + " Object {" + NEW_LINE);
-		result.append(" String: " + string + NEW_LINE);
-		result.append(" Description: " + description + NEW_LINE);
-		result.append(" Precontext: " + precontext + NEW_LINE);
-		result.append(" Suggestions: " + suggestions + NEW_LINE);
-		result.append(" Type: " + type + NEW_LINE);
-		result.append("}");
+		ret.append(this.getClass().getName() + " Object {" + NEW_LINE);
+		ret.append(" String: " + string + NEW_LINE);
+		ret.append(" Description: " + description + NEW_LINE);
+		ret.append(" Precontext: " + precontext + NEW_LINE);
+		ret.append(" Suggestions: " + suggestions + NEW_LINE);
+		ret.append(" Type: " + type + NEW_LINE);
+		ret.append("}");
 
-		return result.toString();
+		return ret.toString();
+	}
+	
+	public String getCompact() {
+		StringBuilder ret = new StringBuilder();
+		ret.append("{" + string + "}[" + description + "]");
+		return ret.toString();
 	}
 }
