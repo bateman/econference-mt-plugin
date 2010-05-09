@@ -1,0 +1,44 @@
+coll id: 1 u: 971 ut: 971
+coll id: 2 u: 349 ut: 349
+coll id: 3 u: 762 ut: 762
+coll id: 4 u: 575 ut: 575
+coll id: 5 u: 367 ut: 367
+MISSING VALUE IN CL4: entry num. 475
+coll id: 1 u: 971 ut: 971
+coll id: 2 u: 349 ut: 349
+coll id: 3 u: 762 ut: 762
+coll id: 4 u: 575 ut: 575
+coll id: 5 u: 367 ut: 367
+Stats:
+	Auxiliary Verb Agreement -> 2
+	Passive voice -> 123
+	Complex Expression -> 82
+	Redundant Expression -> 2
+	Missing apostrophe -> 26
+	Repeated Word -> 6
+	Did you mean... -> 43
+	Hyphen Required -> 14
+	Hidden Verbs -> 14
+	Spelling -> 462
+	Diacritical Marks -> 1
+	Make I uppercase -> 145
+	Wrong article -> 4
+	Revise... -> 2
+	Bias Language -> 1
+Stats:
+	Auxiliary Verb Agreement -> 2
+	Passive voice -> 123
+	Complex Expression -> 82
+	Redundant Expression -> 2
+	Missing apostrophe -> 26
+	Repeated Word -> 6
+	Did you mean... -> 43
+	Hyphen Required -> 14
+	Hidden Verbs -> 14
+	Spelling -> 462
+	Diacritical Marks -> 1
+	Make I uppercase -> 145
+	Wrong article -> 4
+	Revise... -> 2
+	Bias Language -> 1
+
