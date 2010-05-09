@@ -264,7 +264,10 @@ public class Utils {
 				}
 			}
 		}
-		System.out.println("Stats: " + stats);
+		System.out.println("Stats:");
+		for (String key : stats.keySet()) {
+			System.out.println("\t" + key + " -> " + stats.get(key));
+		}
 	}
 	
 	public static void main(String[] args) throws Exception {
