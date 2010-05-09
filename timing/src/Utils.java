@@ -24,6 +24,8 @@ import org.xml.sax.SAXException;
 
 import com.csvreader.CsvReader;
 import com.csvreader.CsvWriter;
+import com.neuralnoise.atd.ATDClient;
+import com.neuralnoise.atd.Error;
 
 public class Utils {
 
@@ -232,6 +234,17 @@ public class Utils {
     			entries.put(collId, entries.get(collId) + 1);
     			
     			Result r = new Result(collId, u, tu, r1, r2, r3, r4);
+    			
+    			r.problems = "";
+    			List<com.neuralnoise.atd.Error> errors = ATDClient.getErrors(u.getUtterance());
+    			for (Error e : errors) {
+    				if (r.problems.equals("")) {
+    					r.problems = e.getCompact();
+    				} else {
+    					r.problems = "+" + e.getCompact();
+    				}
+    			}
+    			
     			results.add(r);
         	}
         	entry++;
@@ -245,7 +258,7 @@ public class Utils {
 	public static void writeResultsToCSV(List<Result> rs, CsvWriter w) throws IOException {
 		for (Result r : rs) {
 			w.writeRecord(new String[] { "CL" + r.collId, r.utterance.getUtterance(), r.translatedUtterance.getUtterance(),
-					r.rater1.toString(), r.rater2.toString(), r.rater3.toString(), r.rater4.toString() });
+					r.rater1.toString(), r.rater2.toString(), r.rater3.toString(), r.rater4.toString(), r.problems });
 		}
 	}
 	
