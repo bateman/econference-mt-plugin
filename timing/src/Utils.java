@@ -3,6 +3,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -235,14 +236,9 @@ public class Utils {
     			
     			Result r = new Result(collId, u, tu, r1, r2, r3, r4);
     			
-    			r.problems = "";
     			List<com.neuralnoise.atd.Error> errors = ATDClient.getErrors(u.getUtterance());
     			for (Error e : errors) {
-    				if (r.problems.equals("")) {
-    					r.problems = e.getCompact();
-    				} else {
-    					r.problems = "+" + e.getCompact();
-    				}
+    				r.errors.add(e);
     			}
     			
     			results.add(r);
@@ -256,10 +252,19 @@ public class Utils {
 	}
 	
 	public static void writeResultsToCSV(List<Result> rs, CsvWriter w) throws IOException {
+		Map<String, Integer> stats = new HashMap<String, Integer>();
 		for (Result r : rs) {
 			w.writeRecord(new String[] { "CL" + r.collId, r.utterance.getUtterance(), r.translatedUtterance.getUtterance(),
-					r.rater1.toString(), r.rater2.toString(), r.rater3.toString(), r.rater4.toString(), r.problems });
+					r.rater1.toString(), r.rater2.toString(), r.rater3.toString(), r.rater4.toString(), r.getErrors() });
+			for (com.neuralnoise.atd.Error e : r.errors) {
+				if (stats.containsKey(e.description)) {
+					stats.put(e.description, stats.get(e.description) + 1);
+				} else {
+					stats.put(e.description, 1);
+				}
+			}
 		}
+		System.out.println("Stats: " + stats);
 	}
 	
 	public static void main(String[] args) throws Exception {
