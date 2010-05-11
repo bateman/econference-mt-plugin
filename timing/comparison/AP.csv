@@ -30,13 +30,13 @@ CL2;I think Neal is still coming.;Opino Neal ancora sta venendo.;3;2;3;2;
 CL2;I don;Io *don;1;1;4;1;
 CL2;'t know where he is.;'*t Sapere dove è.;1;1;2;2;
 CL2;He should be in the same room I'm in, but I don't see him.;Dovrebbe essere in la stessa sala sono @in, ma non gli vedo.;4;2;3;3;{should be}[Passive voice]
-CL2;clarkn is neal;*clarkn È *neal;1;1;3;1;+{neal}[Spelling]
+CL2;clarkn is neal;*clarkn È *neal;1;1;3;1;{clarkn}[Spelling]+{neal}[Spelling]
 CL2;Yeah, I know.;Sì, so.;2;1;1;2;
 CL2;jchiang is jack;*jchiang È *jack;1;1;1;1;{jchiang}[Spelling]
 CL2;But he's not saying anything.;Ma non sta dicendo #qualsiasi cosa.;3;2;2;3;
 CL2;I think I saw him in anoother room;Opino #que gli vidi in *anoother sala;4;3;3;3;{anoother}[Spelling]
 CL2;Nor is he in this room.;Né è lui @in questa sala.;3;2;1;1;
-CL2;chenl is Ryan@group6;*chenl È @Ryan@group6;1;1;1;1;+{Ryangroup6}[Spelling]
+CL2;chenl is Ryan@group6;*chenl È @Ryan@group6;1;1;1;1;{chenl}[Spelling]+{Ryangroup6}[Spelling]
 CL2;Oh, really?;@Oh, realmente?;2;1;1;2;
 CL2;neal is not facing computer;*neal Non sta affrontando computer;4;2;2;3;{neal}[Spelling]
 CL2;Well, he's not typing, at least.;Bene, non sta scrivendo, almeno.;1;2;1;1;
@@ -48,7 +48,7 @@ CL2;but i think we are still waiting for someone;Ma *i opina ancora stiamo aspet
 CL2;where is andrew;Dove è *andrew;1;1;1;1;{andrew}[Spelling]
 CL2;the list looks a little short;La lista pare un #poco basso;3;2;3;2;
 CL2;Andrew, right.;Andrew, bene.;1;1;2;2;
-CL2;whos mcknightp?;*whos *mcknightp?;4;1;4;4;+{whos}[Missing apostrophe]
+CL2;whos mcknightp?;*whos *mcknightp?;4;1;4;4;{whos}[Spelling]+{mcknightp}[Spelling]+{whos}[Missing apostrophe]
 CL2;don't know but he is sittting next to me;Non sa ma è *sittting prossimo a me;3;2;3;3;{sittting}[Spelling]
 CL2;Hi Im Pat a developer from Group 1;Ciao *Im *Pat Un @developer di Gruppo 1;2;2;1;3;
 CL2;He's an interloper.;È un @interloper.;3;3;2;2;
@@ -75,16 +75,16 @@ CL2;ok;ok;1;1;1;1;
 CL2;the users of the system will need to connect from a large number of different locations;Gli utenti d'il sistema necessiteranno connettere d'un numero grande di ubicazioni differenti;3;2;2;3;{a large number of}[Complex Expression]
 CL2;So web access but not a web page?;Tanto accesso di ragnatela ma non una pagina di ragnatela?;4;4;4;4;
 CL2;exactly,;Esattamente,;1;1;1;1;
-CL2;we are looking for a desktop applicaitons, where the load of running the system is spread amongst the connected clients;Stiamo buscando un *desktop *applicaitons, dove la carica di correre il sistema è diffuso tra i clienti connessi;4;3;3;4;+{amongst}[Complex Expression]
-CL2;yes...not a web page..its a actual program;Sì...Non una pagina di ragnatela..Il suo un programma reale;4;3;3;4;+{a actual}[Wrong article]
+CL2;we are looking for a desktop applicaitons, where the load of running the system is spread amongst the connected clients;Stiamo buscando un *desktop *applicaitons, dove la carica di correre il sistema è diffuso tra i clienti connessi;4;3;3;4;{applicaitons}[Spelling]+{is spread}[Passive voice]+{amongst}[Complex Expression]
+CL2;yes...not a web page..its a actual program;Sì...Non una pagina di ragnatela..Il suo un programma reale;4;3;3;4;{yesnot}[Spelling]+{pageits}[Spelling]+{a actual}[Wrong article]
 CL2;the users are albe to view the cal via the webpage;Gli utenti sono *albe per vedere il *cal @via il *webpage;1;2;4;4;{albe}[Spelling]
 CL2;so this will be a client application which sends and receives information to and from the web server?;@So questo sarà una applicazione di cliente #che invia e riceve informazione a e d'il @server di ragnatela?;3;3;3;3;
 CL2;yes;Sì;1;1;1;1;
 CL2;but that is not where the information is stored;Ma che non è dove il informazione è @store;4;2;4;4;{is stored}[Passive voice]
-CL2;public information will be posted to a webserver;Il informazione pubblico sarà *posted a un *webserver;4;2;3;3;+{will be posted}[Passive voice]
+CL2;public information will be posted to a webserver;Il informazione pubblico sarà *posted a un *webserver;4;2;3;3;{webserver}[Spelling]+{will be posted}[Passive voice]
 CL2;all the infomation just store locally,;#Tutto il *infomation negozio giusto localmente,;4;4;4;4;{infomation}[Spelling]
 CL2;on the various cleint machines;In il @various *cleint macchine;4;2;4;4;{cleint}[Spelling]
-CL2;information you are permitted to view is stored on the local client computer;Informazione sei *permitted a la #vista è @store nel computer di cliente locale;4;3;3;4;+{is stored}[Passive voice]
+CL2;information you are permitted to view is stored on the local client computer;Informazione sei *permitted a la #vista è @store nel computer di cliente locale;4;3;3;4;{are permitted}[Passive voice]+{is stored}[Passive voice]
 CL2;So if someone is not online how can someone else invite them to a meeting?;Tanto se qualcuno non è on-line come può qualcuno più li invita a una riunione?;3;3;3;4;
 CL2;?;?;1;1;1;1;
 CL2;this software is not a meeting software, it is a calendar applicaiton;Questo software non è un software di riunione, è un calendario *applicaiton;1;1;2;2;{applicaiton}[Spelling]
@@ -93,7 +93,7 @@ CL2;I'm offline and so is my schedule;Sono off-line e @so è il mio orario;4;2;3
 CL2;you need to schedule me for a meeting;Necessiti @schedule per una riunione;4;2;2;3;
 CL2;how do you know my schedule?;Come  sai il mio orario?;3;1;2;1;
 CL2;email notice will be sent;Avviso di e-mail sarà inviato;2;1;1;2;{will be sent}[Passive voice]
-CL2;well the informaiton will be stored on other client computers, for example if a manager puts out a meeting schedule it will be send to everyone in the meeting;Bene il *informaiton sarà @store in altri computers di cliente, per esempio se un direttore pone fuori una riunione lo @schedule sarà inviare a #tutti quanti nella riunione;4;3;2;3;+{for example}[Complex Expression]
+CL2;well the informaiton will be stored on other client computers, for example if a manager puts out a meeting schedule it will be send to everyone in the meeting;Bene il *informaiton sarà @store in altri computers di cliente, per esempio se un direttore pone fuori una riunione lo @schedule sarà inviare a #tutti quanti nella riunione;4;3;2;3;{informaiton}[Spelling]+{will be stored}[Passive voice]+{for example}[Complex Expression]
 CL2;the computers in our organization are left running all night so uptime is not a big consideration;I computers in la nostra organizzazione restano correre #tutto notte tanto *uptime non è una considerazione grande;4;3;3;3;
 CL2;And the person can retrieve the info when they log on, and such.;E la persona può recuperare il *info quando #prpers *log addirittura, e #tale.;4;3;3;4;
 CL2;ok what about, laptops and buisness trips?;ok Che approssimativamente, @laptop e *buisness viaggi?;3;4;3;3;{buisness}[Spelling]
@@ -106,15 +106,15 @@ CL2;and affected users can give feedback on the proposed schedule;E gli utenti i
 CL2;Essentially, it should check both at login and periodically to see if anything has changed, and if so, get the new information.;Essenzialmente, dovrebbe verificare entrambi in *login e periodicamente per vedere se #qualsiasi cosa ha cambiato, e se tanto, ricevere il informazione nuovo.;3;2;2;3;
 CL2;It's a continuous process.;È un processo continuo.;1;1;1;1;
 CL2;exactly;Esattamente;1;1;1;1;
-CL2;The RFP mentioned that documents are often sent out to be read prior to a meeting.  Does the application need to distribute the documents, or will they be sent out by email?;Il *RFP menzionò che i documenti sono spesso inviato fuori per essere letto previo a una riunione.  Fa la necessità di applicazione per distribuire i documenti, o  #prpers essere inviato fuori per e-mail?;4;3;3;4;+{be sent}[Hidden Verbs]
+CL2;The RFP mentioned that documents are often sent out to be read prior to a meeting.  Does the application need to distribute the documents, or will they be sent out by email?;Il *RFP menzionò che i documenti sono spesso inviato fuori per essere letto previo a una riunione.  Fa la necessità di applicazione per distribuire i documenti, o  #prpers essere inviato fuori per e-mail?;4;3;3;4;{to be}[Passive voice]+{be sent}[Hidden Verbs]
 CL2;you can upload the document;Puoi *upload il documento;3;2;2;3;
 CL2;The application will distribute them with the meeting notice, kind of like an email attachment.;La applicazione li distribuirà con il avviso di riunione, classe di come un attaccamento di e-mail.;4;2;3;3;
-CL2;yes, it does need to distribute documens and no they will not be sent out by email;Sì, necessita per distribuire *documens e nessun non saranno inviati fuori per e-mail;4;3;2;4;+{will not be}[Passive voice]
+CL2;yes, it does need to distribute documens and no they will not be sent out by email;Sì, necessita per distribuire *documens e nessun non saranno inviati fuori per e-mail;4;3;2;4;{documens}[Spelling]+{will not be}[Passive voice]
 CL2;email notice will be send;Avviso di e-mail sarà inviare;3;2;2;3;
 CL2;like an attachment;Come un attaccamento;3;2;2;3;
 CL2;just email notice;Avviso di e-mail giusta;3;3;2;3;
 CL2;for important items only;Per elementi importanti #solo;1;1;1;2;
-CL2;the user should be able to select if they want an email sent, in general it will not be necessary as the calendar will display the updates;Il utente dovrebbe essere capace di @select se vogliono una e-mail inviò, in generale non sarà necessario come il calendario mostrerà gli aggiornamenti;4;2;3;3;+{will not be}[Passive voice]
+CL2;the user should be able to select if they want an email sent, in general it will not be necessary as the calendar will display the updates;Il utente dovrebbe essere capace di @select se vogliono una e-mail inviò, in generale non sarà necessario come il calendario mostrerà gli aggiornamenti;4;2;3;3;{should be}[Passive voice]+{will not be}[Passive voice]
 CL2;ok, we should probably move on;ok, probabilmente dovremmo spostare addirittura;3;3;3;4;
 CL2;What kinds of user permissions will the system need?;Che classi di permessi di utente  la necessità di sistema?;4;3;2;3;
 CL2;either set the cal event to private or public;Neanche messo il *cal evento a privato o pubblico;3;3;2;4;
@@ -122,16 +122,16 @@ CL2;Well, you should be able to define an arbitrary number of user permissions a
 CL2;I believe.;Credo.;1;1;1;1;
 CL2;and depends on the group which you choose;E dipende nel gruppo #che scegli;2;1;1;2;
 CL2;they system will need a role based permission system, where by and arbitrary number of rolls can be created and assigned to various users;#Prpers il sistema necessiterà un ruolo sistema di permesso basato, dove per e il numero arbitrario di @roll può essere creato e assegnato a @various utenti;4;3;3;4;{can be}[Passive voice]
-CL2;for example managers should be able to schedule meetings for the staff they manage;Per esempio i direttori dovrebbero essere capaci di @schedule riunioni per il #personale dirigono;3;2;2;3;+{should be}[Passive voice]
-CL2;or request a meeting with people from other departemnts;O chiedere una riunione con gente di altro *departemnts;1;1;2;2;+{request}[Complex Expression]
+CL2;for example managers should be able to schedule meetings for the staff they manage;Per esempio i direttori dovrebbero essere capaci di @schedule riunioni per il #personale dirigono;3;2;2;3;{for example}[Complex Expression]+{should be}[Passive voice]
+CL2;or request a meeting with people from other departemnts;O chiedere una riunione con gente di altro *departemnts;1;1;2;2;{departemnts}[Spelling]+{request}[Complex Expression]
 CL2;Essentially, the system will have a various set of things people can do.;Essenzialmente, il sistema avrà un @various insieme di gente di cose può fare.;4;3;3;3;
 CL2;And you can derive user classes from that set.;E puoi derivare classi di utente di quello insieme.;4;2;2;2;
-CL2;for example, the manger always has permission to do , update, edit, delete the schedule;Per esempio, il *manger sempre ha permesso per fare , aggiornamento, #redigere, eliminare il orario;3;2;2;2;+{delete}[Complex Expression]
-CL2;a mail clerk for exampel should not be able to change the time or a meeting or schedule a meeting;Un impiegato di posta per *exampel non dovrebbe essere capace di cambiare il tempo o una riunione o @schedule una riunione;2;2;2;3;+{should not be}[Passive voice]
+CL2;for example, the manger always has permission to do , update, edit, delete the schedule;Per esempio, il *manger sempre ha permesso per fare , aggiornamento, #redigere, eliminare il orario;3;2;2;2;{for example}[Complex Expression]+{delete}[Complex Expression]
+CL2;a mail clerk for exampel should not be able to change the time or a meeting or schedule a meeting;Un impiegato di posta per *exampel non dovrebbe essere capace di cambiare il tempo o una riunione o @schedule una riunione;2;2;2;3;{exampel}[Spelling]+{should not be}[Passive voice]
 CL2;or payroll accountant can't change time :);O contabile di @payroll non può cambiare tempo :);4;2;2;3;
 CL2;Will certain users have higher priority permissions? For example, if one manager changes a schedule could another manager override the edit, or modify a calendar entry made by another user?;gli utenti sicuri hanno permessi di priorità più alta? Per esempio, se @one direttore cambia un orario potrebbe un altro direttore *override il #redigere, o modificare una entrata di calendario fatta per un altro utente?;4;3;2;3;{modify}[Complex Expression]
 CL2;but the hr people can put out a schedule for all staff under thier control;Ma il *hr la gente può porre fuori un orario per #tutto i  personali sotto *thier controllo;3;2;2;4;{thier}[Spelling]
-CL2;but for tiems like that the person scheduled can request that their schedule be changed;Ma per *tiems piace che la persona @schedule può chiedere che il suo orario essere cambiato;4;3;4;4;+{request}[Complex Expression]
+CL2;but for tiems like that the person scheduled can request that their schedule be changed;Ma per *tiems piace che la persona @schedule può chiedere che il suo orario essere cambiato;4;3;4;4;{tiems}[Spelling]+{request}[Complex Expression]
 CL2;I believe that people above someone in the hierarchy can affect people below them, but people can't affect others in the same level of the hierarchy.;Credo che gente sopra qualcuno nella gerarchia può influire gente sotto loro, ma la gente non può influire altri in lo stesso livello della gerarchia.;3;2;1;3;
 CL2;Unless the person explicitly gives them permission to do so.;A meno che la persona esplicitamente li dà permesso per fare tanto.;3;2;1;3;
 CL2;have to negociate before change~~~;Deve *negociate prima di cambio;4;3;2;2;{negociate}[Spelling]
@@ -142,12 +142,12 @@ CL2;when scheduling the system takes requests into consideration;Quando @schedul
 CL2;ok;ok;1;1;1;1;
 CL2;hold up a sec please;Controllo @up un *sec piacere;4;3;4;4;
 CL2;Permissions;Permessi;1;1;1;1;
-CL2;Do you need mutlilevel premissions for each person in the tree?;Necessiti *mutlilevel *premissions per ogni persona nell'albero?;2;2;2;2;+{premissions}[Spelling]
+CL2;Do you need mutlilevel premissions for each person in the tree?;Necessiti *mutlilevel *premissions per ogni persona nell'albero?;2;2;2;2;{mutlilevel}[Spelling]+{premissions}[Spelling]
 CL2;"What do you mean by ""multilevel permissions""?";"Cosa  significhi per ""*multilevel permessi""?";3;2;2;3;
 CL2;what do you mean?;Cosa  significhi?;3;2;2;2;
 CL2;yes;Sì;1;1;1;1;
-CL2;a manager can only modify thoes under him;Un direttore #solo può modificare *thoes sotto lui;3;2;1;1;+{modify}[Complex Expression]
-CL2;and he is granted his permissions by a administrator;E è conceduto i suoi permessi per un amministratore;4;3;3;3;+{a administrator}[Wrong article]
+CL2;a manager can only modify thoes under him;Un direttore #solo può modificare *thoes sotto lui;3;2;1;1;{thoes}[Spelling]+{modify}[Complex Expression]
+CL2;and he is granted his permissions by a administrator;E è conceduto i suoi permessi per un amministratore;4;3;3;3;{is granted}[Passive voice]+{a administrator}[Wrong article]
 CL2;ok;ok;1;1;1;1;
 CL2;can a manager have two or more priority levels?;Può un direttore ha due o @more livelli di priorità?;4;2;2;3;
 CL2;rolls are set up my administrators and then assigned to the staff;#Il @roll sono #montare i miei amministratori e #allora assegnato a il #personale;4;3;4;3;{are set}[Passive voice]
@@ -162,7 +162,7 @@ CL2;Oh, right, that makes sense.;@Oh, bene, che fa senso.;4;2;2;4;
 CL2;I guess that you could organize it in a tree structure.;Indovino che lo potresti organizzare in una struttura di albero.;2;2;2;3;
 CL2;Where everyone below someone can have something scheduled by the person above them.;Dove #tutti quanti sotto qualcuno può avere #alcunché @schedule per la persona sopra loro.;4;3;2;4;
 CL2;I thought the permission is associated with each event,;Opinai #que il permesso è associato con ogni evento,;3;3;2;3;{is associated}[Passive voice]
-CL2;he can request that other people not under his controll attend a meeting put he has to request their presence and they have to accept before they can be added to the meeting;Può chiedere che altra gente non sotto il suo *controll frequentare una riunione pose deve chiedere la sua presenza e #prpers devono accettare prima che possono essere aggiunti alla riunione;4;3;3;3;+{can be}[Passive voice]
+CL2;he can request that other people not under his controll attend a meeting put he has to request their presence and they have to accept before they can be added to the meeting;Può chiedere che altra gente non sotto il suo *controll frequentare una riunione pose deve chiedere la sua presenza e #prpers devono accettare prima che possono essere aggiunti alla riunione;4;3;3;3;{controll}[Spelling]+{request}[Complex Expression]+{request}[Complex Expression]+{can be}[Passive voice]
 CL2;they can also schedule their own events as long as they don't conflict;Anche possono @schedule i suoi eventi proprii tanto @long secondo #prpers  non conflitto;4;3;4;4;
 CL2;ie, work on project A until such a time, then work on project B;*ie, lavoro in progetto Un #fino tale tempo, allora lavoro in progetto *B;4;3;2;3;
 CL2;So in that case, the programmers would be below the person and so would the other team.;Tanto in quello caso, i @programmer sarebbero sotto la persona e @so  la altra squadra.;4;3;3;3;
@@ -180,7 +180,7 @@ CL2;depends what kind of job he has;Dipende che classe di lavoro ha;2;1;1;2;
 CL2;k;*k;4;1;1;4;
 CL2;He'd only be able to affect those below him, unless others give him explicit ability to do otherwise.;#Solo sarebbe capace di influire quelli sotto lui, a meno che altri gli danno abilità esplicita per fare in altro modo.;3;2;2;3;
 CL2;instead of permission levels i like the idea of roles;@Instead of livelli di permesso *i come la idea di ruoli;4;3;4;4;{i}[Make I uppercase]
-CL2;that can be assigned and expire when a task is finished;Quello può essere assegnato e *expire quando un lavoro è finito;4;3;2;3;+{is finished}[Passive voice]
+CL2;that can be assigned and expire when a task is finished;Quello può essere assegnato e *expire quando un lavoro è finito;4;3;2;3;{can be}[Passive voice]+{is finished}[Passive voice]
 CL2;yes, I agree the roles concept makes more sense;Sì, accordo #que il concetto di ruoli fa @more senso;4;3;2;3;
 CL2;Well, you could do roles in a tree structure, just a temporary one.;Bene, potresti fare ruoli in una struttura di albero, giusto un provvisorio @one.;4;2;2;3;
 CL2;It's just that it'd be hard to model relationships between employees otherwise.;È giusto che sarebbe duro a relazioni di modello tra impiegati in altro modo.;4;4;4;4;
@@ -198,7 +198,7 @@ CL2;Ah, so roles would be sort of a grouping mechanism, then.;*Ah, tanto i ruoli
 CL2;exactly;Esattamente;1;1;1;1;
 CL2;I think this is better then what we had before;Opino #que questo è #migliore #allora #quanto avemmo prima;3;3;3;4;{better then}[Did you mean...]
 CL2;So, you'd have groups of people, and you'd have different level within groups?;Tanto, avresti gruppi di gente, e avresti livello differente dentro gruppi?;2;2;3;3;
-CL2;if someone is assigned a mananement role they may be able to create new roles and assign anyone under them to that role;Se qualcuno è assegnato un *mananement ruolo @may essere capaci di creare ruoli nuovi e assegnare qualunque sotto loro a quello ruolo;3;3;3;3;+{may be}[Passive voice]
+CL2;if someone is assigned a mananement role they may be able to create new roles and assign anyone under them to that role;Se qualcuno è assegnato un *mananement ruolo @may essere capaci di creare ruoli nuovi e assegnare qualunque sotto loro a quello ruolo;3;3;3;3;{mananement}[Spelling]+{is assigned}[Passive voice]+{may be}[Passive voice]
 CL2;That makes sense to me.;Quello fa senso a me.;4;3;2;3;
 CL2;Yeah.;Sì.;1;1;1;1;
 CL2;isn't there a potential for circular logic though?;Non è lì una potenzialità per logica @circular @though?;4;4;3;4;
@@ -217,19 +217,19 @@ CL2;i think we're getting a little caught up in the details here anyway;*i Opina
 CL2;yep;*yep;4;1;1;4;
 CL2;agreed;Accordato;1;1;1;2;
 CL2;So, are you going to need some sort of revision control system?;Tanto, ti è andando per necessitare alcuna classe di sistema di controllo d'il @revision?;4;4;3;4;
-CL2;as far as version controll goes only the version that was used is important;Tanto lontano come versione *controll va #solo la versione che fu usata è importante;4;3;3;4;+{was used}[Passive voice]
+CL2;as far as version controll goes only the version that was used is important;Tanto lontano come versione *controll va #solo la versione che fu usata è importante;4;3;3;4;{controll}[Spelling]+{was used}[Passive voice]
 CL2;if it didn't happen its not important;Se non passò il suo non importante;4;2;4;4;{its not}[Did you mean...]
 CL2;with multiple users updating the schedule there seems to be vast potential for version conflicts;Con gli utenti multipli #que aggiornano il orario lì pare per essere potenzialità @vast per conflitti di versione;4;3;3;4;{to be}[Passive voice]
 CL2;no because they can't update existing items;Nessun perché non possono aggiornare esistendo elementi;4;3;3;4;
 CL2;and plus managers have the final say;E direttori di @plus hanno la #finale dice;4;3;4;4;{final}[Complex Expression]
 CL2;which the high priority;#Quale la priorità alta;3;2;2;2;
 CL2;only certain level can do so;Il livello sicuro unico può fare tanto;4;3;3;4;
-CL2;it's be coverd in previous topic;È essere *coverd in tema anteriore;4;3;3;4;+{previous}[Complex Expression]
-CL2;so a person witht he manager role can edit these docs and thats it?;@So una persona *witht lui ruolo di direttore può #redigere questo *docs e *thats lo?;4;3;3;3;+{thats}[Missing apostrophe]
+CL2;it's be coverd in previous topic;È essere *coverd in tema anteriore;4;3;3;4;{coverd}[Spelling]+{previous}[Complex Expression]
+CL2;so a person witht he manager role can edit these docs and thats it?;@So una persona *witht lui ruolo di direttore può #redigere questo *docs e *thats lo?;4;3;3;3;{witht}[Spelling]+{thats}[Missing apostrophe]
 CL2;the docs will be more notices;Il *docs sarà @more avvisi;4;3;3;3;
 CL2;it read this before the meeting;Lesse questo prima della riunione;3;2;2;2;
 CL2;or here are the notes for the meeting;O #lì è le note per la riunione;3;2;3;4;
-CL2;well, everybodys schedual gets distributed to trier machine;Bene, *everybodys *schedual riceve distribuito a *trier macchina;4;3;4;4;+{trier}[Spelling]
+CL2;well, everybodys schedual gets distributed to trier machine;Bene, *everybodys *schedual riceve distribuito a *trier macchina;4;3;4;4;{everybodys}[Spelling]+{schedual}[Spelling]+{trier}[Spelling]
 CL2;ok, just clearing that up;ok, giusto liquidando che sopra;4;4;4;4;
 CL2;so that's the schedyal that matters, right?;In modo che è il *schedyal che materie, bene?;4;4;4;4;{schedyal}[Spelling]
 CL2;schedule;Orario;3;1;1;1;
@@ -240,12 +240,12 @@ CL2;no worries;Nessuna preoccupazione;1;2;1;1;
 CL2;next please...time is flying;Prossimo piacere...Il tempo sta volando;2;2;3;3;{pleasetime}[Spelling]
 CL2;yep;*yep;4;1;1;4;
 CL2;ok all there really is for this is the following;ok Tutto lì realmente è per questo è il seguente;4;3;4;4;
-CL2;rols can edit for thoes under them;*rols Può #redigere per *thoes sotto loro;3;3;3;4;+{thoes}[Spelling]
+CL2;rols can edit for thoes under them;*rols Può #redigere per *thoes sotto loro;3;3;3;4;{rols}[Spelling]+{thoes}[Spelling]
 CL2;a user can request that the schedule be changed;Un utente può chiedere che il orario essere cambiato;3;2;2;3;{request}[Complex Expression]
 CL2;the role manager can then run a feature to optimize the requests;Il direttore di ruolo può #allora corso una caratteristica per ottimizzare le richieste;4;3;2;4;
 CL2;and find the best schedule;E trovare il orario #migliore;2;2;2;2;
-CL2;when teh schedule has been modified, email notice sends out to everyone related in the schedule;Quando *teh il orario ha stato modificato, avviso di e-mail invia fuori a #tutti quanti relazionato nell'orario;4;2;3;4;+{has been modified}[Passive voice]
-CL2;i guess we will need various event types, tentative, firm, etc etc;*i Supposizione necessiteremo @various tipi di evento, *tentative, impresa, etc etc;4;2;2;4;+{i}[Make I uppercase]
+CL2;when teh schedule has been modified, email notice sends out to everyone related in the schedule;Quando *teh il orario ha stato modificato, avviso di e-mail invia fuori a #tutti quanti relazionato nell'orario;4;2;3;4;{teh}[Spelling]+{has been modified}[Passive voice]
+CL2;i guess we will need various event types, tentative, firm, etc etc;*i Supposizione necessiteremo @various tipi di evento, *tentative, impresa, etc etc;4;2;2;4;{etc etc}[Repeated Word]+{i}[Make I uppercase]
 CL2;good idea;Idea buona;1;1;1;2;
 CL2;actually their calendar is updated;Di fatto il suo calendario è aggiornato;3;1;2;1;{is updated}[Passive voice]
 CL2;a request can get sent to a manager to change a meeting, or to HR to change the base schedule;Una richiesta può ricevere inviata a un direttore per cambiare una riunione, o a *HR per cambiare il orario di base;4;2;3;4;
@@ -289,7 +289,7 @@ CL2;is that optional?;È che opzionale?;4;3;3;4;
 CL2;no;Non;4;2;1;3;
 CL2;must;@Must;4;4;4;4;
 CL2;well its not all that important;Bene il suo non #tutto quello importante;4;3;3;4;{its not}[Did you mean...]
-CL2;i would rather get all of the scheduling stuff in there first;*i Abbastanza riceverebbe tutto della materia di @schedule in lì primo;4;3;4;4;+{all of the}[Complex Expression]
+CL2;i would rather get all of the scheduling stuff in there first;*i Abbastanza riceverebbe tutto della materia di @schedule in lì primo;4;3;4;4;{i}[Make I uppercase]+{all of the}[Complex Expression]
 CL2;This sort of thing would be a feature added once the meat of the project is finished.;Questa classe di cosa sarebbe una caratteristica aggiunse @once la carne del progetto è finita.;4;3;4;3;{is finished}[Passive voice]
 CL2;It's not something that would doom the project without it.;Non è #alcunché che  @doom il progetto senza esso.;4;2;3;3;
 CL2;exactly;Esattamente;1;1;1;1;
@@ -297,7 +297,7 @@ CL2;nothing;#Niente;1;1;1;1;
 CL2;bye;arrivederci;1;1;1;1;{bye}[Did you mean...]
 CL2;re we done???;*re #Prpers fatto???;4;2;2;4;{re}[Complex Expression]
 CL2;not that i can think of;Non che *i può opinare di;4;3;3;4;{i}[Make I uppercase]
-CL2;Yes, there should be an Easter Egg where a giant stack of calendars falls on Clippy.;Sì, dovrebbe #haber un Uovo di pasqua dove un #gigante *stack di cadute di calendari in *Clippy.;4;3;4;4;+{should be}[Passive voice]
+CL2;Yes, there should be an Easter Egg where a giant stack of calendars falls on Clippy.;Sì, dovrebbe #haber un Uovo di pasqua dove un #gigante *stack di cadute di calendari in *Clippy.;4;3;4;4;{Clippy}[Spelling]+{should be}[Passive voice]
 CL2;Did I miss anything important in the notes on the side?;Manco #qualsiasi cosa importante nelle note in il lato?;4;2;3;4;
 CL2;ye, we done;*ye, #prpers fatto;4;2;2;4;
 CL2;other than the fact it must be able to connect users around the world;Oltre al fatto @must essere capace di connettere utenti intorno al mondo;4;2;2;2;{must be}[Passive voice]
@@ -305,12 +305,12 @@ CL2;I can't think of anything.;Non posso opinare di #qualsiasi cosa.;2;2;3;3;
 CL2;so that it doesn't rely on a local lan;In modo che non affida in un locale *lan;4;3;3;2;
 CL2;but that is about it;Ma che è sopra esso;2;2;4;3;
 CL2;do you have any other questions;Hai #qualunque altre questioni;3;2;2;2;
-CL2;jxta.org has good networking libraries for p2p;*jxta.*org Ha bene *networking biblioteche per *p2*p;4;3;2;3;+{p2p}[Spelling]
+CL2;jxta.org has good networking libraries for p2p;*jxta.*org Ha bene *networking biblioteche per *p2*p;4;3;2;3;{jxtaorg}[Spelling]+{p2p}[Spelling]
 CL2;but you don't have to use it;Ma non lo devi usare;1;1;1;1;
 CL2;I think that covers it for now;Opino che coperte lui per ora;4;2;3;4;
 CL2;anything else, Pat?;#Qualsiasi cosa più, *Pat?;4;2;2;3;
 CL2;I think I'm going to ask Neil a couple of things but I think that wraps it up;Opino #que vado a domandare Neil una coppia di le cose ma io opinano quello lo avvolge sopra;4;3;4;4;
-CL2;have you ever seen tacky macromedias personal assistant for dreamweaver;Ti ha mai veduto *tacky *macromedias aiutante personale per *dreamweaver;4;2;4;4;+{dreamweaver}[Spelling]
+CL2;have you ever seen tacky macromedias personal assistant for dreamweaver;Ti ha mai veduto *tacky *macromedias aiutante personale per *dreamweaver;4;2;4;4;{macromedias}[Spelling]+{dreamweaver}[Spelling]
 CL2;well, thanks guys, I guess we're done;Bene, grazie tipi, indovino siamo #fare;4;3;4;4;
 CL2;yep;*yep;4;1;1;4;
 CL2;Thanks you all;Grazie ti Tutto;4;3;2;4;
@@ -326,16 +326,16 @@ CL2;LOL have a good weekend guys :);*LOL Ha dei tipi di fine settimana buoni :);
 CL2;haha..;*haha..;4;1;1;1;
 CL2;oh the system has to work on linux, mac and windows;@oh Il sistema deve lavorare in *linux, *mac e finestre;4;2;2;3;{linux}[Spelling]
 CL2;just to make it fun for you guys;Giusto per farlo divertito per te tipi;4;3;4;4;
-CL2;but i think that is in the rfp alread;Ma *i opinare quello è nel *rfp *alread;4;3;4;4;+{i}[Make I uppercase]
+CL2;but i think that is in the rfp alread;Ma *i opinare quello è nel *rfp *alread;4;3;4;4;{rfp}[Spelling]+{alread}[Spelling]+{i}[Make I uppercase]
 CL2;y;*y;4;1;1;4;
 CL2;yep;*yep;4;1;1;4;
 CL2;"and unix 
  it has to work on thhe solaris machines";"E *unix 
- deve lavorare in *thhe *solaris macchine";1;2;1;4;+{solaris}[Spelling]
+ deve lavorare in *thhe *solaris macchine";1;2;1;4;{unix}[Spelling]+{thhe}[Spelling]+{solaris}[Spelling]
 CL2;and if you are not carefull xbox as well;E se non sei *carefull *xbox anche;4;2;4;3;{xbox}[Spelling]
 CL2;oh;@oh;1;1;1;1;
 CL2;build prototypes for ps3;Prototipi di @build per *ps3;4;3;4;2;{ps3}[Spelling]
-CL2;i have a mac powerbook G3 running yellow dog linux, it shoudl run on that too;*i Ha un *mac *powerbook *G3 correndo cane @yellow *linux, lui *shoudl corso in che anche;4;4;4;4;+{i}[Make I uppercase]
+CL2;i have a mac powerbook G3 running yellow dog linux, it shoudl run on that too;*i Ha un *mac *powerbook *G3 correndo cane @yellow *linux, lui *shoudl corso in che anche;4;4;4;4;{powerbook}[Spelling]+{linux}[Spelling]+{shoudl}[Spelling]+{i}[Make I uppercase]
 CL2;And it has to run on a 386 with 4 MB of RAM.;E deve correre in un 386 con 4 *MB di @RAM.;3;2;2;3;
 CL2;Sooooo JAVA?;*Sooooo *JAVA?;1;1;3;4;{Sooooo}[Spelling]
 CL2;are we over yet?;È #prpers addirittura ancora?;4;3;4;4;
@@ -367,9 +367,9 @@ CL3;sup my niggas;*sup Il mio *niggas;1;4;2;4;{niggas}[Spelling]
 CL3;hehehe;*hehehe;1;1;1;1;{hehehe}[Spelling]
 CL3;don't see why not;Non vede perché non;2;2;2;1;
 CL3;weird;Strano;1;1;1;1;
-CL3;i dont see myself on the list;*i *dont Mi vede in la lista;4;3;3;4;+{dont}[Missing apostrophe]
+CL3;i dont see myself on the list;*i *dont Mi vede in la lista;4;3;3;4;{i}[Make I uppercase]+{dont}[Missing apostrophe]
 CL3;i did last time;*i  Ultimo tempo;4;4;4;4;{i}[Make I uppercase]
-CL3;movie night this thursday at 7 pm HSD A240;Notte di pellicola questo *thursday in 7 *pm *HSD Un240;4;3;4;3;+{A240}[Spelling]
+CL3;movie night this thursday at 7 pm HSD A240;Notte di pellicola questo *thursday in 7 *pm *HSD Un240;4;3;4;3;{HSD}[Spelling]+{A240}[Spelling]
 CL3;man, this other keyboard sucks;Uomo, questo altra tastiera @suck;4;2;3;4;
 CL3;as far as we're concerned scott, ur  non-existant;Tanto lontano secondo siamo #riguardare *scott, *ur  non#-*existant;4;4;4;3;{ur}[Spelling]
 CL3;you shut up riz;Chiudesti @up *riz;4;4;4;3;
@@ -384,7 +384,7 @@ CL3;and Stiffler from American Pie;E *Stiffler di Torta americana;4;3;4;1;{Stiff
 CL3;"""little thunder... little lightning""";"""Poco tuono... Poco @lightning""";4;3;3;2;
 CL3;it aws alright;Lui *aws bene;4;4;3;3;{aws}[Spelling]
 CL3;so he is hehehe;@So è *hehehe;4;4;4;4;{hehehe}[Spelling]
-CL3;i dont know if i'm scribing;*i *dont Sa se *i sono *scribing;4;3;4;4;+{i'm}[Make I uppercase]
+CL3;i dont know if i'm scribing;*i *dont Sa se *i sono *scribing;4;3;4;4;{i}[Make I uppercase]+{dont}[Missing apostrophe]+{i'm}[Make I uppercase]
 CL3;ok so how's everybody this afternoon?;ok @So come è #tutti quanti questo pomeriggio?;4;3;4;3;
 CL3;i could scribe;*i Potrebbe *scribe;4;3;4;3;{i}[Make I uppercase]
 CL3;says SCRIBE beside your name :P;Dice *SCRIBE accanto al tuo nome :*P;1;1;2;2;
@@ -398,7 +398,7 @@ CL3;same here;Stesso #lì;2;2;4;3;
 CL3;:D;:D;1;1;1;1;
 CL3;ah u power hungry bastard;*ah *u Potere *hungry bastardo;4;3;4;3;{power hungry}[Hyphen Required]
 CL3;hello;@hello;4;4;4;4;
-CL3;wassup josh :P;*wassup *josh :*P;1;1;4;4;+{josh}[Spelling]
+CL3;wassup josh :P;*wassup *josh :*P;1;1;4;4;{wassup}[Spelling]+{josh}[Spelling]
 CL3;hello jared;@hello *jared;4;4;4;4;{jared}[Spelling]
 CL3;new question: Online backup will be provided by the system. How critical is this information? How far back the backup should go? Maybe one academic year?;Questione nuova: #il @backup #On-line sarà fornito per il sistema. @How critico è questo informazione? @How lontano difendere il @backup dovrebbe andare? Forse uno anno accademico?;4;3;3;3;{will be provided}[Passive voice]
 CL3;i can't wait for Daniela to tell us to spread out more;*i Non può aspettare per Daniela per dirci per diffondere fuori più;4;4;4;3;{i}[Make I uppercase]
@@ -413,8 +413,8 @@ CL3;I have a nice armchair...;Ho un @armchair buono...;4;3;4;3;
 CL3;me;mi;4;4;4;2;
 CL3;yeah its an awesome day outside;Sì il suo un *awesome il giorno esteriore;4;3;4;4;
 CL3;like a vaccuum;Come un *vaccuum;4;1;4;3;{vaccuum}[Spelling]
-CL3;i'd pick scott as a scribe over charles anytime;*i'*d Sceglie *scott come *scribe sopra *charles *anytime;4;3;4;3;+{i'd}[Make I uppercase]
-CL3;yeah i've got a sweet chair too.....don't think i'll be asked to move though :P;Sì *i'*ve riceveva una sedia dolce anche.....Non opina *i'*ll essere domandato per spostare @though :*P;4;4;4;4;+{i'll}[Make I uppercase]
+CL3;i'd pick scott as a scribe over charles anytime;*i'*d Sceglie *scott come *scribe sopra *charles *anytime;4;3;4;3;{charles}[Spelling]+{i'd}[Make I uppercase]
+CL3;yeah i've got a sweet chair too.....don't think i'll be asked to move though :P;Sì *i'*ve riceveva una sedia dolce anche.....Non opina *i'*ll essere domandato per spostare @though :*P;4;4;4;4;{toodon't}[Spelling]+{i've}[Make I uppercase]+{i'll}[Make I uppercase]
 CL3;lol nice decision;*lol Decisione buona;2;2;2;2;
 CL3;whoa...chat lag?;*whoa...Ciarla *lag?;4;4;3;4;{whoachat}[Spelling]
 CL3;get;Riceve;1;1;3;1;
@@ -423,7 +423,7 @@ CL3;and so on;E tanto addirittura;4;4;4;4;
 CL3;test...;Prova...;1;1;2;1;
 CL3;your momma;Il tuo *momma;1;1;3;4;
 CL3;chat lag?;Ciarla *lag?;4;4;4;4;
-CL3;no no charles;Non nessun *charles;4;4;4;4;+{no no}[Hyphen Required]
+CL3;no no charles;Non nessun *charles;4;4;4;4;{charles}[Spelling]+{no no}[Hyphen Required]
 CL3;Hey all;*Hey Tutto;4;3;4;4;
 CL3;its pronounced, yo mama;Il suo pronunciato, *yo *mama;4;1;4;4;
 CL3;?;?;1;1;1;1;
@@ -438,7 +438,7 @@ CL3;Jon! NOOO!;Jon! *NOOO!;1;1;1;1;{NOOO}[Spelling]
 CL3;?;?;1;1;1;1;
 CL3;if you see this, boot me and re-invite me....i'm not seeing any chat updating;Se vedi questo, mi scalcia e *re#-#invitare....*i Non sto vedendo qualunque ciarla #que aggiorna;4;4;3;3;{mei'm}[Spelling]
 CL3;k;*k;1;1;1;4;
-CL3;New question: The system will maintain network security. Will SSL all the communication be sufficient for this requirement ?;Questione nuova: Il sistema manterrà sicurezza di rete.  *SSL #tutto la comunicazione essere sufficiente per questo requisito ?;3;3;4;3;+{requirement}[Complex Expression]
+CL3;New question: The system will maintain network security. Will SSL all the communication be sufficient for this requirement ?;Questione nuova: Il sistema manterrà sicurezza di rete.  *SSL #tutto la comunicazione essere sufficiente per questo requisito ?;3;3;4;3;{maintain}[Complex Expression]+{be sufficient}[Hidden Verbs]+{requirement}[Complex Expression]
 CL3;test;Prova;1;1;1;1;
 CL3;pwnt;*pwnt;1;1;1;4;{pwnt}[Spelling]
 CL3;anyway to stop this double typing?;#Ad ogni modo per detenere questo doppio scrivendo?;4;3;3;3;
@@ -451,12 +451,12 @@ CL3;log off and on;*log Di e addirittura;4;4;4;4;
 CL3;do you have the newest version?;Hai la versione più nuova?;1;1;1;2;
 CL3;you had to download it;Lo dovesti scaricare;4;1;2;2;
 CL3;yeah, the new one from Fabio;Sì, il nuovo uno di Fabio;4;3;4;2;
-CL3;wtf charles;*wtf *charles;1;1;1;4;+{charles}[Spelling]
+CL3;wtf charles;*wtf *charles;1;1;1;4;{wtf}[Spelling]+{charles}[Spelling]
 CL3;yo;*yo;1;1;1;4;
 CL3;STFU NOOB;*STFU *NOOB;1;1;1;4;
 CL3;i can't see my name no mo;*i Non può vedere il mio nome nessun *mo;4;3;3;3;{i}[Make I uppercase]
-CL3;omfgzors u stfu 0r i pqn u b14tch;*omfgzors *u *stfu 0*r *i *pqn *u *b14*tch;1;1;1;4;+{i}[Make I uppercase]
-CL3;but i can see ya'lls ugly names;Ma *i può vedere *ya'*lls nomi brutti;4;3;3;3;+{i}[Make I uppercase]
+CL3;omfgzors u stfu 0r i pqn u b14tch;*omfgzors *u *stfu 0*r *i *pqn *u *b14*tch;1;1;1;4;{omfgzors}[Spelling]+{stfu}[Spelling]+{0r}[Spelling]+{pqn}[Spelling]+{b14tch}[Spelling]+{i}[Make I uppercase]
+CL3;but i can see ya'lls ugly names;Ma *i può vedere *ya'*lls nomi brutti;4;3;3;3;{ya'lls}[Spelling]+{i}[Make I uppercase]
 CL3;oh god;@oh Dio;1;1;1;1;
 CL3;pwzors;*pwzors;1;1;1;4;{pwzors}[Spelling]
 CL3;why'd you do that Riz;Perché'*d tu  che *Riz;4;4;4;4;
@@ -464,8 +464,8 @@ CL3;darn!!!;*darn!!!;1;4;1;4;
 CL3;a monkey;Una scimmia;1;1;1;1;
 CL3;module?;Modulo?;1;1;1;1;
 CL3;"""sincerely, monkeydude""";"""Sinceramente, *monkeydude""";1;2;1;1;{monkeydude}[Spelling]
-CL3;yo jared homie, where's the rest of yo click?;*yo *jared *homie, dove è il resto di *yo @click?;1;1;3;4;+{homie}[Spelling]
-CL3;I think jon (horelj) needs an invite;Opino *jon (*horelj) necessita un invitare;4;2;4;2;+{horelj}[Spelling]
+CL3;yo jared homie, where's the rest of yo click?;*yo *jared *homie, dove è il resto di *yo @click?;1;1;3;4;{jared}[Spelling]+{homie}[Spelling]
+CL3;I think jon (horelj) needs an invite;Opino *jon (*horelj) necessita un invitare;4;2;4;2;{jon}[Spelling]+{horelj}[Spelling]
 CL3;"I don;t know where the rest of my loser group is at";"Io *don;*t sapere dove il resto del mio gruppo di @loser è in";4;3;3;3;
 CL3;hello all;@hello Tutto;4;4;4;4;
 CL3;aah;*aah;1;1;1;1;
@@ -481,7 +481,7 @@ CL3;heyo;*heyo;1;1;1;4;{heyo}[Spelling]
 CL3;comment ca va;Commento *ca *va;1;1;1;4;
 CL3;hey;*hey;1;1;1;1;
 CL3;can u see jeff?;Può *u vedere *jeff?;1;2;1;2;
-CL3;moi je suis super!;*moi *je *suis *super!;1;1;1;4;+{suis}[Spelling]
+CL3;moi je suis super!;*moi *je *suis *super!;1;1;1;4;{je}[Spelling]+{suis}[Spelling]
 CL3;i see dead people;*i Vede gente morta;4;2;2;2;{i}[Make I uppercase]
 CL3;yeah i'm back now;Sì *i sono dietro adesso;4;3;4;3;{i'm}[Make I uppercase]
 CL3;Auf wiedersen;*Auf *wiedersen;1;1;1;4;{wiedersen}[Spelling]
@@ -492,9 +492,9 @@ CL3;?;?;1;1;1;1;
 CL3;mindy got her job cut out fo her;*mindy Riceveva il suo filo di lavoro fuori *fo le/la;4;4;4;3;{mindy}[Spelling]
 CL3;let me know when everyone is here;Lasciato mi sa quando #tutti quanti è #lì;4;4;4;3;
 CL3;diner?;*diner?;1;4;1;4;
-CL3;criss de conard;*criss *de *conard;1;1;4;1;+{conard}[Spelling]
+CL3;criss de conard;*criss *de *conard;1;1;4;1;{criss}[Spelling]+{conard}[Spelling]
 CL3;everyone is here...;#Tutti quanti è #lì...;4;2;4;2;
-CL3;je vais te peter la guelle;*je *vais *te *peter *la *guelle;1;1;1;4;+{guelle}[Spelling]
+CL3;je vais te peter la guelle;*je *vais *te *peter *la *guelle;1;1;1;4;{je}[Spelling]+{vais}[Spelling]+{guelle}[Spelling]
 CL3;= everyone;= #Tutti quanti;4;1;1;1;
 CL3;is anyone missing?;È qualunque mancando?;4;4;4;3;
 CL3;yeah we're missing a couple still;Sì manchiamo una coppia ancora;3;3;3;3;
@@ -517,7 +517,7 @@ CL3;you calm down;Calmi #giù;4;4;4;4;
 CL3;log off and back on;*log Di e dietro addirittura;4;4;4;4;
 CL3;Jon needs an invite;Jon necessita un invitare;4;2;4;3;
 CL3;you're double talkin;Sei doppio *talkin;1;3;3;4;{talkin}[Spelling]
-CL3;New question: The system will provide in-game tutorials and help. Should we include a introduction clip?;Questione nuova: Il sistema fornirà in#-gioco *tutorials e aiuto. Dovere includiamo un @clip di introduzione?;4;3;2;3;+{a introduction}[Wrong article]
+CL3;New question: The system will provide in-game tutorials and help. Should we include a introduction clip?;Questione nuova: Il sistema fornirà in#-gioco *tutorials e aiuto. Dovere includiamo un @clip di introduzione?;4;3;2;3;{provide}[Complex Expression]+{a introduction}[Wrong article]
 CL3;why do we have 2 scotts?;Perché  abbiamo 2 *scotts?;1;1;1;1;{scotts}[Spelling]
 CL3;thanh.. slow down man;*thanh.. @Slow uomo;4;4;4;4;{thanh}[Spelling]
 CL3;we aren't there yet;Non siamo lì ancora;1;1;2;2;
@@ -530,13 +530,13 @@ CL3;well tell your name sharer to not echo himself 5 times;Bene dire il tuo nome
 CL3;go home riz;Va casa *riz;2;2;2;1;
 CL3;i am home;*i Sono casa;4;2;1;2;{i}[Make I uppercase]
 CL3;riz--> busstop;*riz#-#-> *busstop;1;4;4;4;{busstop}[Spelling]
-CL3;why do you think i named myself ScottReynen, so that stuff doesnt happen;Perché  opini *i mi nominò *ScottReynen, in modo che materia *doesnt passa;4;4;3;4;+{doesnt}[Missing apostrophe]
-CL3;i thought ur parents named you scott reynen;*i Opinò *ur i padri ti nominarono *scott *reynen;4;3;3;2;+{i}[Make I uppercase]
+CL3;why do you think i named myself ScottReynen, so that stuff doesnt happen;Perché  opini *i mi nominò *ScottReynen, in modo che materia *doesnt passa;4;4;3;4;{ScottReynen}[Spelling]+{i}[Make I uppercase]+{doesnt}[Missing apostrophe]
+CL3;i thought ur parents named you scott reynen;*i Opinò *ur i padri ti nominarono *scott *reynen;4;3;3;2;{ur}[Spelling]+{reynen}[Spelling]+{i}[Make I uppercase]
 CL3;I motion for Riz to be silenced.. already;Io mozione per *Riz per essere *silenced.. Già;4;3;3;3;{to be}[Passive voice]
 CL3;wow;@wow;1;1;1;1;
 CL3;riz;*riz;1;1;1;1;
-CL3;but whatever, i'll take ur word;Ma @whatever, *i'*ll prende *ur parola;4;3;4;3;+{i'll}[Make I uppercase]
-CL3;i didnt see that one coming;*i *didnt Vede che uno imminente;4;4;4;4;+{didnt}[Missing apostrophe]
+CL3;but whatever, i'll take ur word;Ma @whatever, *i'*ll prende *ur parola;4;3;4;3;{ur}[Spelling]+{i'll}[Make I uppercase]
+CL3;i didnt see that one coming;*i *didnt Vede che uno imminente;4;4;4;4;{i}[Make I uppercase]+{didnt}[Missing apostrophe]
 CL3;such intelligent jibes;#Tale intelligente *jibes;4;3;2;4;
 CL3;im in!;*im @In!;4;4;4;4;
 CL3;he's in!;È @in!;4;1;2;2;
@@ -552,19 +552,19 @@ CL3;nice;Buono;1;2;2;2;
 CL3;re-invite Jon!  Username: horelj;*re#-Invitare Jon!  *Username: *horelj;1;1;1;1;{horelj}[Spelling]
 CL3;lol;*lol;1;1;1;4;
 CL3;Hey;*Hey;1;1;1;1;
-CL3;i would of muted him a while ago :D;*i  di *muted gli fa un @while :D;4;4;4;4;+{would of muted}[Revise...]
+CL3;i would of muted him a while ago :D;*i  di *muted gli fa un @while :D;4;4;4;4;{i}[Make I uppercase]+{would of muted}[Revise...]
 CL3;good show Mod;Spettacolo buono *Mod;4;2;2;2;
 CL3;crap;Caga;4;1;3;4;
 CL3;Hey :);*Hey :);1;1;1;1;
 CL3;soooo... still short 3?;*soooo... @Still basso 3?;4;3;4;4;{soooo}[Spelling]
 CL3;"gnome: ""can you lend me some, i'm a little short""";"Gnomo: ""può mi lasci #alcuno, *i sono un #poco basso""";4;2;4;4;{i'm}[Make I uppercase]
 CL3;GROUP 1: Please let me know when you are ready to start;GRUPPO 1: Piacere lasciato mi sa quando sei @ready per iniziare;4;3;4;4;
-CL3;Wow...we got loads of people...what do you mean we are short :P;@Wow...Ricevevamo cariche di gente...Cosa  significhi siamo bassi :*P;4;3;4;3;+{peoplewhat}[Spelling]
+CL3;Wow...we got loads of people...what do you mean we are short :P;@Wow...Ricevevamo cariche di gente...Cosa  significhi siamo bassi :*P;4;3;4;3;{Wowwe}[Spelling]+{peoplewhat}[Spelling]
 CL3;seems like any time a decision is made, the convo no longer updates :S;@Seem qualunque tempo una decisione è fatta, il *convo @no longer aggiornamenti :*S;4;3;4;4;{is made}[Passive voice]
 CL3;is all of group 1 here?;È tutto di gruppo 1 #lì?;4;3;3;2;
 CL3;I think so;Opino tanto;4;4;4;3;
 CL3;i only count 13;*i #Solo contare 13;4;3;3;3;{i}[Make I uppercase]
-CL3;if you see what i'm typing, send me another invite......gonna reconnect =/;Se vedi #quanto *i sto scrivendo, #inviare altro invita......Andando a *reconnect =/;4;3;3;4;+{i'm}[Make I uppercase]
+CL3;if you see what i'm typing, send me another invite......gonna reconnect =/;Se vedi #quanto *i sto scrivendo, #inviare altro invita......Andando a *reconnect =/;4;3;3;4;{invitegonna}[Spelling]+{i'm}[Make I uppercase]
 CL3;we see you Jeff;Ti vediamo Jeff;1;1;1;1;
 CL3;hello;@hello;4;4;4;4;
 CL3;hoy;*hoy;1;1;1;4;{hoy}[Spelling]
@@ -572,7 +572,7 @@ CL3;no riz, no;Nessun *riz, non;4;4;4;4;
 CL3;bad riz;Cattivo *riz;1;1;1;1;
 CL3;hehe;*hehe;1;1;1;1;{hehe}[Spelling]
 CL3;back;Dietro;4;4;4;3;
-CL3;do you guys see what i'm typing when i get booted?;Farti i tipi vedono #quanto *i sto scrivendo quando *i riceve scalciato?;4;4;4;4;+{i}[Make I uppercase]
+CL3;do you guys see what i'm typing when i get booted?;Farti i tipi vedono #quanto *i sto scrivendo quando *i riceve scalciato?;4;4;4;4;{i'm}[Make I uppercase]+{i}[Make I uppercase]
 CL3;seems like mindy doesn't have that much power after all;@Seem *mindy non ha che molto potere dopo totto;4;3;4;3;{mindy}[Spelling]
 CL3;i think all of group one is here;*i Opina tutto di gruppo uno è #lì;4;3;3;2;{i}[Make I uppercase]
 CL3;yes;Sì;1;1;1;1;
@@ -585,21 +585,21 @@ CL3;werd;*werd;1;1;4;4;{werd}[Spelling]
 CL3;werd up g;*werd @Up *g;1;1;4;4;{werd}[Spelling]
 CL3;Ya I think group 1 is here if you guys want to start;*Ya Opino gruppo 1 è #lì se ti i tipi vogliono iniziare;4;3;2;2;
 CL3;ok pat;ok *pat;1;1;1;1;
-CL3;who is thanh talkin to?;#Cui è *thanh *talkin a?;4;4;4;4;+{talkin}[Spelling]
+CL3;who is thanh talkin to?;#Cui è *thanh *talkin a?;4;4;4;4;{thanh}[Spelling]+{talkin}[Spelling]
 CL3;than is  on crack;@Than è  in crepa;4;2;3;4;
-CL3;i dont know who he's talking to;*i *dont Sa che sta parlando a;4;3;3;4;+{dont}[Missing apostrophe]
+CL3;i dont know who he's talking to;*i *dont Sa che sta parlando a;4;3;3;4;{i}[Make I uppercase]+{dont}[Missing apostrophe]
 CL3;ok;ok;1;1;1;1;
 CL3;introductions?;Introduzioni?;1;1;1;1;
-CL3;mindy, i authorize you to start the negotiation session;*mindy, *i autorizzarti per iniziare il @session di trattativa;4;2;3;2;+{i}[Make I uppercase]
+CL3;mindy, i authorize you to start the negotiation session;*mindy, *i autorizzarti per iniziare il @session di trattativa;4;2;3;2;{mindy}[Spelling]+{i}[Make I uppercase]
 CL3;hallo;*hallo;1;4;1;4;
 CL3;whoa;*whoa;1;1;1;4;
 CL3;hi my name is jeff :P;ciao Il mio nome è *jeff :*P;1;1;1;1;
 CL3;Welcome everyone to the negotiations. I am Mindy the moderator for Group 2.;*Welcome #Tutti quanti a le trattative. Sono *Mindy il *moderator per Gruppo 2.;4;2;2;2;
 CL3;hello;@hello;4;4;1;4;
-CL3;hi mindy!;ciao *mindy!;1;1;1;1;+{hi}[Did you mean...]
+CL3;hi mindy!;ciao *mindy!;1;1;1;1;{mindy}[Spelling]+{hi}[Did you mean...]
 CL3;Online documentation will be available for the game upon completion and delivery.  The game will also come with built in help files and tutorials for game play. -> Should we also create a website for the game. Just a place for people to find help, download the game, etc.;La documentazione on-line sarà disponibile per il gioco a @completion e consegna.  Il gioco  anche venuto con edificato in lime di aiuto e *tutorials per gioco di gioco. #-> Dovere anche creiamo un sito web per il gioco. Giusto un posto per gente per trovare aiuto, scaricare il gioco, etc.;4;3;3;3;{built in}[Hyphen Required]
 CL3;I'm Scott, Sir Scott the Scribe.;Sono Scott, Signore Scott il *Scribe.;4;2;3;3;
-CL3;lol....is this thanh or some kind of question bot??;*lol....È questo *thanh o alcuna classe di questione *bot??;4;3;3;3;+{some kind of question}[Complex Expression]
+CL3;lol....is this thanh or some kind of question bot??;*lol....È questo *thanh o alcuna classe di questione *bot??;4;3;3;3;{lolis}[Spelling]+{thanh}[Spelling]+{some kind of question}[Complex Expression]
 CL3;sorry about that;@Sorry sopra quello;4;4;4;3;
 CL3;Hi I am Chris;Ciao Sono Chris;1;1;1;1;
 CL3;Hi i'm Jon;Ciao *i Sono Jon;4;2;1;2;
@@ -626,7 +626,7 @@ CL3;BAH....can't see it again :S;*BAH....Non lo può vedere di nuovo :*S;1;1;3;2
 CL3;dfjfjjf;*dfjfjjf;1;1;1;1;{dfjfjjf}[Spelling]
 CL3;"2. Can you give an approximate minimum # of game play hours required  for each grade level?  [Or can you supply the approximate number of 
  hours students will play each week?]";"2. Può dai una minima approssimata # di ore di gioco del gioco richiese  per ogni livello di nota?  [O può @supply il numero approssimato di studenti 
- di ore toccherà ogni settimana?]";4;3;4;3;+{minimum}[Complex Expression]
+ di ore toccherà ogni settimana?]";4;3;4;3;{approximate}[Complex Expression]+{minimum}[Complex Expression]
 CL3;damn you decisions =/;*damn ti Decisioni =/;4;4;4;4;
 CL3;The game module is a pretty broad description of it. Is that everythin besides the student stats?;Il modulo di gioco è una descrizione @pretty @broad di esso. È che *everythin oltretutto il studentesco *stats?;4;4;4;4;{everythin}[Spelling]
 CL3;sorry;@Sorry;4;4;4;4;
@@ -642,16 +642,16 @@ CL3;if they're playing at home as well then 10hrs isn't that bad;Se stanno tocca
 CL3;true;Vero;1;1;1;1;
 CL3;if kid really likes the game he could put in extra time ... 10 hrs;Se a bambino realmente #prpers piace il gioco potrebbe porre in tempo #extra ... 10 *hrs;4;3;3;3;{hrs}[Spelling]
 CL3;... what was that?;... Che era che?;4;3;3;3;
-CL3;Ofcourse we have to have a minimum... say 3...and max 10....;*Ofcourse Dobbiamo avere una minima... Dice 3...E *max 10....;4;2;3;3;+{3and}[Spelling]
-CL3;But, if a kid plays at home then their result isn't tracked for the teacher, right?;Ma, se dei giochi di bambino in casa allora il suo risultato non è seguito per il professore, bene?;4;3;4;3;+{tracked}[Did you mean...]
+CL3;Ofcourse we have to have a minimum... say 3...and max 10....;*Ofcourse Dobbiamo avere una minima... Dice 3...E *max 10....;4;2;3;3;{Ofcourse}[Spelling]+{3and}[Spelling]
+CL3;But, if a kid plays at home then their result isn't tracked for the teacher, right?;Ma, se dei giochi di bambino in casa allora il suo risultato non è seguito per il professore, bene?;4;3;4;3;{then}[Did you mean...]+{tracked}[Did you mean...]
 CL3;don't know;Non sa;2;2;2;2;
 CL3;results at home are not tracked by the teacher, no;I risultati in casa non sono seguiti per il professore, non;4;2;4;3;
 CL3;cool;Fresco;4;4;4;4;
 CL3;so 10 hours?;@So 10 ore?;4;2;3;3;
 CL3;10 hours = maximum?;10 @maximum di ore?;4;2;2;4;{maximum}[Complex Expression]
 CL3;have you decided on 10 hours?;Ti ha deciso in 10 ore?;4;3;4;3;
-CL3;3hrs/week = minimum?;3*hrs/minima di settimana?;4;2;4;3;+{minimum}[Complex Expression]
-CL3;the max of ten hours shouldn't be enforced... kid  should be able to play 50 hrs a week if they want;Il *max di dieci ore non dovrebbero essere applicate... Il bambino  dovrebbe essere capace di toccare 50 *hrs una settimana se vogliono;4;3;3;3;+{should be}[Passive voice]
+CL3;3hrs/week = minimum?;3*hrs/minima di settimana?;4;2;4;3;{3hrs}[Spelling]+{minimum}[Complex Expression]
+CL3;the max of ten hours shouldn't be enforced... kid  should be able to play 50 hrs a week if they want;Il *max di dieci ore non dovrebbero essere applicate... Il bambino  dovrebbe essere capace di toccare 50 *hrs una settimana se vogliono;4;3;3;3;{shouldn't be}[Passive voice]+{hrs}[Spelling]+{should be}[Passive voice]
 CL3;If the kid hates playing then maybe a minimum of 1;Se il bambino odia toccare #allora forse una minima di 1;4;3;4;4;
 CL3;1-10 it is;1#-10 è;2;1;2;2;
 CL3;for our approximation;Per il nostro ravvicinamento;4;2;4;3;
@@ -691,7 +691,7 @@ CL3;the content should be pretty much the same;Il @content dovrebbe essere @pret
 CL3;ya;*ya;1;1;1;4;
 CL3;ok moving onto another topic, the system;ok Spostando a un altro tema, il sistema;3;2;2;3;{onto}[Redundant Expression]
 CL3;whoa now;*whoa Adesso;1;1;2;2;
-CL3;i'm gonna try a different lab...seems the linux version is bugged :S;*i Vado a tentare un laboratorio differente...Pare il *linux la versione è *bugged :*S;4;3;3;3;+{is bugged}[Passive voice]
+CL3;i'm gonna try a different lab...seems the linux version is bugged :S;*i Vado a tentare un laboratorio differente...Pare il *linux la versione è *bugged :*S;4;3;3;3;{labseems}[Spelling]+{linux}[Spelling]+{i'm}[Make I uppercase]+{is bugged}[Passive voice]
 CL3;we move to the next topic :P;Spostiamo al tema prossimo :*P;3;2;2;2;
 CL3;back in a few;Dietro in pochi;4;4;4;4;
 CL3;1. Online backup will be provided by the system. How critical is this information? How far back the backup should go? Maybe one academic year?;1. #Il @backup #on-line sarà fornito per il sistema. @How critico è questo informazione? @How lontano difendere il @backup dovrebbe andare? Forse uno anno accademico?;4;3;3;3;{will be provided}[Passive voice]
@@ -700,7 +700,7 @@ CL3;online?;On-line?;1;1;1;1;
 CL3;one year would be enough;@One anno sarebbe #piuttosto;4;3;4;4;
 CL3;one year should be more than enough;@One anno dovrebbe essere @more than enough;4;4;4;4;{should be}[Passive voice]
 CL3;Shouldnt' student records be kept for longer?;*Shouldnt' Atti studenteschi essere mantenuto per più lungo?;4;3;3;3;
-CL3;one year should be minimum;@One anno dovrebbe essere minimo;4;2;3;4;+{minimum}[Complex Expression]
+CL3;one year should be minimum;@One anno dovrebbe essere minimo;4;2;3;4;{should be}[Passive voice]+{minimum}[Complex Expression]
 CL3;Maybe just exported or something?;Forse giusto esportato o #alcunché?;4;3;3;3;
 CL3;Is everyone here?;È #tutti quanti #lì?;4;3;4;3;
 CL3;no i think we lost some people;Nessun *i opina perdemmo alcuna gente;4;3;4;2;{i}[Make I uppercase]
@@ -708,11 +708,11 @@ CL3;ya the teachers need some results for marking their students;*ya I professor
 CL3;jeff and riz are having tech difficulties;*jeff E *riz è avendo *tech difficoltà;4;2;2;3;
 CL3;So, one year is okay, and data is just exported at the end of the year?;Tanto, @one anno è ok, e il dato è giusto esportato alla fine dell'anno?;4;2;2;3;
 CL3;they werent important anyways (they'll be back);#Prpers *werent importante *anyways (saranno dietro);4;4;4;4;{werent}[Missing apostrophe]
-CL3;I think as long as the data can be exported 1 year is a reasonable amount of time to maintain the data in within the system;Opino tanto @long come il dato può essere esportato 1 anno è una quantità ragionevole di tempo per mantenere il dato in dentro il sistema;4;3;3;3;+{maintain}[Complex Expression]
+CL3;I think as long as the data can be exported 1 year is a reasonable amount of time to maintain the data in within the system;Opino tanto @long come il dato può essere esportato 1 anno è una quantità ragionevole di tempo per mantenere il dato in dentro il sistema;4;3;3;3;{can be}[Passive voice]+{maintain}[Complex Expression]
 CL3;that would be good i think;Quello sarebbe buono *i opinare;4;2;3;3;{i}[Make I uppercase]
 CL3;can they import old information;Può importano informazione vecchio;4;2;3;2;
 CL3;?;?;1;1;1;1;
-CL3;Yes that sounds like a good solution. Definately the teacher needs easy access to the students results so far in the year... and with a litlle bit more work from previous years.;Sì che suoni come una soluzione buona. *Definately Il professore necessita il accesso facile a i studenti risulta tanto lontano nell'anno... E con un *litlle morsè @more lavoro di anni anteriori.;4;4;4;3;+{previous}[Complex Expression]
+CL3;Yes that sounds like a good solution. Definately the teacher needs easy access to the students results so far in the year... and with a litlle bit more work from previous years.;Sì che suoni come una soluzione buona. *Definately Il professore necessita il accesso facile a i studenti risulta tanto lontano nell'anno... E con un *litlle morsè @more lavoro di anni anteriori.;4;4;4;3;{Definately}[Spelling]+{litlle}[Spelling]+{previous}[Complex Expression]
 CL3;If you want import functionality , we can include it again;Se vuoi funzionalità di importazione , lo possiamo includere di nuovo;2;2;2;2;
 CL3;does that go into the student record on file at the school?;Fa quello va all'atto studentesco in lima in la scuola?;4;3;4;3;
 CL3;again?;Di nuovo?;1;1;1;1;
@@ -739,7 +739,7 @@ CL3;yes;Sì;1;1;1;1;
 CL3;yeah;Sì;1;1;1;1;
 CL3;yah;*yah;1;1;1;4;
 CL3;that works;Quelli lavori;4;4;4;4;
-CL3;3. The system will maintain network security. Will SSL all the communication be sufficient for this requirement?;3. Il sistema manterrà sicurezza di rete.  *SSL #tutto la comunicazione essere sufficiente per questo requisito?;3;3;3;2;+{requirement}[Complex Expression]
+CL3;3. The system will maintain network security. Will SSL all the communication be sufficient for this requirement?;3. Il sistema manterrà sicurezza di rete.  *SSL #tutto la comunicazione essere sufficiente per questo requisito?;3;3;3;2;{maintain}[Complex Expression]+{be sufficient}[Hidden Verbs]+{requirement}[Complex Expression]
 CL3;the guy sitting beside me is an idiot;Il tipo #que siede accanto a me è un idiota;3;2;2;2;
 CL3;security is not that important;La sicurezza non è che importante;3;2;2;2;
 CL3;ssl  might be overkill;*ssl  @Might essere *overkill;4;4;4;3;{ssl}[Spelling]
@@ -747,16 +747,16 @@ CL3;is that a consensus?;È che un consenso?;4;3;3;3;
 CL3;this isn't critical information so i can't see security being a huge deal;Questo non è informazione critico tanto *i non può vedere la sicurezza essendo una @deal enorme;4;4;4;3;{i}[Make I uppercase]
 CL3;what if a kid hacks the system and changes its scores?;Che se un bambino *hacks il sistema e cambia i suoi @score?;4;3;3;4;
 CL3;if a grade 2 can hack the network then he desires the grade he gave himself;Se una nota 2 può *hack la rete allora desidera la nota #sé dette/diede;4;4;4;4;
-CL3;i'd say ssl shoul be a good oprion;*i'*d Dice *ssl *shoul essere un buono *oprion;4;3;4;4;+{i'd}[Make I uppercase]
+CL3;i'd say ssl shoul be a good oprion;*i'*d Dice *ssl *shoul essere un buono *oprion;4;3;4;4;{ssl}[Spelling]+{shoul}[Spelling]+{oprion}[Spelling]+{i'd}[Make I uppercase]
 CL3;grade 1 and 2?;Nota 1 e 2?;4;4;4;4;
 CL3;if he can do that more power to him;Se può fare quello @more potere a lui;4;3;2;3;
 CL3;agreed;Accordato;4;1;1;2;
 CL3;then he gets bonus marks :D;Allora riceve marche di @bonus :D;3;3;2;2;
 CL3;yeah;Sì;1;1;1;1;
 CL3;ya security is  not important;*ya La sicurezza non  è importante;1;1;1;1;
-CL3;if a child can do that, he understands problemsolving / math plenty i figure;Se un bambino può fare quello, capisce *problemsolving / *math abbondanza *i @figure;4;3;3;3;+{i}[Make I uppercase]
+CL3;if a child can do that, he understands problemsolving / math plenty i figure;Se un bambino può fare quello, capisce *problemsolving / *math abbondanza *i @figure;4;3;3;3;{problemsolving}[Spelling]+{i}[Make I uppercase]
 CL3;ok;ok;1;1;1;1;
-CL3;ok ok...ah...you are underestimating the knowledge of the future genrations (we have to take account of mutation );ok ok...*ah...Stai sottovalutando il sapere del futuro *genrations (dobbiamo prendere conto di mutazione );3;3;2;2;+{genrations}[Spelling]
+CL3;ok ok...ah...you are underestimating the knowledge of the future genrations (we have to take account of mutation );ok ok...*ah...Stai sottovalutando il sapere del futuro *genrations (dobbiamo prendere conto di mutazione );3;3;2;2;{okahyou}[Spelling]+{genrations}[Spelling]
 CL3;no we dont;Nessun #prpers *dont;4;4;4;4;{dont}[Missing apostrophe]
 CL3;I guess ssl will be an overhead for the system so we can drop that...;Indovino *ssl sarà un @overhead per il sistema @so possiamo cadere quello...;4;3;3;3;{ssl}[Spelling]
 CL3;I'm pretty sure we didn't mention mutan super-children in the RFP;Sono @pretty sicuro non menzionammo *mutan *super#-bambini nel *RFP;4;2;3;3;{mutan}[Spelling]
@@ -767,14 +767,14 @@ CL3;yah;*yah;1;1;1;4;
 CL3;as long as we can export it to Comma delimited file that should work;Tanto @long secondo lo possiamo esportare a Virgola lima delimitata che dovrebbe lavorare;4;4;4;4;
 CL3;hallo;*hallo;1;4;1;4;
 CL3;ok;ok;1;1;1;1;
-CL3;If you would like a sugguestion one alternative to CSV is xml, and some db's like oracle can export data directly to xml....just a sugguestion.;Se ti piacerebbe un *sugguestion uno alternativo a *CSV è *xml, e #alcuno *db è come il oracolo può esportare dato direttamente a *xml....Giusto un *sugguestion.;4;4;4;3;+{sugguestion}[Spelling]
-CL3;booo xml;*booo *xml;1;1;1;4;+{xml}[Spelling]
+CL3;If you would like a sugguestion one alternative to CSV is xml, and some db's like oracle can export data directly to xml....just a sugguestion.;Se ti piacerebbe un *sugguestion uno alternativo a *CSV è *xml, e #alcuno *db è come il oracolo può esportare dato direttamente a *xml....Giusto un *sugguestion.;4;4;4;3;{sugguestion}[Spelling]+{xml}[Spelling]+{xmljust}[Spelling]+{sugguestion}[Spelling]
+CL3;booo xml;*booo *xml;1;1;1;4;{booo}[Spelling]+{xml}[Spelling]
 CL3;we lost jon again, he needs another invite :(;Perdemmo *jon di nuovo, necessita altro invita :(;3;2;3;2;{jon}[Spelling]
 CL3;back :D;Dietro :D;4;4;4;4;
 CL3;oracle is expensive. Do you have licensing for that?;Il oracolo è caro.  Hai *licensing per quello?;4;3;4;4;{oracle}[Did you mean...]
 CL3;xml = lots of overhead;*xml = #Molto @overhead;4;1;2;4;{xml}[Spelling]
 CL3;ya do sql;*ya  *sql;4;1;1;4;{sql}[Spelling]
-CL3;Dude...good luck operating on that csv...;*Dude...Il regime buono #que opera in quello *csv...;4;4;4;4;+{csv}[Spelling]
+CL3;Dude...good luck operating on that csv...;*Dude...Il regime buono #que opera in quello *csv...;4;4;4;4;{Dudegood}[Spelling]+{csv}[Spelling]
 CL3;k;*k;1;1;1;4;
 CL3;are we actually going to implement this stuff?;È #prpers di fatto andando per attuare questa materia?;4;4;3;3;{implement}[Complex Expression]
 CL3;no;Non;4;2;1;2;
@@ -785,7 +785,7 @@ CL3;like this;Così;4;1;3;4;
 CL3;i thought we were rid of Riz;*i Opinò fummo @rid di *Riz;4;4;4;4;{i}[Make I uppercase]
 CL3;lol;*lol;1;1;1;4;
 CL3;ROFL;*ROFL;1;1;1;4;
-CL3;i wondered why you'd shut up for so long charles;*i #Domandarsi perché chiuderesti @up per tanto lungo *charles;4;4;4;4;+{i}[Make I uppercase]
+CL3;i wondered why you'd shut up for so long charles;*i #Domandarsi perché chiuderesti @up per tanto lungo *charles;4;4;4;4;{charles}[Spelling]+{i}[Make I uppercase]
 CL3;okkkkkk;*okkkkkk;1;1;1;4;{okkkkkk}[Spelling]
 CL3;back to buizness;Dietro a *buizness;4;4;4;4;{buizness}[Spelling]
 CL3;Online documentation will be available for the game upon completion and delivery.  The game will also come with built in help files and tutorials for game play. 5.   Should we also create a website for the game. Just a place for people to find help, download the game, etc.;La documentazione on-line sarà disponibile per il gioco a @completion e consegna.  Il gioco  anche venuto con edificato in lime di aiuto e *tutorials per gioco di gioco. 5.   Dovere anche creiamo un sito web per il gioco. Giusto un posto per gente per trovare aiuto, scaricare il gioco, etc.;4;3;3;3;{built in}[Hyphen Required]
@@ -797,7 +797,7 @@ CL3;were not paying for it though;Non pagava per esso @though;4;2;3;4;
 CL3;and neither are we;E neanche è #prpers;4;4;4;4;
 CL3;might be a good way to distribute material add-ons as well :P;@Might essere un modo buono di distribuire materiale aggiungere#-*ons anche :*P;4;3;3;4;
 CL3;Well we want well documented code so we can expand on the project...i'd say we take the online Docs.;Bene vogliamo codice documentato bene @so possiamo ampliare nel progetto...*i'*d Dice prendiamo il on-line *Docs.;4;3;4;3;{projecti'd}[Spelling]
-CL3;hey mindy... you need to reinvite someone;*hey *mindy... Necessiti a *reinvite qualcuno;4;3;3;4;+{reinvite}[Spelling]
+CL3;hey mindy... you need to reinvite someone;*hey *mindy... Necessiti a *reinvite qualcuno;4;3;3;4;{mindy}[Spelling]+{reinvite}[Spelling]
 CL3;ok who;ok Che;4;4;4;4;
 CL3;horelj;*horelj;1;1;1;1;{horelj}[Spelling]
 CL3;look at the hand raise;Il aspetto nella mano alza;4;4;4;4;
@@ -810,7 +810,7 @@ CL3;name of game?;Nome di gioco?;1;2;1;1;
 CL3;Football;#Calcio;1;1;2;1;
 CL3;Puff the magic dragon;*Puff Il drago magico;1;1;1;1;
 CL3;booo;*booo;1;1;1;4;{booo}[Spelling]
-CL3;i can't really say simmer down now, can i;*i Può non realmente dire *simmer #giù adesso, può *i;4;4;1;4;+{i}[Make I uppercase]
+CL3;i can't really say simmer down now, can i;*i Può non realmente dire *simmer #giù adesso, può *i;4;4;1;4;{i}[Make I uppercase]+{i}[Make I uppercase]
 CL3;1.  The Maximum time from launching the game until it is playable will be 5 minutes. Should this be ok?;1.  Il tempo Massimo di lanciare il gioco @until è *playable sarà 5 minuti. Dovere questo essere ok?;4;3;4;3;
 CL3;NO;NON;4;2;2;2;
 CL3;huh?;*huh?;1;1;1;4;
@@ -839,7 +839,7 @@ CL3;lose;Perde;2;1;3;1;
 CL3;quiet riz;@Quiet *riz;4;4;4;4;
 CL3;minigames in the load screens?;*minigames In i schermi di carica?;4;2;3;3;{minigames}[Spelling]
 CL3;Haha...and nice relaxing music?;*Haha...E buono @relax musica?;4;2;3;3;{Hahaand}[Spelling]
-CL3;we do? i thought we didn't since the game was rated E;Facciamo? *i Opinò #prpers  non dal gioco fu stimato *E;4;3;4;3;+{was rated}[Passive voice]
+CL3;we do? i thought we didn't since the game was rated E;Facciamo? *i Opinò #prpers  non dal gioco fu stimato *E;4;3;4;3;{i}[Make I uppercase]+{was rated}[Passive voice]
 CL3;elevator music, no mini games;Musica di elevatore, nessun *mini giochi;4;3;3;2;
 CL3;can't be that nice;Non può essere che buono;1;1;4;3;{can't be}[Passive voice]
 CL3;no wonder it is taking five min to load with all that going on aswell;Nessuna #meraviglia sta prendendo cinque *min per caricare con #tutto quello andando in *aswell;4;3;3;3;
@@ -858,24 +858,24 @@ CL3;whosjiggawhat?;*whosjiggawhat?;1;1;1;4;{whosjiggawhat}[Spelling]
 CL3;rendering is always done on fly...;*rendering È sempre fatto in mosca...;4;4;4;4;
 CL3;sounds like a french person wrote it..;Suoni come un *french la persona lo scrisse..;4;4;3;4;
 CL3;go ahead thanh;Va avanti *thanh;2;1;1;1;{thanh}[Spelling]
-CL3;and i know i didn't;E *i sapere *i  non;4;4;4;4;+{i}[Make I uppercase]
+CL3;and i know i didn't;E *i sapere *i  non;4;4;4;4;{i}[Make I uppercase]+{i}[Make I uppercase]
 CL3;I'm sorry I don't understand the question?;Dispiaccio non capisco la questione?;4;3;3;3;
 CL3;Thanh is on stage... shhhh;*Thanh È in tappa... *shhhh;4;4;4;4;{shhhh}[Spelling]
-CL3;Should we dropn the 16mb ram and 50hhz requirement;Dovere #prpers *dropn il 16*mb @ram e 50*hhz requisito;4;4;3;2;+{requirement}[Complex Expression]
+CL3;Should we dropn the 16mb ram and 50hhz requirement;Dovere #prpers *dropn il 16*mb @ram e 50*hhz requisito;4;4;3;2;{dropn}[Spelling]+{16mb}[Spelling]+{50hhz}[Spelling]+{requirement}[Complex Expression]
 CL3;so we can do more 3d rendering?;@So possiamo fare @more 3*d *rendering?;4;2;3;3;{3d}[Spelling]
 CL3;and more animation;E @more animazione;4;2;3;4;
-CL3;seems resonalbe that the computer would be faster then that;Pare *resonalbe che il computer sarebbe più rapido allora quello;4;3;3;3;+{faster then}[Did you mean...]
+CL3;seems resonalbe that the computer would be faster then that;Pare *resonalbe che il computer sarebbe più rapido allora quello;4;3;3;3;{resonalbe}[Spelling]+{faster then}[Did you mean...]
 CL3;sure;Sicuro;1;1;1;1;
 CL3;but not a lot faster... some schools a re broke;Ma non molto più rapido... Alcune scuole un *re ruppe;4;2;3;4;{re}[Complex Expression]
-CL3;howabout 200mhz with 64mb of ram;*howabout 200*mhz con 64*mb di @ram;1;1;1;4;+{64mb}[Spelling]
+CL3;howabout 200mhz with 64mb of ram;*howabout 200*mhz con 64*mb di @ram;1;1;1;4;{howabout}[Spelling]+{200mhz}[Spelling]+{64mb}[Spelling]
 CL3;So you will consider using Google Earth maps for the cities if we drop the 16 meg reqirement?;@So considererai usare mappe di Terra del Google per la città se cadiamo il 16 *meg *reqirement?;4;3;4;3;{reqirement}[Spelling]
-CL3;500mhz might be the low end;500*mhz @might essere il fine basso;4;3;3;3;+{low end}[Hyphen Required]
+CL3;500mhz might be the low end;500*mhz @might essere il fine basso;4;3;3;3;{500mhz}[Spelling]+{low end}[Hyphen Required]
 CL3;64 mb?;64 *mb?;1;1;1;1;
-CL3;if i remember correctly, they came up with the min reqs from warcraft.....the graphics aren't all that bad in warcraft;Se *i ricordare correttamente, vennero @up con il *min *reqs di *warcraft.....I grafici non sono #tutto quello cattivo in *warcraft;4;3;3;3;+{i}[Make I uppercase]
+CL3;if i remember correctly, they came up with the min reqs from warcraft.....the graphics aren't all that bad in warcraft;Se *i ricordare correttamente, vennero @up con il *min *reqs di *warcraft.....I grafici non sono #tutto quello cattivo in *warcraft;4;3;3;3;{reqs}[Spelling]+{warcraftthe}[Spelling]+{i}[Make I uppercase]
 CL3;...;...;1;1;1;1;
 CL3;when was the last time you played?;Quando era l'ultima volta toccasti?;4;3;4;4;
 CL3;warcraft 2;*warcraft 2;1;1;1;1;
-CL3;I think most school shoud be at the 200mhz and 64mbz ram;Opino più #allievo *shoud essere in il 200*mhz e 64*mbz @ram;4;4;4;4;+{64mbz}[Spelling]
+CL3;I think most school shoud be at the 200mhz and 64mbz ram;Opino più #allievo *shoud essere in il 200*mhz e 64*mbz @ram;4;4;4;4;{shoud}[Spelling]+{200mhz}[Spelling]+{64mbz}[Spelling]
 CL3;oh ok;@oh ok;1;1;1;1;
 CL3;... yes me lord;... Sì mi signore;4;1;3;3;
 CL3;2 is better;2 è #migliore;1;1;1;2;
@@ -885,11 +885,11 @@ CL3;i dunno.... what do you (group 1) guys think?;*i *dunno.... Cosa  tu (gruppo
 CL3;i don't know;*i Non sa;4;2;2;2;{i}[Make I uppercase]
 CL3;you're not group 1 riz;Non sei gruppo 1 *riz;1;1;2;2;
 CL3;i was referring to than's comment;*i Riferiva a @than è commento;4;3;3;4;{i}[Make I uppercase]
-CL3;I think 200mhz and 64mb will be fine;Opino 200*mhz e 64*mb sarà bene;4;2;3;2;+{64mb}[Spelling]
+CL3;I think 200mhz and 64mb will be fine;Opino 200*mhz e 64*mb sarà bene;4;2;3;2;{200mhz}[Spelling]+{64mb}[Spelling]
 CL3;yeah;Sì;1;1;1;1;
 CL3;ok;ok;1;1;1;1;
 CL3;ok;ok;1;1;1;1;
-CL3;i think we could raise the minimum to 500mhz 128 meg ram;*i Opina potremmo alzare il minimo a 500*mhz 128 *meg @ram;4;2;2;2;+{minimum}[Complex Expression]
+CL3;i think we could raise the minimum to 500mhz 128 meg ram;*i Opina potremmo alzare il minimo a 500*mhz 128 *meg @ram;4;2;2;2;{500mhz}[Spelling]+{i}[Make I uppercase]+{minimum}[Complex Expression]
 CL3;you are being counterproductive as usual;Stai essendo *counterproductive come usuale;4;2;3;3;
 CL3;agreed;Accordato;4;1;1;2;
 CL3;sounds good.... as long as we see a definate improvement in the graphics;Suoni bene.... Tanto @long secondo vediamo un *definate @improvement nei grafici;4;3;4;4;{definate}[Spelling]
@@ -897,14 +897,14 @@ CL3;cool, so 500 mhz and 128 meg ram then;Fresco, @so 500 *mhz e 128 *meg @ram #
 CL3;right;Destro;4;4;4;4;
 CL3;good call chris;@Call buono *chris;4;3;4;4;{chris}[Spelling]
 CL3;the graphics;I grafici;4;1;4;1;
-CL3;I'd actually suggest agains't a 500 MHz limit.  My Dad's school still has quite a few 233 MHz computers;Di fatto @suggest *agains'*t un 500 *MHz limite.  Il mio Papà  #allievo ancora ha @quite pochi 233 *MHz computers;4;4;3;4;+{quite}[Complex Expression]
+CL3;I'd actually suggest agains't a 500 MHz limit.  My Dad's school still has quite a few 233 MHz computers;Di fatto @suggest *agains'*t un 500 *MHz limite.  Il mio Papà  #allievo ancora ha @quite pochi 233 *MHz computers;4;4;3;4;{agains't}[Spelling]+{quite}[Complex Expression]
 CL3;which... we will show you;#Quale... Ti mostreremo;1;3;3;1;
 CL3;you care?;Importi?;4;2;4;4;
-CL3;200mhz and 64mb will be fine;200*mhz e 64*mb sarà bene;4;2;3;1;+{64mb}[Spelling]
+CL3;200mhz and 64mb will be fine;200*mhz e 64*mb sarà bene;4;2;3;1;{200mhz}[Spelling]+{64mb}[Spelling]
 CL3;ok;ok;1;1;1;1;
 CL3;200, 64;200, 64;1;1;1;1;
 CL3;yeah;Sì;1;1;1;1;
-CL3;l33t h4x0R = Aaron;*l33*t *h4*x0*R = Aaron;1;1;1;4;+{h4x0R}[Spelling]
+CL3;l33t h4x0R = Aaron;*l33*t *h4*x0*R = Aaron;1;1;1;4;{l33t}[Spelling]+{h4x0R}[Spelling]
 CL3;soooo;*soooo;1;1;4;4;{soooo}[Spelling]
 CL3;game name?;Nome di gioco?;2;2;2;1;
 CL3;ok one of the decisions says: No money, no website;ok Uno di le decisioni dice: Nessuna moneta, nessun sito web;3;2;3;2;
@@ -919,8 +919,8 @@ CL3;well;Bene;1;1;1;1;
 CL3;I thought you were gonna do the website for free;Opinai #que andavi a fare il sito web per gratuito;4;3;3;3;
 CL3;apparently that decision wasnt clear;Apparentemente che decisione *wasnt chiaro;4;2;3;2;
 CL3;how about find criminals who know web design and owe community service?;@How approssimativamente trovare @criminal che sanno design di ragnatela e dovere servizio di comunità?;4;4;4;4;{owe}[Did you mean...]
-CL3;Yeah thats what I got...you sugguested it!;Sì *thats #quanto ricevevo...Tu *sugguested lo!;4;3;4;4;+{thats}[Missing apostrophe]
-CL3;"i thought i saw Mindy say ""we're not paying either""";"*i Opinò *i vide *Mindy dire ""non stiamo pagando neanche""";4;2;3;2;+{i}[Make I uppercase]
+CL3;Yeah thats what I got...you sugguested it!;Sì *thats #quanto ricevevo...Tu *sugguested lo!;4;3;4;4;{gotyou}[Spelling]+{sugguested}[Spelling]+{thats}[Missing apostrophe]
+CL3;"i thought i saw Mindy say ""we're not paying either""";"*i Opinò *i vide *Mindy dire ""non stiamo pagando neanche""";4;2;3;2;{i}[Make I uppercase]+{i}[Make I uppercase]
 CL3;yup;*yup;1;1;1;4;
 CL3;that was a joke;Quello era una barzelletta;3;2;2;2;
 CL3;:);:);1;1;1;1;
@@ -944,7 +944,7 @@ CL3;we don't really need it;Non realmente lo necessitiamo;3;2;2;2;
 CL3;lets say that the teachers federation pays for it;Lascia dice che i @pay di federazione dei professori per esso;4;3;4;2;
 CL3;i dunno we don't want any more teacher strikes;*i *dunno Non vogliamo più scioperi di professore;4;2;3;2;{i}[Make I uppercase]
 CL3;you guys already have a website, just host the documentation there....problem solved;ti I tipi già hanno un sito web, giusto anfitrione la documentazione lì....Il problema risolse;4;3;3;4;{thereproblem}[Spelling]
-CL3;You need to provide documentation for the code as we dont know who will maintain it. It will be the easyest thing to throw a webpage with docs.;Necessiti fornire documentazione per il codice secondo #prpers *dont sapere #cui lo manterrà. Sarà il *easyest cosa per tirare un *webpage con *docs.;4;3;4;4;+{easyest}[Spelling]
+CL3;You need to provide documentation for the code as we dont know who will maintain it. It will be the easyest thing to throw a webpage with docs.;Necessiti fornire documentazione per il codice secondo #prpers *dont sapere #cui lo manterrà. Sarà il *easyest cosa per tirare un *webpage con *docs.;4;3;4;4;{provide}[Complex Expression]+{dont}[Missing apostrophe]+{maintain}[Complex Expression]+{easyest}[Spelling]
 CL3;we could easily include documentation with the software?;#Facilmente potremmo includere documentazione con il software?;2;2;2;1;
 CL3;AGH;*AGH;1;1;1;1;{AGH}[Spelling]
 CL3;whoa... what happened?;*whoa... Che passato?;4;4;3;3;
@@ -959,7 +959,7 @@ CL3;Name of the game;Nome del gioco;1;1;1;1;
 CL3;"Game Name Suggestion: ""The incredible Adventure"",  ""Master Learner"", ""You've been schooled!"" or good old ""tron""";"Suggerimento di Nome del gioco: ""Il @Adventure incredibile"",  ""Maestro *Learner"", ""hai stato *schooled!"" O buono vecchio ""*tron""";4;3;3;2;
 CL3;they've asked 4 times;Hanno domandato 4 tempi;4;3;4;3;
 CL3;ya name it;*ya Lo nomina;3;3;3;4;
-CL3;i think tron is taken;*i Opina *tron è preso;4;2;4;2;+{is taken}[Passive voice]
+CL3;i think tron is taken;*i Opina *tron è preso;4;2;4;2;{i}[Make I uppercase]+{is taken}[Passive voice]
 CL3;We know where you dstole the character from !;Sappiamo dove tu *dstole il carattere di !;4;2;4;4;{dstole}[Spelling]
 CL3;Grade 1/2's Quest;Nota 1/2  *Quest;4;4;4;4;
 CL3;it was Charles;Era Charles;1;1;1;2;
@@ -968,7 +968,7 @@ CL3;unless we're willin to pay royalties;A meno che siamo *willin per pagare *ro
 CL3;with no intention of giving it back;Senza intenzione di @give;4;3;4;3;
 CL3;i mean group 1 is;*i Gruppo cattivo 1 è;4;4;2;4;{i}[Make I uppercase]
 CL3;you've been schooled !!!!!!!!!!!!!;Hai stato *schooled !!!!!!!!!!!!!;4;4;4;4;
-CL3;We arenot getting sued because of that ok...you take responsibility !;#Prpers *arenot ricevendo querelato @because of quello ok...@Take !;4;4;4;3;+{okyou}[Spelling]
+CL3;We arenot getting sued because of that ok...you take responsibility !;#Prpers *arenot ricevendo querelato @because of quello ok...@Take !;4;4;4;3;{arenot}[Spelling]+{okyou}[Spelling]
 CL3;Elementary Quest?;Elementare *Quest?;1;2;2;4;
 CL3;i say we go with you've been schooled;*i Dice andiamo con hai stato *schooled;4;4;4;4;{i}[Make I uppercase]
 CL3;Sounds too...elementary;Suoni anche...Elementare;4;3;4;4;{tooelementary}[Spelling]
@@ -1010,7 +1010,7 @@ CL3;no no;Nessun non;4;4;4;2;{no no}[Hyphen Required]
 CL3;no slaying;Nessun *slaying;4;4;4;4;
 CL3;"So, do you want to see as ""Storyline"" section inthe next RS?";"Tanto,  vuoi vedere tanto ""*Storyline"" sezione *inthe prossimo *RS?";4;3;3;3;{inthe}[Spelling]
 CL3;no;Non;4;2;2;2;
-CL3;dosnt have to be aviolent dragon;*dosnt Deve essere *aviolent drago;1;1;2;3;+{to be}[Passive voice]
+CL3;dosnt have to be aviolent dragon;*dosnt Deve essere *aviolent drago;1;1;2;3;{dosnt}[Spelling]+{aviolent}[Spelling]+{to be}[Passive voice]
 CL3;Puff the magic Dragon wasn't violent;*Puff Il Drago magico non fu violento;3;1;2;3;
 CL3;yes!;Sì!;1;1;1;1;
 CL3;yes (a) storyline section;Sì (un) *storyline sezione;1;2;2;2;
@@ -1023,7 +1023,7 @@ CL3;and the dragon comes in the NIIIIIGHT;E il drago entra il *NIIIIIGHT;4;1;4;3
 CL3;ok;ok;1;1;1;1;
 CL3;Who is scribing? Or.. not scribing, as the case may be....;#Cui è *scribing? O.. Non *scribing, secondo il caso @may essere....;4;3;4;4;{may be}[Passive voice]
 CL3;i am foo;*i Sono *foo;4;4;4;4;{i}[Make I uppercase]
-CL3;yeah....should add that we are required ...;Sì....Dovrebbe aggiungere che siamo #richiedere ...;4;3;4;4;+{are required}[Passive voice]
+CL3;yeah....should add that we are required ...;Sì....Dovrebbe aggiungere che siamo #richiedere ...;4;3;4;4;{yeahshould}[Spelling]+{are required}[Passive voice]
 CL3;so the name of the game will be specified in rs 2.0.;@So il nome del gioco sarà specificato in *rs 2.0.;4;2;2;2;{will be specified}[Passive voice]
 CL3;nice;Buono;1;2;2;1;
 CL3;scott the lazy peasant;*scott Il @peasant @lazy;4;4;4;4;
@@ -1051,7 +1051,7 @@ CL3;any name changes for the game will have to be finalized by rs 3.0;#Qualunque
 CL3;ok;ok;1;1;1;1;
 CL3;I vote we change the name to T he Jared is Awesome Game;Voto cambiamo il nome a *T lui Jared è *Awesome Gioco;4;3;3;3;
 CL3;hey where did that line break come from;*hey dove Fece quello allinea #il @break #venire di;4;4;4;4;
-CL3;i think there will be disagreement;*i Opina #haber @disagreement;4;4;4;4;+{be disagreement}[Hidden Verbs]
+CL3;i think there will be disagreement;*i Opina #haber @disagreement;4;4;4;4;{i}[Make I uppercase]+{be disagreement}[Hidden Verbs]
 CL3;shift enter;Il turno introduce;4;4;4;4;
 CL3;/n;/*n;1;1;1;1;
 CL3;yeah... always the shift enter;Sì... Sempre il turno introduce;4;4;4;4;
@@ -1059,15 +1059,15 @@ CL3;/n yourself riz;/*n Tu *riz;1;1;2;2;
 CL3;oooooo. settle down, boys;*oooooo. @Settle, ragazzi;4;4;4;4;{oooooo}[Spelling]
 CL3;i'm settled down;*i Sono @settle;4;4;4;4;{i'm}[Make I uppercase]
 CL3;scott is out to prove himself;*scott È fuori per #sé comprovare;4;3;3;3;
-CL3;Ok, I think thay should be it;Ok, opino *thay lo dovrebbe essere;4;3;3;3;+{should be}[Passive voice]
+CL3;Ok, I think thay should be it;Ok, opino *thay lo dovrebbe essere;4;3;3;3;{thay}[Spelling]+{should be}[Passive voice]
 CL3;/me slaps riz with a trout;/mi @Slap *riz con un *trout;4;4;4;4;
-CL3;i took some valium;*i Prese alcun *valium;4;3;3;2;+{i}[Make I uppercase]
+CL3;i took some valium;*i Prese alcun *valium;4;3;3;2;{valium}[Spelling]+{i}[Make I uppercase]
 CL3;anything else?;#Qualsiasi cosa più?;4;3;2;2;
-CL3;ok so if theres no more questions for us i think this concludes the negotiation.;ok @So se *theres non @more questioni per #prpers *i opinare questo conclude la trattativa.;4;3;3;2;+{i}[Make I uppercase]
+CL3;ok so if theres no more questions for us i think this concludes the negotiation.;ok @So se *theres non @more questioni per #prpers *i opinare questo conclude la trattativa.;4;3;3;2;{theres}[Missing apostrophe]+{i}[Make I uppercase]
 CL3;finally!;Finalmente!;1;1;1;1;
 CL3;i mean..;*i Cattivo..;4;4;4;4;{i}[Make I uppercase]
 CL3;you think?;Opini?;4;3;3;2;
-CL3;be confident mindy;Essere sicuro *mindy;4;3;3;3;+{be confident}[Hidden Verbs]
+CL3;be confident mindy;Essere sicuro *mindy;4;3;3;3;{mindy}[Spelling]+{be confident}[Hidden Verbs]
 CL3;Well thanks all;Bene grazie tutto;4;3;3;2;
 CL3;what?;Che?;2;1;1;2;
 CL3;are we still recording? turn off the tape;È #prpers ancora registrando? @Turn il @tape;4;4;4;3;
@@ -1078,7 +1078,7 @@ CL3;Thanks for your times;Grazie Per i tuoi tempi;4;3;3;3;
 CL3;bye;arrivederci;1;1;1;1;{bye}[Did you mean...]
 CL3;you did;Facesti;4;1;3;2;
 CL3;Thank you everyone;Grazie #Tutti quanti;2;1;1;2;
-CL3;i shoulda stayed home;*i *shoulda Restò alla casa;4;4;3;3;+{i}[Make I uppercase]
+CL3;i shoulda stayed home;*i *shoulda Restò alla casa;4;4;3;3;{shoulda}[Spelling]+{i}[Make I uppercase]
 CL3;bye;arrivederci;1;1;1;1;{bye}[Did you mean...]
 CL3;yeah thanks guys;Sì grazie tipi;3;2;2;3;
 CL3;thanks for the time guys;grazie Per i tipi di tempo;4;4;4;3;
@@ -1089,7 +1089,7 @@ CL3;bye;arrivederci;1;1;1;1;{bye}[Did you mean...]
 CL3;bye;arrivederci;1;1;1;1;{bye}[Did you mean...]
 CL3;Cheerio;*Cheerio;1;1;4;4;
 CL3;i <3 myself;*i <3 io;1;3;4;4;{i}[Make I uppercase]
-CL3;i'm glad this is going to be saved;*i Sono felice questo va a essere salvato;3;3;2;3;+{is going to be}[Passive voice]
+CL3;i'm glad this is going to be saved;*i Sono felice questo va a essere salvato;3;3;2;3;{i'm}[Make I uppercase]+{is going to be}[Passive voice]
 CL3;lol;*lol;1;1;1;4;
 CL3;i will email a copy to Daniela;*i  e-mail una copia a Daniela;4;3;2;3;{i}[Make I uppercase]
 CL3;so am i;@So sono *i;4;4;4;4;{i}[Make I uppercase]
@@ -1118,7 +1118,7 @@ CL4;shotty not it;*shotty Non lo;4;4;3;4;{shotty}[Spelling]
 CL4;heh;*heh;1;1;1;1;
 CL4;I'll do it;Lo farò;1;1;1;1;
 CL4;thanks ryan;grazie *ryan;1;1;1;1;{ryan}[Spelling]
-CL4;So you know Ryan, everytime you enter something into the decisions place, you need to hit the refresh. Last time i had to anyhow;@So sai Ryan, *everytime introduci #alcunché al posto di decisioni, necessiti incollare il *refresh. Ultimo tempo *i dovette/dové *anyhow;4;3;4;4;+{i}[Make I uppercase]
+CL4;So you know Ryan, everytime you enter something into the decisions place, you need to hit the refresh. Last time i had to anyhow;@So sai Ryan, *everytime introduci #alcunché al posto di decisioni, necessiti incollare il *refresh. Ultimo tempo *i dovette/dové *anyhow;4;3;4;4;{everytime}[Spelling]+{i}[Make I uppercase]
 CL4;so everyone can see what you put;@So #tutti quanti può vedere #quanto ponesti;4;3;3;3;
 CL4;Oh, ok, thx;@Oh, ok, *thx;1;1;1;4;{thx}[Spelling]
 CL4;Do you want to enable hand raising, Craig?;Vuoi autorizzare la mano #que alza, Craig?;4;3;3;2;
@@ -1135,7 +1135,7 @@ CL4;say I if you're not here;Dice io se non sei #lì;4;2;3;3;
 CL4;Everyone is here;#Tutti quanti è #lì;3;2;3;3;
 CL4;Ok, let's begin;Ok, lasciato è inizia;4;4;3;4;
 CL4;alright folks, let go;Bene *folks, lasciato va;4;4;3;4;
-CL4;i have some difficulty here...i am just goin off and log in again..so craig can u invite me again when i am bac?thks..;*i Ha alcuna difficoltà #lì...*i Sono giusto *goin di e *log in di nuovo..Tanto *craig può *u #invitare di nuovo quando *i sono *bac?*thks..;4;3;3;4;+{i}[Make I uppercase]
+CL4;i have some difficulty here...i am just goin off and log in again..so craig can u invite me again when i am bac?thks..;*i Ha alcuna difficoltà #lì...*i Sono giusto *goin di e *log in di nuovo..Tanto *craig può *u #invitare di nuovo quando *i sono *bac?*thks..;4;3;3;4;{herei}[Spelling]+{goin}[Spelling]+{againso}[Spelling]+{craig}[Spelling]+{bacthks}[Spelling]+{i}[Make I uppercase]+{i}[Make I uppercase]
 CL4;Developer speeking: We're plan on focussing on the kiosk in RS 3.0 does that sound reasonable to you guys?;@Developer *speeking: siamo piano in *focussing nel chiosco in *RS 3.0  che il suono ragionevole a te tipi?;4;4;4;4;{speeking}[Spelling]
 CL4;i'd say so;*i'*d Dice tanto;4;4;4;4;{i'd}[Make I uppercase]
 CL4;sounds fine;Suoni bene;4;3;2;4;
@@ -1157,14 +1157,14 @@ CL4;One possibility might be the on-board bus system for the driver;@One possibi
 CL4;well,yes, Michael;Bene,sì, Michael;1;1;2;1;
 CL4;I think that was is a bit challenging;Opino #que quello era un pò sta sfidando;4;4;4;4;
 CL4;Yeah, that's a good point Paul;Sì, quello è un punto buono Paul;1;1;2;3;
-CL4;I think that a trip planning feature, going into the different ways it would be accessed through things such as kiosk, web based and pda might be a bit more feasible;Opino che una caratteristica di planning del viaggio, andando ai modi differenti sarebbe acceduto #attraverso a cose come chiosco, la ragnatela basata e *pda @might essere un pò @more fattibile;4;4;3;3;+{feasible}[Complex Expression]
+CL4;I think that a trip planning feature, going into the different ways it would be accessed through things such as kiosk, web based and pda might be a bit more feasible;Opino che una caratteristica di planning del viaggio, andando ai modi differenti sarebbe acceduto #attraverso a cose come chiosco, la ragnatela basata e *pda @might essere un pò @more fattibile;4;4;3;3;{pda}[Spelling]+{web based}[Hyphen Required]+{feasible}[Complex Expression]
 CL4;that could also be a bit tough;Quello anche potrebbe essere un pò duro;4;3;3;2;
 CL4;ok,;ok,;1;1;1;1;
 CL4;anyway, for now we'll say we're going to focus on the Kiosk.  We'll let you know if we change our minds.;#Ad ogni modo, per ora diremo #que andiamo a centrare nel Chiosco.  Ti lasceremo sa se cambiamo le nostre menti.;4;3;3;4;
 CL4;yes;Sì;1;1;1;1;
 CL4;it's selected on mine.........;È @select in mina.........;4;4;4;4;
 CL4;Okay, all are items we  would like to see.;Ok, tutti sono elementi #prpers  piacerebbe vedere.;4;3;3;2;
-CL4;...well whatever component you guys have the most understanding of would probably be best, and its totally up to you;...Bene qualsiasi componente ti i tipi hanno il più capendo di probabilmente sarebbe più, e il suo totalmente fino te;4;4;4;4;+{its totally}[Did you mean...]
+CL4;...well whatever component you guys have the most understanding of would probably be best, and its totally up to you;...Bene qualsiasi componente ti i tipi hanno il più capendo di probabilmente sarebbe più, e il suo totalmente fino te;4;4;4;4;{component}[Complex Expression]+{its totally}[Did you mean...]
 CL4;we still don't have the eval criteria for rs 3.0. don't worry about that today;Ancora non abbiamo il *eval @criterion per *rs 3.0. Non infastide sopra che oggi;4;4;4;3;
 CL4;Alright, let's move on;Bene, lasciato  movimento addirittura;4;4;4;4;
 CL4;the thing is, if you decide now, you'll get more out of this meeting.;La cosa è, se decidi adesso, riceverai @more #fuori questa riunione.;4;3;3;4;
@@ -1182,7 +1182,7 @@ CL4;Okay, well the victoria one is fine;Ok, bene il *victoria uno è bene;4;3;3;
 CL4;but you sort of need to know what bus you are taking - need search feature;Ma ordini di necessità di sapere che autobus stai prendendo #- caratteristica di ricerca della necessità;4;4;3;4;{sort of}[Complex Expression]
 CL4;you mean just searching by bus route number, or by some other parameter?;Significhi giusto cercando per numero di rotta dell'autobus, o per #alcuno altro parametro?;4;2;2;3;{parameter}[Complex Expression]
 CL4;so like search by postal code or region of town;Tanto come ricerca per regione o codice postale di città;4;2;3;4;
-CL4;esqimalt, sooke, etc.;*esqimalt, *sooke, etc.;1;1;4;1;+{sooke}[Spelling]
+CL4;esqimalt, sooke, etc.;*esqimalt, *sooke, etc.;1;1;4;1;{esqimalt}[Spelling]+{sooke}[Spelling]
 CL4;just so you know what busses pass by;Giusto tanto sai #quanto @pass di autobus per;4;4;3;4;
 CL4;maybe a map;Forse una mappa;1;1;2;1;
 CL4;But also route number as if they are avid travellers they will know what bus.;Ma anche numero di rotta come se sono *avid viaggiatori sapranno che autobus.;4;3;3;4;
@@ -1194,7 +1194,7 @@ CL4;So we'll add search functionality to the schedule lookup interface;@So aggiu
 CL4;well, wouldn't someone only want to view a schedule if they regularly took the bus?  otherwise wouldn't they use trip  planning?;Bene,  non qualcuno #solo vuole vedere un orario se regolarmente presero il autobus?  In altro modo  non usano planning  di viaggio?;4;3;3;3;
 CL4;In theory, or if they would like to know how often a given bus comes.;In teoria, o se li piacerebbe sapere @how spesso un autobus dato viene.;4;2;4;3;
 CL4;(the translink schedule is a bit better, you can choose which stops you want t he times of);(Il *translink il orario è un pò #migliore, puoi scegliere #quale ti detiene vuole *t @time di);4;4;4;4;{translink}[Spelling]
-CL4;I think that paul's point is valid, but I know that even in victoria, there are some buses of which i dont' know the exact routes, it would be beneficial for them I think to be able to find out if other busses can go to points;Opino che *paul  il punto è vigente, ma so che #ancora in *victoria, #hay alcun autobus di #il quale *i *dont' sapere le rotte esatte, sarebbe benefico per loro opino per essere capace di scoprire se altri autobus possono andare a punti;4;3;3;4;+{to be}[Passive voice]
+CL4;I think that paul's point is valid, but I know that even in victoria, there are some buses of which i dont' know the exact routes, it would be beneficial for them I think to be able to find out if other busses can go to points;Opino che *paul  il punto è vigente, ma so che #ancora in *victoria, #hay alcun autobus di #il quale *i *dont' sapere le rotte esatte, sarebbe benefico per loro opino per essere capace di scoprire se altri autobus possono andare a punti;4;3;3;4;{i}[Make I uppercase]+{to be}[Passive voice]
 CL4;Testing 123...;@Testing 123...;4;4;4;4;
 CL4;did everyone get booted there or just me?;Fece #tutti quanti riceve scalciato lì o giusto mi?;4;4;4;4;
 CL4;not me;Non mi;4;3;4;4;
@@ -1204,14 +1204,14 @@ CL4;where did Chris go;Dove  Chris va;2;2;2;3;
 CL4;I suddenly stopped getting messages.;#Improvvisamente detenni ricevere messaggi.;4;3;2;4;
 CL4;apparently ppl are being randomly booted;Apparentemente *ppl sta essendo *randomly scalciò;4;4;4;4;
 CL4;great;Grande;1;1;1;1;
-CL4;what do you guys think of the option of seeing the routes of a zoomable map, chooseing routes via area of city;Cosa  ti i tipi opinano dell'opzione di vedere le rotte d'un *zoomable mappa, *chooseing rotte @via area di città;4;3;2;4;+{the option of}[Hidden Verbs]
+CL4;what do you guys think of the option of seeing the routes of a zoomable map, chooseing routes via area of city;Cosa  ti i tipi opinano dell'opzione di vedere le rotte d'un *zoomable mappa, *chooseing rotte @via area di città;4;3;2;4;{zoomable}[Spelling]+{chooseing}[Spelling]+{the option of}[Hidden Verbs]
 CL4;or being able ot select route number;O essendo capace *ot @select numero di rotta;4;3;3;4;{ot}[Spelling]
 CL4;Has anyone on a Windows computer being booted?;Ha qualunque in un essere di computer di le Finestre scalciò?;4;4;4;4;
 CL4;I am fine here;Sono bene #lì;4;3;3;4;
 CL4;Ok, so maybe 2 different views of the schedule?  Like a view for a single bus route, listing multiple stops and their stop times as well as a view for a single stop, listing multiple busses and their stop times at that one stop?;Ok, tanto forse 2 #vista differenti dell'orario?  Come una #vista per una rotta di autobus sola, listando stop multiplo e i suoi tempi di stop così come una #vista per un stop solo, listando autobus multiplo e i suoi tempi di stop in quello @one stop?;4;3;4;4;
-CL4;A feature of this program that the eConference tool like to demonstrate often.;Una caratteristica di questo programma che il *eConference a arnese #prpers piace dimostrare spesso.;4;3;2;3;+{demonstrate}[Complex Expression]
+CL4;A feature of this program that the eConference tool like to demonstrate often.;Una caratteristica di questo programma che il *eConference a arnese #prpers piace dimostrare spesso.;4;3;2;3;{eConference}[Spelling]+{demonstrate}[Complex Expression]
 CL4;That works with me.;Quelli lavori con me.;4;4;4;4;
-CL4;i'm fine i think it sounds good;*i Sono bene *i opinarlo suona bene;4;4;3;4;+{i}[Make I uppercase]
+CL4;i'm fine i think it sounds good;*i Sono bene *i opinarlo suona bene;4;4;3;4;{i'm}[Make I uppercase]+{i}[Make I uppercase]
 CL4;was that ryan's comment you were replying to?;Era che *ryan  commento rispondevi a?;4;3;3;3;{ryan's}[Spelling]
 CL4;Indeed it was.;Di fatto era.;2;2;2;2;
 CL4;2 views, and a map, and searching by postal/area/route;2 #vista, e una mappa, e cercando per rotta/di area/postale;4;2;3;3;
@@ -1252,19 +1252,19 @@ CL4;what number is the Majestic, I don't know;Che numero è il *Majestic, non so
 CL4;i'd remember the name before the number;*i'*d Ricorda il nome prima del numero;4;2;2;2;{i'd}[Make I uppercase]
 CL4;Sorry Tyler.;Tyler @Sorry.;4;4;4;4;
 CL4;If it isn't useful to a bus rider, they don't have to use it :);Se non è utile a un @rider di autobus, non lo devono usare :);4;3;3;2;
-CL4;yeha...the name of the bus route can tell where the dest is..;*yeha...Il nome della rotta di autobus può dire dove il *dest è..;2;2;3;3;+{dest}[Spelling]
+CL4;yeha...the name of the bus route can tell where the dest is..;*yeha...Il nome della rotta di autobus può dire dove il *dest è..;2;2;3;3;{yehathe}[Spelling]+{dest}[Spelling]
 CL4;names of hte routes are easier to remember than numbers, and may mean something to someone who doesn't know the routes;Nomi di *hte le rotte sono più facili di ricordare @than numeri, e @may significare #alcunché a qualcuno che non sa le rotte;4;3;3;3;{hte}[Spelling]
 CL4;really?;Realmente?;1;2;2;2;
 CL4;ok;ok;1;1;1;1;
 CL4;alright guys, I won't move on until everyone finishes typing;Bene tipi, non sposterò in #fino #tutti quanti finisce scrivere;4;3;4;3;
 CL4;just to keep things organized;Giusto per mantenere le cose organizzarono;4;2;3;2;
 CL4;downtown via hillside vs. #4;Centrico @via *hillside *vs. #4;4;3;3;4;
-CL4;if its called downtown via hillside, then I know just from that that that is where it goes;Se il suo chiamato centrico @via *hillside, allora so giusto di che quello che è dove va;4;3;3;4;+{that that}[Repeated Word]
+CL4;if its called downtown via hillside, then I know just from that that that is where it goes;Se il suo chiamato centrico @via *hillside, allora so giusto di che quello che è dove va;4;3;3;4;{that that}[Repeated Word]+{that that}[Repeated Word]
 CL4;downtown would be useful as it would give all busses that have a dest of downtown.;Centrico sarebbe utile secondo darebbe #tutto i  autobus che ha un *dest di centrico.;4;3;3;3;{dest}[Spelling]
 CL4;then it would list all the different via's for an example;Allora listerebbe #tutto il differente @via è per un esempio;4;3;3;4;
 CL4;ok so  we do both then?;ok @So  facciamo entrambi #allora?;4;2;3;3;
 CL4;yeah, the route name covers my concern, the names are descriptive enough;Sì, il nome di rotta copre la mia preoccupazione, i nomi sono #piuttosto descrittivi;4;2;2;3;
-CL4;I'm getting booted whenever discussions are logged.;Sto ricevendo scalciato *whenever le discussioni sono *logged.;4;4;4;4;+{are logged}[Passive voice]
+CL4;I'm getting booted whenever discussions are logged.;Sto ricevendo scalciato *whenever le discussioni sono *logged.;4;4;4;4;{whenever}[Complex Expression]+{are logged}[Passive voice]
 CL4;anyways I think we have agreed to include search by bus name anyway...;*anyways Opino #que abbiamo accordato includere ricerca per nome di autobus #ad ogni modo...;4;2;3;3;
 CL4;alright;Bene;1;1;1;1;
 CL4;, we're out of time on this topic, let's move on;, siamo #fuori tempo in questo tema, lasciato  movimento addirittura;4;3;4;4;
@@ -1272,7 +1272,7 @@ CL4;yes;Sì;1;1;1;1;
 CL4;We need to move along to the next topic;Necessitiamo spostare lungo al tema prossimo;3;2;3;4;
 CL4;well, yeah, name is useful in this case;Bene, sì, il nome è utile in questo caso;1;1;2;2;
 CL4;apparently the boot on discussion log is a known bug;Apparentemente il @boot in discussione *log è un saputo *bug;4;3;3;4;
-CL4;yea, i think we're good to mvoe on;*yea, *i opina siamo buoni a *mvoe addirittura;4;3;4;4;+{i}[Make I uppercase]
+CL4;yea, i think we're good to mvoe on;*yea, *i opina siamo buoni a *mvoe addirittura;4;3;4;4;{mvoe}[Spelling]+{i}[Make I uppercase]
 CL4;we should be able to search by both, as the routes have both name and number;Dovremmo essere capaci di cercare per entrambi, secondo le rotte hanno #entrambi i nome e numero;3;3;3;4;{should be}[Passive voice]
 CL4;our next topic is about the Realtime map feature that we presented on Thursday;Il nostro tema prossimo è sopra il *Realtime caratteristica di mappa che presentammo in giovedì;3;3;3;3;
 CL4;we just want to get some more feedback from you about the different ways to view/select/filter locations on this map;Giusto vogliamo ricevere #alcuno @more *feedback di te sopra i modi differenti di vedere/@select/ubicazioni di filtro in questa mappa;4;3;3;4;
@@ -1284,13 +1284,13 @@ CL4;select a region with a square box and it zooms in to that area?;@Select una 
 CL4;exactly;Esattamente;1;1;1;1;
 CL4;No, I think we'd want something simpler just like a magnifying glass + or - button;Non, opino #que vorremmo #alcunché più semplice giusto come un *magnifying tazza + o #- @button;4;4;4;4;
 CL4;I like the +/- thing;Mi piace il +/#- cosa;2;2;2;4;
-CL4;Currently the filtering will filter any stops around the specific stop that the kiosk is located at.  If the map is zoomed and panned, are you alright that only the routes that intersect a stop will be shown on the realtime map;Attualmente il filtrando filtrerà qualunque stop intorno a il stop specifico che il chiosco è localizzato in.  Se la mappa è *zoomed e *panned, ti è bene che #solo le rotte che @intersect un stop sarà mostrato nel *realtime mappa;4;3;4;4;+{will be shown}[Passive voice]
+CL4;Currently the filtering will filter any stops around the specific stop that the kiosk is located at.  If the map is zoomed and panned, are you alright that only the routes that intersect a stop will be shown on the realtime map;Attualmente il filtrando filtrerà qualunque stop intorno a il stop specifico che il chiosco è localizzato in.  Se la mappa è *zoomed e *panned, ti è bene che #solo le rotte che @intersect un stop sarà mostrato nel *realtime mappa;4;3;4;4;{is located}[Passive voice]+{is zoomed}[Passive voice]+{will be shown}[Passive voice]
 CL4;I think so,;Opino tanto,;4;4;4;4;
 CL4;I'm not sure why you'd want to see other ones;Non sono sicuro perché vorresti vedere altro #uno;3;2;3;2;
 CL4;maybe some kind of overlay with the list of busses shown, that you can toggle on and off?;Forse alcuna classe di *overlay con la lista dell'autobus mostrato, che puoi *toggle addirittura e fuori?;4;4;4;3;
 CL4;Now, if the users can pan around the whole map, we should probably display all the routes in the city if they want;Adesso, se gli utenti possono cazzeruola intorno alla mappa intera, probabilmente dovremmo mostrare #tutto le rotte nella città se vogliono;4;3;3;3;{the whole}[Complex Expression]
 CL4;if you want to transfer...;Se vuoi trasferire...;1;1;2;2;
-CL4;The map feature should be available when trip planning as well so the actual route the trip planner has created will be outlined with different line colours or something to mark bus  routes vs walking areas.;La caratteristica di mappa dovrebbe essere disponibile quando il viaggio #que pianifica anche @so la rotta reale il viaggio *planner ha creato sarà delineato con colori di linea differente o #alcunché per marcare rotte  di autobus *vs camminando aree.;4;3;3;4;+{will be outlined}[Passive voice]
+CL4;The map feature should be available when trip planning as well so the actual route the trip planner has created will be outlined with different line colours or something to mark bus  routes vs walking areas.;La caratteristica di mappa dovrebbe essere disponibile quando il viaggio #que pianifica anche @so la rotta reale il viaggio *planner ha creato sarà delineato con colori di linea differente o #alcunché per marcare rotte  di autobus *vs camminando aree.;4;3;3;4;{should be}[Passive voice]+{actual}[Complex Expression]+{will be outlined}[Passive voice]
 CL4;That's what I was thinking,;Quello è #quanto opinavo,;3;3;2;2;
 CL4;but it makes the filtering a bit messy;Ma fa il filtrando un pò *messy;4;4;4;4;
 CL4;Yeah, Bryan's idea is a good one,;Sì, la idea di Bryan è un buono @one,;4;3;2;3;
@@ -1307,7 +1307,7 @@ CL4;if it's a popup box, then it could be easy;Se è un *popup scatola, allora p
 CL4;test.;Prova.;1;1;1;1;
 CL4;I just said check box style buttons;Io controllo detto giusto @button di stile di la scatola;4;4;4;4;
 CL4;well it's a touch screen right?;Bene è una destra di schermo d'il @touch?;4;4;4;4;
-CL4;couldn't it just be a list of numbers that if you touch it it turns green and shows on screen, and if you touch it again, the number turns red and the busses aren't displayed?;Potrebbe non lui giusto essere una lista di numeri che se lo tocchi vira verde e spettacoli in schermo, e se lo tocchi di nuovo, il numero vira rosso e gli autobus non sono mostrati?;4;3;3;4;+{on screen}[Hyphen Required]
+CL4;couldn't it just be a list of numbers that if you touch it it turns green and shows on screen, and if you touch it again, the number turns red and the busses aren't displayed?;Potrebbe non lui giusto essere una lista di numeri che se lo tocchi vira verde e spettacoli in schermo, e se lo tocchi di nuovo, il numero vira rosso e gli autobus non sono mostrati?;4;3;3;4;{it it}[Repeated Word]+{on screen}[Hyphen Required]
 CL4;I was just trying to describe the functionality of the buttons, obviously we'd want something big enough for a user's finger;Giusto tentavo per descrivere la funzionalità d'i @button, ovviamente vorremmo #alcunché #piuttosto grande per il dito d'un utente;4;2;3;4;{the functionality of}[Hidden Verbs]
 CL4;anyway, shall we move on?;#Ad ogni modo,  spostiamo addirittura?;4;4;4;4;
 CL4;Okay;Ok;1;1;1;1;
@@ -1320,7 +1320,7 @@ CL4;yes check boxes are fine i think;Sì scatole di controllo sono bene *i opina
 CL4;or even hidden;O #ancora nascosto;4;2;4;3;
 CL4;we need to move on guys;Necessitiamo spostare in tipi;4;4;4;4;
 CL4;hold up;Controllo sopra;4;4;4;4;
-CL4;i'm not sure why it needs to be a check box... busses that have a paticular destination or starting point, or pass through a certain region or stop works for me... then it can all be search based instead of covering half the map region with a list...???;*i Non sono sicuro perché necessita essere una scatola di controllo... Autobus che ha un *paticular destino o iniziando punto, o @pass #attraverso a una regione sicura o lavori di stop per me... Allora può tutto è ricerca basato @instead of coprire @half la regione di mappa con una lista...???;4;4;4;3;+{paticular}[Spelling]
+CL4;i'm not sure why it needs to be a check box... busses that have a paticular destination or starting point, or pass through a certain region or stop works for me... then it can all be search based instead of covering half the map region with a list...???;*i Non sono sicuro perché necessita essere una scatola di controllo... Autobus che ha un *paticular destino o iniziando punto, o @pass #attraverso a una regione sicura o lavori di stop per me... Allora può tutto è ricerca basato @instead of coprire @half la regione di mappa con una lista...???;4;4;4;3;{i'm}[Make I uppercase]+{to be}[Passive voice]+{paticular}[Spelling]
 CL4;Yeah,;Sì,;1;1;1;1;
 CL4;that's why I'm thinking it would pop up;@That's why sto opinandolo @pop sopra;4;4;4;4;
 CL4;So you wouldn't see the list of routes unless you called it up;@So non vedresti la lista di rotte a meno che lo chiamasti sopra;4;3;3;3;
@@ -1328,7 +1328,7 @@ CL4;Then you select the routes, and accept;Allora @select le rotte, e accettare;
 CL4;and you see the map again, full screen;E vedi la mappa di nuovo, schermo pieno;2;2;2;2;
 CL4;yeah;Sì;1;1;1;1;
 CL4;, it could be hidden and you pop up the box, select routes, and the box goes away;, potrebbe essere nascosto e @pop @up la scatola, @select rotte, e la scatola va fuori;4;3;4;4;
-CL4;So you're suggesting that additional filtering can be done ontop of the searching mentioned.;@So stai @suggest che supplementare filtrando può essere fatto *ontop del cercando menzionò.;4;4;4;4;+{can be}[Passive voice]
+CL4;So you're suggesting that additional filtering can be done ontop of the searching mentioned.;@So stai @suggest che supplementare filtrando può essere fatto *ontop del cercando menzionò.;4;4;4;4;{ontop}[Spelling]+{additional}[Complex Expression]+{can be}[Passive voice]
 CL4;because I think there'd be too many routes to list on the side of the screen;Perché opino lì'*d essere troppe rotte per listare in il lato d'il schermo;4;3;3;3;
 CL4;That works for me.;Quelli lavori per me.;4;4;3;4;
 CL4;but what routes will it list?;Ma #quanto rotte  lista?;4;3;3;4;
@@ -1381,7 +1381,7 @@ CL4;ok;ok;1;1;1;1;
 CL4;sounds good to me;Suoni bene a me;4;3;2;4;
 CL4;next topic is the access to the system from mobile devices such as PDA's and cellphones;Il tema prossimo è il accesso a il sistema di dispositivi mobili come *PDA è e *cellphones;4;3;2;2;
 CL4;i was thinking just a separate style sheet for the website ...;*i Opinava giusto un foglio di stile @separate per il sito web ...;4;2;2;2;{i}[Make I uppercase]
-CL4;Is it alright if we simply provide a scalled down mini version of the webpage?;Lo è bene se semplicemente forniamo un *scalled #giù *mini versione del *webpage?;4;3;2;3;+{provide}[Complex Expression]
+CL4;Is it alright if we simply provide a scalled down mini version of the webpage?;Lo è bene se semplicemente forniamo un *scalled #giù *mini versione del *webpage?;4;3;2;3;{scalled}[Spelling]+{provide}[Complex Expression]
 CL4;yeah;Sì;1;1;1;1;
 CL4;yea;*yea;1;1;1;4;
 CL4;I think so;Opino tanto;4;4;2;4;
@@ -1420,7 +1420,7 @@ CL4;Michael - what kind of search?;Michael #- che classe di ricerca?;4;3;2;2;
 CL4;one line?;Uno allinea?;4;4;4;4;
 CL4;like scrolling text?;Come *scrolling testo?;4;3;3;4;
 CL4;i don't think that would work;*i Non opina quello lavorerebbe;4;4;3;3;{i}[Make I uppercase]
-CL4;by 'own schedule', it means their actual, hard, schedule, not a dynamically changing thing...at least that's how I understand it;Per 'orario proprio', significa il suo reale, duro, orario, non un dinamicamente cambiando cosa...Almeno quello è come io lo capisce;4;3;3;3;+{actual}[Complex Expression]
+CL4;by 'own schedule', it means their actual, hard, schedule, not a dynamically changing thing...at least that's how I understand it;Per 'orario proprio', significa il suo reale, duro, orario, non un dinamicamente cambiando cosa...Almeno quello è come io lo capisce;4;3;3;3;{thingat}[Spelling]+{actual}[Complex Expression]
 CL4;Yes, it could scroll;Sì, potrebbe *scroll;4;3;4;4;
 CL4;well, that'd be hard to read while driving;Bene, quello'*d essere duro delle ggere conduzione di @while;4;4;4;4;
 CL4;don't you think?;Non opini?;4;4;4;4;
@@ -1433,12 +1433,12 @@ CL4;ok hold on a sec;ok Controllo in un *sec;4;1;3;4;
 CL4;a driver doesn't need to know his next stop one after the other;Un conduttore non necessita per sapere il suo stop prossimo @one after the other;4;3;4;3;
 CL4;I would have atleast 3 or so, except when near end of route... then it would have arrival time at last stop, and departure time.;Io  avere *atleast 3 o tanto, eccetto quando fine vicino di rotta... Allora avrebbe tempo di arrivo in ultimo stop, e tempo di marcia.;4;3;4;4;{atleast}[Spelling]
 CL4;he needs to know if is behind or ahead of sched;Necessita sapere se è dietro o @ahead of *sched;4;4;4;4;{sched}[Spelling]
-CL4;he can read the router or whatever before he drives, what the onscreen can provide is a copy of this for his reference;Può leggere il *router o @whatever prima che guida, #quanto il *onscreen può fornire è una copia di questo per il suo riferimento;4;3;2;4;+{reference}[Complex Expression]
+CL4;he can read the router or whatever before he drives, what the onscreen can provide is a copy of this for his reference;Può leggere il *router o @whatever prima che guida, #quanto il *onscreen può fornire è una copia di questo per il suo riferimento;4;3;2;4;{provide}[Complex Expression]+{reference}[Complex Expression]
 CL4;he does not need to view it while driving;Non necessita per vederlo mentre guidando;3;2;2;3;
 CL4;no there is like time checkpoints so he doesn't go too fast;Nessun #hay come tempo *checkpoints tanto non va @too rapido;4;4;4;4;
 CL4;yeah, it's more for whether he's on time or getting behind/ahead;Sì, è @more per se è puntualmente o ricevendo dietro/avanti;4;4;4;4;
 CL4;He'd more likely look at it when stopping to pick up people.;Lui  aspetto @more probabile in esso quando detenendo per captare gente.;4;3;4;4;
-CL4;as for seeing stuff on screen, its like bryan just said here;@As for vedere materia in schermo, il suo piacere *bryan giusto detto #lì;4;4;4;4;+{on screen}[Hyphen Required]
+CL4;as for seeing stuff on screen, its like bryan just said here;@As for vedere materia in schermo, il suo piacere *bryan giusto detto #lì;4;4;4;4;{bryan}[Spelling]+{on screen}[Hyphen Required]
 CL4;yep;*yep;1;1;1;4;
 CL4;I would say on the screen the next few stops and if connecting buses are running late;Direi in il schermo il prossimo poco stop e se connettendo il autobus sta correndo in ritardo;4;3;4;4;
 CL4;the driver would need to know HOW late he is;Il conduttore necessiterebbe sapere @HOW in ritardo è;4;2;4;4;
@@ -1458,12 +1458,12 @@ CL4;you'd still have to watch for the line you're looking for;Ancora dovresti vi
 CL4;Do you want the bus driver to advance the stop display manually?;Vuoi il conduttore di autobus per avanzare la esibizione di stop manualmente?;4;3;3;4;
 CL4;for his schedule?;Per il suo orario?;2;1;2;1;
 CL4;i don't think there is any need to do it manually....;*i Non opina #hay qualunque necessità di farlo manualmente....;4;3;2;3;{i}[Make I uppercase]
-CL4;No, it should be automatic. No input required from driver while on route.;Non, dovrebbe essere automatico. Nessuna entrata richiesta di @while di conduttore in rotta.;4;4;3;4;+{input}[Complex Expression]
+CL4;No, it should be automatic. No input required from driver while on route.;Non, dovrebbe essere automatico. Nessuna entrata richiesta di @while di conduttore in rotta.;4;4;3;4;{should be}[Passive voice]+{input}[Complex Expression]
 CL4;Because the other option is to tie it in with GPS and have it show the stops based on where the bus is;Perché la altra opzione è per legarlo in con GPS e averlo mostra il stop basò in dove il autobus è;4;3;3;3;
 CL4;yeah;Sì;1;1;1;1;
 CL4;Yes to Ryan's comment.;Sì al commento di Ryan.;1;1;1;1;
 CL4;I like that too;Mi piace che anche;4;3;3;4;
-CL4;I Think that would be pretty resonable ryan, as everything is already tied in;Opino che sarebbe @pretty *resonable *ryan, secondo tutto è già legato @in;4;4;4;4;+{ryan}[Spelling]
+CL4;I Think that would be pretty resonable ryan, as everything is already tied in;Opino che sarebbe @pretty *resonable *ryan, secondo tutto è già legato @in;4;4;4;4;{resonable}[Spelling]+{ryan}[Spelling]
 CL4;alright......moving to next topic;Bene......Spostando a tema prossimo;3;2;2;3;{alrightmoving}[Spelling]
 CL4;ok;ok;1;1;1;1;
 CL4;soudns good;*soudns Buono;4;1;2;2;{soudns}[Spelling]
@@ -1501,14 +1501,14 @@ CL4;their judgement whether to wait or not;Il suo giudizio se per aspettare o no
 CL4;yeah;Sì;1;1;1;1;
 CL4;and 3 minutes is too long to wait;E 3 minuti è @too @long per aspettare;4;4;4;4;
 CL4;for sure;Sicuro;1;1;1;1;
-CL4;say you're on a bus that goes from UVic to Western Exchange and it is suppose to meet a bus that goes from West Ex to Wishart - but the UVic bus is little late, the Wishart driver could aford to wait 3min.;Ti dice è in un autobus che va di *UVic al cambio Occidentale e lui è suppone per compiere un autobus che va di Dell'ovest Ex a *Wishart #- ma il *UVic il autobus è poco in ritardo, il *Wishart il conduttore potrebbe *aford per aspettare 3min.;4;3;3;4;+{it is suppose}[Auxiliary Verb Agreement]
+CL4;say you're on a bus that goes from UVic to Western Exchange and it is suppose to meet a bus that goes from West Ex to Wishart - but the UVic bus is little late, the Wishart driver could aford to wait 3min.;Ti dice è in un autobus che va di *UVic al cambio Occidentale e lui è suppone per compiere un autobus che va di Dell'ovest Ex a *Wishart #- ma il *UVic il autobus è poco in ritardo, il *Wishart il conduttore potrebbe *aford per aspettare 3min.;4;3;3;4;{UVic}[Spelling]+{Wishart}[Spelling]+{UVic}[Spelling]+{Wishart}[Spelling]+{aford}[Spelling]+{3min}[Spelling]+{it is suppose}[Auxiliary Verb Agreement]
 CL4;The driver will check the screen when leaving important/connecting stops, no annoying beeps necessary or other notifications. Just additional information to make smart decisions.;Il conduttore verificherà il schermo quando lasciando importante/connettendo stop, nessun molesto *beeps necessario o altre notifiche. Informazione supplementare giusto per fare decisioni @smart.;4;3;3;3;{additional}[Complex Expression]
 CL4;yeah,;Sì,;1;1;1;1;
 CL4;and if you're ahead, you can afford to wait longer;E se sei avanti, puoi permettere per aspettare più lungo;3;3;3;3;
 CL4;rural bus routes are different;Rotte di autobus rurale sono differenti;2;3;2;2;
 CL4;i think some sort of audio notification would be beneficial;*i Opina alcuna classe di notifica di @audio sarebbe benefica;4;3;2;3;{i}[Make I uppercase]
 CL4;ok, so when should the system display the information to the bus driver?;ok, @so quando dovere il sistema mostra il informazione al conduttore di autobus?;4;2;2;3;
-CL4;if they should be able to check it at the stop BEFORE the connection, then we need to get that data to the onboard bus system in advance;Se dovrebbero essere capaci di verificarlo in il stop PRIMA DELLA connessione, allora necessitiamo ricevere quello dato all'*onboard sistema di autobus @in advance;4;3;3;4;+{data to}[Complex Expression]
+CL4;if they should be able to check it at the stop BEFORE the connection, then we need to get that data to the onboard bus system in advance;Se dovrebbero essere capaci di verificarlo in il stop PRIMA DELLA connessione, allora necessitiamo ricevere quello dato all'*onboard sistema di autobus @in advance;4;3;3;4;{should be}[Passive voice]+{data to}[Complex Expression]
 CL4;It will always be there for upcoming stops as soon as it is available.;Sempre sarà lì per *upcoming detiene appena è disponibile.;4;4;3;4;
 CL4;alright, so maybe if the bus driver pushes a button on their display;Bene, tanto forse se il conduttore di autobus spinge un @button in la sua esibizione;4;3;4;4;
 CL4;it will show them how late the connecting bus is running to the next connecting stop?;Li mostrerà @how in ritardo il autobus di connettere sta correndo al prossimo connettendo stop?;4;3;3;4;
@@ -1537,7 +1537,7 @@ CL4;, but the button to toggle the displayed info is fine;, ma il @button a *tog
 CL4;that's my vote.;Quello è il mio voto.;1;1;2;1;
 CL4;I have faith in our bus drivers. Indeed the need to switch could be eliminated as a necessity and there just as an option if on the top of the late bus screen would be the time the driver should leave the next stop.;Ho fede in i nostri conduttori di autobus. Di fatto la necessità a cambio potrebbe essere eliminata come *necessity e lì tanto una opzione se nella tazza d'il schermo di autobus tardio sarebbe il tempo il conduttore dovrebbe lasciare il stop prossimo.;4;4;4;4;
 CL4;I think that crowding a display makes the data difficult to easily comprehend;Opino che ammassando una esibizione fa il dato difficile a #facilmente *comprehend;4;4;4;4;
-CL4;its not like they should need to switch all that  often, in some kind of panic while they drive;Il suo non piacere dovrebbero necessitare cambiare tutto  che spesso, in alcuna classe di @while di panico guidano;4;4;4;4;+{some kind of panic}[Complex Expression]
+CL4;its not like they should need to switch all that  often, in some kind of panic while they drive;Il suo non piacere dovrebbero necessitare cambiare tutto  che spesso, in alcuna classe di @while di panico guidano;4;4;4;4;{its not}[Did you mean...]+{some kind of panic}[Complex Expression]
 CL4;too much information for drivers, 2 screen is not usefull;Troppo informazione per conduttori, 2 schermo non è *usefull;4;3;3;3;{usefull}[Spelling]
 CL4;ok so toggle then?;ok @So *toggle #allora?;4;3;4;4;
 CL4;yeah one screen toggling displays probably best;Sì @one schermo *toggling mostra probabilmente più;4;3;3;4;
@@ -1568,16 +1568,16 @@ CL4;exiting stats will allows to know how many people are on the bus at one time
 CL4;I think that was the idea;Opino #que quello era la idea;4;3;3;2;
 CL4;How will we collect these stats?;Come  raccogliamo questo *stats?;4;2;3;3;
 CL4;Do you have the hardware?;Hai il @hardware?;2;2;3;2;
-CL4;Exiting is important to allow bus planners to know which stops are used and which are not. So statistics around what is required would be the stop they departed at, time they departed, route and an estimate.... if number of people is too hard to track, just the knowledge that someone did get off at that stop.;Uscendo è importante di permettere autobus *planners per sapere #quale stop sono usati e #che non è. Tanto *statistics intorno a #quanto è #richiedere sarebbe il stop #prpers *departed in, tempo #prpers *departed, rotta e una stima.... Se il numero di gente è @too duro di seguire, giusto il sapere che qualcuno @get in quello stop.;4;3;4;4;+{is required}[Passive voice]
+CL4;Exiting is important to allow bus planners to know which stops are used and which are not. So statistics around what is required would be the stop they departed at, time they departed, route and an estimate.... if number of people is too hard to track, just the knowledge that someone did get off at that stop.;Uscendo è importante di permettere autobus *planners per sapere #quale stop sono usati e #che non è. Tanto *statistics intorno a #quanto è #richiedere sarebbe il stop #prpers *departed in, tempo #prpers *departed, rotta e una stima.... Se il numero di gente è @too duro di seguire, giusto il sapere che qualcuno @get in quello stop.;4;3;4;4;{are used}[Passive voice]+{is required}[Passive voice]
 CL4;I believe the original idea was that the driver would enter the numbers into his/her display;Credo #que la idea originale era che il conduttore introdurrebbe i numeri a la sua/la sua esibizione;4;3;3;3;
 CL4;I don't believe we have the hardware;Non credo abbiamo il @hardware;2;2;2;2;
 CL4;How is a bus driver going to count people getting off?;Come è un conduttore di autobus #que va per contare la gente #que @get?;4;3;4;4;
 CL4;that is difficult on the drivers;Quello è difficile nei conduttori;4;3;4;3;
 CL4;I don't think bus drivers can do it;Non opino conduttori di autobus lo possono fare;3;3;2;2;
-CL4;My Proposal:  Busses have infared beams across entraces that simply report when beam interruopted.;La mia Proposta:  Autobus avere *infared travi #attraverso a *entraces che semplicemente informare quando trave *interruopted.;4;4;4;4;+{interruopted}[Spelling]
+CL4;My Proposal:  Busses have infared beams across entraces that simply report when beam interruopted.;La mia Proposta:  Autobus avere *infared travi #attraverso a *entraces che semplicemente informare quando trave *interruopted.;4;4;4;4;{infared}[Spelling]+{entraces}[Spelling]+{interruopted}[Spelling]
 CL4;Bus drivers could count oncoming but not exciting;Conduttori di autobus potrebbero contare *oncoming ma non entusiasmando;4;3;4;4;
 CL4;additional tasks for the bus drivers is always bad;I lavori supplementari per i conduttori di autobus è sempre cattivo;4;2;2;2;{additional}[Complex Expression]
-CL4;so when a crowd of people get off the bus at UVIC, a driver is supposed to count as they pile off?;Tanto quando un @crowd di gente @get il autobus in *UVIC, un conduttore è supposto per contare tanto #prpers pila fuori?;4;4;4;4;+{is supposed}[Passive voice]
+CL4;so when a crowd of people get off the bus at UVIC, a driver is supposed to count as they pile off?;Tanto quando un @crowd di gente @get il autobus in *UVIC, un conduttore è supposto per contare tanto #prpers pila fuori?;4;4;4;4;{UVIC}[Spelling]+{is supposed}[Passive voice]
 CL4;that won't work. there's no way.;Quello non lavorerà. No #hay nessun modo.;4;3;4;3;
 CL4;Same problem with infared;Problema stesso con *infared;4;2;4;4;{infared}[Spelling]
 CL4;it won't count a group;Non conterà un gruppo;1;1;2;1;
@@ -1603,7 +1603,7 @@ CL4;Put 1/5 0 of you on each bus?;Posto 1/5 0 di te in ogni autobus?;4;2;3;3;
 CL4;it looks great on the resume;Pare grande nel *resume;4;4;4;4;{the resume}[Diacritical Marks]
 CL4;we were hoping the system would provide us data from every day instead of once every so often;Auspicavamo #que il sistema #prpers fornirebbe dato di ogni giorno @instead of @once ogni tanto;4;3;4;4;{provide}[Complex Expression]
 CL4;Yes.;Sì.;1;1;1;1;
-CL4;I'm not seeing the ryan counting in the decision pane;Non sto vedendo il *ryan contando nella decisione *pane;4;4;4;4;+{pane}[Did you mean...]
+CL4;I'm not seeing the ryan counting in the decision pane;Non sto vedendo il *ryan contando nella decisione *pane;4;4;4;4;{ryan}[Spelling]+{pane}[Did you mean...]
 CL4;Yeah, I can't change the decision place anymore;Sì, non posso cambiare il posto di decisione *anymore;4;3;3;2;
 CL4;it just boots me;Giusto mi scalcia;4;4;4;3;
 CL4;for people getting on we can easily count people via counting fares -- I still don't see any easy way of counting exits;Per la gente #que subisce/sube #facilmente possiamo contare gente @via contare *fares #-#- ancora non vedo qualunque modo facile di contare @exit;4;4;4;4;
@@ -1624,9 +1624,9 @@ CL4;yeah, we do have the stats that the bus would be stopping;Sì, abbiamo il *s
 CL4;sound good to everyone?;Il suono buono a #tutti quanti?;4;4;3;4;
 CL4;sounds great;I suoni grandi;4;4;4;4;
 CL4;ok;ok;1;1;1;1;
-CL4;we could just do estimates how how many people leave best on how many people are allowed one;Giusto potremmo fare stime come quanta gente lascia più in quanta gente è permessa una;4;3;4;4;+{are allowed}[Passive voice]
+CL4;we could just do estimates how how many people leave best on how many people are allowed one;Giusto potremmo fare stime come quanta gente lascia più in quanta gente è permessa una;4;3;4;4;{how how}[Repeated Word]+{are allowed}[Passive voice]
 CL4;on*;Addirittura*;4;4;4;4;
-CL4;we can only knw how many ppl get on the bus in total in a day..but counting ppl get off is pretty hard to achieve i think..;Possiamo #solo *knw quanti *ppl subire il autobus in valore in un giorno..Ma contando *ppl @get è @pretty duro di conseguire *i opinare..;4;3;4;4;+{i}[Make I uppercase]
+CL4;we can only knw how many ppl get on the bus in total in a day..but counting ppl get off is pretty hard to achieve i think..;Possiamo #solo *knw quanti *ppl subire il autobus in valore in un giorno..Ma contando *ppl @get è @pretty duro di conseguire *i opinare..;4;3;4;4;{knw}[Spelling]+{daybut}[Spelling]+{achieve}[Complex Expression]+{i}[Make I uppercase]
 CL4;No ditching of exit stats.;Nessun *ditching di @exit *stats.;4;4;4;4;
 CL4;kia is right;*kia È bene;4;3;3;3;{kia}[Spelling]
 CL4;Stats as basic as if someone did get off at a stop would be fine.;*Stats Come basico come se qualcuno @get in un stop sarebbe bene.;4;3;4;3;
@@ -1636,7 +1636,7 @@ CL4;Then stops that no one gets off at would be recorded.;#Allora detiene che ne
 CL4;alright, we can discuss this one more later on;Bene, possiamo parlare questo uno @more posteriormente addirittura;4;3;4;3;
 CL4;neeeeeeeeeeext;*neeeeeeeeeeext;1;1;4;4;{neeeeeeeeeeext}[Spelling]
 CL4;i think we should move on to the last topic;*i Opina dovremmo spostare addirittura all'ultimo tema;4;2;3;3;{i}[Make I uppercase]
-CL4;Would it be appropriate to record how long the doors are open at each stop?  This won't give you an exact number of people getting off the bus but it should help you determine how popular a given stop is?;essere appropriato di registrare @how @long le porte sono aperte in ogni stop?  Questo non ti darà un numero esatto della gente #que @get il autobus ma lui ti dovrebbero aiutare determina @how popolare un stop dato è?;4;3;3;3;+{determine}[Complex Expression]
+CL4;Would it be appropriate to record how long the doors are open at each stop?  This won't give you an exact number of people getting off the bus but it should help you determine how popular a given stop is?;essere appropriato di registrare @how @long le porte sono aperte in ogni stop?  Questo non ti darà un numero esatto della gente #que @get il autobus ma lui ti dovrebbero aiutare determina @how popolare un stop dato è?;4;3;3;3;{appropriate}[Complex Expression]+{determine}[Complex Expression]
 CL4;thats a good idea;*thats Una idea buona;1;1;1;2;{thats}[Missing apostrophe]
 CL4;, depends on how costly it is to implement;, dipende addirittura @how costoso è per attuare;4;3;4;3;{implement}[Complex Expression]
 CL4;k last?;*k Ultimo?;1;1;2;2;
@@ -1649,7 +1649,7 @@ CL4;Well, they've lived as long as many people... they can have the bennifit of 
 CL4;haha;*haha;1;1;1;1;
 CL4;alright, last topic guys;Bene, ultimi tipi di tema;4;3;4;4;
 CL4;ok;ok;1;1;1;1;
-CL4;Why don't we send you an email regarding this topc?;Perché  non ti inviiamo una e-mail @regarding questo *topc?;4;3;3;4;+{regarding}[Complex Expression]
+CL4;Why don't we send you an email regarding this topc?;Perché  non ti inviiamo una e-mail @regarding questo *topc?;4;3;3;4;{topc}[Spelling]+{regarding}[Complex Expression]
 CL4;so we can wrap up now;@So possiamo avvolgere @up adesso;4;4;3;4;
 CL4;we're already over time;Siamo già @over time;4;4;4;4;
 CL4;define -no- english. as in literally none/;Define #-nessun#- *english. Tanto @in letteralmente nessuno/;4;4;4;4;{-no-}[Spelling]
@@ -1711,7 +1711,7 @@ CL5;I can't clik;Posso non *clik;4;3;3;3;{clik}[Spelling]
 CL5;Don't you just click in the decisions place and type?;Non ti @click giusto nel posto di decisioni e tipo?;4;3;4;4;
 CL5;try now;Tenta adesso;1;1;1;1;
 CL5;Okay, it works/.;Ok, lavora/.;2;2;4;3;
-CL5;ok we just needed to test the decisiion pane;ok #Prpers giusto necessitato per testare il *decisiion *pane;4;3;3;4;+{pane}[Did you mean...]
+CL5;ok we just needed to test the decisiion pane;ok #Prpers giusto necessitato per testare il *decisiion *pane;4;3;3;4;{decisiion}[Spelling]+{pane}[Did you mean...]
 CL5;hello;@hello;4;4;4;4;
 CL5;dsdsd;*dsdsd;1;1;1;4;{dsdsd}[Spelling]
 CL5;test;Prova;1;1;1;1;
@@ -1740,7 +1740,7 @@ CL5;I got kicked off, might be wireless;Ricevetti #calciare fuori, @might essere
 CL5;I can't see people on Who's On;Non posso vedere la gente in #Cui ha Addirittura;4;3;4;4;
 CL5;You're also posting in duplicate.;Sei anche *posting @in duplicate.;4;3;4;4;
 CL5;And so am I, apparently.;E @so sono io, apparentemente.;4;3;3;4;
-CL5;I think that anyone using linux cannot see the messages that we are typng;Opino che qualunque usando *linux non può vedere i messaggi che siamo *typng;4;2;3;4;+{typng}[Spelling]
+CL5;I think that anyone using linux cannot see the messages that we are typng;Opino che qualunque usando *linux non può vedere i messaggi che siamo *typng;4;2;3;4;{linux}[Spelling]+{typng}[Spelling]
 CL5;we all get your message so don't worry about it;#Prpers tutto riceve il tuo messaggio @so non infastide sopra esso;4;4;4;4;
 CL5;we're in 2 sessions;Siamo in 2 @session;4;2;2;1;
 CL5;ok;ok;1;1;1;1;
@@ -1766,10 +1766,10 @@ CL5;it is not a full prototype;Non è un prototipo pieno;2;2;2;2;
 CL5;"if it were it would be ""the"" system";"Se lo fu sarebbe ""il sistema";3;2;3;3;
 CL5;right;Destro;4;4;4;4;
 CL5;you are correct sir;Sei signore corretto;2;3;3;2;
-CL5;what is the focus component that you guys are going to do for RS3.0;Che è il componente di fuoco che ti i tipi vanno a fare per *RS3.0;4;3;4;4;+{component}[Complex Expression]
+CL5;what is the focus component that you guys are going to do for RS3.0;Che è il componente di fuoco che ti i tipi vanno a fare per *RS3.0;4;3;4;4;{RS30}[Spelling]+{component}[Complex Expression]
 CL5;"In the actual system, I believe that clicking on ""Booking Schedule"" under a room you found would enable you to view when it's booked, and if a booking was public, you could click on it and see the specifics about it.";"In il sistema reale, credo che *clicking in ""Riservare Orario"" sotto una sala fondi ti autorizzerebbe per vedere quando è riservato, e se un riservando era pubblico, potresti @click in esso e vedere il *specifics sopra esso.";4;2;3;3;{actual}[Complex Expression]
 CL5;we were thinking about the sheduling and booking functionality;Opinavamo sopra il *sheduling e riservando funzionalità;4;3;3;4;{sheduling}[Spelling]
-CL5;geoff, could you invite andrew;*geoff, potrebbe inviti *andrew;4;2;3;3;+{andrew}[Spelling]
+CL5;geoff, could you invite andrew;*geoff, potrebbe inviti *andrew;4;2;3;3;{geoff}[Spelling]+{andrew}[Spelling]
 CL5;what is his username;Che è il suo *username;3;2;3;3;
 CL5;andrews;*andrews;1;1;1;1;{andrews}[Spelling]
 CL5;k;*k;1;1;1;4;
@@ -1784,14 +1784,14 @@ CL5;How have you addressed booking multiple rooms and reoccurring bookings??;Com
 CL5;Administrators are the only ones who can book multiple rooms at a time.;Gli amministratori sono il unico #uno che possono riservare sale multiple contemporaneamente.;3;2;2;2;
 CL5;but how about reoccurring bookings;Ma @how sopra *reoccurring *bookings;4;2;4;4;
 CL5;same;Stesso;1;1;3;1;
-CL5;but regalr users should be able to book for reoccuring events;Ma *regalr gli utenti dovrebbero essere capaci di riservare per *reoccuring eventi;2;2;3;4;+{should be}[Passive voice]
+CL5;but regalr users should be able to book for reoccuring events;Ma *regalr gli utenti dovrebbero essere capaci di riservare per *reoccuring eventi;2;2;3;4;{regalr}[Spelling]+{reoccuring}[Spelling]+{should be}[Passive voice]
 CL5;unless you want some permission to allow certain users thoes features;A meno che vuoi alcun permesso per permettere utenti sicuri *thoes caratteristiche;4;3;4;2;{thoes}[Spelling]
 CL5;or should i just be open to any user;O dovere *i giusto essere aperto a qualunque utente;4;2;2;3;{i}[Make I uppercase]
 CL5;Is that demonstrated on the prototype at all?;È quello dimostrato nel prototipo @at all?;4;2;3;4;
 CL5;no;Non;4;4;2;2;
 CL5;No.;Non.;4;4;2;2;
 CL5;suppose we had a regular meeting time on a friday afternoon;Suppone avemmo un tempo di riunione regolare in un *friday pomeriggio;4;2;3;3;
-CL5;nope, i will have to add a checkbox saying recurring;*nope, *i dovrà aggiungere un *checkbox @saying *recurring;4;3;3;4;+{i}[Make I uppercase]
+CL5;nope, i will have to add a checkbox saying recurring;*nope, *i dovrà aggiungere un *checkbox @saying *recurring;4;3;3;4;{checkbox}[Spelling]+{i}[Make I uppercase]
 CL5;we would want to book a room for the semester or something;Vorremmo riservare una sala per il @semester o #alcunché;4;2;2;3;
 CL5;Geoff, would you invite andrew again;*Geoff,  inviti *andrew di nuovo;2;2;1;2;{andrew}[Spelling]
 CL5;"""andrew""";"""*andrew""";1;1;1;1;{andrew}[Spelling]
@@ -1806,7 +1806,7 @@ CL5;"so we have 27 ;minutes left i suggest we get started deciding what is going
 CL5;is andrew even here;È *andrew #ancora #lì;2;2;3;1;{andrew}[Spelling]
 CL5;he is in the solaris room;È in il *solaris sala;4;2;2;3;{solaris}[Spelling]
 CL5;he's there;È lì;1;1;1;1;
-CL5;but the econf can't be invited;Ma il *econf non può essere invitato;1;1;2;3;+{can't be}[Passive voice]
+CL5;but the econf can't be invited;Ma il *econf non può essere invitato;1;1;2;3;{econf}[Spelling]+{can't be}[Passive voice]
 CL5;did he get the new version?;Riceve la versione nuova?;3;2;2;3;
 CL5;i think we should just get started and fill him in later;*i Opina giusto dovremmo iniziare e riempirlo in posteriormente;4;3;2;4;{i}[Make I uppercase]
 CL5;or we will not have time to finish;O non avremo tempo per finire;1;1;1;1;
@@ -1815,7 +1815,7 @@ CL5;good idea;Idea buona;1;2;1;2;
 CL5;about time;Sopra tempo;4;3;4;4;
 CL5;well I would like to see one single click to enter into a state where you know that you are booking a room;Bene mi piacerebbe vedere uno @click solo per introdurre a un stato dove sai che stai riservando una sala;3;2;2;3;{enter into}[Complex Expression]
 CL5;?;?;1;1;1;1;
-CL5;for the recurrence, I think most of them would be either weekly or monthly. Some may be biweekly. The users should be given those options for sure.;Per la ricorrenza, opino @most di loro sarebbero qualsiasi settimanale o mensilmente. #Alcuno @may essere *biweekly. Gli utenti dovrebbero essere dati quelle opzioni sicuro.;4;2;3;3;+{should be}[Passive voice]
+CL5;for the recurrence, I think most of them would be either weekly or monthly. Some may be biweekly. The users should be given those options for sure.;Per la ricorrenza, opino @most di loro sarebbero qualsiasi settimanale o mensilmente. #Alcuno @may essere *biweekly. Gli utenti dovrebbero essere dati quelle opzioni sicuro.;4;2;3;3;{biweekly}[Spelling]+{may be}[Passive voice]+{should be}[Passive voice]
 CL5;it seems obscure to me to have to go through room search first;Pare scuro a me per dovere passare per ricerca di sala primo;4;3;2;4;
 CL5;like one click to see where u book or not?;Come @one @click per vedere dove *u libro o non?;4;3;3;4;
 CL5;"is that ""My Bookings""?";"È che ""Il mio *Bookings""?";4;3;3;4;
@@ -1830,7 +1830,7 @@ CL5;but the scribe cant write a decision though;Ma il *scribe *cant scrivere una
 CL5;and set an agenda;E mettere un *agenda;3;1;3;2;
 CL5;why not;Perché non;2;2;2;2;
 CL5;It apparently crashed the program to do so.;Apparentemente #scontrarsi il programma per fare tanto.;4;3;4;4;
-CL5;i get disconnected when a decision is made;*i Riceve *disconnected quando una decisione è fatta;4;3;4;3;+{is made}[Passive voice]
+CL5;i get disconnected when a decision is made;*i Riceve *disconnected quando una decisione è fatta;4;3;4;3;{i}[Make I uppercase]+{is made}[Passive voice]
 CL5;i thought that was the purpose of a scribe;*i Opinò che era il proposito d'un *scribe;4;2;4;3;{i}[Make I uppercase]
 CL5;whoa;*whoa;1;1;1;4;
 CL5;andrew welcome back;*andrew *welcome Dietro;4;4;4;4;{andrew}[Spelling]
@@ -1851,7 +1851,7 @@ CL5;ill record this in word;Atto malato questo in parola;4;3;4;4;
 CL5;Right, makes sense.;Destro, senso di marchi.;4;4;4;4;
 CL5;sounds good;Suoni bene;4;2;2;4;
 CL5;this conference is intended to also decide what is going into rs 3.0;Questa conferenza è pretesa a anche decidere #quanto sta andando a *rs 3.0;4;2;3;4;{is intended}[Passive voice]
-CL5;are you going to do the display public events portion for the final product;Ti è andando per fare la esibizione porzione di eventi pubblici per il prodotto finale;4;3;4;4;+{final product}[Redundant Expression]
+CL5;are you going to do the display public events portion for the final product;Ti è andando per fare la esibizione porzione di eventi pubblici per il prodotto finale;4;3;4;4;{portion}[Complex Expression]+{final product}[Redundant Expression]
 CL5;yes;Sì;1;1;1;1;
 CL5;so if you know the room you want you can go right to it;Tanto se sai la sala ti vuoi può andare destro a esso;4;4;4;4;
 CL5;what part of the project are you going to focus on for 3.0;Che parte del progetto ti è andando per centrare in per 3.0;4;4;3;3;
@@ -1867,14 +1867,14 @@ CL5;is the function for non user to view the booking include?;È la funzione per
 CL5;i mean in the prototype;*i Cattivo nel prototipo;4;4;4;4;{i}[Make I uppercase]
 CL5;not in the prototype,;Non nel prototipo,;1;1;1;1;
 CL5;say I booked a room in the sub for a presentation I would want anyone to be able to come not just users;Dice riservai una sala in il *sub per una presentazione vorrei qualunque per essere capace di venire non utenti giusti;4;3;3;4;{to be}[Passive voice]
-CL5;so an option to set the viewablilty of a boooking;@So una opzione per mettere il *viewablilty d'un *boooking;4;2;3;4;+{boooking}[Spelling]
-CL5;I have a question about the room booking menu: what do you want on it? Do you want just browse and search? Or did you want somthing else as well where you could do somthing more direct? I didn't understand your full intention;Ho una questione sopra la sala #que riserva carta: cosa  vuoi in esso?  Vuoi giusto *browse e ricerca? O  vuoi *somthing più anche dove potresti fare *somthing @more diretto? Non capii la tua intenzione piena;4;3;3;3;+{somthing}[Spelling]
+CL5;so an option to set the viewablilty of a boooking;@So una opzione per mettere il *viewablilty d'un *boooking;4;2;3;4;{viewablilty}[Spelling]+{boooking}[Spelling]
+CL5;I have a question about the room booking menu: what do you want on it? Do you want just browse and search? Or did you want somthing else as well where you could do somthing more direct? I didn't understand your full intention;Ho una questione sopra la sala #que riserva carta: cosa  vuoi in esso?  Vuoi giusto *browse e ricerca? O  vuoi *somthing più anche dove potresti fare *somthing @more diretto? Non capii la tua intenzione piena;4;3;3;3;{have a question}[Hidden Verbs]+{somthing}[Spelling]+{somthing}[Spelling]
 CL5;a check box saying public or private would work fine;Una scatola di controllo #que dice pubblico o privato lavorerebbe bene;4;2;1;3;
-CL5;on the main page just a shortcut to the browse or search page that is labelled book room is what i am thinking;Nella pagina maggiore giusto un @shortcut al *browse o pagina di ricerca che è etichettata sala di libro è #quanto *i sto opinando;4;3;2;4;+{i}[Make I uppercase]
+CL5;on the main page just a shortcut to the browse or search page that is labelled book room is what i am thinking;Nella pagina maggiore giusto un @shortcut al *browse o pagina di ricerca che è etichettata sala di libro è #quanto *i sto opinando;4;3;2;4;{is labelled}[Passive voice]+{i}[Make I uppercase]
 CL5;ok;ok;1;1;1;1;
-CL5;so if a room is public eveyone can see what its booked for, but if its not public then what;Tanto se una sala è pubblica *eveyone può vedere #quanto il suo riservato per, ma se il suo non pubblico allora che;4;3;4;3;+{its not}[Did you mean...]
+CL5;so if a room is public eveyone can see what its booked for, but if its not public then what;Tanto se una sala è pubblica *eveyone può vedere #quanto il suo riservato per, ma se il suo non pubblico allora che;4;3;4;3;{eveyone}[Spelling]+{its booked}[Did you mean...]+{its not}[Did you mean...]
 CL5;do you want authenticated users to see what its booked for;Vuoi *authenticated utenti per vedere #quanto il suo riservato per;4;3;4;4;{its booked}[Did you mean...]
-CL5;your rfp didn't mention a booking name or descriptiong;Il tuo *rfp non menzionò un nome di riservare o *descriptiong;4;3;3;4;+{descriptiong}[Spelling]
+CL5;your rfp didn't mention a booking name or descriptiong;Il tuo *rfp non menzionò un nome di riservare o *descriptiong;4;3;3;4;{rfp}[Spelling]+{descriptiong}[Spelling]
 CL5;no but they can only view public bookings that it;Nessun ma #solo possono vedere pubblici *bookings che lo;4;3;4;4;
 CL5;another Question, does the public user need to get an ID and password from the admin  before they can book a room?;Un'altra Questione,  la necessità di utente pubblica per ricevere un *ID e password dell'*admin  prima che possono riservare una sala?;4;2;3;3;
 CL5;thats it*;*thats Lui*;4;4;4;4;{thats}[Missing apostrophe]
@@ -1883,7 +1883,7 @@ CL5;possibly a title too;#Se possibile un titolo anche;1;1;1;1;
 CL5;"such as ""beer fest"" sub # 103";"Come ""birra *fest"" *sub # 103";4;2;2;3;
 CL5;do you want to add a title and description to the booking;Vuoi aggiungere un titolo e descrizione al riservando;4;2;2;2;
 CL5;perhaps optional;Forse opzionale;1;1;1;1;
-CL5;well i would think a title would be very usefull;Bene *i opinerebbe un titolo sarebbe bene *usefull;4;2;2;2;+{i}[Make I uppercase]
+CL5;well i would think a title would be very usefull;Bene *i opinerebbe un titolo sarebbe bene *usefull;4;2;2;2;{usefull}[Spelling]+{i}[Make I uppercase]
 CL5;a question from the prototype when you click on booking schedule, you only display schedule of a particular month, can user view next month schedule as well;Una questione del prototipo quando ti @click in riservare orario, tu #solo orario di esibizione d'un mese particolare, può #vista di utente il mese prossimo @schedule anche;4;3;4;4;{a question from}[Hidden Verbs]
 CL5;thats not a problem;*thats Non un problema;1;1;2;3;{thats}[Missing apostrophe]
 CL5;yes..its just the prototype;Sì..Il suo giusto il prototipo;4;2;4;4;{yesits}[Spelling]
@@ -1895,14 +1895,14 @@ CL5;what about a quick option description;Che sopra una descrizione di opzione r
 CL5;well not meaningless it just depends what you want the system to do;Bene non senza senso giusto dipende #quanto vuoi il sistema per fare;4;3;3;3;
 CL5;you are expanding from room booking to events calendar;Stai ampliando di la sala #que riserva a calendario di eventi;4;3;3;4;
 CL5;let's not get into symantecs;Lasciato non è ricevere a *symantecs;4;4;4;4;{symantecs}[Spelling]
-CL5;well if you have a faculty meeting and all it says is that room 103 is booked and not that its the meeting thats pretty meaningless;Bene se hai una riunione di facoltà e tutto dice è che sala 103 è riservato e non che la sua la riunione *thats @pretty senza senso;4;2;3;3;+{thats}[Missing apostrophe]
+CL5;well if you have a faculty meeting and all it says is that room 103 is booked and not that its the meeting thats pretty meaningless;Bene se hai una riunione di facoltà e tutto dice è che sala 103 è riservato e non che la sua la riunione *thats @pretty senza senso;4;2;3;3;{is booked}[Passive voice]+{its the}[Did you mean...]+{thats}[Missing apostrophe]
 CL5;it makes a difference with how we approach the problem;Fa una differenza con come avviciniamo il problema;3;2;2;3;{makes a difference}[Hidden Verbs]
 CL5;an events calendar focuses more on design and less on booking functionality and vise versa;Un calendario di eventi centra @more in design e meno in riservare funzionalità e *vise *versa;4;2;3;3;
 CL5;Well, since we've already focused on functionality, lets stay focused there and just add a description;Bene, da allora già abbiamo centrato in funzionalità, lascia il soggiorno centrò lì e giusto aggiungere una descrizione;4;4;4;4;
 CL5;i thought that viewing public bookings and such was always a part;*i Opinò che vedendo pubblico *bookings e #tale era sempre una parte;4;3;3;3;{i}[Make I uppercase]
 CL5;but i could be mistaken;Ma *i potrebbe essere *mistaken;4;3;4;4;{i}[Make I uppercase]
-CL5;yes but you never specified the title or description therefore the public could just see when the room was booked and no details would be displayed;Sì ma mai specificasti il titolo o descrizione conseguentemente il pubblico giusto potrebbe vedere quando la sala fu riservata e nessun dettaglio sarebbe mostrato;4;2;2;3;+{was booked}[Passive voice]
-CL5;which if the purpose of the system was simply to help potential bookers find a suiteable room would be sufficient;#Quale se il proposito d'il sistema era semplicemente per aiutare potenziale *bookers trovare un *suiteable la sala sarebbe sufficiente;4;3;4;4;+{be sufficient}[Hidden Verbs]
+CL5;yes but you never specified the title or description therefore the public could just see when the room was booked and no details would be displayed;Sì ma mai specificasti il titolo o descrizione conseguentemente il pubblico giusto potrebbe vedere quando la sala fu riservata e nessun dettaglio sarebbe mostrato;4;2;2;3;{therefore}[Complex Expression]+{was booked}[Passive voice]
+CL5;which if the purpose of the system was simply to help potential bookers find a suiteable room would be sufficient;#Quale se il proposito d'il sistema era semplicemente per aiutare potenziale *bookers trovare un *suiteable la sala sarebbe sufficiente;4;3;4;4;{suiteable}[Spelling]+{be sufficient}[Hidden Verbs]
 CL5;you could be right;Potresti essere destro;4;4;4;4;
 CL5;adding a title is easy;Aggiungendo un titolo è facile;1;2;3;2;
 CL5;next issue;@Issue prossimo;4;2;4;4;
@@ -1924,12 +1924,12 @@ CL5;that doesn't make sence at all;Quello non fa *sence @at all;4;4;4;4;
 CL5;if the public can see the concert and that time, then they know its booked;Se il pubblico può vedere il concerto e che tempo, allora sanno il suo riservato;4;3;3;4;{its booked}[Did you mean...]
 CL5;which part?;#Quale parte?;1;1;1;1;
 CL5;yes;Sì;1;1;1;1;
-CL5;if its a faculty meeting then the faculty can see the booking duration and the relevant information but students can only see that the room is  booked;Se la sua una riunione di facoltà allora le facoltà possono vedere la durata di riservare e il informazione pertinente ma i studenti #solo possono vedere che la sala è  riservata;4;2;3;3;+{is booked}[Passive voice]
+CL5;if its a faculty meeting then the faculty can see the booking duration and the relevant information but students can only see that the room is  booked;Se la sua una riunione di facoltà allora le facoltà possono vedere la durata di riservare e il informazione pertinente ma i studenti #solo possono vedere che la sala è  riservata;4;2;3;3;{its a}[Did you mean...]+{is booked}[Passive voice]
 CL5;but then what was all that about only students seeing it;Ma #allora #quanto era tutto quello sopra i studenti unici #que lo vedono;4;4;4;3;
 CL5;"you said ""unless it is set to public and then the public can see everything""";"Dicesti ""a meno che è messo a pubblico e allora il pubblico può vedere tutto""";3;2;2;3;{is set}[Passive voice]
 CL5;but all that info would show up on the calendar;Ma tutto che *info apparirebbe nel calendario;4;2;2;4;
 CL5;i accidentally hit enter mid message;*i Accidentalmente incollato introduce *mid messaggio;4;4;4;4;{i}[Make I uppercase]
-CL5;"it should be ""if it is set to public and then the public can see everything""";"Dovrebbe essere ""se è messo a pubblico e allora il pubblico può vedere tutto""";3;1;2;2;+{is set}[Passive voice]
+CL5;"it should be ""if it is set to public and then the public can see everything""";"Dovrebbe essere ""se è messo a pubblico e allora il pubblico può vedere tutto""";3;1;2;2;{should be}[Passive voice]+{is set}[Passive voice]
 CL5;because if a concert is going from 9:00pm to 1:am then its obvious that its booked;Perché se un concerto sta andando di #9:00pm a 1:sono #allora il suo ovvio che il suo riservato;4;3;4;4;
 CL5;and what time it's booked form;E #quanto lo @time è riservato forma;4;3;4;4;
 CL5;what other student? can they see the detail of other student booking a room?;Che altro studente? Può vedono il dettaglio di altro studentesco riservando una sala?;4;3;4;4;
@@ -1939,7 +1939,7 @@ CL5;^ about;^ Approssimativamente;4;2;3;1;
 CL5;Shouldn't we skip to RS 3.0?  We were going to talk about it but got sidetracked, and there are only five minutes.;Dovere non #prpers *skip a *RS 3.0?  Andavamo a parlare sopra esso ma ricevuto *sidetracked, e #hay #solo cinque minuti.;4;4;4;4;
 CL5;I suppose one way to say it is that a user from the same class of user can see the details of the booking, but all other user classes can only see the general stuff;Suppongo @one modo per dirlo è che un utente di la stessa classe di utente può vedere i dettagli del riservando, ma #tutto altre classi di utente #solo possono vedere la materia generale;4;2;3;4;
 CL5;I think we have this sorted on our end;Opino #que abbiamo questo ordinato in il nostro fine;4;4;3;4;
-CL5;"public=show booked status with event detail; private=show booked status only? is that correct";"Spettacolopubblico stato riservato con dettaglio di evento; spettacoloprivato stato riservato #solo? È che corretto";4;4;4;4;+{privateshow}[Spelling]
+CL5;"public=show booked status with event detail; private=show booked status only? is that correct";"Spettacolopubblico stato riservato con dettaglio di evento; spettacoloprivato stato riservato #solo? È che corretto";4;4;4;4;{publicshow}[Spelling]+{privateshow}[Spelling]
 CL5;"Bookings, private or public for viewing, checkbox? Public bookings, optional title
  
 Private, only groups can see details, or bookers. Ie faculty can see all faculty booked items, students can only see items that they book themselves.";"*Bookings, privato o pubblico per vedere, *checkbox? Pubblico *bookings, titolo opzionale
@@ -1958,7 +1958,7 @@ CL5;Yes, the software gives me the speed of three typers in one.;Sì, il softwar
 CL5;no, we are not supposed to tell you what is the most important feature of the system. You should decide that;Non, non siamo supposti per dirti #quanto è la caratteristica più importante d'il sistema. Dovresti decidere quello;4;2;2;3;
 CL5;what was dev teams suggestion again;Che era *dev suggerimento di squadre di nuovo;4;4;4;4;
 CL5;yes;Sì;1;1;1;1;
-CL5;and negociate exactly what its going to be;E *negociate esattamente #quanto il suo andando per essere;4;4;4;4;+{to be}[Passive voice]
+CL5;and negociate exactly what its going to be;E *negociate esattamente #quanto il suo andando per essere;4;4;4;4;{negociate}[Spelling]+{its going}[Did you mean...]+{to be}[Passive voice]
 CL5;Suggestion  for what?;Suggerimento  per che?;2;1;1;3;
 CL5;you have to decide that what wer are going to develop is satisfactory;Devi decidere che che *wer va a sviluppare è @satisfactory;4;2;3;4;
 CL5;"""Book a room"" sounds like the most important functionality to me.";"""Libro dei suoni"" di sala come la funzionalità più importante a me.";4;4;4;4;
@@ -1971,91 +1971,4 @@ CL5;right;Destro;4;4;4;4;
 CL5;What else should we need to promote for the system;Che più dovere necessitiamo promuovere per il sistema;4;2;3;4;
 CL5;lets shake on it;Lascia scossa in esso;4;4;4;4;
 CL5;shake shake;Scossa di scossa;4;4;2;4;{shake shake}[Repeated Word]
-CL5;shake what;Scossa che;2;3;2;4;
-CL5;d?;*d?;1;1;1;4;
-CL5;i'm vigoriously shaking my laptop;*i Sono *vigoriously @shake il mio @laptop;4;3;4;4;+{i'm}[Make I uppercase]
-CL5;me too;mi @Too;4;4;4;4;
-CL5;me too;mi @Too;4;4;4;4;
-CL5;Okay, so RS 3.0 will be on room booking and calendar display?;Ok, tanto *RS 3.0 sarà in la sala #que riserva e esibizione di calendario?;4;3;4;4;
-CL5;i hope i didn't fuck up my hardrive;*i Speranza *i non scopò @up il mio *hardrive;4;4;3;4;+{i}[Make I uppercase]
-CL5;I am shaking the computer monitor now;Sto @shake il schermo di computer adesso;4;3;3;4;
-CL5;we will not do user roles;#Prpers  non  ruoli di utente;4;4;4;4;
-CL5;Sounds good to me;Suoni bene a me;4;2;2;4;
-CL5;ok;ok;1;1;1;1;
-CL5;Okey doke, that sounds good.;*Okey *doke, che suona bene.;4;1;3;4;+{doke}[Spelling]
-CL5;there will be public users, and authenticated user;#Haber utenti pubblici, e *authenticated utente;4;4;3;4;
-CL5;s;*s;1;1;1;4;
-CL5;ok;ok;1;1;1;1;
-CL5;we can save user roles for RS 4.0;Possiamo salvare ruoli di utente per *RS 4.0;1;2;2;3;
-CL5;sounds good;Suoni bene;4;2;2;4;
-CL5;what about room search;Che sopra ricerca di sala;4;3;3;4;
-CL5;or do you just want to select from the building list;O  giusto vuoi @select di la lista di edilizia;4;3;3;4;
-CL5;there is not RS4.0;non #hay *RS4.0;4;4;4;4;{RS40}[Spelling]
-CL5;I assume that was a joke.;Assumo quello era una barzelletta.;3;2;2;2;
-CL5;authenticated can see all authenticated and public bookings, public users only view public bookings;*authenticated Può vedere #tutto *authenticated e pubblico *bookings, gli utenti pubblici #solo vedono pubblici *bookings;4;2;3;3;
-CL5;alright, i gotta burn;Bene, *i *gotta ustione;4;4;4;4;{i}[Make I uppercase]
-CL5;i say building list so that we can focus on bookings and display;*i Dice edificare lista in modo che possiamo centrare in *bookings e esibizione;4;3;4;4;{i}[Make I uppercase]
-CL5;room search size, resources;Misura di ricerca di la sala, risorse;4;3;2;4;{room}[Did you mean...]
-CL5;just like that;Giusto come quello;4;3;1;4;
-CL5;later;Posteriormente;2;3;1;4;
-CL5;See you.;Ti vede.;4;2;4;4;
-CL5;I'll see you three times, in fact.;Ti vedrò tre tempi, di fatto.;4;2;4;3;
-CL5;we over ?;#Prpers addirittura ?;4;4;4;3;
-CL5;I think so;Opino tanto;4;4;4;3;
-CL5;time is up;Il tempo è sopra;4;4;4;4;
-CL5;okie duckie;*okie *duckie;4;1;1;4;+{duckie}[Spelling]
-CL5;have we got the info required;Ha ricevevamo il *info richiese;4;3;4;3;
-CL5;?;?;1;1;1;1;
-CL5;does the client team have any other questions before we go;Fa la squadra di cliente ha #qualunque altre questioni prima che andiamo;4;2;3;3;{does the client}[Hidden Verbs]
-CL5;or are we planning to have another meeting?;O è #prpers pianificando avere un'altra riunione?;4;2;3;4;
-CL5;well i think everything has been discussed;Bene *i opinare tutto ha stato parlato;4;2;3;3;+{has been discussed}[Passive voice]
-CL5;I have no more q's;Ho non @more *q è;4;4;4;4;
-CL5;unless you have other questions;A meno che hai altre questioni;3;2;3;2;
-CL5;ok;ok;1;1;1;1;
-CL5;i think so as well;*i Opina tanto anche;4;4;4;3;{i}[Make I uppercase]
-CL5;no more;Non @more;4;4;4;4;
-CL5;Okey doke.;*Okey *doke.;1;1;1;4;+{doke}[Spelling]
-CL5;alrite guys..;*alrite Tipi..;2;4;1;4;{alrite}[Spelling]
-CL5;damn;*damn;4;4;4;4;
-CL5;you become 4 time speed;Diventi 4 velocità di tempo;4;4;3;4;
-CL5;ok if you think of anything feel free to conact us;ok Se opini di #qualsiasi cosa sente gratuita a *conact #prpers;4;3;4;4;{conact}[Spelling]
-CL5;Just in time, now I'm typing in quadtruplet.;Giusto in tempo, adesso sto scrivendo in *quadtruplet.;1;2;1;4;{quadtruplet}[Spelling]
-CL5;you are good;Sei bene;4;4;3;4;
-CL5;nice;Buono;2;2;1;1;
-CL5;I think I figured out what did it the first time.;Opino #que rappresentai fuori #quanto  lui la prima volta.;4;4;4;3;
-CL5;4-tuple now;4#-*tuple adesso;1;1;1;4;
-CL5;US 2-0 Mexico today.... I go drink beer for that;@US 2#-0 Messico oggi.... Vado birra di bevanda per quello;4;3;3;3;
-CL5;bye;arrivederci;1;1;1;1;{bye}[Did you mean...]
-CL5;try for 6x;Tenta per 6*x;1;1;1;2;
-CL5;how about 1000;@How sopra 1000;4;4;4;4;
-CL5;crash the server;Scontro il @server;4;4;4;4;
-CL5;If you go to Chat > Join a room and join the room you're already in, it just sends your message again.;Se vai per Chiacchierare > Unire una sala e unire la sala sei già @in, giusto invia il tuo messaggio di nuovo.;4;3;4;4;
-CL5;hmm, lets se if i can do it;*hmm, lascia *se se *i lo può fare;4;2;4;4;{i}[Make I uppercase]
-CL5;so, are we done?;Tanto, è #prpers fatto?;4;4;4;4;
-CL5;done;Fatto;1;1;1;1;
-CL5;i am;*i Sono;4;1;2;4;{i}[Make I uppercase]
-CL5;any Questions;#Qualunque Questioni;4;2;4;3;
-CL5;if no one has anything else to say i think we are done;Se nessuno ha #qualsiasi cosa più per dire *i opinare siamo #fare;4;3;4;4;+{are done}[Passive voice]
-CL5;??;??;1;1;1;1;
-CL5;okay;ok;1;1;1;1;
-CL5;ok;ok;1;1;1;1;
-CL5;bye guys;arrivederci Tipi;2;2;1;4;{bye}[Did you mean...]
-CL5;alirte...its over;*alirte...Il suo addirittura;4;4;4;4;{alirteits}[Spelling]
-CL5;bye guys;arrivederci Tipi;2;2;1;4;{bye}[Did you mean...]
-CL5;you have our contact information so feel free to contact us with any questions;Hai il nostro informazione di contatto @so sente gratuito di metterci con #qualunque questioni;4;2;4;4;
-CL5;it was fun;Era divertito;4;2;4;4;
-CL5;bye;arrivederci;1;1;1;1;{bye}[Did you mean...]
-CL5;exit;@Exit;4;4;4;4;
-CL5;bye;arrivederci;1;1;1;1;{bye}[Did you mean...]
-CL5;logout;*logout;1;4;1;4;
-CL5;bye;arrivederci;1;1;1;1;{bye}[Did you mean...]
-CL5;bye;arrivederci;1;1;1;1;{bye}[Did you mean...]
-CL5;See you.;Ti vede.;4;4;4;4;
-CL5;gotta go;*gotta Va;4;4;4;4;
-CL5;see u all;Vede *u tutto;4;4;4;4;
-CL5;nice 6x;Buono 6*x;2;2;1;3;
-CL5;I win.;Vinco.;1;2;1;1;
-CL5;there is no logout command;#hay non *logout ordine;4;3;4;4;
-CL5;7 good work;7 lavoro buono;2;2;1;4;
-CL5;yes there is you have to type your password;Sì #hay tu deve scrivere la tua password;4;2;2;3;{there is}[Complex Expression]
-CL5;and that will log you out;E che  *log ti fuori;4;3;3;4;
+CL5;shake what;Scossa che;2

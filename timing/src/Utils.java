@@ -251,12 +251,27 @@ public class Utils {
         return results;
 	}
 	
+	public static final String ERROR_OF_INTEREST = "Spelling";
+	
 	public static void writeResultsToCSV(List<Result> rs, CsvWriter w) throws IOException {
 		Map<String, Integer> stats = new HashMap<String, Integer>();
+		
+		List<com.neuralnoise.atd.Error> iErrors = new LinkedList<com.neuralnoise.atd.Error>();
+		
 		for (Result r : rs) {
 			w.writeRecord(new String[] { "CL" + r.collId, r.utterance.getUtterance(), r.translatedUtterance.getUtterance(),
 					r.rater1.toString(), r.rater2.toString(), r.rater3.toString(), r.rater4.toString(), r.getErrors() });
+			
 			for (com.neuralnoise.atd.Error e : r.errors) {
+				
+				if (ERROR_OF_INTEREST != null) {
+					if (e.description.equals(ERROR_OF_INTEREST)) {
+						iErrors.add(e);
+						
+						e.sentence = r.utterance.getUtterance();
+					}
+				}
+				
 				if (stats.containsKey(e.description)) {
 					stats.put(e.description, stats.get(e.description) + 1);
 				} else {
@@ -264,13 +279,24 @@ public class Utils {
 				}
 			}
 		}
+		
 		System.out.println("Stats:");
 		for (String key : stats.keySet()) {
 			System.out.println("\t" + key + " -> " + stats.get(key));
 		}
+		
+		if (ERROR_OF_INTEREST != null) {
+			System.out.println("Error of interest: " + ERROR_OF_INTEREST);
+			System.out.println("Instances:");
+			for (com.neuralnoise.atd.Error e : iErrors) {
+				System.out.println("\t" + e.sentence + " -> " + e.suggestions.get(0));
+			}
+		}
 	}
 	
 	public static void main(String[] args) throws Exception {
+		ATDClient.ignoreTypes = true;
+		
 		List<Result> ra = readResultsCSV("./results/AP.csv", "apertium");
 		List<Result> rg = readResultsCSV("./results/GT.csv", "google");
 		

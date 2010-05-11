@@ -25,20 +25,20 @@ Stats:
 	Wrong article -> 4
 	Revise... -> 2
 	Bias Language -> 1
-Stats:
-	Auxiliary Verb Agreement -> 2
-	Passive voice -> 123
-	Complex Expression -> 82
-	Redundant Expression -> 2
-	Missing apostrophe -> 26
-	Repeated Word -> 6
-	Did you mean... -> 43
-	Hyphen Required -> 14
-	Hidden Verbs -> 14
-	Spelling -> 462
-	Diacritical Marks -> 1
-	Make I uppercase -> 145
-	Wrong article -> 4
-	Revise... -> 2
-	Bias Language -> 1
-
+Error of interest: Spelling
+Instances:
+	welcome to hawaii -> 
+    
+	clarkn is neal -> 
+    
+	clarkn is neal -> 
+    
+	jchiang is jack -> 
+    
+	I think I saw him in anoother room -> 
+    
+	chenl is Ryan@group6 -> 
+    
+Exception in thread "main" java.lang.NullPointerException
+	at Utils.writeResultsToCSV(Utils.java:292)
+	at Utils.main(Utils.java:309)

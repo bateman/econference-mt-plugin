@@ -2,6 +2,7 @@ package com.neuralnoise.atd;
 
 import java.io.*;
 import java.net.*;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -19,6 +20,9 @@ public class ATDClient {
 	private static final String baseUrl = "http://195.62.234.69:1049";
 	private static final String baseQuery = "/checkDocument?data=%s";
 
+	public static boolean ignoreTypes = false;
+	public static final String[] typesToIgnore = { "Bias Language", "Cliches", "Complex Expression", "Diacritical Marks", "Double Negatives", "Hidden Verbs", "Jargon Language", "Passive voice", "Phrases to Avoid", "Redundant Expression" };
+	
 	public static List<Error> getErrors(String text) throws IOException, SAXException, ParserConfigurationException {
 		URL url = new URL(baseUrl + String.format(baseQuery, URLEncoder.encode(text, "UTF-8")));
 		URLConnection conn = url.openConnection();
@@ -67,7 +71,11 @@ public class ATDClient {
 				}
 			}
 			
-			errors.add(error);
+			if (ignoreTypes) {
+				if (!Arrays.asList(typesToIgnore).contains(error.type)) {
+					errors.add(error);
+				}
+			}
 		}
 		
 		return errors;

@@ -9,6 +9,8 @@ public class Error {
 	public List<String> suggestions = null;
 	public String type = null;
 	public String url = null;
+	
+	public String sentence = null;
 
 	public Error(String s, String d, String p, List<String> ss, String t,
 			String u) {
