@@ -191,7 +191,7 @@ public class Utils {
         return uts;
 	}
 	
-	public static List<Result> readResultsCSV(String path, String engine) throws IOException, ParserConfigurationException, SAXException {
+	public static List<Result> readResultsCSV(String path, String engine) throws Exception {
 		HashMap<Integer, List<Utterance>> collections = new HashMap<Integer, List<Utterance>>();
 		HashMap<Integer, List<Utterance>> collections_trad = new HashMap<Integer, List<Utterance>>();
 		
@@ -251,7 +251,7 @@ public class Utils {
         return results;
 	}
 	
-	public static final String ERROR_OF_INTEREST = "Spelling";
+	public static String ERROR_OF_INTEREST = "Spelling";
 	
 	public static void writeResultsToCSV(List<Result> rs, CsvWriter w) throws IOException {
 		Map<String, Integer> stats = new HashMap<String, Integer>();
@@ -289,7 +289,7 @@ public class Utils {
 			System.out.println("Error of interest: " + ERROR_OF_INTEREST);
 			System.out.println("Instances:");
 			for (com.neuralnoise.atd.Error e : iErrors) {
-				System.out.println("\t" + e.sentence + " -> " + e.suggestions.get(0));
+				System.out.println("\t" + e.toString());
 			}
 		}
 	}

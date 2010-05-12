@@ -6,6 +6,10 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
+import javax.xml.transform.*;
+import javax.xml.transform.dom.*;
+import javax.xml.transform.stream.*;
+
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -16,14 +20,29 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 public class ATDClient {
-
-	private static final String baseUrl = "http://195.62.234.69:1049";
-	private static final String baseQuery = "/checkDocument?data=%s";
+	
+	public static String baseUrl = "http://195.62.234.69:1049";
+	//public static String baseUrl = "http://127.0.0.1:1049";
+	public static String baseQuery = "/checkDocument?data=%s";
 
 	public static boolean ignoreTypes = false;
 	public static final String[] typesToIgnore = { "Bias Language", "Cliches", "Complex Expression", "Diacritical Marks", "Double Negatives", "Hidden Verbs", "Jargon Language", "Passive voice", "Phrases to Avoid", "Redundant Expression" };
 	
-	public static List<Error> getErrors(String text) throws IOException, SAXException, ParserConfigurationException {
+	public static void serialize(Document doc, OutputStream out) throws Exception {
+		TransformerFactory tfactory = TransformerFactory.newInstance();
+		Transformer serializer;
+		try {
+			serializer = tfactory.newTransformer();
+			serializer.setOutputProperty(OutputKeys.INDENT, "yes");
+
+			serializer.transform(new DOMSource(doc), new StreamResult(out));
+		} catch (TransformerException e) {
+			e.printStackTrace();
+			throw new RuntimeException(e);
+		}
+	}
+	
+	public static List<Error> getErrors(String text) throws Exception {
 		URL url = new URL(baseUrl + String.format(baseQuery, URLEncoder.encode(text, "UTF-8")));
 		URLConnection conn = url.openConnection();
 
@@ -35,6 +54,8 @@ public class ATDClient {
 		Document doc = db.parse(conn.getInputStream());
 
 		doc.getDocumentElement().normalize();
+	
+		serialize(doc, System.out);
 		
 		NodeList errorNodes = doc.getElementsByTagName("error");
 		
@@ -65,29 +86,29 @@ public class ATDClient {
 					
 					NodeList suggestionNodes = childNode.getChildNodes();
 					for (int k = 0; k < suggestionNodes.getLength(); ++k) {
-						Node suggestionNode = childNodes.item(k);
-						error.suggestions.add(suggestionNode.getTextContent());
+						Node suggestionNode = suggestionNodes.item(k);
+						if (suggestionNode.getNodeName().equals("option")) {
+							error.suggestions.add(suggestionNode.getTextContent());
+						}
 					}
 				}
 			}
 			
-			if (ignoreTypes) {
-				if (!Arrays.asList(typesToIgnore).contains(error.type)) {
-					errors.add(error);
-				}
+			if (!(ignoreTypes && Arrays.asList(typesToIgnore).contains(error.type))) {	
+				errors.add(error);
 			}
 		}
 		
 		return errors;
 	}
 	
-	public static void main(String[] args) throws IOException, SAXException, ParserConfigurationException {
+	public static void main(String[] args) throws Exception {
 		String text = "i am a troll and i dont like it";
 		
 		List<Error> errors = getErrors(text);
 		
 		for (Error e : errors) {
-			System.out.println(e);
+			System.out.println(e.toString());
 		}
 	}
 

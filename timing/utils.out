@@ -27,18 +27,7423 @@ Stats:
 	Bias Language -> 1
 Error of interest: Spelling
 Instances:
-	welcome to hawaii -> 
-    
-	clarkn is neal -> 
-    
-	clarkn is neal -> 
-    
-	jchiang is jack -> 
-    
-	I think I saw him in anoother room -> 
-    
-	chenl is Ryan@group6 -> 
-    
-Exception in thread "main" java.lang.NullPointerException
-	at Utils.writeResultsToCSV(Utils.java:292)
-	at Utils.main(Utils.java:309)
+	com.neuralnoise.atd.Error Object {
+ String: hawaii
+ Description: Spelling
+ Precontext: to
+ Suggestions: []
+ Type: spelling
+ Sentence: welcome to hawaii
+}
+	com.neuralnoise.atd.Error Object {
+ String: clarkn
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: clarkn is neal
+}
+	com.neuralnoise.atd.Error Object {
+ String: neal
+ Description: Spelling
+ Precontext: is
+ Suggestions: []
+ Type: spelling
+ Sentence: clarkn is neal
+}
+	com.neuralnoise.atd.Error Object {
+ String: jchiang
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: jchiang is jack
+}
+	com.neuralnoise.atd.Error Object {
+ String: anoother
+ Description: Spelling
+ Precontext: in
+ Suggestions: []
+ Type: spelling
+ Sentence: I think I saw him in anoother room
+}
+	com.neuralnoise.atd.Error Object {
+ String: chenl
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: chenl is Ryan@group6
+}
+	com.neuralnoise.atd.Error Object {
+ String: Ryangroup6
+ Description: Spelling
+ Precontext: is
+ Suggestions: null
+ Type: spelling
+ Sentence: chenl is Ryan@group6
+}
+	com.neuralnoise.atd.Error Object {
+ String: neal
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: neal is not facing computer
+}
+	com.neuralnoise.atd.Error Object {
+ String: andrew
+ Description: Spelling
+ Precontext: is
+ Suggestions: []
+ Type: spelling
+ Sentence: where is andrew
+}
+	com.neuralnoise.atd.Error Object {
+ String: whos
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: whos mcknightp?
+}
+	com.neuralnoise.atd.Error Object {
+ String: mcknightp
+ Description: Spelling
+ Precontext: whos
+ Suggestions: []
+ Type: spelling
+ Sentence: whos mcknightp?
+}
+	com.neuralnoise.atd.Error Object {
+ String: sittting
+ Description: Spelling
+ Precontext: is
+ Suggestions: []
+ Type: spelling
+ Sentence: don't know but he is sittting next to me
+}
+	com.neuralnoise.atd.Error Object {
+ String: laihok
+ Description: Spelling
+ Precontext: who's
+ Suggestions: []
+ Type: spelling
+ Sentence: who's laihok
+}
+	com.neuralnoise.atd.Error Object {
+ String: applicaitons
+ Description: Spelling
+ Precontext: desktop
+ Suggestions: []
+ Type: spelling
+ Sentence: we are looking for a desktop applicaitons, where the load of running the system is spread amongst the connected clients
+}
+	com.neuralnoise.atd.Error Object {
+ String: yesnot
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: yes...not a web page..its a actual program
+}
+	com.neuralnoise.atd.Error Object {
+ String: pageits
+ Description: Spelling
+ Precontext: web
+ Suggestions: []
+ Type: spelling
+ Sentence: yes...not a web page..its a actual program
+}
+	com.neuralnoise.atd.Error Object {
+ String: albe
+ Description: Spelling
+ Precontext: are
+ Suggestions: []
+ Type: spelling
+ Sentence: the users are albe to view the cal via the webpage
+}
+	com.neuralnoise.atd.Error Object {
+ String: webserver
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: public information will be posted to a webserver
+}
+	com.neuralnoise.atd.Error Object {
+ String: infomation
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: all the infomation just store locally,
+}
+	com.neuralnoise.atd.Error Object {
+ String: cleint
+ Description: Spelling
+ Precontext: various
+ Suggestions: []
+ Type: spelling
+ Sentence: on the various cleint machines
+}
+	com.neuralnoise.atd.Error Object {
+ String: applicaiton
+ Description: Spelling
+ Precontext: calendar
+ Suggestions: []
+ Type: spelling
+ Sentence: this software is not a meeting software, it is a calendar applicaiton
+}
+	com.neuralnoise.atd.Error Object {
+ String: informaiton
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: well the informaiton will be stored on other client computers, for example if a manager puts out a meeting schedule it will be send to everyone in the meeting
+}
+	com.neuralnoise.atd.Error Object {
+ String: buisness
+ Description: Spelling
+ Precontext: and
+ Suggestions: []
+ Type: spelling
+ Sentence: ok what about, laptops and buisness trips?
+}
+	com.neuralnoise.atd.Error Object {
+ String: sameonce
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: pretty much the same..once you are online
+}
+	com.neuralnoise.atd.Error Object {
+ String: bittorrent
+ Description: Spelling
+ Precontext: of
+ Suggestions: []
+ Type: spelling
+ Sentence: think about the idea of bittorrent, you can download as a peer from anywhere
+}
+	com.neuralnoise.atd.Error Object {
+ String: mechanisims
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: the mechanisims for distributing the data are not all that important at this point, what we need to concentrate on is the scheduling functionality of the software
+}
+	com.neuralnoise.atd.Error Object {
+ String: documens
+ Description: Spelling
+ Precontext: distribute
+ Suggestions: []
+ Type: spelling
+ Sentence: yes, it does need to distribute documens and no they will not be sent out by email
+}
+	com.neuralnoise.atd.Error Object {
+ String: departemnts
+ Description: Spelling
+ Precontext: other
+ Suggestions: []
+ Type: spelling
+ Sentence: or request a meeting with people from other departemnts
+}
+	com.neuralnoise.atd.Error Object {
+ String: exampel
+ Description: Spelling
+ Precontext: for
+ Suggestions: []
+ Type: spelling
+ Sentence: a mail clerk for exampel should not be able to change the time or a meeting or schedule a meeting
+}
+	com.neuralnoise.atd.Error Object {
+ String: thier
+ Description: Spelling
+ Precontext: under
+ Suggestions: []
+ Type: spelling
+ Sentence: but the hr people can put out a schedule for all staff under thier control
+}
+	com.neuralnoise.atd.Error Object {
+ String: tiems
+ Description: Spelling
+ Precontext: for
+ Suggestions: []
+ Type: spelling
+ Sentence: but for tiems like that the person scheduled can request that their schedule be changed
+}
+	com.neuralnoise.atd.Error Object {
+ String: negociate
+ Description: Spelling
+ Precontext: to
+ Suggestions: []
+ Type: spelling
+ Sentence: have to negociate before change~~~
+}
+	com.neuralnoise.atd.Error Object {
+ String: conflitcs
+ Description: Spelling
+ Precontext: existing
+ Suggestions: []
+ Type: spelling
+ Sentence: when creating a schedule the system should try to optimize the timing of a meeting to minimize existing conflitcs
+}
+	com.neuralnoise.atd.Error Object {
+ String: mutlilevel
+ Description: Spelling
+ Precontext: need
+ Suggestions: []
+ Type: spelling
+ Sentence: Do you need mutlilevel premissions for each person in the tree?
+}
+	com.neuralnoise.atd.Error Object {
+ String: premissions
+ Description: Spelling
+ Precontext: mutlilevel
+ Suggestions: []
+ Type: spelling
+ Sentence: Do you need mutlilevel premissions for each person in the tree?
+}
+	com.neuralnoise.atd.Error Object {
+ String: thoes
+ Description: Spelling
+ Precontext: modify
+ Suggestions: []
+ Type: spelling
+ Sentence: a manager can only modify thoes under him
+}
+	com.neuralnoise.atd.Error Object {
+ String: thoes
+ Description: Spelling
+ Precontext: schedule
+ Suggestions: []
+ Type: spelling
+ Sentence: that manager can then schedule thoes programmers
+}
+	com.neuralnoise.atd.Error Object {
+ String: controll
+ Description: Spelling
+ Precontext: his
+ Suggestions: []
+ Type: spelling
+ Sentence: he can request that other people not under his controll attend a meeting put he has to request their presence and they have to accept before they can be added to the meeting
+}
+	com.neuralnoise.atd.Error Object {
+ String: manageing
+ Description: Spelling
+ Precontext: are
+ Suggestions: []
+ Type: spelling
+ Sentence: so a group leader can schedule anyone under them even if they are manageing another project
+}
+	com.neuralnoise.atd.Error Object {
+ String: dicide
+ Description: Spelling
+ Precontext: we
+ Suggestions: []
+ Type: spelling
+ Sentence: did we dicide to change permission to role
+}
+	com.neuralnoise.atd.Error Object {
+ String: mananement
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: if someone is assigned a mananement role they may be able to create new roles and assign anyone under them to that role
+}
+	com.neuralnoise.atd.Error Object {
+ String: escilate
+ Description: Spelling
+ Precontext: can't
+ Suggestions: []
+ Type: spelling
+ Sentence: but they can't escilate their own role
+}
+	com.neuralnoise.atd.Error Object {
+ String: annouement
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: I think we'd better to keep the human resource department to do the annouement and things like that
+}
+	com.neuralnoise.atd.Error Object {
+ String: controll
+ Description: Spelling
+ Precontext: version
+ Suggestions: []
+ Type: spelling
+ Sentence: as far as version controll goes only the version that was used is important
+}
+	com.neuralnoise.atd.Error Object {
+ String: coverd
+ Description: Spelling
+ Precontext: be
+ Suggestions: []
+ Type: spelling
+ Sentence: it's be coverd in previous topic
+}
+	com.neuralnoise.atd.Error Object {
+ String: witht
+ Description: Spelling
+ Precontext: person
+ Suggestions: []
+ Type: spelling
+ Sentence: so a person witht he manager role can edit these docs and thats it?
+}
+	com.neuralnoise.atd.Error Object {
+ String: everybodys
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: well, everybodys schedual gets distributed to trier machine
+}
+	com.neuralnoise.atd.Error Object {
+ String: schedual
+ Description: Spelling
+ Precontext: everybodys
+ Suggestions: []
+ Type: spelling
+ Sentence: well, everybodys schedual gets distributed to trier machine
+}
+	com.neuralnoise.atd.Error Object {
+ String: trier
+ Description: Spelling
+ Precontext: to
+ Suggestions: []
+ Type: spelling
+ Sentence: well, everybodys schedual gets distributed to trier machine
+}
+	com.neuralnoise.atd.Error Object {
+ String: schedyal
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: so that's the schedyal that matters, right?
+}
+	com.neuralnoise.atd.Error Object {
+ String: pleasetime
+ Description: Spelling
+ Precontext: next
+ Suggestions: []
+ Type: spelling
+ Sentence: next please...time is flying
+}
+	com.neuralnoise.atd.Error Object {
+ String: rols
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: rols can edit for thoes under them
+}
+	com.neuralnoise.atd.Error Object {
+ String: thoes
+ Description: Spelling
+ Precontext: for
+ Suggestions: []
+ Type: spelling
+ Sentence: rols can edit for thoes under them
+}
+	com.neuralnoise.atd.Error Object {
+ String: teh
+ Description: Spelling
+ Precontext: when
+ Suggestions: []
+ Type: spelling
+ Sentence: when teh schedule has been modified, email notice sends out to everyone related in the schedule
+}
+	com.neuralnoise.atd.Error Object {
+ String: displayes
+ Description: Spelling
+ Precontext: information
+ Suggestions: []
+ Type: spelling
+ Sentence: various depending on the information displayes
+}
+	com.neuralnoise.atd.Error Object {
+ String: yauser
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: ya...user friendly is the most important part
+}
+	com.neuralnoise.atd.Error Object {
+ String: clippy
+ Description: Spelling
+ Precontext: want
+ Suggestions: []
+ Type: spelling
+ Sentence: and we want clippy
+}
+	com.neuralnoise.atd.Error Object {
+ String: backgound
+ Description: Spelling
+ Precontext: as
+ Suggestions: []
+ Type: spelling
+ Sentence: hot girls pictures as backgound = friendly
+}
+	com.neuralnoise.atd.Error Object {
+ String: Clippy
+ Description: Spelling
+ Precontext: want
+ Suggestions: []
+ Type: spelling
+ Sentence: Also we want Clippy to get run over by a bus.
+}
+	com.neuralnoise.atd.Error Object {
+ String: yesusers
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: yes...users can set their own preference
+}
+	com.neuralnoise.atd.Error Object {
+ String: clippy
+ Description: Spelling
+ Precontext: zombie
+ Suggestions: []
+ Type: spelling
+ Sentence: so a zombie clippy
+}
+	com.neuralnoise.atd.Error Object {
+ String: Clippy
+ Description: Spelling
+ Precontext: on
+ Suggestions: []
+ Type: spelling
+ Sentence: Yes, there should be an Easter Egg where a giant stack of calendars falls on Clippy.
+}
+	com.neuralnoise.atd.Error Object {
+ String: jxtaorg
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: jxta.org has good networking libraries for p2p
+}
+	com.neuralnoise.atd.Error Object {
+ String: p2p
+ Description: Spelling
+ Precontext: for
+ Suggestions: []
+ Type: spelling
+ Sentence: jxta.org has good networking libraries for p2p
+}
+	com.neuralnoise.atd.Error Object {
+ String: macromedias
+ Description: Spelling
+ Precontext: tacky
+ Suggestions: []
+ Type: spelling
+ Sentence: have you ever seen tacky macromedias personal assistant for dreamweaver
+}
+	com.neuralnoise.atd.Error Object {
+ String: dreamweaver
+ Description: Spelling
+ Precontext: for
+ Suggestions: null
+ Type: spelling
+ Sentence: have you ever seen tacky macromedias personal assistant for dreamweaver
+}
+	com.neuralnoise.atd.Error Object {
+ String: clippy
+ Description: Spelling
+ Precontext: NO
+ Suggestions: []
+ Type: spelling
+ Sentence: and NO clippy
+}
+	com.neuralnoise.atd.Error Object {
+ String: linux
+ Description: Spelling
+ Precontext: on
+ Suggestions: []
+ Type: spelling
+ Sentence: oh the system has to work on linux, mac and windows
+}
+	com.neuralnoise.atd.Error Object {
+ String: rfp
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: but i think that is in the rfp alread
+}
+	com.neuralnoise.atd.Error Object {
+ String: alread
+ Description: Spelling
+ Precontext: rfp
+ Suggestions: []
+ Type: spelling
+ Sentence: but i think that is in the rfp alread
+}
+	com.neuralnoise.atd.Error Object {
+ String: unix
+ Description: Spelling
+ Precontext: and
+ Suggestions: []
+ Type: spelling
+ Sentence: and unix 
+ it has to work on thhe solaris machines
+}
+	com.neuralnoise.atd.Error Object {
+ String: thhe
+ Description: Spelling
+ Precontext: on
+ Suggestions: []
+ Type: spelling
+ Sentence: and unix 
+ it has to work on thhe solaris machines
+}
+	com.neuralnoise.atd.Error Object {
+ String: solaris
+ Description: Spelling
+ Precontext: thhe
+ Suggestions: []
+ Type: spelling
+ Sentence: and unix 
+ it has to work on thhe solaris machines
+}
+	com.neuralnoise.atd.Error Object {
+ String: xbox
+ Description: Spelling
+ Precontext: carefull
+ Suggestions: []
+ Type: spelling
+ Sentence: and if you are not carefull xbox as well
+}
+	com.neuralnoise.atd.Error Object {
+ String: ps3
+ Description: Spelling
+ Precontext: for
+ Suggestions: []
+ Type: spelling
+ Sentence: build prototypes for ps3
+}
+	com.neuralnoise.atd.Error Object {
+ String: powerbook
+ Description: Spelling
+ Precontext: mac
+ Suggestions: []
+ Type: spelling
+ Sentence: i have a mac powerbook G3 running yellow dog linux, it shoudl run on that too
+}
+	com.neuralnoise.atd.Error Object {
+ String: linux
+ Description: Spelling
+ Precontext: dog
+ Suggestions: []
+ Type: spelling
+ Sentence: i have a mac powerbook G3 running yellow dog linux, it shoudl run on that too
+}
+	com.neuralnoise.atd.Error Object {
+ String: shoudl
+ Description: Spelling
+ Precontext: it
+ Suggestions: []
+ Type: spelling
+ Sentence: i have a mac powerbook G3 running yellow dog linux, it shoudl run on that too
+}
+	com.neuralnoise.atd.Error Object {
+ String: Sooooo
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: Sooooo JAVA?
+}
+	com.neuralnoise.atd.Error Object {
+ String: n4ever
+ Description: Spelling
+ Precontext: you
+ Suggestions: []
+ Type: spelling
+ Sentence: for you n4ever
+}
+	com.neuralnoise.atd.Error Object {
+ String: econf
+ Description: Spelling
+ Precontext: Hello
+ Suggestions: []
+ Type: spelling
+ Sentence: Hello econf
+}
+	com.neuralnoise.atd.Error Object {
+ String: Reynen
+ Description: Spelling
+ Precontext: is
+ Suggestions: []
+ Type: spelling
+ Sentence: who is Reynen?
+}
+	com.neuralnoise.atd.Error Object {
+ String: s'mee
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: s'mee
+}
+	com.neuralnoise.atd.Error Object {
+ String: niggas
+ Description: Spelling
+ Precontext: my
+ Suggestions: []
+ Type: spelling
+ Sentence: sup my niggas
+}
+	com.neuralnoise.atd.Error Object {
+ String: hehehe
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: hehehe
+}
+	com.neuralnoise.atd.Error Object {
+ String: HSD
+ Description: Spelling
+ Precontext: pm
+ Suggestions: []
+ Type: spelling
+ Sentence: movie night this thursday at 7 pm HSD A240
+}
+	com.neuralnoise.atd.Error Object {
+ String: A240
+ Description: Spelling
+ Precontext: HSD
+ Suggestions: []
+ Type: spelling
+ Sentence: movie night this thursday at 7 pm HSD A240
+}
+	com.neuralnoise.atd.Error Object {
+ String: ur
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: as far as we're concerned scott, ur  non-existant
+}
+	com.neuralnoise.atd.Error Object {
+ String: bahthe
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: bah...the rock :S
+}
+	com.neuralnoise.atd.Error Object {
+ String: Stiffler
+ Description: Spelling
+ Precontext: and
+ Suggestions: []
+ Type: spelling
+ Sentence: and Stiffler from American Pie
+}
+	com.neuralnoise.atd.Error Object {
+ String: aws
+ Description: Spelling
+ Precontext: it
+ Suggestions: []
+ Type: spelling
+ Sentence: it aws alright
+}
+	com.neuralnoise.atd.Error Object {
+ String: hehehe
+ Description: Spelling
+ Precontext: is
+ Suggestions: []
+ Type: spelling
+ Sentence: so he is hehehe
+}
+	com.neuralnoise.atd.Error Object {
+ String: wassup
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: wassup josh :P
+}
+	com.neuralnoise.atd.Error Object {
+ String: josh
+ Description: Spelling
+ Precontext: wassup
+ Suggestions: []
+ Type: spelling
+ Sentence: wassup josh :P
+}
+	com.neuralnoise.atd.Error Object {
+ String: jared
+ Description: Spelling
+ Precontext: hello
+ Suggestions: []
+ Type: spelling
+ Sentence: hello jared
+}
+	com.neuralnoise.atd.Error Object {
+ String: vaccuum
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: like a vaccuum
+}
+	com.neuralnoise.atd.Error Object {
+ String: charles
+ Description: Spelling
+ Precontext: over
+ Suggestions: []
+ Type: spelling
+ Sentence: i'd pick scott as a scribe over charles anytime
+}
+	com.neuralnoise.atd.Error Object {
+ String: toodon't
+ Description: Spelling
+ Precontext: chair
+ Suggestions: []
+ Type: spelling
+ Sentence: yeah i've got a sweet chair too.....don't think i'll be asked to move though :P
+}
+	com.neuralnoise.atd.Error Object {
+ String: whoachat
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: whoa...chat lag?
+}
+	com.neuralnoise.atd.Error Object {
+ String: charles
+ Description: Spelling
+ Precontext: no
+ Suggestions: []
+ Type: spelling
+ Sentence: no no charles
+}
+	com.neuralnoise.atd.Error Object {
+ String: horel
+ Description: Spelling
+ Precontext: who's
+ Suggestions: []
+ Type: spelling
+ Sentence: who's horel?
+}
+	com.neuralnoise.atd.Error Object {
+ String: JOn
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: JOn
+}
+	com.neuralnoise.atd.Error Object {
+ String: jon
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: ok.. jon is double typing
+}
+	com.neuralnoise.atd.Error Object {
+ String: NOOO
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: Jon! NOOO!
+}
+	com.neuralnoise.atd.Error Object {
+ String: mei'm
+ Description: Spelling
+ Precontext: re-invite
+ Suggestions: []
+ Type: spelling
+ Sentence: if you see this, boot me and re-invite me....i'm not seeing any chat updating
+}
+	com.neuralnoise.atd.Error Object {
+ String: pwnt
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: pwnt
+}
+	com.neuralnoise.atd.Error Object {
+ String: pwnt
+ Description: Spelling
+ Precontext: jeff
+ Suggestions: []
+ Type: spelling
+ Sentence: jeff = pwnt
+}
+	com.neuralnoise.atd.Error Object {
+ String: relog
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: relog Jon
+}
+	com.neuralnoise.atd.Error Object {
+ String: wtf
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: wtf charles
+}
+	com.neuralnoise.atd.Error Object {
+ String: charles
+ Description: Spelling
+ Precontext: wtf
+ Suggestions: []
+ Type: spelling
+ Sentence: wtf charles
+}
+	com.neuralnoise.atd.Error Object {
+ String: omfgzors
+ Description: Spelling
+ Precontext: 
+ Suggestions: null
+ Type: spelling
+ Sentence: omfgzors u stfu 0r i pqn u b14tch
+}
+	com.neuralnoise.atd.Error Object {
+ String: stfu
+ Description: Spelling
+ Precontext: u
+ Suggestions: []
+ Type: spelling
+ Sentence: omfgzors u stfu 0r i pqn u b14tch
+}
+	com.neuralnoise.atd.Error Object {
+ String: 0r
+ Description: Spelling
+ Precontext: stfu
+ Suggestions: []
+ Type: spelling
+ Sentence: omfgzors u stfu 0r i pqn u b14tch
+}
+	com.neuralnoise.atd.Error Object {
+ String: pqn
+ Description: Spelling
+ Precontext: i
+ Suggestions: []
+ Type: spelling
+ Sentence: omfgzors u stfu 0r i pqn u b14tch
+}
+	com.neuralnoise.atd.Error Object {
+ String: b14tch
+ Description: Spelling
+ Precontext: u
+ Suggestions: []
+ Type: spelling
+ Sentence: omfgzors u stfu 0r i pqn u b14tch
+}
+	com.neuralnoise.atd.Error Object {
+ String: ya'lls
+ Description: Spelling
+ Precontext: see
+ Suggestions: []
+ Type: spelling
+ Sentence: but i can see ya'lls ugly names
+}
+	com.neuralnoise.atd.Error Object {
+ String: pwzors
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: pwzors
+}
+	com.neuralnoise.atd.Error Object {
+ String: monkeydude
+ Description: Spelling
+ Precontext: 
+ Suggestions: null
+ Type: spelling
+ Sentence: "sincerely, monkeydude"
+}
+	com.neuralnoise.atd.Error Object {
+ String: jared
+ Description: Spelling
+ Precontext: yo
+ Suggestions: []
+ Type: spelling
+ Sentence: yo jared homie, where's the rest of yo click?
+}
+	com.neuralnoise.atd.Error Object {
+ String: homie
+ Description: Spelling
+ Precontext: jared
+ Suggestions: []
+ Type: spelling
+ Sentence: yo jared homie, where's the rest of yo click?
+}
+	com.neuralnoise.atd.Error Object {
+ String: jon
+ Description: Spelling
+ Precontext: think
+ Suggestions: []
+ Type: spelling
+ Sentence: I think jon (horelj) needs an invite
+}
+	com.neuralnoise.atd.Error Object {
+ String: horelj
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: I think jon (horelj) needs an invite
+}
+	com.neuralnoise.atd.Error Object {
+ String: jeffs
+ Description: Spelling
+ Precontext: whats
+ Suggestions: []
+ Type: spelling
+ Sentence: whats jeffs id
+}
+	com.neuralnoise.atd.Error Object {
+ String: heywhat
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: hey.......what the hell happened?
+}
+	com.neuralnoise.atd.Error Object {
+ String: corbett
+ Description: Spelling
+ Precontext: or
+ Suggestions: []
+ Type: spelling
+ Sentence: or corbett
+}
+	com.neuralnoise.atd.Error Object {
+ String: Allo
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: Allo?
+}
+	com.neuralnoise.atd.Error Object {
+ String: allo
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: allo
+}
+	com.neuralnoise.atd.Error Object {
+ String: heyo
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: heyo
+}
+	com.neuralnoise.atd.Error Object {
+ String: je
+ Description: Spelling
+ Precontext: moi
+ Suggestions: []
+ Type: spelling
+ Sentence: moi je suis super!
+}
+	com.neuralnoise.atd.Error Object {
+ String: suis
+ Description: Spelling
+ Precontext: je
+ Suggestions: []
+ Type: spelling
+ Sentence: moi je suis super!
+}
+	com.neuralnoise.atd.Error Object {
+ String: wiedersen
+ Description: Spelling
+ Precontext: Auf
+ Suggestions: []
+ Type: spelling
+ Sentence: Auf wiedersen
+}
+	com.neuralnoise.atd.Error Object {
+ String: mindy
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: mindy got her job cut out fo her
+}
+	com.neuralnoise.atd.Error Object {
+ String: criss
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: criss de conard
+}
+	com.neuralnoise.atd.Error Object {
+ String: conard
+ Description: Spelling
+ Precontext: de
+ Suggestions: []
+ Type: spelling
+ Sentence: criss de conard
+}
+	com.neuralnoise.atd.Error Object {
+ String: je
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: je vais te peter la guelle
+}
+	com.neuralnoise.atd.Error Object {
+ String: vais
+ Description: Spelling
+ Precontext: je
+ Suggestions: []
+ Type: spelling
+ Sentence: je vais te peter la guelle
+}
+	com.neuralnoise.atd.Error Object {
+ String: guelle
+ Description: Spelling
+ Precontext: la
+ Suggestions: []
+ Type: spelling
+ Sentence: je vais te peter la guelle
+}
+	com.neuralnoise.atd.Error Object {
+ String: putin
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: putin
+}
+	com.neuralnoise.atd.Error Object {
+ String: hereseems
+ Description: Spelling
+ Precontext: is
+ Suggestions: []
+ Type: spelling
+ Sentence: our team is here......seems there are people missing from team 1 though
+}
+	com.neuralnoise.atd.Error Object {
+ String: chris
+ Description: Spelling
+ Precontext: and
+ Suggestions: []
+ Type: spelling
+ Sentence: pat and chris aren't here yet
+}
+	com.neuralnoise.atd.Error Object {
+ String: chris
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: chris is here he is just setting up
+}
+	com.neuralnoise.atd.Error Object {
+ String: evryone
+ Description: Spelling
+ Precontext: have
+ Suggestions: []
+ Type: spelling
+ Sentence: we still don't have evryone
+}
+	com.neuralnoise.atd.Error Object {
+ String: GOD1
+ Description: Spelling
+ Precontext: OH
+ Suggestions: []
+ Type: spelling
+ Sentence: OH GOD1
+}
+	com.neuralnoise.atd.Error Object {
+ String: talkin
+ Description: Spelling
+ Precontext: double
+ Suggestions: []
+ Type: spelling
+ Sentence: you're double talkin
+}
+	com.neuralnoise.atd.Error Object {
+ String: scotts
+ Description: Spelling
+ Precontext: 2
+ Suggestions: []
+ Type: spelling
+ Sentence: why do we have 2 scotts?
+}
+	com.neuralnoise.atd.Error Object {
+ String: thanh
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: thanh.. slow down man
+}
+	com.neuralnoise.atd.Error Object {
+ String: SCOTTS
+ Description: Spelling
+ Precontext: 2
+ Suggestions: []
+ Type: spelling
+ Sentence: BECAUSE THERE IS 2 SCOTTS RIZ
+}
+	com.neuralnoise.atd.Error Object {
+ String: scotts
+ Description: Spelling
+ Precontext: two
+ Suggestions: []
+ Type: spelling
+ Sentence: there are two scotts
+}
+	com.neuralnoise.atd.Error Object {
+ String: busstop
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: riz--> busstop
+}
+	com.neuralnoise.atd.Error Object {
+ String: ScottReynen
+ Description: Spelling
+ Precontext: myself
+ Suggestions: null
+ Type: spelling
+ Sentence: why do you think i named myself ScottReynen, so that stuff doesnt happen
+}
+	com.neuralnoise.atd.Error Object {
+ String: ur
+ Description: Spelling
+ Precontext: thought
+ Suggestions: []
+ Type: spelling
+ Sentence: i thought ur parents named you scott reynen
+}
+	com.neuralnoise.atd.Error Object {
+ String: reynen
+ Description: Spelling
+ Precontext: scott
+ Suggestions: []
+ Type: spelling
+ Sentence: i thought ur parents named you scott reynen
+}
+	com.neuralnoise.atd.Error Object {
+ String: ur
+ Description: Spelling
+ Precontext: take
+ Suggestions: []
+ Type: spelling
+ Sentence: but whatever, i'll take ur word
+}
+	com.neuralnoise.atd.Error Object {
+ String: heyo
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: heyo
+}
+	com.neuralnoise.atd.Error Object {
+ String: ritalin
+ Description: Spelling
+ Precontext: take
+ Suggestions: []
+ Type: spelling
+ Sentence: Scott needs to take ritalin
+}
+	com.neuralnoise.atd.Error Object {
+ String: hehe
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: hehe
+}
+	com.neuralnoise.atd.Error Object {
+ String: lastest
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: append to the lastest question: The introduction will ask the student to click and answer some questions. This will test and help the student computer skill.
+}
+	com.neuralnoise.atd.Error Object {
+ String: horelj
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: re-invite Jon!  Username: horelj
+}
+	com.neuralnoise.atd.Error Object {
+ String: soooo
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: soooo... still short 3?
+}
+	com.neuralnoise.atd.Error Object {
+ String: Wowwe
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: Wow...we got loads of people...what do you mean we are short :P
+}
+	com.neuralnoise.atd.Error Object {
+ String: peoplewhat
+ Description: Spelling
+ Precontext: of
+ Suggestions: []
+ Type: spelling
+ Sentence: Wow...we got loads of people...what do you mean we are short :P
+}
+	com.neuralnoise.atd.Error Object {
+ String: invitegonna
+ Description: Spelling
+ Precontext: another
+ Suggestions: null
+ Type: spelling
+ Sentence: if you see what i'm typing, send me another invite......gonna reconnect =/
+}
+	com.neuralnoise.atd.Error Object {
+ String: hoy
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: hoy
+}
+	com.neuralnoise.atd.Error Object {
+ String: hehe
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: hehe
+}
+	com.neuralnoise.atd.Error Object {
+ String: mindy
+ Description: Spelling
+ Precontext: like
+ Suggestions: []
+ Type: spelling
+ Sentence: seems like mindy doesn't have that much power after all
+}
+	com.neuralnoise.atd.Error Object {
+ String: eveeeerything
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: we could see, eveeeerything
+}
+	com.neuralnoise.atd.Error Object {
+ String: werd
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: werd
+}
+	com.neuralnoise.atd.Error Object {
+ String: werd
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: werd up g
+}
+	com.neuralnoise.atd.Error Object {
+ String: thanh
+ Description: Spelling
+ Precontext: is
+ Suggestions: []
+ Type: spelling
+ Sentence: who is thanh talkin to?
+}
+	com.neuralnoise.atd.Error Object {
+ String: talkin
+ Description: Spelling
+ Precontext: thanh
+ Suggestions: []
+ Type: spelling
+ Sentence: who is thanh talkin to?
+}
+	com.neuralnoise.atd.Error Object {
+ String: mindy
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: mindy, i authorize you to start the negotiation session
+}
+	com.neuralnoise.atd.Error Object {
+ String: mindy
+ Description: Spelling
+ Precontext: hi
+ Suggestions: []
+ Type: spelling
+ Sentence: hi mindy!
+}
+	com.neuralnoise.atd.Error Object {
+ String: lolis
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: lol....is this thanh or some kind of question bot??
+}
+	com.neuralnoise.atd.Error Object {
+ String: thanh
+ Description: Spelling
+ Precontext: this
+ Suggestions: []
+ Type: spelling
+ Sentence: lol....is this thanh or some kind of question bot??
+}
+	com.neuralnoise.atd.Error Object {
+ String: shhh
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: shhh
+}
+	com.neuralnoise.atd.Error Object {
+ String: thanh
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: thanh is a question machine
+}
+	com.neuralnoise.atd.Error Object {
+ String: BAHcan't
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: BAH....can't see it again :S
+}
+	com.neuralnoise.atd.Error Object {
+ String: dfjfjjf
+ Description: Spelling
+ Precontext: 
+ Suggestions: null
+ Type: spelling
+ Sentence: dfjfjjf
+}
+	com.neuralnoise.atd.Error Object {
+ String: everythin
+ Description: Spelling
+ Precontext: that
+ Suggestions: []
+ Type: spelling
+ Sentence: The game module is a pretty broad description of it. Is that everythin besides the student stats?
+}
+	com.neuralnoise.atd.Error Object {
+ String: 3hrs
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: if teacher has specified time for game playing.... 3hrs
+}
+	com.neuralnoise.atd.Error Object {
+ String: 10hrs
+ Description: Spelling
+ Precontext: then
+ Suggestions: []
+ Type: spelling
+ Sentence: if they're playing at home as well then 10hrs isn't that bad
+}
+	com.neuralnoise.atd.Error Object {
+ String: hrs
+ Description: Spelling
+ Precontext: 10
+ Suggestions: []
+ Type: spelling
+ Sentence: if kid really likes the game he could put in extra time ... 10 hrs
+}
+	com.neuralnoise.atd.Error Object {
+ String: Ofcourse
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: Ofcourse we have to have a minimum... say 3...and max 10....
+}
+	com.neuralnoise.atd.Error Object {
+ String: 3and
+ Description: Spelling
+ Precontext: say
+ Suggestions: []
+ Type: spelling
+ Sentence: Ofcourse we have to have a minimum... say 3...and max 10....
+}
+	com.neuralnoise.atd.Error Object {
+ String: 3hrs
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: 3hrs/week = minimum?
+}
+	com.neuralnoise.atd.Error Object {
+ String: hrs
+ Description: Spelling
+ Precontext: 50
+ Suggestions: []
+ Type: spelling
+ Sentence: the max of ten hours shouldn't be enforced... kid  should be able to play 50 hrs a week if they want
+}
+	com.neuralnoise.atd.Error Object {
+ String: woops
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: woops
+}
+	com.neuralnoise.atd.Error Object {
+ String: hehehe
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: hehehe
+}
+	com.neuralnoise.atd.Error Object {
+ String: brb
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: brb :(
+}
+	com.neuralnoise.atd.Error Object {
+ String: hehehe
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: hehehe
+}
+	com.neuralnoise.atd.Error Object {
+ String: oportunity
+ Description: Spelling
+ Precontext: equal
+ Suggestions: []
+ Type: spelling
+ Sentence: not different... equal oportunity....
+}
+	com.neuralnoise.atd.Error Object {
+ String: labseems
+ Description: Spelling
+ Precontext: different
+ Suggestions: []
+ Type: spelling
+ Sentence: i'm gonna try a different lab...seems the linux version is bugged :S
+}
+	com.neuralnoise.atd.Error Object {
+ String: linux
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: i'm gonna try a different lab...seems the linux version is bugged :S
+}
+	com.neuralnoise.atd.Error Object {
+ String: Definately
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: Yes that sounds like a good solution. Definately the teacher needs easy access to the students results so far in the year... and with a litlle bit more work from previous years.
+}
+	com.neuralnoise.atd.Error Object {
+ String: litlle
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: Yes that sounds like a good solution. Definately the teacher needs easy access to the students results so far in the year... and with a litlle bit more work from previous years.
+}
+	com.neuralnoise.atd.Error Object {
+ String: okayu
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: okayu
+}
+	com.neuralnoise.atd.Error Object {
+ String: ofcourse
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: I think we all agree on a 1 year immediate access to data and ability to export the data at the end of the year... ofcourse in need import back in the system and view.
+}
+	com.neuralnoise.atd.Error Object {
+ String: ssl
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: ssl  might be overkill
+}
+	com.neuralnoise.atd.Error Object {
+ String: ssl
+ Description: Spelling
+ Precontext: say
+ Suggestions: []
+ Type: spelling
+ Sentence: i'd say ssl shoul be a good oprion
+}
+	com.neuralnoise.atd.Error Object {
+ String: shoul
+ Description: Spelling
+ Precontext: ssl
+ Suggestions: []
+ Type: spelling
+ Sentence: i'd say ssl shoul be a good oprion
+}
+	com.neuralnoise.atd.Error Object {
+ String: oprion
+ Description: Spelling
+ Precontext: good
+ Suggestions: []
+ Type: spelling
+ Sentence: i'd say ssl shoul be a good oprion
+}
+	com.neuralnoise.atd.Error Object {
+ String: problemsolving
+ Description: Spelling
+ Precontext: understands
+ Suggestions: []
+ Type: spelling
+ Sentence: if a child can do that, he understands problemsolving / math plenty i figure
+}
+	com.neuralnoise.atd.Error Object {
+ String: okahyou
+ Description: Spelling
+ Precontext: ok
+ Suggestions: []
+ Type: spelling
+ Sentence: ok ok...ah...you are underestimating the knowledge of the future genrations (we have to take account of mutation )
+}
+	com.neuralnoise.atd.Error Object {
+ String: genrations
+ Description: Spelling
+ Precontext: future
+ Suggestions: []
+ Type: spelling
+ Sentence: ok ok...ah...you are underestimating the knowledge of the future genrations (we have to take account of mutation )
+}
+	com.neuralnoise.atd.Error Object {
+ String: ssl
+ Description: Spelling
+ Precontext: guess
+ Suggestions: []
+ Type: spelling
+ Sentence: I guess ssl will be an overhead for the system so we can drop that...
+}
+	com.neuralnoise.atd.Error Object {
+ String: mutan
+ Description: Spelling
+ Precontext: mention
+ Suggestions: []
+ Type: spelling
+ Sentence: I'm pretty sure we didn't mention mutan super-children in the RFP
+}
+	com.neuralnoise.atd.Error Object {
+ String: sugguestion
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: If you would like a sugguestion one alternative to CSV is xml, and some db's like oracle can export data directly to xml....just a sugguestion.
+}
+	com.neuralnoise.atd.Error Object {
+ String: xml
+ Description: Spelling
+ Precontext: is
+ Suggestions: []
+ Type: spelling
+ Sentence: If you would like a sugguestion one alternative to CSV is xml, and some db's like oracle can export data directly to xml....just a sugguestion.
+}
+	com.neuralnoise.atd.Error Object {
+ String: xmljust
+ Description: Spelling
+ Precontext: to
+ Suggestions: []
+ Type: spelling
+ Sentence: If you would like a sugguestion one alternative to CSV is xml, and some db's like oracle can export data directly to xml....just a sugguestion.
+}
+	com.neuralnoise.atd.Error Object {
+ String: sugguestion
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: If you would like a sugguestion one alternative to CSV is xml, and some db's like oracle can export data directly to xml....just a sugguestion.
+}
+	com.neuralnoise.atd.Error Object {
+ String: booo
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: booo xml
+}
+	com.neuralnoise.atd.Error Object {
+ String: xml
+ Description: Spelling
+ Precontext: booo
+ Suggestions: []
+ Type: spelling
+ Sentence: booo xml
+}
+	com.neuralnoise.atd.Error Object {
+ String: jon
+ Description: Spelling
+ Precontext: lost
+ Suggestions: []
+ Type: spelling
+ Sentence: we lost jon again, he needs another invite :(
+}
+	com.neuralnoise.atd.Error Object {
+ String: xml
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: xml = lots of overhead
+}
+	com.neuralnoise.atd.Error Object {
+ String: sql
+ Description: Spelling
+ Precontext: do
+ Suggestions: []
+ Type: spelling
+ Sentence: ya do sql
+}
+	com.neuralnoise.atd.Error Object {
+ String: Dudegood
+ Description: Spelling
+ Precontext: 
+ Suggestions: null
+ Type: spelling
+ Sentence: Dude...good luck operating on that csv...
+}
+	com.neuralnoise.atd.Error Object {
+ String: csv
+ Description: Spelling
+ Precontext: that
+ Suggestions: []
+ Type: spelling
+ Sentence: Dude...good luck operating on that csv...
+}
+	com.neuralnoise.atd.Error Object {
+ String: charles
+ Description: Spelling
+ Precontext: long
+ Suggestions: []
+ Type: spelling
+ Sentence: i wondered why you'd shut up for so long charles
+}
+	com.neuralnoise.atd.Error Object {
+ String: okkkkkk
+ Description: Spelling
+ Precontext: 
+ Suggestions: null
+ Type: spelling
+ Sentence: okkkkkk
+}
+	com.neuralnoise.atd.Error Object {
+ String: buizness
+ Description: Spelling
+ Precontext: to
+ Suggestions: []
+ Type: spelling
+ Sentence: back to buizness
+}
+	com.neuralnoise.atd.Error Object {
+ String: projecti'd
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: Well we want well documented code so we can expand on the project...i'd say we take the online Docs.
+}
+	com.neuralnoise.atd.Error Object {
+ String: mindy
+ Description: Spelling
+ Precontext: hey
+ Suggestions: []
+ Type: spelling
+ Sentence: hey mindy... you need to reinvite someone
+}
+	com.neuralnoise.atd.Error Object {
+ String: reinvite
+ Description: Spelling
+ Precontext: to
+ Suggestions: []
+ Type: spelling
+ Sentence: hey mindy... you need to reinvite someone
+}
+	com.neuralnoise.atd.Error Object {
+ String: horelj
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: horelj
+}
+	com.neuralnoise.atd.Error Object {
+ String: booo
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: booo
+}
+	com.neuralnoise.atd.Error Object {
+ String: Windowscuz
+ Description: Spelling
+ Precontext: of
+ Suggestions: []
+ Type: spelling
+ Sentence: Does that include booting of Windows...cuz  then its acceptable!
+}
+	com.neuralnoise.atd.Error Object {
+ String: hehehe
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: hehehe
+}
+	com.neuralnoise.atd.Error Object {
+ String: Hahah
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: Hahah :0
+}
+	com.neuralnoise.atd.Error Object {
+ String: Yeahthey'll
+ Description: Spelling
+ Precontext: 
+ Suggestions: null
+ Type: spelling
+ Sentence: Yeah...they'll be well asleep before it launches
+}
+	com.neuralnoise.atd.Error Object {
+ String: minigames
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: minigames in the load screens?
+}
+	com.neuralnoise.atd.Error Object {
+ String: Hahaand
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: Haha...and nice relaxing music?
+}
+	com.neuralnoise.atd.Error Object {
+ String: sgood
+ Description: Spelling
+ Precontext: sound
+ Suggestions: []
+ Type: spelling
+ Sentence: that sound sgood to me
+}
+	com.neuralnoise.atd.Error Object {
+ String: ur
+ Description: Spelling
+ Precontext: then
+ Suggestions: []
+ Type: spelling
+ Sentence: if you can manage to stay awake, then ur game...
+}
+	com.neuralnoise.atd.Error Object {
+ String: hunh
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: hunh?
+}
+	com.neuralnoise.atd.Error Object {
+ String: whosjiggawhat
+ Description: Spelling
+ Precontext: 
+ Suggestions: null
+ Type: spelling
+ Sentence: whosjiggawhat?
+}
+	com.neuralnoise.atd.Error Object {
+ String: thanh
+ Description: Spelling
+ Precontext: ahead
+ Suggestions: []
+ Type: spelling
+ Sentence: go ahead thanh
+}
+	com.neuralnoise.atd.Error Object {
+ String: shhhh
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: Thanh is on stage... shhhh
+}
+	com.neuralnoise.atd.Error Object {
+ String: dropn
+ Description: Spelling
+ Precontext: we
+ Suggestions: []
+ Type: spelling
+ Sentence: Should we dropn the 16mb ram and 50hhz requirement
+}
+	com.neuralnoise.atd.Error Object {
+ String: 16mb
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: Should we dropn the 16mb ram and 50hhz requirement
+}
+	com.neuralnoise.atd.Error Object {
+ String: 50hhz
+ Description: Spelling
+ Precontext: and
+ Suggestions: []
+ Type: spelling
+ Sentence: Should we dropn the 16mb ram and 50hhz requirement
+}
+	com.neuralnoise.atd.Error Object {
+ String: 3d
+ Description: Spelling
+ Precontext: more
+ Suggestions: []
+ Type: spelling
+ Sentence: so we can do more 3d rendering?
+}
+	com.neuralnoise.atd.Error Object {
+ String: resonalbe
+ Description: Spelling
+ Precontext: seems
+ Suggestions: []
+ Type: spelling
+ Sentence: seems resonalbe that the computer would be faster then that
+}
+	com.neuralnoise.atd.Error Object {
+ String: howabout
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: howabout 200mhz with 64mb of ram
+}
+	com.neuralnoise.atd.Error Object {
+ String: 200mhz
+ Description: Spelling
+ Precontext: howabout
+ Suggestions: []
+ Type: spelling
+ Sentence: howabout 200mhz with 64mb of ram
+}
+	com.neuralnoise.atd.Error Object {
+ String: 64mb
+ Description: Spelling
+ Precontext: with
+ Suggestions: []
+ Type: spelling
+ Sentence: howabout 200mhz with 64mb of ram
+}
+	com.neuralnoise.atd.Error Object {
+ String: reqirement
+ Description: Spelling
+ Precontext: meg
+ Suggestions: []
+ Type: spelling
+ Sentence: So you will consider using Google Earth maps for the cities if we drop the 16 meg reqirement?
+}
+	com.neuralnoise.atd.Error Object {
+ String: 500mhz
+ Description: Spelling
+ Precontext: 
+ Suggestions: null
+ Type: spelling
+ Sentence: 500mhz might be the low end
+}
+	com.neuralnoise.atd.Error Object {
+ String: reqs
+ Description: Spelling
+ Precontext: min
+ Suggestions: []
+ Type: spelling
+ Sentence: if i remember correctly, they came up with the min reqs from warcraft.....the graphics aren't all that bad in warcraft
+}
+	com.neuralnoise.atd.Error Object {
+ String: warcraftthe
+ Description: Spelling
+ Precontext: from
+ Suggestions: []
+ Type: spelling
+ Sentence: if i remember correctly, they came up with the min reqs from warcraft.....the graphics aren't all that bad in warcraft
+}
+	com.neuralnoise.atd.Error Object {
+ String: shoud
+ Description: Spelling
+ Precontext: school
+ Suggestions: []
+ Type: spelling
+ Sentence: I think most school shoud be at the 200mhz and 64mbz ram
+}
+	com.neuralnoise.atd.Error Object {
+ String: 200mhz
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: I think most school shoud be at the 200mhz and 64mbz ram
+}
+	com.neuralnoise.atd.Error Object {
+ String: 64mbz
+ Description: Spelling
+ Precontext: and
+ Suggestions: []
+ Type: spelling
+ Sentence: I think most school shoud be at the 200mhz and 64mbz ram
+}
+	com.neuralnoise.atd.Error Object {
+ String: 200mhz
+ Description: Spelling
+ Precontext: think
+ Suggestions: []
+ Type: spelling
+ Sentence: I think 200mhz and 64mb will be fine
+}
+	com.neuralnoise.atd.Error Object {
+ String: 64mb
+ Description: Spelling
+ Precontext: and
+ Suggestions: []
+ Type: spelling
+ Sentence: I think 200mhz and 64mb will be fine
+}
+	com.neuralnoise.atd.Error Object {
+ String: 500mhz
+ Description: Spelling
+ Precontext: to
+ Suggestions: null
+ Type: spelling
+ Sentence: i think we could raise the minimum to 500mhz 128 meg ram
+}
+	com.neuralnoise.atd.Error Object {
+ String: definate
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: sounds good.... as long as we see a definate improvement in the graphics
+}
+	com.neuralnoise.atd.Error Object {
+ String: mhz
+ Description: Spelling
+ Precontext: 500
+ Suggestions: []
+ Type: spelling
+ Sentence: cool, so 500 mhz and 128 meg ram then
+}
+	com.neuralnoise.atd.Error Object {
+ String: chris
+ Description: Spelling
+ Precontext: call
+ Suggestions: []
+ Type: spelling
+ Sentence: good call chris
+}
+	com.neuralnoise.atd.Error Object {
+ String: agains't
+ Description: Spelling
+ Precontext: suggest
+ Suggestions: []
+ Type: spelling
+ Sentence: I'd actually suggest agains't a 500 MHz limit.  My Dad's school still has quite a few 233 MHz computers
+}
+	com.neuralnoise.atd.Error Object {
+ String: 200mhz
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: 200mhz and 64mb will be fine
+}
+	com.neuralnoise.atd.Error Object {
+ String: 64mb
+ Description: Spelling
+ Precontext: and
+ Suggestions: []
+ Type: spelling
+ Sentence: 200mhz and 64mb will be fine
+}
+	com.neuralnoise.atd.Error Object {
+ String: l33t
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: l33t h4x0R = Aaron
+}
+	com.neuralnoise.atd.Error Object {
+ String: h4x0R
+ Description: Spelling
+ Precontext: l33t
+ Suggestions: []
+ Type: spelling
+ Sentence: l33t h4x0R = Aaron
+}
+	com.neuralnoise.atd.Error Object {
+ String: soooo
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: soooo
+}
+	com.neuralnoise.atd.Error Object {
+ String: gotyou
+ Description: Spelling
+ Precontext: I
+ Suggestions: []
+ Type: spelling
+ Sentence: Yeah thats what I got...you sugguested it!
+}
+	com.neuralnoise.atd.Error Object {
+ String: sugguested
+ Description: Spelling
+ Precontext: gotyou
+ Suggestions: []
+ Type: spelling
+ Sentence: Yeah thats what I got...you sugguested it!
+}
+	com.neuralnoise.atd.Error Object {
+ String: booo
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: booo
+}
+	com.neuralnoise.atd.Error Object {
+ String: emeril
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: emeril says so
+}
+	com.neuralnoise.atd.Error Object {
+ String: thereproblem
+ Description: Spelling
+ Precontext: documentation
+ Suggestions: null
+ Type: spelling
+ Sentence: you guys already have a website, just host the documentation there....problem solved
+}
+	com.neuralnoise.atd.Error Object {
+ String: easyest
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: You need to provide documentation for the code as we dont know who will maintain it. It will be the easyest thing to throw a webpage with docs.
+}
+	com.neuralnoise.atd.Error Object {
+ String: AGH
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: AGH
+}
+	com.neuralnoise.atd.Error Object {
+ String: mindy
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: mindy messed up
+}
+	com.neuralnoise.atd.Error Object {
+ String: dstole
+ Description: Spelling
+ Precontext: you
+ Suggestions: []
+ Type: spelling
+ Sentence: We know where you dstole the character from !
+}
+	com.neuralnoise.atd.Error Object {
+ String: willin
+ Description: Spelling
+ Precontext: we're
+ Suggestions: []
+ Type: spelling
+ Sentence: unless we're willin to pay royalties
+}
+	com.neuralnoise.atd.Error Object {
+ String: arenot
+ Description: Spelling
+ Precontext: We
+ Suggestions: []
+ Type: spelling
+ Sentence: We arenot getting sued because of that ok...you take responsibility !
+}
+	com.neuralnoise.atd.Error Object {
+ String: okyou
+ Description: Spelling
+ Precontext: that
+ Suggestions: []
+ Type: spelling
+ Sentence: We arenot getting sued because of that ok...you take responsibility !
+}
+	com.neuralnoise.atd.Error Object {
+ String: tooelementary
+ Description: Spelling
+ Precontext: Sounds
+ Suggestions: []
+ Type: spelling
+ Sentence: Sounds too...elementary
+}
+	com.neuralnoise.atd.Error Object {
+ String: shutup
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: shutup riz
+}
+	com.neuralnoise.atd.Error Object {
+ String: Elementry
+ Description: Spelling
+ Precontext: like
+ Suggestions: []
+ Type: spelling
+ Sentence: I like Elementry Quest
+}
+	com.neuralnoise.atd.Error Object {
+ String: voilent
+ Description: Spelling
+ Precontext: too
+ Suggestions: []
+ Type: spelling
+ Sentence: Won't that  be too voilent for kids?
+}
+	com.neuralnoise.atd.Error Object {
+ String: inthe
+ Description: Spelling
+ Precontext: section
+ Suggestions: []
+ Type: spelling
+ Sentence: So, do you want to see as "Storyline" section inthe next RS?
+}
+	com.neuralnoise.atd.Error Object {
+ String: dosnt
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: dosnt have to be aviolent dragon
+}
+	com.neuralnoise.atd.Error Object {
+ String: aviolent
+ Description: Spelling
+ Precontext: be
+ Suggestions: []
+ Type: spelling
+ Sentence: dosnt have to be aviolent dragon
+}
+	com.neuralnoise.atd.Error Object {
+ String: iq
+ Description: Spelling
+ Precontext: your
+ Suggestions: []
+ Type: spelling
+ Sentence: (unless you pummel him gently with your iq)
+}
+	com.neuralnoise.atd.Error Object {
+ String: stry
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: yes; stry line section
+}
+	com.neuralnoise.atd.Error Object {
+ String: NIIIIIGHT
+ Description: Spelling
+ Precontext: the
+ Suggestions: null
+ Type: spelling
+ Sentence: and the dragon comes in the NIIIIIGHT
+}
+	com.neuralnoise.atd.Error Object {
+ String: yeahshould
+ Description: Spelling
+ Precontext: 
+ Suggestions: null
+ Type: spelling
+ Sentence: yeah....should add that we are required ...
+}
+	com.neuralnoise.atd.Error Object {
+ String: aaaaw
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: aaaaw
+}
+	com.neuralnoise.atd.Error Object {
+ String: oooooo
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: oooooo. settle down, boys
+}
+	com.neuralnoise.atd.Error Object {
+ String: thay
+ Description: Spelling
+ Precontext: think
+ Suggestions: []
+ Type: spelling
+ Sentence: Ok, I think thay should be it
+}
+	com.neuralnoise.atd.Error Object {
+ String: valium
+ Description: Spelling
+ Precontext: some
+ Suggestions: []
+ Type: spelling
+ Sentence: i took some valium
+}
+	com.neuralnoise.atd.Error Object {
+ String: mindy
+ Description: Spelling
+ Precontext: confident
+ Suggestions: []
+ Type: spelling
+ Sentence: be confident mindy
+}
+	com.neuralnoise.atd.Error Object {
+ String: shoulda
+ Description: Spelling
+ Precontext: i
+ Suggestions: []
+ Type: spelling
+ Sentence: i shoulda stayed home
+}
+	com.neuralnoise.atd.Error Object {
+ String: alrighty
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: alrighty.. turn this thing off
+}
+	com.neuralnoise.atd.Error Object {
+ String: hahaha
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: hahaha
+}
+	com.neuralnoise.atd.Error Object {
+ String: enron's
+ Description: Spelling
+ Precontext: following
+ Suggestions: []
+ Type: spelling
+ Sentence: yes we're already following enron's footsteps
+}
+	com.neuralnoise.atd.Error Object {
+ String: wtf
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: wtf
+}
+	com.neuralnoise.atd.Error Object {
+ String: lates
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: lates
+}
+	com.neuralnoise.atd.Error Object {
+ String: shotty
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: shotty not it
+}
+	com.neuralnoise.atd.Error Object {
+ String: ryan
+ Description: Spelling
+ Precontext: thanks
+ Suggestions: []
+ Type: spelling
+ Sentence: thanks ryan
+}
+	com.neuralnoise.atd.Error Object {
+ String: everytime
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: So you know Ryan, everytime you enter something into the decisions place, you need to hit the refresh. Last time i had to anyhow
+}
+	com.neuralnoise.atd.Error Object {
+ String: thx
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: Oh, ok, thx
+}
+	com.neuralnoise.atd.Error Object {
+ String: Beckd
+ Description: Spelling
+ Precontext: Hi
+ Suggestions: []
+ Type: spelling
+ Sentence: Hi Beckd, could you tell us your full name.
+}
+	com.neuralnoise.atd.Error Object {
+ String: herei
+ Description: Spelling
+ Precontext: difficulty
+ Suggestions: []
+ Type: spelling
+ Sentence: i have some difficulty here...i am just goin off and log in again..so craig can u invite me again when i am bac?thks..
+}
+	com.neuralnoise.atd.Error Object {
+ String: goin
+ Description: Spelling
+ Precontext: just
+ Suggestions: []
+ Type: spelling
+ Sentence: i have some difficulty here...i am just goin off and log in again..so craig can u invite me again when i am bac?thks..
+}
+	com.neuralnoise.atd.Error Object {
+ String: againso
+ Description: Spelling
+ Precontext: in
+ Suggestions: []
+ Type: spelling
+ Sentence: i have some difficulty here...i am just goin off and log in again..so craig can u invite me again when i am bac?thks..
+}
+	com.neuralnoise.atd.Error Object {
+ String: craig
+ Description: Spelling
+ Precontext: againso
+ Suggestions: []
+ Type: spelling
+ Sentence: i have some difficulty here...i am just goin off and log in again..so craig can u invite me again when i am bac?thks..
+}
+	com.neuralnoise.atd.Error Object {
+ String: bacthks
+ Description: Spelling
+ Precontext: am
+ Suggestions: []
+ Type: spelling
+ Sentence: i have some difficulty here...i am just goin off and log in again..so craig can u invite me again when i am bac?thks..
+}
+	com.neuralnoise.atd.Error Object {
+ String: speeking
+ Description: Spelling
+ Precontext: Developer
+ Suggestions: []
+ Type: spelling
+ Sentence: Developer speeking: We're plan on focussing on the kiosk in RS 3.0 does that sound reasonable to you guys?
+}
+	com.neuralnoise.atd.Error Object {
+ String: yse
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: yse
+}
+	com.neuralnoise.atd.Error Object {
+ String: speeking
+ Description: Spelling
+ Precontext: of
+ Suggestions: []
+ Type: spelling
+ Sentence: I like the spelling of speeking.
+}
+	com.neuralnoise.atd.Error Object {
+ String: pda
+ Description: Spelling
+ Precontext: and
+ Suggestions: []
+ Type: spelling
+ Sentence: I think that a trip planning feature, going into the different ways it would be accessed through things such as kiosk, web based and pda might be a bit more feasible
+}
+	com.neuralnoise.atd.Error Object {
+ String: sked
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: You mean the trip planning? Or just the sked printouts?
+}
+	com.neuralnoise.atd.Error Object {
+ String: paticular
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: To view what time a bus will arrive at a paticular stop. Either today or in the future. It should have all other stops on that route listed as well to see at a glance when it may arrive... etc. Similar to Victoria's.
+}
+	com.neuralnoise.atd.Error Object {
+ String: esqimalt
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: esqimalt, sooke, etc.
+}
+	com.neuralnoise.atd.Error Object {
+ String: sooke
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: esqimalt, sooke, etc.
+}
+	com.neuralnoise.atd.Error Object {
+ String: translink
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: (the translink schedule is a bit better, you can choose which stops you want t he times of)
+}
+	com.neuralnoise.atd.Error Object {
+ String: zoomable
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: what do you guys think of the option of seeing the routes of a zoomable map, chooseing routes via area of city
+}
+	com.neuralnoise.atd.Error Object {
+ String: chooseing
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: what do you guys think of the option of seeing the routes of a zoomable map, chooseing routes via area of city
+}
+	com.neuralnoise.atd.Error Object {
+ String: ot
+ Description: Spelling
+ Precontext: able
+ Suggestions: []
+ Type: spelling
+ Sentence: or being able ot select route number
+}
+	com.neuralnoise.atd.Error Object {
+ String: eConference
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: A feature of this program that the eConference tool like to demonstrate often.
+}
+	com.neuralnoise.atd.Error Object {
+ String: ryan's
+ Description: Spelling
+ Precontext: that
+ Suggestions: []
+ Type: spelling
+ Sentence: was that ryan's comment you were replying to?
+}
+	com.neuralnoise.atd.Error Object {
+ String: hte
+ Description: Spelling
+ Precontext: of
+ Suggestions: []
+ Type: spelling
+ Sentence: that would be the point of hte trip planner
+}
+	com.neuralnoise.atd.Error Object {
+ String: placeI
+ Description: Spelling
+ Precontext: decision
+ Suggestions: []
+ Type: spelling
+ Sentence: In addition to the items in the decision place...I would also say search by bus route number.
+}
+	com.neuralnoise.atd.Error Object {
+ String: yehathe
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: yeha...the name of the bus route can tell where the dest is..
+}
+	com.neuralnoise.atd.Error Object {
+ String: dest
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: yeha...the name of the bus route can tell where the dest is..
+}
+	com.neuralnoise.atd.Error Object {
+ String: hte
+ Description: Spelling
+ Precontext: of
+ Suggestions: []
+ Type: spelling
+ Sentence: names of hte routes are easier to remember than numbers, and may mean something to someone who doesn't know the routes
+}
+	com.neuralnoise.atd.Error Object {
+ String: dest
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: downtown would be useful as it would give all busses that have a dest of downtown.
+}
+	com.neuralnoise.atd.Error Object {
+ String: mvoe
+ Description: Spelling
+ Precontext: to
+ Suggestions: []
+ Type: spelling
+ Sentence: yea, i think we're good to mvoe on
+}
+	com.neuralnoise.atd.Error Object {
+ String: currenly
+ Description: Spelling
+ Precontext: is
+ Suggestions: []
+ Type: spelling
+ Sentence: Bryan, What you suggest is currenly what is going to happen, however it is difficult to list all the busses in the city in this fashion
+}
+	com.neuralnoise.atd.Error Object {
+ String: crossign
+ Description: Spelling
+ Precontext: street
+ Suggestions: []
+ Type: spelling
+ Sentence: or draw a line with your finger and show every route that goes on a street crossign that line
+}
+	com.neuralnoise.atd.Error Object {
+ String: Checkboxes
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: Checkboxes with touchscreen might be a bit difficult
+}
+	com.neuralnoise.atd.Error Object {
+ String: guysI
+ Description: Spelling
+ Precontext: sorry
+ Suggestions: []
+ Type: spelling
+ Sentence: sorry guys.......I got dropped there
+}
+	com.neuralnoise.atd.Error Object {
+ String: popup
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: if it's a popup box, then it could be easy
+}
+	com.neuralnoise.atd.Error Object {
+ String: paticular
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: i'm not sure why it needs to be a check box... busses that have a paticular destination or starting point, or pass through a certain region or stop works for me... then it can all be search based instead of covering half the map region with a list...???
+}
+	com.neuralnoise.atd.Error Object {
+ String: ontop
+ Description: Spelling
+ Precontext: done
+ Suggestions: []
+ Type: spelling
+ Sentence: So you're suggesting that additional filtering can be done ontop of the searching mentioned.
+}
+	com.neuralnoise.atd.Error Object {
+ String: ryan's
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: ryan's thinking what I'm thinking
+}
+	com.neuralnoise.atd.Error Object {
+ String: mabye
+ Description: Spelling
+ Precontext: landmarks
+ Suggestions: []
+ Type: spelling
+ Sentence: for the landmarks mabye you could make it so the admins add them and create categories for them
+}
+	com.neuralnoise.atd.Error Object {
+ String: tyler
+ Description: Spelling
+ Precontext: with
+ Suggestions: []
+ Type: spelling
+ Sentence: agree with tyler
+}
+	com.neuralnoise.atd.Error Object {
+ String: categoreis
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: well if you let the admins choose the categoreis it would be up to them, not the developers
+}
+	com.neuralnoise.atd.Error Object {
+ String: scalled
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: Is it alright if we simply provide a scalled down mini version of the webpage?
+}
+	com.neuralnoise.atd.Error Object {
+ String: clickable
+ Description: Spelling
+ Precontext: meant
+ Suggestions: []
+ Type: spelling
+ Sentence: I think he meant clickable not touchable
+}
+	com.neuralnoise.atd.Error Object {
+ String: thingat
+ Description: Spelling
+ Precontext: changing
+ Suggestions: []
+ Type: spelling
+ Sentence: by 'own schedule', it means their actual, hard, schedule, not a dynamically changing thing...at least that's how I understand it
+}
+	com.neuralnoise.atd.Error Object {
+ String: acouple
+ Description: Spelling
+ Precontext: then
+ Suggestions: []
+ Type: spelling
+ Sentence: maybe a small lcd that has like the next stop big and then acouple more underneath
+}
+	com.neuralnoise.atd.Error Object {
+ String: atleast
+ Description: Spelling
+ Precontext: have
+ Suggestions: []
+ Type: spelling
+ Sentence: I would have atleast 3 or so, except when near end of route... then it would have arrival time at last stop, and departure time.
+}
+	com.neuralnoise.atd.Error Object {
+ String: sched
+ Description: Spelling
+ Precontext: of
+ Suggestions: []
+ Type: spelling
+ Sentence: he needs to know if is behind or ahead of sched
+}
+	com.neuralnoise.atd.Error Object {
+ String: bryan
+ Description: Spelling
+ Precontext: like
+ Suggestions: []
+ Type: spelling
+ Sentence: as for seeing stuff on screen, its like bryan just said here
+}
+	com.neuralnoise.atd.Error Object {
+ String: resonable
+ Description: Spelling
+ Precontext: pretty
+ Suggestions: []
+ Type: spelling
+ Sentence: I Think that would be pretty resonable ryan, as everything is already tied in
+}
+	com.neuralnoise.atd.Error Object {
+ String: ryan
+ Description: Spelling
+ Precontext: resonable
+ Suggestions: []
+ Type: spelling
+ Sentence: I Think that would be pretty resonable ryan, as everything is already tied in
+}
+	com.neuralnoise.atd.Error Object {
+ String: alrightmoving
+ Description: Spelling
+ Precontext: 
+ Suggestions: null
+ Type: spelling
+ Sentence: alright......moving to next topic
+}
+	com.neuralnoise.atd.Error Object {
+ String: soudns
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: soudns good
+}
+	com.neuralnoise.atd.Error Object {
+ String: alrightour
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: alright........our time is pretty limited, we have 5 minutes left
+}
+	com.neuralnoise.atd.Error Object {
+ String: stopes
+ Description: Spelling
+ Precontext: connection
+ Suggestions: []
+ Type: spelling
+ Sentence: I would say that each trip has about 10 minutes of play, so at important connection stopes (hubs, terminals) drivers will wait up to like 3 minutes for connecting buses...
+}
+	com.neuralnoise.atd.Error Object {
+ String: audiable
+ Description: Spelling
+ Precontext: an
+ Suggestions: []
+ Type: spelling
+ Sentence: I don't know if an audiable alert is necessary.
+}
+	com.neuralnoise.atd.Error Object {
+ String: instand
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: Well the instand that they are waiting 3 minutes, they are late
+}
+	com.neuralnoise.atd.Error Object {
+ String: kia
+ Description: Spelling
+ Precontext: to
+ Suggestions: []
+ Type: spelling
+ Sentence: yeah, it's supposed to kia
+}
+	com.neuralnoise.atd.Error Object {
+ String: UVic
+ Description: Spelling
+ Precontext: from
+ Suggestions: []
+ Type: spelling
+ Sentence: say you're on a bus that goes from UVic to Western Exchange and it is suppose to meet a bus that goes from West Ex to Wishart - but the UVic bus is little late, the Wishart driver could aford to wait 3min.
+}
+	com.neuralnoise.atd.Error Object {
+ String: Wishart
+ Description: Spelling
+ Precontext: to
+ Suggestions: []
+ Type: spelling
+ Sentence: say you're on a bus that goes from UVic to Western Exchange and it is suppose to meet a bus that goes from West Ex to Wishart - but the UVic bus is little late, the Wishart driver could aford to wait 3min.
+}
+	com.neuralnoise.atd.Error Object {
+ String: UVic
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: say you're on a bus that goes from UVic to Western Exchange and it is suppose to meet a bus that goes from West Ex to Wishart - but the UVic bus is little late, the Wishart driver could aford to wait 3min.
+}
+	com.neuralnoise.atd.Error Object {
+ String: Wishart
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: say you're on a bus that goes from UVic to Western Exchange and it is suppose to meet a bus that goes from West Ex to Wishart - but the UVic bus is little late, the Wishart driver could aford to wait 3min.
+}
+	com.neuralnoise.atd.Error Object {
+ String: aford
+ Description: Spelling
+ Precontext: could
+ Suggestions: []
+ Type: spelling
+ Sentence: say you're on a bus that goes from UVic to Western Exchange and it is suppose to meet a bus that goes from West Ex to Wishart - but the UVic bus is little late, the Wishart driver could aford to wait 3min.
+}
+	com.neuralnoise.atd.Error Object {
+ String: 3min
+ Description: Spelling
+ Precontext: wait
+ Suggestions: []
+ Type: spelling
+ Sentence: say you're on a bus that goes from UVic to Western Exchange and it is suppose to meet a bus that goes from West Ex to Wishart - but the UVic bus is little late, the Wishart driver could aford to wait 3min.
+}
+	com.neuralnoise.atd.Error Object {
+ String: betweent
+ Description: Spelling
+ Precontext: toggle
+ Suggestions: []
+ Type: spelling
+ Sentence: I like being able to manually toggle betweent he screens
+}
+	com.neuralnoise.atd.Error Object {
+ String: seperate
+ Description: Spelling
+ Precontext: two
+ Suggestions: []
+ Type: spelling
+ Sentence: how about showing two seperate screens
+}
+	com.neuralnoise.atd.Error Object {
+ String: usefull
+ Description: Spelling
+ Precontext: not
+ Suggestions: []
+ Type: spelling
+ Sentence: too much information for drivers, 2 screen is not usefull
+}
+	com.neuralnoise.atd.Error Object {
+ String: waht
+ Description: Spelling
+ Precontext: that's
+ Suggestions: []
+ Type: spelling
+ Sentence: alright, if that's waht you guys want
+}
+	com.neuralnoise.atd.Error Object {
+ String: infared
+ Description: Spelling
+ Precontext: have
+ Suggestions: []
+ Type: spelling
+ Sentence: My Proposal:  Busses have infared beams across entraces that simply report when beam interruopted.
+}
+	com.neuralnoise.atd.Error Object {
+ String: entraces
+ Description: Spelling
+ Precontext: across
+ Suggestions: []
+ Type: spelling
+ Sentence: My Proposal:  Busses have infared beams across entraces that simply report when beam interruopted.
+}
+	com.neuralnoise.atd.Error Object {
+ String: interruopted
+ Description: Spelling
+ Precontext: beam
+ Suggestions: []
+ Type: spelling
+ Sentence: My Proposal:  Busses have infared beams across entraces that simply report when beam interruopted.
+}
+	com.neuralnoise.atd.Error Object {
+ String: UVIC
+ Description: Spelling
+ Precontext: at
+ Suggestions: []
+ Type: spelling
+ Sentence: so when a crowd of people get off the bus at UVIC, a driver is supposed to count as they pile off?
+}
+	com.neuralnoise.atd.Error Object {
+ String: infared
+ Description: Spelling
+ Precontext: with
+ Suggestions: []
+ Type: spelling
+ Sentence: Same problem with infared
+}
+	com.neuralnoise.atd.Error Object {
+ String: cound
+ Description: Spelling
+ Precontext: and
+ Suggestions: []
+ Type: spelling
+ Sentence: we need to hire some guy to stand there and cound people
+}
+	com.neuralnoise.atd.Error Object {
+ String: infared
+ Description: Spelling
+ Precontext: Would
+ Suggestions: []
+ Type: spelling
+ Sentence: Would infared approximations be acceptable.
+}
+	com.neuralnoise.atd.Error Object {
+ String: Infared
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: Infared are near enough the door no one would lean on them.
+}
+	com.neuralnoise.atd.Error Object {
+ String: ryan
+ Description: Spelling
+ Precontext: Thanks
+ Suggestions: []
+ Type: spelling
+ Sentence: Thanks ryan!
+}
+	com.neuralnoise.atd.Error Object {
+ String: hahaah
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: hahaah
+}
+	com.neuralnoise.atd.Error Object {
+ String: heheh
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: heheh
+}
+	com.neuralnoise.atd.Error Object {
+ String: ryan
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: I'm not seeing the ryan counting in the decision pane
+}
+	com.neuralnoise.atd.Error Object {
+ String: ryan
+ Description: Spelling
+ Precontext: right
+ Suggestions: []
+ Type: spelling
+ Sentence: Try making me a scribe too and I'll refresh it for Ryan. It's just a blank screen right ryan?
+}
+	com.neuralnoise.atd.Error Object {
+ String: knw
+ Description: Spelling
+ Precontext: only
+ Suggestions: []
+ Type: spelling
+ Sentence: we can only knw how many ppl get on the bus in total in a day..but counting ppl get off is pretty hard to achieve i think..
+}
+	com.neuralnoise.atd.Error Object {
+ String: daybut
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: we can only knw how many ppl get on the bus in total in a day..but counting ppl get off is pretty hard to achieve i think..
+}
+	com.neuralnoise.atd.Error Object {
+ String: kia
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: kia is right
+}
+	com.neuralnoise.atd.Error Object {
+ String: neeeeeeeeeeext
+ Description: Spelling
+ Precontext: 
+ Suggestions: null
+ Type: spelling
+ Sentence: neeeeeeeeeeext
+}
+	com.neuralnoise.atd.Error Object {
+ String: bennifit
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: Well, they've lived as long as many people... they can have the bennifit of being many people.
+}
+	com.neuralnoise.atd.Error Object {
+ String: topc
+ Description: Spelling
+ Precontext: this
+ Suggestions: []
+ Type: spelling
+ Sentence: Why don't we send you an email regarding this topc?
+}
+	com.neuralnoise.atd.Error Object {
+ String: -no-
+ Description: Spelling
+ Precontext: define
+ Suggestions: []
+ Type: spelling
+ Sentence: define -no- english. as in literally none/
+}
+	com.neuralnoise.atd.Error Object {
+ String: enligh
+ Description: Spelling
+ Precontext: of
+ Suggestions: []
+ Type: spelling
+ Sentence: Use icons for buttons to make the knowledge of enligh a non-necessity to use kiosks.
+}
+	com.neuralnoise.atd.Error Object {
+ String: picuture
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: a picuture is worth a thousand words
+}
+	com.neuralnoise.atd.Error Object {
+ String: functionalilty
+ Description: Spelling
+ Precontext: simple
+ Suggestions: []
+ Type: spelling
+ Sentence: that would only work for some of the more  simple functionalilty though
+}
+	com.neuralnoise.atd.Error Object {
+ String: billingual
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: English and french a must in a billingual country though...
+}
+	com.neuralnoise.atd.Error Object {
+ String: quebec
+ Description: Spelling
+ Precontext: in
+ Suggestions: []
+ Type: spelling
+ Sentence: french, only in quebec
+}
+	com.neuralnoise.atd.Error Object {
+ String: conferencestarted
+ Description: Spelling
+ Precontext: 
+ Suggestions: null
+ Type: spelling
+ Sentence: conference...started?
+}
+	com.neuralnoise.atd.Error Object {
+ String: g'day
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: g'day
+}
+	com.neuralnoise.atd.Error Object {
+ String: mambers
+ Description: Spelling
+ Precontext: for
+ Suggestions: []
+ Type: spelling
+ Sentence: is dev team still waiting for mambers?
+}
+	com.neuralnoise.atd.Error Object {
+ String: matthew
+ Description: Spelling
+ Precontext: see
+ Suggestions: []
+ Type: spelling
+ Sentence: I didn't see matthew
+}
+	com.neuralnoise.atd.Error Object {
+ String: clik
+ Description: Spelling
+ Precontext: can't
+ Suggestions: []
+ Type: spelling
+ Sentence: I can't clik
+}
+	com.neuralnoise.atd.Error Object {
+ String: decisiion
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: ok we just needed to test the decisiion pane
+}
+	com.neuralnoise.atd.Error Object {
+ String: dsdsd
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: dsdsd
+}
+	com.neuralnoise.atd.Error Object {
+ String: linux
+ Description: Spelling
+ Precontext: we
+ Suggestions: []
+ Type: spelling
+ Sentence: we linux guys can't see any thing
+}
+	com.neuralnoise.atd.Error Object {
+ String: dfg
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: dfg
+}
+	com.neuralnoise.atd.Error Object {
+ String: linux
+ Description: Spelling
+ Precontext: using
+ Suggestions: []
+ Type: spelling
+ Sentence: I think that anyone using linux cannot see the messages that we are typng
+}
+	com.neuralnoise.atd.Error Object {
+ String: typng
+ Description: Spelling
+ Precontext: are
+ Suggestions: []
+ Type: spelling
+ Sentence: I think that anyone using linux cannot see the messages that we are typng
+}
+	com.neuralnoise.atd.Error Object {
+ String: relogin
+ Description: Spelling
+ Precontext: I
+ Suggestions: []
+ Type: spelling
+ Sentence: I relogin
+}
+	com.neuralnoise.atd.Error Object {
+ String: linux
+ Description: Spelling
+ Precontext: using
+ Suggestions: []
+ Type: spelling
+ Sentence: or else anyone using linux including myself gets booted
+}
+	com.neuralnoise.atd.Error Object {
+ String: viewability
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: whats the viewability of the prototype
+}
+	com.neuralnoise.atd.Error Object {
+ String: url
+ Description: Spelling
+ Precontext: web
+ Suggestions: []
+ Type: spelling
+ Sentence: Does the client have a web url so we can view the prototype our selves?
+}
+	com.neuralnoise.atd.Error Object {
+ String: RS30
+ Description: Spelling
+ Precontext: for
+ Suggestions: []
+ Type: spelling
+ Sentence: what is the focus component that you guys are going to do for RS3.0
+}
+	com.neuralnoise.atd.Error Object {
+ String: sheduling
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: we were thinking about the sheduling and booking functionality
+}
+	com.neuralnoise.atd.Error Object {
+ String: geoff
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: geoff, could you invite andrew
+}
+	com.neuralnoise.atd.Error Object {
+ String: andrew
+ Description: Spelling
+ Precontext: invite
+ Suggestions: []
+ Type: spelling
+ Sentence: geoff, could you invite andrew
+}
+	com.neuralnoise.atd.Error Object {
+ String: andrews
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: andrews
+}
+	com.neuralnoise.atd.Error Object {
+ String: andrew
+ Description: Spelling
+ Precontext: just
+ Suggestions: []
+ Type: spelling
+ Sentence: just andrew
+}
+	com.neuralnoise.atd.Error Object {
+ String: andrew
+ Description: Spelling
+ Precontext: just
+ Suggestions: []
+ Type: spelling
+ Sentence: just "andrew
+}
+	com.neuralnoise.atd.Error Object {
+ String: regalr
+ Description: Spelling
+ Precontext: but
+ Suggestions: []
+ Type: spelling
+ Sentence: but regalr users should be able to book for reoccuring events
+}
+	com.neuralnoise.atd.Error Object {
+ String: reoccuring
+ Description: Spelling
+ Precontext: for
+ Suggestions: []
+ Type: spelling
+ Sentence: but regalr users should be able to book for reoccuring events
+}
+	com.neuralnoise.atd.Error Object {
+ String: thoes
+ Description: Spelling
+ Precontext: users
+ Suggestions: []
+ Type: spelling
+ Sentence: unless you want some permission to allow certain users thoes features
+}
+	com.neuralnoise.atd.Error Object {
+ String: checkbox
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: nope, i will have to add a checkbox saying recurring
+}
+	com.neuralnoise.atd.Error Object {
+ String: andrew
+ Description: Spelling
+ Precontext: invite
+ Suggestions: []
+ Type: spelling
+ Sentence: Geoff, would you invite andrew again
+}
+	com.neuralnoise.atd.Error Object {
+ String: andrew
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: "andrew"
+}
+	com.neuralnoise.atd.Error Object {
+ String: andrews
+ Description: Spelling
+ Precontext: whats
+ Suggestions: []
+ Type: spelling
+ Sentence: whats andrews last name
+}
+	com.neuralnoise.atd.Error Object {
+ String: andrew
+ Description: Spelling
+ Precontext: is
+ Suggestions: []
+ Type: spelling
+ Sentence: is andrew in yet
+}
+	com.neuralnoise.atd.Error Object {
+ String: andrew
+ Description: Spelling
+ Precontext: is
+ Suggestions: []
+ Type: spelling
+ Sentence: is andrew even here
+}
+	com.neuralnoise.atd.Error Object {
+ String: solaris
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: he is in the solaris room
+}
+	com.neuralnoise.atd.Error Object {
+ String: econf
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: but the econf can't be invited
+}
+	com.neuralnoise.atd.Error Object {
+ String: biweekly
+ Description: Spelling
+ Precontext: be
+ Suggestions: []
+ Type: spelling
+ Sentence: for the recurrence, I think most of them would be either weekly or monthly. Some may be biweekly. The users should be given those options for sure.
+}
+	com.neuralnoise.atd.Error Object {
+ String: searh
+ Description: Spelling
+ Precontext: room
+ Suggestions: []
+ Type: spelling
+ Sentence: maybe just a button for book room that leads through to the room searh page
+}
+	com.neuralnoise.atd.Error Object {
+ String: andrew
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: andrew welcome back
+}
+	com.neuralnoise.atd.Error Object {
+ String: lter
+ Description: Spelling
+ Precontext: invites
+ Suggestions: []
+ Type: spelling
+ Sentence: 10 invites lter
+}
+	com.neuralnoise.atd.Error Object {
+ String: lucas
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: lucas you are repeating yourself in triplicate now
+}
+	com.neuralnoise.atd.Error Object {
+ String: thatll
+ Description: Spelling
+ Precontext: screen
+ Suggestions: []
+ Type: spelling
+ Sentence: ok, so a screen thatll let you choose browsing or searching sounds reasonable
+}
+	com.neuralnoise.atd.Error Object {
+ String: viewablilty
+ Description: Spelling
+ Precontext: the
+ Suggestions: null
+ Type: spelling
+ Sentence: so an option to set the viewablilty of a boooking
+}
+	com.neuralnoise.atd.Error Object {
+ String: boooking
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: so an option to set the viewablilty of a boooking
+}
+	com.neuralnoise.atd.Error Object {
+ String: somthing
+ Description: Spelling
+ Precontext: want
+ Suggestions: []
+ Type: spelling
+ Sentence: I have a question about the room booking menu: what do you want on it? Do you want just browse and search? Or did you want somthing else as well where you could do somthing more direct? I didn't understand your full intention
+}
+	com.neuralnoise.atd.Error Object {
+ String: somthing
+ Description: Spelling
+ Precontext: do
+ Suggestions: []
+ Type: spelling
+ Sentence: I have a question about the room booking menu: what do you want on it? Do you want just browse and search? Or did you want somthing else as well where you could do somthing more direct? I didn't understand your full intention
+}
+	com.neuralnoise.atd.Error Object {
+ String: eveyone
+ Description: Spelling
+ Precontext: public
+ Suggestions: []
+ Type: spelling
+ Sentence: so if a room is public eveyone can see what its booked for, but if its not public then what
+}
+	com.neuralnoise.atd.Error Object {
+ String: rfp
+ Description: Spelling
+ Precontext: your
+ Suggestions: []
+ Type: spelling
+ Sentence: your rfp didn't mention a booking name or descriptiong
+}
+	com.neuralnoise.atd.Error Object {
+ String: descriptiong
+ Description: Spelling
+ Precontext: or
+ Suggestions: []
+ Type: spelling
+ Sentence: your rfp didn't mention a booking name or descriptiong
+}
+	com.neuralnoise.atd.Error Object {
+ String: usefull
+ Description: Spelling
+ Precontext: very
+ Suggestions: []
+ Type: spelling
+ Sentence: well i would think a title would be very usefull
+}
+	com.neuralnoise.atd.Error Object {
+ String: yesits
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: yes..its just the prototype
+}
+	com.neuralnoise.atd.Error Object {
+ String: symantecs
+ Description: Spelling
+ Precontext: into
+ Suggestions: []
+ Type: spelling
+ Sentence: let's not get into symantecs
+}
+	com.neuralnoise.atd.Error Object {
+ String: suiteable
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: which if the purpose of the system was simply to help potential bookers find a suiteable room would be sufficient
+}
+	com.neuralnoise.atd.Error Object {
+ String: woul
+ Description: Spelling
+ Precontext: it
+ Suggestions: []
+ Type: spelling
+ Sentence: but I think it woul be a good idea to include that
+}
+	com.neuralnoise.atd.Error Object {
+ String: usesful
+ Description: Spelling
+ Precontext: very
+ Suggestions: []
+ Type: spelling
+ Sentence: but in theory you would want people to attend the concert so telling them its a concert during that time would be very usesful
+}
+	com.neuralnoise.atd.Error Object {
+ String: publicshow
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: public=show booked status with event detail; private=show booked status only? is that correct
+}
+	com.neuralnoise.atd.Error Object {
+ String: privateshow
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: public=show booked status with event detail; private=show booked status only? is that correct
+}
+	com.neuralnoise.atd.Error Object {
+ String: checkbox
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: Bookings, private or public for viewing, checkbox? Public bookings, optional title
+ 
+Private, only groups can see details, or bookers. Ie faculty can see all faculty booked items, students can only see items that they book themselves.
+}
+	com.neuralnoise.atd.Error Object {
+ String: rs3
+ Description: Spelling
+ Precontext: asking
+ Suggestions: []
+ Type: spelling
+ Sentence: why u  asking rs3?
+}
+	com.neuralnoise.atd.Error Object {
+ String: typers
+ Description: Spelling
+ Precontext: three
+ Suggestions: []
+ Type: spelling
+ Sentence: Yes, the software gives me the speed of three typers in one.
+}
+	com.neuralnoise.atd.Error Object {
+ String: negociate
+ Description: Spelling
+ Precontext: and
+ Suggestions: []
+ Type: spelling
+ Sentence: and negociate exactly what its going to be
+}
+	com.neuralnoise.atd.Error Object {
+ String: vigoriously
+ Description: Spelling
+ Precontext: i'm
+ Suggestions: []
+ Type: spelling
+ Sentence: i'm vigoriously shaking my laptop
+}
+	com.neuralnoise.atd.Error Object {
+ String: hardrive
+ Description: Spelling
+ Precontext: my
+ Suggestions: []
+ Type: spelling
+ Sentence: i hope i didn't fuck up my hardrive
+}
+	com.neuralnoise.atd.Error Object {
+ String: Okey
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: Okey doke, that sounds good.
+}
+	com.neuralnoise.atd.Error Object {
+ String: doke
+ Description: Spelling
+ Precontext: Okey
+ Suggestions: []
+ Type: spelling
+ Sentence: Okey doke, that sounds good.
+}
+	com.neuralnoise.atd.Error Object {
+ String: RS40
+ Description: Spelling
+ Precontext: not
+ Suggestions: []
+ Type: spelling
+ Sentence: there is not RS4.0
+}
+	com.neuralnoise.atd.Error Object {
+ String: okie
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: okie duckie
+}
+	com.neuralnoise.atd.Error Object {
+ String: duckie
+ Description: Spelling
+ Precontext: okie
+ Suggestions: []
+ Type: spelling
+ Sentence: okie duckie
+}
+	com.neuralnoise.atd.Error Object {
+ String: Okey
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: Okey doke.
+}
+	com.neuralnoise.atd.Error Object {
+ String: doke
+ Description: Spelling
+ Precontext: Okey
+ Suggestions: []
+ Type: spelling
+ Sentence: Okey doke.
+}
+	com.neuralnoise.atd.Error Object {
+ String: alrite
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: alrite guys..
+}
+	com.neuralnoise.atd.Error Object {
+ String: conact
+ Description: Spelling
+ Precontext: to
+ Suggestions: []
+ Type: spelling
+ Sentence: ok if you think of anything feel free to conact us
+}
+	com.neuralnoise.atd.Error Object {
+ String: quadtruplet
+ Description: Spelling
+ Precontext: in
+ Suggestions: []
+ Type: spelling
+ Sentence: Just in time, now I'm typing in quadtruplet.
+}
+	com.neuralnoise.atd.Error Object {
+ String: alirteits
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: alirte...its over
+}
+Stats:
+	Auxiliary Verb Agreement -> 2
+	Passive voice -> 123
+	Complex Expression -> 82
+	Redundant Expression -> 2
+	Missing apostrophe -> 26
+	Repeated Word -> 6
+	Did you mean... -> 43
+	Hyphen Required -> 14
+	Hidden Verbs -> 14
+	Spelling -> 462
+	Diacritical Marks -> 1
+	Make I uppercase -> 145
+	Wrong article -> 4
+	Revise... -> 2
+	Bias Language -> 1
+Error of interest: Spelling
+Instances:
+	com.neuralnoise.atd.Error Object {
+ String: hawaii
+ Description: Spelling
+ Precontext: to
+ Suggestions: []
+ Type: spelling
+ Sentence: welcome to hawaii
+}
+	com.neuralnoise.atd.Error Object {
+ String: clarkn
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: clarkn is neal
+}
+	com.neuralnoise.atd.Error Object {
+ String: neal
+ Description: Spelling
+ Precontext: is
+ Suggestions: []
+ Type: spelling
+ Sentence: clarkn is neal
+}
+	com.neuralnoise.atd.Error Object {
+ String: jchiang
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: jchiang is jack
+}
+	com.neuralnoise.atd.Error Object {
+ String: anoother
+ Description: Spelling
+ Precontext: in
+ Suggestions: []
+ Type: spelling
+ Sentence: I think I saw him in anoother room
+}
+	com.neuralnoise.atd.Error Object {
+ String: chenl
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: chenl is Ryan@group6
+}
+	com.neuralnoise.atd.Error Object {
+ String: Ryangroup6
+ Description: Spelling
+ Precontext: is
+ Suggestions: null
+ Type: spelling
+ Sentence: chenl is Ryan@group6
+}
+	com.neuralnoise.atd.Error Object {
+ String: neal
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: neal is not facing computer
+}
+	com.neuralnoise.atd.Error Object {
+ String: andrew
+ Description: Spelling
+ Precontext: is
+ Suggestions: []
+ Type: spelling
+ Sentence: where is andrew
+}
+	com.neuralnoise.atd.Error Object {
+ String: whos
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: whos mcknightp?
+}
+	com.neuralnoise.atd.Error Object {
+ String: mcknightp
+ Description: Spelling
+ Precontext: whos
+ Suggestions: []
+ Type: spelling
+ Sentence: whos mcknightp?
+}
+	com.neuralnoise.atd.Error Object {
+ String: sittting
+ Description: Spelling
+ Precontext: is
+ Suggestions: []
+ Type: spelling
+ Sentence: don't know but he is sittting next to me
+}
+	com.neuralnoise.atd.Error Object {
+ String: laihok
+ Description: Spelling
+ Precontext: who's
+ Suggestions: []
+ Type: spelling
+ Sentence: who's laihok
+}
+	com.neuralnoise.atd.Error Object {
+ String: applicaitons
+ Description: Spelling
+ Precontext: desktop
+ Suggestions: []
+ Type: spelling
+ Sentence: we are looking for a desktop applicaitons, where the load of running the system is spread amongst the connected clients
+}
+	com.neuralnoise.atd.Error Object {
+ String: yesnot
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: yes...not a web page..its a actual program
+}
+	com.neuralnoise.atd.Error Object {
+ String: pageits
+ Description: Spelling
+ Precontext: web
+ Suggestions: []
+ Type: spelling
+ Sentence: yes...not a web page..its a actual program
+}
+	com.neuralnoise.atd.Error Object {
+ String: albe
+ Description: Spelling
+ Precontext: are
+ Suggestions: []
+ Type: spelling
+ Sentence: the users are albe to view the cal via the webpage
+}
+	com.neuralnoise.atd.Error Object {
+ String: webserver
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: public information will be posted to a webserver
+}
+	com.neuralnoise.atd.Error Object {
+ String: infomation
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: all the infomation just store locally,
+}
+	com.neuralnoise.atd.Error Object {
+ String: cleint
+ Description: Spelling
+ Precontext: various
+ Suggestions: []
+ Type: spelling
+ Sentence: on the various cleint machines
+}
+	com.neuralnoise.atd.Error Object {
+ String: applicaiton
+ Description: Spelling
+ Precontext: calendar
+ Suggestions: []
+ Type: spelling
+ Sentence: this software is not a meeting software, it is a calendar applicaiton
+}
+	com.neuralnoise.atd.Error Object {
+ String: informaiton
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: well the informaiton will be stored on other client computers, for example if a manager puts out a meeting schedule it will be send to everyone in the meeting
+}
+	com.neuralnoise.atd.Error Object {
+ String: buisness
+ Description: Spelling
+ Precontext: and
+ Suggestions: []
+ Type: spelling
+ Sentence: ok what about, laptops and buisness trips?
+}
+	com.neuralnoise.atd.Error Object {
+ String: sameonce
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: pretty much the same..once you are online
+}
+	com.neuralnoise.atd.Error Object {
+ String: bittorrent
+ Description: Spelling
+ Precontext: of
+ Suggestions: []
+ Type: spelling
+ Sentence: think about the idea of bittorrent, you can download as a peer from anywhere
+}
+	com.neuralnoise.atd.Error Object {
+ String: mechanisims
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: the mechanisims for distributing the data are not all that important at this point, what we need to concentrate on is the scheduling functionality of the software
+}
+	com.neuralnoise.atd.Error Object {
+ String: documens
+ Description: Spelling
+ Precontext: distribute
+ Suggestions: []
+ Type: spelling
+ Sentence: yes, it does need to distribute documens and no they will not be sent out by email
+}
+	com.neuralnoise.atd.Error Object {
+ String: departemnts
+ Description: Spelling
+ Precontext: other
+ Suggestions: []
+ Type: spelling
+ Sentence: or request a meeting with people from other departemnts
+}
+	com.neuralnoise.atd.Error Object {
+ String: exampel
+ Description: Spelling
+ Precontext: for
+ Suggestions: []
+ Type: spelling
+ Sentence: a mail clerk for exampel should not be able to change the time or a meeting or schedule a meeting
+}
+	com.neuralnoise.atd.Error Object {
+ String: thier
+ Description: Spelling
+ Precontext: under
+ Suggestions: []
+ Type: spelling
+ Sentence: but the hr people can put out a schedule for all staff under thier control
+}
+	com.neuralnoise.atd.Error Object {
+ String: tiems
+ Description: Spelling
+ Precontext: for
+ Suggestions: []
+ Type: spelling
+ Sentence: but for tiems like that the person scheduled can request that their schedule be changed
+}
+	com.neuralnoise.atd.Error Object {
+ String: negociate
+ Description: Spelling
+ Precontext: to
+ Suggestions: []
+ Type: spelling
+ Sentence: have to negociate before change~~~
+}
+	com.neuralnoise.atd.Error Object {
+ String: conflitcs
+ Description: Spelling
+ Precontext: existing
+ Suggestions: []
+ Type: spelling
+ Sentence: when creating a schedule the system should try to optimize the timing of a meeting to minimize existing conflitcs
+}
+	com.neuralnoise.atd.Error Object {
+ String: mutlilevel
+ Description: Spelling
+ Precontext: need
+ Suggestions: []
+ Type: spelling
+ Sentence: Do you need mutlilevel premissions for each person in the tree?
+}
+	com.neuralnoise.atd.Error Object {
+ String: premissions
+ Description: Spelling
+ Precontext: mutlilevel
+ Suggestions: []
+ Type: spelling
+ Sentence: Do you need mutlilevel premissions for each person in the tree?
+}
+	com.neuralnoise.atd.Error Object {
+ String: thoes
+ Description: Spelling
+ Precontext: modify
+ Suggestions: []
+ Type: spelling
+ Sentence: a manager can only modify thoes under him
+}
+	com.neuralnoise.atd.Error Object {
+ String: thoes
+ Description: Spelling
+ Precontext: schedule
+ Suggestions: []
+ Type: spelling
+ Sentence: that manager can then schedule thoes programmers
+}
+	com.neuralnoise.atd.Error Object {
+ String: controll
+ Description: Spelling
+ Precontext: his
+ Suggestions: []
+ Type: spelling
+ Sentence: he can request that other people not under his controll attend a meeting put he has to request their presence and they have to accept before they can be added to the meeting
+}
+	com.neuralnoise.atd.Error Object {
+ String: manageing
+ Description: Spelling
+ Precontext: are
+ Suggestions: []
+ Type: spelling
+ Sentence: so a group leader can schedule anyone under them even if they are manageing another project
+}
+	com.neuralnoise.atd.Error Object {
+ String: dicide
+ Description: Spelling
+ Precontext: we
+ Suggestions: []
+ Type: spelling
+ Sentence: did we dicide to change permission to role
+}
+	com.neuralnoise.atd.Error Object {
+ String: mananement
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: if someone is assigned a mananement role they may be able to create new roles and assign anyone under them to that role
+}
+	com.neuralnoise.atd.Error Object {
+ String: escilate
+ Description: Spelling
+ Precontext: can't
+ Suggestions: []
+ Type: spelling
+ Sentence: but they can't escilate their own role
+}
+	com.neuralnoise.atd.Error Object {
+ String: annouement
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: I think we'd better to keep the human resource department to do the annouement and things like that
+}
+	com.neuralnoise.atd.Error Object {
+ String: controll
+ Description: Spelling
+ Precontext: version
+ Suggestions: []
+ Type: spelling
+ Sentence: as far as version controll goes only the version that was used is important
+}
+	com.neuralnoise.atd.Error Object {
+ String: coverd
+ Description: Spelling
+ Precontext: be
+ Suggestions: []
+ Type: spelling
+ Sentence: it's be coverd in previous topic
+}
+	com.neuralnoise.atd.Error Object {
+ String: witht
+ Description: Spelling
+ Precontext: person
+ Suggestions: []
+ Type: spelling
+ Sentence: so a person witht he manager role can edit these docs and thats it?
+}
+	com.neuralnoise.atd.Error Object {
+ String: everybodys
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: well, everybodys schedual gets distributed to trier machine
+}
+	com.neuralnoise.atd.Error Object {
+ String: schedual
+ Description: Spelling
+ Precontext: everybodys
+ Suggestions: []
+ Type: spelling
+ Sentence: well, everybodys schedual gets distributed to trier machine
+}
+	com.neuralnoise.atd.Error Object {
+ String: trier
+ Description: Spelling
+ Precontext: to
+ Suggestions: []
+ Type: spelling
+ Sentence: well, everybodys schedual gets distributed to trier machine
+}
+	com.neuralnoise.atd.Error Object {
+ String: schedyal
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: so that's the schedyal that matters, right?
+}
+	com.neuralnoise.atd.Error Object {
+ String: pleasetime
+ Description: Spelling
+ Precontext: next
+ Suggestions: []
+ Type: spelling
+ Sentence: next please...time is flying
+}
+	com.neuralnoise.atd.Error Object {
+ String: rols
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: rols can edit for thoes under them
+}
+	com.neuralnoise.atd.Error Object {
+ String: thoes
+ Description: Spelling
+ Precontext: for
+ Suggestions: []
+ Type: spelling
+ Sentence: rols can edit for thoes under them
+}
+	com.neuralnoise.atd.Error Object {
+ String: teh
+ Description: Spelling
+ Precontext: when
+ Suggestions: []
+ Type: spelling
+ Sentence: when teh schedule has been modified, email notice sends out to everyone related in the schedule
+}
+	com.neuralnoise.atd.Error Object {
+ String: displayes
+ Description: Spelling
+ Precontext: information
+ Suggestions: []
+ Type: spelling
+ Sentence: various depending on the information displayes
+}
+	com.neuralnoise.atd.Error Object {
+ String: yauser
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: ya...user friendly is the most important part
+}
+	com.neuralnoise.atd.Error Object {
+ String: clippy
+ Description: Spelling
+ Precontext: want
+ Suggestions: []
+ Type: spelling
+ Sentence: and we want clippy
+}
+	com.neuralnoise.atd.Error Object {
+ String: backgound
+ Description: Spelling
+ Precontext: as
+ Suggestions: []
+ Type: spelling
+ Sentence: hot girls pictures as backgound = friendly
+}
+	com.neuralnoise.atd.Error Object {
+ String: Clippy
+ Description: Spelling
+ Precontext: want
+ Suggestions: []
+ Type: spelling
+ Sentence: Also we want Clippy to get run over by a bus.
+}
+	com.neuralnoise.atd.Error Object {
+ String: yesusers
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: yes...users can set their own preference
+}
+	com.neuralnoise.atd.Error Object {
+ String: clippy
+ Description: Spelling
+ Precontext: zombie
+ Suggestions: []
+ Type: spelling
+ Sentence: so a zombie clippy
+}
+	com.neuralnoise.atd.Error Object {
+ String: Clippy
+ Description: Spelling
+ Precontext: on
+ Suggestions: []
+ Type: spelling
+ Sentence: Yes, there should be an Easter Egg where a giant stack of calendars falls on Clippy.
+}
+	com.neuralnoise.atd.Error Object {
+ String: jxtaorg
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: jxta.org has good networking libraries for p2p
+}
+	com.neuralnoise.atd.Error Object {
+ String: p2p
+ Description: Spelling
+ Precontext: for
+ Suggestions: []
+ Type: spelling
+ Sentence: jxta.org has good networking libraries for p2p
+}
+	com.neuralnoise.atd.Error Object {
+ String: macromedias
+ Description: Spelling
+ Precontext: tacky
+ Suggestions: []
+ Type: spelling
+ Sentence: have you ever seen tacky macromedias personal assistant for dreamweaver
+}
+	com.neuralnoise.atd.Error Object {
+ String: dreamweaver
+ Description: Spelling
+ Precontext: for
+ Suggestions: null
+ Type: spelling
+ Sentence: have you ever seen tacky macromedias personal assistant for dreamweaver
+}
+	com.neuralnoise.atd.Error Object {
+ String: clippy
+ Description: Spelling
+ Precontext: NO
+ Suggestions: []
+ Type: spelling
+ Sentence: and NO clippy
+}
+	com.neuralnoise.atd.Error Object {
+ String: linux
+ Description: Spelling
+ Precontext: on
+ Suggestions: []
+ Type: spelling
+ Sentence: oh the system has to work on linux, mac and windows
+}
+	com.neuralnoise.atd.Error Object {
+ String: rfp
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: but i think that is in the rfp alread
+}
+	com.neuralnoise.atd.Error Object {
+ String: alread
+ Description: Spelling
+ Precontext: rfp
+ Suggestions: []
+ Type: spelling
+ Sentence: but i think that is in the rfp alread
+}
+	com.neuralnoise.atd.Error Object {
+ String: unix
+ Description: Spelling
+ Precontext: and
+ Suggestions: []
+ Type: spelling
+ Sentence: and unix 
+ it has to work on thhe solaris machines
+}
+	com.neuralnoise.atd.Error Object {
+ String: thhe
+ Description: Spelling
+ Precontext: on
+ Suggestions: []
+ Type: spelling
+ Sentence: and unix 
+ it has to work on thhe solaris machines
+}
+	com.neuralnoise.atd.Error Object {
+ String: solaris
+ Description: Spelling
+ Precontext: thhe
+ Suggestions: []
+ Type: spelling
+ Sentence: and unix 
+ it has to work on thhe solaris machines
+}
+	com.neuralnoise.atd.Error Object {
+ String: xbox
+ Description: Spelling
+ Precontext: carefull
+ Suggestions: []
+ Type: spelling
+ Sentence: and if you are not carefull xbox as well
+}
+	com.neuralnoise.atd.Error Object {
+ String: ps3
+ Description: Spelling
+ Precontext: for
+ Suggestions: []
+ Type: spelling
+ Sentence: build prototypes for ps3
+}
+	com.neuralnoise.atd.Error Object {
+ String: powerbook
+ Description: Spelling
+ Precontext: mac
+ Suggestions: []
+ Type: spelling
+ Sentence: i have a mac powerbook G3 running yellow dog linux, it shoudl run on that too
+}
+	com.neuralnoise.atd.Error Object {
+ String: linux
+ Description: Spelling
+ Precontext: dog
+ Suggestions: []
+ Type: spelling
+ Sentence: i have a mac powerbook G3 running yellow dog linux, it shoudl run on that too
+}
+	com.neuralnoise.atd.Error Object {
+ String: shoudl
+ Description: Spelling
+ Precontext: it
+ Suggestions: []
+ Type: spelling
+ Sentence: i have a mac powerbook G3 running yellow dog linux, it shoudl run on that too
+}
+	com.neuralnoise.atd.Error Object {
+ String: Sooooo
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: Sooooo JAVA?
+}
+	com.neuralnoise.atd.Error Object {
+ String: n4ever
+ Description: Spelling
+ Precontext: you
+ Suggestions: []
+ Type: spelling
+ Sentence: for you n4ever
+}
+	com.neuralnoise.atd.Error Object {
+ String: econf
+ Description: Spelling
+ Precontext: Hello
+ Suggestions: []
+ Type: spelling
+ Sentence: Hello econf
+}
+	com.neuralnoise.atd.Error Object {
+ String: Reynen
+ Description: Spelling
+ Precontext: is
+ Suggestions: []
+ Type: spelling
+ Sentence: who is Reynen?
+}
+	com.neuralnoise.atd.Error Object {
+ String: s'mee
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: s'mee
+}
+	com.neuralnoise.atd.Error Object {
+ String: niggas
+ Description: Spelling
+ Precontext: my
+ Suggestions: []
+ Type: spelling
+ Sentence: sup my niggas
+}
+	com.neuralnoise.atd.Error Object {
+ String: hehehe
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: hehehe
+}
+	com.neuralnoise.atd.Error Object {
+ String: HSD
+ Description: Spelling
+ Precontext: pm
+ Suggestions: []
+ Type: spelling
+ Sentence: movie night this thursday at 7 pm HSD A240
+}
+	com.neuralnoise.atd.Error Object {
+ String: A240
+ Description: Spelling
+ Precontext: HSD
+ Suggestions: []
+ Type: spelling
+ Sentence: movie night this thursday at 7 pm HSD A240
+}
+	com.neuralnoise.atd.Error Object {
+ String: ur
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: as far as we're concerned scott, ur  non-existant
+}
+	com.neuralnoise.atd.Error Object {
+ String: bahthe
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: bah...the rock :S
+}
+	com.neuralnoise.atd.Error Object {
+ String: Stiffler
+ Description: Spelling
+ Precontext: and
+ Suggestions: []
+ Type: spelling
+ Sentence: and Stiffler from American Pie
+}
+	com.neuralnoise.atd.Error Object {
+ String: aws
+ Description: Spelling
+ Precontext: it
+ Suggestions: []
+ Type: spelling
+ Sentence: it aws alright
+}
+	com.neuralnoise.atd.Error Object {
+ String: hehehe
+ Description: Spelling
+ Precontext: is
+ Suggestions: []
+ Type: spelling
+ Sentence: so he is hehehe
+}
+	com.neuralnoise.atd.Error Object {
+ String: wassup
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: wassup josh :P
+}
+	com.neuralnoise.atd.Error Object {
+ String: josh
+ Description: Spelling
+ Precontext: wassup
+ Suggestions: []
+ Type: spelling
+ Sentence: wassup josh :P
+}
+	com.neuralnoise.atd.Error Object {
+ String: jared
+ Description: Spelling
+ Precontext: hello
+ Suggestions: []
+ Type: spelling
+ Sentence: hello jared
+}
+	com.neuralnoise.atd.Error Object {
+ String: vaccuum
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: like a vaccuum
+}
+	com.neuralnoise.atd.Error Object {
+ String: charles
+ Description: Spelling
+ Precontext: over
+ Suggestions: []
+ Type: spelling
+ Sentence: i'd pick scott as a scribe over charles anytime
+}
+	com.neuralnoise.atd.Error Object {
+ String: toodon't
+ Description: Spelling
+ Precontext: chair
+ Suggestions: []
+ Type: spelling
+ Sentence: yeah i've got a sweet chair too.....don't think i'll be asked to move though :P
+}
+	com.neuralnoise.atd.Error Object {
+ String: whoachat
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: whoa...chat lag?
+}
+	com.neuralnoise.atd.Error Object {
+ String: charles
+ Description: Spelling
+ Precontext: no
+ Suggestions: []
+ Type: spelling
+ Sentence: no no charles
+}
+	com.neuralnoise.atd.Error Object {
+ String: horel
+ Description: Spelling
+ Precontext: who's
+ Suggestions: []
+ Type: spelling
+ Sentence: who's horel?
+}
+	com.neuralnoise.atd.Error Object {
+ String: JOn
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: JOn
+}
+	com.neuralnoise.atd.Error Object {
+ String: jon
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: ok.. jon is double typing
+}
+	com.neuralnoise.atd.Error Object {
+ String: NOOO
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: Jon! NOOO!
+}
+	com.neuralnoise.atd.Error Object {
+ String: mei'm
+ Description: Spelling
+ Precontext: re-invite
+ Suggestions: []
+ Type: spelling
+ Sentence: if you see this, boot me and re-invite me....i'm not seeing any chat updating
+}
+	com.neuralnoise.atd.Error Object {
+ String: pwnt
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: pwnt
+}
+	com.neuralnoise.atd.Error Object {
+ String: pwnt
+ Description: Spelling
+ Precontext: jeff
+ Suggestions: []
+ Type: spelling
+ Sentence: jeff = pwnt
+}
+	com.neuralnoise.atd.Error Object {
+ String: relog
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: relog Jon
+}
+	com.neuralnoise.atd.Error Object {
+ String: wtf
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: wtf charles
+}
+	com.neuralnoise.atd.Error Object {
+ String: charles
+ Description: Spelling
+ Precontext: wtf
+ Suggestions: []
+ Type: spelling
+ Sentence: wtf charles
+}
+	com.neuralnoise.atd.Error Object {
+ String: omfgzors
+ Description: Spelling
+ Precontext: 
+ Suggestions: null
+ Type: spelling
+ Sentence: omfgzors u stfu 0r i pqn u b14tch
+}
+	com.neuralnoise.atd.Error Object {
+ String: stfu
+ Description: Spelling
+ Precontext: u
+ Suggestions: []
+ Type: spelling
+ Sentence: omfgzors u stfu 0r i pqn u b14tch
+}
+	com.neuralnoise.atd.Error Object {
+ String: 0r
+ Description: Spelling
+ Precontext: stfu
+ Suggestions: []
+ Type: spelling
+ Sentence: omfgzors u stfu 0r i pqn u b14tch
+}
+	com.neuralnoise.atd.Error Object {
+ String: pqn
+ Description: Spelling
+ Precontext: i
+ Suggestions: []
+ Type: spelling
+ Sentence: omfgzors u stfu 0r i pqn u b14tch
+}
+	com.neuralnoise.atd.Error Object {
+ String: b14tch
+ Description: Spelling
+ Precontext: u
+ Suggestions: []
+ Type: spelling
+ Sentence: omfgzors u stfu 0r i pqn u b14tch
+}
+	com.neuralnoise.atd.Error Object {
+ String: ya'lls
+ Description: Spelling
+ Precontext: see
+ Suggestions: []
+ Type: spelling
+ Sentence: but i can see ya'lls ugly names
+}
+	com.neuralnoise.atd.Error Object {
+ String: pwzors
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: pwzors
+}
+	com.neuralnoise.atd.Error Object {
+ String: monkeydude
+ Description: Spelling
+ Precontext: 
+ Suggestions: null
+ Type: spelling
+ Sentence: "sincerely, monkeydude"
+}
+	com.neuralnoise.atd.Error Object {
+ String: jared
+ Description: Spelling
+ Precontext: yo
+ Suggestions: []
+ Type: spelling
+ Sentence: yo jared homie, where's the rest of yo click?
+}
+	com.neuralnoise.atd.Error Object {
+ String: homie
+ Description: Spelling
+ Precontext: jared
+ Suggestions: []
+ Type: spelling
+ Sentence: yo jared homie, where's the rest of yo click?
+}
+	com.neuralnoise.atd.Error Object {
+ String: jon
+ Description: Spelling
+ Precontext: think
+ Suggestions: []
+ Type: spelling
+ Sentence: I think jon (horelj) needs an invite
+}
+	com.neuralnoise.atd.Error Object {
+ String: horelj
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: I think jon (horelj) needs an invite
+}
+	com.neuralnoise.atd.Error Object {
+ String: jeffs
+ Description: Spelling
+ Precontext: whats
+ Suggestions: []
+ Type: spelling
+ Sentence: whats jeffs id
+}
+	com.neuralnoise.atd.Error Object {
+ String: heywhat
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: hey.......what the hell happened?
+}
+	com.neuralnoise.atd.Error Object {
+ String: corbett
+ Description: Spelling
+ Precontext: or
+ Suggestions: []
+ Type: spelling
+ Sentence: or corbett
+}
+	com.neuralnoise.atd.Error Object {
+ String: Allo
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: Allo?
+}
+	com.neuralnoise.atd.Error Object {
+ String: allo
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: allo
+}
+	com.neuralnoise.atd.Error Object {
+ String: heyo
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: heyo
+}
+	com.neuralnoise.atd.Error Object {
+ String: je
+ Description: Spelling
+ Precontext: moi
+ Suggestions: []
+ Type: spelling
+ Sentence: moi je suis super!
+}
+	com.neuralnoise.atd.Error Object {
+ String: suis
+ Description: Spelling
+ Precontext: je
+ Suggestions: []
+ Type: spelling
+ Sentence: moi je suis super!
+}
+	com.neuralnoise.atd.Error Object {
+ String: wiedersen
+ Description: Spelling
+ Precontext: Auf
+ Suggestions: []
+ Type: spelling
+ Sentence: Auf wiedersen
+}
+	com.neuralnoise.atd.Error Object {
+ String: mindy
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: mindy got her job cut out fo her
+}
+	com.neuralnoise.atd.Error Object {
+ String: criss
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: criss de conard
+}
+	com.neuralnoise.atd.Error Object {
+ String: conard
+ Description: Spelling
+ Precontext: de
+ Suggestions: []
+ Type: spelling
+ Sentence: criss de conard
+}
+	com.neuralnoise.atd.Error Object {
+ String: je
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: je vais te peter la guelle
+}
+	com.neuralnoise.atd.Error Object {
+ String: vais
+ Description: Spelling
+ Precontext: je
+ Suggestions: []
+ Type: spelling
+ Sentence: je vais te peter la guelle
+}
+	com.neuralnoise.atd.Error Object {
+ String: guelle
+ Description: Spelling
+ Precontext: la
+ Suggestions: []
+ Type: spelling
+ Sentence: je vais te peter la guelle
+}
+	com.neuralnoise.atd.Error Object {
+ String: putin
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: putin
+}
+	com.neuralnoise.atd.Error Object {
+ String: hereseems
+ Description: Spelling
+ Precontext: is
+ Suggestions: []
+ Type: spelling
+ Sentence: our team is here......seems there are people missing from team 1 though
+}
+	com.neuralnoise.atd.Error Object {
+ String: chris
+ Description: Spelling
+ Precontext: and
+ Suggestions: []
+ Type: spelling
+ Sentence: pat and chris aren't here yet
+}
+	com.neuralnoise.atd.Error Object {
+ String: chris
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: chris is here he is just setting up
+}
+	com.neuralnoise.atd.Error Object {
+ String: evryone
+ Description: Spelling
+ Precontext: have
+ Suggestions: []
+ Type: spelling
+ Sentence: we still don't have evryone
+}
+	com.neuralnoise.atd.Error Object {
+ String: GOD1
+ Description: Spelling
+ Precontext: OH
+ Suggestions: []
+ Type: spelling
+ Sentence: OH GOD1
+}
+	com.neuralnoise.atd.Error Object {
+ String: talkin
+ Description: Spelling
+ Precontext: double
+ Suggestions: []
+ Type: spelling
+ Sentence: you're double talkin
+}
+	com.neuralnoise.atd.Error Object {
+ String: scotts
+ Description: Spelling
+ Precontext: 2
+ Suggestions: []
+ Type: spelling
+ Sentence: why do we have 2 scotts?
+}
+	com.neuralnoise.atd.Error Object {
+ String: thanh
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: thanh.. slow down man
+}
+	com.neuralnoise.atd.Error Object {
+ String: SCOTTS
+ Description: Spelling
+ Precontext: 2
+ Suggestions: []
+ Type: spelling
+ Sentence: BECAUSE THERE IS 2 SCOTTS RIZ
+}
+	com.neuralnoise.atd.Error Object {
+ String: scotts
+ Description: Spelling
+ Precontext: two
+ Suggestions: []
+ Type: spelling
+ Sentence: there are two scotts
+}
+	com.neuralnoise.atd.Error Object {
+ String: busstop
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: riz--> busstop
+}
+	com.neuralnoise.atd.Error Object {
+ String: ScottReynen
+ Description: Spelling
+ Precontext: myself
+ Suggestions: null
+ Type: spelling
+ Sentence: why do you think i named myself ScottReynen, so that stuff doesnt happen
+}
+	com.neuralnoise.atd.Error Object {
+ String: ur
+ Description: Spelling
+ Precontext: thought
+ Suggestions: []
+ Type: spelling
+ Sentence: i thought ur parents named you scott reynen
+}
+	com.neuralnoise.atd.Error Object {
+ String: reynen
+ Description: Spelling
+ Precontext: scott
+ Suggestions: []
+ Type: spelling
+ Sentence: i thought ur parents named you scott reynen
+}
+	com.neuralnoise.atd.Error Object {
+ String: ur
+ Description: Spelling
+ Precontext: take
+ Suggestions: []
+ Type: spelling
+ Sentence: but whatever, i'll take ur word
+}
+	com.neuralnoise.atd.Error Object {
+ String: heyo
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: heyo
+}
+	com.neuralnoise.atd.Error Object {
+ String: ritalin
+ Description: Spelling
+ Precontext: take
+ Suggestions: []
+ Type: spelling
+ Sentence: Scott needs to take ritalin
+}
+	com.neuralnoise.atd.Error Object {
+ String: hehe
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: hehe
+}
+	com.neuralnoise.atd.Error Object {
+ String: lastest
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: append to the lastest question: The introduction will ask the student to click and answer some questions. This will test and help the student computer skill.
+}
+	com.neuralnoise.atd.Error Object {
+ String: horelj
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: re-invite Jon!  Username: horelj
+}
+	com.neuralnoise.atd.Error Object {
+ String: soooo
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: soooo... still short 3?
+}
+	com.neuralnoise.atd.Error Object {
+ String: Wowwe
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: Wow...we got loads of people...what do you mean we are short :P
+}
+	com.neuralnoise.atd.Error Object {
+ String: peoplewhat
+ Description: Spelling
+ Precontext: of
+ Suggestions: []
+ Type: spelling
+ Sentence: Wow...we got loads of people...what do you mean we are short :P
+}
+	com.neuralnoise.atd.Error Object {
+ String: invitegonna
+ Description: Spelling
+ Precontext: another
+ Suggestions: null
+ Type: spelling
+ Sentence: if you see what i'm typing, send me another invite......gonna reconnect =/
+}
+	com.neuralnoise.atd.Error Object {
+ String: hoy
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: hoy
+}
+	com.neuralnoise.atd.Error Object {
+ String: hehe
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: hehe
+}
+	com.neuralnoise.atd.Error Object {
+ String: mindy
+ Description: Spelling
+ Precontext: like
+ Suggestions: []
+ Type: spelling
+ Sentence: seems like mindy doesn't have that much power after all
+}
+	com.neuralnoise.atd.Error Object {
+ String: eveeeerything
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: we could see, eveeeerything
+}
+	com.neuralnoise.atd.Error Object {
+ String: werd
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: werd
+}
+	com.neuralnoise.atd.Error Object {
+ String: werd
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: werd up g
+}
+	com.neuralnoise.atd.Error Object {
+ String: thanh
+ Description: Spelling
+ Precontext: is
+ Suggestions: []
+ Type: spelling
+ Sentence: who is thanh talkin to?
+}
+	com.neuralnoise.atd.Error Object {
+ String: talkin
+ Description: Spelling
+ Precontext: thanh
+ Suggestions: []
+ Type: spelling
+ Sentence: who is thanh talkin to?
+}
+	com.neuralnoise.atd.Error Object {
+ String: mindy
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: mindy, i authorize you to start the negotiation session
+}
+	com.neuralnoise.atd.Error Object {
+ String: mindy
+ Description: Spelling
+ Precontext: hi
+ Suggestions: []
+ Type: spelling
+ Sentence: hi mindy!
+}
+	com.neuralnoise.atd.Error Object {
+ String: lolis
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: lol....is this thanh or some kind of question bot??
+}
+	com.neuralnoise.atd.Error Object {
+ String: thanh
+ Description: Spelling
+ Precontext: this
+ Suggestions: []
+ Type: spelling
+ Sentence: lol....is this thanh or some kind of question bot??
+}
+	com.neuralnoise.atd.Error Object {
+ String: shhh
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: shhh
+}
+	com.neuralnoise.atd.Error Object {
+ String: thanh
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: thanh is a question machine
+}
+	com.neuralnoise.atd.Error Object {
+ String: BAHcan't
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: BAH....can't see it again :S
+}
+	com.neuralnoise.atd.Error Object {
+ String: dfjfjjf
+ Description: Spelling
+ Precontext: 
+ Suggestions: null
+ Type: spelling
+ Sentence: dfjfjjf
+}
+	com.neuralnoise.atd.Error Object {
+ String: everythin
+ Description: Spelling
+ Precontext: that
+ Suggestions: []
+ Type: spelling
+ Sentence: The game module is a pretty broad description of it. Is that everythin besides the student stats?
+}
+	com.neuralnoise.atd.Error Object {
+ String: 3hrs
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: if teacher has specified time for game playing.... 3hrs
+}
+	com.neuralnoise.atd.Error Object {
+ String: 10hrs
+ Description: Spelling
+ Precontext: then
+ Suggestions: []
+ Type: spelling
+ Sentence: if they're playing at home as well then 10hrs isn't that bad
+}
+	com.neuralnoise.atd.Error Object {
+ String: hrs
+ Description: Spelling
+ Precontext: 10
+ Suggestions: []
+ Type: spelling
+ Sentence: if kid really likes the game he could put in extra time ... 10 hrs
+}
+	com.neuralnoise.atd.Error Object {
+ String: Ofcourse
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: Ofcourse we have to have a minimum... say 3...and max 10....
+}
+	com.neuralnoise.atd.Error Object {
+ String: 3and
+ Description: Spelling
+ Precontext: say
+ Suggestions: []
+ Type: spelling
+ Sentence: Ofcourse we have to have a minimum... say 3...and max 10....
+}
+	com.neuralnoise.atd.Error Object {
+ String: 3hrs
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: 3hrs/week = minimum?
+}
+	com.neuralnoise.atd.Error Object {
+ String: hrs
+ Description: Spelling
+ Precontext: 50
+ Suggestions: []
+ Type: spelling
+ Sentence: the max of ten hours shouldn't be enforced... kid  should be able to play 50 hrs a week if they want
+}
+	com.neuralnoise.atd.Error Object {
+ String: woops
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: woops
+}
+	com.neuralnoise.atd.Error Object {
+ String: hehehe
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: hehehe
+}
+	com.neuralnoise.atd.Error Object {
+ String: brb
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: brb :(
+}
+	com.neuralnoise.atd.Error Object {
+ String: hehehe
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: hehehe
+}
+	com.neuralnoise.atd.Error Object {
+ String: oportunity
+ Description: Spelling
+ Precontext: equal
+ Suggestions: []
+ Type: spelling
+ Sentence: not different... equal oportunity....
+}
+	com.neuralnoise.atd.Error Object {
+ String: labseems
+ Description: Spelling
+ Precontext: different
+ Suggestions: []
+ Type: spelling
+ Sentence: i'm gonna try a different lab...seems the linux version is bugged :S
+}
+	com.neuralnoise.atd.Error Object {
+ String: linux
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: i'm gonna try a different lab...seems the linux version is bugged :S
+}
+	com.neuralnoise.atd.Error Object {
+ String: Definately
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: Yes that sounds like a good solution. Definately the teacher needs easy access to the students results so far in the year... and with a litlle bit more work from previous years.
+}
+	com.neuralnoise.atd.Error Object {
+ String: litlle
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: Yes that sounds like a good solution. Definately the teacher needs easy access to the students results so far in the year... and with a litlle bit more work from previous years.
+}
+	com.neuralnoise.atd.Error Object {
+ String: okayu
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: okayu
+}
+	com.neuralnoise.atd.Error Object {
+ String: ofcourse
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: I think we all agree on a 1 year immediate access to data and ability to export the data at the end of the year... ofcourse in need import back in the system and view.
+}
+	com.neuralnoise.atd.Error Object {
+ String: ssl
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: ssl  might be overkill
+}
+	com.neuralnoise.atd.Error Object {
+ String: ssl
+ Description: Spelling
+ Precontext: say
+ Suggestions: []
+ Type: spelling
+ Sentence: i'd say ssl shoul be a good oprion
+}
+	com.neuralnoise.atd.Error Object {
+ String: shoul
+ Description: Spelling
+ Precontext: ssl
+ Suggestions: []
+ Type: spelling
+ Sentence: i'd say ssl shoul be a good oprion
+}
+	com.neuralnoise.atd.Error Object {
+ String: oprion
+ Description: Spelling
+ Precontext: good
+ Suggestions: []
+ Type: spelling
+ Sentence: i'd say ssl shoul be a good oprion
+}
+	com.neuralnoise.atd.Error Object {
+ String: problemsolving
+ Description: Spelling
+ Precontext: understands
+ Suggestions: []
+ Type: spelling
+ Sentence: if a child can do that, he understands problemsolving / math plenty i figure
+}
+	com.neuralnoise.atd.Error Object {
+ String: okahyou
+ Description: Spelling
+ Precontext: ok
+ Suggestions: []
+ Type: spelling
+ Sentence: ok ok...ah...you are underestimating the knowledge of the future genrations (we have to take account of mutation )
+}
+	com.neuralnoise.atd.Error Object {
+ String: genrations
+ Description: Spelling
+ Precontext: future
+ Suggestions: []
+ Type: spelling
+ Sentence: ok ok...ah...you are underestimating the knowledge of the future genrations (we have to take account of mutation )
+}
+	com.neuralnoise.atd.Error Object {
+ String: ssl
+ Description: Spelling
+ Precontext: guess
+ Suggestions: []
+ Type: spelling
+ Sentence: I guess ssl will be an overhead for the system so we can drop that...
+}
+	com.neuralnoise.atd.Error Object {
+ String: mutan
+ Description: Spelling
+ Precontext: mention
+ Suggestions: []
+ Type: spelling
+ Sentence: I'm pretty sure we didn't mention mutan super-children in the RFP
+}
+	com.neuralnoise.atd.Error Object {
+ String: sugguestion
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: If you would like a sugguestion one alternative to CSV is xml, and some db's like oracle can export data directly to xml....just a sugguestion.
+}
+	com.neuralnoise.atd.Error Object {
+ String: xml
+ Description: Spelling
+ Precontext: is
+ Suggestions: []
+ Type: spelling
+ Sentence: If you would like a sugguestion one alternative to CSV is xml, and some db's like oracle can export data directly to xml....just a sugguestion.
+}
+	com.neuralnoise.atd.Error Object {
+ String: xmljust
+ Description: Spelling
+ Precontext: to
+ Suggestions: []
+ Type: spelling
+ Sentence: If you would like a sugguestion one alternative to CSV is xml, and some db's like oracle can export data directly to xml....just a sugguestion.
+}
+	com.neuralnoise.atd.Error Object {
+ String: sugguestion
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: If you would like a sugguestion one alternative to CSV is xml, and some db's like oracle can export data directly to xml....just a sugguestion.
+}
+	com.neuralnoise.atd.Error Object {
+ String: booo
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: booo xml
+}
+	com.neuralnoise.atd.Error Object {
+ String: xml
+ Description: Spelling
+ Precontext: booo
+ Suggestions: []
+ Type: spelling
+ Sentence: booo xml
+}
+	com.neuralnoise.atd.Error Object {
+ String: jon
+ Description: Spelling
+ Precontext: lost
+ Suggestions: []
+ Type: spelling
+ Sentence: we lost jon again, he needs another invite :(
+}
+	com.neuralnoise.atd.Error Object {
+ String: xml
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: xml = lots of overhead
+}
+	com.neuralnoise.atd.Error Object {
+ String: sql
+ Description: Spelling
+ Precontext: do
+ Suggestions: []
+ Type: spelling
+ Sentence: ya do sql
+}
+	com.neuralnoise.atd.Error Object {
+ String: Dudegood
+ Description: Spelling
+ Precontext: 
+ Suggestions: null
+ Type: spelling
+ Sentence: Dude...good luck operating on that csv...
+}
+	com.neuralnoise.atd.Error Object {
+ String: csv
+ Description: Spelling
+ Precontext: that
+ Suggestions: []
+ Type: spelling
+ Sentence: Dude...good luck operating on that csv...
+}
+	com.neuralnoise.atd.Error Object {
+ String: charles
+ Description: Spelling
+ Precontext: long
+ Suggestions: []
+ Type: spelling
+ Sentence: i wondered why you'd shut up for so long charles
+}
+	com.neuralnoise.atd.Error Object {
+ String: okkkkkk
+ Description: Spelling
+ Precontext: 
+ Suggestions: null
+ Type: spelling
+ Sentence: okkkkkk
+}
+	com.neuralnoise.atd.Error Object {
+ String: buizness
+ Description: Spelling
+ Precontext: to
+ Suggestions: []
+ Type: spelling
+ Sentence: back to buizness
+}
+	com.neuralnoise.atd.Error Object {
+ String: projecti'd
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: Well we want well documented code so we can expand on the project...i'd say we take the online Docs.
+}
+	com.neuralnoise.atd.Error Object {
+ String: mindy
+ Description: Spelling
+ Precontext: hey
+ Suggestions: []
+ Type: spelling
+ Sentence: hey mindy... you need to reinvite someone
+}
+	com.neuralnoise.atd.Error Object {
+ String: reinvite
+ Description: Spelling
+ Precontext: to
+ Suggestions: []
+ Type: spelling
+ Sentence: hey mindy... you need to reinvite someone
+}
+	com.neuralnoise.atd.Error Object {
+ String: horelj
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: horelj
+}
+	com.neuralnoise.atd.Error Object {
+ String: booo
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: booo
+}
+	com.neuralnoise.atd.Error Object {
+ String: Windowscuz
+ Description: Spelling
+ Precontext: of
+ Suggestions: []
+ Type: spelling
+ Sentence: Does that include booting of Windows...cuz  then its acceptable!
+}
+	com.neuralnoise.atd.Error Object {
+ String: hehehe
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: hehehe
+}
+	com.neuralnoise.atd.Error Object {
+ String: Hahah
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: Hahah :0
+}
+	com.neuralnoise.atd.Error Object {
+ String: Yeahthey'll
+ Description: Spelling
+ Precontext: 
+ Suggestions: null
+ Type: spelling
+ Sentence: Yeah...they'll be well asleep before it launches
+}
+	com.neuralnoise.atd.Error Object {
+ String: minigames
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: minigames in the load screens?
+}
+	com.neuralnoise.atd.Error Object {
+ String: Hahaand
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: Haha...and nice relaxing music?
+}
+	com.neuralnoise.atd.Error Object {
+ String: sgood
+ Description: Spelling
+ Precontext: sound
+ Suggestions: []
+ Type: spelling
+ Sentence: that sound sgood to me
+}
+	com.neuralnoise.atd.Error Object {
+ String: ur
+ Description: Spelling
+ Precontext: then
+ Suggestions: []
+ Type: spelling
+ Sentence: if you can manage to stay awake, then ur game...
+}
+	com.neuralnoise.atd.Error Object {
+ String: hunh
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: hunh?
+}
+	com.neuralnoise.atd.Error Object {
+ String: whosjiggawhat
+ Description: Spelling
+ Precontext: 
+ Suggestions: null
+ Type: spelling
+ Sentence: whosjiggawhat?
+}
+	com.neuralnoise.atd.Error Object {
+ String: thanh
+ Description: Spelling
+ Precontext: ahead
+ Suggestions: []
+ Type: spelling
+ Sentence: go ahead thanh
+}
+	com.neuralnoise.atd.Error Object {
+ String: shhhh
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: Thanh is on stage... shhhh
+}
+	com.neuralnoise.atd.Error Object {
+ String: dropn
+ Description: Spelling
+ Precontext: we
+ Suggestions: []
+ Type: spelling
+ Sentence: Should we dropn the 16mb ram and 50hhz requirement
+}
+	com.neuralnoise.atd.Error Object {
+ String: 16mb
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: Should we dropn the 16mb ram and 50hhz requirement
+}
+	com.neuralnoise.atd.Error Object {
+ String: 50hhz
+ Description: Spelling
+ Precontext: and
+ Suggestions: []
+ Type: spelling
+ Sentence: Should we dropn the 16mb ram and 50hhz requirement
+}
+	com.neuralnoise.atd.Error Object {
+ String: 3d
+ Description: Spelling
+ Precontext: more
+ Suggestions: []
+ Type: spelling
+ Sentence: so we can do more 3d rendering?
+}
+	com.neuralnoise.atd.Error Object {
+ String: resonalbe
+ Description: Spelling
+ Precontext: seems
+ Suggestions: []
+ Type: spelling
+ Sentence: seems resonalbe that the computer would be faster then that
+}
+	com.neuralnoise.atd.Error Object {
+ String: howabout
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: howabout 200mhz with 64mb of ram
+}
+	com.neuralnoise.atd.Error Object {
+ String: 200mhz
+ Description: Spelling
+ Precontext: howabout
+ Suggestions: []
+ Type: spelling
+ Sentence: howabout 200mhz with 64mb of ram
+}
+	com.neuralnoise.atd.Error Object {
+ String: 64mb
+ Description: Spelling
+ Precontext: with
+ Suggestions: []
+ Type: spelling
+ Sentence: howabout 200mhz with 64mb of ram
+}
+	com.neuralnoise.atd.Error Object {
+ String: reqirement
+ Description: Spelling
+ Precontext: meg
+ Suggestions: []
+ Type: spelling
+ Sentence: So you will consider using Google Earth maps for the cities if we drop the 16 meg reqirement?
+}
+	com.neuralnoise.atd.Error Object {
+ String: 500mhz
+ Description: Spelling
+ Precontext: 
+ Suggestions: null
+ Type: spelling
+ Sentence: 500mhz might be the low end
+}
+	com.neuralnoise.atd.Error Object {
+ String: reqs
+ Description: Spelling
+ Precontext: min
+ Suggestions: []
+ Type: spelling
+ Sentence: if i remember correctly, they came up with the min reqs from warcraft.....the graphics aren't all that bad in warcraft
+}
+	com.neuralnoise.atd.Error Object {
+ String: warcraftthe
+ Description: Spelling
+ Precontext: from
+ Suggestions: []
+ Type: spelling
+ Sentence: if i remember correctly, they came up with the min reqs from warcraft.....the graphics aren't all that bad in warcraft
+}
+	com.neuralnoise.atd.Error Object {
+ String: shoud
+ Description: Spelling
+ Precontext: school
+ Suggestions: []
+ Type: spelling
+ Sentence: I think most school shoud be at the 200mhz and 64mbz ram
+}
+	com.neuralnoise.atd.Error Object {
+ String: 200mhz
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: I think most school shoud be at the 200mhz and 64mbz ram
+}
+	com.neuralnoise.atd.Error Object {
+ String: 64mbz
+ Description: Spelling
+ Precontext: and
+ Suggestions: []
+ Type: spelling
+ Sentence: I think most school shoud be at the 200mhz and 64mbz ram
+}
+	com.neuralnoise.atd.Error Object {
+ String: 200mhz
+ Description: Spelling
+ Precontext: think
+ Suggestions: []
+ Type: spelling
+ Sentence: I think 200mhz and 64mb will be fine
+}
+	com.neuralnoise.atd.Error Object {
+ String: 64mb
+ Description: Spelling
+ Precontext: and
+ Suggestions: []
+ Type: spelling
+ Sentence: I think 200mhz and 64mb will be fine
+}
+	com.neuralnoise.atd.Error Object {
+ String: 500mhz
+ Description: Spelling
+ Precontext: to
+ Suggestions: null
+ Type: spelling
+ Sentence: i think we could raise the minimum to 500mhz 128 meg ram
+}
+	com.neuralnoise.atd.Error Object {
+ String: definate
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: sounds good.... as long as we see a definate improvement in the graphics
+}
+	com.neuralnoise.atd.Error Object {
+ String: mhz
+ Description: Spelling
+ Precontext: 500
+ Suggestions: []
+ Type: spelling
+ Sentence: cool, so 500 mhz and 128 meg ram then
+}
+	com.neuralnoise.atd.Error Object {
+ String: chris
+ Description: Spelling
+ Precontext: call
+ Suggestions: []
+ Type: spelling
+ Sentence: good call chris
+}
+	com.neuralnoise.atd.Error Object {
+ String: agains't
+ Description: Spelling
+ Precontext: suggest
+ Suggestions: []
+ Type: spelling
+ Sentence: I'd actually suggest agains't a 500 MHz limit.  My Dad's school still has quite a few 233 MHz computers
+}
+	com.neuralnoise.atd.Error Object {
+ String: 200mhz
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: 200mhz and 64mb will be fine
+}
+	com.neuralnoise.atd.Error Object {
+ String: 64mb
+ Description: Spelling
+ Precontext: and
+ Suggestions: []
+ Type: spelling
+ Sentence: 200mhz and 64mb will be fine
+}
+	com.neuralnoise.atd.Error Object {
+ String: l33t
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: l33t h4x0R = Aaron
+}
+	com.neuralnoise.atd.Error Object {
+ String: h4x0R
+ Description: Spelling
+ Precontext: l33t
+ Suggestions: []
+ Type: spelling
+ Sentence: l33t h4x0R = Aaron
+}
+	com.neuralnoise.atd.Error Object {
+ String: soooo
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: soooo
+}
+	com.neuralnoise.atd.Error Object {
+ String: gotyou
+ Description: Spelling
+ Precontext: I
+ Suggestions: []
+ Type: spelling
+ Sentence: Yeah thats what I got...you sugguested it!
+}
+	com.neuralnoise.atd.Error Object {
+ String: sugguested
+ Description: Spelling
+ Precontext: gotyou
+ Suggestions: []
+ Type: spelling
+ Sentence: Yeah thats what I got...you sugguested it!
+}
+	com.neuralnoise.atd.Error Object {
+ String: booo
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: booo
+}
+	com.neuralnoise.atd.Error Object {
+ String: emeril
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: emeril says so
+}
+	com.neuralnoise.atd.Error Object {
+ String: thereproblem
+ Description: Spelling
+ Precontext: documentation
+ Suggestions: null
+ Type: spelling
+ Sentence: you guys already have a website, just host the documentation there....problem solved
+}
+	com.neuralnoise.atd.Error Object {
+ String: easyest
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: You need to provide documentation for the code as we dont know who will maintain it. It will be the easyest thing to throw a webpage with docs.
+}
+	com.neuralnoise.atd.Error Object {
+ String: AGH
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: AGH
+}
+	com.neuralnoise.atd.Error Object {
+ String: mindy
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: mindy messed up
+}
+	com.neuralnoise.atd.Error Object {
+ String: dstole
+ Description: Spelling
+ Precontext: you
+ Suggestions: []
+ Type: spelling
+ Sentence: We know where you dstole the character from !
+}
+	com.neuralnoise.atd.Error Object {
+ String: willin
+ Description: Spelling
+ Precontext: we're
+ Suggestions: []
+ Type: spelling
+ Sentence: unless we're willin to pay royalties
+}
+	com.neuralnoise.atd.Error Object {
+ String: arenot
+ Description: Spelling
+ Precontext: We
+ Suggestions: []
+ Type: spelling
+ Sentence: We arenot getting sued because of that ok...you take responsibility !
+}
+	com.neuralnoise.atd.Error Object {
+ String: okyou
+ Description: Spelling
+ Precontext: that
+ Suggestions: []
+ Type: spelling
+ Sentence: We arenot getting sued because of that ok...you take responsibility !
+}
+	com.neuralnoise.atd.Error Object {
+ String: tooelementary
+ Description: Spelling
+ Precontext: Sounds
+ Suggestions: []
+ Type: spelling
+ Sentence: Sounds too...elementary
+}
+	com.neuralnoise.atd.Error Object {
+ String: shutup
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: shutup riz
+}
+	com.neuralnoise.atd.Error Object {
+ String: Elementry
+ Description: Spelling
+ Precontext: like
+ Suggestions: []
+ Type: spelling
+ Sentence: I like Elementry Quest
+}
+	com.neuralnoise.atd.Error Object {
+ String: voilent
+ Description: Spelling
+ Precontext: too
+ Suggestions: []
+ Type: spelling
+ Sentence: Won't that  be too voilent for kids?
+}
+	com.neuralnoise.atd.Error Object {
+ String: inthe
+ Description: Spelling
+ Precontext: section
+ Suggestions: []
+ Type: spelling
+ Sentence: So, do you want to see as "Storyline" section inthe next RS?
+}
+	com.neuralnoise.atd.Error Object {
+ String: dosnt
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: dosnt have to be aviolent dragon
+}
+	com.neuralnoise.atd.Error Object {
+ String: aviolent
+ Description: Spelling
+ Precontext: be
+ Suggestions: []
+ Type: spelling
+ Sentence: dosnt have to be aviolent dragon
+}
+	com.neuralnoise.atd.Error Object {
+ String: iq
+ Description: Spelling
+ Precontext: your
+ Suggestions: []
+ Type: spelling
+ Sentence: (unless you pummel him gently with your iq)
+}
+	com.neuralnoise.atd.Error Object {
+ String: stry
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: yes; stry line section
+}
+	com.neuralnoise.atd.Error Object {
+ String: NIIIIIGHT
+ Description: Spelling
+ Precontext: the
+ Suggestions: null
+ Type: spelling
+ Sentence: and the dragon comes in the NIIIIIGHT
+}
+	com.neuralnoise.atd.Error Object {
+ String: yeahshould
+ Description: Spelling
+ Precontext: 
+ Suggestions: null
+ Type: spelling
+ Sentence: yeah....should add that we are required ...
+}
+	com.neuralnoise.atd.Error Object {
+ String: aaaaw
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: aaaaw
+}
+	com.neuralnoise.atd.Error Object {
+ String: oooooo
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: oooooo. settle down, boys
+}
+	com.neuralnoise.atd.Error Object {
+ String: thay
+ Description: Spelling
+ Precontext: think
+ Suggestions: []
+ Type: spelling
+ Sentence: Ok, I think thay should be it
+}
+	com.neuralnoise.atd.Error Object {
+ String: valium
+ Description: Spelling
+ Precontext: some
+ Suggestions: []
+ Type: spelling
+ Sentence: i took some valium
+}
+	com.neuralnoise.atd.Error Object {
+ String: mindy
+ Description: Spelling
+ Precontext: confident
+ Suggestions: []
+ Type: spelling
+ Sentence: be confident mindy
+}
+	com.neuralnoise.atd.Error Object {
+ String: shoulda
+ Description: Spelling
+ Precontext: i
+ Suggestions: []
+ Type: spelling
+ Sentence: i shoulda stayed home
+}
+	com.neuralnoise.atd.Error Object {
+ String: alrighty
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: alrighty.. turn this thing off
+}
+	com.neuralnoise.atd.Error Object {
+ String: hahaha
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: hahaha
+}
+	com.neuralnoise.atd.Error Object {
+ String: enron's
+ Description: Spelling
+ Precontext: following
+ Suggestions: []
+ Type: spelling
+ Sentence: yes we're already following enron's footsteps
+}
+	com.neuralnoise.atd.Error Object {
+ String: wtf
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: wtf
+}
+	com.neuralnoise.atd.Error Object {
+ String: lates
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: lates
+}
+	com.neuralnoise.atd.Error Object {
+ String: shotty
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: shotty not it
+}
+	com.neuralnoise.atd.Error Object {
+ String: ryan
+ Description: Spelling
+ Precontext: thanks
+ Suggestions: []
+ Type: spelling
+ Sentence: thanks ryan
+}
+	com.neuralnoise.atd.Error Object {
+ String: everytime
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: So you know Ryan, everytime you enter something into the decisions place, you need to hit the refresh. Last time i had to anyhow
+}
+	com.neuralnoise.atd.Error Object {
+ String: thx
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: Oh, ok, thx
+}
+	com.neuralnoise.atd.Error Object {
+ String: Beckd
+ Description: Spelling
+ Precontext: Hi
+ Suggestions: []
+ Type: spelling
+ Sentence: Hi Beckd, could you tell us your full name.
+}
+	com.neuralnoise.atd.Error Object {
+ String: herei
+ Description: Spelling
+ Precontext: difficulty
+ Suggestions: []
+ Type: spelling
+ Sentence: i have some difficulty here...i am just goin off and log in again..so craig can u invite me again when i am bac?thks..
+}
+	com.neuralnoise.atd.Error Object {
+ String: goin
+ Description: Spelling
+ Precontext: just
+ Suggestions: []
+ Type: spelling
+ Sentence: i have some difficulty here...i am just goin off and log in again..so craig can u invite me again when i am bac?thks..
+}
+	com.neuralnoise.atd.Error Object {
+ String: againso
+ Description: Spelling
+ Precontext: in
+ Suggestions: []
+ Type: spelling
+ Sentence: i have some difficulty here...i am just goin off and log in again..so craig can u invite me again when i am bac?thks..
+}
+	com.neuralnoise.atd.Error Object {
+ String: craig
+ Description: Spelling
+ Precontext: againso
+ Suggestions: []
+ Type: spelling
+ Sentence: i have some difficulty here...i am just goin off and log in again..so craig can u invite me again when i am bac?thks..
+}
+	com.neuralnoise.atd.Error Object {
+ String: bacthks
+ Description: Spelling
+ Precontext: am
+ Suggestions: []
+ Type: spelling
+ Sentence: i have some difficulty here...i am just goin off and log in again..so craig can u invite me again when i am bac?thks..
+}
+	com.neuralnoise.atd.Error Object {
+ String: speeking
+ Description: Spelling
+ Precontext: Developer
+ Suggestions: []
+ Type: spelling
+ Sentence: Developer speeking: We're plan on focussing on the kiosk in RS 3.0 does that sound reasonable to you guys?
+}
+	com.neuralnoise.atd.Error Object {
+ String: yse
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: yse
+}
+	com.neuralnoise.atd.Error Object {
+ String: speeking
+ Description: Spelling
+ Precontext: of
+ Suggestions: []
+ Type: spelling
+ Sentence: I like the spelling of speeking.
+}
+	com.neuralnoise.atd.Error Object {
+ String: pda
+ Description: Spelling
+ Precontext: and
+ Suggestions: []
+ Type: spelling
+ Sentence: I think that a trip planning feature, going into the different ways it would be accessed through things such as kiosk, web based and pda might be a bit more feasible
+}
+	com.neuralnoise.atd.Error Object {
+ String: sked
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: You mean the trip planning? Or just the sked printouts?
+}
+	com.neuralnoise.atd.Error Object {
+ String: paticular
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: To view what time a bus will arrive at a paticular stop. Either today or in the future. It should have all other stops on that route listed as well to see at a glance when it may arrive... etc. Similar to Victoria's.
+}
+	com.neuralnoise.atd.Error Object {
+ String: esqimalt
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: esqimalt, sooke, etc.
+}
+	com.neuralnoise.atd.Error Object {
+ String: sooke
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: esqimalt, sooke, etc.
+}
+	com.neuralnoise.atd.Error Object {
+ String: translink
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: (the translink schedule is a bit better, you can choose which stops you want t he times of)
+}
+	com.neuralnoise.atd.Error Object {
+ String: zoomable
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: what do you guys think of the option of seeing the routes of a zoomable map, chooseing routes via area of city
+}
+	com.neuralnoise.atd.Error Object {
+ String: chooseing
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: what do you guys think of the option of seeing the routes of a zoomable map, chooseing routes via area of city
+}
+	com.neuralnoise.atd.Error Object {
+ String: ot
+ Description: Spelling
+ Precontext: able
+ Suggestions: []
+ Type: spelling
+ Sentence: or being able ot select route number
+}
+	com.neuralnoise.atd.Error Object {
+ String: eConference
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: A feature of this program that the eConference tool like to demonstrate often.
+}
+	com.neuralnoise.atd.Error Object {
+ String: ryan's
+ Description: Spelling
+ Precontext: that
+ Suggestions: []
+ Type: spelling
+ Sentence: was that ryan's comment you were replying to?
+}
+	com.neuralnoise.atd.Error Object {
+ String: hte
+ Description: Spelling
+ Precontext: of
+ Suggestions: []
+ Type: spelling
+ Sentence: that would be the point of hte trip planner
+}
+	com.neuralnoise.atd.Error Object {
+ String: placeI
+ Description: Spelling
+ Precontext: decision
+ Suggestions: []
+ Type: spelling
+ Sentence: In addition to the items in the decision place...I would also say search by bus route number.
+}
+	com.neuralnoise.atd.Error Object {
+ String: yehathe
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: yeha...the name of the bus route can tell where the dest is..
+}
+	com.neuralnoise.atd.Error Object {
+ String: dest
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: yeha...the name of the bus route can tell where the dest is..
+}
+	com.neuralnoise.atd.Error Object {
+ String: hte
+ Description: Spelling
+ Precontext: of
+ Suggestions: []
+ Type: spelling
+ Sentence: names of hte routes are easier to remember than numbers, and may mean something to someone who doesn't know the routes
+}
+	com.neuralnoise.atd.Error Object {
+ String: dest
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: downtown would be useful as it would give all busses that have a dest of downtown.
+}
+	com.neuralnoise.atd.Error Object {
+ String: mvoe
+ Description: Spelling
+ Precontext: to
+ Suggestions: []
+ Type: spelling
+ Sentence: yea, i think we're good to mvoe on
+}
+	com.neuralnoise.atd.Error Object {
+ String: currenly
+ Description: Spelling
+ Precontext: is
+ Suggestions: []
+ Type: spelling
+ Sentence: Bryan, What you suggest is currenly what is going to happen, however it is difficult to list all the busses in the city in this fashion
+}
+	com.neuralnoise.atd.Error Object {
+ String: crossign
+ Description: Spelling
+ Precontext: street
+ Suggestions: []
+ Type: spelling
+ Sentence: or draw a line with your finger and show every route that goes on a street crossign that line
+}
+	com.neuralnoise.atd.Error Object {
+ String: Checkboxes
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: Checkboxes with touchscreen might be a bit difficult
+}
+	com.neuralnoise.atd.Error Object {
+ String: guysI
+ Description: Spelling
+ Precontext: sorry
+ Suggestions: []
+ Type: spelling
+ Sentence: sorry guys.......I got dropped there
+}
+	com.neuralnoise.atd.Error Object {
+ String: popup
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: if it's a popup box, then it could be easy
+}
+	com.neuralnoise.atd.Error Object {
+ String: paticular
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: i'm not sure why it needs to be a check box... busses that have a paticular destination or starting point, or pass through a certain region or stop works for me... then it can all be search based instead of covering half the map region with a list...???
+}
+	com.neuralnoise.atd.Error Object {
+ String: ontop
+ Description: Spelling
+ Precontext: done
+ Suggestions: []
+ Type: spelling
+ Sentence: So you're suggesting that additional filtering can be done ontop of the searching mentioned.
+}
+	com.neuralnoise.atd.Error Object {
+ String: ryan's
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: ryan's thinking what I'm thinking
+}
+	com.neuralnoise.atd.Error Object {
+ String: mabye
+ Description: Spelling
+ Precontext: landmarks
+ Suggestions: []
+ Type: spelling
+ Sentence: for the landmarks mabye you could make it so the admins add them and create categories for them
+}
+	com.neuralnoise.atd.Error Object {
+ String: tyler
+ Description: Spelling
+ Precontext: with
+ Suggestions: []
+ Type: spelling
+ Sentence: agree with tyler
+}
+	com.neuralnoise.atd.Error Object {
+ String: categoreis
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: well if you let the admins choose the categoreis it would be up to them, not the developers
+}
+	com.neuralnoise.atd.Error Object {
+ String: scalled
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: Is it alright if we simply provide a scalled down mini version of the webpage?
+}
+	com.neuralnoise.atd.Error Object {
+ String: clickable
+ Description: Spelling
+ Precontext: meant
+ Suggestions: []
+ Type: spelling
+ Sentence: I think he meant clickable not touchable
+}
+	com.neuralnoise.atd.Error Object {
+ String: thingat
+ Description: Spelling
+ Precontext: changing
+ Suggestions: []
+ Type: spelling
+ Sentence: by 'own schedule', it means their actual, hard, schedule, not a dynamically changing thing...at least that's how I understand it
+}
+	com.neuralnoise.atd.Error Object {
+ String: acouple
+ Description: Spelling
+ Precontext: then
+ Suggestions: []
+ Type: spelling
+ Sentence: maybe a small lcd that has like the next stop big and then acouple more underneath
+}
+	com.neuralnoise.atd.Error Object {
+ String: atleast
+ Description: Spelling
+ Precontext: have
+ Suggestions: []
+ Type: spelling
+ Sentence: I would have atleast 3 or so, except when near end of route... then it would have arrival time at last stop, and departure time.
+}
+	com.neuralnoise.atd.Error Object {
+ String: sched
+ Description: Spelling
+ Precontext: of
+ Suggestions: []
+ Type: spelling
+ Sentence: he needs to know if is behind or ahead of sched
+}
+	com.neuralnoise.atd.Error Object {
+ String: bryan
+ Description: Spelling
+ Precontext: like
+ Suggestions: []
+ Type: spelling
+ Sentence: as for seeing stuff on screen, its like bryan just said here
+}
+	com.neuralnoise.atd.Error Object {
+ String: resonable
+ Description: Spelling
+ Precontext: pretty
+ Suggestions: []
+ Type: spelling
+ Sentence: I Think that would be pretty resonable ryan, as everything is already tied in
+}
+	com.neuralnoise.atd.Error Object {
+ String: ryan
+ Description: Spelling
+ Precontext: resonable
+ Suggestions: []
+ Type: spelling
+ Sentence: I Think that would be pretty resonable ryan, as everything is already tied in
+}
+	com.neuralnoise.atd.Error Object {
+ String: alrightmoving
+ Description: Spelling
+ Precontext: 
+ Suggestions: null
+ Type: spelling
+ Sentence: alright......moving to next topic
+}
+	com.neuralnoise.atd.Error Object {
+ String: soudns
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: soudns good
+}
+	com.neuralnoise.atd.Error Object {
+ String: alrightour
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: alright........our time is pretty limited, we have 5 minutes left
+}
+	com.neuralnoise.atd.Error Object {
+ String: stopes
+ Description: Spelling
+ Precontext: connection
+ Suggestions: []
+ Type: spelling
+ Sentence: I would say that each trip has about 10 minutes of play, so at important connection stopes (hubs, terminals) drivers will wait up to like 3 minutes for connecting buses...
+}
+	com.neuralnoise.atd.Error Object {
+ String: audiable
+ Description: Spelling
+ Precontext: an
+ Suggestions: []
+ Type: spelling
+ Sentence: I don't know if an audiable alert is necessary.
+}
+	com.neuralnoise.atd.Error Object {
+ String: instand
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: Well the instand that they are waiting 3 minutes, they are late
+}
+	com.neuralnoise.atd.Error Object {
+ String: kia
+ Description: Spelling
+ Precontext: to
+ Suggestions: []
+ Type: spelling
+ Sentence: yeah, it's supposed to kia
+}
+	com.neuralnoise.atd.Error Object {
+ String: UVic
+ Description: Spelling
+ Precontext: from
+ Suggestions: []
+ Type: spelling
+ Sentence: say you're on a bus that goes from UVic to Western Exchange and it is suppose to meet a bus that goes from West Ex to Wishart - but the UVic bus is little late, the Wishart driver could aford to wait 3min.
+}
+	com.neuralnoise.atd.Error Object {
+ String: Wishart
+ Description: Spelling
+ Precontext: to
+ Suggestions: []
+ Type: spelling
+ Sentence: say you're on a bus that goes from UVic to Western Exchange and it is suppose to meet a bus that goes from West Ex to Wishart - but the UVic bus is little late, the Wishart driver could aford to wait 3min.
+}
+	com.neuralnoise.atd.Error Object {
+ String: UVic
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: say you're on a bus that goes from UVic to Western Exchange and it is suppose to meet a bus that goes from West Ex to Wishart - but the UVic bus is little late, the Wishart driver could aford to wait 3min.
+}
+	com.neuralnoise.atd.Error Object {
+ String: Wishart
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: say you're on a bus that goes from UVic to Western Exchange and it is suppose to meet a bus that goes from West Ex to Wishart - but the UVic bus is little late, the Wishart driver could aford to wait 3min.
+}
+	com.neuralnoise.atd.Error Object {
+ String: aford
+ Description: Spelling
+ Precontext: could
+ Suggestions: []
+ Type: spelling
+ Sentence: say you're on a bus that goes from UVic to Western Exchange and it is suppose to meet a bus that goes from West Ex to Wishart - but the UVic bus is little late, the Wishart driver could aford to wait 3min.
+}
+	com.neuralnoise.atd.Error Object {
+ String: 3min
+ Description: Spelling
+ Precontext: wait
+ Suggestions: []
+ Type: spelling
+ Sentence: say you're on a bus that goes from UVic to Western Exchange and it is suppose to meet a bus that goes from West Ex to Wishart - but the UVic bus is little late, the Wishart driver could aford to wait 3min.
+}
+	com.neuralnoise.atd.Error Object {
+ String: betweent
+ Description: Spelling
+ Precontext: toggle
+ Suggestions: []
+ Type: spelling
+ Sentence: I like being able to manually toggle betweent he screens
+}
+	com.neuralnoise.atd.Error Object {
+ String: seperate
+ Description: Spelling
+ Precontext: two
+ Suggestions: []
+ Type: spelling
+ Sentence: how about showing two seperate screens
+}
+	com.neuralnoise.atd.Error Object {
+ String: usefull
+ Description: Spelling
+ Precontext: not
+ Suggestions: []
+ Type: spelling
+ Sentence: too much information for drivers, 2 screen is not usefull
+}
+	com.neuralnoise.atd.Error Object {
+ String: waht
+ Description: Spelling
+ Precontext: that's
+ Suggestions: []
+ Type: spelling
+ Sentence: alright, if that's waht you guys want
+}
+	com.neuralnoise.atd.Error Object {
+ String: infared
+ Description: Spelling
+ Precontext: have
+ Suggestions: []
+ Type: spelling
+ Sentence: My Proposal:  Busses have infared beams across entraces that simply report when beam interruopted.
+}
+	com.neuralnoise.atd.Error Object {
+ String: entraces
+ Description: Spelling
+ Precontext: across
+ Suggestions: []
+ Type: spelling
+ Sentence: My Proposal:  Busses have infared beams across entraces that simply report when beam interruopted.
+}
+	com.neuralnoise.atd.Error Object {
+ String: interruopted
+ Description: Spelling
+ Precontext: beam
+ Suggestions: []
+ Type: spelling
+ Sentence: My Proposal:  Busses have infared beams across entraces that simply report when beam interruopted.
+}
+	com.neuralnoise.atd.Error Object {
+ String: UVIC
+ Description: Spelling
+ Precontext: at
+ Suggestions: []
+ Type: spelling
+ Sentence: so when a crowd of people get off the bus at UVIC, a driver is supposed to count as they pile off?
+}
+	com.neuralnoise.atd.Error Object {
+ String: infared
+ Description: Spelling
+ Precontext: with
+ Suggestions: []
+ Type: spelling
+ Sentence: Same problem with infared
+}
+	com.neuralnoise.atd.Error Object {
+ String: cound
+ Description: Spelling
+ Precontext: and
+ Suggestions: []
+ Type: spelling
+ Sentence: we need to hire some guy to stand there and cound people
+}
+	com.neuralnoise.atd.Error Object {
+ String: infared
+ Description: Spelling
+ Precontext: Would
+ Suggestions: []
+ Type: spelling
+ Sentence: Would infared approximations be acceptable.
+}
+	com.neuralnoise.atd.Error Object {
+ String: Infared
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: Infared are near enough the door no one would lean on them.
+}
+	com.neuralnoise.atd.Error Object {
+ String: ryan
+ Description: Spelling
+ Precontext: Thanks
+ Suggestions: []
+ Type: spelling
+ Sentence: Thanks ryan!
+}
+	com.neuralnoise.atd.Error Object {
+ String: hahaah
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: hahaah
+}
+	com.neuralnoise.atd.Error Object {
+ String: heheh
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: heheh
+}
+	com.neuralnoise.atd.Error Object {
+ String: ryan
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: I'm not seeing the ryan counting in the decision pane
+}
+	com.neuralnoise.atd.Error Object {
+ String: ryan
+ Description: Spelling
+ Precontext: right
+ Suggestions: []
+ Type: spelling
+ Sentence: Try making me a scribe too and I'll refresh it for Ryan. It's just a blank screen right ryan?
+}
+	com.neuralnoise.atd.Error Object {
+ String: knw
+ Description: Spelling
+ Precontext: only
+ Suggestions: []
+ Type: spelling
+ Sentence: we can only knw how many ppl get on the bus in total in a day..but counting ppl get off is pretty hard to achieve i think..
+}
+	com.neuralnoise.atd.Error Object {
+ String: daybut
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: we can only knw how many ppl get on the bus in total in a day..but counting ppl get off is pretty hard to achieve i think..
+}
+	com.neuralnoise.atd.Error Object {
+ String: kia
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: kia is right
+}
+	com.neuralnoise.atd.Error Object {
+ String: neeeeeeeeeeext
+ Description: Spelling
+ Precontext: 
+ Suggestions: null
+ Type: spelling
+ Sentence: neeeeeeeeeeext
+}
+	com.neuralnoise.atd.Error Object {
+ String: bennifit
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: Well, they've lived as long as many people... they can have the bennifit of being many people.
+}
+	com.neuralnoise.atd.Error Object {
+ String: topc
+ Description: Spelling
+ Precontext: this
+ Suggestions: []
+ Type: spelling
+ Sentence: Why don't we send you an email regarding this topc?
+}
+	com.neuralnoise.atd.Error Object {
+ String: -no-
+ Description: Spelling
+ Precontext: define
+ Suggestions: []
+ Type: spelling
+ Sentence: define -no- english. as in literally none/
+}
+	com.neuralnoise.atd.Error Object {
+ String: enligh
+ Description: Spelling
+ Precontext: of
+ Suggestions: []
+ Type: spelling
+ Sentence: Use icons for buttons to make the knowledge of enligh a non-necessity to use kiosks.
+}
+	com.neuralnoise.atd.Error Object {
+ String: picuture
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: a picuture is worth a thousand words
+}
+	com.neuralnoise.atd.Error Object {
+ String: functionalilty
+ Description: Spelling
+ Precontext: simple
+ Suggestions: []
+ Type: spelling
+ Sentence: that would only work for some of the more  simple functionalilty though
+}
+	com.neuralnoise.atd.Error Object {
+ String: billingual
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: English and french a must in a billingual country though...
+}
+	com.neuralnoise.atd.Error Object {
+ String: quebec
+ Description: Spelling
+ Precontext: in
+ Suggestions: []
+ Type: spelling
+ Sentence: french, only in quebec
+}
+	com.neuralnoise.atd.Error Object {
+ String: conferencestarted
+ Description: Spelling
+ Precontext: 
+ Suggestions: null
+ Type: spelling
+ Sentence: conference...started?
+}
+	com.neuralnoise.atd.Error Object {
+ String: g'day
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: g'day
+}
+	com.neuralnoise.atd.Error Object {
+ String: mambers
+ Description: Spelling
+ Precontext: for
+ Suggestions: []
+ Type: spelling
+ Sentence: is dev team still waiting for mambers?
+}
+	com.neuralnoise.atd.Error Object {
+ String: matthew
+ Description: Spelling
+ Precontext: see
+ Suggestions: []
+ Type: spelling
+ Sentence: I didn't see matthew
+}
+	com.neuralnoise.atd.Error Object {
+ String: clik
+ Description: Spelling
+ Precontext: can't
+ Suggestions: []
+ Type: spelling
+ Sentence: I can't clik
+}
+	com.neuralnoise.atd.Error Object {
+ String: decisiion
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: ok we just needed to test the decisiion pane
+}
+	com.neuralnoise.atd.Error Object {
+ String: dsdsd
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: dsdsd
+}
+	com.neuralnoise.atd.Error Object {
+ String: linux
+ Description: Spelling
+ Precontext: we
+ Suggestions: []
+ Type: spelling
+ Sentence: we linux guys can't see any thing
+}
+	com.neuralnoise.atd.Error Object {
+ String: dfg
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: dfg
+}
+	com.neuralnoise.atd.Error Object {
+ String: linux
+ Description: Spelling
+ Precontext: using
+ Suggestions: []
+ Type: spelling
+ Sentence: I think that anyone using linux cannot see the messages that we are typng
+}
+	com.neuralnoise.atd.Error Object {
+ String: typng
+ Description: Spelling
+ Precontext: are
+ Suggestions: []
+ Type: spelling
+ Sentence: I think that anyone using linux cannot see the messages that we are typng
+}
+	com.neuralnoise.atd.Error Object {
+ String: relogin
+ Description: Spelling
+ Precontext: I
+ Suggestions: []
+ Type: spelling
+ Sentence: I relogin
+}
+	com.neuralnoise.atd.Error Object {
+ String: linux
+ Description: Spelling
+ Precontext: using
+ Suggestions: []
+ Type: spelling
+ Sentence: or else anyone using linux including myself gets booted
+}
+	com.neuralnoise.atd.Error Object {
+ String: viewability
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: whats the viewability of the prototype
+}
+	com.neuralnoise.atd.Error Object {
+ String: url
+ Description: Spelling
+ Precontext: web
+ Suggestions: []
+ Type: spelling
+ Sentence: Does the client have a web url so we can view the prototype our selves?
+}
+	com.neuralnoise.atd.Error Object {
+ String: RS30
+ Description: Spelling
+ Precontext: for
+ Suggestions: []
+ Type: spelling
+ Sentence: what is the focus component that you guys are going to do for RS3.0
+}
+	com.neuralnoise.atd.Error Object {
+ String: sheduling
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: we were thinking about the sheduling and booking functionality
+}
+	com.neuralnoise.atd.Error Object {
+ String: geoff
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: geoff, could you invite andrew
+}
+	com.neuralnoise.atd.Error Object {
+ String: andrew
+ Description: Spelling
+ Precontext: invite
+ Suggestions: []
+ Type: spelling
+ Sentence: geoff, could you invite andrew
+}
+	com.neuralnoise.atd.Error Object {
+ String: andrews
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: andrews
+}
+	com.neuralnoise.atd.Error Object {
+ String: andrew
+ Description: Spelling
+ Precontext: just
+ Suggestions: []
+ Type: spelling
+ Sentence: just andrew
+}
+	com.neuralnoise.atd.Error Object {
+ String: andrew
+ Description: Spelling
+ Precontext: just
+ Suggestions: []
+ Type: spelling
+ Sentence: just "andrew
+}
+	com.neuralnoise.atd.Error Object {
+ String: regalr
+ Description: Spelling
+ Precontext: but
+ Suggestions: []
+ Type: spelling
+ Sentence: but regalr users should be able to book for reoccuring events
+}
+	com.neuralnoise.atd.Error Object {
+ String: reoccuring
+ Description: Spelling
+ Precontext: for
+ Suggestions: []
+ Type: spelling
+ Sentence: but regalr users should be able to book for reoccuring events
+}
+	com.neuralnoise.atd.Error Object {
+ String: thoes
+ Description: Spelling
+ Precontext: users
+ Suggestions: []
+ Type: spelling
+ Sentence: unless you want some permission to allow certain users thoes features
+}
+	com.neuralnoise.atd.Error Object {
+ String: checkbox
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: nope, i will have to add a checkbox saying recurring
+}
+	com.neuralnoise.atd.Error Object {
+ String: andrew
+ Description: Spelling
+ Precontext: invite
+ Suggestions: []
+ Type: spelling
+ Sentence: Geoff, would you invite andrew again
+}
+	com.neuralnoise.atd.Error Object {
+ String: andrew
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: "andrew"
+}
+	com.neuralnoise.atd.Error Object {
+ String: andrews
+ Description: Spelling
+ Precontext: whats
+ Suggestions: []
+ Type: spelling
+ Sentence: whats andrews last name
+}
+	com.neuralnoise.atd.Error Object {
+ String: andrew
+ Description: Spelling
+ Precontext: is
+ Suggestions: []
+ Type: spelling
+ Sentence: is andrew in yet
+}
+	com.neuralnoise.atd.Error Object {
+ String: andrew
+ Description: Spelling
+ Precontext: is
+ Suggestions: []
+ Type: spelling
+ Sentence: is andrew even here
+}
+	com.neuralnoise.atd.Error Object {
+ String: solaris
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: he is in the solaris room
+}
+	com.neuralnoise.atd.Error Object {
+ String: econf
+ Description: Spelling
+ Precontext: the
+ Suggestions: []
+ Type: spelling
+ Sentence: but the econf can't be invited
+}
+	com.neuralnoise.atd.Error Object {
+ String: biweekly
+ Description: Spelling
+ Precontext: be
+ Suggestions: []
+ Type: spelling
+ Sentence: for the recurrence, I think most of them would be either weekly or monthly. Some may be biweekly. The users should be given those options for sure.
+}
+	com.neuralnoise.atd.Error Object {
+ String: searh
+ Description: Spelling
+ Precontext: room
+ Suggestions: []
+ Type: spelling
+ Sentence: maybe just a button for book room that leads through to the room searh page
+}
+	com.neuralnoise.atd.Error Object {
+ String: andrew
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: andrew welcome back
+}
+	com.neuralnoise.atd.Error Object {
+ String: lter
+ Description: Spelling
+ Precontext: invites
+ Suggestions: []
+ Type: spelling
+ Sentence: 10 invites lter
+}
+	com.neuralnoise.atd.Error Object {
+ String: lucas
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: lucas you are repeating yourself in triplicate now
+}
+	com.neuralnoise.atd.Error Object {
+ String: thatll
+ Description: Spelling
+ Precontext: screen
+ Suggestions: []
+ Type: spelling
+ Sentence: ok, so a screen thatll let you choose browsing or searching sounds reasonable
+}
+	com.neuralnoise.atd.Error Object {
+ String: viewablilty
+ Description: Spelling
+ Precontext: the
+ Suggestions: null
+ Type: spelling
+ Sentence: so an option to set the viewablilty of a boooking
+}
+	com.neuralnoise.atd.Error Object {
+ String: boooking
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: so an option to set the viewablilty of a boooking
+}
+	com.neuralnoise.atd.Error Object {
+ String: somthing
+ Description: Spelling
+ Precontext: want
+ Suggestions: []
+ Type: spelling
+ Sentence: I have a question about the room booking menu: what do you want on it? Do you want just browse and search? Or did you want somthing else as well where you could do somthing more direct? I didn't understand your full intention
+}
+	com.neuralnoise.atd.Error Object {
+ String: somthing
+ Description: Spelling
+ Precontext: do
+ Suggestions: []
+ Type: spelling
+ Sentence: I have a question about the room booking menu: what do you want on it? Do you want just browse and search? Or did you want somthing else as well where you could do somthing more direct? I didn't understand your full intention
+}
+	com.neuralnoise.atd.Error Object {
+ String: eveyone
+ Description: Spelling
+ Precontext: public
+ Suggestions: []
+ Type: spelling
+ Sentence: so if a room is public eveyone can see what its booked for, but if its not public then what
+}
+	com.neuralnoise.atd.Error Object {
+ String: rfp
+ Description: Spelling
+ Precontext: your
+ Suggestions: []
+ Type: spelling
+ Sentence: your rfp didn't mention a booking name or descriptiong
+}
+	com.neuralnoise.atd.Error Object {
+ String: descriptiong
+ Description: Spelling
+ Precontext: or
+ Suggestions: []
+ Type: spelling
+ Sentence: your rfp didn't mention a booking name or descriptiong
+}
+	com.neuralnoise.atd.Error Object {
+ String: usefull
+ Description: Spelling
+ Precontext: very
+ Suggestions: []
+ Type: spelling
+ Sentence: well i would think a title would be very usefull
+}
+	com.neuralnoise.atd.Error Object {
+ String: yesits
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: yes..its just the prototype
+}
+	com.neuralnoise.atd.Error Object {
+ String: symantecs
+ Description: Spelling
+ Precontext: into
+ Suggestions: []
+ Type: spelling
+ Sentence: let's not get into symantecs
+}
+	com.neuralnoise.atd.Error Object {
+ String: suiteable
+ Description: Spelling
+ Precontext: a
+ Suggestions: []
+ Type: spelling
+ Sentence: which if the purpose of the system was simply to help potential bookers find a suiteable room would be sufficient
+}
+	com.neuralnoise.atd.Error Object {
+ String: woul
+ Description: Spelling
+ Precontext: it
+ Suggestions: []
+ Type: spelling
+ Sentence: but I think it woul be a good idea to include that
+}
+	com.neuralnoise.atd.Error Object {
+ String: usesful
+ Description: Spelling
+ Precontext: very
+ Suggestions: []
+ Type: spelling
+ Sentence: but in theory you would want people to attend the concert so telling them its a concert during that time would be very usesful
+}
+	com.neuralnoise.atd.Error Object {
+ String: publicshow
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: public=show booked status with event detail; private=show booked status only? is that correct
+}
+	com.neuralnoise.atd.Error Object {
+ String: privateshow
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: public=show booked status with event detail; private=show booked status only? is that correct
+}
+	com.neuralnoise.atd.Error Object {
+ String: checkbox
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: Bookings, private or public for viewing, checkbox? Public bookings, optional title
+ 
+Private, only groups can see details, or bookers. Ie faculty can see all faculty booked items, students can only see items that they book themselves.
+}
+	com.neuralnoise.atd.Error Object {
+ String: rs3
+ Description: Spelling
+ Precontext: asking
+ Suggestions: []
+ Type: spelling
+ Sentence: why u  asking rs3?
+}
+	com.neuralnoise.atd.Error Object {
+ String: typers
+ Description: Spelling
+ Precontext: three
+ Suggestions: []
+ Type: spelling
+ Sentence: Yes, the software gives me the speed of three typers in one.
+}
+	com.neuralnoise.atd.Error Object {
+ String: negociate
+ Description: Spelling
+ Precontext: and
+ Suggestions: []
+ Type: spelling
+ Sentence: and negociate exactly what its going to be
+}
+	com.neuralnoise.atd.Error Object {
+ String: vigoriously
+ Description: Spelling
+ Precontext: i'm
+ Suggestions: []
+ Type: spelling
+ Sentence: i'm vigoriously shaking my laptop
+}
+	com.neuralnoise.atd.Error Object {
+ String: hardrive
+ Description: Spelling
+ Precontext: my
+ Suggestions: []
+ Type: spelling
+ Sentence: i hope i didn't fuck up my hardrive
+}
+	com.neuralnoise.atd.Error Object {
+ String: Okey
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: Okey doke, that sounds good.
+}
+	com.neuralnoise.atd.Error Object {
+ String: doke
+ Description: Spelling
+ Precontext: Okey
+ Suggestions: []
+ Type: spelling
+ Sentence: Okey doke, that sounds good.
+}
+	com.neuralnoise.atd.Error Object {
+ String: RS40
+ Description: Spelling
+ Precontext: not
+ Suggestions: []
+ Type: spelling
+ Sentence: there is not RS4.0
+}
+	com.neuralnoise.atd.Error Object {
+ String: okie
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: okie duckie
+}
+	com.neuralnoise.atd.Error Object {
+ String: duckie
+ Description: Spelling
+ Precontext: okie
+ Suggestions: []
+ Type: spelling
+ Sentence: okie duckie
+}
+	com.neuralnoise.atd.Error Object {
+ String: Okey
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: Okey doke.
+}
+	com.neuralnoise.atd.Error Object {
+ String: doke
+ Description: Spelling
+ Precontext: Okey
+ Suggestions: []
+ Type: spelling
+ Sentence: Okey doke.
+}
+	com.neuralnoise.atd.Error Object {
+ String: alrite
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: alrite guys..
+}
+	com.neuralnoise.atd.Error Object {
+ String: conact
+ Description: Spelling
+ Precontext: to
+ Suggestions: []
+ Type: spelling
+ Sentence: ok if you think of anything feel free to conact us
+}
+	com.neuralnoise.atd.Error Object {
+ String: quadtruplet
+ Description: Spelling
+ Precontext: in
+ Suggestions: []
+ Type: spelling
+ Sentence: Just in time, now I'm typing in quadtruplet.
+}
+	com.neuralnoise.atd.Error Object {
+ String: alirteits
+ Description: Spelling
+ Precontext: 
+ Suggestions: []
+ Type: spelling
+ Sentence: alirte...its over
+}

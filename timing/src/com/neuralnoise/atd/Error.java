@@ -37,6 +37,9 @@ public class Error {
 		ret.append(" Precontext: " + precontext + NEW_LINE);
 		ret.append(" Suggestions: " + suggestions + NEW_LINE);
 		ret.append(" Type: " + type + NEW_LINE);
+		if (sentence != null) {
+			ret.append(" Sentence: " + sentence + NEW_LINE);
+		}
 		ret.append("}");
 
 		return ret.toString();

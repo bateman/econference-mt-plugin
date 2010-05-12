@@ -1971,4 +1971,91 @@ CL5;right;Destro;4;4;4;4;
 CL5;What else should we need to promote for the system;Che più dovere necessitiamo promuovere per il sistema;4;2;3;4;
 CL5;lets shake on it;Lascia scossa in esso;4;4;4;4;
 CL5;shake shake;Scossa di scossa;4;4;2;4;{shake shake}[Repeated Word]
-CL5;shake what;Scossa che;2
+CL5;shake what;Scossa che;2;3;2;4;
+CL5;d?;*d?;1;1;1;4;
+CL5;i'm vigoriously shaking my laptop;*i Sono *vigoriously @shake il mio @laptop;4;3;4;4;{vigoriously}[Spelling]+{i'm}[Make I uppercase]
+CL5;me too;mi @Too;4;4;4;4;
+CL5;me too;mi @Too;4;4;4;4;
+CL5;Okay, so RS 3.0 will be on room booking and calendar display?;Ok, tanto *RS 3.0 sarà in la sala #que riserva e esibizione di calendario?;4;3;4;4;
+CL5;i hope i didn't fuck up my hardrive;*i Speranza *i non scopò @up il mio *hardrive;4;4;3;4;{hardrive}[Spelling]+{i}[Make I uppercase]+{i}[Make I uppercase]
+CL5;I am shaking the computer monitor now;Sto @shake il schermo di computer adesso;4;3;3;4;
+CL5;we will not do user roles;#Prpers  non  ruoli di utente;4;4;4;4;
+CL5;Sounds good to me;Suoni bene a me;4;2;2;4;
+CL5;ok;ok;1;1;1;1;
+CL5;Okey doke, that sounds good.;*Okey *doke, che suona bene.;4;1;3;4;{Okey}[Spelling]+{doke}[Spelling]
+CL5;there will be public users, and authenticated user;#Haber utenti pubblici, e *authenticated utente;4;4;3;4;
+CL5;s;*s;1;1;1;4;
+CL5;ok;ok;1;1;1;1;
+CL5;we can save user roles for RS 4.0;Possiamo salvare ruoli di utente per *RS 4.0;1;2;2;3;
+CL5;sounds good;Suoni bene;4;2;2;4;
+CL5;what about room search;Che sopra ricerca di sala;4;3;3;4;
+CL5;or do you just want to select from the building list;O  giusto vuoi @select di la lista di edilizia;4;3;3;4;
+CL5;there is not RS4.0;non #hay *RS4.0;4;4;4;4;{RS40}[Spelling]
+CL5;I assume that was a joke.;Assumo quello era una barzelletta.;3;2;2;2;
+CL5;authenticated can see all authenticated and public bookings, public users only view public bookings;*authenticated Può vedere #tutto *authenticated e pubblico *bookings, gli utenti pubblici #solo vedono pubblici *bookings;4;2;3;3;
+CL5;alright, i gotta burn;Bene, *i *gotta ustione;4;4;4;4;{i}[Make I uppercase]
+CL5;i say building list so that we can focus on bookings and display;*i Dice edificare lista in modo che possiamo centrare in *bookings e esibizione;4;3;4;4;{i}[Make I uppercase]
+CL5;room search size, resources;Misura di ricerca di la sala, risorse;4;3;2;4;{room}[Did you mean...]
+CL5;just like that;Giusto come quello;4;3;1;4;
+CL5;later;Posteriormente;2;3;1;4;
+CL5;See you.;Ti vede.;4;2;4;4;
+CL5;I'll see you three times, in fact.;Ti vedrò tre tempi, di fatto.;4;2;4;3;
+CL5;we over ?;#Prpers addirittura ?;4;4;4;3;
+CL5;I think so;Opino tanto;4;4;4;3;
+CL5;time is up;Il tempo è sopra;4;4;4;4;
+CL5;okie duckie;*okie *duckie;4;1;1;4;{okie}[Spelling]+{duckie}[Spelling]
+CL5;have we got the info required;Ha ricevevamo il *info richiese;4;3;4;3;
+CL5;?;?;1;1;1;1;
+CL5;does the client team have any other questions before we go;Fa la squadra di cliente ha #qualunque altre questioni prima che andiamo;4;2;3;3;{does the client}[Hidden Verbs]
+CL5;or are we planning to have another meeting?;O è #prpers pianificando avere un'altra riunione?;4;2;3;4;
+CL5;well i think everything has been discussed;Bene *i opinare tutto ha stato parlato;4;2;3;3;{i}[Make I uppercase]+{has been discussed}[Passive voice]
+CL5;I have no more q's;Ho non @more *q è;4;4;4;4;
+CL5;unless you have other questions;A meno che hai altre questioni;3;2;3;2;
+CL5;ok;ok;1;1;1;1;
+CL5;i think so as well;*i Opina tanto anche;4;4;4;3;{i}[Make I uppercase]
+CL5;no more;Non @more;4;4;4;4;
+CL5;Okey doke.;*Okey *doke.;1;1;1;4;{Okey}[Spelling]+{doke}[Spelling]
+CL5;alrite guys..;*alrite Tipi..;2;4;1;4;{alrite}[Spelling]
+CL5;damn;*damn;4;4;4;4;
+CL5;you become 4 time speed;Diventi 4 velocità di tempo;4;4;3;4;
+CL5;ok if you think of anything feel free to conact us;ok Se opini di #qualsiasi cosa sente gratuita a *conact #prpers;4;3;4;4;{conact}[Spelling]
+CL5;Just in time, now I'm typing in quadtruplet.;Giusto in tempo, adesso sto scrivendo in *quadtruplet.;1;2;1;4;{quadtruplet}[Spelling]
+CL5;you are good;Sei bene;4;4;3;4;
+CL5;nice;Buono;2;2;1;1;
+CL5;I think I figured out what did it the first time.;Opino #que rappresentai fuori #quanto  lui la prima volta.;4;4;4;3;
+CL5;4-tuple now;4#-*tuple adesso;1;1;1;4;
+CL5;US 2-0 Mexico today.... I go drink beer for that;@US 2#-0 Messico oggi.... Vado birra di bevanda per quello;4;3;3;3;
+CL5;bye;arrivederci;1;1;1;1;{bye}[Did you mean...]
+CL5;try for 6x;Tenta per 6*x;1;1;1;2;
+CL5;how about 1000;@How sopra 1000;4;4;4;4;
+CL5;crash the server;Scontro il @server;4;4;4;4;
+CL5;If you go to Chat > Join a room and join the room you're already in, it just sends your message again.;Se vai per Chiacchierare > Unire una sala e unire la sala sei già @in, giusto invia il tuo messaggio di nuovo.;4;3;4;4;
+CL5;hmm, lets se if i can do it;*hmm, lascia *se se *i lo può fare;4;2;4;4;{i}[Make I uppercase]
+CL5;so, are we done?;Tanto, è #prpers fatto?;4;4;4;4;
+CL5;done;Fatto;1;1;1;1;
+CL5;i am;*i Sono;4;1;2;4;{i}[Make I uppercase]
+CL5;any Questions;#Qualunque Questioni;4;2;4;3;
+CL5;if no one has anything else to say i think we are done;Se nessuno ha #qualsiasi cosa più per dire *i opinare siamo #fare;4;3;4;4;{i}[Make I uppercase]+{are done}[Passive voice]
+CL5;??;??;1;1;1;1;
+CL5;okay;ok;1;1;1;1;
+CL5;ok;ok;1;1;1;1;
+CL5;bye guys;arrivederci Tipi;2;2;1;4;{bye}[Did you mean...]
+CL5;alirte...its over;*alirte...Il suo addirittura;4;4;4;4;{alirteits}[Spelling]
+CL5;bye guys;arrivederci Tipi;2;2;1;4;{bye}[Did you mean...]
+CL5;you have our contact information so feel free to contact us with any questions;Hai il nostro informazione di contatto @so sente gratuito di metterci con #qualunque questioni;4;2;4;4;
+CL5;it was fun;Era divertito;4;2;4;4;
+CL5;bye;arrivederci;1;1;1;1;{bye}[Did you mean...]
+CL5;exit;@Exit;4;4;4;4;
+CL5;bye;arrivederci;1;1;1;1;{bye}[Did you mean...]
+CL5;logout;*logout;1;4;1;4;
+CL5;bye;arrivederci;1;1;1;1;{bye}[Did you mean...]
+CL5;bye;arrivederci;1;1;1;1;{bye}[Did you mean...]
+CL5;See you.;Ti vede.;4;4;4;4;
+CL5;gotta go;*gotta Va;4;4;4;4;
+CL5;see u all;Vede *u tutto;4;4;4;4;
+CL5;nice 6x;Buono 6*x;2;2;1;3;
+CL5;I win.;Vinco.;1;2;1;1;
+CL5;there is no logout command;#hay non *logout ordine;4;3;4;4;
+CL5;7 good work;7 lavoro buono;2;2;1;4;
+CL5;yes there is you have to type your password;Sì #hay tu deve scrivere la tua password;4;2;2;3;{there is}[Complex Expression]
+CL5;and that will log you out;E che  *log ti fuori;4;3;3;4;
