@@ -11,7 +11,9 @@ public class Error {
 	public String url = null;
 	
 	public String sentence = null;
-
+	public String translation = null;
+	public String engine = null;
+	
 	public Error(String s, String d, String p, List<String> ss, String t,
 			String u) {
 		string = s;
@@ -37,9 +39,20 @@ public class Error {
 		ret.append(" Precontext: " + precontext + NEW_LINE);
 		ret.append(" Suggestions: " + suggestions + NEW_LINE);
 		ret.append(" Type: " + type + NEW_LINE);
+		
 		if (sentence != null) {
 			ret.append(" Sentence: " + sentence + NEW_LINE);
 		}
+		
+		if (translation != null) {
+			ret.append(" Translation: " + translation + NEW_LINE);
+		}
+		
+		if (engine != null) {
+			ret.append(" Engine: " + engine + NEW_LINE);
+		}
+		
+		
 		ret.append("}");
 
 		return ret.toString();

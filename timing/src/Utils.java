@@ -253,7 +253,7 @@ public class Utils {
 	
 	public static String ERROR_OF_INTEREST = "Spelling";
 	
-	public static void writeResultsToCSV(List<Result> rs, CsvWriter w) throws IOException {
+	public static void writeResultsToCSV(List<Result> rs, CsvWriter w, String engine) throws IOException {
 		Map<String, Integer> stats = new HashMap<String, Integer>();
 		
 		List<com.neuralnoise.atd.Error> iErrors = new LinkedList<com.neuralnoise.atd.Error>();
@@ -269,6 +269,9 @@ public class Utils {
 						iErrors.add(e);
 						
 						e.sentence = r.utterance.getUtterance();
+						e.translation = r.translatedUtterance.getUtterance();
+						
+						e.engine = engine;
 					}
 				}
 				
@@ -306,8 +309,8 @@ public class Utils {
         PrintWriter pwg = new PrintWriter(new FileWriter("./comparison/GT.csv"));        
         CsvWriter wg = new CsvWriter(pwg, ';');
         
-        writeResultsToCSV(ra, wa);
-        writeResultsToCSV(rg, wg);
+        writeResultsToCSV(ra, wa, "apertium");
+        writeResultsToCSV(rg, wg, "google");
         
         wa.close();
         wg.close();

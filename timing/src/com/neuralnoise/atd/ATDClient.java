@@ -10,14 +10,9 @@ import javax.xml.transform.*;
 import javax.xml.transform.dom.*;
 import javax.xml.transform.stream.*;
 
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.parsers.*;
 
-import org.w3c.dom.Document;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.xml.sax.SAXException;
+import org.w3c.dom.*;
 
 public class ATDClient {
 	
@@ -26,6 +21,8 @@ public class ATDClient {
 	public static String baseQuery = "/checkDocument?data=%s";
 
 	public static boolean ignoreTypes = false;
+	public static boolean verbose = false;
+	
 	public static final String[] typesToIgnore = { "Bias Language", "Cliches", "Complex Expression", "Diacritical Marks", "Double Negatives", "Hidden Verbs", "Jargon Language", "Passive voice", "Phrases to Avoid", "Redundant Expression" };
 	
 	public static void serialize(Document doc, OutputStream out) throws Exception {
@@ -55,7 +52,9 @@ public class ATDClient {
 
 		doc.getDocumentElement().normalize();
 	
-		serialize(doc, System.out);
+		if (verbose) {
+			serialize(doc, System.out);
+		}
 		
 		NodeList errorNodes = doc.getElementsByTagName("error");
 		
