@@ -6,9 +6,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		Rengine re = R.init(args);
-		
 		try {
-			
 			
 			
 		} catch (Exception e) {

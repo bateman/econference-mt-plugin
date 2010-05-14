@@ -44,15 +44,13 @@ class Stat implements RMainLoopCallbacks {
 		return ret;
 	}
 
-	public static Double ttest(Rengine re, List<Double> a, List<Double> b,
-			String type) {
+	private static Double ttest(Rengine re, List<Double> a, List<Double> b,	String type) {
 		Double ret = new Double(-1);
 
 		REXP x = re.eval("t.test(c(" + doublesToString(a) + "), c("
 				+ doublesToString(b) + "), paired=TRUE, alternative=\"" + type
 				+ "\")");
-		// System.out.println(x);
-
+		
 		RVector v = x.asVector();
 		REXP pexp = (REXP) v.get(2);
 
