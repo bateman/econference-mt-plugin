@@ -7,6 +7,14 @@ import com.neuralnoise.timing.*;
 
 public class Main {
 
+	public static Double avg(List<Double> scores) {
+		Double ret = 0.0;
+		for (Double score : scores) {
+			ret += score;
+		}
+		return ret / (new Double(scores.size()));
+	}
+	
 	public static void analyseResults(Rengine re, List<Result> results, String engine) {
 		List<Result> resultsErrs = new LinkedList<Result>();
 		List<Result> resultsNoErrs = new LinkedList<Result>();
@@ -26,8 +34,8 @@ public class Main {
 			}
 		}
 		
-		System.out.println(engine + ": scoresErrs contains " + scoresErrs.size() + " elements");
-		System.out.println(engine + ": scoresNoErrs contains " + scoresNoErrs.size() + " elements");
+		System.out.println(engine + ": scoresErrs contains " + scoresErrs.size() + " elements, avg: " + avg(scoresErrs));
+		System.out.println(engine + ": scoresNoErrs contains " + scoresNoErrs.size() + " elements, avg: " + avg(scoresNoErrs));
 		
 		Double ret = Stat.unpairedTTestLess(re, scoresErrs, scoresNoErrs);
 		System.out.println("p-value: " + ret);
