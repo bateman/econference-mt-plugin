@@ -22,9 +22,12 @@ class Stat implements RMainLoopCallbacks {
 	private static Double tTest(Rengine re, List<Double> a, List<Double> b, String type, boolean paired) {
 		Double ret = new Double(-1);
 
-		REXP x = re.eval("t.test(c(" + doublesToString(a) + "), c("
-				+ doublesToString(b) + "), paired=" + (paired ? "TRUE" : "FALSE") + ", alternative=\"" + type
-				+ "\")");
+		String toEval = "t.test(c(" + doublesToString(a) + "), c(" + doublesToString(b) + "), " +
+		"paired=" + (paired ? "TRUE" : "FALSE") + ", alternative=\"" + type + "\")";
+		
+		System.out.println("String to eval: " + toEval);
+		
+		REXP x = re.eval(toEval);
 		
 		RVector v = x.asVector();
 		REXP pexp = (REXP) v.get(2);

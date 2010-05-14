@@ -17,7 +17,7 @@ public class Main {
 		for (Result result : results) {
 			Double score = new Double(result.rater1 + result.rater2 + result.rater3 + result.rater4);
 			
-			if (result.errors == null) {
+			if (result.errors.size() == 0) {
 				resultsErrs.add(result);	
 				scoresErrs.add(score);
 			} else {
