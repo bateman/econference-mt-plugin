@@ -1,3 +1,4 @@
+package com.neuralnoise.timing;
 public class Utterance implements Comparable<Object> {
 	
 	public enum Role { 

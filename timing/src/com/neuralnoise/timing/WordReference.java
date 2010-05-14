@@ -1,3 +1,4 @@
+package com.neuralnoise.timing;
 import java.net.*;
 
 public class WordReference {

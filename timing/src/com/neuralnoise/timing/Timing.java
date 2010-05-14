@@ -1,3 +1,4 @@
+package com.neuralnoise.timing;
 class Timing extends Thread {
 	
 	private Object connector = null;

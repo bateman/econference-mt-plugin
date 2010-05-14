@@ -1,3 +1,4 @@
+package com.neuralnoise.timing;
 import java.util.Comparator;
 
 class StringLengthComparator implements Comparator<String> {

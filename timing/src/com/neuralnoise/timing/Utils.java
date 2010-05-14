@@ -1,3 +1,4 @@
+package com.neuralnoise.timing;
 import java.io.*;
 import java.util.Collections;
 import java.util.HashMap;

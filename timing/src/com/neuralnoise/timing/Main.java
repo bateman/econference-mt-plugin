@@ -1,3 +1,4 @@
+package com.neuralnoise.timing;
 import gnu.getopt.Getopt;
 
 import java.net.URL;

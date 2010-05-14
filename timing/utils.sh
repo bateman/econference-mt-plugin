@@ -1,3 +1,3 @@
 #!/bin/bash
 
-java -cp lib/*:bin Utils $@ > utils.out 2>&1
+java -cp lib/*:bin com.neuralnoise.timing.Utils $@ > utils.out 2>&1
