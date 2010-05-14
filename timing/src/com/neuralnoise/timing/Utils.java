@@ -199,8 +199,8 @@ public class Utils {
 		HashMap<Integer, Integer> entries = new HashMap<Integer, Integer>();
 		
 		for (Integer i = 1; i <= 5; ++i) {
-			List<Utterance> u = readUtterances("./testset/testset_log_" + i + ".xml");
-			List<Utterance> ut = readUtterances("./testset/testset_log_" + i + ".trans." + engine + ".it.xml");
+			List<Utterance> u = readUtterances("/home/pasquale/timing/timing/testset/testset_log_" + i + ".xml");
+			List<Utterance> ut = readUtterances("/home/pasquale/timing/timing/testset/testset_log_" + i + ".trans." + engine + ".it.xml");
 		
 			System.out.println("coll id: " + i + " u: " + u.size() + " ut: " + ut.size());
 			
