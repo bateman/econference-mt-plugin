@@ -20,11 +20,11 @@ class Stat implements RMainLoopCallbacks {
 		return ret;
 	}
 
-	private static Double pairedTTest(Rengine re, List<Double> a, List<Double> b, String type) {
+	private static Double tTest(Rengine re, List<Double> a, List<Double> b, String type, boolean paired) {
 		Double ret = new Double(-1);
 
 		REXP x = re.eval("t.test(c(" + doublesToString(a) + "), c("
-				+ doublesToString(b) + "), paired=TRUE, alternative=\"" + type
+				+ doublesToString(b) + "), paired=" + (paired ? "TRUE" : "FALSE") + ", alternative=\"" + type
 				+ "\")");
 		
 		RVector v = x.asVector();
@@ -36,15 +36,23 @@ class Stat implements RMainLoopCallbacks {
 	}
 
 	public static Double pairedTTestLess(Rengine re, List<Double> a, List<Double> b) {
-		return pairedTTest(re, a, b, "less");
+		return tTest(re, a, b, "less", true);
 	}
 
 	public static Double pairedTTestGreater(Rengine re, List<Double> a, List<Double> b) {
-		return pairedTTest(re, a, b, "greater");
+		return tTest(re, a, b, "greater", true);
 	}
 
+	public static Double unpairedTTestLess(Rengine re, List<Double> a, List<Double> b) {
+		return tTest(re, a, b, "less", false);
+	}
+
+	public static Double unpairedTTestGreater(Rengine re, List<Double> a, List<Double> b) {
+		return tTest(re, a, b, "greater", false);
+	}
+	
 	public void rWriteConsole(Rengine re, String text, int oType) {
-		// System.out.print(text);
+		System.out.print(text);
 	}
 
 	public void rBusy(Rengine re, int which) {
@@ -63,12 +71,9 @@ class Stat implements RMainLoopCallbacks {
 		return null;
 	}
 
-	public void rFlushConsole(Rengine re) {
-	}
+	public void rFlushConsole(Rengine re) { }
 
-	public void rLoadHistory(Rengine re, String filename) {
-	}
+	public void rLoadHistory(Rengine re, String filename) { }
 
-	public void rSaveHistory(Rengine re, String filename) {
-	}
+	public void rSaveHistory(Rengine re, String filename) { }
 }

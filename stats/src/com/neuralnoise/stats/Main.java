@@ -8,23 +8,31 @@ import com.neuralnoise.timing.*;
 public class Main {
 
 	public static void analyseResults(List<Result> results) {
-		List<Result> resultsContainingErrors = new LinkedList<Result>();
-		List<Result> resultsWithoutErrors = new LinkedList<Result>();
+		List<Result> resultsErrs = new LinkedList<Result>();
+		List<Result> resultsNoErrs = new LinkedList<Result>();
+		
+		List<Double> scoresErrs = new LinkedList<Double>();
+		List<Double> scoresNoErrs = new LinkedList<Double>();
 		
 		for (Result r : results) {
+			Double score = new Double(r.rater1 + r.rater2 + r.rater3 + r.rater4);
+			
 			if (r.errors == null) {
-				resultsWithoutErrors.add(r);	
+				resultsErrs.add(r);	
+				scoresErrs.add(score);
 			} else {
-				resultsContainingErrors.add(r);
+				resultsNoErrs.add(r);
+				scoresNoErrs.add(score);
 			}
 		}
+	
 	}
 	
 	public static void core(Rengine re) throws Exception {
 		ATDClient.ignoreTypes = true;
 		
-		List<Result> ra = Utils.readResultsCSV("./results/AP.csv", "apertium");
-		List<Result> rg = Utils.readResultsCSV("./results/GT.csv", "google");
+		List<Result> ra = Utils.readResultsCSV("../timing/results/AP.csv", "apertium");
+		List<Result> rg = Utils.readResultsCSV("../timing/results/GT.csv", "google");
 		
 		analyseResults(ra);
 		analyseResults(rg);

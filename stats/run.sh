@@ -12,4 +12,4 @@ export R_INCLUDE_DIR
 R_DOC_DIR=/usr/share/R/doc
 export R_DOC_DIR
 
-java -Xmx1024m -Djava.library.path=$R_HOME/site-library/rJava/jri -cp $R_HOME/site-library/rJava/jri/JRI.jar:bin:../timing/bin com.neuralnoise.stats.Main $@
+java -Xmx1024m -Djava.library.path=$R_HOME/site-library/rJava/jri -cp $R_HOME/site-library/rJava/jri/JRI.jar:bin:../timing/bin:../timing/lib/* com.neuralnoise.stats.Main $@
