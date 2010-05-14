@@ -12,7 +12,7 @@ public class Result {
 	public Integer rater3 = 0;
 	public Integer rater4 = 0;
 	
-	public List<com.neuralnoise.atd.Error> errors = null;
+	public List<com.neuralnoise.atd.ATDError> errors = null;
 	
 	public Result(Integer c, Utterance u, Utterance tu, Integer r1, Integer r2, Integer r3, Integer r4) {
 		collId = c;
@@ -25,13 +25,13 @@ public class Result {
 		rater3 = r3;
 		rater4 = r4;
 		
-		errors = new LinkedList<com.neuralnoise.atd.Error>();
+		errors = new LinkedList<com.neuralnoise.atd.ATDError>();
 	}
 	
 	public String getErrors() {
 		StringBuilder ret = new StringBuilder();
 		boolean first = true;
-		for (com.neuralnoise.atd.Error e : errors) {
+		for (com.neuralnoise.atd.ATDError e : errors) {
 			if (!first) {
 				ret.append("+");
 			}

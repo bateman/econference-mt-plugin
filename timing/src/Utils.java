@@ -26,7 +26,7 @@ import org.xml.sax.SAXException;
 import com.csvreader.CsvReader;
 import com.csvreader.CsvWriter;
 import com.neuralnoise.atd.ATDClient;
-import com.neuralnoise.atd.Error;
+import com.neuralnoise.atd.ATDError;
 
 public class Utils {
 
@@ -236,8 +236,8 @@ public class Utils {
     			
     			Result r = new Result(collId, u, tu, r1, r2, r3, r4);
     			
-    			List<com.neuralnoise.atd.Error> errors = ATDClient.getErrors(u.getUtterance());
-    			for (Error e : errors) {
+    			List<com.neuralnoise.atd.ATDError> errors = ATDClient.getErrors(u.getUtterance());
+    			for (ATDError e : errors) {
     				r.errors.add(e);
     			}
     			
@@ -256,13 +256,13 @@ public class Utils {
 	public static void writeResultsToCSV(List<Result> rs, CsvWriter w, String engine) throws IOException {
 		Map<String, Integer> stats = new HashMap<String, Integer>();
 		
-		List<com.neuralnoise.atd.Error> iErrors = new LinkedList<com.neuralnoise.atd.Error>();
+		List<com.neuralnoise.atd.ATDError> iErrors = new LinkedList<com.neuralnoise.atd.ATDError>();
 		
 		for (Result r : rs) {
 			w.writeRecord(new String[] { "CL" + r.collId, r.utterance.getUtterance(), r.translatedUtterance.getUtterance(),
 					r.rater1.toString(), r.rater2.toString(), r.rater3.toString(), r.rater4.toString(), r.getErrors() });
 			
-			for (com.neuralnoise.atd.Error e : r.errors) {
+			for (com.neuralnoise.atd.ATDError e : r.errors) {
 				
 				if (ERROR_OF_INTEREST != null) {
 					if (e.description.equals(ERROR_OF_INTEREST)) {
@@ -291,7 +291,7 @@ public class Utils {
 		if (ERROR_OF_INTEREST != null) {
 			System.out.println("Error of interest: " + ERROR_OF_INTEREST);
 			System.out.println("Instances:");
-			for (com.neuralnoise.atd.Error e : iErrors) {
+			for (com.neuralnoise.atd.ATDError e : iErrors) {
 				System.out.println("\t" + e.toString());
 			}
 		}

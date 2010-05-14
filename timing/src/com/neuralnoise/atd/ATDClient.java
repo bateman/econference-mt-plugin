@@ -39,7 +39,7 @@ public class ATDClient {
 		}
 	}
 	
-	public static List<Error> getErrors(String text) throws Exception {
+	public static List<ATDError> getErrors(String text) throws Exception {
 		URL url = new URL(baseUrl + String.format(baseQuery, URLEncoder.encode(text, "UTF-8")));
 		URLConnection conn = url.openConnection();
 
@@ -58,10 +58,10 @@ public class ATDClient {
 		
 		NodeList errorNodes = doc.getElementsByTagName("error");
 		
-		List<Error> errors = new LinkedList<Error>();
+		List<ATDError> errors = new LinkedList<ATDError>();
 		
 		for (int i = 0; i < errorNodes.getLength(); ++i) {
-			Error error = new Error();
+			ATDError error = new ATDError();
 			
 			Node errorNode = errorNodes.item(i);
 			NodeList childNodes = errorNode.getChildNodes();
@@ -104,9 +104,9 @@ public class ATDClient {
 	public static void main(String[] args) throws Exception {
 		String text = "i am a troll and i dont like it";
 		
-		List<Error> errors = getErrors(text);
+		List<ATDError> errors = getErrors(text);
 		
-		for (Error e : errors) {
+		for (ATDError e : errors) {
 			System.out.println(e.toString());
 		}
 	}

@@ -2,7 +2,7 @@ package com.neuralnoise.atd;
 
 import java.util.*;
 
-public class Error {
+public class ATDError {
 	public String string = null;
 	public String description = null;
 	public String precontext = null;
@@ -14,7 +14,7 @@ public class Error {
 	public String translation = null;
 	public String engine = null;
 	
-	public Error(String s, String d, String p, List<String> ss, String t,
+	public ATDError(String s, String d, String p, List<String> ss, String t,
 			String u) {
 		string = s;
 		description = d;
@@ -24,7 +24,7 @@ public class Error {
 		url = u;
 	}
 
-	public Error() {
+	public ATDError() {
 
 	}
 
