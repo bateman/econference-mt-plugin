@@ -7,17 +7,16 @@ import org.rosuda.JRI.*;
 class Stat implements RMainLoopCallbacks {
 
 	public static String doublesToString(List<Double> a) {
-		String ret = "";
+		StringBuffer ret = new StringBuffer();
 		boolean first = true;
 		for (Double d : a) {
 			if (!first) {
-				ret += ", ";
+				ret.append(", ");
 			}
-			ret += d;
+			ret.append(d);
 			first = false;
 		}
-
-		return ret;
+		return ret.toString();
 	}
 
 	private static Double tTest(Rengine re, List<Double> a, List<Double> b, String type, boolean paired) {
