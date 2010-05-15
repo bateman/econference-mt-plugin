@@ -6,6 +6,8 @@ import org.rosuda.JRI.*;
 
 class Stat implements RMainLoopCallbacks {
 
+	public static boolean VERBOSE = false;
+	
 	public static String doublesToString(List<Double> a) {
 		StringBuffer ret = new StringBuffer();
 		boolean first = true;
@@ -25,7 +27,9 @@ class Stat implements RMainLoopCallbacks {
 		String toEval = "t.test(c(" + doublesToString(a) + "), c(" + doublesToString(b) + "), " +
 		"paired=" + (paired ? "TRUE" : "FALSE") + ", alternative=\"" + type + "\")";
 		
-		System.out.println("String to eval: " + toEval);
+		if (VERBOSE) {
+			System.out.println("String to eval: " + toEval);
+		}
 		
 		REXP x = re.eval(toEval);
 		

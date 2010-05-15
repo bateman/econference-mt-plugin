@@ -1,5 +1,6 @@
 package com.neuralnoise.stats;
 
+import java.text.DecimalFormat;
 import java.util.*;
 import org.rosuda.JRI.Rengine;
 import com.neuralnoise.atd.*;
@@ -14,7 +15,13 @@ public class Main {
 		}
 		return ret / (new Double(scores.size()));
 	}
-	
+
+	public static String showDouble(Double val) {
+		DecimalFormat formatter = new DecimalFormat("#.#######");
+		String ret = formatter.format(val).replaceAll(",", ".");
+		return ret;
+	}
+
 	public static void analyseResults(Rengine re, List<Result> results, String engine) {
 		List<Result> resultsErrs = new LinkedList<Result>();
 		List<Result> resultsNoErrs = new LinkedList<Result>();
@@ -37,13 +44,12 @@ public class Main {
 		System.out.println(engine + ": scoresErrs contains " + scoresErrs.size() + " elements, avg: " + avg(scoresErrs));
 		System.out.println(engine + ": scoresNoErrs contains " + scoresNoErrs.size() + " elements, avg: " + avg(scoresNoErrs));
 		
-		Double ret = Stat.unpairedTTestLess(re, scoresErrs, scoresNoErrs);
-		System.out.println("p-value: " + ret);
+		Double less = Stat.unpairedTTestLess(re, scoresErrs, scoresNoErrs);
+		Double greater = Stat.unpairedTTestGreater(re, scoresErrs, scoresNoErrs);
+		System.out.println("p-values: less " + showDouble(less) + ", greater " + showDouble(greater));
 	}
 	
-	public static void core(Rengine re) throws Exception {
-		ATDClient.ignoreTypes = true;
-		
+	public static void core(Rengine re) throws Exception {		
 		List<Result> ra = Utils.readResultsCSV("../timing/results/AP.csv", "apertium");
 		List<Result> rg = Utils.readResultsCSV("../timing/results/GT.csv", "google");
 		
@@ -54,7 +60,15 @@ public class Main {
 	public static void main(String[] args) {
 		Rengine re = R.init(args);
 		try {
+			
+			ATDClient.ignoreTypes = false;
 			core(re);
+			
+			System.out.println("------------------------------------");
+			
+			ATDClient.ignoreTypes = true;
+			core(re);
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
