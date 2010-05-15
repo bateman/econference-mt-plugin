@@ -202,7 +202,7 @@ public class Utils {
 			List<Utterance> u = readUtterances("/home/pasquale/timing/timing/testset/testset_log_" + i + ".xml");
 			List<Utterance> ut = readUtterances("/home/pasquale/timing/timing/testset/testset_log_" + i + ".trans." + engine + ".it.xml");
 		
-			System.out.println("coll id: " + i + " u: " + u.size() + " ut: " + ut.size());
+			//System.out.println("coll id: " + i + " u: " + u.size() + " ut: " + ut.size());
 			
 			collections.put(i, u);
 			collections_trad.put(i, ut);
@@ -226,9 +226,9 @@ public class Utils {
         		Integer r3 = Integer.parseInt((csvReader.get(3).equals("") ? "0" : csvReader.get(3)));
         		Integer r4 = Integer.parseInt((csvReader.get(4).equals("") ? "0" : csvReader.get(4)));
 
-        		if (r1 == 0 || r2 == 0 || r3 == 0 || r4 == 0) {
-        			System.out.println("MISSING VALUE IN CL" + collId + ": entry num. " + entries.get(collId));
-        		}
+        		//if (r1 == 0 || r2 == 0 || r3 == 0 || r4 == 0) {
+        		//	System.out.println("MISSING VALUE IN CL" + collId + ": entry num. " + entries.get(collId));
+        		//}
         		
     			Utterance u = collections.get(collId).get(entries.get(collId));
     			Utterance tu = collections_trad.get(collId).get(entries.get(collId));
