@@ -7,8 +7,7 @@ public class R {
 		Rengine re = new Rengine(args, false, new Stat());
 
 		if (!Rengine.versionCheck()) {
-			System.err
-					.println("Version mismatch: Java files don't match library version.");
+			System.err.println("Version mismatch: Java files don't match library version.");
 			System.exit(-1);
 		}
 
