@@ -33,7 +33,7 @@ class Stat implements RMainLoopCallbacks {
 
 			System.out.println(pl + " " + pg);
 			
-			ArrayList<List<Double>> plots = new ArrayList<List<Double>>();
+			List<List<Double>> plots = new LinkedList<List<Double>>();
 			plots.add(la);
 			
 			boxplot(re, plots, "x.png");
@@ -57,16 +57,22 @@ class Stat implements RMainLoopCallbacks {
 		return ret.toString();
 	}
 
-	private static void boxplot(Rengine re, ArrayList<List<Double>> vals, String pngname) {
-		re.eval("png(file=\"" + pngname + "\", bg=\"transparent\")");
+	public static void histogram(Rengine re, List<Double> v, String pngname) {
+		re.eval("png(file=\"" + pngname + "\")");
+		String toEval = "hist(sort(c(" + doublesToString(v) + ")))";
+		re.eval(toEval);
+		re.eval("dev.off()");
+	}
+	
+	public static void boxplot(Rengine re, List<List<Double>> vals, String pngname) {
+		re.eval("png(file=\"" + pngname + "\")");
 		String toEval = "boxplot(";
 		boolean first = true;
 		for (List<Double> v : vals) {
-			toEval += (first ? "" : ", ") + "c(" + doublesToString(v) + ")";
+			toEval += (first ? "" : ", ") + "sort(c(" + doublesToString(v) + "))";
 			first = false;
 		}
 		toEval += ")";
-		System.out.println(toEval);
 		re.eval(toEval);
 		re.eval("dev.off()");
 	}

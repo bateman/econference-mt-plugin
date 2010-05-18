@@ -2,6 +2,7 @@ package com.neuralnoise.stats;
 
 import java.text.DecimalFormat;
 import java.util.*;
+
 import org.rosuda.JRI.Rengine;
 import com.neuralnoise.atd.*;
 import com.neuralnoise.timing.*;
@@ -17,7 +18,7 @@ public class Main {
 	}
 
 	public static String showDouble(Double val) {
-		DecimalFormat formatter = new DecimalFormat("#.#######");
+		DecimalFormat formatter = new DecimalFormat("#.########");
 		String ret = formatter.format(val).replaceAll(",", ".");
 		return ret;
 	}
@@ -41,11 +42,21 @@ public class Main {
 			}
 		}
 		
+		List<List<Double>> plots = new LinkedList<List<Double>>();
+		plots.add(scoresErrs);
+		plots.add(scoresNoErrs);
+		
+		Stat.boxplot(re, plots, "results/" + engine + "_bw.png");
+		
+		//Stat.histogram(re, scoresErrs, "results/" + engine + "_errs.png");
+		//Stat.histogram(re, scoresNoErrs, "results/" + engine + "_noerrs.png");
+		
 		System.out.println(engine + ": scoresErrs contains " + scoresErrs.size() + " elements, avg: " + avg(scoresErrs));
 		System.out.println(engine + ": scoresNoErrs contains " + scoresNoErrs.size() + " elements, avg: " + avg(scoresNoErrs));
 		
 		Double less = Stat.unpairedTTestLess(re, scoresErrs, scoresNoErrs);
 		Double greater = Stat.unpairedTTestGreater(re, scoresErrs, scoresNoErrs);
+		
 		System.out.println("p-values: less " + showDouble(less) + ", greater " + showDouble(greater));
 	}
 	
@@ -62,11 +73,6 @@ public class Main {
 		try {
 			
 			ATDClient.ignoreTypes = false;
-			core(re);
-			
-			System.out.println("------------------------------------");
-			
-			ATDClient.ignoreTypes = true;
 			core(re);
 			
 		} catch (Exception e) {
