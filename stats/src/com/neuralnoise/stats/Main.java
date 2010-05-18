@@ -9,9 +9,9 @@ import com.neuralnoise.timing.*;
 
 public class Main {
 
-	public static Double avg(List<Double> scores) {
+	public static Double avg(List<Integer> scores) {
 		Double ret = 0.0;
-		for (Double score : scores) {
+		for (Integer score : scores) {
 			ret += score;
 		}
 		return ret / (new Double(scores.size()));
@@ -27,11 +27,11 @@ public class Main {
 		List<Result> resultsErrs = new LinkedList<Result>();
 		List<Result> resultsNoErrs = new LinkedList<Result>();
 		
-		List<Double> scoresErrs = new LinkedList<Double>();
-		List<Double> scoresNoErrs = new LinkedList<Double>();
+		List<Integer> scoresErrs = new LinkedList<Integer>();
+		List<Integer> scoresNoErrs = new LinkedList<Integer>();
 		
 		for (Result result : results) {
-			Double score = new Double(result.rater1 + result.rater2 + result.rater3 + result.rater4);
+			Integer score = new Integer(result.rater1 + result.rater2 + result.rater3 + result.rater4);
 			
 			if (result.errors.size() == 0) {
 				resultsErrs.add(result);	
@@ -42,11 +42,12 @@ public class Main {
 			}
 		}
 		
-		List<List<Double>> plots = new LinkedList<List<Double>>();
+		List<List<Integer>> plots = new LinkedList<List<Integer>>();
 		plots.add(scoresErrs);
 		plots.add(scoresNoErrs);
 		
-		Stat.boxplot(re, plots, "results/" + engine + "_bw.png");
+		Stat.boxplot(re, plots, "results/" + engine + "_boxplot.png");
+		//Stat.scatter(re, plots, "results/" + engine + "_scatter.png");
 		
 		//Stat.histogram(re, scoresErrs, "results/" + engine + "_errs.png");
 		//Stat.histogram(re, scoresNoErrs, "results/" + engine + "_noerrs.png");
