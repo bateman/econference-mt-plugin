@@ -30,27 +30,47 @@ public class Main {
 		List<Integer> scoresErrs = new LinkedList<Integer>();
 		List<Integer> scoresNoErrs = new LinkedList<Integer>();
 		
+		List<Integer> allScoresErrs = new LinkedList<Integer>();
+		List<Integer> allScoresNoErrs = new LinkedList<Integer>();
+		
 		for (Result result : results) {
 			Integer score = new Integer(result.rater1 + result.rater2 + result.rater3 + result.rater4);
 			
 			if (result.errors.size() == 0) {
 				resultsErrs.add(result);	
 				scoresErrs.add(score);
+				
+				allScoresErrs.add(result.rater1);
+				allScoresErrs.add(result.rater2);
+				allScoresErrs.add(result.rater3);
+				allScoresErrs.add(result.rater4);
+				
 			} else {
 				resultsNoErrs.add(result);
 				scoresNoErrs.add(score);
+				
+				allScoresNoErrs.add(result.rater1);
+				allScoresNoErrs.add(result.rater2);
+				allScoresNoErrs.add(result.rater3);
+				allScoresNoErrs.add(result.rater4);
+				
 			}
 		}
 		
+		Stat.frequencies(scoresNoErrs);
+		
 		List<List<Integer>> plots = new LinkedList<List<Integer>>();
+		
 		plots.add(scoresErrs);
 		plots.add(scoresNoErrs);
 		
 		Stat.boxplot(re, plots, "results/" + engine + "_boxplot.png");
-		//Stat.scatter(re, plots, "results/" + engine + "_scatter.png");
 		
-		//Stat.histogram(re, scoresErrs, "results/" + engine + "_errs.png");
-		//Stat.histogram(re, scoresNoErrs, "results/" + engine + "_noerrs.png");
+		String allScoresErrsFreq = Stat.frequenciesToString(Stat.frequencies(allScoresErrs));
+		Stat.plotlikert(re, allScoresErrsFreq, "results/" + engine + "_err_plotlikert.png");
+		
+		String allScoresNoErrsFreq = Stat.frequenciesToString(Stat.frequencies(allScoresNoErrs));
+		Stat.plotlikert(re, allScoresNoErrsFreq, "results/" + engine + "_noerr_plotlikert.png");
 		
 		System.out.println(engine + ": scoresErrs contains " + scoresErrs.size() + " elements, avg: " + avg(scoresErrs));
 		System.out.println(engine + ": scoresNoErrs contains " + scoresNoErrs.size() + " elements, avg: " + avg(scoresNoErrs));
@@ -72,6 +92,8 @@ public class Main {
 	public static void main(String[] args) {
 		Rengine re = R.init(args);
 		try {
+
+			re.eval("library(monash)");
 			
 			ATDClient.ignoreTypes = false;
 			core(re);

@@ -8,6 +8,25 @@ class Stat implements RMainLoopCallbacks {
 
 	public static boolean VERBOSE = false;
 
+	public static void main(String[] args) {
+		Rengine re = R.init(args);
+		try {
+			List<Integer> l = new LinkedList<Integer>();
+			
+			l.add(1);
+			l.add(2);
+			l.add(2);
+			l.add(3);
+			
+			System.out.println(Stat.frequenciesToString(Stat.frequencies(l)));
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			re.end();
+		}
+	}
+	
 	private static String integersToString(List<Integer> a) {
 		StringBuffer ret = new StringBuffer();
 		boolean first = true;
@@ -21,10 +40,16 @@ class Stat implements RMainLoopCallbacks {
 		return ret.toString();
 	}
 	
-	private static String frequenciesToString(Map<Integer, Integer> f) {
+	public static <T extends Comparable<? super T>> List<T> asSortedList(Collection<T> c) {
+		List<T> list = new ArrayList<T>(c);
+		java.util.Collections.sort(list);
+		return list;
+	}
+	
+	public static String frequenciesToString(Map<Integer, Integer> f) {
 		StringBuffer ret = new StringBuffer();
 		boolean first = true;
-		for (Integer d : f.keySet()) {
+		for (Integer d : asSortedList(f.keySet())) {
 			if (!first) {
 				ret.append(", ");
 			}
@@ -33,16 +58,10 @@ class Stat implements RMainLoopCallbacks {
 		}
 		return ret.toString();
 	}
-
-	public static <T extends Comparable<? super T>> List<T> asSortedList(Collection<T> c) {
-		List<T> list = new ArrayList<T>(c);
-		java.util.Collections.sort(list);
-		return list;
-	}
 	
-	private static Map<Integer, Integer> frequencies(List<Integer> vals) {
+	public static Map<Integer, Integer> frequencies(List<Integer> vals) {
 		Map<Integer, Integer> ret = new HashMap<Integer, Integer>();
-		for (Integer v : asSortedList(ret.keySet())) {
+		for (Integer v : vals) {
 			if (ret.containsKey(v)) {
 				ret.put(v, ret.get(v) + 1);
 			} else {
@@ -53,14 +72,14 @@ class Stat implements RMainLoopCallbacks {
 	}
 	
 	public static void histogram(Rengine re, List<Integer> v, String pngname) {
-		re.eval("png(file=\"" + pngname + "\")");
+		eval(re, "png(file=\"" + pngname + "\")");
 		String toEval = "hist(sort(c(" + integersToString(v) + ")))";
-		re.eval(toEval);
-		re.eval("dev.off()");
+		eval(re, toEval);
+		eval(re, "dev.off()");
 	}
 	
 	public static void boxplot(Rengine re, List<List<Integer>> vals, String pngname) {
-		re.eval("png(file=\"" + pngname + "\")");
+		eval(re, "png(file=\"" + pngname + "\")");
 		String toEval = "boxplot(";
 		boolean first = true;
 		for (List<Integer> v : vals) {
@@ -68,12 +87,12 @@ class Stat implements RMainLoopCallbacks {
 			first = false;
 		}
 		toEval += ")";
-		re.eval(toEval);
-		re.eval("dev.off()");
+		eval(re, toEval);
+		eval(re, "dev.off()");
 	}
 	
 	public static void scatter(Rengine re, List<List<Integer>> vals, String pngname) {
-		re.eval("png(file=\"" + pngname + "\")");
+		eval(re, "png(file=\"" + pngname + "\")");
 		String toEval = "plot(";
 		boolean first = true;
 		for (List<Integer> v : vals) {
@@ -81,14 +100,20 @@ class Stat implements RMainLoopCallbacks {
 			first = false;
 		}
 		toEval += ")";
-		re.eval(toEval);
-		re.eval("dev.off()");
+		eval(re, toEval);
+		eval(re, "dev.off()");
+	}
+	
+	public static void plotlikert(Rengine re, String freq, String pngname) {
+		eval(re, "png(file=\"" + pngname + "\")");
+		eval(re, "plot.likert(likert(c(" + freq + "), upper=4, c('Completely Inadequate', 'Poorly Adequate', 'Fairly Adequate', 'Completely Adequate')))");
+		eval(re, "dev.off()");
 	}
 	
 	private static Double tTest(Rengine re, List<Integer> a, List<Integer> b, String type, boolean paired) {
 		String toEval = "t.test(c(" + integersToString(a) + "), c(" + integersToString(b) + "), " +
 		"paired=" + (paired ? "TRUE" : "FALSE") + ", alternative=\"" + type + "\")";
-		REXP x = re.eval(toEval);
+		REXP x = eval(re, toEval);
 		RVector v = x.asVector();
 		REXP pexp = (REXP) v.get(2);
 		return new Double(pexp.asDouble());
@@ -135,4 +160,9 @@ class Stat implements RMainLoopCallbacks {
 	public void rLoadHistory(Rengine re, String filename) { }
 
 	public void rSaveHistory(Rengine re, String filename) { }
+	
+	public static REXP eval(Rengine re, String command) {
+		System.out.println("Executing: " + command);
+		return re.eval(command);
+	}
 }
