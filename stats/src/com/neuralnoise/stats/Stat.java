@@ -20,10 +20,29 @@ class Stat implements RMainLoopCallbacks {
 		}
 		return ret.toString();
 	}
+	
+	private static String frequenciesToString(Map<Integer, Integer> f) {
+		StringBuffer ret = new StringBuffer();
+		boolean first = true;
+		for (Integer d : f.keySet()) {
+			if (!first) {
+				ret.append(", ");
+			}
+			ret.append("rep(" + d + ", " + f.get(d) + ")");
+			first = false;
+		}
+		return ret.toString();
+	}
 
+	public static <T extends Comparable<? super T>> List<T> asSortedList(Collection<T> c) {
+		List<T> list = new ArrayList<T>(c);
+		java.util.Collections.sort(list);
+		return list;
+	}
+	
 	private static Map<Integer, Integer> frequencies(List<Integer> vals) {
 		Map<Integer, Integer> ret = new HashMap<Integer, Integer>();
-		for (Integer v : vals) {
+		for (Integer v : asSortedList(ret.keySet())) {
 			if (ret.containsKey(v)) {
 				ret.put(v, ret.get(v) + 1);
 			} else {
