@@ -22,6 +22,33 @@ public class Main {
 		String ret = formatter.format(val).replaceAll(",", ".");
 		return ret;
 	}
+	
+	public static void showStatsAboutErrors(List<Result> results) {
+		List<ATDError> errors = new LinkedList<ATDError>();
+		
+		for (Result r : results) {
+			if (r.errors != null) {
+				for (ATDError e : r.errors) {
+					errors.add(e);
+				}
+			}
+		}
+		
+		Map<String, Integer> stats = new HashMap<String, Integer>();
+		
+		for (ATDError e : errors) {
+			if (stats.containsKey(e.type)) {
+				stats.put(e.type, stats.get(e.type) + 1);
+			} else {
+				stats.put(e.type, 1);
+			}
+			System.out.println(e);
+		}
+		
+		for (String t : stats.keySet()) {
+			System.out.println("\t" + t + " -> " + stats.get(t));
+		}
+	}
 
 	public static void analyseResults(Rengine re, List<Result> results, String engine) {
 		List<Result> resultsErrs = new LinkedList<Result>();
@@ -36,8 +63,8 @@ public class Main {
 		for (Result result : results) {
 			Integer score = new Integer(result.rater1 + result.rater2 + result.rater3 + result.rater4);
 			
-			if (result.errors.size() == 0) {
-				resultsErrs.add(result);	
+			if (result.errors.size() > 0) {
+				resultsErrs.add(result);
 				scoresErrs.add(score);
 				
 				allScoresErrs.add(result.rater1);
@@ -57,7 +84,7 @@ public class Main {
 			}
 		}
 		
-		Stat.frequencies(scoresNoErrs);
+		showStatsAboutErrors(resultsErrs);
 		
 		List<List<Integer>> plots = new LinkedList<List<Integer>>();
 		
