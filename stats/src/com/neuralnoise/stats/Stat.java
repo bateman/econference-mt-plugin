@@ -110,6 +110,12 @@ class Stat implements RMainLoopCallbacks {
 		eval(re, "dev.off()");
 	}
 	
+	public static void boxplotlikert(Rengine re, String freq1, String freq2, String pngname) {
+		eval(re, "png(file=\"" + pngname + "\")");
+		eval(re, "boxplot.likert(likert(c(" + freq1 + "), likert(c(" + freq2 + "), upper=4, c('Completely Inadequate', 'Poorly Adequate', 'Fairly Adequate', 'Completely Adequate')))");
+		eval(re, "dev.off()");
+	}
+	
 	private static Double tTest(Rengine re, List<Integer> a, List<Integer> b, String type, boolean paired) {
 		String toEval = "t.test(c(" + integersToString(a) + "), c(" + integersToString(b) + "), " +
 		"paired=" + (paired ? "TRUE" : "FALSE") + ", alternative=\"" + type + "\")";

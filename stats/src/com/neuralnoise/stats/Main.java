@@ -42,7 +42,7 @@ public class Main {
 			} else {
 				stats.put(e.type, 1);
 			}
-			System.out.println(e);
+			//System.out.println(e);
 		}
 		
 		for (String t : stats.keySet()) {
