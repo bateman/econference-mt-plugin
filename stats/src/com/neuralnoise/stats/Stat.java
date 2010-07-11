@@ -4,7 +4,7 @@ import java.util.*;
 
 import org.rosuda.JRI.*;
 
-class Stat implements RMainLoopCallbacks {
+public class Stat implements RMainLoopCallbacks {
 
 	public static boolean VERBOSE = false;
 
@@ -139,6 +139,26 @@ class Stat implements RMainLoopCallbacks {
 
 	public static Double unpairedTTestGreater(Rengine re, List<Integer> a, List<Integer> b) {
 		return tTest(re, a, b, "greater", false);
+	}
+	
+	public static Double chi2IndependenceTest(Rengine re, Map<String, List<Integer>> qties) {
+		String frame = "data.frame(";
+		boolean first = true;
+		for (String key : qties.keySet()) {
+			List<Integer> vals = qties.get(key);
+			String command = key + " <- c(" + integersToString(vals) + ")";
+			eval(re, command);
+			frame += key;
+			if (!first) {
+				frame += ", ";
+			}
+			first = false;
+		}
+		frame += ")";
+		
+		REXP x = eval(re, "chisq.test(" + frame + ")");
+		
+		return null;
 	}
 	
 	public void rWriteConsole(Rengine re, String text, int oType) {
