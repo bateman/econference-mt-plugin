@@ -146,19 +146,21 @@ public class Stat implements RMainLoopCallbacks {
 		boolean first = true;
 		for (String key : qties.keySet()) {
 			List<Integer> vals = qties.get(key);
-			String command = key + " <- c(" + integersToString(vals) + ")";
-			eval(re, command);
-			frame += key;
+			String dimension = key + "=c(" + integersToString(vals) + ")";
 			if (!first) {
 				frame += ", ";
 			}
+			frame += dimension;
 			first = false;
 		}
 		frame += ")";
 		
 		REXP x = eval(re, "chisq.test(" + frame + ")");
 		
-		return null;
+		RVector v = x.asVector();
+		REXP pexp = (REXP) v.get(2);
+		
+		return new Double(pexp.asDouble());
 	}
 	
 	public void rWriteConsole(Rengine re, String text, int oType) {
