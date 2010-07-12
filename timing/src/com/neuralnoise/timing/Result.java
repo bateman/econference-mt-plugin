@@ -1,6 +1,12 @@
 package com.neuralnoise.timing;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.io.StringWriter;
 import java.util.LinkedList;
 import java.util.List;
+
+import com.csvreader.CsvWriter;
 
 public class Result {
 	public Integer collId = 0;
@@ -27,6 +33,17 @@ public class Result {
 		rater4 = r4;
 		
 		errors = new LinkedList<com.neuralnoise.atd.ATDError>();
+	}
+	
+	public String toCSV() throws IOException {
+		StringWriter sw = new StringWriter();
+		PrintWriter pwg = new PrintWriter(sw);
+		CsvWriter w = new CsvWriter(pwg, ';');
+		
+		w.writeRecord(new String[] { "CL" + collId + ";" + utterance.getTurn() + ";" + utterance.getUtterance() + ";" + translatedUtterance.getUtterance() + ";" 
+				+ rater1 + ";" + rater2 + ";" + rater3 + ";" + rater4 + ";" + (errors.size() > 0) });
+		
+		return sw.toString();
 	}
 	
 	public String getErrors() {
