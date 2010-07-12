@@ -63,13 +63,13 @@ public class Main {
 			
 			Integer scoresSum = result.rater1 + result.rater2 + result.rater3 + result.rater4;
 			if (result.errors.size() > 0) {
-				if (scoresSum > 10) {
+				if (scoresSum < 10) {
 					adequateWithErrors += 1;
 				} else {
 					inadequateWithErrors += 1;
 				}
 			} else {
-				if (scoresSum > 10) {
+				if (scoresSum < 10) {
 					adequateWithoutErrors += 1;
 				} else {
 					inadequateWithoutErrors += 1;

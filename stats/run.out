@@ -2073,10 +2073,10 @@ CL5;365;7 good work;7 lavoro buono;2;2;1;4;false
 CL5;366;yes there is you have to type your password;Sì #hay tu deve scrivere la tua password;4;2;2;3;true
 CL5;367;and that will log you out;E che  *log ti fuori;4;3;3;4;false
 Engine: apertium
-Adequate With Errors: 516
-Indequate With Errors: 169
-Adequate Without Errors: 797
-Indequate Without Errors: 571
+Adequate With Errors: 129
+Indequate With Errors: 556
+Adequate Without Errors: 485
+Indequate Without Errors: 883
 CL2;1;hey guys;Hey guys;4;4;4;4;false
 CL2;2;hey Jared;hey Jared;4;1;1;1;false
 CL2;3;I guess you dont need the cable?;Immagino che tu non necessario il cavo?;2;2;3;2;true
@@ -4135,7 +4135,7 @@ CL5;365;7 good work;7 buon lavoro;1;1;1;4;false
 CL5;366;yes there is you have to type your password;Sì, esiste dovete digitare la password;1;1;1;1;true
 CL5;367;and that will log you out;e che si uscirà;3;3;4;4;false
 Engine: google
-Adequate With Errors: 268
-Indequate With Errors: 417
-Adequate Without Errors: 429
-Indequate Without Errors: 939
+Adequate With Errors: 364
+Indequate With Errors: 321
+Adequate Without Errors: 858
+Indequate Without Errors: 510
