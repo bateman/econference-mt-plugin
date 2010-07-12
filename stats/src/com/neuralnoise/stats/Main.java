@@ -1,5 +1,6 @@
 package com.neuralnoise.stats;
 
+import java.io.IOException;
 import java.text.DecimalFormat;
 import java.util.*;
 
@@ -50,7 +51,42 @@ public class Main {
 		}
 	}
 
-	public static void analyseResults(Rengine re, List<Result> results, String engine) {
+	public static void analyseResults(Rengine re, List<Result> results, String engine) throws IOException {
+		Integer adequateWithErrors = 0;
+		Integer inadequateWithErrors = 0;
+		
+		Integer adequateWithoutErrors = 0;
+		Integer inadequateWithoutErrors = 0;
+		
+		for (Result result : results) {
+			System.out.println(result.toCSV());
+			
+			Integer scoresSum = result.rater1 + result.rater2 + result.rater3 + result.rater4;
+			if (result.errors.size() > 0) {
+				if (scoresSum > 10) {
+					adequateWithErrors += 1;
+				} else {
+					inadequateWithErrors += 1;
+				}
+			} else {
+				if (scoresSum > 10) {
+					adequateWithoutErrors += 1;
+				} else {
+					inadequateWithoutErrors += 1;
+				}
+			}
+		}
+		
+		System.out.println("Engine: " + engine);
+		
+		System.out.println("Adequate With Errors: " + adequateWithErrors);
+		System.out.println("Indequate With Errors: " + inadequateWithErrors);
+		
+		System.out.println("Adequate Without Errors: " + adequateWithoutErrors);
+		System.out.println("Indequate Without Errors: " + inadequateWithoutErrors);
+	}
+	
+	public static void _analyseResults(Rengine re, List<Result> results, String engine) {
 		List<Result> resultsErrs = new LinkedList<Result>();
 		List<Result> resultsNoErrs = new LinkedList<Result>();
 		
@@ -60,7 +96,7 @@ public class Main {
 		List<Integer> allScoresErrs = new LinkedList<Integer>();
 		List<Integer> allScoresNoErrs = new LinkedList<Integer>();
 		
-		for (Result result : results) {
+		for (Result result : results) {			
 			Integer score = new Integer(result.rater1 + result.rater2 + result.rater3 + result.rater4);
 			
 			if (result.errors.size() > 0) {

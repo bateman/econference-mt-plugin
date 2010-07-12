@@ -13,4 +13,4 @@ R_DOC_DIR=/usr/share/R/doc
 export R_DOC_DIR
 
 rm -f results/*.png
-java -Xmx1024m -Djava.library.path=$R_HOME/site-library/rJava/jri -cp $R_HOME/site-library/rJava/jri/JRI.jar:bin:../timing/bin:../timing/lib/* test.Chi2TestCase
+java -Xmx1024m -Djava.library.path=$R_HOME/site-library/rJava/jri -cp $R_HOME/site-library/rJava/jri/JRI.jar:bin:../timing/bin:../timing/lib/* com.neuralnoise.stats.Main -q
