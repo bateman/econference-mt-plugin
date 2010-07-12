@@ -59,7 +59,7 @@ public class Main {
 		Integer inadequateWithoutErrors = 0;
 		
 		for (Result result : results) {
-			System.out.println(result.toCSV());
+			System.out.print(result.toCSV());
 			
 			Integer scoresSum = result.rater1 + result.rater2 + result.rater3 + result.rater4;
 			if (result.errors.size() > 0) {

@@ -40,8 +40,8 @@ public class Result {
 		PrintWriter pwg = new PrintWriter(sw);
 		CsvWriter w = new CsvWriter(pwg, ';');
 		
-		w.writeRecord(new String[] { "CL" + collId + ";" + utterance.getTurn() + ";" + utterance.getUtterance() + ";" + translatedUtterance.getUtterance() + ";" 
-				+ rater1 + ";" + rater2 + ";" + rater3 + ";" + rater4 + ";" + (errors.size() > 0) });
+		w.writeRecord(new String[] { "CL" + collId, utterance.getTurn().toString(), utterance.getUtterance(), translatedUtterance.getUtterance(),
+				rater1.toString(), rater2.toString(), rater3.toString(), rater4.toString(), Boolean.valueOf(errors.size() > 0).toString() });
 		
 		return sw.toString();
 	}
