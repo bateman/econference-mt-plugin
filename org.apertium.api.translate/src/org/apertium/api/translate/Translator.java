@@ -33,6 +33,7 @@ public class Translator implements IBackendEventListener {
 		System.out.println("Translator()");
 		lastConfiguration = new TranslateConfiguration();
 		buddiesLenguages = new HashMap<String, String>();
+		
 	}
 	
 	private void refresh(TranslateConfiguration c) throws MalformedURLException {

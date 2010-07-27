@@ -37,6 +37,7 @@ public class TranslatePlugin extends AbstractUIPlugin {
 		
 		translateListeners = new LinkedList<IBackendEventListener>();
 		translateListeners.add(new TranslateListener());
+		translateListeners.add(translator);
 		
 		sendListeners = new LinkedList<ISendMessagelListener>();
 		sendListeners.add(new TranslateListener());
