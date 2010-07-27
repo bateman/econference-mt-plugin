@@ -260,18 +260,18 @@ public class TranslateView extends ViewPart implements ITranslateView, IBackendE
 			
 			IBackend b = NetworkPlugin.getDefault().getRegistry().getDefaultBackend();
 			IMultiChatServiceActions chat = b.getMultiChatServiceAction();
-			ChatExtensionProtocolEvent cepe = (ChatExtensionProtocolEvent)event;
+			MultiChatExtensionProtocolEvent mcepe = (MultiChatExtensionProtocolEvent)event;
 			
-			if(cepe.getExtensionName().equals(LANGUAGE_REQUEST)){
+			if(mcepe.getExtensionName().equals(LANGUAGE_REQUEST)){
 				HashMap<String, String> param = new HashMap<String, String>();
 				TranslateConfiguration c = TranslatePlugin.getDefault().getConfiguration();
 				param.put(LANGUAGE, c.getLangPair().getDestLang().getCode());
 				chat.SendExtensionProtocolMessage(LANGUAGE_RESPONSE, param);
 			}
 			
-			else if(cepe.getExtensionName().equals(LANGUAGE_RESPONSE)){
-				buddiesLenguages.put(cepe.getFrom(), (String)cepe.getExtensionParameter(LANGUAGE));
-				updateNotTranslatedMessages(cepe.getFrom());
+			else if(mcepe.getExtensionName().equals(LANGUAGE_RESPONSE)){
+				buddiesLenguages.put(mcepe.getFrom(), (String)mcepe.getExtensionParameter(LANGUAGE));
+				updateNotTranslatedMessages(mcepe.getFrom());
 			}
 		}
 		
