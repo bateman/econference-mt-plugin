@@ -21,6 +21,7 @@ import org.eclipse.ui.part.ViewPart;
 import it.uniba.di.cdg.xcore.network.events.IBackendEvent;
 import it.uniba.di.cdg.xcore.network.events.IBackendEventListener;
 import  it.uniba.di.cdg.xcore.network.events.chat.*;
+import it.uniba.di.cdg.xcore.network.events.multichat.MultiChatMessageEvent;
 
 public class TranslateView extends ViewPart implements ITranslateView, IBackendEventListener {
 	
@@ -80,22 +81,22 @@ public class TranslateView extends ViewPart implements ITranslateView, IBackendE
 	}
     
     public void newMessage(String original, String who, boolean toTranslate) {
-    	Color orange = new Color(Display.getCurrent(), 255, 127, 0);
-    	Color lime = new Color(Display.getCurrent(), 127, 255, 127);
+    	Color blu = new Color(Display.getCurrent(), 25, 25, 112);
+    	Color red = new Color(Display.getCurrent(), 142, 35, 35);
     	
 		Translator tran = TranslatePlugin.getDefault().getTranslator();
 		String translated = original;
 		
 		try {
-			translated = tran.translate(original);
+			translated = tran.translate(original, who);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		
 		String n = now();
 		
-		appendMessage(String.format("[%s - %s] %s", who, n, original), orange);
-        appendMessage(String.format("[%s - %s] %s", who, n, translated), lime);
+		appendMessage(String.format("[%s - %s] %s", who, n, original), blu);
+        appendMessage(String.format("[%s - %s] %s", who, n, translated), red);
     }
     
     public void appendMessage(final String message, final Color color) {
@@ -147,7 +148,12 @@ public class TranslateView extends ViewPart implements ITranslateView, IBackendE
 			ChatMessageReceivedEvent cmrEvent = (ChatMessageReceivedEvent)event;
 			
 			newMessage(cmrEvent.getMessage().trim(), cmrEvent.getBuddy().getName(), true);
-		}
+		}/*else if(event instanceof MultiChatMessageEvent){
+			MultiChatMessageEvent mcme = (MultiChatMessageEvent)event;
+			
+			newMessage(mcme.getMessage().trim(), mcme.getFrom(), true);
+			
+		}*/
 		
 	}
     
