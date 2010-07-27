@@ -137,12 +137,20 @@ public class TranslateView extends ViewPart implements ITranslateView, IBackendE
     
     public void updateNotTranslatedMessages(String newBuddyLauguage){
     	
+    	Vector<NotTraslatedMessage> messagesToDelete = new Vector<NotTraslatedMessage>();
+    	
     	for(NotTraslatedMessage mess: messagesToTranslate){
     		if (newBuddyLauguage.equals(mess.getSender())){
     			newMessage(mess.message, mess.sender, true);
-    			messagesToTranslate.removeElement(mess);
+    			messagesToDelete.add(mess);
     		}
     	}
+    	
+    	for(NotTraslatedMessage mess: messagesToDelete){
+    		messagesToTranslate.removeElement(mess);
+    	}
+    	
+    	messagesToDelete.clear();
     	
     }
     
