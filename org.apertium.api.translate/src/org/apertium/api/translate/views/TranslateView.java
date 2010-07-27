@@ -147,7 +147,7 @@ public class TranslateView extends ViewPart implements ITranslateView, IBackendE
 		if (event instanceof ChatMessageReceivedEvent) {
 			ChatMessageReceivedEvent cmrEvent = (ChatMessageReceivedEvent)event;
 			
-			newMessage(cmrEvent.getMessage().trim(), cmrEvent.getBuddy().getName(), true);
+			newMessage(cmrEvent.getMessage().trim(), cmrEvent.getBuddy().getId(), true);
 		}/*else if(event instanceof MultiChatMessageEvent){
 			MultiChatMessageEvent mcme = (MultiChatMessageEvent)event;
 			
