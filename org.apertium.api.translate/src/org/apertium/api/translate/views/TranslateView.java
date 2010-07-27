@@ -25,9 +25,11 @@ import org.eclipse.ui.part.ViewPart;
 import it.uniba.di.cdg.xcore.network.IBackend;
 import it.uniba.di.cdg.xcore.network.NetworkPlugin;
 import it.uniba.di.cdg.xcore.network.action.IChatServiceActions;
+import it.uniba.di.cdg.xcore.network.action.IMultiChatServiceActions;
 import it.uniba.di.cdg.xcore.network.events.IBackendEvent;
 import it.uniba.di.cdg.xcore.network.events.IBackendEventListener;
 import  it.uniba.di.cdg.xcore.network.events.chat.*;
+import it.uniba.di.cdg.xcore.network.events.multichat.MultiChatExtensionProtocolEvent;
 import it.uniba.di.cdg.xcore.network.events.multichat.MultiChatMessageEvent;
 import it.uniba.di.cdg.xcore.network.messages.MessageType;
 
@@ -86,12 +88,6 @@ public class TranslateView extends ViewPart implements ITranslateView, IBackendE
 		
 		if(buddiesLenguages.containsKey(name))
 			lan = buddiesLenguages.get(name);
-		else{
-			IBackend b = NetworkPlugin.getDefault().getRegistry().getDefaultBackend();
-			IChatServiceActions chat = b.getChatServiceAction();
-			HashMap<String, String> param = new HashMap<String, String>();
-			chat.SendExtensionProtocolMessage(name, LANGUAGE_REQUEST, param);
-		}
 		
 		return lan;
 	}
@@ -129,6 +125,37 @@ public class TranslateView extends ViewPart implements ITranslateView, IBackendE
 	        
 		} catch (ApertiumXMLRPCClientException e){
 			messagesToTranslate.add(new NotTraslatedMessage(original, who));
+			IBackend b = NetworkPlugin.getDefault().getRegistry().getDefaultBackend();
+			IChatServiceActions chat = b.getChatServiceAction();
+			HashMap<String, String> param = new HashMap<String, String>();
+			chat.SendExtensionProtocolMessage(who, LANGUAGE_REQUEST, param);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+    }
+    
+    public void newRoomMessage(String original, String who, boolean toTranslate) {
+    	Color blu = new Color(Display.getCurrent(), 25, 25, 112);
+    	Color red = new Color(Display.getCurrent(), 142, 35, 35);
+    	
+		Translator tran = TranslatePlugin.getDefault().getTranslator();
+		String translated = original;
+		
+		try {
+			translated = tran.translate(original, who, getLanguageFromRosterBuddy(who));
+			
+			String n = now();
+			
+			appendMessage(String.format("[%s - %s] %s", who, n, original), blu);
+	        appendMessage(String.format("[%s - %s] %s", who, n, translated), red);
+	        
+		} catch (ApertiumXMLRPCClientException e){
+			messagesToTranslate.add(new NotTraslatedMessage(original, who));
+			IBackend b = NetworkPlugin.getDefault().getRegistry().getDefaultBackend();
+			IMultiChatServiceActions chat = b.getMultiChatServiceAction();
+			HashMap<String, String> param = new HashMap<String, String>();
+			chat.SendExtensionProtocolMessage(LANGUAGE_REQUEST, param);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -203,12 +230,13 @@ public class TranslateView extends ViewPart implements ITranslateView, IBackendE
 			ChatMessageReceivedEvent cmrEvent = (ChatMessageReceivedEvent)event;
 			
 			newMessage(cmrEvent.getMessage().trim(), cmrEvent.getBuddy().getId(), true);
-		}/*else if(event instanceof MultiChatMessageEvent){
+		}else if(event instanceof MultiChatMessageEvent){
 			MultiChatMessageEvent mcme = (MultiChatMessageEvent)event;
 			
-			newMessage(mcme.getMessage().trim(), mcme.getFrom(), true);
+			newRoomMessage(mcme.getMessage().trim(), mcme.getFrom(), true);
 			
-		}*/
+		}
+		
 		if(event instanceof ChatExtensionProtocolEvent){
 			
 			IBackend b = NetworkPlugin.getDefault().getRegistry().getDefaultBackend();
@@ -220,6 +248,25 @@ public class TranslateView extends ViewPart implements ITranslateView, IBackendE
 				TranslateConfiguration c = TranslatePlugin.getDefault().getConfiguration();
 				param.put(LANGUAGE, c.getLangPair().getDestLang().getCode());
 				chat.SendExtensionProtocolMessage(cepe.getFrom(), LANGUAGE_RESPONSE, param);
+			}
+			
+			else if(cepe.getExtensionName().equals(LANGUAGE_RESPONSE)){
+				buddiesLenguages.put(cepe.getFrom(), (String)cepe.getExtensionParameter(LANGUAGE));
+				updateNotTranslatedMessages(cepe.getFrom());
+			}
+		}
+		
+		if(event instanceof MultiChatExtensionProtocolEvent){
+			
+			IBackend b = NetworkPlugin.getDefault().getRegistry().getDefaultBackend();
+			IMultiChatServiceActions chat = b.getMultiChatServiceAction();
+			ChatExtensionProtocolEvent cepe = (ChatExtensionProtocolEvent)event;
+			
+			if(cepe.getExtensionName().equals(LANGUAGE_REQUEST)){
+				HashMap<String, String> param = new HashMap<String, String>();
+				TranslateConfiguration c = TranslatePlugin.getDefault().getConfiguration();
+				param.put(LANGUAGE, c.getLangPair().getDestLang().getCode());
+				chat.SendExtensionProtocolMessage(LANGUAGE_RESPONSE, param);
 			}
 			
 			else if(cepe.getExtensionName().equals(LANGUAGE_RESPONSE)){
