@@ -28,7 +28,7 @@ public class LanguagePair {
 		return destLang;
 	}
 
-	public void setdestLang(Language destLang) {
+	public void setDestLang(Language destLang) {
 		this.destLang = destLang;
 	}
 

@@ -1,11 +1,24 @@
 package org.apertium.api.translate.views;
 
+import it.uniba.di.cdg.xcore.network.IBackend;
+import it.uniba.di.cdg.xcore.network.NetworkPlugin;
+import it.uniba.di.cdg.xcore.network.action.IChatServiceActions;
+import it.uniba.di.cdg.xcore.network.action.IMultiChatServiceActions;
+import it.uniba.di.cdg.xcore.network.events.IBackendEvent;
+import it.uniba.di.cdg.xcore.network.events.IBackendEventListener;
+import it.uniba.di.cdg.xcore.network.events.chat.ChatExtensionProtocolEvent;
+import it.uniba.di.cdg.xcore.network.events.chat.ChatMessageReceivedEvent;
+import it.uniba.di.cdg.xcore.network.events.multichat.MultiChatExtensionProtocolEvent;
+import it.uniba.di.cdg.xcore.network.events.multichat.MultiChatMessageEvent;
+
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Vector;
 
 import org.apertium.api.exceptions.ApertiumXMLRPCClientException;
+import org.apertium.api.translate.Language;
+import org.apertium.api.translate.LanguagePair;
 import org.apertium.api.translate.TranslatePlugin;
 import org.apertium.api.translate.Translator;
 import org.apertium.api.translate.actions.TranslateConfiguration;
@@ -22,17 +35,6 @@ import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.ScrollBar;
 import org.eclipse.ui.part.ViewPart;
 
-import it.uniba.di.cdg.xcore.network.IBackend;
-import it.uniba.di.cdg.xcore.network.NetworkPlugin;
-import it.uniba.di.cdg.xcore.network.action.IChatServiceActions;
-import it.uniba.di.cdg.xcore.network.action.IMultiChatServiceActions;
-import it.uniba.di.cdg.xcore.network.events.IBackendEvent;
-import it.uniba.di.cdg.xcore.network.events.IBackendEventListener;
-import  it.uniba.di.cdg.xcore.network.events.chat.*;
-import it.uniba.di.cdg.xcore.network.events.multichat.MultiChatExtensionProtocolEvent;
-import it.uniba.di.cdg.xcore.network.events.multichat.MultiChatMessageEvent;
-import it.uniba.di.cdg.xcore.network.messages.MessageType;
-
 public class TranslateView extends ViewPart implements ITranslateView, IBackendEventListener {
 	
 	private Composite top = null;
@@ -44,8 +46,8 @@ public class TranslateView extends ViewPart implements ITranslateView, IBackendE
 	public static final String ID = TranslatePlugin.ID + ".views.translateView";
     private static final String SEPARATOR = System.getProperty("line.separator");
     
-    private Vector<NotTraslatedMessage> messagesToTranslate;
-    private HashMap<String, String> buddiesLenguages;
+    private Vector<NotTraslatedMessage> messagesToTranslate = null;
+    private HashMap<String, LanguagePair> buddiesLenguages = null;
     
 	private final static String LANGUAGE_REQUEST = "languageRequest";
 	private final static String LANGUAGE_RESPONSE = "languageResponse";
@@ -54,7 +56,7 @@ public class TranslateView extends ViewPart implements ITranslateView, IBackendE
     public TranslateView() {
     	super();
     	messagesToTranslate = new Vector<NotTraslatedMessage>();
-		buddiesLenguages = new HashMap<String, String>();
+		buddiesLenguages = new HashMap<String, LanguagePair>();
     }
     
 	@Override
@@ -86,9 +88,10 @@ public class TranslateView extends ViewPart implements ITranslateView, IBackendE
 	private String getLanguageFromRosterBuddy(String name){
 		String lan = null;
 		
-		if(buddiesLenguages.containsKey(name))
-			lan = buddiesLenguages.get(name);
-		
+		if(buddiesLenguages.containsKey(name)) {
+			LanguagePair lp = buddiesLenguages.get(name);
+			lan = lp.getDestLang().getCode();
+		}
 		return lan;
 	}
 	
@@ -246,12 +249,15 @@ public class TranslateView extends ViewPart implements ITranslateView, IBackendE
 			if(cepe.getExtensionName().equals(LANGUAGE_REQUEST)){
 				HashMap<String, String> param = new HashMap<String, String>();
 				TranslateConfiguration c = TranslatePlugin.getDefault().getConfiguration();
-				param.put(LANGUAGE, c.getLangPair().getDestLang().getCode());
+				param.put(LANGUAGE, c.getUserLanguage().getCode());
 				chat.SendExtensionProtocolMessage(cepe.getFrom(), LANGUAGE_RESPONSE, param);
 			}
 			
 			else if(cepe.getExtensionName().equals(LANGUAGE_RESPONSE)){
-				buddiesLenguages.put(cepe.getFrom(), (String)cepe.getExtensionParameter(LANGUAGE));
+				TranslateConfiguration c = TranslatePlugin.getDefault().getConfiguration();				
+				String destCode = (String)cepe.getExtensionParameter(LANGUAGE);
+				LanguagePair lp = new LanguagePair(c.getUserLanguage(), new Language(destCode));
+				buddiesLenguages.put(cepe.getFrom(), lp);
 				updateNotTranslatedMessages(cepe.getFrom());
 			}
 		}
@@ -265,12 +271,15 @@ public class TranslateView extends ViewPart implements ITranslateView, IBackendE
 			if(mcepe.getExtensionName().equals(LANGUAGE_REQUEST)){
 				HashMap<String, String> param = new HashMap<String, String>();
 				TranslateConfiguration c = TranslatePlugin.getDefault().getConfiguration();
-				param.put(LANGUAGE, c.getLangPair().getDestLang().getCode());
+				param.put(LANGUAGE, c.getUserLanguage().getCode());
 				chat.SendExtensionProtocolMessage(LANGUAGE_RESPONSE, param);
 			}
 			
 			else if(mcepe.getExtensionName().equals(LANGUAGE_RESPONSE)){
-				buddiesLenguages.put(mcepe.getFrom(), (String)mcepe.getExtensionParameter(LANGUAGE));
+				TranslateConfiguration c = TranslatePlugin.getDefault().getConfiguration();				
+				String destCode = (String)mcepe.getExtensionParameter(LANGUAGE);
+				LanguagePair lp = new LanguagePair(c.getUserLanguage(), new Language(destCode));
+				buddiesLenguages.put(mcepe.getFrom(), lp);
 				updateNotTranslatedMessages(mcepe.getFrom());
 			}
 		}

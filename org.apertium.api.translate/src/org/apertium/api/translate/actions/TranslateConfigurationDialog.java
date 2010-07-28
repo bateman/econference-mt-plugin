@@ -7,7 +7,6 @@ import java.util.TreeSet;
 
 import org.apertium.api.translate.ISO639;
 import org.apertium.api.translate.Language;
-import org.apertium.api.translate.LanguagePair;
 import org.apertium.api.translate.Services;
 import org.apertium.api.translate.Services.ServiceType;
 import org.apertium.api.translate.TranslatePlugin;
@@ -147,7 +146,7 @@ public class TranslateConfigurationDialog extends TitleAreaDialog {
 				+ data.getService());
 
 		configuration.setService(data.getService());
-		configuration.setLangPair(data.getLangPair());
+		configuration.setUserLanguage(data.getUserLanguage());
 		configuration.setUrl(data.getUrl());
 
 		System.out.println("Storing MT preferences");
@@ -167,8 +166,8 @@ public class TranslateConfigurationDialog extends TitleAreaDialog {
 		connection.putInt(MT_SERVICE_PROVIDER, configuration.getService()
 				.ordinal());
 		connection.put(MT_SERVICE_URL, configuration.getUrl());
-		connection.put(MT_USER_LANGUAGE, configuration.getLangPair()
-				.getSrcLang().getCode());
+		connection.put(MT_USER_LANGUAGE, configuration.getUserLanguage()
+				.getCode());
 		try {
 			connections.flush();
 		} catch (BackingStoreException e) {
@@ -208,9 +207,8 @@ public class TranslateConfigurationDialog extends TitleAreaDialog {
 			configuration.setUrl(mtServiceUrl);
 		String mtUserlLanguageCode = node.get(MT_USER_LANGUAGE, null);
 		if (null != mtUserlLanguageCode) {
-			Language userLang = new Language(mtUserlLanguageCode);
-			LanguagePair lp = new LanguagePair(userLang, null);
-			configuration.setLangPair(lp);
+			Language userLang = new Language(mtUserlLanguageCode);			
+			configuration.setUserLanguage(userLang);
 		}
 
 		setData(configuration);
@@ -321,16 +319,16 @@ public class TranslateConfigurationDialog extends TitleAreaDialog {
 
 		System.out.println("TranslateConfigurationForm.setData()");
 
-		if (data.getLangPair() != null) {
+		if (data.getUserLanguage() != null) {
 			String[] model = languagesCombo.getItems();
 			boolean ok = false;
 
 			for (int i = 0; i < model.length && !ok; i++) {
 				String item = (String) model[i];
 
-				if (item.equals(data.getLangPair().getSrcLang().getName())) {
+				if (item.equals(data.getUserLanguage().getName())) {
 					System.out.println("Received "
-							+ data.getLangPair().getSrcLang().getName());
+							+ data.getUserLanguage().getName());
 					languagesCombo.select(i);
 					languageSelectionIndex = i;
 					System.out.println("Set "
@@ -349,13 +347,13 @@ public class TranslateConfigurationDialog extends TitleAreaDialog {
 			for (int i = 0; i < model.length && !ok; i++) {
 				String item = (String) model[i];
 				if (item.equals(services.getService(data.getService()))) {
-					System.out.println("Received "
-							+ data.getService());
+					System.out.println("Received " + data.getService());
 					mtServiceProviderCombo.select(i);
 					mtServiceSelectionIndex = i;
 					System.out.println("Set "
-							+ mtServiceProviderCombo.getItem(mtServiceProviderCombo
-									.getSelectionIndex()));
+							+ mtServiceProviderCombo
+									.getItem(mtServiceProviderCombo
+											.getSelectionIndex()));
 					ok = true;
 				}
 			}
@@ -371,7 +369,7 @@ public class TranslateConfigurationDialog extends TitleAreaDialog {
 	private TranslateConfiguration getData() {
 		TranslateConfiguration ret = new TranslateConfiguration();
 		System.out.println("TranslateConfigurationForm.getData()");
-		
+
 		if (mtServiceSelectionIndex != -1) {
 			String[] servicesArray = (String[]) createServiceModel();
 			String serviceSelectedItem = (String) servicesArray[mtServiceSelectionIndex];
@@ -386,10 +384,8 @@ public class TranslateConfigurationDialog extends TitleAreaDialog {
 			ISO639 iso = new ISO639();
 			// our language
 			Language src = new Language(iso.getCode(srcSelectedItem));
-			// the others' language, we don't know it upfront
-			Language dest = null;
-			LanguagePair pair = new LanguagePair(src, dest);
-			ret.setLangPair(pair);
+			// the others' language, we don't know it upfront			
+			ret.setUserLanguage(src);
 		}
 
 		if (mtServiceUrl != null) {

@@ -1,32 +1,34 @@
 package org.apertium.api.translate.actions;
 
-import org.apertium.api.translate.*;
+import org.apertium.api.translate.Language;
+import org.apertium.api.translate.Services;
 
 public class TranslateConfiguration {
-	private LanguagePair langPair = null;
+	private Language userLanguage = null;
 	private Services.ServiceType service = null;
 	private String url = null;
 	
 	public TranslateConfiguration() {
-		langPair = new LanguagePair("en", "it");
+		// default is EN
+		userLanguage = new Language("en");
 		service = Services.ServiceType.NONE;
 		url = "http://www.neuralnoise.com:6173/RPC2";
 	}
 
 	public TranslateConfiguration clona() {
 		TranslateConfiguration ret = new TranslateConfiguration();
-		ret.setLangPair(langPair);
+		ret.setUserLanguage(userLanguage);
 		ret.setService(service);
 		ret.setUrl(url);
 		return ret;
 	}
 	
-	public LanguagePair getLangPair() {
-		return langPair;
+	public Language getUserLanguage() {
+		return userLanguage;
 	}
 
-	public void setLangPair(LanguagePair langPair) {
-		this.langPair = langPair;
+	public void setUserLanguage(Language lang) {
+		this.userLanguage = lang;
 	}
 
 	public Services.ServiceType getService() {
@@ -48,7 +50,7 @@ public class TranslateConfiguration {
 	@Override
 	public String toString() {
 		Services s = new Services();
-		String ret = "service: " + s.getService(service) + " url: " + url + " pair: " + langPair;
+		String ret = "service: " + s.getService(service) + " url: " + url + " user lang: " + userLanguage;
 		return ret;
 	}
 	
@@ -63,7 +65,7 @@ public class TranslateConfiguration {
 		TranslateConfiguration that = (TranslateConfiguration) aThat;
 		
 		ret &= url.equals(that.getUrl());
-		ret &= langPair.equals(that.getLangPair());
+		ret &= userLanguage.equals(that.getUserLanguage());
 		ret &= service.equals(that.getService());
 		
 		return ret;
