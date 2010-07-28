@@ -28,9 +28,10 @@ public class Translator {
 		boolean ref = true;
 		
 		if (c != null) {
-			if (c.equals(lastConfiguration)) {
+			// TODO check
+			/*if (c.equals(lastConfiguration)) {
 				ref = false;
-			}
+			}*/
 		}
 		
 		if (ref) {
