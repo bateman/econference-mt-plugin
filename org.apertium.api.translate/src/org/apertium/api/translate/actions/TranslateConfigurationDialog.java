@@ -168,7 +168,7 @@ public class TranslateConfigurationDialog extends TitleAreaDialog {
 				.ordinal());
 		connection.put(MT_SERVICE_URL, configuration.getUrl());
 		connection.put(MT_USER_LANGUAGE, configuration.getLangPair()
-				.getDestLang().getCode());
+				.getSrcLang().getCode());
 		try {
 			connections.flush();
 		} catch (BackingStoreException e) {
@@ -384,10 +384,10 @@ public class TranslateConfigurationDialog extends TitleAreaDialog {
 			String srcSelectedItem = langArray[languageSelectionIndex];
 			System.out.println("Selected " + srcSelectedItem);
 			ISO639 iso = new ISO639();
-			// the others' language, we don't know it upfront
-			Language src = 	null;		
 			// our language
-			Language dest = new Language(iso.getCode(srcSelectedItem));
+			Language src = new Language(iso.getCode(srcSelectedItem));
+			// the others' language, we don't know it upfront
+			Language dest = null;
 			LanguagePair pair = new LanguagePair(src, dest);
 			ret.setLangPair(pair);
 		}
