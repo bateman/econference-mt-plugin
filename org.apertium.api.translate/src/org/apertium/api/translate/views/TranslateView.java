@@ -246,7 +246,7 @@ public class TranslateView extends ViewPart implements ITranslateView, IBackendE
 			if(cepe.getExtensionName().equals(LANGUAGE_REQUEST)){
 				HashMap<String, String> param = new HashMap<String, String>();
 				TranslateConfiguration c = TranslatePlugin.getDefault().getConfiguration();
-				param.put(LANGUAGE, c.getLangPair().getDestLang().getCode());
+				param.put(LANGUAGE, c.getLangPair().getSrcLang().getCode());
 				chat.SendExtensionProtocolMessage(cepe.getFrom(), LANGUAGE_RESPONSE, param);
 			}
 			
