@@ -100,11 +100,13 @@ public class Translator {
 			throws InterruptedException, ApertiumXMLRPCClientException,
 			MalformedURLException {
 		System.out.println("Translator.translate()");
+		
+		TranslateConfiguration c = TranslatePlugin.getDefault()
+			.getConfiguration();	
+		refresh(c);
 
 		if (sourceLanguage != null) {
-			TranslateConfiguration c = TranslatePlugin.getDefault()
-					.getConfiguration();
-			refresh(c);
+				
 
 			String ret = _translate(text, sourceLanguage, c.getUserLanguage()
 					.getCode(), connector);
