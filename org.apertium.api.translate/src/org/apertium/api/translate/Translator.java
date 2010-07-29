@@ -107,7 +107,6 @@ public class Translator {
 
 		if (sourceLanguage != null) {
 				
-
 			String ret = _translate(text, sourceLanguage, c.getUserLanguage()
 					.getCode(), connector);
 			return ret;
