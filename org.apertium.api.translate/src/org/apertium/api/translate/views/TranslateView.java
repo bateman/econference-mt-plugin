@@ -26,13 +26,10 @@ import org.eclipse.swt.SWT;
 import org.eclipse.swt.custom.SashForm;
 import org.eclipse.swt.custom.StyleRange;
 import org.eclipse.swt.custom.StyledText;
-import org.eclipse.swt.events.SelectionEvent;
-import org.eclipse.swt.events.SelectionListener;
 import org.eclipse.swt.graphics.Color;
 import org.eclipse.swt.layout.FillLayout;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Display;
-import org.eclipse.swt.widgets.ScrollBar;
 import org.eclipse.ui.part.ViewPart;
 
 public class TranslateView extends ViewPart implements ITranslateView, IBackendEventListener {
@@ -60,14 +57,10 @@ public class TranslateView extends ViewPart implements ITranslateView, IBackendE
     }
     
 	@Override
-	public void createPartControl(Composite parent) {
-		System.out.println("TranslateView.createPartControl()");
-		
+	public void createPartControl(Composite parent) {		
         top = new Composite(parent, SWT.NONE);
-        top.setLayout(new FillLayout());
-		
-        createSashForm();        
-        
+        top.setLayout(new FillLayout());		
+        createSashForm();                
         TranslatePlugin.getDefault().addListener(this);
 	}
 
@@ -80,8 +73,6 @@ public class TranslateView extends ViewPart implements ITranslateView, IBackendE
 	
 	@Override
 	public void setFocus() {
-		System.out.println("TranslateView.setFocus()");
-		
 		translations.setFocus();
 	}
 	
@@ -205,21 +196,7 @@ public class TranslateView extends ViewPart implements ITranslateView, IBackendE
 		});
 	}
 
-    protected void scrollToEnd() {
-    	System.out.println("TranslateView.scrollToEnd()");
-    	
-        ScrollBar scrollBar = translations.getVerticalBar();
-        scrollBar.addSelectionListener(new SelectionListener(){
-			@Override
-			public void widgetDefaultSelected(SelectionEvent e) {
-				System.out.println("TranslateView.widgetDefaultSelected()");
-			}
-			@Override
-			public void widgetSelected(SelectionEvent e) {
-				System.out.println("TranslateView.widgetSelected()");
-			}
-        });
-        
+    protected void scrollToEnd() {   
         int n = translations.getCharCount();
         translations.setSelection(n, n);
         translations.showSelection();
