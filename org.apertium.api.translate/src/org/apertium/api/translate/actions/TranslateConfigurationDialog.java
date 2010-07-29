@@ -1,16 +1,12 @@
 package org.apertium.api.translate.actions;
 
-import it.uniba.di.cdg.xcore.network.NetworkPlugin;
-
 import java.util.Set;
 import java.util.TreeSet;
 
 import org.apertium.api.translate.ISO639;
 import org.apertium.api.translate.Language;
 import org.apertium.api.translate.Services;
-import org.apertium.api.translate.Services.ServiceType;
 import org.apertium.api.translate.TranslatePlugin;
-import org.eclipse.core.runtime.preferences.ConfigurationScope;
 import org.eclipse.jface.dialogs.IMessageProvider;
 import org.eclipse.jface.dialogs.TitleAreaDialog;
 import org.eclipse.swt.SWT;
@@ -27,17 +23,8 @@ import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Control;
 import org.eclipse.swt.widgets.Label;
 import org.eclipse.swt.widgets.Text;
-import org.osgi.service.prefs.BackingStoreException;
-import org.osgi.service.prefs.Preferences;
 
 public class TranslateConfigurationDialog extends TitleAreaDialog {
-
-	private static final String CONFIGURATION_NODE_QUALIFIER = "it.uniba.di.cdg.xcore.econference.mt";
-	private static final String MT_CONFIG_PATH_NODE = "mt_";
-	private static final String MT_SERVICE_PROVIDER = "mt_service_provider";
-	private static final String MT_SERVICE_URL = "mt_service_url";
-	private static final String MT_USER_LANGUAGE = "mt_user_language";
-	private static final String MT_PREFERENCES_HASH = "mt_preference_hash";
 	private Services services = null;
 	private ISO639 iso = null;
 
@@ -149,67 +136,17 @@ public class TranslateConfigurationDialog extends TitleAreaDialog {
 		configuration.setUserLanguage(data.getUserLanguage());
 		configuration.setUrl(data.getUrl());
 
-		System.out.println("Storing MT preferences");
-		Preferences preferences = new ConfigurationScope()
-				.getNode(CONFIGURATION_NODE_QUALIFIER);
-		String userAccountId = NetworkPlugin.getDefault().getRegistry()
-				.getDefaultBackend().getUserId();
-		System.out.println("STORE: id: " + userAccountId);
-
-		Preferences connections = preferences.node(MT_CONFIG_PATH_NODE
-				+ userAccountId);
-		System.out.println("STORE: path node:" + MT_CONFIG_PATH_NODE
-				+ userAccountId);
-
-		Preferences connection = connections.node(MT_PREFERENCES_HASH);
-
-		connection.putInt(MT_SERVICE_PROVIDER, configuration.getService()
-				.ordinal());
-		connection.put(MT_SERVICE_URL, configuration.getUrl());
-		connection.put(MT_USER_LANGUAGE, configuration.getUserLanguage()
-				.getCode());
-		try {
-			connections.flush();
-		} catch (BackingStoreException e) {
-			System.err
-					.println("Error storing MT preferences. Next time defaults will be used.");
-			e.printStackTrace();
-		}
+		configuration.storeProperties();
 
 	}
 
-	private void loadProperties() {
+	public void loadProperties() {
 		System.out.println("TranslateConfigDialog.loadProperties()");
 		// loads default
 		TranslateConfiguration configuration = TranslatePlugin.getDefault()
 				.getConfiguration();
 
-		System.out.println("Loading entries");
-		Preferences preferences = new ConfigurationScope()
-				.getNode(CONFIGURATION_NODE_QUALIFIER);
-		String id = NetworkPlugin.getDefault().getRegistry()
-				.getDefaultBackend().getUserId();
-
-		Preferences connections = preferences.node(MT_CONFIG_PATH_NODE + id);
-		System.out.println("LOAD: path node: " + MT_CONFIG_PATH_NODE + id);
-		Preferences node = connections.node(MT_PREFERENCES_HASH);
-
-		System.out.println("LOAD: path node: " + node);
-
-		int mtServiceProvider = node.getInt(MT_SERVICE_PROVIDER, -1);
-		if (-1 != mtServiceProvider) {
-			ServiceType serviceType = services
-					.getServiceType(mtServiceProvider);
-			configuration.setService(serviceType);
-		}
-		String mtServiceUrl = node.get(MT_SERVICE_URL, null);
-		if (null != mtServiceUrl)
-			configuration.setUrl(mtServiceUrl);
-		String mtUserlLanguageCode = node.get(MT_USER_LANGUAGE, null);
-		if (null != mtUserlLanguageCode) {
-			Language userLang = new Language(mtUserlLanguageCode);			
-			configuration.setUserLanguage(userLang);
-		}
+		configuration.loadProperties();
 
 		setData(configuration);
 		checkUrl();
