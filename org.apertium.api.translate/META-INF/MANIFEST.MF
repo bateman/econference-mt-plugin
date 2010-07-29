@@ -13,9 +13,7 @@ Require-Bundle: org.eclipse.ui,
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Import-Package: it.uniba.di.cdg.xcore.aspects
-Bundle-ClassPath: lib/okapi-lib-0.4.1.jar,
- lib/okapi-lib-0.6-SNAPSHOT.jar,
- lib/snakeyaml-1.4.jar,
+Bundle-ClassPath: lib/snakeyaml-1.4.jar,
  lib/snakeyaml-1.5.jar,
  lib/stax-api-1.0.1.jar,
  lib/tikal.jar,
@@ -39,4 +37,5 @@ Bundle-ClassPath: lib/okapi-lib-0.4.1.jar,
  lib/lucene-core-2.9.0.jar,
  lib/lucene-core-3.0.0.jar,
  lib/lucene-spellchecker-2.9.0.jar,
- lib/lucene-spellchecker-3.0.0.jar
+ lib/lucene-spellchecker-3.0.0.jar,
+ lib/okapi-lib-0.8-SNAPSHOT.jar
