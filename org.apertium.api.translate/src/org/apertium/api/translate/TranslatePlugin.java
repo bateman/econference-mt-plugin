@@ -31,7 +31,7 @@ public class TranslatePlugin extends AbstractUIPlugin {
 
 		translator = new Translator();
 		configuration = new TranslateConfiguration();
-		configuration.loadProperties();
+		//configuration.loadProperties();
 
 		//TranslateConfigurationAction tca = new TranslateConfigurationAction();
 
