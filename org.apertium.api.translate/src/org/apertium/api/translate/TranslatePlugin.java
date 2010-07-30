@@ -1,6 +1,8 @@
 package org.apertium.api.translate;
 
 import it.uniba.di.cdg.xcore.network.NetworkPlugin;
+import it.uniba.di.cdg.xcore.network.events.BackendStatusChangeEvent;
+import it.uniba.di.cdg.xcore.network.events.IBackendEvent;
 import it.uniba.di.cdg.xcore.network.events.IBackendEventListener;
 import it.uniba.di.cdg.xcore.ui.views.ITalkView.ISendMessagelListener;
 
@@ -10,10 +12,12 @@ import java.util.List;
 import org.apertium.api.translate.actions.TranslateConfiguration;
 import org.apertium.api.translate.listeners.TranslateListener;
 import org.eclipse.jface.resource.ImageDescriptor;
+import org.eclipse.ui.IStartup;
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 import org.osgi.framework.BundleContext;
 
-public class TranslatePlugin extends AbstractUIPlugin {
+public class TranslatePlugin extends AbstractUIPlugin implements IStartup,
+		IBackendEventListener {
 
 	public static final String ID = "org.apertium.api.translate";
 
@@ -31,9 +35,6 @@ public class TranslatePlugin extends AbstractUIPlugin {
 
 		translator = new Translator();
 		configuration = new TranslateConfiguration();
-		//configuration.loadProperties();
-
-		//TranslateConfigurationAction tca = new TranslateConfigurationAction();
 
 		translateListeners = new LinkedList<IBackendEventListener>();
 		translateListeners.add(new TranslateListener());
@@ -83,8 +84,13 @@ public class TranslatePlugin extends AbstractUIPlugin {
 									.getDefaultBackendId(), listener);
 		}
 
-		// for (ISendMessagelListener listener : sendListeners) {
-		// }
+		NetworkPlugin
+				.getDefault()
+				.getHelper()
+				.registerBackendListener(
+						NetworkPlugin.getDefault().getRegistry()
+								.getDefaultBackendId(), this);
+
 	}
 
 	public void stop(BundleContext context) throws Exception {
@@ -99,8 +105,12 @@ public class TranslatePlugin extends AbstractUIPlugin {
 									.getDefaultBackendId(), listener);
 		}
 
-		// for (ISendMessagelListener listener : sendListeners) {
-		// }
+		NetworkPlugin
+				.getDefault()
+				.getHelper()
+				.unregisterBackendListener(
+						NetworkPlugin.getDefault().getRegistry()
+								.getDefaultBackendId(), this);
 
 		plugin = null;
 		super.stop(context);
@@ -124,5 +134,22 @@ public class TranslatePlugin extends AbstractUIPlugin {
 
 	public static ImageDescriptor getImageDescriptor(String path) {
 		return imageDescriptorFromPlugin(ID, path);
+	}
+
+	@Override
+	// TODO do we really need to implement IStartup to make sure the plugin is auto started?
+	public void earlyStartup() {
+		System.out.println("TranslatePlugin.earlyStartup()");
+	}
+
+	@Override
+	public void onBackendEvent(IBackendEvent event) {
+		if (event instanceof BackendStatusChangeEvent) {
+			BackendStatusChangeEvent bsce = (BackendStatusChangeEvent) event;
+			if (bsce.isOnline())
+				TranslatePlugin.getDefault().getConfiguration()
+						.loadProperties();
+		}
+
 	}
 }
