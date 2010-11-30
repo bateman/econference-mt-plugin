@@ -24,35 +24,54 @@
  * OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package org.apertium.api.translate;
+package org.apertium.api.translate.entity;
 
-import javax.swing.*;
-import java.awt.*;
+import it.uniba.di.cdg.xcore.m2m.service.MultiChatMessage;
 
-public class EntryRenderer extends JLabel implements ListCellRenderer {
+public class TranslateQuestion extends MultiChatMessage implements
+		ITranslateQuestion {
+	private String translatedText;
+	private String originalText;
+	private int index;
 
-	private static final long serialVersionUID = -8230366668996692971L;
-
-	public EntryRenderer() {
-		this.setOpaque(true);
+	public TranslateQuestion(String from, String translatedMessage,
+			String originalMessage, int questionIndex) {
+		super(null, from, translatedMessage);
+		translatedText = translatedMessage.replace("\n", " ");
+		originalText = originalMessage.replace("\n", " ");
+		index = questionIndex;
 	}
 
-	public Component getListCellRendererComponent(JList listbox, Object value, int index, boolean isSelected, boolean cellHasFocus) {
-		String pair = (String) value;
-
-		if (pair != null) {
-			this.setText(pair);
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see
+	 * org.apertium.api.translate.internal.ITranslateMessage#getTranslatedText()
+	 */
+	@Override
+	public String getTranslatedText() {
+		return translatedText;
+	}
+	public int getIndex() {
+		return index;
+	}
+	public String getOriginalText() {
+		if (originalText == null) {
+			return "";
 		}
-
-		if (isSelected) {
-			this.setBackground(UIManager.getColor("ComboBox.selectionBackground"));
-			this.setForeground(UIManager.getColor("ComboBox.selectionForeground"));
-		} else {
-			this.setBackground(UIManager.getColor("ComboBox.background"));
-			this.setForeground(UIManager.getColor("ComboBox.foreground"));
-		}
-
-		return this;
+		return originalText;
 	}
 
+
+	public boolean isNoTranslation() {
+		return (translatedText.equals(originalText));
+	}
+
+	@Override
+	public void setTranslatedText(String text) {
+		translatedText = text;
+		
+	}
+
+	
 }

@@ -24,35 +24,19 @@
  * OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package org.apertium.api.translate;
+package org.apertium.api.translate.entity;
 
-import javax.swing.*;
-import java.awt.*;
+import it.uniba.di.cdg.xcore.network.messages.IMessage;
 
-public class EntryRenderer extends JLabel implements ListCellRenderer {
+public interface ITranslateMessage extends IMessage {
 
-	private static final long serialVersionUID = -8230366668996692971L;
+	String getTranslatedText();
 
-	public EntryRenderer() {
-		this.setOpaque(true);
-	}
+	String getOriginalText();
 
-	public Component getListCellRendererComponent(JList listbox, Object value, int index, boolean isSelected, boolean cellHasFocus) {
-		String pair = (String) value;
+	boolean isPrivateMessage();
 
-		if (pair != null) {
-			this.setText(pair);
-		}
+	boolean isNoTranslation();
 
-		if (isSelected) {
-			this.setBackground(UIManager.getColor("ComboBox.selectionBackground"));
-			this.setForeground(UIManager.getColor("ComboBox.selectionForeground"));
-		} else {
-			this.setBackground(UIManager.getColor("ComboBox.background"));
-			this.setForeground(UIManager.getColor("ComboBox.foreground"));
-		}
-
-		return this;
-	}
-
+	boolean isSystemMessage();
 }

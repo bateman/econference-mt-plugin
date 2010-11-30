@@ -24,35 +24,12 @@
  * OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package org.apertium.api.translate;
+package org.apertium.api.translate.listeners;
 
-import javax.swing.*;
-import java.awt.*;
+import it.uniba.di.cdg.xcore.m2m.service.IMessageReceivedListener;
 
-public class EntryRenderer extends JLabel implements ListCellRenderer {
+import org.apertium.api.translate.entity.ITranslateMessage;
 
-	private static final long serialVersionUID = -8230366668996692971L;
-
-	public EntryRenderer() {
-		this.setOpaque(true);
-	}
-
-	public Component getListCellRendererComponent(JList listbox, Object value, int index, boolean isSelected, boolean cellHasFocus) {
-		String pair = (String) value;
-
-		if (pair != null) {
-			this.setText(pair);
-		}
-
-		if (isSelected) {
-			this.setBackground(UIManager.getColor("ComboBox.selectionBackground"));
-			this.setForeground(UIManager.getColor("ComboBox.selectionForeground"));
-		} else {
-			this.setBackground(UIManager.getColor("ComboBox.background"));
-			this.setForeground(UIManager.getColor("ComboBox.foreground"));
-		}
-
-		return this;
-	}
-
+public interface IMTMessagegeReceivedListener extends IMessageReceivedListener {
+	void privateMessageReceived(ITranslateMessage message);
 }

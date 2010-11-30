@@ -33,11 +33,123 @@
      <category
         id="TranslateViews"
         name="TranslateViews"
-        parentCategory="econferenceViews"/>
+        parentCategory="multiChatViews"/>
+     <view
+           allowMultiple="true"
+           category="TranslateViews"
+           class="org.apertium.api.translate.views.TranslateOne2OneView"
+           icon="icons/translate_16.png"
+           id="org.apertium.api.translate.TranslateOne2OneView"
+           name="Ongoing Talk"
+           restorable="true">
+     </view>
+     <view
+           allowMultiple="false"
+           category="TranslateViews"
+           class="org.apertium.api.translate.views.TranslateM2Mview"
+           icon="icons/translate_16.png"
+           id="org.apertium.api.translate.views.TranslateM2Mview"
+           name="ChatRoomTranslations "
+           restorable="true">
+     </view>
+     <view
+           allowMultiple="false"
+           category="econferenceViews"
+           class="org.apertium.api.translate.views.TranslateWhiteBoardView"
+           icon="icons/view_decisions_place.png"
+           id="org.apertium.api.translate.views.TranslateWhiteBoardView"
+           name="TranslateWhiteBoard"
+           restorable="true">
+     </view>
+     <view
+           allowMultiple="false"
+           category="econferenceViews"
+           class="org.apertium.api.translate.views.TranslateM2MHandRaiseView"
+           icon="icons/view_hr.png"
+           id="org.apertium.api.translate.views.TranslateM2MHandRaiseView"
+           name="TranslateHandRaise"
+           restorable="true">
+     </view>
   </extension>
   <extension
         point="org.eclipse.ui.startup">     
 		<startup class="org.apertium.api.translate.TranslatePlugin" />
+  </extension>
+  <extension
+        point="org.eclipse.ui.perspectiveExtensions">
+     <perspectiveExtension
+           targetID="it.uniba.di.cdg.xcore.one2one.ui.chatPerspective">
+        <showInPart
+              id="it.uniba.di.cdg.xcore.ui.views.talkView">
+        </showInPart>
+        <view
+              closeable="true"
+              id="org.apertium.api.translate.TranslateOne2OneView"
+              minimized="false"
+              moveable="true"
+              ratio="0.25f"
+              relationship="stack"
+              relative="it.uniba.di.cdg.xcore.econference.ui.views.storedEventsView"
+              showTitle="true"
+              standalone="false"
+              visible="true">
+        </view>
+     </perspectiveExtension>
+     <perspectiveExtension
+           targetID="it.uniba.di.cdg.xcore.m2m.ui.multiChatPerspective">
+        <showInPart
+              id="it.uniba.di.cdg.xcore.m2m.ui.views.multiChatTalkView">
+        </showInPart>
+        <view
+              id="org.apertium.api.translate.views.TranslateM2Mview"
+              minimized="false"
+              relationship="stack"
+              relative="it.uniba.di.cdg.xcore.m2m.ui.views.multiChatTalkView">
+        </view>
+        <showInPart
+              id="it.uniba.di.cdg.xcore.econference.ui.views.whiteBoardView">
+        </showInPart>
+        <view
+              id="org.apertium.api.translate.views.TranslateWhiteBoardView"
+              minimized="false"
+              relationship="stack"
+              relative="it.uniba.di.cdg.xcore.econference.ui.views.whiteBoardView">
+        </view>
+        <view
+              id="org.apertium.api.translate.views.TranslateM2MHandRaiseView"
+              minimized="false"
+              relationship="stack"
+              relative="it.uniba.di.cdg.xcore.econference.ui.views.handRaisingView">
+        </view>
+     </perspectiveExtension>
+  </extension>
+  <extension
+        point="org.eclipse.ui.menus">
+     <menuContribution
+           locationURI="toolbar:org.apertium.api.translate.views.TranslateM2Mview">
+        <command
+              commandId="it.uniba.di.cdg.xcore.m2m.multiCallChatCommand"
+              disabledIcon="icons/call-group-disabled20x20.png"
+              hoverIcon="icons/call-group-hover20x20.png"
+              icon="icons/call-group-enabled20x20.png"
+              label="Call group / End call"
+              style="push"
+              tooltip="Call group / End call">
+        </command>
+     </menuContribution>
+  </extension>
+  <extension
+        point="org.eclipse.ui.handlers">
+     <handler
+           class="it.uniba.di.cdg.xcore.m2m.ui.views.commands.MultiCallChatCommandHandler"
+           commandId="it.uniba.di.cdg.xcore.m2m.multiCallChatCommand">
+        <enabledWhen>
+           <systemTest
+                 property="econference.currentbackend"
+                 value="Skype">
+           </systemTest>
+        </enabledWhen>
+     </handler>
   </extension>
 
 <!--

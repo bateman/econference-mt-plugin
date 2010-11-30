@@ -9,10 +9,17 @@ Require-Bundle: org.eclipse.ui,
  it.uniba.di.cdg.xcore.network,
  org.eclipse.core.runtime,
  org.aspectj.runtime,
- org.jivesoftware.smack
+ org.jivesoftware.smack,
+ it.uniba.di.cdg.xcore.m2m,
+ it.uniba.di.cdg.xcore.econference
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
-Import-Package: it.uniba.di.cdg.xcore.aspects
+Import-Package: it.uniba.di.cdg.xcore.aspects,
+ it.uniba.di.cdg.xcore.econference,
+ it.uniba.di.cdg.xcore.econference.internal,
+ it.uniba.di.cdg.xcore.econference.ui.views,
+ it.uniba.di.cdg.xcore.m2m.ui.views,
+ it.uniba.di.cdg.xcore.one2one
 Bundle-ClassPath: lib/snakeyaml-1.4.jar,
  lib/snakeyaml-1.5.jar,
  lib/stax-api-1.0.1.jar,
@@ -39,3 +46,4 @@ Bundle-ClassPath: lib/snakeyaml-1.4.jar,
  lib/lucene-spellchecker-2.9.0.jar,
  lib/lucene-spellchecker-3.0.0.jar,
  lib/okapi-lib-0.8-SNAPSHOT.jar
+Export-Package: org.apertium.api.translate.entity

@@ -24,35 +24,20 @@
  * OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package org.apertium.api.translate;
+package org.apertium.api.translate.views;
 
-import javax.swing.*;
-import java.awt.*;
+import it.uniba.di.cdg.xcore.econference.ui.views.IHandRaisingView;
 
-public class EntryRenderer extends JLabel implements ListCellRenderer {
+import org.apertium.api.translate.entity.ITranslateQuestion;
 
-	private static final long serialVersionUID = -8230366668996692971L;
+public interface ITranslateM2MHandRaiseView extends IHandRaisingView {
+	void addTranslatedQuestion(ITranslateQuestion message);
 
-	public EntryRenderer() {
-		this.setOpaque(true);
-	}
+	ITranslateQuestion getTranslatedQuestion(int index);
 
-	public Component getListCellRendererComponent(JList listbox, Object value, int index, boolean isSelected, boolean cellHasFocus) {
-		String pair = (String) value;
+	void removeTranslateQuestion(int index);
 
-		if (pair != null) {
-			this.setText(pair);
-		}
+	boolean isTranslationON();
 
-		if (isSelected) {
-			this.setBackground(UIManager.getColor("ComboBox.selectionBackground"));
-			this.setForeground(UIManager.getColor("ComboBox.selectionForeground"));
-		} else {
-			this.setBackground(UIManager.getColor("ComboBox.background"));
-			this.setForeground(UIManager.getColor("ComboBox.foreground"));
-		}
-
-		return this;
-	}
-
+	void setTranslationOFF();
 }

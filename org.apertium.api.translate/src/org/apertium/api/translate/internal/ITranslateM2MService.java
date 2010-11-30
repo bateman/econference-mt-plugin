@@ -24,35 +24,24 @@
  * OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package org.apertium.api.translate;
+package org.apertium.api.translate.internal;
 
-import javax.swing.*;
-import java.awt.*;
+import it.uniba.di.cdg.xcore.econference.IEConferenceService;
 
-public class EntryRenderer extends JLabel implements ListCellRenderer {
+import org.apertium.api.translate.listeners.IMTMessagegeReceivedListener;
+import org.apertium.api.translate.views.TranslateM2MHandRaiseView;
+import org.apertium.api.translate.views.TranslateM2Mview;
+import org.apertium.api.translate.views.TranslateWhiteBoardView;
 
-	private static final long serialVersionUID = -8230366668996692971L;
+public interface ITranslateM2MService extends IEConferenceService {
 
-	public EntryRenderer() {
-		this.setOpaque(true);
-	}
+	void setTranslateM2MView(TranslateM2Mview talkView);
 
-	public Component getListCellRendererComponent(JList listbox, Object value, int index, boolean isSelected, boolean cellHasFocus) {
-		String pair = (String) value;
+	void setTranslateWhiteBoardView(TranslateWhiteBoardView view);
 
-		if (pair != null) {
-			this.setText(pair);
-		}
+	void addMessageMTReceivedListener(IMTMessagegeReceivedListener listener);
 
-		if (isSelected) {
-			this.setBackground(UIManager.getColor("ComboBox.selectionBackground"));
-			this.setForeground(UIManager.getColor("ComboBox.selectionForeground"));
-		} else {
-			this.setBackground(UIManager.getColor("ComboBox.background"));
-			this.setForeground(UIManager.getColor("ComboBox.foreground"));
-		}
+	void removeMessageMTReceivedListener(IMTMessagegeReceivedListener listener);
 
-		return this;
-	}
-
+	void setTranslateHandRaiseView(TranslateM2MHandRaiseView view);
 }

@@ -24,35 +24,10 @@
  * OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package org.apertium.api.translate;
+package org.apertium.api.translate.internal;
 
-import javax.swing.*;
-import java.awt.*;
+import it.uniba.di.cdg.xcore.econference.IEConferenceManager;
 
-public class EntryRenderer extends JLabel implements ListCellRenderer {
-
-	private static final long serialVersionUID = -8230366668996692971L;
-
-	public EntryRenderer() {
-		this.setOpaque(true);
-	}
-
-	public Component getListCellRendererComponent(JList listbox, Object value, int index, boolean isSelected, boolean cellHasFocus) {
-		String pair = (String) value;
-
-		if (pair != null) {
-			this.setText(pair);
-		}
-
-		if (isSelected) {
-			this.setBackground(UIManager.getColor("ComboBox.selectionBackground"));
-			this.setForeground(UIManager.getColor("ComboBox.selectionForeground"));
-		} else {
-			this.setBackground(UIManager.getColor("ComboBox.background"));
-			this.setForeground(UIManager.getColor("ComboBox.foreground"));
-		}
-
-		return this;
-	}
-
+public interface ITranslateM2MManager extends IEConferenceManager {
+	public ITranslateM2MService getService();
 }
