@@ -1,4 +1,3 @@
-
 /**
  * This file is part of the eConference project and it is distributed under the 
 
@@ -110,29 +109,23 @@ public class TranslateWhiteBoardView extends WhiteBoardView {
 	}
 
 	private boolean isCursorCloseToWord() {
-		/*
+
 		Point point = whiteBoardText.getDisplay().getCursorLocation();
 		Point viewLocation = whiteBoardText.toDisplay(whiteBoardText
 				.getLocation());
-		
+
 		Point viewPoint = new Point(Math.abs(point.x - viewLocation.x),
 				Math.abs(point.y - viewLocation.y));
-		//int index = whiteBoardText.getLineIndex(viewPoint.y);
-		
+
+		int offset = -1;
+		try {
+			offset = whiteBoardText.getOffsetAtLocation(viewPoint);
+		} catch (Exception e) {
+			offset = -1;
+		}
+
 		if (originalWhiteBoardMessage != null
-				&& !originalWhiteBoardMessage.isNoTranslation()
-				&& index >= 0
-				&& index < whiteBoardText.getLineCount()
-				&& !whiteBoardText.getText().equals("")
-				&& ((index < whiteBoardText.getLineCount() - 1) || ((index == whiteBoardText
-						.getLineCount() - 1) && viewPoint.y <= whiteBoardText
-						.getLineHeight()))) {
-			*/
-			
-			
-		//if (whiteBoardText.getOffsetAtLocation(viewPoint) < whiteBoardText.getText().length()
-				if ( originalWhiteBoardMessage != null
-				&& !originalWhiteBoardMessage.isNoTranslation()) {
+				&& !originalWhiteBoardMessage.isNoTranslation() && offset > -1) {
 			return true;
 		} else {
 			return false;
@@ -143,19 +136,13 @@ public class TranslateWhiteBoardView extends WhiteBoardView {
 	private void openPopUp(final Shell shell) {
 
 		closePopUp();
-
-		Point point = shell.getDisplay().getCursorLocation();
-		ITranslateMessage message = getUntranslatedString(point);
-		int y = whiteBoardText.toDisplay(point.x, whiteBoardText
-				.getLinePixel(whiteBoardText.getLineIndex(point.y))).y;
-
-		if (point.y - y <= whiteBoardText.getLineHeight() && message != null
-				&& !message.getOriginalText().equals("")) {
-
-			infoPopUp = new InfoPopUp(shell, point, new Point(300, 250),
-					new Point(600, 500), message);
+		if (isCursorCloseToWord()) {
+			infoPopUp = new InfoPopUp(shell, shell.getDisplay()
+					.getCursorLocation(), new Point(300, 250), new Point(600,
+					500), originalWhiteBoardMessage);
 			infoPopUp.open();
 		}
+
 
 	}
 
@@ -164,21 +151,6 @@ public class TranslateWhiteBoardView extends WhiteBoardView {
 		if (infoPopUp != null) {
 			infoPopUp.close();
 		}
-	}
-
-	private ITranslateMessage getUntranslatedString(Point location) {
-
-		ITranslateMessage originalString = null;
-		int index = whiteBoardText.getLineIndex(whiteBoardText
-				.toControl(location).y);
-		if (!whiteBoardText.getText().equals("")
-				&& index < whiteBoardText.getText().split("/n").length
-				&& index >= 0
-				&& !whiteBoardText.getText().equals(
-						originalWhiteBoardMessage.getOriginalText())) {
-			originalString = originalWhiteBoardMessage;
-		}
-		return originalString;
 	}
 
 	private void setWhiteBoard() {

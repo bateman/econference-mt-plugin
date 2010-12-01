@@ -62,9 +62,8 @@ public class TranslateM2MHandRaiseView extends HandRaisingView implements
 	}
 	
 	public void createPartControl(Composite parent) {
-		
-		super.createPartControl(parent);
 		makeTranslateAction();
+		super.createPartControl(parent);
 		questionViewer.getTable().addMouseListener(new MouseListener() {
 
 			@Override
@@ -89,22 +88,23 @@ public class TranslateM2MHandRaiseView extends HandRaisingView implements
 
 			@Override
 			public void mouseMove(MouseEvent e) {
-			/*	Point point = questionViewer.getTable().getDisplay()
+				Point point = questionViewer.getTable().getDisplay()
 						.getCursorLocation();
 				Point viewLocation = questionViewer.getTable().toDisplay(
 						questionViewer.getTable().getLocation());
 				Point viewPoint = new Point(Math.abs(point.x - viewLocation.x),
 						Math.abs(point.y - viewLocation.y));
 				TableItem item = questionViewer.getTable().getItem(viewPoint);
-				if (item == null && !translatedQuestions.get(questionViewer.getTable().indexOf(item)).isNoTranslation()) {
+				
+				if (item != null && !translatedQuestions.get(questionViewer.getTable().indexOf(item)).isNoTranslation()) {
 					Cursor helpCursor = new Cursor(questionViewer.getTable()
-							.getDisplay(), SWT.CURSOR_ARROW);
+							.getDisplay(), SWT.CURSOR_HELP);
 					questionViewer.getTable().setCursor(helpCursor);
 				} else {
 					questionViewer.getTable().setCursor(
 							new Cursor(questionViewer.getTable().getDisplay(),
-									SWT.CURSOR_HELP));
-				}*/
+									SWT.CURSOR_ARROW));
+				}
 			}
 		});
 		
