@@ -32,6 +32,8 @@ import it.uniba.di.cdg.xcore.network.model.tv.ITalkModel;
 import it.uniba.di.cdg.xcore.network.model.tv.ITalkModelListener;
 
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
 
@@ -94,9 +96,15 @@ public class TranslateM2Mview extends MultiChatTalkView implements
 
 	}
 
-	private void appendMessage(TranslateMultiChatMessage message,
-			String oldThread) {
+	private void appendMessage(ITranslateMessage message, String oldThread) {
 		addOriginalPhrase(message, oldThread);
+
+		// In the product eConference the incoming private message aren't added
+		// in the model
+		// so with this if-then i preserve the orginal behavior.
+		if (!message.isPrivateMessage()) {
+			model.addEntry(oldThread, makeEntry(message));
+		}
 
 		append(buildMessageToPrint(message));
 
@@ -298,16 +306,37 @@ public class TranslateM2Mview extends MultiChatTalkView implements
 		switchAction();
 	}
 
-	@Override
-	public boolean isSaveOnCloseNeeded() {
-		return false;
-	}
+	// @Override
+	// public boolean isSaveOnCloseNeeded() {
+	// return false;
+	// }
 
 	public void appendMessage(ITranslateMessage message) {
 		addOriginalPhrase(message);
-
+		// In the product eConference the incoming private message aren't added
+		// in the model
+		// so with this if-then i preserve the orginal behavior.
+		if (!message.isPrivateMessage()) {
+			model.addEntry(makeEntry(message));
+		}
 		append(buildMessageToPrint(message));
 
+	}
+
+	protected Entry makeEntry(ITranslateMessage message) {
+		final Date now = Calendar.getInstance().getTime();
+
+		Entry entry = new Entry();
+		entry.setTimestamp(now);
+
+		entry.setText(message.getTranslatedText());
+
+		if (message.isSystemMessage() || message.isPrivateMessage()) {
+			entry.setWho("***");
+		} else {
+			entry.setWho(message.getFrom());
+		}
+		return entry;
 	}
 
 	private String buildMessageToPrint(ITranslateMessage message) {
@@ -352,4 +381,5 @@ public class TranslateM2Mview extends MultiChatTalkView implements
 
 		appendMessage(message);
 	}
+
 }

@@ -24,13 +24,8 @@
  * OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package org.apertium.api.translate.internal;
+package org.apertium.api.translate.actions;
 
-import org.apertium.api.translate.actions.ILanguageUpdateListener;
-
-import it.uniba.di.cdg.xcore.econference.IEConferenceManager;
-
-public interface ITranslateM2MManager extends IEConferenceManager,
-		ILanguageUpdateListener {
-	public ITranslateM2MService getService();
+public interface ILanguageUpdateListener {
+	void notifyLanguageUpdate();
 }

@@ -27,13 +27,15 @@
 package org.apertium.api.translate.internal;
 
 import it.uniba.di.cdg.xcore.econference.IEConferenceService;
+import it.uniba.di.cdg.xcore.network.events.IBackendEventListener;
 
 import org.apertium.api.translate.listeners.IMTMessagegeReceivedListener;
 import org.apertium.api.translate.views.TranslateM2MHandRaiseView;
 import org.apertium.api.translate.views.TranslateM2Mview;
 import org.apertium.api.translate.views.TranslateWhiteBoardView;
 
-public interface ITranslateM2MService extends IEConferenceService {
+public interface ITranslateM2MService extends IEConferenceService,
+		IBackendEventListener {
 
 	void setTranslateM2MView(TranslateM2Mview talkView);
 
@@ -44,4 +46,6 @@ public interface ITranslateM2MService extends IEConferenceService {
 	void removeMessageMTReceivedListener(IMTMessagegeReceivedListener listener);
 
 	void setTranslateHandRaiseView(TranslateM2MHandRaiseView view);
+
+	void notifyLanguageUpdate();
 }

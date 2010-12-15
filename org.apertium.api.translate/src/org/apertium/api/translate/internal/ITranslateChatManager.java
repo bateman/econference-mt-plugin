@@ -28,9 +28,6 @@ package org.apertium.api.translate.internal;
 
 import org.apertium.api.translate.actions.ILanguageUpdateListener;
 
-import it.uniba.di.cdg.xcore.econference.IEConferenceManager;
+public interface ITranslateChatManager extends ILanguageUpdateListener {
 
-public interface ITranslateM2MManager extends IEConferenceManager,
-		ILanguageUpdateListener {
-	public ITranslateM2MService getService();
 }

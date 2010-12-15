@@ -143,7 +143,6 @@ public class TranslateWhiteBoardView extends WhiteBoardView {
 			infoPopUp.open();
 		}
 
-
 	}
 
 	private void closePopUp() {
@@ -196,8 +195,8 @@ public class TranslateWhiteBoardView extends WhiteBoardView {
 		switchAction();
 	}
 
-	@Override
-	public boolean isSaveOnCloseNeeded() {
-		return false;
-	}
+	// @Override
+	// public boolean isSaveOnCloseNeeded() {
+	// return false;
+	// }
 }

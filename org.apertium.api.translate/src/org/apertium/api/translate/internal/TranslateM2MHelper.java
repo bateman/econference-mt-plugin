@@ -42,6 +42,7 @@ import org.eclipse.ui.PlatformUI;
 public class TranslateM2MHelper extends EConferenceHelper implements
 		ITranslateM2MHelper {
 
+	private ITranslateM2MManager managerMT;
 	public TranslateM2MHelper(IUIHelper uihelper,
 			INetworkBackendHelper backendHelper) {
 		super(uihelper, backendHelper);
@@ -77,8 +78,8 @@ public class TranslateM2MHelper extends EConferenceHelper implements
 					shell.setSize(previousSize);
 				}
 			});
-
 			manager.open(context, true);
+			//manager.open(context, autojoin);
 		} catch (Exception e) {
 			e.printStackTrace();
 			uihelper.showErrorMessage("Could not start eConference: "
@@ -87,11 +88,18 @@ public class TranslateM2MHelper extends EConferenceHelper implements
 			// Close this perspective since it is unuseful ...
 			uihelper.closeCurrentPerspective();
 		}
+		managerMT = manager;
 		return manager;
 	}
 
 	public ITranslateM2MHelper instantiateNewHelper(IUIHelper uihelper,
 			INetworkBackendHelper backendHelper) {
 		return new TranslateM2MHelper(uihelper, backendHelper);
+	}
+	public void dispose() {
+		super.dispose();
+//		if (managerMT != null && managerMT.getService() != null) {
+//			NetworkPlugin.getDefault().getHelper().unregisterBackendListener(managerMT.getService());
+//		}
 	}
 }

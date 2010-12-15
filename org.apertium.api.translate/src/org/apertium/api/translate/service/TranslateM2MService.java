@@ -102,6 +102,7 @@ public class TranslateM2MService extends EConferenceService implements
 	private final static String LANGUAGE = "language";
 	private static final String TRANSLATIONSERVICEERROR = "The resource you chose is not available. The translation feature will be disabled";
 	private static final String LANGUAGE_USER = "languageuser";
+	private static final String LANGUAGE_UPDATE = "languageUpdate";
 
 	public TranslateM2MService(EConferenceContext context, IBackend backend) {
 		super(context, backend);
@@ -719,10 +720,32 @@ public class TranslateM2MService extends EConferenceService implements
 					updateNotTranslatedMessages(user);
 					updateNotTranslatedWhiteBoardText(user);
 					updateNotTranslatedQuestion(user);
+				} else {
+					if (mcepe.getExtensionName().equals(LANGUAGE_UPDATE)) {
+						updateLanguage(mcepe);
+					}
 				}
+
 			}
 
 		}
+
+	}
+
+	// Update the language
+	private void updateLanguage(MultiChatExtensionProtocolEvent mcepe) {
+		TranslateConfiguration c = TranslatePlugin.getDefault()
+				.getConfiguration();
+		String destCode = (String) mcepe.getExtensionParameter(LANGUAGE);
+		String user = (String) mcepe.getExtensionParameter(LANGUAGE_USER);
+
+		LanguagePair lp = new LanguagePair(c.getUserLanguage(), new Language(
+				destCode));
+
+		buddiesLenguages.put(mcepe.getFrom(), lp);
+
+		// The private message has a different "sender"
+		buddiesLenguages.put(user, lp);
 
 	}
 
@@ -799,6 +822,20 @@ public class TranslateM2MService extends EConferenceService implements
 	public void removeMessageMTReceivedListener(
 			IMTMessagegeReceivedListener listener) {
 		messageMTReceivedListeners.remove(listener);
+	}
+
+	@Override
+	public void notifyLanguageUpdate() {
+		IBackend b = NetworkPlugin.getDefault().getRegistry()
+				.getDefaultBackend();
+		IMultiChatServiceActions chat = b.getMultiChatServiceAction();
+		HashMap<String, String> param = new HashMap<String, String>();
+		TranslateConfiguration c = TranslatePlugin.getDefault()
+				.getConfiguration();
+		param.put(LANGUAGE, c.getUserLanguage().getCode());
+		param.put(LANGUAGE_USER, getLocalUserId());
+		chat.SendExtensionProtocolMessage(LANGUAGE_UPDATE, param);
+
 	}
 
 }

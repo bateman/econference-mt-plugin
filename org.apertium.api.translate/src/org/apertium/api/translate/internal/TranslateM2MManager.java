@@ -41,22 +41,30 @@ import it.uniba.di.cdg.xcore.m2m.model.IParticipant.Role;
 import it.uniba.di.cdg.xcore.m2m.service.IInvitationRejectedListener;
 import it.uniba.di.cdg.xcore.m2m.service.MultiChatContext;
 import it.uniba.di.cdg.xcore.m2m.service.UserStatusAdapter;
-import it.uniba.di.cdg.xcore.m2m.ui.MultiChatPerspective;
 import it.uniba.di.cdg.xcore.m2m.ui.views.ChatRoomView;
 import it.uniba.di.cdg.xcore.m2m.ui.views.IChatRoomView;
 import it.uniba.di.cdg.xcore.m2m.ui.views.IMultiChatTalkView;
 import it.uniba.di.cdg.xcore.network.BackendException;
 import it.uniba.di.cdg.xcore.network.IBackend;
+import it.uniba.di.cdg.xcore.network.events.BackendStatusChangeEvent;
+import it.uniba.di.cdg.xcore.network.events.IBackendEvent;
+import it.uniba.di.cdg.xcore.network.events.IBackendEventListener;
 import it.uniba.di.cdg.xcore.network.model.tv.ITalkModel;
+import it.uniba.di.cdg.xcore.ui.UiPlugin;
 import it.uniba.di.cdg.xcore.ui.views.ITalkView.ISendMessagelListener;
 
+import org.apertium.api.translate.MTPerspective;
+import org.apertium.api.translate.TranslatePlugin;
 import org.apertium.api.translate.entity.TranslateMultiChatMessage;
 import org.apertium.api.translate.service.TranslateM2MService;
 import org.apertium.api.translate.views.TranslateM2MHandRaiseView;
 import org.apertium.api.translate.views.TranslateM2Mview;
 import org.apertium.api.translate.views.TranslateWhiteBoardView;
+import org.eclipse.ui.IPerspectiveDescriptor;
+import org.eclipse.ui.IPerspectiveListener3;
 import org.eclipse.ui.IViewPart;
-import org.eclipse.ui.PartInitException;
+import org.eclipse.ui.IWorkbenchPage;
+import org.eclipse.ui.IWorkbenchPartReference;
 import org.eclipse.ui.WorkbenchException;
 
 @SuppressWarnings("restriction")
@@ -103,6 +111,80 @@ public class TranslateM2MManager extends EConferenceManager implements
 			}
 		}
 	};
+	private IPerspectiveListener3 perspectiveListenerMT = new IPerspectiveListener3() {
+
+		public void perspectiveOpened(IWorkbenchPage page,
+				IPerspectiveDescriptor perspective) {
+			System.out.println(String.format("perspectiveOpened( %s )",
+					perspective.getId()));
+		}
+
+		public void perspectiveClosed(IWorkbenchPage page,
+				IPerspectiveDescriptor perspective) {
+			// The user has requested the perspective to be closed ... so
+			// let's clean-up all
+			if (page == getWorkbenchWindow().getActivePage()
+					&& MTPerspective.ID.equals(perspective.getId())) {
+				// Ask the user to save views even when the perspective is
+				// closed (by default the
+				// eclipse framework asks only when closing the whole app,
+				// see BR #43).
+
+				// page.saveAllEditors( true );
+
+				// close perspective means leave the room
+				// service.leave(); It's called in close()
+				close();
+				System.out.println(String.format("perspectiveClosed( %s )",
+						perspective.getId()));
+			}
+		}
+
+		public void perspectiveDeactivated(IWorkbenchPage page,
+				IPerspectiveDescriptor perspective) {
+			// System.out.println( String.format(
+			// "perspectiveDeactivated( %s )", perspective.getId() ) );
+		}
+
+		public void perspectiveSavedAs(IWorkbenchPage page,
+				IPerspectiveDescriptor oldPerspective,
+				IPerspectiveDescriptor newPerspective) {
+			// System.out.println( String.format( "perspectiveSaveAs()") );
+		}
+
+		public void perspectiveChanged(IWorkbenchPage page,
+				IPerspectiveDescriptor perspective,
+				IWorkbenchPartReference partRef, String changeId) {
+			// System.out.println( String.format(
+			// "perspectiveChanged( %s )", perspective.getId() ) );
+		}
+
+		public void perspectiveActivated(IWorkbenchPage page,
+				IPerspectiveDescriptor perspective) {
+			// System.out.println( String.format(
+			// "perspectiveActivated( %s )", perspective.getId() ) );
+		}
+
+		public void perspectiveChanged(IWorkbenchPage page,
+				IPerspectiveDescriptor perspective, String changeId) {
+			// System.out.println( String.format(
+			// "perspectiveChanged( %s )", perspective.getId() ) );
+		}
+	};
+	protected IBackendEventListener backendListenerMT = new IBackendEventListener() {
+        public void onBackendEvent( IBackendEvent event ) {
+            if (event instanceof BackendStatusChangeEvent) {
+                BackendStatusChangeEvent changeEvent = (BackendStatusChangeEvent) event;
+                if (!changeEvent.isOnline())
+                    UiPlugin.getUIHelper().closePerspective( MTPerspective.ID );
+            }
+        }
+    };
+	public TranslateM2MManager() {
+		super();
+
+		
+	}
 
 	public void open(MultiChatContext context, boolean autojoin)
 			throws Exception {
@@ -119,18 +201,10 @@ public class TranslateM2MManager extends EConferenceManager implements
 		}
 	}
 
-	public void close() {
-		super.close();
-		workbenchWindow.getActivePage().hideView((IViewPart) talkView);
-		workbenchWindow.getActivePage().hideView((IViewPart) whiteBoardView);
-		workbenchWindow.getActivePage().hideView( (IViewPart) handRaisingView );
-
-	}
-
 	protected void setupUI() throws WorkbenchException {
 		// Switch to the multichat perspective too ...
-		getUihelper().switchPerspective(MultiChatPerspective.ID);
-		
+		getUihelper().switchPerspective(MTPerspective.ID);
+
 		// Create the view part for this user (we can have one for each user we
 		// are chatting with
 		// and the secondary id is what we give to the framework to distinguish
@@ -140,8 +214,6 @@ public class TranslateM2MManager extends EConferenceManager implements
 		IViewPart chatRoomViewPart = (IViewPart) workbenchWindow
 				.getActivePage().findView(ChatRoomView.ID);
 
-		
-		
 		// Setup the talk view: it must be able to display incoming messages
 		// (both local and from network service)
 		// and from
@@ -149,8 +221,9 @@ public class TranslateM2MManager extends EConferenceManager implements
 		talkView.setTitleText(context.getRoom());
 		talkView.setModel(getService().getTalkModel());
 
-		//((TranslateM2MService) service).setTranslateM2MView((TranslateM2Mview) talkView);
-		
+		// ((TranslateM2MService)
+		// service).setTranslateM2MView((TranslateM2Mview) talkView);
+
 		roomView = (IChatRoomView) chatRoomViewPart;
 		roomView.setManager(this);
 
@@ -173,26 +246,59 @@ public class TranslateM2MManager extends EConferenceManager implements
 		// special role than it will be set read-write
 		whiteBoardView.setReadOnly(true);
 
-		
-		//((TranslateM2MService) service).setTranslateWhiteBoardView((TranslateWhiteBoardView) whiteBoardView);
-		
+		// ((TranslateM2MService)
+		// service).setTranslateWhiteBoardView((TranslateWhiteBoardView)
+		// whiteBoardView);
+
 		// Hand raising panel is for all: context menu actions will be disabled
 		// using the
 		// actions' enablements provided by the plugin.xml and the adapter
 		// factory
-		
-		//viewPart = getWorkbenchWindow().getActivePage().showView(HandRaisingView.ID);
-		viewPart = getWorkbenchWindow().getActivePage().showView(TranslateM2MHandRaiseView.ID);
+
+		// viewPart =
+		// getWorkbenchWindow().getActivePage().showView(HandRaisingView.ID);
+		viewPart = getWorkbenchWindow().getActivePage().showView(
+				TranslateM2MHandRaiseView.ID);
 		handRaisingView = (IHandRaisingView) viewPart;
 		handRaisingView.setManager(this);
 
-		//((TranslateM2MService) service).setTranslateHandRaiseView((TranslateM2MHandRaiseView) handRaisingView);
-		
+		// ((TranslateM2MService)
+		// service).setTranslateHandRaiseView((TranslateM2MHandRaiseView)
+		// handRaisingView);
+
 		// By default user can chat freely before the conference is started
 		getTalkView().setReadOnly(false);
 		// Display that there is free talk ongoing
 		getTalkView().setTitleText(FREE_TALK_NOW_MESSAGE);
 
+		
+		
+//		try {
+
+			TranslateM2MService m2mService = (TranslateM2MService) service;
+			
+			m2mService.setTranslateM2MView((TranslateM2Mview) talkView);
+//			m2mService.setTranslateM2MView((TranslateM2Mview) workbenchWindow
+//					.getActivePage().showView(TranslateM2Mview.ID));
+
+			
+			m2mService.setTranslateWhiteBoardView((TranslateWhiteBoardView) whiteBoardView);
+			
+//			m2mService
+//					.setTranslateWhiteBoardView((TranslateWhiteBoardView) workbenchWindow
+//							.getActivePage().showView(
+//									TranslateWhiteBoardView.ID));
+			
+			m2mService.setTranslateHandRaiseView((TranslateM2MHandRaiseView) handRaisingView);
+			
+//			m2mService
+//					.setTranslateHandRaiseView((TranslateM2MHandRaiseView) workbenchWindow
+//							.getActivePage().showView(
+//									TranslateM2MHandRaiseView.ID));
+			
+//		} catch (PartInitException e) {
+//
+//		}
 		// Ensure that the focus is switched to this new chat
 		((IViewPart) getTalkView()).setFocus();
 	}
@@ -202,27 +308,13 @@ public class TranslateM2MManager extends EConferenceManager implements
 				getContext().getBackendId());
 		ITranslateM2MService m2mService = new TranslateM2MService(getContext(),
 				backend);
-		try {
-			
-			m2mService.setTranslateM2MView((TranslateM2Mview) workbenchWindow
-					.getActivePage().showView(TranslateM2Mview.ID));
-			
-			m2mService
-					.setTranslateWhiteBoardView((TranslateWhiteBoardView) workbenchWindow
-							.getActivePage().showView(
-									TranslateWhiteBoardView.ID));
-			m2mService.setTranslateHandRaiseView((TranslateM2MHandRaiseView) workbenchWindow
-					.getActivePage().showView(
-							TranslateM2MHandRaiseView.ID));
-		} catch (PartInitException e) {
 
-		}
 		return m2mService;
 	}
 
 	protected void setupListeners() {
 		workbenchWindow.addPerspectiveListener(perspectiveListener);
-
+		workbenchWindow.addPerspectiveListener(perspectiveListenerMT);
 		// Send messages typed by the user to the remote peers
 		talkView.addListener(new ISendMessagelListener() {
 			public void notifySendMessage(String message) {
@@ -279,7 +371,7 @@ public class TranslateM2MManager extends EConferenceManager implements
 		// Make the view to react to model events
 		talkView.setManager(this);
 		getService().addManagerEventListener(managerEventListener);
-		getBackendHelper().registerBackendListener(backendListener);
+		getBackendHelper().registerBackendListener(backendListenerMT);
 
 		final IConferenceModel model = (IConferenceModel) getService()
 				.getModel();
@@ -296,7 +388,9 @@ public class TranslateM2MManager extends EConferenceManager implements
 				getService().notifyItemListToRemote();
 			}
 		});
-
+		
+		
+		TranslatePlugin.getDefault().getConfiguration().registerLanguageUpdateListener(this);
 	}
 
 	private TranslateM2Mview getTranslateM2Mview() {
@@ -305,5 +399,25 @@ public class TranslateM2MManager extends EConferenceManager implements
 
 	public ITranslateM2MService getService() {
 		return (ITranslateM2MService) service;
+	}
+	public void close() {
+        // Notify chat listeners that the chat is open
+        for (IMultiChatListener l : chatlisteners) 
+            l.closed();
+
+        service.leave(); 
+        service = null;
+
+        chatlisteners.clear();
+        chatlisteners = null;
+
+        workbenchWindow.removePerspectiveListener( perspectiveListenerMT );
+        getBackendHelper().registerBackendListener( backendListenerMT );
+        TranslatePlugin.getDefault().getConfiguration().unregisterLanguageUpdateListener(this);
+    }
+
+	@Override
+	public void notifyLanguageUpdate() {
+		getService().notifyLanguageUpdate();
 	}
 }

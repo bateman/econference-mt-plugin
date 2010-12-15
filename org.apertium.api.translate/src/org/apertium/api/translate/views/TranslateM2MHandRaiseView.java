@@ -60,7 +60,7 @@ public class TranslateM2MHandRaiseView extends HandRaisingView implements
 	public TranslateM2MHandRaiseView() {
 		translatedQuestions = new ArrayList<ITranslateQuestion>();
 	}
-	
+
 	public void createPartControl(Composite parent) {
 		makeTranslateAction();
 		super.createPartControl(parent);
@@ -74,7 +74,9 @@ public class TranslateM2MHandRaiseView extends HandRaisingView implements
 			@Override
 			public void mouseDown(MouseEvent e) {
 				closePopUp();
-				openPopUp(questionViewer.getTable().getShell());
+				if (e.button == 1) {
+					openPopUp(questionViewer.getTable().getShell());
+				}
 
 			}
 
@@ -95,8 +97,11 @@ public class TranslateM2MHandRaiseView extends HandRaisingView implements
 				Point viewPoint = new Point(Math.abs(point.x - viewLocation.x),
 						Math.abs(point.y - viewLocation.y));
 				TableItem item = questionViewer.getTable().getItem(viewPoint);
-				
-				if (item != null && !translatedQuestions.get(questionViewer.getTable().indexOf(item)).isNoTranslation()) {
+
+				if (item != null
+						&& !translatedQuestions.get(
+								questionViewer.getTable().indexOf(item))
+								.isNoTranslation()) {
 					Cursor helpCursor = new Cursor(questionViewer.getTable()
 							.getDisplay(), SWT.CURSOR_HELP);
 					questionViewer.getTable().setCursor(helpCursor);
@@ -107,7 +112,7 @@ public class TranslateM2MHandRaiseView extends HandRaisingView implements
 				}
 			}
 		});
-		
+
 	}
 
 	private void makeTranslateAction() {
@@ -147,7 +152,7 @@ public class TranslateM2MHandRaiseView extends HandRaisingView implements
 
 	@Override
 	public void addTranslatedQuestion(ITranslateQuestion message) {
-	
+
 		translatedQuestions.add(message);
 	}
 
@@ -164,7 +169,7 @@ public class TranslateM2MHandRaiseView extends HandRaisingView implements
 				return;
 			}
 		}
-		
+
 	}
 
 	@Override
@@ -203,47 +208,57 @@ public class TranslateM2MHandRaiseView extends HandRaisingView implements
 			infoPopUp.open();
 		}
 	}
-	protected void makeActions() {
-        enableDisableHRAction = new Action() {
-            /* (non-Javadoc)
-             * @see org.eclipse.jface.action.Action#run()
-             */
-            @Override
-            public void run() {
-                if (getManager() == null)
-                    return;
-                
-                setReadOnly( !isReadOnly() );
-                getManager().notifyViewReadOnly( ID, isReadOnly() );
-                updateActionStatusAccordingToStatus();
-            }
-        };
-        raiseHandAction = new Action() {
-            /* (non-Javadoc)
-             * @see org.eclipse.jface.action.Action#run()
-             */
-            @Override
-            public void run() {
-                IParticipant moderator = findModerator();
-                
-                if (moderator == null) {
-                   UiPlugin.getUIHelper().showErrorMessage( "Sorry, no moderator seems to be online at the moment." );
-                   return;
-                }
-                
-                String question = UiPlugin.getUIHelper().askFreeQuestion(
-                        "Please, type your question in the text box below and press OK.", 
-                        "" );
-                if (question != null)
-                    getManager().notifyRaiseHand( moderator, question );
-            }
-        };
-        raiseHandAction.setText( "Raise hand" );
-        raiseHandAction
-                .setToolTipText( "Click to raise hand and ask something to a moderator" );
-        raiseHandAction.setImageDescriptor( MultiChatPlugin.imageDescriptorFromPlugin(
-                EConferencePlugin.ID, "icons/action_raise_hand.png" ) );
 
-        updateActionStatusAccordingToStatus();
-    }
+	protected void makeActions() {
+		enableDisableHRAction = new Action() {
+			/*
+			 * (non-Javadoc)
+			 * 
+			 * @see org.eclipse.jface.action.Action#run()
+			 */
+			@Override
+			public void run() {
+				if (getManager() == null)
+					return;
+
+				setReadOnly(!isReadOnly());
+				getManager().notifyViewReadOnly(ID, isReadOnly());
+				updateActionStatusAccordingToStatus();
+			}
+		};
+		raiseHandAction = new Action() {
+			/*
+			 * (non-Javadoc)
+			 * 
+			 * @see org.eclipse.jface.action.Action#run()
+			 */
+			@Override
+			public void run() {
+				IParticipant moderator = findModerator();
+
+				if (moderator == null) {
+					UiPlugin.getUIHelper()
+							.showErrorMessage(
+									"Sorry, no moderator seems to be online at the moment.");
+					return;
+				}
+
+				String question = UiPlugin
+						.getUIHelper()
+						.askFreeQuestion(
+								"Please, type your question in the text box below and press OK.",
+								"");
+				if (question != null)
+					getManager().notifyRaiseHand(moderator, question);
+			}
+		};
+		raiseHandAction.setText("Raise hand");
+		raiseHandAction
+				.setToolTipText("Click to raise hand and ask something to a moderator");
+		raiseHandAction.setImageDescriptor(MultiChatPlugin
+				.imageDescriptorFromPlugin(EConferencePlugin.ID,
+						"icons/action_raise_hand.png"));
+
+		updateActionStatusAccordingToStatus();
+	}
 }

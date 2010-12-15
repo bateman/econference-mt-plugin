@@ -28,6 +28,8 @@ package org.apertium.api.translate.actions;
 
 import it.uniba.di.cdg.xcore.network.NetworkPlugin;
 
+import java.util.ArrayList;
+
 import org.apertium.api.translate.Language;
 import org.apertium.api.translate.Services;
 import org.apertium.api.translate.Services.ServiceType;
@@ -42,18 +44,20 @@ public class TranslateConfiguration {
 	private static final String MT_SERVICE_URL = "mt_service_url";
 	private static final String MT_USER_LANGUAGE = "mt_user_language";
 	private static final String MT_PREFERENCES_HASH = "mt_preference_hash";
-	
+
 	private Language userLanguage = null;
 	private Services.ServiceType service = null;
 	private Services services = null;
 	private String url = null;
-	
+	private ArrayList<ILanguageUpdateListener> languageListener;
+
 	public TranslateConfiguration() {
 		// default is EN
 		userLanguage = new Language("en");
 		service = Services.ServiceType.NONE;
 		url = "Enter server url";
 		services = new Services();
+		languageListener = new ArrayList<ILanguageUpdateListener>();
 	}
 
 	public TranslateConfiguration clona() {
@@ -63,7 +67,7 @@ public class TranslateConfiguration {
 		ret.setUrl(url);
 		return ret;
 	}
-	
+
 	public Language getUserLanguage() {
 		return userLanguage;
 	}
@@ -75,11 +79,11 @@ public class TranslateConfiguration {
 	public Services.ServiceType getService() {
 		return service;
 	}
-	
+
 	public void setService(Services.ServiceType service) {
 		this.service = service;
 	}
-	
+
 	public String getUrl() {
 		return url;
 	}
@@ -87,28 +91,29 @@ public class TranslateConfiguration {
 	public void setUrl(String url) {
 		this.url = url;
 	}
-	
+
 	@Override
 	public String toString() {
 		Services s = new Services();
-		String ret = "service: " + s.getService(service) + " url: " + url + " user lang: " + userLanguage;
+		String ret = "service: " + s.getService(service) + " url: " + url
+				+ " user lang: " + userLanguage;
 		return ret;
 	}
-	
+
 	@Override
 	public boolean equals(Object aThat) {
 		if (this == aThat)
 			return true;
 		if (!(aThat instanceof TranslateConfiguration))
 			return false;
-		
+
 		boolean ret = true;
 		TranslateConfiguration that = (TranslateConfiguration) aThat;
-		
+
 		ret &= url.equals(that.getUrl());
 		ret &= userLanguage.equals(that.getUserLanguage());
 		ret &= service.equals(that.getService());
-		
+
 		return ret;
 	}
 
@@ -130,16 +135,19 @@ public class TranslateConfiguration {
 			ServiceType serviceType = services
 					.getServiceType(mtServiceProvider);
 			setService(serviceType);
+		} else {
+			ServiceType serviceType = services.getServiceType("Google");
+			setService(serviceType);
 		}
 		String mtServiceUrl = node.get(MT_SERVICE_URL, null);
 		if (null != mtServiceUrl)
 			setUrl(mtServiceUrl);
 		String mtUserlLanguageCode = node.get(MT_USER_LANGUAGE, null);
 		if (null != mtUserlLanguageCode) {
-			Language userLang = new Language(mtUserlLanguageCode);			
+			Language userLang = new Language(mtUserlLanguageCode);
 			setUserLanguage(userLang);
 		}
-		
+
 	}
 
 	public void storeProperties() {
@@ -157,11 +165,9 @@ public class TranslateConfiguration {
 
 		Preferences connection = connections.node(MT_PREFERENCES_HASH);
 
-		connection.putInt(MT_SERVICE_PROVIDER, getService()
-				.ordinal());
+		connection.putInt(MT_SERVICE_PROVIDER, getService().ordinal());
 		connection.put(MT_SERVICE_URL, getUrl());
-		connection.put(MT_USER_LANGUAGE, getUserLanguage()
-				.getCode());
+		connection.put(MT_USER_LANGUAGE, getUserLanguage().getCode());
 		try {
 			connections.flush();
 		} catch (BackingStoreException e) {
@@ -169,7 +175,22 @@ public class TranslateConfiguration {
 					.println("Error storing MT preferences. Next time defaults will be used.");
 			e.printStackTrace();
 		}
-		
+		notifyLanguage();
+	}
+
+	private void notifyLanguage() {
+		for (int i = 0; i < languageListener.size(); i++) {
+			languageListener.get(i).notifyLanguageUpdate();
+		}
+	}
+
+	public void registerLanguageUpdateListener(ILanguageUpdateListener listener) {
+		languageListener.add(listener);
+	}
+
+	public void unregisterLanguageUpdateListener(
+			ILanguageUpdateListener listener) {
+		languageListener.remove(listener);
 	}
 
 }

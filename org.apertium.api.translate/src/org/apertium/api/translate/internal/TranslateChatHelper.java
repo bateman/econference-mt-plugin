@@ -42,7 +42,7 @@ public class TranslateChatHelper extends ChatHelper {
 	public TranslateChatHelper(INetworkBackendHelper backend_Helper,
 			IUIHelper ui_Helper) {
 		super(backend_Helper, ui_Helper);
-	
+
 	}
 
 	public void openChatWindow(ChatContext chatContext) {
