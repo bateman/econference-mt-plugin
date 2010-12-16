@@ -172,26 +172,27 @@ public class TranslateM2MManager extends EConferenceManager implements
 		}
 	};
 	protected IBackendEventListener backendListenerMT = new IBackendEventListener() {
-        public void onBackendEvent( IBackendEvent event ) {
-            if (event instanceof BackendStatusChangeEvent) {
-                BackendStatusChangeEvent changeEvent = (BackendStatusChangeEvent) event;
-                if (!changeEvent.isOnline())
-                    UiPlugin.getUIHelper().closePerspective( MTPerspective.ID );
-            }
-        }
-    };
+		public void onBackendEvent(IBackendEvent event) {
+			if (event instanceof BackendStatusChangeEvent) {
+				BackendStatusChangeEvent changeEvent = (BackendStatusChangeEvent) event;
+				if (!changeEvent.isOnline())
+					UiPlugin.getUIHelper().closePerspective(MTPerspective.ID);
+			}
+		}
+	};
+
 	public TranslateM2MManager() {
 		super();
 
-		
 	}
 
 	public void open(MultiChatContext context, boolean autojoin)
 			throws Exception {
 		this.context = context;
 		service = setupChatService();
-		service.join();
+		
 		if (autojoin) {
+			service.join();
 			setupUI();
 			setupListeners();
 			// Notify chat listeners that the chat is
@@ -221,9 +222,6 @@ public class TranslateM2MManager extends EConferenceManager implements
 		talkView.setTitleText(context.getRoom());
 		talkView.setModel(getService().getTalkModel());
 
-		// ((TranslateM2MService)
-		// service).setTranslateM2MView((TranslateM2Mview) talkView);
-
 		roomView = (IChatRoomView) chatRoomViewPart;
 		roomView.setManager(this);
 
@@ -246,59 +244,31 @@ public class TranslateM2MManager extends EConferenceManager implements
 		// special role than it will be set read-write
 		whiteBoardView.setReadOnly(true);
 
-		// ((TranslateM2MService)
-		// service).setTranslateWhiteBoardView((TranslateWhiteBoardView)
-		// whiteBoardView);
-
 		// Hand raising panel is for all: context menu actions will be disabled
 		// using the
 		// actions' enablements provided by the plugin.xml and the adapter
 		// factory
 
-		// viewPart =
-		// getWorkbenchWindow().getActivePage().showView(HandRaisingView.ID);
 		viewPart = getWorkbenchWindow().getActivePage().showView(
 				TranslateM2MHandRaiseView.ID);
 		handRaisingView = (IHandRaisingView) viewPart;
 		handRaisingView.setManager(this);
-
-		// ((TranslateM2MService)
-		// service).setTranslateHandRaiseView((TranslateM2MHandRaiseView)
-		// handRaisingView);
 
 		// By default user can chat freely before the conference is started
 		getTalkView().setReadOnly(false);
 		// Display that there is free talk ongoing
 		getTalkView().setTitleText(FREE_TALK_NOW_MESSAGE);
 
-		
-		
-//		try {
+		TranslateM2MService m2mService = (TranslateM2MService) service;
 
-			TranslateM2MService m2mService = (TranslateM2MService) service;
-			
-			m2mService.setTranslateM2MView((TranslateM2Mview) talkView);
-//			m2mService.setTranslateM2MView((TranslateM2Mview) workbenchWindow
-//					.getActivePage().showView(TranslateM2Mview.ID));
+		m2mService.setTranslateM2MView((TranslateM2Mview) talkView);
 
-			
-			m2mService.setTranslateWhiteBoardView((TranslateWhiteBoardView) whiteBoardView);
-			
-//			m2mService
-//					.setTranslateWhiteBoardView((TranslateWhiteBoardView) workbenchWindow
-//							.getActivePage().showView(
-//									TranslateWhiteBoardView.ID));
-			
-			m2mService.setTranslateHandRaiseView((TranslateM2MHandRaiseView) handRaisingView);
-			
-//			m2mService
-//					.setTranslateHandRaiseView((TranslateM2MHandRaiseView) workbenchWindow
-//							.getActivePage().showView(
-//									TranslateM2MHandRaiseView.ID));
-			
-//		} catch (PartInitException e) {
-//
-//		}
+		m2mService
+				.setTranslateWhiteBoardView((TranslateWhiteBoardView) whiteBoardView);
+
+		m2mService
+				.setTranslateHandRaiseView((TranslateM2MHandRaiseView) handRaisingView);
+
 		// Ensure that the focus is switched to this new chat
 		((IViewPart) getTalkView()).setFocus();
 	}
@@ -388,9 +358,9 @@ public class TranslateM2MManager extends EConferenceManager implements
 				getService().notifyItemListToRemote();
 			}
 		});
-		
-		
-		TranslatePlugin.getDefault().getConfiguration().registerLanguageUpdateListener(this);
+
+		TranslatePlugin.getDefault().getConfiguration()
+				.registerLanguageUpdateListener(this);
 	}
 
 	private TranslateM2Mview getTranslateM2Mview() {
@@ -400,21 +370,23 @@ public class TranslateM2MManager extends EConferenceManager implements
 	public ITranslateM2MService getService() {
 		return (ITranslateM2MService) service;
 	}
+
 	public void close() {
-        // Notify chat listeners that the chat is open
-        for (IMultiChatListener l : chatlisteners) 
-            l.closed();
+		// Notify chat listeners that the chat is open
+		for (IMultiChatListener l : chatlisteners)
+			l.closed();
 
-        service.leave(); 
-        service = null;
+		service.leave();
+		service = null;
 
-        chatlisteners.clear();
-        chatlisteners = null;
+		chatlisteners.clear();
+		chatlisteners = null;
 
-        workbenchWindow.removePerspectiveListener( perspectiveListenerMT );
-        getBackendHelper().registerBackendListener( backendListenerMT );
-        TranslatePlugin.getDefault().getConfiguration().unregisterLanguageUpdateListener(this);
-    }
+		workbenchWindow.removePerspectiveListener(perspectiveListenerMT);
+		getBackendHelper().unregisterBackendListener(backendListenerMT);
+		TranslatePlugin.getDefault().getConfiguration()
+				.unregisterLanguageUpdateListener(this);
+	}
 
 	@Override
 	public void notifyLanguageUpdate() {

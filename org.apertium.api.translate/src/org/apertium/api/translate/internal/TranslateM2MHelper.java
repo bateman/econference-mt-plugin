@@ -57,7 +57,7 @@ public class TranslateM2MHelper extends EConferenceHelper implements
 			final IWorkbenchWindow window = PlatformUI.getWorkbench()
 					.getActiveWorkbenchWindow();
 			manager = new TranslateM2MManager();
-			// manager = eConferenceManager.getNewEConferenceManager();
+			
 			manager.setBackendHelper(NetworkPlugin.getDefault().getHelper());
 			manager.setUihelper(UiPlugin.getUIHelper());
 			manager.setWorkbenchWindow(window);
@@ -78,8 +78,8 @@ public class TranslateM2MHelper extends EConferenceHelper implements
 					shell.setSize(previousSize);
 				}
 			});
-			manager.open(context, true);
-			//manager.open(context, autojoin);
+			//manager.open(context, true);
+			manager.open(context, autojoin);
 		} catch (Exception e) {
 			e.printStackTrace();
 			uihelper.showErrorMessage("Could not start eConference: "
@@ -98,8 +98,8 @@ public class TranslateM2MHelper extends EConferenceHelper implements
 	}
 	public void dispose() {
 		super.dispose();
-//		if (managerMT != null && managerMT.getService() != null) {
-//			NetworkPlugin.getDefault().getHelper().unregisterBackendListener(managerMT.getService());
-//		}
+		if (managerMT != null && managerMT.getService() != null) {
+			NetworkPlugin.getDefault().getHelper().unregisterBackendListener(managerMT.getService());
+		}
 	}
 }
