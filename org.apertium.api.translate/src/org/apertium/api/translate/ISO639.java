@@ -29,10 +29,11 @@ package org.apertium.api.translate;
 import java.util.*;
 
 public class ISO639 {
-	private Map<String, String> codeToLanguage = null;
-	private Map<String, String> languageToCode = null;
-	
-	public ISO639() {
+	private static Map<String, String> codeToLanguage = null;
+	private static Map<String, String> languageToCode = null;
+	private static Set<String> languageToCode_keySet = null;
+	private static Set<String> codeToLanguage_keySet = null;
+	static {
 		codeToLanguage = new HashMap<String, String>();
 		
 		codeToLanguage.put("xh", "Xhosa");
@@ -226,13 +227,17 @@ public class ISO639 {
 		for (String code : codeToLanguage.keySet()) {
 			languageToCode.put(codeToLanguage.get(code), code);
 		}
+		
+		
+		languageToCode_keySet = languageToCode.keySet();
+		codeToLanguage_keySet = codeToLanguage.keySet();
 	}
 	
-	public Set<String> getLanguages() {
-		return languageToCode.keySet();
+	public static Set<String> getLanguages() {
+		return languageToCode_keySet;
 	}
 	
-	public String getCode(String language) {
+	public static String getCode(String language) {
 		String ret = null;
 		if (languageToCode.containsKey(language)) {
 			ret = languageToCode.get(language);
@@ -240,11 +245,11 @@ public class ISO639 {
 		return ret;
 	}
 	
-	public Set<String> getCodes() {
-		return codeToLanguage.keySet();
+	public static Set<String> getCodes() {
+		return codeToLanguage_keySet;
 	}
 	
-	public String getLanguage(String code) {
+	public static String getLanguage(String code) {
 		String ret = null;
 		if (codeToLanguage.containsKey(code)) {
 			ret = codeToLanguage.get(code);

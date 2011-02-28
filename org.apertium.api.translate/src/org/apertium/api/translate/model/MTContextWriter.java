@@ -24,53 +24,32 @@
  * OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-package org.apertium.api.translate;
+package org.apertium.api.translate.model;
 
-public class Language {
-	private String name;
-	private String code;
-	
-	//public Language(String name, String code) {
-	//	this.name = name;
-	//	this.code = code;
-	//}
-	
-	public Language(String code) {
-		this.code = code;
-		this.name = ISO639.getLanguage(code);
-	}
-	
-	public String getName() {
-		return name;
-	}
-	
-	public void setName(String name) {
-		this.name = name;
-	}
-	
-	public String getCode() {
-		return code;
-	}
-	
-	public void setCode(String code) {
-		this.code = code;
-	}
-	
-	@Override
-	public boolean equals(Object aThat) {
-		if (this == aThat)
-			return true;
-		if (!(aThat instanceof Language))
-			return false;
-		Language that = (Language) aThat;
-		boolean ret = name.equals(that.getName()) && code.equals(that.getCode());
-		return ret;
-	}
-	
-	@Override
-	public String toString() {
-		StringBuilder result = new StringBuilder();
-		result.append(name + " (" + code + ")");
-		return result.toString();
-	}
+import it.uniba.di.cdg.xcore.econference.EConferenceContext;
+import it.uniba.di.cdg.xcore.econference.model.ConferenceContextWriter;
+
+import javax.xml.parsers.ParserConfigurationException;
+
+import org.w3c.dom.Node;
+
+public class MTContextWriter extends ConferenceContextWriter {
+
+    public MTContextWriter( String filepath, EConferenceContext context )
+            throws ParserConfigurationException {
+        super( filepath, context );
+
+    }
+
+    public void buildDocument() {
+        super.buildDocument();
+        createConferenceServiceNode( "econference-mt" );
+    }
+
+    private void createConferenceServiceNode( String confService ) {
+        Node conferenceService = doc.createElement( "conference:service" );
+        conferenceService.appendChild( doc.createTextNode( confService ) );
+        doc.getDocumentElement().appendChild( conferenceService );
+    }
+
 }

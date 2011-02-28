@@ -29,12 +29,18 @@ package org.apertium.api.translate.internal;
 import it.uniba.di.cdg.xcore.econference.EConferenceContext;
 import it.uniba.di.cdg.xcore.econference.internal.EConferenceHelper;
 import it.uniba.di.cdg.xcore.m2m.IMultiChatManager.IMultiChatListener;
+import it.uniba.di.cdg.xcore.m2m.events.InvitationEvent;
+import it.uniba.di.cdg.xcore.m2m.service.Invitee;
+import it.uniba.di.cdg.xcore.network.IBackend;
 import it.uniba.di.cdg.xcore.network.INetworkBackendHelper;
 import it.uniba.di.cdg.xcore.network.NetworkPlugin;
 import it.uniba.di.cdg.xcore.ui.IUIHelper;
 import it.uniba.di.cdg.xcore.ui.UiPlugin;
 
+import org.apertium.api.translate.actions.WizardMT;
+import org.eclipse.jface.wizard.WizardDialog;
 import org.eclipse.swt.graphics.Point;
+import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
 import org.eclipse.ui.IWorkbenchWindow;
 import org.eclipse.ui.PlatformUI;
@@ -48,7 +54,9 @@ public class TranslateM2MHelper extends EConferenceHelper implements
 		super(uihelper, backendHelper);
 
 	}
-
+	public TranslateM2MHelper() {
+		
+	}
 	public ITranslateM2MManager open(EConferenceContext context,
 			boolean autojoin) {
 		ITranslateM2MManager manager = null;
@@ -92,14 +100,52 @@ public class TranslateM2MHelper extends EConferenceHelper implements
 		return manager;
 	}
 
-	public ITranslateM2MHelper instantiateNewHelper(IUIHelper uihelper,
-			INetworkBackendHelper backendHelper) {
-		return new TranslateM2MHelper(uihelper, backendHelper);
-	}
 	public void dispose() {
 		super.dispose();
 		if (managerMT != null && managerMT.getService() != null) {
 			NetworkPlugin.getDefault().getHelper().unregisterBackendListener(managerMT.getService());
 		}
+	}
+	@Override
+    public void openInviteWizard() {
+        Display display = Display.getDefault();
+        Shell shell = new Shell( display );
+        WizardMT wizard = new WizardMT();
+        // Instantiates the wizard container with the wizard and opens it
+        WizardDialog dialog = new WizardDialog( shell, wizard );
+        dialog.create();
+        dialog.open();
+        if (wizard.canSendInvitation()) {
+            boolean autojoin = false;
+            ITranslateM2MManager manager = open( wizard.getContext(), autojoin );
+            for (Invitee i : wizard.getContext().getInvitees())
+                manager.inviteNewParticipant( i.getId() );
+            manager.close();
+            dispose();
+        }
+    }
+	public EConferenceContext askUserAcceptInvitation(InvitationEvent invitation) {
+		// Skip invitations which do not interest us ...
+		if (!MT_REASON.equals(invitation.getReason()))
+			return null;
+
+		IBackend backend = backendHelper.getRegistry().getBackend(
+				invitation.getBackendId());
+
+		String message = String
+				.format("User %s has invited you to join to an eConference."
+						+ "\nIf you want to accept, choose your display name and press Yes, otherwise press Cancel.",
+						invitation.getInviter());
+		String chosenNickNamer = uihelper.askFreeQuestion(
+				"Invitation received", message, backend.getUserAccount()
+						.getId());
+		if (chosenNickNamer != null) {
+			EConferenceContext context = new EConferenceContext(
+					chosenNickNamer, "", invitation);
+			return context;
+		} else
+			invitation.decline("No reason");
+
+		return null;
 	}
 }

@@ -1,10 +1,9 @@
 /**
  * This file is part of the eConference project and it is distributed under the 
-
  * terms of the MIT Open Source license.
  * 
  * The MIT License
- * Copyright (c) 2010 Collaborative Development Group - Dipartimento di Informatica, 
+ * Copyright (c) 2005 Collaborative Development Group - Dipartimento di Informatica, 
  *                    University of Bari, http://cdg.di.uniba.it
  * Permission is hereby granted, free of charge, to any person obtaining a copy of this 
  * software and associated documentation files (the "Software"), to deal in the Software 
@@ -23,54 +22,28 @@
  * CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE 
  * OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
+package it.uniba.di.cdg.xcore.aspects;
 
-package org.apertium.api.translate;
-
-public class Language {
-	private String name;
-	private String code;
-	
-	//public Language(String name, String code) {
-	//	this.name = name;
-	//	this.code = code;
-	//}
-	
-	public Language(String code) {
-		this.code = code;
-		this.name = ISO639.getLanguage(code);
-	}
-	
-	public String getName() {
-		return name;
-	}
-	
-	public void setName(String name) {
-		this.name = name;
-	}
-	
-	public String getCode() {
-		return code;
-	}
-	
-	public void setCode(String code) {
-		this.code = code;
-	}
-	
-	@Override
-	public boolean equals(Object aThat) {
-		if (this == aThat)
-			return true;
-		if (!(aThat instanceof Language))
-			return false;
-		Language that = (Language) aThat;
-		boolean ret = name.equals(that.getName()) && code.equals(that.getCode());
-		return ret;
-	}
-	
-	@Override
-	public String toString() {
-		StringBuilder result = new StringBuilder();
-		result.append(name + " (" + code + ")");
-		return result.toString();
-	}
+/**
+ * Base aspect for implementing asynchronous execution. This is a policy which executes operation
+ * in a different, new thread: since the join points can be captured in different ways, implementors
+ * are requested to define the <code>asyncOperations</code> pointcut.
+ * 
+ * This code is the <b>Worker Pattern</b> described in <i>AspectJ in action</i> book (section 8.1).
+ */
+public abstract aspect AsynchronousExecution {
+    /**
+     * Left to implementations: all captured joinpoints will be run in a new thread.
+     */
+    protected abstract pointcut asyncOperations();
+    
+    void around() : asyncOperations() {
+        Runnable worker = new Runnable() {
+            public void run() {
+                proceed();
+            }
+        };
+        Thread t = new Thread( worker );
+        t.start();
+    }
 }

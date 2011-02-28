@@ -46,6 +46,7 @@ import org.eclipse.ui.plugin.AbstractUIPlugin;
 
 public class TranslateOne2OneView extends TalkView {
 	public static final String ID = "org.apertium.api.translate.TranslateOne2OneView";
+									 
 	protected IAction switchOnOffTranslation;
 	protected boolean translatingOn;
 	private InfoPopUp infoPopUp;

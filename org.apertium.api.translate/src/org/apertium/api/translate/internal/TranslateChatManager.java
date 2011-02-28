@@ -30,9 +30,6 @@ import it.uniba.di.cdg.xcore.network.IBackend;
 import it.uniba.di.cdg.xcore.network.NetworkPlugin;
 import it.uniba.di.cdg.xcore.network.action.IChatServiceActions;
 import it.uniba.di.cdg.xcore.network.events.IBackendEvent;
-import it.uniba.di.cdg.xcore.network.events.ITypingEvent;
-import it.uniba.di.cdg.xcore.network.events.TypingEvent;
-import it.uniba.di.cdg.xcore.network.events.chat.ChatComposingEvent;
 import it.uniba.di.cdg.xcore.network.events.chat.ChatExtensionProtocolEvent;
 import it.uniba.di.cdg.xcore.network.events.chat.ChatMessageReceivedEvent;
 import it.uniba.di.cdg.xcore.one2one.ChatManager;
@@ -75,23 +72,66 @@ public class TranslateChatManager extends ChatManager implements
 	@Override
 	public void onBackendEvent(IBackendEvent event) {
 
-		if (event instanceof ChatComposingEvent) {
-			ChatComposingEvent chatComposingtEvent = (ChatComposingEvent) event;
+		super.onBackendEvent(event);
 
-			String eventFrom = chatComposingtEvent.getFrom();
-			if (eventFrom.contains("/"))
-				eventFrom = eventFrom.split("/")[0];
+		if (event instanceof ChatExtensionProtocolEvent) {
 
-			String contextFrom = chatComposingtEvent.getFrom();
-			if (contextFrom.contains("/"))
-				contextFrom = contextFrom.split("/")[0];
-
-			if (eventFrom.equals(contextFrom)) {
-				ITypingEvent typingEvent = new TypingEvent(backendHelper
-						.getRoster().getBuddy(getBuddyId()).getName());
-				talkView.onTyping(typingEvent);
+			IBackend b = NetworkPlugin.getDefault().getRegistry()
+					.getDefaultBackend();
+			IChatServiceActions chat = b.getChatServiceAction();
+			ChatExtensionProtocolEvent cepe = (ChatExtensionProtocolEvent) event;
+			if (manageLanguageRequestEvent(cepe, chat)) {
+				return;
+			} else if (manageLanguageResponse(cepe)) {
+				return;
+			} else {
+				if (manageLanguageUpdate(cepe)) {
+					return;
+				}
 			}
-		} else if (event instanceof ChatMessageReceivedEvent) {
+		}
+
+	}
+
+	protected boolean manageLanguageUpdate(ChatExtensionProtocolEvent cepe) {
+		if (cepe.getExtensionName().equals(LANGUAGE_UPDATE)) {
+			updateLanguage(cepe);
+			updateNotTranslatedMessages(cepe.getFrom());
+			return true;
+		}
+		return false;
+	}
+
+	protected boolean manageLanguageResponse(ChatExtensionProtocolEvent cepe) {
+		if (cepe.getExtensionName().equals(LANGUAGE_RESPONSE)) {
+			TranslateConfiguration c = TranslatePlugin.getDefault()
+					.getConfiguration();
+			String destCode = (String) cepe.getExtensionParameter(LANGUAGE);
+			LanguagePair lp = new LanguagePair(c.getUserLanguage(),
+					new Language(destCode));
+			buddiesLanguages.put(cepe.getFrom(), lp);
+			updateNotTranslatedMessages(cepe.getFrom());
+			return true;
+		}
+		return false;
+	}
+
+	protected boolean manageLanguageRequestEvent(
+			ChatExtensionProtocolEvent cepe, IChatServiceActions chat) {
+		if (cepe.getExtensionName().equals(LANGUAGE_REQUEST)) {
+			HashMap<String, String> param = new HashMap<String, String>();
+			TranslateConfiguration c = TranslatePlugin.getDefault()
+					.getConfiguration();
+			param.put(LANGUAGE, c.getUserLanguage().getCode());
+			chat.SendExtensionProtocolMessage(cepe.getFrom(),
+					LANGUAGE_RESPONSE, param);
+			return true;
+		}
+		return false;
+	}
+
+	protected boolean manageChatMessageReceivedEvent(IBackendEvent event) {
+		if (event instanceof ChatMessageReceivedEvent) {
 
 			ChatMessageReceivedEvent chatMessageReceivedEvent = (ChatMessageReceivedEvent) event;
 
@@ -102,40 +142,9 @@ public class TranslateChatManager extends ChatManager implements
 				translateMessage(chatMessageReceivedEvent.getMessage(), whoID,
 						whoName);
 			}
+			return true;
 		}
-
-		if (event instanceof ChatExtensionProtocolEvent) {
-
-			IBackend b = NetworkPlugin.getDefault().getRegistry()
-					.getDefaultBackend();
-			IChatServiceActions chat = b.getChatServiceAction();
-			ChatExtensionProtocolEvent cepe = (ChatExtensionProtocolEvent) event;
-
-			if (cepe.getExtensionName().equals(LANGUAGE_REQUEST)) {
-				HashMap<String, String> param = new HashMap<String, String>();
-				TranslateConfiguration c = TranslatePlugin.getDefault()
-						.getConfiguration();
-				param.put(LANGUAGE, c.getUserLanguage().getCode());
-				chat.SendExtensionProtocolMessage(cepe.getFrom(),
-						LANGUAGE_RESPONSE, param);
-			}
-
-			else if (cepe.getExtensionName().equals(LANGUAGE_RESPONSE)) {
-				TranslateConfiguration c = TranslatePlugin.getDefault()
-						.getConfiguration();
-				String destCode = (String) cepe.getExtensionParameter(LANGUAGE);
-				LanguagePair lp = new LanguagePair(c.getUserLanguage(),
-						new Language(destCode));
-				buddiesLanguages.put(cepe.getFrom(), lp);
-				updateNotTranslatedMessages(cepe.getFrom());
-			} else {
-				if (cepe.getExtensionName().equals(LANGUAGE_UPDATE)) {
-					updateLanguage(cepe);
-					updateNotTranslatedMessages(cepe.getFrom());
-				}
-			}
-		}
-
+		return false;
 	}
 
 	private void updateLanguage(ChatExtensionProtocolEvent cepe) {
@@ -196,7 +205,7 @@ public class TranslateChatManager extends ChatManager implements
 			chat.SendExtensionProtocolMessage(whoID, LANGUAGE_REQUEST, param);
 		} catch (Exception e) {
 			UiPlugin.getUIHelper().showMessage(TRANSLATIONSERVICEERROR);
-			vista.setTranslationOFF();
+			//vista.setTranslationOFF();
 		}
 
 	}

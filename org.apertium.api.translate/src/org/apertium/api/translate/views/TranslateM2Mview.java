@@ -26,6 +26,7 @@
 
 package org.apertium.api.translate.views;
 
+import it.uniba.di.cdg.xcore.aspects.SwtAsyncExec;
 import it.uniba.di.cdg.xcore.m2m.ui.views.MultiChatTalkView;
 import it.uniba.di.cdg.xcore.network.model.tv.Entry;
 import it.uniba.di.cdg.xcore.network.model.tv.ITalkModel;
@@ -50,7 +51,6 @@ import org.eclipse.swt.events.MouseMoveListener;
 import org.eclipse.swt.graphics.Cursor;
 import org.eclipse.swt.graphics.Point;
 import org.eclipse.swt.widgets.Composite;
-import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 
@@ -62,6 +62,7 @@ public class TranslateM2Mview extends MultiChatTalkView implements
 	protected IAction switchOnOffTranslation;
 	protected boolean translatingOn;
 	private HashMap<String, ArrayList<ITranslateMessage>> unTranslatedCachedTalks;
+	private HashMap<String, ArrayList<ITranslateMessage>> queueMessage;
 	private static final String THREADSEPARATOR = "---------------------";
 
 	protected ITalkModelListener modelListenerMT = new ITalkModelListener() {
@@ -76,9 +77,33 @@ public class TranslateM2Mview extends MultiChatTalkView implements
 			// call appendMessage() here and have it attached the message to
 			// "oldThread"
 			// putSeparator( oldThread );
+			
+			
+			
+	//		emptyQueue(newThread);
+			
 			insertSeparator(oldThread);
 			synchronizeCachedText();
 			showThread(newThread);
+		}
+
+		private void emptyQueue(String newThread) {
+			ArrayList<ITranslateMessage> queue = queueMessage.get(newThread);
+			if (queue == null) {
+				return;
+			}
+			
+//			while (queue.size() > 0 ) {
+//				ITranslateMessage message = queue.get(queue.size() - 1);
+//				queue.remove(queue.size() - 1);
+//				appendMessage(message);
+//			}
+			
+			for (int i = 0; i < queue.size(); i++) {
+				ITranslateMessage message = queue.get(i);
+				appendMessage(message,newThread);
+			}
+			queue.clear();
 		}
 
 	};
@@ -86,30 +111,76 @@ public class TranslateM2Mview extends MultiChatTalkView implements
 	public TranslateM2Mview() {
 
 		unTranslatedCachedTalks = new HashMap<String, ArrayList<ITranslateMessage>>();
+		queueMessage = new HashMap<String, ArrayList<ITranslateMessage>>();
 		translatingOn = true;
 
 	}
 
 	private void insertSeparator(String oldThread) {
-		appendMessage(new TranslateMultiChatMessage(null, THREADSEPARATOR,
+		appendSecure(new TranslateMultiChatMessage(null, THREADSEPARATOR,
 				THREADSEPARATOR, false, true), oldThread);
 
 	}
 
-	private void appendMessage(ITranslateMessage message, String oldThread) {
+	@SwtAsyncExec
+	public void appendMessage(ITranslateMessage message, String oldThread) {
 		addOriginalPhrase(message, oldThread);
-
+		
+		
+		
 		// In the product eConference the incoming private message aren't added
 		// in the model
 		// so with this if-then i preserve the orginal behavior.
 		if (!message.isPrivateMessage()) {
 			model.addEntry(oldThread, makeEntry(message));
 		}
+		String text = buildMessageToPrint(message);
+		// append(text);
+		String textToAppend = text + "\n";
+		messageBoardText.append(textToAppend);
 
-		append(buildMessageToPrint(message));
-
+		scrollToEnd();
 	}
+	@SwtAsyncExec
+	protected void scrollToEnd() {
+		int n = messageBoardText.getCharCount();
+        messageBoardText.setSelection( n, n );
+        messageBoardText.showSelection();
+	}
+	public void appendSecure(ITranslateMessage message, String threadId) {
+		addOriginalPhrase(message, threadId);
+		if (!message.isPrivateMessage()) {
+			model.addEntry(threadId, makeEntry(message));
+		}
+		if (threadId.equals(model.getCurrentThread())) {
+			String text = buildMessageToPrint(message);
+			// append(text);
+			String textToAppend = text + "\n";
+			appendSec(textToAppend);
+			
 
+		}
+	}
+	@SwtAsyncExec
+	private void appendSec(String text) {
+		messageBoardText.append( text );
+		scrollToEnd();
+	}
+	public void appendMessageinThread(ITranslateMessage message, String threadId) {
+		
+		
+		if (!threadId.equals(model.getCurrentThread())) {
+			ArrayList<ITranslateMessage> queue = queueMessage.get(threadId);
+			if (queue == null) {
+				queue = new ArrayList<ITranslateMessage>();
+			}
+			queue.add(message);
+			queueMessage.put(threadId, queue);
+		} else {
+			appendMessage(message, threadId);
+		}
+		
+	}
 	private void addOriginalPhrase(ITranslateMessage message, String oldThread) {
 
 		cacheUnTranslatedMessage(oldThread, message);
@@ -310,7 +381,7 @@ public class TranslateM2Mview extends MultiChatTalkView implements
 	// public boolean isSaveOnCloseNeeded() {
 	// return false;
 	// }
-
+	@SwtAsyncExec
 	public void appendMessage(ITranslateMessage message) {
 		addOriginalPhrase(message);
 		// In the product eConference the incoming private message aren't added
@@ -319,8 +390,13 @@ public class TranslateM2Mview extends MultiChatTalkView implements
 		if (!message.isPrivateMessage()) {
 			model.addEntry(makeEntry(message));
 		}
-		append(buildMessageToPrint(message));
 
+		String text = buildMessageToPrint(message);
+		// append(text);
+		String textToAppend = text + "\n";
+		messageBoardText.append(textToAppend);
+
+		scrollToEnd();
 	}
 
 	protected Entry makeEntry(ITranslateMessage message) {
@@ -362,24 +438,28 @@ public class TranslateM2Mview extends MultiChatTalkView implements
 		return messageToPrint;
 	}
 
-	private void append(String text) {
-
-		final String testo = text.concat("\n");
-		Display.getDefault().syncExec(new Runnable() {
-
-			@Override
-			public void run() {
-
-				messageBoardText.append(testo);
-				scrollToEnd();
-			}
-		});
-	}
-
 	@Override
 	public void privateMessageReceived(ITranslateMessage message) {
 
 		appendMessage(message);
+	}
+
+	public void printOriginalThread() {
+
+		Iterator<String> itera = unTranslatedCachedTalks.keySet().iterator();
+
+		while (itera.hasNext()) {
+			String threadName = itera.next();
+			ArrayList<ITranslateMessage> lista = unTranslatedCachedTalks
+					.get(threadName);
+
+			for (int i = 0; i < lista.size(); i++) {
+				System.out.print(lista.get(i).getOriginalText() + "   ");
+				System.out.println(lista.get(i).getTranslatedText());
+			}
+
+		}
+
 	}
 
 }

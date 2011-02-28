@@ -44,9 +44,19 @@ public class TranslateMultiChatMessage extends MultiChatMessage implements
 		originalText = originalMessage.replace("\n", " ");
 		isPrivateMessage = private_Message;
 		isSystemMessage = isSystem_Message;
-		noTranslation = translatedText.equals(originalText);
+		//noTranslation = translatedText.equals(originalText);
+		noTranslation = true;
 	}
-
+	public TranslateMultiChatMessage(String from, String translatedMessage,
+			String originalMessage, boolean private_Message,
+			boolean isSystem_Message, boolean translated) {
+		super(null, from, translatedMessage);
+		translatedText = translatedMessage.replace("\n", " ");
+		originalText = originalMessage.replace("\n", " ");
+		isPrivateMessage = private_Message;
+		isSystemMessage = isSystem_Message;
+		noTranslation = !translated;
+	}
 	/*
 	 * (non-Javadoc)
 	 * 

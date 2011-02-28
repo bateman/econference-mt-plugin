@@ -199,6 +199,9 @@ public class TranslateM2MHandRaiseView extends HandRaisingView implements
 				Math.abs(point.y - viewLocation.y));
 
 		TableItem item = questionViewer.getTable().getItem(viewPoint);
+		if (item == null) {
+			return;
+		}
 		int index = questionViewer.getTable().indexOf(item);
 		ITranslateQuestion question = getTranslatedQuestion(index);
 

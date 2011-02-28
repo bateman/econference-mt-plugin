@@ -47,7 +47,7 @@ public class TranslateConfiguration {
 
 	private Language userLanguage = null;
 	private Services.ServiceType service = null;
-	private Services services = null;
+	
 	private String url = null;
 	private ArrayList<ILanguageUpdateListener> languageListener;
 
@@ -56,7 +56,7 @@ public class TranslateConfiguration {
 		userLanguage = new Language("en");
 		service = Services.ServiceType.NONE;
 		url = "Enter server url";
-		services = new Services();
+		
 		languageListener = new ArrayList<ILanguageUpdateListener>();
 	}
 
@@ -132,11 +132,11 @@ public class TranslateConfiguration {
 
 		int mtServiceProvider = node.getInt(MT_SERVICE_PROVIDER, -1);
 		if (-1 != mtServiceProvider) {
-			ServiceType serviceType = services
+			ServiceType serviceType = Services
 					.getServiceType(mtServiceProvider);
 			setService(serviceType);
 		} else {
-			ServiceType serviceType = services.getServiceType("Google");
+			ServiceType serviceType = Services.getServiceType("Google");
 			setService(serviceType);
 		}
 		String mtServiceUrl = node.get(MT_SERVICE_URL, null);

@@ -35,8 +35,14 @@ import it.uniba.di.cdg.xcore.one2one.ChatPlugin;
 import it.uniba.di.cdg.xcore.ui.UiPlugin;
 import it.uniba.di.cdg.xcore.ui.views.ITalkView.ISendMessagelListener;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.logging.FileHandler;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import java.util.logging.SimpleFormatter;
 
 import org.apertium.api.translate.actions.TranslateConfiguration;
 import org.apertium.api.translate.internal.TranslateChatHelper;
@@ -144,6 +150,7 @@ public class TranslatePlugin extends AbstractUIPlugin implements IStartup,
 						NetworkPlugin.getDefault().getRegistry()
 								.getDefaultBackendId(), this);
 
+		//setupLogging();
 	}
 
 	public void stop(BundleContext context) throws Exception {
@@ -203,5 +210,28 @@ public class TranslatePlugin extends AbstractUIPlugin implements IStartup,
 						.loadProperties();
 		}
 
+	}
+
+	public void setHelper(TranslateM2MHelper translateM2MHelper) {
+		if (this.helper != null)
+			this.helper.dispose();
+		this.helper = translateM2MHelper;
+		this.helper.init();
+
+	}
+
+	public TranslateM2MHelper getHelper() {
+		return helper;
+	}
+	private void setupLogging() throws IOException {
+		File dir = new File("./log/");
+		if(!dir.exists())
+			dir.mkdirs();
+		
+		String fn = new Long(System.currentTimeMillis()).toString();
+		FileHandler fh = new FileHandler("./log/" + fn + ".txt");
+		fh.setFormatter(new SimpleFormatter());
+		Logger.getLogger(ID).addHandler(fh);
+		Logger.getAnonymousLogger().setLevel(Level.ALL);
 	}
 }

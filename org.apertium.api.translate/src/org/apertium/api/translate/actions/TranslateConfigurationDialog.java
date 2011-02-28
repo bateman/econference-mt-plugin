@@ -51,8 +51,8 @@ import org.eclipse.swt.widgets.Label;
 import org.eclipse.swt.widgets.Text;
 
 public class TranslateConfigurationDialog extends TitleAreaDialog {
-	private Services services = null;
-	private ISO639 iso = null;
+	
+	
 
 	private Combo mtServiceProviderCombo;
 	private Combo languagesCombo;
@@ -64,8 +64,9 @@ public class TranslateConfigurationDialog extends TitleAreaDialog {
 	public TranslateConfigurationDialog() {
 		super(null);
 		System.out.println("TranslateConfigDialog()");
-		services = new Services();
-		iso = new ISO639();
+		
+		
+		
 	}
 
 	@Override
@@ -230,7 +231,7 @@ public class TranslateConfigurationDialog extends TitleAreaDialog {
 		try {
 			String selected = mtServiceProviderCombo
 					.getItem(mtServiceProviderCombo.getSelectionIndex());
-			Services.ServiceType ser = services.getServiceType(selected);
+			Services.ServiceType ser = Services.getServiceType(selected);
 
 			if (ser == Services.ServiceType.APERTIUM) {
 				mtServiceUrl.setEditable(true);
@@ -256,7 +257,7 @@ public class TranslateConfigurationDialog extends TitleAreaDialog {
 		System.out.println("TranslateConfigurationForm.createServiceModel()");
 
 		try {
-			items = services.getServices();
+			items = Services.getServices();
 		} catch (Exception e) {
 			items = new TreeSet<String>();
 		}
@@ -269,7 +270,7 @@ public class TranslateConfigurationDialog extends TitleAreaDialog {
 	private String[] createLanguageModel() {
 		Set<String> items;
 		try {
-			items = iso.getLanguages();
+			items = ISO639.getLanguages();
 		} catch (Exception e) {
 			items = new TreeSet<String>();
 		}
@@ -309,7 +310,7 @@ public class TranslateConfigurationDialog extends TitleAreaDialog {
 
 			for (int i = 0; i < model.length && !ok; i++) {
 				String item = (String) model[i];
-				if (item.equals(services.getService(data.getService()))) {
+				if (item.equals(Services.getService(data.getService()))) {
 					System.out.println("Received " + data.getService());
 					mtServiceProviderCombo.select(i);
 					mtServiceSelectionIndex = i;
@@ -337,16 +338,16 @@ public class TranslateConfigurationDialog extends TitleAreaDialog {
 			String[] servicesArray = (String[]) createServiceModel();
 			String serviceSelectedItem = (String) servicesArray[mtServiceSelectionIndex];
 			System.out.println("Selected " + serviceSelectedItem);
-			ret.setService(services.getServiceType(serviceSelectedItem));
+			ret.setService(Services.getServiceType(serviceSelectedItem));
 		}
 
 		if (languageSelectionIndex != -1) {
 			String[] langArray = createLanguageModel();
 			String srcSelectedItem = langArray[languageSelectionIndex];
 			System.out.println("Selected " + srcSelectedItem);
-			ISO639 iso = new ISO639();
+			
 			// our language
-			Language src = new Language(iso.getCode(srcSelectedItem));
+			Language src = new Language(ISO639.getCode(srcSelectedItem));
 			// the others' language, we don't know it upfront			
 			ret.setUserLanguage(src);
 		}

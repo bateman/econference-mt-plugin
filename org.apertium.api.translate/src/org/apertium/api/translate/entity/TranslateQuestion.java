@@ -33,6 +33,7 @@ public class TranslateQuestion extends MultiChatMessage implements
 	private String translatedText;
 	private String originalText;
 	private int index;
+	private boolean notTranslated;
 
 	public TranslateQuestion(String from, String translatedMessage,
 			String originalMessage, int questionIndex) {
@@ -40,6 +41,15 @@ public class TranslateQuestion extends MultiChatMessage implements
 		translatedText = translatedMessage.replace("\n", " ");
 		originalText = originalMessage.replace("\n", " ");
 		index = questionIndex;
+		notTranslated = translatedText.equals(originalText);
+	}
+	public TranslateQuestion(String from, String translatedMessage,
+			String originalMessage, int questionIndex, boolean translated) {
+		super(null, from, translatedMessage);
+		translatedText = translatedMessage.replace("\n", " ");
+		originalText = originalMessage.replace("\n", " ");
+		index = questionIndex;
+		notTranslated = !translated;
 	}
 
 	/*
@@ -64,7 +74,7 @@ public class TranslateQuestion extends MultiChatMessage implements
 
 
 	public boolean isNoTranslation() {
-		return (translatedText.equals(originalText));
+		return notTranslated;
 	}
 
 	@Override

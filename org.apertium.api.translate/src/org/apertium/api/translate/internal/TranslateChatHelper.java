@@ -33,11 +33,15 @@ import it.uniba.di.cdg.xcore.one2one.ChatManager.IChatStatusListener;
 import it.uniba.di.cdg.xcore.one2one.IChatService.ChatContext;
 import it.uniba.di.cdg.xcore.ui.IUIHelper;
 
+import org.apertium.api.translate.views.TranslateOne2OneView;
 import org.eclipse.swt.graphics.Point;
 import org.eclipse.swt.widgets.Shell;
+import org.eclipse.ui.IViewPart;
+import org.eclipse.ui.IWorkbenchWindow;
 import org.eclipse.ui.PlatformUI;
 
 public class TranslateChatHelper extends ChatHelper {
+	private TranslateOne2OneView onGoingTalk;
 
 	public TranslateChatHelper(INetworkBackendHelper backend_Helper,
 			IUIHelper ui_Helper) {
@@ -47,10 +51,10 @@ public class TranslateChatHelper extends ChatHelper {
 
 	public void openChatWindow(ChatContext chatContext) {
 		if (openChats.containsKey(chatContext.getBuddyId())) {
-			// System.err.println( "You are already chatting with " +
-			// chatContext.getBuddyId() );
 			return;
 		}
+
+		
 
 		TranslateChatManager chat = new TranslateChatManager();
 		chat.setBackendHelper(backendHelper);
@@ -84,7 +88,18 @@ public class TranslateChatHelper extends ChatHelper {
 			}
 		});
 		// Track the chat if it open ok
-		if (chat.open(chatContext))
+		if (chat.open(chatContext)) {
+			if (openChats.isEmpty()) {
+				final IWorkbenchWindow workbenchWindow = PlatformUI.getWorkbench()
+						.getActiveWorkbenchWindow();
+				final IViewPart talkViewPart = workbenchWindow.getActivePage()
+						.findView(TranslateOne2OneView.ID);
+				//onGoingTalk = (TranslateOne2OneView) talkViewPart;
+				workbenchWindow.getActivePage().hideView(talkViewPart);
+			}
+			
 			openChats.put(chatContext.getBuddyId(), chat);
+		}
+		
 	}
 }

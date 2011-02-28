@@ -30,15 +30,19 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
+import org.apertium.api.translate.Services.ServiceType;
+
 public class Services {
 	public enum ServiceType {
 		NONE, APERTIUM, GOOGLE, MICROSOFT
 	};
 
-	private Map<String, ServiceType> serviceMap = null;
-	private Map<ServiceType, String> revServiceMap = null;
+	private static Map<String, ServiceType> serviceMap = null;
+	private static Map<ServiceType, String> revServiceMap = null;
+	private static Set<String> serviceMap_keySet;
+	private static Set<ServiceType> revServiceMap_keySet;
 
-	public Services() {
+	static {
 		serviceMap = new HashMap<String, ServiceType>();
 
 		serviceMap.put("Apertium XML-RPC", ServiceType.APERTIUM);
@@ -50,17 +54,19 @@ public class Services {
 		for (String l : serviceMap.keySet()) {
 			revServiceMap.put(serviceMap.get(l), l);
 		}
+		serviceMap_keySet = serviceMap.keySet();
+		revServiceMap_keySet = revServiceMap.keySet();
 	}
 
-	public Set<String> getServices() {
-		return serviceMap.keySet();
+	public static Set<String> getServices() {
+		return serviceMap_keySet;
 	}
 
-	public Set<ServiceType> getServiceTypes() {
-		return revServiceMap.keySet();
+	public static Set<ServiceType> getServiceTypes() {
+		return revServiceMap_keySet;
 	}
 
-	public String getService(ServiceType t) {
+	public static String getService(ServiceType t) {
 		String ret = null;
 		if (t != null) {
 			ret = revServiceMap.get(t);
@@ -68,7 +74,7 @@ public class Services {
 		return ret;
 	}
 
-	public ServiceType getServiceType(String s) {
+	public static ServiceType getServiceType(String s) {
 		ServiceType ret = null;
 		if (s != null) {
 			ret = serviceMap.get(s);
@@ -76,7 +82,7 @@ public class Services {
 		return ret;
 	}
 
-	public ServiceType getServiceType(int index) {
+	public static ServiceType getServiceType(int index) {
 		ServiceType ret = null;
 		if (index >= 0 && index < ServiceType.values().length)
 			ret = ServiceType.values()[index];

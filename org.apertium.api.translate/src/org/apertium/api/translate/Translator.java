@@ -101,7 +101,9 @@ public class Translator {
 			Object connector) throws InterruptedException,
 			ApertiumXMLRPCClientException {
 		String ret = text;
-
+//		if (src.equals(dest)) {
+//			return ret;
+//		}
 		System.out.println("Translator._translate(): " + text + " " + src + " "
 				+ dest + " " + connector);
 

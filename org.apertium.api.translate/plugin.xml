@@ -7,40 +7,87 @@
         label="Translate Action Set"
         visible="true"
         id="org.apertium.api.translate.actionSet">
+       <menu
+             icon="icons/translate_16.png"
+             id="org.apertium.api.translate.menu"
+             label="&amp;MachineTranslator"
+             path="file/additions">
+          <groupMarker
+                name="MTadditions">
+          </groupMarker>
+       </menu>
+       <action
+             class="org.apertium.api.translate.actions.LoadMTFromFileActionDelegate"
+             definitionId="org.api.translate.actions.load"
+             icon="icons/OpenFileMT.png"
+             id="org.apertium.api.translate.loadMTFromFileAction"
+             label="Load Machine Translator configuration ..."
+             menubarPath="file/org.apertium.api.translate.menu/MTadditions"
+             style="push"
+             toolbarPath="TranslatorGroup">
+       </action>
+       <action
+             class="org.apertium.api.translate.actions.WizardMTAction"
+             definitionId="org.apertium.api.translate.wizard"
+             icon="icons/IconeMT.png"
+             id="org.apertium.api.translate.wizard"
+             label="Wizard Machine Translator configuration ..."
+             menubarPath="file/org.apertium.api.translate.menu/MTadditions"
+             style="push"
+             toolbarPath="TranslatorGroup">
+       </action>
      
      <action
            class="org.apertium.api.translate.actions.TranslateConfigurationAction"
            icon="icons/translate_16.png"
            id="org.apertium.api.translate.actions.translateConfigurationAction"
            label="Configure the Translator"
-           menubarPath="TranslatorMenu/TranslatorGroup"
+           menubarPath="file/org.apertium.api.translate.menu/MTadditions"
            toolbarPath="TranslatorGroup"
            tooltip="Configure the Translator">         
      </action>
       
      </actionSet>
+    <actionSet
+          id="org.apertium.api.translate.workbenchActionSet"
+          label="Views Action Set"
+          visible="true">
+       <menu
+             icon="icons/translate_16.png"
+             id="org.apertium.api.translate.workbenchMenu"
+             label="&amp;Machine Translator"
+             path="addition">
+          <groupMarker
+                name="org.apertium.api.translate.content">
+          </groupMarker>
+          <separator
+                name="org.apertium.api.translate.additions">
+          </separator>
+       </menu>
+    </actionSet>
   </extension>
 
   <extension point="org.eclipse.ui.views">
      <view
-        allowMultiple="false"
-        category="TranslateViews"
-        class="org.apertium.api.translate.views.TranslateView"
-        icon="icons/translate_16.png"
-        id="org.apertium.api.translate.views.translateView"
-        name="Translations"/>
+           allowMultiple="false"
+           category="TranslateViews"
+           class="org.apertium.api.translate.views.TranslateView"
+           icon="icons/translate_16.png"
+           id="org.apertium.api.translate.views.translateView"
+           name="Translations"
+           restorable="true"/>
      
      <category
         id="TranslateViews"
         name="Translate"/>
      <view
            allowMultiple="true"
-           category="TranslateViews"
            class="org.apertium.api.translate.views.TranslateOne2OneView"
+           fastViewWidthRatio="0.5f"
            icon="icons/translate_16.png"
            id="org.apertium.api.translate.TranslateOne2OneView"
            name="Ongoing Talk"
-           restorable="true">
+           restorable="false">
      </view>
      <view
            allowMultiple="false"
@@ -88,7 +135,7 @@
               moveable="true"
               ratio="0.25f"
               relationship="stack"
-              relative="it.uniba.di.cdg.xcore.econference.ui.views.storedEventsView"
+              relative="it.uniba.di.cdg.xcore.ui.views.talkView"
               showTitle="true"
               standalone="false"
               visible="true">
@@ -119,6 +166,31 @@
            id="org.apertium.api.translate.MTPerspective"
            name="MTConference">
      </perspective>
+  </extension>
+  <extension
+        point="it.uniba.di.cdg.xcore.econference.eventloader">
+     <loader
+           context="it.uniba.di.cdg.xcore.econference.EConferenceContext"
+           contextLoader="it.uniba.di.cdg.xcore.econference.model.ConferenceContextLoader"
+           helper="org.apertium.api.translate.internal.TranslateM2MHelper"
+           invitationIcon="icons/InvitationEventMT.png"
+           organizationIcon="icons/OrganizationEventMT.png"
+           pluginID="org.apertium.api.translate"
+           service="econference-mt">
+     </loader>
+  </extension>
+  <extension
+        point="org.eclipse.ui.commands">
+     <command
+           defaultHandler="org.apertium.api.translate.actions.LoadMTFromFileActionDelegate"
+           id="org.apertium.api.translate.loadMT"
+           name="loadMT">
+     </command>
+     <command
+           defaultHandler="org.apertium.api.translate.actions.WizardMTAction"
+           id="org.apertium.api.translate.wizardMT"
+           name="wizardMT">
+     </command>
   </extension>
 
 <!--

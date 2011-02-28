@@ -1,10 +1,9 @@
 /**
  * This file is part of the eConference project and it is distributed under the 
-
  * terms of the MIT Open Source license.
  * 
  * The MIT License
- * Copyright (c) 2010 Collaborative Development Group - Dipartimento di Informatica, 
+ * Copyright (c) 2005 Collaborative Development Group - Dipartimento di Informatica, 
  *                    University of Bari, http://cdg.di.uniba.it
  * Permission is hereby granted, free of charge, to any person obtaining a copy of this 
  * software and associated documentation files (the "Software"), to deal in the Software 
@@ -23,54 +22,18 @@
  * CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE 
  * OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
+package it.uniba.di.cdg.xcore.aspects;
 
-package org.apertium.api.translate;
-
-public class Language {
-	private String name;
-	private String code;
-	
-	//public Language(String name, String code) {
-	//	this.name = name;
-	//	this.code = code;
-	//}
-	
-	public Language(String code) {
-		this.code = code;
-		this.name = ISO639.getLanguage(code);
-	}
-	
-	public String getName() {
-		return name;
-	}
-	
-	public void setName(String name) {
-		this.name = name;
-	}
-	
-	public String getCode() {
-		return code;
-	}
-	
-	public void setCode(String code) {
-		this.code = code;
-	}
-	
-	@Override
-	public boolean equals(Object aThat) {
-		if (this == aThat)
-			return true;
-		if (!(aThat instanceof Language))
-			return false;
-		Language that = (Language) aThat;
-		boolean ret = name.equals(that.getName()) && code.equals(that.getCode());
-		return ret;
-	}
-	
-	@Override
-	public String toString() {
-		StringBuilder result = new StringBuilder();
-		result.append(name + " (" + code + ")");
-		return result.toString();
-	}
+/**
+ * An implementation of asynchronous execution which uses the annotations (<code>AsyncExec</code>)
+ * for marking the methods that must be async exe'd. All calls to these annotated methods will
+ * be captured.
+ */
+public aspect AnnotatedAsynchronousExecution extends AsynchronousExecution {
+    /**
+     * Capture all the AsyncExec-annotated method call. 
+     */
+    protected pointcut asyncOperations() :
+        call( @AsyncExec * *.*(..) )
+        ;
 }
