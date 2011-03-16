@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Test
+Bundle-SymbolicName: org.apertium.api.translate.test
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.junit,
+ org.apertium.api.translate;bundle-version="1.0.0"
+Import-Package: it.uniba.di.cdg.xcore.m2m.service,
+ it.uniba.di.cdg.xcore.network.messages
