@@ -12,7 +12,8 @@ Require-Bundle: org.eclipse.ui,
  org.jivesoftware.smack,
  it.uniba.di.cdg.xcore.m2m,
  it.uniba.di.cdg.xcore.econference,
- com.google.services;bundle-version="1.0.0"
+ com.google.services;bundle-version="1.0.0",
+ it.uniba.di.cdg.aspects;bundle-version="1.0.0"
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Import-Package: it.uniba.di.cdg.xcore.one2one
