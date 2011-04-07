@@ -26,7 +26,7 @@
 
 package org.apertium.api.translate.service;
 
-import it.uniba.di.cdg.xcore.aspects.SwtAsyncExec;
+import it.uniba.di.cdg.aspects.SwtAsyncExec;
 import it.uniba.di.cdg.xcore.econference.EConferenceContext;
 import it.uniba.di.cdg.xcore.econference.model.hr.IQuestion;
 import it.uniba.di.cdg.xcore.econference.model.hr.IQuestion.QuestionStatus;

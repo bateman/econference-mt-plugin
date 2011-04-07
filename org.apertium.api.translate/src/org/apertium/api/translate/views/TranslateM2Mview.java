@@ -26,7 +26,7 @@
 
 package org.apertium.api.translate.views;
 
-import it.uniba.di.cdg.xcore.aspects.SwtAsyncExec;
+import it.uniba.di.cdg.aspects.SwtAsyncExec;
 import it.uniba.di.cdg.xcore.m2m.ui.views.MultiChatTalkView;
 import it.uniba.di.cdg.xcore.network.model.tv.Entry;
 import it.uniba.di.cdg.xcore.network.model.tv.ITalkModel;
