@@ -46,7 +46,7 @@ public class TranslateMultiChatMessageTest {
 		TranslateMultiChatMessage message = null;
 		message = new TranslateMultiChatMessage(FROM, ORIGINALMESSAGE, ORIGINALMESSAGE, true, true);
 		assertTrue(message.isNoTranslation());
-		message = new TranslateMultiChatMessage(FROM, TRANSLATEDMESSAGE, ORIGINALMESSAGE, true, true);
+		message = new TranslateMultiChatMessage(FROM, TRANSLATEDMESSAGE, ORIGINALMESSAGE, true, true, true);
 		assertTrue(!message.isNoTranslation());
 	}
 

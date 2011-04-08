@@ -50,7 +50,7 @@ public class TranslateQuestionTest {
 	@Test
 	public void testSetTranslatedText() {
 		ITranslateQuestion p = new TranslateQuestion(FROM, ORIGINALQUESTION,
-				ORIGINALQUESTION, INDEX);
+				ORIGINALQUESTION, INDEX, true);
 		assertTrue(p.getTranslatedText().equals(p.getOriginalText()));
 		p.setTranslatedText(TRANSLATEDQUESTION);
 		assertTrue(p.getTranslatedText().equals(TRANSLATEDQUESTION)
