@@ -192,6 +192,30 @@
            name="wizardMT">
      </command>
   </extension>
+  <extension
+        id="product"
+        point="org.eclipse.core.runtime.products">
+     <product
+           application="it.uniba.di.cdg.collaborativeworkbench.boot.collaborativeWorkbench"
+           name="eConferenceMT">
+        <property
+              name="windowImages"
+              value="platform:/plugin/it.uniba.di.cdg.collaborativeworkbench.boot/cw_16x16.gif,platform:/plugin/it.uniba.di.cdg.collaborativeworkbench.boot/cw_32x32.gif">
+        </property>
+        <property
+              name="aboutText"
+              value="eConference 4.1.0 MT&#x0A;&#x0A;eConference has been developed by the Collaborative Development Group,&#x0A;Dipartimento di Informatica, University of Bari and it is distributed under the &#x0A;terms of the MIT license. &#x0A;More details on the project homepage at http://cdg.di.uniba.it/projects/econference/ &#x0A;&#x0A;This software is based upon the Eclipse Rich Client Platform, http://eclipse.org/rcp/&#x0A;&#x0A;The Jabber plug-in uses the SMACK library, http://www.jivesoftware.org/smack/ &#x0A;&#x0A;Eclipse, Built on Eclipse and Eclipse Ready are trademarks of Eclipse Foundation, Inc.">
+        </property>
+        <property
+              name="aboutImage"
+              value="platform:/plugin/it.uniba.di.cdg.collaborativeworkbench.boot/about_logo.gif">
+        </property>
+        <property
+              name="startupProgressRect"
+              value="5,275,445,15">
+        </property>
+     </product>
+  </extension>
 
 <!--
   <extension point="org.eclipse.ui.startup">
