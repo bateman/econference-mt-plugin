@@ -30,8 +30,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-import org.apertium.api.translate.Services.ServiceType;
-
 public class Services {
 	public enum ServiceType {
 		NONE, APERTIUM, GOOGLE, MICROSOFT

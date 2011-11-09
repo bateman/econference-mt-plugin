@@ -30,9 +30,10 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 import net.sf.okapi.common.LocaleId;
-import net.sf.okapi.connectors.google.GoogleMTConnector;
+import net.sf.okapi.common.query.IQuery;
+import net.sf.okapi.connectors.google.GoogleMTv2Connector;
+import net.sf.okapi.connectors.google.GoogleMTv2Parameters;
 import net.sf.okapi.connectors.microsoft.MicrosoftMTConnector;
-import net.sf.okapi.lib.translation.IQuery;
 
 import org.apertium.api.ApertiumXMLRPCClient;
 import org.apertium.api.exceptions.ApertiumXMLRPCClientException;
@@ -79,7 +80,11 @@ public class Translator {
 				connector = new ApertiumXMLRPCClient(new URL(c.getUrl()));
 				break;
 			case GOOGLE:
-				connector = new GoogleMTConnector();
+				//connector = new GoogleMTConnector();
+				GoogleMTv2Parameters param = new GoogleMTv2Parameters();
+				param.setApiKey("ENTER API KEY HERE");
+				connector = new GoogleMTv2Connector();
+				((GoogleMTv2Connector)connector).setParameters(param);
 				break;
 			case NONE:
 				connector = null;
