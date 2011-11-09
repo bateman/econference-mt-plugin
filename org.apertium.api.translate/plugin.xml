@@ -204,7 +204,7 @@
         </property>
         <property
               name="aboutText"
-              value="eConference 4.1.0 MT&#x0A;&#x0A;eConference has been developed by the Collaborative Development Group,&#x0A;Dipartimento di Informatica, University of Bari and it is distributed under the &#x0A;terms of the MIT license. &#x0A;More details on the project homepage at http://cdg.di.uniba.it/projects/econference/ &#x0A;&#x0A;This software is based upon the Eclipse Rich Client Platform, http://eclipse.org/rcp/&#x0A;&#x0A;The Jabber plug-in uses the SMACK library, http://www.jivesoftware.org/smack/ &#x0A;&#x0A;Eclipse, Built on Eclipse and Eclipse Ready are trademarks of Eclipse Foundation, Inc.">
+              value="eConference 4.1.0 MT (v 2.0.0)&#x0A;&#x0A;eConference has been developed by the Collaborative Development Group,&#x0A;Dipartimento di Informatica, University of Bari and it is distributed under the &#x0A;terms of the MIT license. &#x0A;More details on the project homepage at http://cdg.di.uniba.it/projects/econference/ &#x0A;&#x0A;This software is based upon the Eclipse Rich Client Platform, http://eclipse.org/rcp/&#x0A;&#x0A;The Jabber plug-in uses the SMACK library, http://www.jivesoftware.org/smack/ &#x0A;&#x0A;Eclipse, Built on Eclipse and Eclipse Ready are trademarks of Eclipse Foundation, Inc.">
         </property>
         <property
               name="aboutImage"
@@ -213,6 +213,14 @@
         <property
               name="startupProgressRect"
               value="5,275,445,15">
+        </property>
+        <property
+              name="appName"
+              value="eConferenceMT">
+        </property>
+        <property
+              name="preferenceCustomization"
+              value="plugin_customization.ini">
         </property>
      </product>
   </extension>

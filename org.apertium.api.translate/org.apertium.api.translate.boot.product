@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="eConferenceMT" id="org.apertium.api.translate.product" application="it.uniba.di.cdg.collaborativeworkbench.boot.collaborativeWorkbench" version="1.0.0.qualifier" useFeatures="false" includeLaunchers="true">
+<product name="eConferenceMT" id="org.apertium.api.translate.product" application="it.uniba.di.cdg.collaborativeworkbench.boot.collaborativeWorkbench" version="2.0.0" useFeatures="false" includeLaunchers="true">
 
    <aboutInfo>
       <image path="/it.uniba.di.cdg.collaborativeworkbench.boot/about_logo.gif"/>
       <text>
-         eConference 4.1.0 MT
+         eConference 4.1.0 MT (v 2.0.0)
 
 eConference has been developed by the Collaborative Development Group,
 Dipartimento di Informatica, University of Bari and it is distributed under the 
@@ -79,6 +79,7 @@ THE SOFTWARE.
       <plugin id="it.uniba.di.cdg.collaborativeworkbench.boot"/>
       <plugin id="it.uniba.di.cdg.jabber"/>
       <plugin id="it.uniba.di.cdg.skype"/>
+      <plugin id="it.uniba.di.cdg.skype.recorder.win32"/>
       <plugin id="it.uniba.di.cdg.xcore.econference"/>
       <plugin id="it.uniba.di.cdg.xcore.m2m"/>
       <plugin id="it.uniba.di.cdg.xcore.network"/>
