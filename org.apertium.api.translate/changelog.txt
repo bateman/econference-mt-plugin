@@ -1,0 +1,9 @@
+Release 2.0.1 - XX Nov 2011
+Added a config property file from which the Google Translate API key is loaded on startup
+
+Release 2.0.0 - 9 Nov 2011
+Replaced the Google Connector v1 - discontinued - with v2 - paid service
+
+Release 1.0.0 - mid 2010
+Initial release
+Supported translation services: Google Translate, Microsoft Translate, Apertium
