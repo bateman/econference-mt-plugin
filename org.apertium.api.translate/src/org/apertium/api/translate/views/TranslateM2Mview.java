@@ -37,6 +37,8 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
 
 import org.apertium.api.translate.TranslatePlugin;
 import org.apertium.api.translate.entity.ITranslateMessage;
@@ -131,41 +133,40 @@ public class TranslateM2Mview extends MultiChatTalkView implements
 		// In the product eConference the incoming private message aren't added
 		// in the model
 		// so with this if-then i preserve the orginal behavior.
+		Entry entry = makeEntry(message);
 		if (!message.isPrivateMessage()) {
-			model.addEntry(oldThread, makeEntry(message));
+			model.addEntry(oldThread, entry);
 		}
-		String text = buildMessageToPrint(message);
-		// append(text);
-		String textToAppend = text + "\n";
-		messageBoardText.append(textToAppend);
 
+		appendMessage( entry );
 		scrollToEnd();
 	}
+
 	@SwtAsyncExec
 	protected void scrollToEnd() {
 		int n = messageBoardText.getCharCount();
         messageBoardText.setSelection( n, n );
         messageBoardText.showSelection();
 	}
+
 	public void appendSecure(ITranslateMessage message, String threadId) {
 		addOriginalPhrase(message, threadId);
-		if (!message.isPrivateMessage()) {
-			model.addEntry(threadId, makeEntry(message));
-		}
-		if (threadId.equals(model.getCurrentThread())) {
-			String text = buildMessageToPrint(message);
-			// append(text);
-			String textToAppend = text + "\n";
-			appendSec(textToAppend);
-			
+		Entry entry = makeEntry(message);
 
+		if (!message.isPrivateMessage()) {
+			model.addEntry(threadId, entry);
+		}
+
+		if (threadId.equals(model.getCurrentThread())) {
+			appendSec(entry);
 		}
 	}
 	@SwtAsyncExec
-	private void appendSec(String text) {
-		messageBoardText.append( text );
+	private void appendSec(Entry entry) {
+		appendMessage( entry );
 		scrollToEnd();
 	}
+
 	public void appendMessageinThread(ITranslateMessage message, String threadId) {
 		
 		
@@ -223,18 +224,18 @@ public class TranslateM2Mview extends MultiChatTalkView implements
 	}
 
 	private void synchronizeCachedText() {
+	    cachedTalks.clear();
 
-		cachedTalks.clear();
 		Iterator<String> i = unTranslatedCachedTalks.keySet().iterator();
 		while (i.hasNext()) {
 			String k = i.next();
 			ArrayList<ITranslateMessage> lista = unTranslatedCachedTalks.get(k);
-			StringBuffer sb = new StringBuffer();
+			
+			List<Entry> cachedEntryList = getOrCreateCachedEntries( k );
 			for (int j = 0; j < lista.size(); j++) {
-				sb.append(buildMessageToPrint(lista.get(j)));
-				sb.append("\n");
+			    Entry entry = makeEntry( lista.get(j) );
+			    cachedEntryList.add( entry );
 			}
-			cachedTalks.put(k, sb);
 		}
 	}
 
@@ -384,18 +385,16 @@ public class TranslateM2Mview extends MultiChatTalkView implements
 	@SwtAsyncExec
 	public void appendMessage(ITranslateMessage message) {
 		addOriginalPhrase(message);
+		Entry entry = makeEntry(message);
+
 		// In the product eConference the incoming private message aren't added
 		// in the model
 		// so with this if-then i preserve the orginal behavior.
 		if (!message.isPrivateMessage()) {
-			model.addEntry(makeEntry(message));
+			model.addEntry(entry);
 		}
-
-		String text = buildMessageToPrint(message);
-		// append(text);
-		String textToAppend = text + "\n";
-		messageBoardText.append(textToAppend);
-
+		
+		appendMessage( entry );
 		scrollToEnd();
 	}
 
@@ -406,6 +405,14 @@ public class TranslateM2Mview extends MultiChatTalkView implements
 		entry.setTimestamp(now);
 
 		entry.setText(message.getTranslatedText());
+		
+		if (message.isSystemMessage()) {
+		    entry.setType( Entry.EntryType.SYSTEM_MSG );
+		} else if (message.isPrivateMessage()) {
+		    entry.setType( Entry.EntryType.PRIVATE_MSG );
+		} else {
+		    entry.setType( Entry.EntryType.CHAT_MSG );
+		}
 
 		if (message.isSystemMessage() || message.isPrivateMessage()) {
 			entry.setWho("***");

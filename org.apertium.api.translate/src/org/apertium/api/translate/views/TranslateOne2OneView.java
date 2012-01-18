@@ -26,6 +26,7 @@
 
 package org.apertium.api.translate.views;
 
+import it.uniba.di.cdg.xcore.network.model.tv.Entry;
 import it.uniba.di.cdg.xcore.ui.views.TalkView;
 
 import java.util.ArrayList;
@@ -159,14 +160,13 @@ public class TranslateOne2OneView extends TalkView {
 
 	public void appendMessage(String whoName, String originalMessage,
 			String translatedMessage) {
-		String currentMessage = whoName + " > " + translatedMessage;
-		unTranslatedString.add(originalMessage);
-		super.appendMessage(currentMessage);
+	    Entry entry = new Entry(whoName, translatedMessage);
+		super.appendMessage(entry);
 	}
 
 	public void appendMessage(String text) {
 		unTranslatedString.add("");
-		super.appendMessage(text);
+		super.appendMessage(new Entry(text));
 	}
 
 	private void setMessageBoard() {
