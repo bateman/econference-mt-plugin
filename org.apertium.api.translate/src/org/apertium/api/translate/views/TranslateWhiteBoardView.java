@@ -88,6 +88,7 @@ public class TranslateWhiteBoardView extends WhiteBoardView {
 
 	private void switchAction() {
 		if (translatingOn) {
+		    switchOnOffTranslation.setId( "switch" );
 			switchOnOffTranslation.setText("Switch Off Translation");
 			switchOnOffTranslation
 					.setToolTipText("Switch Off the real time Translation");

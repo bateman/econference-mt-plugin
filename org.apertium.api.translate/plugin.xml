@@ -156,6 +156,32 @@
               tooltip="Call group / End call">
         </command>
      </menuContribution>
+     <menuContribution
+           allPopups="false"
+           locationURI="toolbar:org.apertium.api.translate.views.TranslateWhiteBoardView?before=switch">
+        <command
+              commandId="it.uniba.di.cdg.xcore.econference.bold"
+              icon="icons/bold_icon.png"
+              label="Bold"
+              style="push">
+        </command>
+        <command
+              commandId="it.uniba.di.cdg.xcore.econference.underline"
+              icon="icons/underline_icon.png"
+              label="Underline"
+              style="push">
+        </command>
+        <command
+              commandId="it.uniba.di.cdg.xcore.econference.strike"
+              icon="icons/strike_icon.png"
+              label="Strike"
+              style="push">
+        </command>
+        <separator
+              name="org.apertium.api.translate.separator1"
+              visible="true">
+        </separator>
+     </menuContribution>
   </extension>
   <extension
         point="org.eclipse.ui.perspectives">
