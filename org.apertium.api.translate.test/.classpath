@@ -4,5 +4,6 @@
 	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/it.uniba.di.cdg.aspects"/>
+	<classpathentry kind="lib" path="/org.apertium.api.translate/lib/okapi-lib-0.14.jar" sourcepath="C:/Users/Fabio/Desktop/okapi-lib_all-platforms_0.14/connectors/google/src/main/java/net.zip"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
