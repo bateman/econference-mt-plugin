@@ -26,9 +26,6 @@
 
 package org.apertium.api.translate.internal;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import it.uniba.di.cdg.xcore.econference.internal.EConferenceManager;
 import it.uniba.di.cdg.xcore.econference.model.ConferenceModelListenerAdapter;
 import it.uniba.di.cdg.xcore.econference.model.IConferenceModel;
@@ -38,9 +35,9 @@ import it.uniba.di.cdg.xcore.econference.ui.views.IHandRaisingView;
 import it.uniba.di.cdg.xcore.econference.ui.views.IWhiteBoard;
 import it.uniba.di.cdg.xcore.m2m.model.ChatRoomModelAdapter;
 import it.uniba.di.cdg.xcore.m2m.model.IParticipant;
-import it.uniba.di.cdg.xcore.m2m.model.Privileged;
 import it.uniba.di.cdg.xcore.m2m.model.IParticipant.Role;
 import it.uniba.di.cdg.xcore.m2m.model.IParticipant.Status;
+import it.uniba.di.cdg.xcore.m2m.model.Privileged;
 import it.uniba.di.cdg.xcore.m2m.service.IInvitationRejectedListener;
 import it.uniba.di.cdg.xcore.m2m.service.UserStatusAdapter;
 import it.uniba.di.cdg.xcore.m2m.ui.views.ChatRoomView;
@@ -54,6 +51,9 @@ import it.uniba.di.cdg.xcore.network.events.IBackendEventListener;
 import it.uniba.di.cdg.xcore.network.model.tv.ITalkModel;
 import it.uniba.di.cdg.xcore.ui.UiPlugin;
 import it.uniba.di.cdg.xcore.ui.views.ITalkView.ISendMessagelListener;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import org.apertium.api.translate.MTPerspective;
 import org.apertium.api.translate.TranslatePlugin;
@@ -370,7 +370,8 @@ public class TranslateM2MManager extends EConferenceManager implements
 		final IConferenceModel model = (IConferenceModel) getService()
 				.getModel();
 		model.addListener(conferenceModelListenerMT);
-		model.getItemList().addListener(itemListListener);
+		// TODO see if it's ok to remove this 
+		// model.getItemList().addListener(itemListListener);
 
 		// The multichat has already registered a listener for participant
 		// status changes: so
