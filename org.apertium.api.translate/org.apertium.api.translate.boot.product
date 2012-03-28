@@ -76,6 +76,7 @@ THE SOFTWARE.
       <plugin id="com.ibm.icu"/>
       <plugin id="it.uniba.di.cdg.aspects"/>
       <plugin id="it.uniba.di.cdg.collaborativeworkbench.boot"/>
+      <plugin id="it.uniba.di.cdg.googleplus"/>
       <plugin id="it.uniba.di.cdg.jabber"/>
       <plugin id="it.uniba.di.cdg.skype"/>
       <plugin id="it.uniba.di.cdg.skype.recorder.win32"/>
@@ -150,60 +151,8 @@ THE SOFTWARE.
    </features>
 
    <configurations>
-      <plugin id="com.google.services" autoStart="false" startLevel="0" />
-      <plugin id="com.ibm.icu" autoStart="false" startLevel="0" />
-      <plugin id="it.uniba.di.cdg.aspects" autoStart="false" startLevel="0" />
-      <plugin id="it.uniba.di.cdg.collaborativeworkbench.boot" autoStart="false" startLevel="0" />
-      <plugin id="it.uniba.di.cdg.jabber" autoStart="false" startLevel="0" />
-      <plugin id="it.uniba.di.cdg.skype" autoStart="false" startLevel="0" />
-      <plugin id="it.uniba.di.cdg.skype.recorder.win32" autoStart="false" startLevel="0" />
-      <plugin id="it.uniba.di.cdg.xcore.econference" autoStart="false" startLevel="0" />
-      <plugin id="it.uniba.di.cdg.xcore.m2m" autoStart="false" startLevel="0" />
-      <plugin id="it.uniba.di.cdg.xcore.network" autoStart="false" startLevel="0" />
-      <plugin id="it.uniba.di.cdg.xcore.one2one" autoStart="false" startLevel="0" />
-      <plugin id="it.uniba.di.cdg.xcore.ui" autoStart="false" startLevel="0" />
-      <plugin id="it.uniba.di.cdg.xcore.util" autoStart="false" startLevel="0" />
-      <plugin id="org.apertium.api.translate" autoStart="false" startLevel="0" />
-      <plugin id="org.aspectj.runtime" autoStart="false" startLevel="0" />
-      <plugin id="org.aspectj.weaver" autoStart="false" startLevel="0" />
-      <plugin id="org.eclipse.aspectj" autoStart="false" startLevel="0" />
-      <plugin id="org.eclipse.core.commands" autoStart="false" startLevel="0" />
-      <plugin id="org.eclipse.core.contenttype" autoStart="false" startLevel="0" />
-      <plugin id="org.eclipse.core.databinding" autoStart="false" startLevel="0" />
-      <plugin id="org.eclipse.core.databinding.observable" autoStart="false" startLevel="0" />
-      <plugin id="org.eclipse.core.databinding.property" autoStart="false" startLevel="0" />
-      <plugin id="org.eclipse.core.expressions" autoStart="false" startLevel="0" />
-      <plugin id="org.eclipse.core.filesystem" autoStart="false" startLevel="0" />
-      <plugin id="org.eclipse.core.jobs" autoStart="false" startLevel="0" />
       <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="2" />
-      <plugin id="org.eclipse.ecf" autoStart="false" startLevel="0" />
-      <plugin id="org.eclipse.ecf.filetransfer" autoStart="false" startLevel="0" />
-      <plugin id="org.eclipse.ecf.identity" autoStart="false" startLevel="0" />
-      <plugin id="org.eclipse.ecf.provider.filetransfer" autoStart="false" startLevel="0" />
-      <plugin id="org.eclipse.equinox.app" autoStart="false" startLevel="0" />
-      <plugin id="org.eclipse.equinox.common" autoStart="false" startLevel="0" />
-      <plugin id="org.eclipse.equinox.p2.core" autoStart="false" startLevel="0" />
-      <plugin id="org.eclipse.equinox.p2.engine" autoStart="false" startLevel="0" />
-      <plugin id="org.eclipse.equinox.p2.metadata" autoStart="false" startLevel="0" />
-      <plugin id="org.eclipse.equinox.p2.metadata.repository" autoStart="false" startLevel="0" />
-      <plugin id="org.eclipse.equinox.p2.repository" autoStart="false" startLevel="0" />
-      <plugin id="org.eclipse.equinox.preferences" autoStart="false" startLevel="0" />
-      <plugin id="org.eclipse.equinox.registry" autoStart="false" startLevel="0" />
-      <plugin id="org.eclipse.equinox.security" autoStart="false" startLevel="0" />
       <plugin id="org.eclipse.equinox.weaving.aspectj" autoStart="true" startLevel="1" />
-      <plugin id="org.eclipse.equinox.weaving.caching" autoStart="false" startLevel="0" />
-      <plugin id="org.eclipse.help" autoStart="false" startLevel="0" />
-      <plugin id="org.eclipse.jface" autoStart="false" startLevel="0" />
-      <plugin id="org.eclipse.jface.databinding" autoStart="false" startLevel="0" />
-      <plugin id="org.eclipse.jface.text" autoStart="false" startLevel="0" />
-      <plugin id="org.eclipse.osgi" autoStart="false" startLevel="0" />
-      <plugin id="org.eclipse.osgi.services" autoStart="false" startLevel="0" />
-      <plugin id="org.eclipse.swt" autoStart="false" startLevel="0" />
-      <plugin id="org.eclipse.text" autoStart="false" startLevel="0" />
-      <plugin id="org.eclipse.ui" autoStart="false" startLevel="0" />
-      <plugin id="org.eclipse.ui.ide" autoStart="false" startLevel="0" />
-      <plugin id="org.eclipse.ui.workbench" autoStart="false" startLevel="0" />
-      <plugin id="org.jivesoftware.smack" autoStart="false" startLevel="0" />
    </configurations>
 
 </product>
