@@ -26,6 +26,12 @@
 
 package org.apertium.api.translate.actions;
 
+
+import it.uniba.di.cdg.xcore.m2m.model.UserLanguages;
+import it.uniba.di.cdg.xcore.network.IBackend;
+import it.uniba.di.cdg.xcore.network.NetworkPlugin;
+
+import java.util.HashMap;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -160,12 +166,18 @@ public class TranslateConfigurationDialog extends TitleAreaDialog {
 				+ data.getService());
 
 		configuration.setService(data.getService());
-		configuration.setUserLanguage(data.getUserLanguage());
+		configuration.setUserLanguage(data.getUserLanguage());		
 		configuration.setUrl(data.getUrl());
-
 		configuration.storeProperties();
-
-	}
+		
+		//store language in hasmap
+		IBackend b = NetworkPlugin.getDefault().getRegistry().getDefaultBackend();
+		UserLanguages lang= UserLanguages.getInstance();
+		HashMap<String, String> User_languages = lang.get_languages();
+		User_languages.put(b.getUserId(),configuration.getUserLanguage().getCode());    	
+		lang.set_languages(User_languages);
+		
+		}
 
 	public void loadProperties() {
 		System.out.println("TranslateConfigDialog.loadProperties()");
@@ -176,7 +188,7 @@ public class TranslateConfigurationDialog extends TitleAreaDialog {
 		configuration.loadProperties();
 
 		setData(configuration);
-		checkUrl();
+		checkUrl();				
 	}
 
 	@Override
@@ -195,7 +207,7 @@ public class TranslateConfigurationDialog extends TitleAreaDialog {
 		okButton.addSelectionListener(new SelectionAdapter() {
 			public void widgetSelected(SelectionEvent event) {
 				if (isValidInput()) {
-					okPressed();
+					okPressed();					
 				}
 			}
 		});

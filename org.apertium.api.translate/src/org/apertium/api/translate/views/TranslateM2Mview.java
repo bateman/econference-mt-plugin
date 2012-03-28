@@ -27,7 +27,9 @@
 package org.apertium.api.translate.views;
 
 import it.uniba.di.cdg.aspects.SwtAsyncExec;
+import it.uniba.di.cdg.xcore.m2m.model.UserLanguages;
 import it.uniba.di.cdg.xcore.m2m.ui.views.MultiChatTalkView;
+import it.uniba.di.cdg.xcore.network.NetworkPlugin;
 import it.uniba.di.cdg.xcore.network.model.tv.Entry;
 import it.uniba.di.cdg.xcore.network.model.tv.ITalkModel;
 import it.uniba.di.cdg.xcore.network.model.tv.ITalkModelListener;
@@ -38,12 +40,12 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
-import java.util.Map;
 
 import org.apertium.api.translate.TranslatePlugin;
 import org.apertium.api.translate.entity.ITranslateMessage;
 import org.apertium.api.translate.entity.TranslateMultiChatMessage;
 import org.apertium.api.translate.infopopup.InfoPopUp;
+import org.eclipse.core.runtime.preferences.ConfigurationScope;
 import org.eclipse.jface.action.Action;
 import org.eclipse.jface.action.IAction;
 import org.eclipse.swt.SWT;
@@ -55,6 +57,7 @@ import org.eclipse.swt.graphics.Point;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Shell;
 import org.eclipse.ui.plugin.AbstractUIPlugin;
+import org.osgi.service.prefs.Preferences;
 
 public class TranslateM2Mview extends MultiChatTalkView implements
 		ITranslateM2Mview {
@@ -66,6 +69,10 @@ public class TranslateM2Mview extends MultiChatTalkView implements
 	private HashMap<String, ArrayList<ITranslateMessage>> unTranslatedCachedTalks;
 	private HashMap<String, ArrayList<ITranslateMessage>> queueMessage;
 	private static final String THREADSEPARATOR = "---------------------";
+	private static final String CONFIGURATION_NODE_QUALIFIER = "it.uniba.di.cdg.xcore.econference.mt";
+	private static final String MT_CONFIG_PATH_NODE = "mt_";	
+	private static final String MT_USER_LANGUAGE = "mt_user_language";
+	private static final String MT_PREFERENCES_HASH = "mt_preference_hash";
 
 	protected ITalkModelListener modelListenerMT = new ITalkModelListener() {
 		public void entryAdded(String threadId, Entry entry) {
@@ -83,7 +90,6 @@ public class TranslateM2Mview extends MultiChatTalkView implements
 			
 			
 	//		emptyQueue(newThread);
-			
 			insertSeparator(oldThread);
 			synchronizeCachedText();
 			showThread(newThread);
@@ -111,14 +117,18 @@ public class TranslateM2Mview extends MultiChatTalkView implements
 	};
 
 	public TranslateM2Mview() {
-
 		unTranslatedCachedTalks = new HashMap<String, ArrayList<ITranslateMessage>>();
 		queueMessage = new HashMap<String, ArrayList<ITranslateMessage>>();
 		translatingOn = true;
+		//put my language in hashmap
+		UserLanguages u = UserLanguages.getInstance();
+		HashMap<String, String> lang = u.get_languages();
+		lang.put(NetworkPlugin.getDefault().getRegistry().getDefaultBackend().getUserId(), getMyLanguage());
 
 	}
 
 	private void insertSeparator(String oldThread) {
+
 		appendSecure(new TranslateMultiChatMessage(null, THREADSEPARATOR,
 				THREADSEPARATOR, false, true), oldThread);
 
@@ -452,9 +462,7 @@ public class TranslateM2Mview extends MultiChatTalkView implements
 	}
 
 	public void printOriginalThread() {
-
 		Iterator<String> itera = unTranslatedCachedTalks.keySet().iterator();
-
 		while (itera.hasNext()) {
 			String threadName = itera.next();
 			ArrayList<ITranslateMessage> lista = unTranslatedCachedTalks
@@ -467,6 +475,14 @@ public class TranslateM2Mview extends MultiChatTalkView implements
 
 		}
 
-	}
+	}			
 
+  private String getMyLanguage(){
+		Preferences preferences = new ConfigurationScope().getNode(CONFIGURATION_NODE_QUALIFIER);
+		String id = NetworkPlugin.getDefault().getRegistry().getDefaultBackend().getUserId();
+		Preferences connections = preferences.node(MT_CONFIG_PATH_NODE + id);
+		Preferences node = connections.node(MT_PREFERENCES_HASH);
+		String mtUserlLanguageCode = node.get(MT_USER_LANGUAGE, null);
+		return(mtUserlLanguageCode);
+	}
 }

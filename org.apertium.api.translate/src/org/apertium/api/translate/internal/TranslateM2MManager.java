@@ -27,6 +27,7 @@
 package org.apertium.api.translate.internal;
 
 import it.uniba.di.cdg.xcore.econference.internal.EConferenceManager;
+import it.uniba.di.cdg.xcore.m2m.model.UserLanguages;
 import it.uniba.di.cdg.xcore.econference.model.ConferenceModelListenerAdapter;
 import it.uniba.di.cdg.xcore.econference.model.IConferenceModel;
 import it.uniba.di.cdg.xcore.econference.model.IConferenceModel.ConferenceStatus;
@@ -45,14 +46,19 @@ import it.uniba.di.cdg.xcore.m2m.ui.views.IChatRoomView;
 import it.uniba.di.cdg.xcore.m2m.ui.views.IMultiChatTalkView;
 import it.uniba.di.cdg.xcore.network.BackendException;
 import it.uniba.di.cdg.xcore.network.IBackend;
+import it.uniba.di.cdg.xcore.network.IBackendDescriptor;
+import it.uniba.di.cdg.xcore.network.NetworkPlugin;
+import it.uniba.di.cdg.xcore.network.action.IChatServiceActions;
 import it.uniba.di.cdg.xcore.network.events.BackendStatusChangeEvent;
 import it.uniba.di.cdg.xcore.network.events.IBackendEvent;
 import it.uniba.di.cdg.xcore.network.events.IBackendEventListener;
+import it.uniba.di.cdg.xcore.network.events.chat.ChatExtensionProtocolEvent;
 import it.uniba.di.cdg.xcore.network.model.tv.ITalkModel;
 import it.uniba.di.cdg.xcore.ui.UiPlugin;
 import it.uniba.di.cdg.xcore.ui.views.ITalkView.ISendMessagelListener;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 import org.apertium.api.translate.MTPerspective;
@@ -62,19 +68,28 @@ import org.apertium.api.translate.service.TranslateM2MService;
 import org.apertium.api.translate.views.TranslateM2MHandRaiseView;
 import org.apertium.api.translate.views.TranslateM2Mview;
 import org.apertium.api.translate.views.TranslateWhiteBoardView;
+import org.eclipse.core.runtime.preferences.ConfigurationScope;
 import org.eclipse.ui.IPerspectiveDescriptor;
 import org.eclipse.ui.IPerspectiveListener3;
 import org.eclipse.ui.IViewPart;
 import org.eclipse.ui.IWorkbenchPage;
 import org.eclipse.ui.IWorkbenchPartReference;
 import org.eclipse.ui.WorkbenchException;
+import org.osgi.service.prefs.Preferences;
 
 @SuppressWarnings("restriction")
 public class TranslateM2MManager extends EConferenceManager implements
 		ITranslateM2MManager {
-
+	private static final String CONFIGURATION_NODE_QUALIFIER = "it.uniba.di.cdg.xcore.econference.mt";
+	private static final String MT_CONFIG_PATH_NODE = "mt_";	
+	private static final String MT_USER_LANGUAGE = "mt_user_language";
+	private static final String MT_PREFERENCES_HASH = "mt_preference_hash";
 	protected static final String ALLOWCONVERSATION = "Moderator has allowed you back in conversation!";
 	protected static final String STOPCONVERSATION = "Moderator has stopped you from contributing to conversation!";
+	public static final String GETLANGUAGE="GET_LANGUAGE";
+	public static final String USERLANGUAGE="USER_LANGUAGE";
+	public static final String UPDATE="UPDATE";
+	
 
 	private ConferenceModelListenerAdapter conferenceModelListenerMT = new ConferenceModelListenerAdapter() {
 		@Override
@@ -186,18 +201,55 @@ public class TranslateM2MManager extends EConferenceManager implements
 			// "perspectiveChanged( %s )", perspective.getId() ) );
 		}
 	};
+	private class eventListenerLanguage implements IBackendEventListener{
+		public void start(){
+			for (IBackendDescriptor d : NetworkPlugin.getDefault()
+					.getRegistry().getDescriptors())
+				NetworkPlugin.getDefault().getHelper().registerBackendListener(
+						d.getId(), this);
+		}
+		public void onBackendEvent(IBackendEvent event){
+			if(event instanceof ChatExtensionProtocolEvent){
+				IBackend b = NetworkPlugin.getDefault().getRegistry().getDefaultBackend();
+				IChatServiceActions chat = b.getChatServiceAction();
+				ChatExtensionProtocolEvent cepe = (ChatExtensionProtocolEvent)event;
+				if(cepe.getExtensionName().equals(GETLANGUAGE)){
+					HashMap<String, String> param = new HashMap<String, String>();
+					param.put("LANGUAGE", getMyLanguage());					
+					chat.OpenChat(cepe.getFrom());
+					chat.SendExtensionProtocolMessage(cepe.getFrom(),USERLANGUAGE, param);
+					chat.CloseChat(cepe.getFrom());
+					chat.OpenChat(cepe.getFrom());
+					chat.SendExtensionProtocolMessage(cepe.getFrom(),UPDATE, new HashMap<String,String>());
+					chat.CloseChat(cepe.getFrom());
+				}
+				if(cepe.getExtensionName().equals(USERLANGUAGE)){ 
+					String language = (String) cepe.getExtensionParameter("LANGUAGE");
+					UserLanguages u = UserLanguages.getInstance();
+					HashMap<String, String> lang = u.get_languages();
+					lang.put(cepe.getFrom(),language);
+					u.set_languages(lang);
+					chat.CloseChat(cepe.getFrom());
+				}
+			}
+		}
+	}
 	protected IBackendEventListener backendListenerMT = new IBackendEventListener() {
+
 		public void onBackendEvent(IBackendEvent event) {
 			if (event instanceof BackendStatusChangeEvent) {
 				BackendStatusChangeEvent changeEvent = (BackendStatusChangeEvent) event;
 				if (!changeEvent.isOnline())
 					UiPlugin.getUIHelper().closePerspective(MTPerspective.ID);
-			}
+			}	
+
 		}
 	};
 
 	public TranslateM2MManager() {
 		super();
+		eventListenerLanguage listner = new eventListenerLanguage();
+		listner.start();
 
 	}
 
@@ -230,7 +282,7 @@ public class TranslateM2MManager extends EConferenceManager implements
 
 		m2mService
 				.setTranslateHandRaiseView((TranslateM2MHandRaiseView) handRaisingView);
-
+		
 	}
 
 	protected void setupUISwithPerspective() {
@@ -253,11 +305,10 @@ public class TranslateM2MManager extends EConferenceManager implements
 	}
 
 	protected IViewPart setupUIRoomView() {
-		IViewPart chatRoomViewPart = (IViewPart) workbenchWindow
-				.getActivePage().findView(ChatRoomView.ID);
-
+		IViewPart chatRoomViewPart = (IViewPart) workbenchWindow.getActivePage().findView(ChatRoomView.ID);
+		System.out.println("class: "+workbenchWindow.getActivePage().findView(ChatRoomView.ID).toString());
 		roomView = (IChatRoomView) chatRoomViewPart;
-		roomView.setManager(this);
+		roomView.setManager(this);				
 		return chatRoomViewPart;
 
 	}
@@ -366,6 +417,7 @@ public class TranslateM2MManager extends EConferenceManager implements
 		talkView.setManager(this);
 		getService().addManagerEventListener(managerEventListener);
 		getBackendHelper().registerBackendListener(backendListenerMT);
+		
 
 		final IConferenceModel model = (IConferenceModel) getService()
 				.getModel();
@@ -381,6 +433,15 @@ public class TranslateM2MManager extends EConferenceManager implements
 			@Override
 			public void added(IParticipant participant) {
 				getService().notifyItemListToRemote();
+				IBackend b = NetworkPlugin.getDefault().getRegistry().getDefaultBackend();
+				IChatServiceActions chat = b.getChatServiceAction();
+				chat.OpenChat(participant.getId());
+				chat.SendExtensionProtocolMessage(participant.getId(),GETLANGUAGE, new HashMap<String, String>());
+				chat.CloseChat(participant.getId());
+				chat.OpenChat(participant.getId());
+				HashMap<String, String> param = new HashMap<String,String>();
+				param.put("LANGUAGE",getMyLanguage());
+				chat.SendExtensionProtocolMessage(participant.getId(),USERLANGUAGE, param);
 			}
 		});
 
@@ -454,5 +515,14 @@ public class TranslateM2MManager extends EConferenceManager implements
 			service.revokeVoice(frozen);
 		if (!unfrozen.isEmpty())
 			service.grantVoice(unfrozen);
+	}
+
+	private String getMyLanguage(){
+		Preferences preferences = new ConfigurationScope().getNode(CONFIGURATION_NODE_QUALIFIER);
+		String id = NetworkPlugin.getDefault().getRegistry().getDefaultBackend().getUserId();
+		Preferences connections = preferences.node(MT_CONFIG_PATH_NODE + id);
+		Preferences node = connections.node(MT_PREFERENCES_HASH);
+		String mtUserlLanguageCode = node.get(MT_USER_LANGUAGE, null);
+		return(mtUserlLanguageCode);
 	}
 }
