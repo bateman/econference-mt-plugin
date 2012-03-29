@@ -196,8 +196,4 @@ public class TranslateWhiteBoardView extends WhiteBoardView {
 		switchAction();
 	}
 
-	// @Override
-	// public boolean isSaveOnCloseNeeded() {
-	// return false;
-	// }
 }
