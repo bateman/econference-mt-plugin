@@ -76,7 +76,7 @@ public class TranslateM2MService extends EConferenceService implements
 	private final static String LANGUAGE_REQUEST = "languageRequest";
 	private final static String LANGUAGE_RESPONSE = "languageResponse";
 	private final static String LANGUAGE = "language";
-	private static final String TRANSLATIONSERVICEERROR = "The resource you chose is not available. The translation is failed";
+	private static final String TRANSLATION_SERVICE_ERROR = "The resource you chose is not available. The translation has failed";
 	private static final String LANGUAGE_USER = "languageuser";
 	private static final String LANGUAGE_UPDATE = "languageUpdate";
 	private Translator translator;
@@ -203,7 +203,7 @@ public class TranslateM2MService extends EConferenceService implements
 			HashMap<String, String> param = new HashMap<String, String>();
 			chat.SendExtensionProtocolMessage(LANGUAGE_REQUEST, param);
 		} catch (Exception e) {
-			UiPlugin.getUIHelper().showMessage(TRANSLATIONSERVICEERROR);
+			UiPlugin.getUIHelper().showMessage(TRANSLATION_SERVICE_ERROR);
 			//translateM2Mview.setTranslationOFF();
 			translated = null;
 		}
@@ -225,7 +225,7 @@ public class TranslateM2MService extends EConferenceService implements
 			HashMap<String, String> param = new HashMap<String, String>();
 			chat.SendExtensionProtocolMessage(LANGUAGE_REQUEST, param);
 		} catch (Exception e) {
-			UiPlugin.getUIHelper().showMessage(TRANSLATIONSERVICEERROR);
+			UiPlugin.getUIHelper().showMessage(TRANSLATION_SERVICE_ERROR);
 			//translateM2MHandRaiseView.setTranslationOFF();
 			translated = null;
 		}
@@ -251,7 +251,7 @@ public class TranslateM2MService extends EConferenceService implements
 			HashMap<String, String> param = new HashMap<String, String>();
 			chat.SendExtensionProtocolMessage(LANGUAGE_REQUEST, param);
 		} catch (Exception e) {
-			UiPlugin.getUIHelper().showMessage(TRANSLATIONSERVICEERROR);
+			UiPlugin.getUIHelper().showMessage(TRANSLATION_SERVICE_ERROR);
 			//translateWhiteBoardView.setTranslationOFF();
 			translated = null;
 		}
@@ -358,9 +358,7 @@ public class TranslateM2MService extends EConferenceService implements
 	}
 
 	protected boolean manageQuestionUpdate(MultiChatExtensionProtocolEvent mcepe) {
-
 		if (mcepe.getExtensionName().equals(QUESTION_UPDATE)) {
-
 			String from = (String) mcepe.getExtensionParameter(FROM);
 			String text = (String) mcepe.getExtensionParameter(QUESTION);
 			Integer id = new Integer(
@@ -370,18 +368,16 @@ public class TranslateM2MService extends EConferenceService implements
 
 			final IParticipant p = getLocalUserOrParticipant(from);
 
-			if (p == null)
+			if (p == null) 
 				return true;
 
 			IQuestion existing = getHandRaisingModel().getQuestion(id);
 			// Unknown question? Just add it to the model. A question with
-			// the same id as an
-			// old one? Replace the previous one too!
+			// the same id as an old one? Replace the previous one too!
 			if (existing == null
 					|| (existing != null && QuestionStatus.PENDING
 							.equals(status))) {
-				// This user is the moderator someone has asked to raise
-				// hand
+				// This user is the moderator someone has asked to raise hand
 				final IQuestion q = new Question(getHandRaisingModel(), id,
 						text, from, status);
 				getHandRaisingModel().addQuestion(q);
@@ -522,16 +518,18 @@ public class TranslateM2MService extends EConferenceService implements
 
 	public void sendPrivateMessage(IParticipant p, String message) {
 		String userId = p.getId();
-		HashMap<String, String> param = new HashMap<String, String>();
-		param.put(MESSAGE, message);
-		param.put(TO, userId);
-		// param.put(FROM,
-		// getContext().getRoom().concat("/").concat(getContext().getNickName()));
-		param.put(FROM, getLocalUserId());
-		multiChatServiceActions.SendExtensionProtocolMessage(PRIVATE_MESSAGE,
-				param);
-		notifyLocalSystemMessage(String.format("[PM sent to %s] %s",
-				p.getNickName(), message));
+		if (userId.equals(getLocalUserId()))
+			notifyLocalSystemMessage("Is not possible to send a private message to yourself");
+		else {
+			HashMap<String, String> param = new HashMap<String, String>();
+			param.put(MESSAGE, message);
+			param.put(TO, userId);
+			param.put(FROM, getLocalUserNickName());
+			multiChatServiceActions.SendExtensionProtocolMessage(PRIVATE_MESSAGE,
+					param);
+			notifyLocalSystemMessage(String.format("[PM sent to %s] %s",
+					p.getNickName(), message));
+		}
 	}
 
 	private boolean isMyMessage(String sender) {
