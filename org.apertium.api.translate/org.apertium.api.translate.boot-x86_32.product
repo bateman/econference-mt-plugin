@@ -25,7 +25,7 @@ Eclipse, Built on Eclipse and Eclipse Ready are trademarks of Eclipse Foundation
    </configIni>
 
    <launcherArgs>
-      <vmArgs>-Xms40m -Xmx256m -Dosgi.framework.extensions=org.eclipse.equinox.weaving.hook</vmArgs>
+      <vmArgs>-Xms40m -Xmx256m -Dosgi.framework.extensions=org.eclipse.equinox.weaving.hook -XX:-UseSplitVerifier</vmArgs>
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts -d32</vmArgsMac>
    </launcherArgs>
 
