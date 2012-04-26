@@ -26,8 +26,6 @@
 
 package org.apertium.api.translate.actions;
 
-
-import it.uniba.di.cdg.xcore.m2m.model.UserLanguages;
 import it.uniba.di.cdg.xcore.network.IBackend;
 import it.uniba.di.cdg.xcore.network.NetworkPlugin;
 
@@ -39,6 +37,7 @@ import org.apertium.api.translate.ISO639;
 import org.apertium.api.translate.Language;
 import org.apertium.api.translate.Services;
 import org.apertium.api.translate.TranslatePlugin;
+import org.apertium.api.translate.model.UserLanguages;
 import org.eclipse.jface.dialogs.IMessageProvider;
 import org.eclipse.jface.dialogs.TitleAreaDialog;
 import org.eclipse.swt.SWT;

@@ -1,10 +1,9 @@
 /**
  * This file is part of the eConference project and it is distributed under the 
-
  * terms of the MIT Open Source license.
  * 
  * The MIT License
- * Copyright (c) 2010 Collaborative Development Group - Dipartimento di Informatica, 
+ * Copyright (c) 2005 Collaborative Development Group - Dipartimento di Informatica, 
  *                    University of Bari, http://cdg.di.uniba.it
  * Permission is hereby granted, free of charge, to any person obtaining a copy of this 
  * software and associated documentation files (the "Software"), to deal in the Software 
@@ -24,11 +23,28 @@
  * OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
+package org.apertium.api.translate.internal.test;
 
-package org.apertium.api.translate.views;
+import static org.junit.Assert.assertSame;
 
-public abstract class ATranslateM2MView implements ITranslateM2Mview {
-	
-	
+import org.apertium.api.translate.model.UserLanguages;
+
+import org.junit.Test;
+
+public class UserLanguagesTest {
+
+	@Test
+	public void testGetInstance() {
+		UserLanguages lan = UserLanguages.getInstance();
+		UserLanguages lan2 = UserLanguages.getInstance();
+		assertSame(lan , lan2);
+	}
+
+	@Test
+	public void testGet_languages() {
+		UserLanguages lan = UserLanguages.getInstance();
+		UserLanguages lan2 = UserLanguages.getInstance();
+		assertSame(lan.get_languages(), lan2.get_languages());
+	}
 
 }

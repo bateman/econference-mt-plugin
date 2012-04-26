@@ -27,7 +27,6 @@
 package org.apertium.api.translate.views;
 
 import it.uniba.di.cdg.aspects.SwtAsyncExec;
-import it.uniba.di.cdg.xcore.m2m.model.UserLanguages;
 import it.uniba.di.cdg.xcore.m2m.ui.views.MultiChatTalkView;
 import it.uniba.di.cdg.xcore.network.NetworkPlugin;
 import it.uniba.di.cdg.xcore.network.model.tv.Entry;
@@ -45,6 +44,7 @@ import org.apertium.api.translate.TranslatePlugin;
 import org.apertium.api.translate.entity.ITranslateMessage;
 import org.apertium.api.translate.entity.TranslateMultiChatMessage;
 import org.apertium.api.translate.infopopup.InfoPopUp;
+import org.apertium.api.translate.model.UserLanguages;
 import org.eclipse.core.runtime.preferences.ConfigurationScope;
 import org.eclipse.jface.action.Action;
 import org.eclipse.jface.action.IAction;

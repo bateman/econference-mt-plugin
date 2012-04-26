@@ -3,7 +3,7 @@
  * terms of the MIT Open Source license.
  * 
  * The MIT License
- * Copyright (c) 2011 Collaborative Development Group - Dipartimento di Informatica, 
+ * Copyright (c) 2005 Collaborative Development Group - Dipartimento di Informatica, 
  *                    University of Bari, http://cdg.di.uniba.it
  * Permission is hereby granted, free of charge, to any person obtaining a copy of this 
  * software and associated documentation files (the "Software"), to deal in the Software 
@@ -22,28 +22,35 @@
  * CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE 
  * OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
-package org.apertium.api.translate.internal.test;
+package org.apertium.api.translate.model;
 
-import org.junit.runner.JUnitCore;
-import org.junit.runner.RunWith;
-import org.junit.runners.Suite;
+import java.util.HashMap;
 
-@RunWith(Suite.class)
-@Suite.SuiteClasses({
-	ISO639Test.class,
-	LanguagePairTest.class,
-	LanguageTest.class,
-	ServicesTest.class,
-	TranslateMultiChatMessageTest.class,
-	TranslateQuestionTest.class,
-	TranslatorTest.class,
-	UserLanguagesTest.class
-})
-		
-public class AllTests {
+/**
+ * A Singleton Class which provides access to Hashmap which contains user
+ * languages.
+ */
+public class UserLanguages {
+	private static UserLanguages istance = null;
+	private HashMap<String, String> languages;
 
-	public static void main(String[] args) {
-		JUnitCore.runClasses(new Class[] { AllTests.class });
+	private UserLanguages() {
+		languages = new HashMap<String, String>();
 	}
 
+	public static UserLanguages getInstance() {
+		if (istance == null) {
+			istance = new UserLanguages();
+		}
+
+		return istance;
+	}
+
+	public HashMap<String, String> get_languages() {
+		return languages;
+	}
+
+	public void set_languages(HashMap<String, String> lang) {
+		this.languages = lang;
+	}
 }

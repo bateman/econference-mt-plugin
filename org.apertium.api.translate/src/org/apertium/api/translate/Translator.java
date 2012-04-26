@@ -43,6 +43,7 @@ public class Translator {
 
 	private TranslateConfiguration lastConfiguration = null;
 	private Object connector = null;
+	private static String apiKey= "AIzaSyDMoCPi857TLhqcINY8WUydTlVTLooxO4E";
 
 	public Translator() {
 		System.out.println("Translator()");
@@ -80,9 +81,8 @@ public class Translator {
 				connector = new ApertiumXMLRPCClient(new URL(c.getUrl()));
 				break;
 			case GOOGLE:
-				//connector = new GoogleMTConnector();
 				GoogleMTv2Parameters param = new GoogleMTv2Parameters();
-				param.setApiKey("ENTER API KEY HERE");
+				param.setApiKey(apiKey);
 				connector = new GoogleMTv2Connector();
 				((GoogleMTv2Connector)connector).setParameters(param);
 				break;
@@ -106,9 +106,6 @@ public class Translator {
 			Object connector) throws InterruptedException,
 			ApertiumXMLRPCClientException {
 		String ret = text;
-//		if (src.equals(dest)) {
-//			return ret;
-//		}
 		System.out.println("Translator._translate(): " + text + " " + src + " "
 				+ dest + " " + connector);
 
@@ -147,5 +144,9 @@ public class Translator {
 			throw new ApertiumXMLRPCClientException(
 					"Impossible to find source language");
 
+	}
+
+	public static String getGetApiKeyVal() {
+		return apiKey;
 	}
 }

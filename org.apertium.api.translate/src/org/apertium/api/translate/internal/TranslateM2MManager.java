@@ -27,7 +27,6 @@
 package org.apertium.api.translate.internal;
 
 import it.uniba.di.cdg.xcore.econference.internal.EConferenceManager;
-import it.uniba.di.cdg.xcore.m2m.model.UserLanguages;
 import it.uniba.di.cdg.xcore.econference.model.ConferenceModelListenerAdapter;
 import it.uniba.di.cdg.xcore.econference.model.IConferenceModel;
 import it.uniba.di.cdg.xcore.econference.model.IConferenceModel.ConferenceStatus;
@@ -41,7 +40,6 @@ import it.uniba.di.cdg.xcore.m2m.model.IParticipant.Status;
 import it.uniba.di.cdg.xcore.m2m.model.Privileged;
 import it.uniba.di.cdg.xcore.m2m.service.IInvitationRejectedListener;
 import it.uniba.di.cdg.xcore.m2m.service.UserStatusAdapter;
-import it.uniba.di.cdg.xcore.m2m.ui.views.ChatRoomView;
 import it.uniba.di.cdg.xcore.m2m.ui.views.IChatRoomView;
 import it.uniba.di.cdg.xcore.m2m.ui.views.IMultiChatTalkView;
 import it.uniba.di.cdg.xcore.network.BackendException;
@@ -64,7 +62,9 @@ import java.util.List;
 import org.apertium.api.translate.MTPerspective;
 import org.apertium.api.translate.TranslatePlugin;
 import org.apertium.api.translate.entity.TranslateMultiChatMessage;
+import org.apertium.api.translate.model.UserLanguages;
 import org.apertium.api.translate.service.TranslateM2MService;
+import org.apertium.api.translate.views.TranslateChatRoomView;
 import org.apertium.api.translate.views.TranslateM2MHandRaiseView;
 import org.apertium.api.translate.views.TranslateM2Mview;
 import org.apertium.api.translate.views.TranslateWhiteBoardView;
@@ -305,8 +305,8 @@ public class TranslateM2MManager extends EConferenceManager implements
 	}
 
 	protected IViewPart setupUIRoomView() {
-		IViewPart chatRoomViewPart = (IViewPart) workbenchWindow.getActivePage().findView(ChatRoomView.ID);
-		System.out.println("class: "+workbenchWindow.getActivePage().findView(ChatRoomView.ID).toString());
+		IViewPart chatRoomViewPart = (IViewPart) workbenchWindow.getActivePage().findView(TranslateChatRoomView.ID);
+		System.out.println("class: "+workbenchWindow.getActivePage().findView(TranslateChatRoomView.ID).toString());
 		roomView = (IChatRoomView) chatRoomViewPart;
 		roomView.setManager(this);				
 		return chatRoomViewPart;

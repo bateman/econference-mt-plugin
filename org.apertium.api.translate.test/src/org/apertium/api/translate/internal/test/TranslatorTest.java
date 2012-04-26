@@ -26,7 +26,7 @@ public class TranslatorTest {
 
 	@Test
 	public void testLoadMTProperties() {
-		assertNotNull(Translator.getGtApiKeyVal());
+		assertNotNull(Translator.getGetApiKeyVal());
 	}
 
 	@Test

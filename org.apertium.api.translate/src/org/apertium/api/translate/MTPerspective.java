@@ -1,8 +1,8 @@
 package org.apertium.api.translate;
 
 import it.uniba.di.cdg.xcore.econference.ui.views.AgendaView;
-import it.uniba.di.cdg.xcore.m2m.ui.views.ChatRoomView;
 
+import org.apertium.api.translate.views.TranslateChatRoomView;
 import org.apertium.api.translate.views.TranslateM2MHandRaiseView;
 import org.apertium.api.translate.views.TranslateM2Mview;
 import org.apertium.api.translate.views.TranslateWhiteBoardView;
@@ -18,12 +18,12 @@ public class MTPerspective implements IPerspectiveFactory {
         layout.setEditorAreaVisible( false );
         
         //Adding ChatRoomView
-        layout.addPlaceholder( ChatRoomView.ID + ":*", IPageLayout.LEFT, 0.2f, editorAreaId );
-        layout.addView( ChatRoomView.ID, IPageLayout.LEFT, 0.2f, editorAreaId );
-        layout.addShowViewShortcut( ChatRoomView.ID );
-        layout.getViewLayout(ChatRoomView.ID).setCloseable(false);
+        layout.addPlaceholder( TranslateChatRoomView.ID + ":*", IPageLayout.LEFT, 0.2f, editorAreaId );
+        layout.addView( TranslateChatRoomView.ID, IPageLayout.LEFT, 0.2f, editorAreaId );
+        layout.addShowViewShortcut( TranslateChatRoomView.ID );
+        layout.getViewLayout(TranslateChatRoomView.ID).setCloseable(false);
         
-        layout.addPlaceholder(AgendaView.ID, IPageLayout.TOP, 0.35f, ChatRoomView.ID);  
+        layout.addPlaceholder(AgendaView.ID, IPageLayout.TOP, 0.35f, TranslateChatRoomView.ID);  
         layout.getViewLayout(AgendaView.ID).setCloseable(false);
         
         

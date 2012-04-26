@@ -35,22 +35,20 @@ import it.uniba.di.cdg.xcore.one2one.ChatPlugin;
 import it.uniba.di.cdg.xcore.ui.UiPlugin;
 import it.uniba.di.cdg.xcore.ui.views.ITalkView.ISendMessagelListener;
 
-import java.io.File;
-import java.io.IOException;
+import java.net.URL;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.logging.FileHandler;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import java.util.logging.SimpleFormatter;
 
 import org.apertium.api.translate.actions.TranslateConfiguration;
 import org.apertium.api.translate.internal.TranslateChatHelper;
 import org.apertium.api.translate.internal.TranslateM2MHelper;
 import org.apertium.api.translate.listeners.TranslateListener;
+import org.apertium.api.translate.ui.IImageResourcesMT;
+import org.eclipse.core.runtime.Platform;
 import org.eclipse.jface.resource.ImageDescriptor;
 import org.eclipse.ui.IStartup;
 import org.eclipse.ui.plugin.AbstractUIPlugin;
+import org.osgi.framework.Bundle;
 import org.osgi.framework.BundleContext;
 
 public class TranslatePlugin extends AbstractUIPlugin implements IStartup,
@@ -178,7 +176,6 @@ public class TranslatePlugin extends AbstractUIPlugin implements IStartup,
 
 	public static TranslatePlugin getDefault() {
 		System.out.println("TranslatePlugin.getDefault()");
-
 		return plugin;
 	}
 
@@ -192,10 +189,32 @@ public class TranslatePlugin extends AbstractUIPlugin implements IStartup,
 		return configuration;
 	}
 
-	public static ImageDescriptor getImageDescriptor(String path) {
-		return imageDescriptorFromPlugin(ID, path);
+	public ImageDescriptor getImageDescriptor(String path) {
+		//return imageDescriptorFromPlugin(ID, path);
+	    ImageDescriptor descr = getImageRegistry().getDescriptor( path );
+        if (descr == null) {
+            descr = loadAndRegisterIconImage( path );
+        }
+        return descr;
 	}
 
+    /**
+     * Actually loads the image.
+     * FIXME And what happens if the image file is not found?
+     * 
+     * @param symbolicName
+     * @return the image descriptor
+     */
+    private ImageDescriptor loadAndRegisterIconImage( String symbolicName ) {
+        Bundle bundle = Platform.getBundle( ID );
+
+        URL url = bundle.getResource( IImageResourcesMT.ICON_PATH + symbolicName + IImageResourcesMT.ICON_FILES_EXT );
+        ImageDescriptor descr = ImageDescriptor.createFromURL( url );
+        getImageRegistry().put( symbolicName, descr );
+
+        return descr;
+    }
+    
 	@Override
 	public void earlyStartup() {
 		System.out.println("TranslatePlugin.earlyStartup()");
@@ -223,15 +242,5 @@ public class TranslatePlugin extends AbstractUIPlugin implements IStartup,
 	public TranslateM2MHelper getHelper() {
 		return helper;
 	}
-	private void setupLogging() throws IOException {
-		File dir = new File("./log/");
-		if(!dir.exists())
-			dir.mkdirs();
-		
-		String fn = new Long(System.currentTimeMillis()).toString();
-		FileHandler fh = new FileHandler("./log/" + fn + ".txt");
-		fh.setFormatter(new SimpleFormatter());
-		Logger.getLogger(ID).addHandler(fh);
-		Logger.getAnonymousLogger().setLevel(Level.ALL);
-	}
+
 }

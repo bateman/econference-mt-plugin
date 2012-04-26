@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: Translate
 Bundle-SymbolicName: org.apertium.api.translate;singleton:=true
-Bundle-Version: 1.0.0
+Bundle-Version: 2.0.1
 Bundle-Activator: org.apertium.api.translate.TranslatePlugin
 Require-Bundle: org.eclipse.ui,
  it.uniba.di.cdg.xcore.ui,
@@ -42,4 +42,5 @@ Bundle-ClassPath: lib/snakeyaml-1.8.jar,
 Export-Package: org.apertium.api.exceptions,
  org.apertium.api.translate,
  org.apertium.api.translate.actions,
- org.apertium.api.translate.entity
+ org.apertium.api.translate.entity,
+ org.apertium.api.translate.model
