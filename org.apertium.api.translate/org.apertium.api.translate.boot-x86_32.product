@@ -79,6 +79,7 @@ THE SOFTWARE.
       <plugin id="com.ibm.icu"/>
       <plugin id="it.uniba.di.cdg.aspects"/>
       <plugin id="it.uniba.di.cdg.collaborativeworkbench.boot"/>
+      <plugin id="it.uniba.di.cdg.googleplus"/>
       <plugin id="it.uniba.di.cdg.jabber"/>
       <plugin id="it.uniba.di.cdg.skype"/>
       <plugin id="it.uniba.di.cdg.skype.recorder.win32"/>
