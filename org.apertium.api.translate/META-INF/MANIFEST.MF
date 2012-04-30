@@ -9,16 +9,15 @@ Require-Bundle: org.eclipse.ui,
  it.uniba.di.cdg.xcore.network,
  org.eclipse.core.runtime,
  org.aspectj.runtime,
- org.jivesoftware.smack,
  it.uniba.di.cdg.xcore.m2m,
  it.uniba.di.cdg.xcore.econference,
  com.google.services;bundle-version="1.0.0",
- it.uniba.di.cdg.aspects;bundle-version="1.0.0"
+ it.uniba.di.cdg.aspects;bundle-version="1.0.0",
+ it.uniba.di.cdg.smack;bundle-version="3.2.2"
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Import-Package: it.uniba.di.cdg.xcore.one2one
 Bundle-ClassPath: lib/snakeyaml-1.8.jar,
- lib/stax-api-1.0.1.jar,
  lib/tikal.jar,
  lib/trov4j-2.1.0.jar,
  lib/ws-commons-util-1.0.2.jar,
