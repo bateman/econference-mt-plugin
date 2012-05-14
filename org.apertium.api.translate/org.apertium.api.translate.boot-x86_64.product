@@ -80,6 +80,7 @@ THE SOFTWARE.
       <plugin id="it.uniba.di.cdg.jabber"/>
       <plugin id="it.uniba.di.cdg.skype"/>
       <plugin id="it.uniba.di.cdg.skype.recorder.win32"/>
+      <plugin id="it.uniba.di.cdg.smack"/>
       <plugin id="it.uniba.di.cdg.xcore.econference"/>
       <plugin id="it.uniba.di.cdg.xcore.m2m"/>
       <plugin id="it.uniba.di.cdg.xcore.network"/>
@@ -134,7 +135,6 @@ THE SOFTWARE.
       <plugin id="org.eclipse.ui.ide"/>
       <plugin id="org.eclipse.ui.win32" fragment="true"/>
       <plugin id="org.eclipse.ui.workbench"/>
-      <plugin id="org.jivesoftware.smack"/>
    </plugins>
 
    <features>
