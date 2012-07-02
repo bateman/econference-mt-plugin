@@ -34,6 +34,7 @@ import it.uniba.di.cdg.xcore.network.model.tv.ITalkModel;
 import it.uniba.di.cdg.xcore.network.model.tv.ITalkModelListener;
 
 import java.util.ArrayList;
+
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
@@ -68,7 +69,6 @@ public class TranslateM2Mview extends MultiChatTalkView implements
 	protected boolean translatingOn;
 	private HashMap<String, ArrayList<ITranslateMessage>> unTranslatedCachedTalks;
 	private HashMap<String, ArrayList<ITranslateMessage>> queueMessage;
-	private static final String THREADSEPARATOR = "---------------------";
 	private static final String CONFIGURATION_NODE_QUALIFIER = "it.uniba.di.cdg.xcore.econference.mt";
 	private static final String MT_CONFIG_PATH_NODE = "mt_";	
 	private static final String MT_USER_LANGUAGE = "mt_user_language";
@@ -86,26 +86,18 @@ public class TranslateM2Mview extends MultiChatTalkView implements
 			// call appendMessage() here and have it attached the message to
 			// "oldThread"
 			// putSeparator( oldThread );
-			
-			
-			
-	//		emptyQueue(newThread);
-			insertSeparator(oldThread);
+									
+			insertSeparator(newThread);
 			synchronizeCachedText();
 			showThread(newThread);
 		}
-
+		
 		private void emptyQueue(String newThread) {
 			ArrayList<ITranslateMessage> queue = queueMessage.get(newThread);
 			if (queue == null) {
 				return;
 			}
 			
-//			while (queue.size() > 0 ) {
-//				ITranslateMessage message = queue.get(queue.size() - 1);
-//				queue.remove(queue.size() - 1);
-//				appendMessage(message);
-//			}
 			
 			for (int i = 0; i < queue.size(); i++) {
 				ITranslateMessage message = queue.get(i);
@@ -127,11 +119,10 @@ public class TranslateM2Mview extends MultiChatTalkView implements
 
 	}
 
-	private void insertSeparator(String oldThread) {
+	private void insertSeparator(String newThread) {
 
 		appendSecure(new TranslateMultiChatMessage(null, THREADSEPARATOR,
-				THREADSEPARATOR, false, true), oldThread);
-
+				THREADSEPARATOR, false, true), newThread);
 	}
 
 	@SwtAsyncExec
@@ -204,7 +195,7 @@ public class TranslateM2Mview extends MultiChatTalkView implements
 		Point viewPoint = new Point(Math.abs(point.x - viewLocation.x),
 				Math.abs(point.y - viewLocation.y));
 		ITranslateMessage message = getUntranslatedString(viewPoint);
-
+		
 		if (messageBoardText.getText() != "" && message != null
 				&& !message.isNoTranslation()) {
 			return true;
@@ -264,6 +255,7 @@ public class TranslateM2Mview extends MultiChatTalkView implements
 		}
 		ITranslateMessage message = null;
 		Point point = location;
+
 		int index = messageBoardText.getLineIndex(point.y);
 
 		if (index < unTranslatedString.size()
@@ -374,7 +366,9 @@ public class TranslateM2Mview extends MultiChatTalkView implements
 
 	private ArrayList<ITranslateMessage> getOrCreateUnTranslatedCachedText(
 			String threadId) {
+
 		ArrayList<ITranslateMessage> sb = unTranslatedCachedTalks.get(threadId);
+
 		if (sb == null) {
 			sb = new ArrayList<ITranslateMessage>();
 			unTranslatedCachedTalks.put(threadId, sb);
@@ -424,7 +418,7 @@ public class TranslateM2Mview extends MultiChatTalkView implements
 		    entry.setType( Entry.EntryType.CHAT_MSG );
 		}
 
-		if (message.isSystemMessage() || message.isPrivateMessage()) {
+		if (message.isSystemMessage()) {
 			entry.setWho("***");
 		} else {
 			entry.setWho(message.getFrom());
