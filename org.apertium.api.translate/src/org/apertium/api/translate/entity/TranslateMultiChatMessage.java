@@ -94,5 +94,14 @@ public class TranslateMultiChatMessage extends MultiChatMessage implements
 	public boolean isSystemMessage() {
 		return isSystemMessage;
 	}
+	@Override
+	public String toString() {
+		return "TranslateMultiChatMessage [translatedText=" + translatedText
+				+ ", isPrivateMessage=" + isPrivateMessage + ", noTranslation="
+				+ noTranslation + ", originalText=" + originalText
+				+ ", isSystemMessage=" + isSystemMessage + "]";
+	}
+	
+	
 
 }

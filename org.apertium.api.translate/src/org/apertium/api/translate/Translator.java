@@ -26,6 +26,8 @@
 
 package org.apertium.api.translate;
 
+import it.uniba.di.cdg.xcore.ui.formatter.RichFormatting;
+
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -44,6 +46,18 @@ public class Translator {
 	private TranslateConfiguration lastConfiguration = null;
 	private Object connector = null;
 	private static String apiKey= "AIzaSyDMoCPi857TLhqcINY8WUydTlVTLooxO4E";
+	private static MarkerRichPattern[] patterns={
+		new MarkerRichPattern(RichFormatting.UNDERLINE_MARKER.getCode(), true,false),
+		new MarkerRichPattern(RichFormatting.BOLD_MARKER.getCode(), true,false),
+		new MarkerRichPattern(RichFormatting.ITALIC_MARKER.getCode(), true,false),
+		new MarkerRichPattern(RichFormatting.BOLD_UNDERLINE_MARKER.getCode(), true,false),
+		new MarkerRichPattern(RichFormatting.STRIKEOUT_MARKER.getCode(), true,false),
+		new MarkerRichPattern(RichFormatting.LATEX_MARKER.getCode(), false,false),
+		new MarkerRichPattern("\n", false,true),
+		new MarkerRichPattern("\r", false,true),
+		new MarkerRichPattern("\t", false,true),
+		new MarkerRichPattern("_NO_", false,false),
+	};
 
 	public Translator() {
 		System.out.println("Translator()");
@@ -137,8 +151,13 @@ public class Translator {
 
 		if (sourceLanguage != null) {
 				
-			String ret = _translate(text, sourceLanguage, c.getUserLanguage()
-					.getCode(), connector);
+//			String ret = _translate(text, sourceLanguage, c.getUserLanguage()
+//					.getCode(), connector);
+			
+			String ret = getRichStyleTranslate(text, sourceLanguage, c.getUserLanguage().getCode(), connector);
+			
+			
+			
 			return ret;
 		} else
 			throw new ApertiumXMLRPCClientException(
@@ -149,4 +168,126 @@ public class Translator {
 	public static String getGetApiKeyVal() {
 		return apiKey;
 	}
+
+public String getRichStyleTranslate(String text, String src, String dest,
+		Object connector)  {
+	
+	String translated = "";
+
+	int offset = 0;
+	for (int i = 0; i < text.length(); i++) {
+
+		for (MarkerRichPattern mp : patterns) {
+			if (i + mp.pattern.length() <= text.length()
+					&& mp.pattern.equals(text.substring(i,
+							i + mp.pattern.length()))) {
+				
+				
+				if (mp.isToTranslate() || mp.isSinglePattern()) {
+					
+					try {
+						translated += _translate(text.substring(offset, i), src,  dest,
+								 connector)
+						
+								+ mp.pattern;
+					} catch (Exception e) {						
+						translated += text.substring(offset, i)+ mp.pattern;
+						e.printStackTrace();
+					}
+					offset = i + mp.pattern.length();
+					i += mp.pattern.length() - 1;
+
+				}				
+				else {
+
+					int offsetNoTranslate = text.indexOf(mp.pattern, i
+							+ mp.pattern.length());
+
+					if (offsetNoTranslate != -1) {
+
+						try{
+						translated += _translate(text.substring(offset, i), src,  dest,
+								 connector)+ text.substring(i, offsetNoTranslate
+											+ mp.pattern.length());
+						
+						} catch (Exception e) {						
+							translated += text.substring(offset, i)+ text.substring(i, offsetNoTranslate
+												+ mp.pattern.length());
+							e.printStackTrace();
+						}
+								
+						offset = offsetNoTranslate + mp.pattern.length();
+						i = offset - 1;
+
+					}
+
+				}
+			}
+		}
+	}
+
+	if (offset < text.length()) {
+		try{
+		translated += _translate(text.substring(offset), src,  dest,
+				 connector);
+	} catch (Exception e) {						
+		translated += text.substring(offset);
+		e.printStackTrace();
+	}
+	}
+
+
+//	TODO 	
+//	For unknown reason when google translates a url, 
+//	adds on the tail "~~V". This cause problems for 
+//	loading images. Temporarily this problem is fixed 
+//	deleting from any translation this string.	
+	translated=translated.replace("~~V", "");
+	
+	return translated;
 }
+
+
+
+}
+
+class MarkerRichPattern {
+String pattern;
+boolean toTranslate;
+boolean isSinglePattern;
+
+public String getPattern() {
+	return pattern;
+}
+
+public MarkerRichPattern(String pattern, boolean toTranslate,boolean isSinglePattern) {
+	super();
+	this.pattern = pattern;
+	this.toTranslate = toTranslate;
+	this.isSinglePattern=isSinglePattern;
+}
+
+public void setPattern(String pattern) {
+	this.pattern = pattern;
+}
+
+public boolean isToTranslate() {
+	return toTranslate;
+}
+
+public void setToTranslate(boolean toTranslate) {
+	this.toTranslate = toTranslate;
+}
+
+public boolean isSinglePattern() {
+	return isSinglePattern;
+}
+
+public void setSinglePattern(boolean isSinglePattern) {
+	this.isSinglePattern = isSinglePattern;
+}
+
+
+
+}
+

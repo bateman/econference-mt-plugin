@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="eConferenceMT" id="org.apertium.api.translate.product" application="it.uniba.di.cdg.collaborativeworkbench.boot.collaborativeWorkbench" version="2.0.0" useFeatures="false" includeLaunchers="true">
+<product name="eConferenceMT" id="org.apertium.api.translate.product" application="it.uniba.di.cdg.collaborativeworkbench.boot.collaborativeWorkbench" version="2.1.0" useFeatures="false" includeLaunchers="true">
 
    <aboutInfo>
       <image path="/it.uniba.di.cdg.collaborativeworkbench.boot/about_logo.gif"/>
       <text>
-         eConference 4.1.0 MT (v 2.0.0)
+         eConference MT 2.1
 
 eConference has been developed by the Collaborative Development Group,
 Dipartimento di Informatica, University of Bari and it is distributed under the 
@@ -41,6 +41,7 @@ Eclipse, Built on Eclipse and Eclipse Ready are trademarks of Eclipse Foundation
       </win>
    </launcher>
 
+
    <vm>
    </vm>
 
@@ -74,6 +75,9 @@ THE SOFTWARE.
    <plugins>
       <plugin id="com.google.services"/>
       <plugin id="com.ibm.icu"/>
+      <plugin id="com.instantiations.assist.eclipse.fragment.swt" fragment="true"/>
+      <plugin id="com.instantiations.assist.eclipse.fragment.ui.ide" fragment="true"/>
+      <plugin id="com.instantiations.assist.eclipse.fragment.ui.workbench" fragment="true"/>
       <plugin id="it.uniba.di.cdg.aspects"/>
       <plugin id="it.uniba.di.cdg.collaborativeworkbench.boot"/>
       <plugin id="it.uniba.di.cdg.googleplus"/>
@@ -98,7 +102,7 @@ THE SOFTWARE.
       <plugin id="org.eclipse.core.databinding.property"/>
       <plugin id="org.eclipse.core.expressions"/>
       <plugin id="org.eclipse.core.filesystem"/>
-      <plugin id="org.eclipse.core.filesystem.win32.x86" fragment="true"/>
+      <plugin id="org.eclipse.core.filesystem.win32.x86_64" fragment="true"/>
       <plugin id="org.eclipse.core.jobs"/>
       <plugin id="org.eclipse.core.runtime"/>
       <plugin id="org.eclipse.core.runtime.compatibility.registry" fragment="true"/>
@@ -118,7 +122,7 @@ THE SOFTWARE.
       <plugin id="org.eclipse.equinox.preferences"/>
       <plugin id="org.eclipse.equinox.registry"/>
       <plugin id="org.eclipse.equinox.security"/>
-      <plugin id="org.eclipse.equinox.security.win32.x86" fragment="true"/>
+      <plugin id="org.eclipse.equinox.security.win32.x86_64" fragment="true"/>
       <plugin id="org.eclipse.equinox.weaving.aspectj"/>
       <plugin id="org.eclipse.equinox.weaving.caching"/>
       <plugin id="org.eclipse.equinox.weaving.hook" fragment="true"/>
@@ -129,7 +133,7 @@ THE SOFTWARE.
       <plugin id="org.eclipse.osgi"/>
       <plugin id="org.eclipse.osgi.services"/>
       <plugin id="org.eclipse.swt"/>
-      <plugin id="org.eclipse.swt.win32.win32.x86" fragment="true"/>
+      <plugin id="org.eclipse.swt.win32.win32.x86_64" fragment="true"/>
       <plugin id="org.eclipse.text"/>
       <plugin id="org.eclipse.ui"/>
       <plugin id="org.eclipse.ui.ide"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="eConferenceMT" id="org.apertium.api.translate.product" application="it.uniba.di.cdg.collaborativeworkbench.boot.collaborativeWorkbench" version="2.1" useFeatures="false" includeLaunchers="true">
+<product name="eConferenceMT" id="org.apertium.api.translate.product" application="it.uniba.di.cdg.collaborativeworkbench.boot.collaborativeWorkbench" version="2.1.0" useFeatures="false" includeLaunchers="true">
 
    <aboutInfo>
       <image path="/it.uniba.di.cdg.collaborativeworkbench.boot/about_logo.gif"/>
@@ -43,6 +43,7 @@ Eclipse, Built on Eclipse and Eclipse Ready are trademarks of Eclipse Foundation
       </win>
    </launcher>
 
+
    <vm>
    </vm>
 
@@ -76,6 +77,9 @@ THE SOFTWARE.
    <plugins>
       <plugin id="com.google.services"/>
       <plugin id="com.ibm.icu"/>
+      <plugin id="com.instantiations.assist.eclipse.fragment.swt" fragment="true"/>
+      <plugin id="com.instantiations.assist.eclipse.fragment.ui.ide" fragment="true"/>
+      <plugin id="com.instantiations.assist.eclipse.fragment.ui.workbench" fragment="true"/>
       <plugin id="it.uniba.di.cdg.aspects"/>
       <plugin id="it.uniba.di.cdg.collaborativeworkbench.boot"/>
       <plugin id="it.uniba.di.cdg.googleplus"/>

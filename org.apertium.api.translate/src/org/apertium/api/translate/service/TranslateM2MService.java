@@ -489,6 +489,13 @@ public class TranslateM2MService extends EConferenceService implements
 				message.replace("\n", " "), message.replace("\n", " "), false,
 				true));
 	}
+	
+	
+	protected void notifyLocalPrivateMessage(String message) {
+		translateM2Mview.appendMessage(new TranslateMultiChatMessage(null,
+				message.replace("\n", " "), message.replace("\n", " "), true,
+				false));
+	}
 
 	@Override
 	public void setTranslateM2MView(TranslateM2Mview view) {
@@ -527,8 +534,9 @@ public class TranslateM2MService extends EConferenceService implements
 			param.put(FROM, getLocalUserNickName());
 			multiChatServiceActions.SendExtensionProtocolMessage(PRIVATE_MESSAGE,
 					param);
-			notifyLocalSystemMessage(String.format("[PM sent to %s] %s",
+			notifyLocalPrivateMessage(String.format("[PM sent to %s] %s",
 					p.getNickName(), message));
+			
 		}
 	}
 
