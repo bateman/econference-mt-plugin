@@ -13,7 +13,8 @@ Require-Bundle: org.eclipse.ui,
  it.uniba.di.cdg.xcore.econference,
  com.google.services;bundle-version="1.0.0",
  it.uniba.di.cdg.aspects;bundle-version="1.0.0",
- it.uniba.di.cdg.smack;bundle-version="3.2.2"
+ it.uniba.di.cdg.smack;bundle-version="3.2.2",
+ it.uniba.di.cdg.collaborativeworkbench.boot;bundle-version="1.0.2"
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Import-Package: it.uniba.di.cdg.xcore.one2one
@@ -38,7 +39,8 @@ Bundle-ClassPath: lib/snakeyaml-1.8.jar,
  lib/lucene-core-3.0.0.jar,
  lib/lucene-spellchecker-3.0.0.jar,
  lib/okapi-lib-0.14.jar
-Export-Package: org.apertium.api.exceptions,
+Export-Package: org.apertium.api,
+ org.apertium.api.exceptions,
  org.apertium.api.translate,
  org.apertium.api.translate.actions,
  org.apertium.api.translate.entity,

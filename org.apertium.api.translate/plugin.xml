@@ -170,19 +170,36 @@
               commandId="it.uniba.di.cdg.xcore.econference.bold"
               icon="icons/bold_icon.png"
               label="Bold"
-              style="push">
+              style="push"
+              tooltip="bold">
         </command>
         <command
               commandId="it.uniba.di.cdg.xcore.econference.underline"
               icon="icons/underline_icon.png"
               label="Underline"
-              style="push">
+              style="push"
+              tooltip="underline">
+        </command>
+        <command
+              commandId="it.uniba.di.cdg.xcore.econference.italic"
+              icon="icons/italic_icon.png"
+              label="Italic"
+              style="push"
+              tooltip="italic">
         </command>
         <command
               commandId="it.uniba.di.cdg.xcore.econference.strike"
               icon="icons/strike_icon.png"
               label="Strike"
-              style="push">
+              style="push"
+              tooltip="strike">
+        </command>
+        <command
+              commandId="it.uniba.di.cdg.xcore.econference.latex"
+              icon="icons/latex_icon.png"
+              label="Latex"
+              style="push"
+              tooltip="latex formula">
         </command>
         <separator
               name="org.apertium.api.translate.separator1"
@@ -237,7 +254,7 @@
         </property>
         <property
               name="aboutText"
-              value="eConference MT 2.1&#x0A;&#x0A;eConference has been developed by the Collaborative Development Group,&#x0A;Dipartimento di Informatica, University of Bari and it is distributed under the &#x0A;terms of the MIT license. &#x0A;More details on the project homepage at http://cdg.di.uniba.it/projects/econference/ &#x0A;&#x0A;This software is based upon the Eclipse Rich Client Platform, http://eclipse.org/rcp/&#x0A;&#x0A;The Jabber plug-in uses the SMACK library, http://www.jivesoftware.org/smack&#x0A;&#x0A;The Skype plugin uses the SkypeKit library, http://developer.skype.com/public/skypekit&#x0A;&#x0A;Eclipse, Built on Eclipse and Eclipse Ready are trademarks of Eclipse Foundation, Inc.">
+              value="eConference 4.1.0 MT (v 2.0.0)&#x0A;&#x0A;eConference has been developed by the Collaborative Development Group,&#x0A;Dipartimento di Informatica, University of Bari and it is distributed under the &#x0A;terms of the MIT license. &#x0A;More details on the project homepage at http://cdg.di.uniba.it/projects/econference/ &#x0A;&#x0A;This software is based upon the Eclipse Rich Client Platform, http://eclipse.org/rcp/&#x0A;&#x0A;The Jabber plug-in uses the SMACK library, http://www.jivesoftware.org/smack/ &#x0A;&#x0A;Eclipse, Built on Eclipse and Eclipse Ready are trademarks of Eclipse Foundation, Inc.">
         </property>
         <property
               name="aboutImage"
@@ -257,6 +274,46 @@
         </property>
      </product>
   </extension>
+  <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            commandId="it.uniba.di.cdg.xcore.econference.bold"
+            schemeId="it.uniba.di.cdg.xcore.econference.WhiteBoardScheme"
+            sequence="M1+B">
+      </key>
+            <key
+                  commandId="it.uniba.di.cdg.xcore.econference.underline"
+                  schemeId="it.uniba.di.cdg.xcore.econference.WhiteBoardScheme"
+                  sequence="M1+U">
+      </key>
+            <key
+                  commandId="it.uniba.di.cdg.xcore.econference.strike"
+                  schemeId="it.uniba.di.cdg.xcore.econference.WhiteBoardScheme"
+                  sequence="M1+H">
+      </key>
+      <key
+            commandId="it.uniba.di.cdg.xcore.econference.italic"
+            schemeId="it.uniba.di.cdg.xcore.econference.WhiteBoardScheme"
+            sequence="M1+I">
+      </key>
+      <key
+            commandId="it.uniba.di.cdg.xcore.econference.latex"
+            schemeId="it.uniba.di.cdg.xcore.econference.WhiteBoardScheme"
+            sequence="M1+L">
+      </key>
+      <scheme
+            id="it.uniba.di.cdg.xcore.econference.WhiteBoardScheme"
+            name="WhiteBoardScheme"
+            parentId="org.eclipse.ui.defaultAcceleratorConfiguration">
+      </scheme>
+   </extension>
+  <extension
+        point="it.uniba.di.cdg.collaborativeworkbench.boot.eConferenceStatusBar">
+     <statusbar
+           class="org.apertium.api.translate.extensionpoint.contribution.statusbar.MTStatusBarExtensionPoint">
+     </statusbar>
+  </extension>
+  
 
 <!--
   <extension point="org.eclipse.ui.startup">

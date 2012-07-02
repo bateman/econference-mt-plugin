@@ -26,6 +26,8 @@
 
 package org.apertium.api.translate.actions;
 
+import it.uniba.di.cdg.collaborativeworkbench.ui.BootPlugin;
+import it.uniba.di.cdg.collaborativeworkbench.ui.extensionpoint.definition.statusbar.IStatusBarExtensionPoint;
 import it.uniba.di.cdg.xcore.network.IBackend;
 import it.uniba.di.cdg.xcore.network.NetworkPlugin;
 
@@ -37,7 +39,10 @@ import org.apertium.api.translate.ISO639;
 import org.apertium.api.translate.Language;
 import org.apertium.api.translate.Services;
 import org.apertium.api.translate.TranslatePlugin;
+import org.apertium.api.translate.extensionpoint.contribution.statusbar.MTStatusBarExtensionPoint;
 import org.apertium.api.translate.model.UserLanguages;
+import org.eclipse.core.runtime.IConfigurationElement;
+import org.eclipse.core.runtime.Platform;
 import org.eclipse.jface.dialogs.IMessageProvider;
 import org.eclipse.jface.dialogs.TitleAreaDialog;
 import org.eclipse.swt.SWT;
@@ -235,7 +240,26 @@ public class TranslateConfigurationDialog extends TitleAreaDialog {
 	@Override
 	protected void okPressed() {
 		saveProperties();
+		updateStatusBar();
 		super.okPressed();
+	}
+
+	private void updateStatusBar() {
+		try {
+			IConfigurationElement[] ces = Platform.getExtensionRegistry()
+					.getConfigurationElementsFor(BootPlugin.ID,IStatusBarExtensionPoint.ID);
+			for (IConfigurationElement ce : ces) {
+				Object obj = ce.createExecutableExtension("class");
+				if (obj instanceof IStatusBarExtensionPoint
+						&& ((IStatusBarExtensionPoint) obj).getId().equals(
+								MTStatusBarExtensionPoint.ID)) {
+					((IStatusBarExtensionPoint) obj).update();
+				}
+			}
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+
 	}
 
 	private void checkUrl() {
