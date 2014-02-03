@@ -17,9 +17,9 @@ import org.w3c.dom.*;
 public class ATDClient {
 	
 	//public static String baseUrl = "http://195.62.234.69:1049";
-	public static String baseUrl = "http://193.204.187.164:1049";
+	//public static String baseUrl = "http://193.204.187.164:1049";
 	
-	//public static String baseUrl = "http://127.0.0.1:1049";
+	public static String baseUrl = "http://127.0.0.1:1049";
 	public static String baseQuery = "/checkDocument?data=%s";
 
 	public static boolean ignoreTypes = false;
